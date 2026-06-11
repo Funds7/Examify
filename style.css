@@ -14,3 +14,17 @@ button {
   padding: 10px;
   width: 80%;
 }
+.option-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.option-btn:hover {
+  background: #f0f0f0;
+}
