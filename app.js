@@ -1,36 +1,36 @@
 let examQuestions = [];
 let currentIndex = 0;
-let score = 0;
 
-// ⏱️ Timer (10 minutes)
-let timeLeft = 10 * 60;
+let userAnswers = [];
+let timeLeft = 10 * 60; // 10 minutes
 let timer;
 
+// =========================
 // START EXAM
+// =========================
 function startExam() {
   examQuestions = questions
     .sort(() => 0.5 - Math.random())
     .slice(0, 20);
 
   currentIndex = 0;
-  score = 0;
+  userAnswers = new Array(examQuestions.length).fill(null);
   timeLeft = 10 * 60;
 
   startTimer();
   loadQuestion();
 }
 
-// TIMER (ONLY ONE TIMER)
+// =========================
+// TIMER (AUTO SUBMIT)
+// =========================
 function startTimer() {
   timer = setInterval(() => {
     let minutes = Math.floor(timeLeft / 60);
     let seconds = timeLeft % 60;
 
-    seconds = seconds < 10 ? "0" + seconds : seconds;
-    minutes = minutes < 10 ? "0" + minutes : minutes;
-
     document.getElementById("timer").innerText =
-      `${minutes}:${seconds}`;
+      `Time Left: ${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
 
     timeLeft--;
 
@@ -41,7 +41,9 @@ function startTimer() {
   }, 1000);
 }
 
+// =========================
 // LOAD QUESTION
+// =========================
 function loadQuestion() {
   const q = examQuestions[currentIndex];
 
@@ -51,8 +53,11 @@ function loadQuestion() {
   let optionsHTML = "";
 
   q.options.forEach((opt, index) => {
+    const isSelected = userAnswers[currentIndex] === index;
+
     optionsHTML += `
-      <button class="option-btn" onclick="selectAnswer(${index})">
+      <button class="option-btn ${isSelected ? "selected" : ""}"
+        onclick="selectAnswer(${index})">
         ${opt}
       </button>
     `;
@@ -64,34 +69,47 @@ function loadQuestion() {
     `Question ${currentIndex + 1} / ${examQuestions.length}`;
 }
 
+// =========================
 // SELECT ANSWER
+// =========================
 function selectAnswer(selected) {
-  const correct = examQuestions[currentIndex].answer;
-
-  if (selected === correct) {
-    score++;
-  }
-
-  nextQuestion();
+  userAnswers[currentIndex] = selected;
+  loadQuestion();
 }
 
-// NEXT QUESTION
+// =========================
+// NAVIGATION
+// =========================
 function nextQuestion() {
-  currentIndex++;
-
-  if (currentIndex < examQuestions.length) {
+  if (currentIndex < examQuestions.length - 1) {
+    currentIndex++;
     loadQuestion();
-  } else {
-    finishExam();
   }
 }
 
-// FINISH EXAM
+function prevQuestion() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    loadQuestion();
+  }
+}
+
+// =========================
+// FINISH EXAM (SCORING)
+// =========================
 function finishExam() {
   clearInterval(timer);
 
+  let score = 0;
+
+  examQuestions.forEach((q, i) => {
+    if (userAnswers[i] === q.answer) {
+      score++;
+    }
+  });
+
   document.getElementById("question-box").innerHTML =
-    "🎉 Exam Finished";
+    "🎉 Exam Completed";
 
   document.getElementById("options").innerHTML = "";
   document.getElementById("progress").innerHTML = "";
@@ -101,5 +119,16 @@ function finishExam() {
     `Your Score: ${score} / ${examQuestions.length}`;
 }
 
-// START
+// =========================
+// ANTI-CHEAT WARNING (BASIC)
+// =========================
+document.addEventListener("visibilitychange", function () {
+  if (document.hidden) {
+    alert("Warning: Leaving the exam tab may affect your test!");
+  }
+});
+
+// =========================
+// AUTO START EXAM
+// =========================
 startExam();
