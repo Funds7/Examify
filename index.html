@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <h1>Examify</h1>
-<p>Practice CBT. Improve your score. Pass your exams.</p>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Examify CBT</title>
 
-<h2 id="progress"></h2>
-<h3 id="timer"></h3>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container">
-    <h2>CBT Practice</h2>
-
-    <div id="question-box"></div>
-
-    <div id="options"></div>
-
-    <button onclick="nextQuestion()">Next</button>
-
-    <h3 id="score"></h3>
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Examify</h1>
+    <p>Practice CBT. Improve your score. Pass your exams.</p>
   </div>
 
+  <!-- EXAM STATUS BAR -->
+  <div class="status-bar">
+    <h3 id="progress">Question 0 / 0</h3>
+    <h3 id="timer">Time Left: 10:00</h3>
+  </div>
+
+  <!-- MAIN EXAM CONTAINER -->
+  <div class="container">
+
+    <h2>CBT Practice Exam</h2>
+
+    <!-- QUESTION -->
+    <div id="question-box"></div>
+
+    <!-- OPTIONS -->
+    <div id="options"></div>
+
+    <!-- NAVIGATION -->
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">⬅ Previous</button>
+      <button onclick="nextQuestion()">Next ➡</button>
+      <button class="submit-btn" onclick="finishExam()">Submit Exam</button>
+    </div>
+
+    <!-- SCORE -->
+    <h2 id="score"></h2>
+
+  </div>
+
+  <!-- SCRIPTS -->
   <script src="questions.js"></script>
   <script src="app.js"></script>
 
