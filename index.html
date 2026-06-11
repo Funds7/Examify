@@ -6,44 +6,80 @@
   <title>Examify CBT</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#0d6efd">
 </head>
 
 <body>
 
   <!-- HEADER -->
-  <div class="header">
+  <header class="header">
     <h1>Examify</h1>
     <p>Practice CBT. Improve your score. Pass your exams.</p>
-  </div>
+  </header>
 
-  <!-- EXAM STATUS BAR -->
-  <div class="status-bar">
-    <h3 id="progress">Question 0 / 0</h3>
-    <h3 id="timer">Time Left: 10:00</h3>
-  </div>
+  <!-- STATUS BAR -->
+  <section class="status-bar">
 
-  <!-- MAIN EXAM CONTAINER -->
-  <div class="container">
-
-    <h2>CBT Practice Exam</h2>
-
-    <!-- QUESTION -->
-    <div id="question-box"></div>
-
-    <!-- OPTIONS -->
-    <div id="options"></div>
-
-    <!-- NAVIGATION -->
-    <div class="nav-buttons">
-      <button onclick="prevQuestion()">⬅ Previous</button>
-      <button onclick="nextQuestion()">Next ➡</button>
-      <button class="submit-btn" onclick="finishExam()">Submit Exam</button>
+    <div class="status-item">
+      <span id="progress">Question 0 / 0</span>
     </div>
 
-    <!-- SCORE -->
+    <div class="status-item">
+      <span id="timer">⏰ 10:00</span>
+    </div>
+
+    <div class="status-item">
+      <span id="mode">Mode: Practice</span>
+    </div>
+
+  </section>
+
+  <!-- PROGRESS BAR -->
+  <div class="progress-container">
+    <div id="progress-fill"></div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="container">
+
+    <h3 id="question-number">Question</h3>
+
+    <div id="question-box" class="question-box"></div>
+
+    <div id="options" class="options"></div>
+
+    <!-- NAV BUTTONS -->
+    <div class="nav-buttons">
+
+      <button onclick="prevQuestion()" class="btn secondary">
+        ⬅ Previous
+      </button>
+
+      <button onclick="nextQuestion()" class="btn secondary">
+        Next ➡
+      </button>
+
+      <button onclick="markForReview()" class="btn warning">
+        ⭐ Review
+      </button>
+
+      <button onclick="finishExam()" class="btn danger">
+        Submit Exam
+      </button>
+
+    </div>
+
+    <p id="review-status"></p>
+
     <h2 id="score"></h2>
 
-  </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Examify. All rights reserved.</p>
+  </footer>
 
   <!-- SCRIPTS -->
   <script src="questions.js"></script>
