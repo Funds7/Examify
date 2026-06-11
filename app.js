@@ -2,37 +2,46 @@ let examQuestions = [];
 let currentIndex = 0;
 let score = 0;
 
-// ⏱️ Timer setup (10 minutes = 600 seconds)
-let timeLeft = 600;
+// ⏱️ Timer (10 minutes)
+let timeLeft = 10 * 60;
 let timer;
 
+// START EXAM
 function startExam() {
-  // shuffle questions and pick 20
   examQuestions = questions
     .sort(() => 0.5 - Math.random())
     .slice(0, 20);
 
   currentIndex = 0;
   score = 0;
+  timeLeft = 10 * 60;
 
   startTimer();
   loadQuestion();
 }
 
+// TIMER (ONLY ONE TIMER)
 function startTimer() {
   timer = setInterval(() => {
-    timeLeft--;
+    let minutes = Math.floor(timeLeft / 60);
+    let seconds = timeLeft % 60;
+
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
 
     document.getElementById("timer").innerText =
-      `Time Left: ${Math.floor(timeLeft / 60)}:${timeLeft % 60}`;
+      `${minutes}:${seconds}`;
 
-    if (timeLeft <= 0) {
+    timeLeft--;
+
+    if (timeLeft < 0) {
       clearInterval(timer);
       finishExam();
     }
   }, 1000);
 }
 
+// LOAD QUESTION
 function loadQuestion() {
   const q = examQuestions[currentIndex];
 
@@ -55,6 +64,7 @@ function loadQuestion() {
     `Question ${currentIndex + 1} / ${examQuestions.length}`;
 }
 
+// SELECT ANSWER
 function selectAnswer(selected) {
   const correct = examQuestions[currentIndex].answer;
 
@@ -65,6 +75,7 @@ function selectAnswer(selected) {
   nextQuestion();
 }
 
+// NEXT QUESTION
 function nextQuestion() {
   currentIndex++;
 
@@ -75,6 +86,7 @@ function nextQuestion() {
   }
 }
 
+// FINISH EXAM
 function finishExam() {
   clearInterval(timer);
 
@@ -82,14 +94,12 @@ function finishExam() {
     "🎉 Exam Finished";
 
   document.getElementById("options").innerHTML = "";
-
   document.getElementById("progress").innerHTML = "";
-
   document.getElementById("timer").innerHTML = "";
 
   document.getElementById("score").innerHTML =
     `Your Score: ${score} / ${examQuestions.length}`;
 }
 
-// start automatically
+// START
 startExam();
