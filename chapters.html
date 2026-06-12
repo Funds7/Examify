@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GST 101 Chapters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>GST 101</h1>
+
+<div id="chapterList"></div>
+
+<script src="gst101.js"></script>
+
+<script>
+let html = "";
+
+gst101Chapters.forEach(chapter => {
+
+  html += `
+    <div class="course-card">
+
+      <h3>
+        Chapter ${chapter.id}
+      </h3>
+
+      <p>
+        ${chapter.title}
+      </p>
+
+      <button onclick="openChapter(${chapter.id})">
+        📚 Learn
+      </button>
+
+    </div>
+  `;
+
+});
+
+document.getElementById("chapterList").innerHTML = html;
+
+function openChapter(id) {
+  localStorage.setItem("chapter", id);
+
+  alert("Chapter " + id + " selected");
+}
+</script>
+
+</body>
+</html>
