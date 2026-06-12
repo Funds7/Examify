@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Examify Admin</title>
+</head>
+
+<body>
+
+<h2>🧑‍💻 Examify PRO Admin Panel</h2>
+
+<input id="course" placeholder="gst101"><br><br>
+<input id="chapter" placeholder="chapter"><br><br>
+<input id="question" placeholder="question"><br><br>
+
+<input id="a" placeholder="option A"><br><br>
+<input id="b" placeholder="option B"><br><br>
+<input id="c" placeholder="option C"><br><br>
+<input id="d" placeholder="option D"><br><br>
+
+<input id="answer" placeholder="0-3 correct index"><br><br>
+
+<button onclick="addQ()">➕ Add Question</button>
+
+<hr>
+
+<h3>📦 Stored Questions</h3>
+<div id="list"></div>
+
+<script src="db.js"></script>
+
+<script>
+function addQ() {
+  let db = getDB();
+
+  db.questions.push({
+    course: course.value,
+    chapter: chapter.value,
+    q: question.value,
+    options: [a.value, b.value, c.value, d.value],
+    answer: Number(answer.value)
+  });
+
+  saveDB(db);
+
+  alert("Saved!");
+  loadList();
+}
+
+function loadList() {
+  let db = getDB();
+  let html = "";
+
+  db.questions.forEach((q, i) => {
+    html += `<p>${i+1}. ${q.course} → ${q.q}</p>`;
+  });
+
+  list.innerHTML = html;
+}
+
+loadList();
+</script>
+
+</body>
+</html>
