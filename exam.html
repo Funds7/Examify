@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Examify CBT - Exam</title>
+
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#0d6efd">
+</head>
+
+<body>
+
+  <!-- STATUS BAR -->
+  <section class="status-bar">
+
+    <div class="status-item">
+      <span id="progress">Question 0 / 0</span>
+    </div>
+
+    <div class="status-item">
+      <span id="timer">⏰ 10:00</span>
+    </div>
+
+    <div class="status-item">
+      <span id="mode">Mode: Practice</span>
+    </div>
+
+  </section>
+
+  <!-- PROGRESS BAR -->
+  <div class="progress-container">
+    <div id="progress-fill"></div>
+  </div>
+
+  <!-- MAIN EXAM AREA -->
+  <main class="container">
+
+    <h3 id="question-number">Question</h3>
+
+    <div id="question-box" class="question-box"></div>
+
+    <div id="options" class="options"></div>
+
+    <!-- NAV BUTTONS -->
+    <div class="nav-buttons">
+
+      <button onclick="prevQuestion()" class="btn secondary">
+        ⬅ Previous
+      </button>
+
+      <button onclick="nextQuestion()" class="btn secondary">
+        Next ➡
+      </button>
+
+      <button onclick="markForReview()" class="btn warning">
+        ⭐ Review
+      </button>
+
+      <button onclick="finishExam()" class="btn danger">
+        Submit Exam
+      </button>
+
+    </div>
+
+    <p id="review-status"></p>
+    <h2 id="score"></h2>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Examify. All rights reserved.</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
