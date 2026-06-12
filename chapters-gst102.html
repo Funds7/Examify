@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GST 102 Chapters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 style="text-align:center;">
+📚 GST 102 - Philosophy and Human Existence
+</h2>
+
+<div id="chapterList"></div>
+
+<script src="gst102.js"></script>
+
+<script>
+let html = "";
+
+gst102Chapters.forEach(chapter => {
+
+  html += `
+    <div class="course-card">
+
+      <h3>Chapter ${chapter.id}</h3>
+
+      <p>${chapter.title}</p>
+
+      <button onclick="openChapter(${chapter.id})">
+        📚 Learn
+      </button>
+
+    </div>
+  `;
+});
+
+html += `
+  <div class="course-card">
+    <h3>🏆 GST 102 Course Test</h3>
+    <a href="exam.html?course=gst102">
+      Start CBT Exam
+    </a>
+  </div>
+`;
+
+document.getElementById("chapterList").innerHTML = html;
+
+function openChapter(id){
+  localStorage.setItem("gstCourse","gst102");
+  localStorage.setItem("chapterId",id);
+
+  window.location.href = "chapter.html?id=" + id;
+}
+</script>
+
+</body>
+</html>
