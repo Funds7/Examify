@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GST 101 Chapters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 style="text-align:center;">
+📚 GST 101 - Use of English & Library
+</h2>
+
+<div id="chapterList"></div>
+
+<script src="gst101.js"></script>
+
+<script>
+let html = "";
+
+gst101Chapters.forEach(chapter => {
+
+  html += `
+    <div class="course-card">
+
+      <h3>
+        Chapter ${chapter.id}
+      </h3>
+
+      <p>
+        ${chapter.title}
+      </p>
+
+      <button onclick="openChapter(${chapter.id})">
+        📚 Learn
+      </button>
+
+    </div>
+  `;
+
+});
+
+html += `
+  <div class="course-card">
+    <h3>🏆 GST 101 Course Test</h3>
+
+    <a href="exam.html?course=gst101">
+      Start CBT Exam
+    </a>
+  </div>
+`;
+
+document.getElementById("chapterList").innerHTML = html;
+
+function openChapter(id){
+
+  localStorage.setItem("gstCourse","gst101");
+  localStorage.setItem("chapterId",id);
+
+  window.location.href =
+    "chapter.html?id=" + id;
+
+}
+</script>
+
+</body>
+</html>
