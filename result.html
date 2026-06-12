@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+</head>
+
+<body>
+
+<h1>📊 Exam Result</h1>
+
+<h2 id="out"></h2>
+
+<script>
+let score = localStorage.getItem("score");
+let total = localStorage.getItem("total");
+
+let percent = (score / total) * 100;
+
+out.innerHTML = `
+Score: ${score} / ${total} <br><br>
+Percentage: ${percent.toFixed(1)}%
+`;
+</script>
+
+</body>
+</html>
