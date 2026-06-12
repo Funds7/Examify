@@ -6,7 +6,6 @@
   <title>Examify CBT</title>
 
   <link rel="stylesheet" href="style.css">
-
   <meta name="theme-color" content="#0d6efd">
 </head>
 
@@ -17,77 +16,13 @@
     <h1>Examify</h1>
     <p>Practice CBT. Improve your score. Pass your exams.</p>
   </header>
-<div style="text-align:center; margin:20px;">
-  <a href="courses.html" class="btn">
-    📚 Select Course
-  </a>
-</div>
-  <!-- STATUS BAR -->
-  <section class="status-bar">
 
-    <div class="status-item">
-      <span id="progress">Question 0 / 0</span>
-    </div>
-
-    <div class="status-item">
-      <span id="timer">⏰ 10:00</span>
-    </div>
-
-    <div class="status-item">
-      <span id="mode">Mode: Practice</span>
-    </div>
-
-  </section>
-
-  <!-- PROGRESS BAR -->
-  <div class="progress-container">
-    <div id="progress-fill"></div>
+  <!-- START BUTTON -->
+  <div style="text-align:center; margin:40px;">
+    <a href="exam.html" class="btn">
+      🚀 Start Practice Exam
+    </a>
   </div>
-
-  <!-- MAIN -->
-  <main class="container">
-
-    <h3 id="question-number">Question</h3>
-
-    <div id="question-box" class="question-box"></div>
-
-    <div id="options" class="options"></div>
-
-    <!-- NAV BUTTONS -->
-    <div class="nav-buttons">
-
-      <button onclick="prevQuestion()" class="btn secondary">
-        ⬅ Previous
-      </button>
-
-      <button onclick="nextQuestion()" class="btn secondary">
-        Next ➡
-      </button>
-
-      <button onclick="markForReview()" class="btn warning">
-        ⭐ Review
-      </button>
-
-      <button onclick="finishExam()" class="btn danger">
-        Submit Exam
-      </button>
-
-    </div>
-
-    <p id="review-status"></p>
-
-    <h2 id="score"></h2>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© 2026 Examify. All rights reserved.</p>
-  </footer>
-
-  <!-- SCRIPTS -->
-  <script src="questions.js"></script>
-  <script src="app.js"></script>
 
 </body>
 </html>
