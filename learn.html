@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Examify Learn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1 id="chapterTitle">Loading Chapter...</h1>
+
+  <div id="contentArea"></div>
+
+  <br>
+
+  <button onclick="startTest()">
+    📝 Take Chapter Test
+  </button>
+
+</div>
+
+<script src="content.js"></script>
+
+<script>
+
+const course = localStorage.getItem("course");
+const chapter = localStorage.getItem("chapter");
+
+const chapterKey = "chapter" + chapter;
+
+if (
+  CONTENT &&
+  CONTENT[course] &&
+  CONTENT[course][chapterKey]
+) {
+
+  let notes = CONTENT[course][chapterKey];
+
+  let html = "";
+
+  notes.forEach((point,index)=>{
+
+    html += `
+      <div class="course-card">
+
+        <h3>
+          Point ${index + 1}
+        </h3>
+
+        <p>
+          ${point}
+        </p>
+
+        <div style="
+          display:flex;
+          justify-content:space-between;
+          margin-top:10px;
+        ">
+
+          <button>
+            🔖 Bookmark
+          </button>
+
+          <button>
+            📤 Share
+          </button>
+
+          <button>
+            🚩 Report
+          </button>
+
+        </div>
+
+      </div>
+
+      <br>
+    `;
+
+  });
+
+  document.getElementById("contentArea").innerHTML = html;
+
+  document.getElementById("chapterTitle").innerHTML =
+    course.toUpperCase() + " - Chapter " + chapter;
+
+}
+else{
+
+  document.getElementById("contentArea").innerHTML =
+    "<h3>No content available.</h3>";
+
+}
+
+function startTest(){
+
+  window.location.href =
+    "chapter-test.html";
+
+}
+
+</script>
+
+</body>
+</html>
