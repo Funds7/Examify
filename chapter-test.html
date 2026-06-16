@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>📝 Chapter Test</h1>
+
+  <p id="chapterInfo"></p>
+
+  <div id="questionBox">
+
+    <h3>
+      Chapter tests coming soon...
+    </h3>
+
+    <p>
+      You have completed the notes for this chapter.
+    </p>
+
+  </div>
+
+  <br>
+
+  <button onclick="goBack()">
+    📚 Back To Notes
+  </button>
+
+</div>
+
+<script>
+
+const course =
+  localStorage.getItem("course");
+
+const chapter =
+  localStorage.getItem("chapter");
+
+document.getElementById(
+  "chapterInfo"
+).innerHTML =
+  course.toUpperCase() +
+  " - Chapter " +
+  chapter;
+
+function goBack(){
+
+  window.history.back();
+
+}
+
+</script>
+
+</body>
+</html>
