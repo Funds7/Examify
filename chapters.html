@@ -98,7 +98,7 @@ function getLearnContent() {
     return "📌 No content available for this chapter.";
   }
 
-  return chapter.join("<br><br>");
+  return chapter.map(p => `<p>${p}</p>`).join("");
 }
 
 // DISPLAY CONTENT
