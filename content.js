@@ -119,4 +119,9 @@ const CONTENT = {
 "Examples of coordinating conjunctions are and, but and or.",
 
 "A complex sentence consists of one or more main clauses and one or more subordinate clauses."
-],
+
+]
+
+  }
+
+};
