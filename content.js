@@ -119,14 +119,8 @@ const CONTENT = {
 "Examples of coordinating conjunctions are and, but and or.",
 
 "A complex sentence consists of one or more main clauses and one or more subordinate clauses."
-
-]
-
-  }
-
-};
-
-chapter2: [
+],
+chapter2:[
 "An essay can be defined as any piece of writing on related ideas with each idea overlapping with one another until they form a unified whole.",
 
 "A text is any piece of writing of any length that has unity.",
@@ -199,3 +193,6 @@ chapter2: [
 
 "Brackets are used to add extra information or explanations in a sentence."
 ]
+  }
+
+};
