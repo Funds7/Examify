@@ -1,21 +1,242 @@
 const CONTENT = {
+
   gst101: {
+
     chapter1: [
-      "Lexis and structure are also known as the study of the word and the structure of the sentence constitute the two most basic units of grammar.",
-      "For Huddleston, the two most basic units of grammar are the word and the sentence.",
-      "Morphology deals with forms of words."
-    ],
 
-    chapter2: [
-      "An essay can be defined as any piece of writing on related ideas with each idea overlapping with one another until they form a unified whole.",
-      "A text is any piece of writing of any length that has unity.",
-      "The material required for essay writing is language."
-    ],
+"Lexis and structure are also known as the study of the word and the structure of the sentence constitute the two most basic units of grammar.",
 
-    chapter3: [
-      "The term 'organ of speech' is used to refer to the various parts of the human anatomy.",
-      "Vowels are sounds with no obstruction to airflow.",
-      "Consonants are produced with obstruction of airflow."
-    ]
-  }
-};
+"For Huddleston, the two most basic units of grammar are the word and the sentence.",
+
+"The two most basic units of grammar are the word and the sentence.",
+
+"Morphology deals with forms of words.",
+
+"Syntax deals with the way words combine to form sentences.",
+
+"Vocabulary refers to words and their precise dictionary meanings.",
+
+"Lexis refers to words and their various connections and allocation such as their synonyms, antonyms, homonyms, idioms and figurative usages.",
+
+"Word can be divided and interpreted in three ways namely spoken and written word, word forms and lexeme, and lexical and grammatical words.",
+
+"The spoken form of words involves pronunciation while the written form is the orthographic version or spelling of a word.",
+
+"Homophones are words pronounced the same way but have different spellings and meanings e.g feet/feat and lesson/lessen.",
+
+"Homonyms involve a case where a single spelling and pronunciation occur with more than one meaning e.g bank.",
+
+"For Jackson, homophone, homograph and homonym are derived from Greek.",
+
+"Homograph means the same letter.",
+
+"Homophone means the same sound.",
+
+"Homonym means the same name.",
+
+"The lexeme is the headword or dictionary entry of a word.",
+
+"The words boy, boys and boy's have the lexeme boy as the base form.",
+
+"Words are studied under a branch of linguistics called morphology.",
+
+"Word is made up of three principal parts namely prefix, root and suffix.",
+
+"The root of any word is also known as the free morpheme.",
+
+"The root or free morpheme can stand alone and function as a word.",
+
+"The part before the root is called prefix while the one after the root is suffix.",
+
+"Examples of only root words are the, not and educate.",
+
+"Examples of prefix plus base are intake and re-educate.",
+
+"Ebele defined register as vocabulary associated with various fields of human activity.",
+
+"Register of building includes concrete, pillar, foreman, bricklayer and scaffolding.",
+
+"Register of the bank includes crossed cheque, open cheque and bounced cheque.",
+
+"Synonyms are words that have almost the same meaning.",
+
+"Examples of synonyms are battle and conflict.",
+
+"Antonyms are pairs of words opposite in meaning.",
+
+"For Ejiogu, an idiom is a combination of words whose meaning differs from the meanings of the individual words.",
+
+"A combination of words in English is known as collocation.",
+
+"Examples of idioms include take the bull by the horn, rock the boat and rain cats and dogs.",
+
+"A clause consists of a subject noun phrase and a verb phrase.",
+
+"Examples of finite clauses include Who came here yesterday? and The boy won the prize.",
+
+"The types of clause include main clause and subordinate clause.",
+
+"A main clause can stand alone e.g I jumped over the fence.",
+
+"A subordinate clause cannot stand on its own.",
+
+"The three main types of finite subordinate clauses are relative, noun and adverbial clauses.",
+
+"Examples of relative clauses include Who came yesterday and That is my boy.",
+
+"An example of a noun clause is That John travelled yesterday.",
+
+"Examples of adverbial clauses include If it rains and Because I was sick.",
+
+"A basic English clause or sentence is divided into subject and predicate.",
+
+"Noun phrases function mostly as the subject of a sentence.",
+
+"Verb phrases function as the verb or predicator of a clause.",
+
+"The complement of a sentence is divided into complement and object.",
+
+"Noun phrases and adjective phrases function mostly as complements.",
+
+"Adverb phrases and prepositional phrases function mostly as adjuncts.",
+
+"There are four types of clauses in English namely declarative, imperative, interrogative and exclamative.",
+
+"A declarative clause is known as the unmarked type.",
+
+"Examples include The man is old, Come here, Is the man tall? and How careful you are.",
+
+"A declarative clause always ends with a full stop.",
+
+"An interrogative clause is a clause that requires an answer.",
+
+"For Adejare, the sentence is the largest grammatical unit.",
+
+"When a main clause is alone it is known as a simple sentence.",
+
+"A compound sentence consists of two or more main clauses joined by a coordinating conjunction.",
+
+"Examples of coordinating conjunctions are and, but and or.",
+
+"A complex sentence consists of one or more main clauses and one or more subordinate clauses."
+],
+chapter2:[
+"An essay can be defined as any piece of writing on related ideas with each idea overlapping with one another until they form a unified whole.",
+
+"A text is any piece of writing of any length that has unity.",
+
+"The material required for essay writing is language.",
+
+"The major aim of the essay is to communicate.",
+
+"To write a good essay, the essayist must be in control of the idea which he wants to communicate to readers.",
+
+"The types of essays include narrative essay, descriptive essay, expository essay, and argumentative essay.",
+
+"The purpose of a narrative essay is to tell a story in chronological order.",
+
+"For effective narration, use the past tense because the events occurred in the past.",
+
+"The purpose of a descriptive essay is to evoke a mood or create a dominant impression about a person, object, or place.",
+
+"To write a good descriptive essay, the writer must be a good observer of events and objects.",
+
+"Effective description requires good language use, engaging the senses, and giving specific details.",
+
+"The purpose of an expository essay is to inform, clarify, explain or show how something is done.",
+
+"An argumentative essay is also called a persuasive essay and its purpose is to change the reader's point of view.",
+
+"A good argumentative essay should be objective, based on facts, reasons, and statistics.",
+
+"The stages of essay writing include pre-writing, writing, and re-writing stages.",
+
+"The pre-writing stage involves choosing a topic, gathering facts, analyzing ideas, and outlining.",
+
+"An outline is a graphical presentation of information and the relationship between ideas.",
+
+"The types of outline include topic outline, sentence outline, and paragraph outline.",
+
+"A good outline helps to organize ideas and improves the structure of an essay.",
+
+"The writing stage is the actual process of writing the essay.",
+
+"The re-writing stage involves revising, editing, and proofreading the essay.",
+
+"A good paragraph must have unity, completeness, order, and coherence.",
+
+"A paragraph should focus on one main idea only.",
+
+"A full stop marks the end of a sentence and indicates the longest pause.",
+
+"A question mark is used at the end of interrogative sentences.",
+
+"An exclamation mark is used to show strong emotion or surprise.",
+
+"A comma is the shortest pause in writing.",
+
+"A semi-colon is used to join two related independent clauses.",
+
+"A colon is used to introduce a list or explanation.",
+
+"A dash is used to show a sudden change of thought.",
+
+"Capital letters are used to begin sentences and proper nouns.",
+
+"A hyphen is used to join prefixes such as ex- and anti-.",
+
+"An apostrophe is used for contractions and possession.",
+
+"Quotation marks are used to enclose direct speech or quotations.",
+
+"An ellipsis is used to show omission of words.",
+
+"Brackets are used to add extra information or explanations in a sentence."
+],
+  chapter3: [
+
+"The term 'organ of speech' is used to refer to the various parts of the human anatomy.",
+
+"The organs of speech include lungs, the larynx, the pharynx, velum or soft palate, hard palate, nasal cavity, lips, and teeth.",
+
+"Roach defines vowels as sounds in which there is no obstruction to the flow of air as it passes from the larynx to the lips.",
+
+"Vowels in English are divided into two classes: pure and impure vowels.",
+
+"/i:/ is pronounced 'ee' and it is the vowel used in the word 'see'.",
+
+"/i/ is a front vowel.",
+
+"/e/ is a short vowel used in words like 'den' and 'ten' and it is a front vowel produced with spread lips.",
+
+"Diphthongs are produced with no obstruction to the free flow of air out of the mouth.",
+
+"A consonant is a sound produced when two or more organs come firmly, intermittently or partially together.",
+
+"Place of articulation refers to the point along the vocal tract where the sound is produced.",
+
+"The different places of articulation include bilabial, labiodental, dental, alveolar, palato-alveolar, etc.",
+
+"Bilabial means the upper and the lower lips.",
+
+"Labiodental refers to the lip and teeth.",
+
+"Manner of articulation is concerned with how sounds are produced.",
+
+"Affricates are sounds produced with a complete closure followed by a slow release.",
+
+"Lateral are sounds made with the front of the tongue forming a complete closure but with air escaping over the sides of the tongue.",
+
+"Semi-vowels or approximants are sounds that share the characteristics of both vowels and consonants.",
+
+"The syllable can be defined as the minimum or shortest stretch of speech we can pronounce.",
+
+"Stress is the relatively greater energy or force used in the pronunciation of a syllable.",
+
+"Chukwu defines intonation as pitch variation superimposed on word-groups in connected speech.",
+
+"Intonation is combined with accent to determine the meaning of utterances.",
+
+"The types of intonation include falling tune, rising tune, rise-fall, and fall-rise."
+
+]
