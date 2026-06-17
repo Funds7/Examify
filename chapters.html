@@ -5,35 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    body { font-family: Arial, sans-serif; }
+    body { font-family: Arial; background:#f4f6f9; }
 
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 15px;
-    }
+    .container { max-width:800px; margin:auto; padding:15px; }
 
     .box {
-      background: #f4f6f9;
-      padding: 15px;
-      border-radius: 10px;
-      margin-top: 15px;
-      line-height: 1.6;
+      background:white;
+      padding:15px;
+      border-radius:10px;
+      margin-top:10px;
     }
 
     .btn {
-      display: inline-block;
-      padding: 10px 15px;
-      margin-top: 10px;
-      background: #0d6efd;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
+      padding:10px;
+      background:#0d6efd;
+      color:white;
+      text-decoration:none;
+      border-radius:6px;
+      display:inline-block;
+      margin-top:10px;
     }
 
-    .title { font-size: 20px; font-weight: bold; }
-    .muted { color: gray; }
-    .error { color: red; font-weight: bold; }
+    .point {
+      padding:10px;
+      border-bottom:1px solid #eee;
+      cursor:pointer;
+    }
+
+    .point:hover { background:#f0f0f0; }
+
+    input {
+      width:100%;
+      padding:10px;
+      margin-top:10px;
+      border-radius:6px;
+      border:1px solid #ccc;
+    }
+
+    .topbar {
+      display:flex;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .smallbtn {
+      flex:1;
+      padding:8px;
+      text-align:center;
+      background:#333;
+      color:white;
+      border-radius:6px;
+      cursor:pointer;
+    }
+
+    .active { background:green !important; }
   </style>
 </head>
 
@@ -42,73 +67,99 @@
 <div class="container">
 
   <h2 id="courseTitle">Loading...</h2>
-  <h3 id="chapterTitle">Loading chapter...</h3>
+  <h3 id="chapterTitle">Loading...</h3>
 
-  <div class="box" id="learnBox">Loading content...</div>
+  <input id="search" placeholder="Search this chapter...">
+
+  <div class="topbar">
+    <div class="smallbtn" onclick="toggleImportant()">Important Mode</div>
+    <div class="smallbtn" onclick="showBookmarks()">Bookmarks</div>
+  </div>
+
+  <div class="box" id="contentBox">Loading...</div>
 
   <a class="btn" id="backBtn">⬅ Back</a>
-  <a class="btn" id="testBtn">📝 Take Course Test</a>
+  <a class="btn" id="testBtn">📝 Take Test</a>
 
 </div>
 
-<!-- LOAD CONTENT -->
 <script src="content.js"></script>
 
 <script>
-const params = new URLSearchParams(window.location.search);
 
-const course = params.get("course");
-const chapterId = Number(params.get("chapter"));
+const course = localStorage.getItem("gstCourse");
+const chapterId = parseInt(localStorage.getItem("chapterId"));
 
-// 🔴 SAFETY CHECK
-if (!course || !chapterId) {
-  document.getElementById("learnBox").innerHTML =
-    `<p class="error">❌ Invalid chapter link</p>`;
-  throw new Error("Missing params");
-}
-
-// Course names (ALL GST 101–114 supported)
 const courses = {
   gst101: "GST 101 - Use of English & Library",
   gst102: "GST 102 - Philosophy & Human Existence",
-  gst103: "GST 103 - Culture & Ethics",
-  gst111: "GST 111 - Nigerian Peoples & Culture",
-  gst112: "GST 112 - History & Philosophy of Science",
-  gst113: "GST 113 - Peace Studies & Conflict Resolution",
-  gst114: "GST 114 - Communication in French"
+  gst103: "GST 103 - Culture & Ethics"
 };
 
-// Set titles
-document.getElementById("courseTitle").innerText =
-  courses[course] || "Unknown Course";
+let importantMode = false;
+let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
 
+document.getElementById("courseTitle").innerText = courses[course];
 document.getElementById("chapterTitle").innerText =
-  "Chapter " + chapterId;
+  CONTENT[course].meta.chapters[chapterId];
 
-// Load chapter content safely
-function loadContent() {
+// render
+function render(list) {
+  const box = document.getElementById("contentBox");
 
-  if (!window.CONTENT || !window.CONTENT[course]) {
-    return "<p class='error'>❌ Course not found in content.js</p>";
-  }
-
-  const chapter = window.CONTENT[course]["chapter" + chapterId];
-
-  if (!chapter) {
-    return "<p class='error'>📌 Chapter not found</p>";
-  }
-
-  return chapter.map(p => `<p>${p}</p>`).join("<br><br>");
+  box.innerHTML = list.map((p, i) => `
+    <div class="point">
+      ${p}
+      <div style="font-size:12px;margin-top:5px;">
+        ⭐ <span onclick="bookmark('${p}')">Bookmark</span>
+      </div>
+    </div>
+  `).join("");
 }
 
-// Display
-document.getElementById("learnBox").innerHTML = `
-  <div class="title">Chapter ${chapterId}</div>
-  <p class="muted">Learn Section</p>
-  ${loadContent()}
-`;
+// load
+function load() {
+  let data = CONTENT[course].chapters[chapterId];
 
-// Navigation
+  if (importantMode) {
+    data = data.filter(p => p.length < 120);
+  }
+
+  render(data);
+}
+
+// search
+document.getElementById("search").addEventListener("input", e => {
+  const value = e.target.value.toLowerCase();
+
+  let data = CONTENT[course].chapters[chapterId];
+
+  data = data.filter(p => p.toLowerCase().includes(value));
+
+  render(data);
+});
+
+// bookmarks
+function bookmark(text) {
+  if (!bookmarks.includes(text)) {
+    bookmarks.push(text);
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    alert("Bookmarked!");
+  }
+}
+
+function showBookmarks() {
+  render(bookmarks);
+}
+
+// important mode
+function toggleImportant() {
+  importantMode = !importantMode;
+  load();
+}
+
+load();
+
 document.getElementById("backBtn").href =
   "chapters-" + course + ".html";
 
