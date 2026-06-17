@@ -16,6 +16,7 @@
 <script src="gst101.js"></script>
 
 <script>
+
 let html = "";
 
 gst101Chapters.forEach(chapter => {
@@ -23,13 +24,9 @@ gst101Chapters.forEach(chapter => {
   html += `
     <div class="course-card">
 
-      <h3>
-        Chapter ${chapter.id}
-      </h3>
+      <h3>Chapter ${chapter.id}</h3>
 
-      <p>
-        ${chapter.title}
-      </p>
+      <p>${chapter.title}</p>
 
       <button onclick="openChapter(${chapter.id})">
         📚 Learn
@@ -42,11 +39,13 @@ gst101Chapters.forEach(chapter => {
 
 html += `
   <div class="course-card">
+
     <h3>🏆 GST 101 Course Test</h3>
 
     <a href="exam.html?course=gst101">
       Start CBT Exam
     </a>
+
   </div>
 `;
 
@@ -54,13 +53,13 @@ document.getElementById("chapterList").innerHTML = html;
 
 function openChapter(id){
 
-  localStorage.setItem("gstCourse","gst101");
-  localStorage.setItem("chapterId",id);
+  localStorage.setItem("course", "gst101");
+  localStorage.setItem("chapter", id);
 
-  window.location.href =
-    "chapter.html?id=" + id;
+  window.location.href = "learn.html";
 
 }
+
 </script>
 
 </body>
