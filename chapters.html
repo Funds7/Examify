@@ -71,14 +71,16 @@
 
 <script>
 
-const course = localStorage.getItem("gstCourse");
-const chapterId = parseInt(localStorage.getItem("chapterId"));
+const params = new URLSearchParams(window.location.search);
 
-// 🔥 SAFETY CHECK (VERY IMPORTANT)
+const course = params.get("course");
+const chapterId = parseInt(params.get("chapter"));
+
+// 🔴 SAFETY CHECK
 if (!course || isNaN(chapterId)) {
   document.getElementById("learnBox").innerHTML =
-    `<p class="error">❌ No chapter selected. Please go back and choose a chapter.</p>`;
-  throw new Error("Missing course or chapterId");
+    `<p class="error">❌ Invalid chapter link. Go back and select a chapter.</p>`;
+  throw new Error("Missing URL parameters");
 }
 
 // Course names
@@ -99,11 +101,11 @@ document.getElementById("courseTitle").innerText =
 document.getElementById("chapterTitle").innerText =
   "Chapter " + chapterId;
 
-// LOAD CONTENT FUNCTION
+// Load content
 function getLearnContent() {
 
   if (!CONTENT || !CONTENT[course]) {
-    return `<p class="error">❌ Course not found in CONTENT.js</p>`;
+    return `<p class="error">❌ Course not found in content.js</p>`;
   }
 
   const chapter = CONTENT[course]["chapter" + chapterId];
@@ -112,17 +114,17 @@ function getLearnContent() {
     return `<p class="error">📌 No content available for this chapter.</p>`;
   }
 
-  return chapter.map(p => `<p>${p}</p>`).join("");
+  return chapter.map(p => `<p>${p}</p>`).join("<br>");
 }
 
-// DISPLAY CONTENT
+// Display
 document.getElementById("learnBox").innerHTML = `
   <div class="title">Chapter ${chapterId}</div>
   <p class="muted">Learn Section</p>
   ${getLearnContent()}
 `;
 
-// NAVIGATION
+// Navigation
 document.getElementById("backBtn").href =
   "chapters-" + course + ".html";
 
