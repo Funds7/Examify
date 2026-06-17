@@ -205,7 +205,55 @@ chapter2: [
       "Brackets/parenthesis(()) is used to mark off words, phrases commentaries in the flow of our writings."
 
     ]
+,
 
+chapter3: [
+
+"The term 'organ of speech' is used to refer to the various parts of the human anatomy.",
+
+"The organs of speech include: 1. Lungs 2. The Larynx 3. The Pharynx 4. Velum or soft palate 5. The hard palate 5. Nasal cavity 6. The lips 7. The teeth.",
+
+"Roach defines vowels as sounds in which there is no obstruction to the flow of air as it passes from the larynx to the lips.",
+
+"Vowels in English are divided into two classes: Pure and impure vowels.",
+
+"/1 :/ Is pronounced ee and it is the vowel used in the word 'see'.",
+
+"/i/ is a front vowel.",
+
+"/e/ is a short vowel used in words like 'den' and 'ten' it is a front vowel produced with spread lips.",
+
+"Diphthongs are produced with no obstruction to the free flow of air out of the mouth.",
+
+"A consonant is a sound produced when two or more organs come firmly, intermittently or partially together, or a sound produced with structures.",
+
+"Place of articulation refers to the point along the vocal tract where the sound is produced.",
+
+"The different places of articulation include 1. Bilabial 2. Labiodental 3. Dental 4. Alveolar 5. Palato alveolar etc.",
+
+"Bilabial means the upper and the lower lips.",
+
+"Labiodental refers to the lip and the dental to the teeth.",
+
+"Manner of articulation is concerned v how sounds are produced.",
+
+"Affricates are sound produced with a complete closure followed by a slow release.",
+
+"Lateral are sounds made with the front of the tongue forming a complete closure but with the air allowed to escape over the sides of the tongue.",
+
+"Semi-vowels or approximants are sounds that share the characteristics of both vowels and consonants.",
+
+"The syllable can be defined as the minimum or shortest stretch of speech we can pronounce.",
+
+"Stress is the relatively greater energy or force that is used in the pronunciation of a syllable.",
+
+"Chukwu defines intonation as pitch variation superimposed on word-groups connected speech.",
+
+"Intonation is combined with accent to determine the meaning of utterances.",
+
+"The type of intonation includes the falling tune, the rising tune, the rise fall, the fall rise."
+
+]
   }
 
 };
