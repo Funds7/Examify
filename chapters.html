@@ -6,9 +6,7 @@
   <link rel="stylesheet" href="style.css">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
+    body { font-family: Arial, sans-serif; }
 
     .container {
       max-width: 800px;
@@ -21,6 +19,7 @@
       padding: 15px;
       border-radius: 10px;
       margin-top: 15px;
+      line-height: 1.6;
     }
 
     .btn {
@@ -49,26 +48,25 @@
 <div class="container">
 
   <h2 id="courseTitle">Loading...</h2>
-  <h3 id="chapterTitle"></h3>
+  <h3 id="chapterTitle">Loading chapter...</h3>
 
-  <!-- 📚 LEARN CONTENT -->
   <div class="box" id="learnBox">
     Loading content...
   </div>
 
-  <!-- NAV -->
   <a class="btn" id="backBtn">⬅ Back</a>
   <a class="btn" id="testBtn">📝 Take Course Test</a>
 
 </div>
 
+<!-- IMPORTANT: LOAD YOUR CONTENT FILE -->
+<script src="content.js"></script>
+
 <script>
 
-// Get saved data
 const course = localStorage.getItem("gstCourse");
 const chapterId = parseInt(localStorage.getItem("chapterId"));
 
-// Course names
 const courses = {
   gst101: "GST 101 - Use of English & Library",
   gst102: "GST 102 - Philosophy & Human Existence",
@@ -79,58 +77,35 @@ const courses = {
   gst114: "GST 114 - Communication in French"
 };
 
-// Set title
+// Set course title
 document.getElementById("courseTitle").innerText =
   courses[course] || "Unknown Course";
 
+// Set chapter title
 document.getElementById("chapterTitle").innerText =
   "Chapter " + chapterId;
 
-// Load chapter data dynamically
-function getChapterTitle() {
-  let list = window[course + "Chapters"];
-  if (!list) return "No chapter data found";
-
-  let chapter = list.find(c => c.id === chapterId);
-  return chapter ? chapter.title : "Chapter not found";
-}
-
-// 📚 SIMPLE LEARN CONTENT SYSTEM (YOU CAN EXPAND LATER)
+// LOAD CONTENT FROM CONTENT.JS
 function getLearnContent() {
 
-  const key = course + "_" + chapterId;
+  if (!CONTENT || !CONTENT[course]) {
+    return "❌ Course not found.";
+  }
 
-  const content = {
+  const chapter = CONTENT[course]["chapter" + chapterId];
 
-    gst101_1: "Introduction to English Lexis and Structure teaches the basics of vocabulary, word formation, and sentence structure.",
-    gst101_2: "Essay writing focuses on paragraph development, punctuation rules, and coherent expression.",
-    gst101_3: "Phonetics deals with pronunciation and sound systems of English language.",
+  if (!chapter || chapter.length === 0) {
+    return "📌 No content available for this chapter.";
+  }
 
-    gst102_1: "Philosophy is the study of fundamental questions about existence, knowledge, and reality.",
-    gst102_2: "History of Western Philosophy explores ancient to modern philosophical thought.",
-    gst102_3: "Ethics deals with moral principles guiding human behaviour.",
-
-    gst103_1: "Delta State environment includes geography, culture, and socio-economic life.",
-    gst103_2: "DELSU introduces students to university structure and academic life.",
-    
-    gst111_1: "Nigeria’s national anthem reflects unity and patriotism.",
-    gst112_1: "Science evolved from early human curiosity about nature.",
-    gst113_1: "Peace studies focus on conflict resolution and harmony.",
-    gst114_1: "French communication starts with alphabets and pronunciation."
-  };
-
-  return content[key] || "📌 Learn content will be added soon for this chapter.";
+  return chapter.join("<br><br>");
 }
 
-// Display content
+// DISPLAY CONTENT
 document.getElementById("learnBox").innerHTML = `
-  <div class="title">${getChapterTitle()}</div>
+  <div class="title">Chapter ${chapterId}</div>
   <p class="muted">Learn Section</p>
   <p>${getLearnContent()}</p>
-
-  <a class="btn" href="exam.html?course=${course}">
-    📝 Take Course Test
-  </a>
 `;
 
 // Back button
