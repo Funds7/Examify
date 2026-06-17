@@ -192,7 +192,51 @@ chapter2:[
 "An ellipsis is used to show omission of words.",
 
 "Brackets are used to add extra information or explanations in a sentence."
-]
-  }
+],
+  chapter3: [
 
-};
+"The term 'organ of speech' is used to refer to the various parts of the human anatomy.",
+
+"The organs of speech include lungs, the larynx, the pharynx, velum or soft palate, hard palate, nasal cavity, lips, and teeth.",
+
+"Roach defines vowels as sounds in which there is no obstruction to the flow of air as it passes from the larynx to the lips.",
+
+"Vowels in English are divided into two classes: pure and impure vowels.",
+
+"/i:/ is pronounced 'ee' and it is the vowel used in the word 'see'.",
+
+"/i/ is a front vowel.",
+
+"/e/ is a short vowel used in words like 'den' and 'ten' and it is a front vowel produced with spread lips.",
+
+"Diphthongs are produced with no obstruction to the free flow of air out of the mouth.",
+
+"A consonant is a sound produced when two or more organs come firmly, intermittently or partially together.",
+
+"Place of articulation refers to the point along the vocal tract where the sound is produced.",
+
+"The different places of articulation include bilabial, labiodental, dental, alveolar, palato-alveolar, etc.",
+
+"Bilabial means the upper and the lower lips.",
+
+"Labiodental refers to the lip and teeth.",
+
+"Manner of articulation is concerned with how sounds are produced.",
+
+"Affricates are sounds produced with a complete closure followed by a slow release.",
+
+"Lateral are sounds made with the front of the tongue forming a complete closure but with air escaping over the sides of the tongue.",
+
+"Semi-vowels or approximants are sounds that share the characteristics of both vowels and consonants.",
+
+"The syllable can be defined as the minimum or shortest stretch of speech we can pronounce.",
+
+"Stress is the relatively greater energy or force used in the pronunciation of a syllable.",
+
+"Chukwu defines intonation as pitch variation superimposed on word-groups in connected speech.",
+
+"Intonation is combined with accent to determine the meaning of utterances.",
+
+"The types of intonation include falling tune, rising tune, rise-fall, and fall-rise."
+
+]
