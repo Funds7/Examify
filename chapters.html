@@ -3,12 +3,9 @@
 <head>
   <title>Examify Chapter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
+    body { font-family: Arial, sans-serif; }
 
     .container {
       max-width: 800px;
@@ -34,19 +31,9 @@
       border-radius: 6px;
     }
 
-    .title {
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    .muted {
-      color: gray;
-    }
-
-    .error {
-      color: red;
-      font-weight: bold;
-    }
+    .title { font-size: 20px; font-weight: bold; }
+    .muted { color: gray; }
+    .error { color: red; font-weight: bold; }
   </style>
 </head>
 
@@ -57,9 +44,7 @@
   <h2 id="courseTitle">Loading...</h2>
   <h3 id="chapterTitle">Loading chapter...</h3>
 
-  <div class="box" id="learnBox">
-    Loading content...
-  </div>
+  <div class="box" id="learnBox">Loading content...</div>
 
   <a class="btn" id="backBtn">⬅ Back</a>
   <a class="btn" id="testBtn">📝 Take Course Test</a>
@@ -70,20 +55,19 @@
 <script src="content.js"></script>
 
 <script>
-
 const params = new URLSearchParams(window.location.search);
 
 const course = params.get("course");
-const chapterId = parseInt(params.get("chapter"));
+const chapterId = Number(params.get("chapter"));
 
 // 🔴 SAFETY CHECK
-if (!course || isNaN(chapterId)) {
+if (!course || !chapterId) {
   document.getElementById("learnBox").innerHTML =
-    `<p class="error">❌ Invalid chapter link. Go back and select a chapter.</p>`;
-  throw new Error("Missing URL parameters");
+    `<p class="error">❌ Invalid chapter link</p>`;
+  throw new Error("Missing params");
 }
 
-// Course names
+// Course names (ALL GST 101–114 supported)
 const courses = {
   gst101: "GST 101 - Use of English & Library",
   gst102: "GST 102 - Philosophy & Human Existence",
@@ -101,27 +85,27 @@ document.getElementById("courseTitle").innerText =
 document.getElementById("chapterTitle").innerText =
   "Chapter " + chapterId;
 
-// Load content
-function getLearnContent() {
+// Load chapter content safely
+function loadContent() {
 
-  if (!CONTENT || !CONTENT[course]) {
-    return `<p class="error">❌ Course not found in content.js</p>`;
+  if (!window.CONTENT || !window.CONTENT[course]) {
+    return "<p class='error'>❌ Course not found in content.js</p>";
   }
 
-  const chapter = CONTENT[course]["chapter" + chapterId];
+  const chapter = window.CONTENT[course]["chapter" + chapterId];
 
-  if (!chapter || chapter.length === 0) {
-    return `<p class="error">📌 No content available for this chapter.</p>`;
+  if (!chapter) {
+    return "<p class='error'>📌 Chapter not found</p>";
   }
 
-  return chapter.map(p => `<p>${p}</p>`).join("<br>");
+  return chapter.map(p => `<p>${p}</p>`).join("<br><br>");
 }
 
 // Display
 document.getElementById("learnBox").innerHTML = `
   <div class="title">Chapter ${chapterId}</div>
   <p class="muted">Learn Section</p>
-  ${getLearnContent()}
+  ${loadContent()}
 `;
 
 // Navigation
