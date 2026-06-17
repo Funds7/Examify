@@ -125,3 +125,77 @@ const CONTENT = {
   }
 
 };
+
+chapter2: [
+"An essay can be defined as any piece of writing on related ideas with each idea overlapping with one another until they form a unified whole.",
+
+"A text is any piece of writing of any length that has unity.",
+
+"The material required for essay writing is language.",
+
+"The major aim of the essay is to communicate.",
+
+"To write a good essay, the essayist must be in control of the idea which he wants to communicate to readers.",
+
+"The types of essays include narrative essay, descriptive essay, expository essay, and argumentative essay.",
+
+"The purpose of a narrative essay is to tell a story in chronological order.",
+
+"For effective narration, use the past tense because the events occurred in the past.",
+
+"The purpose of a descriptive essay is to evoke a mood or create a dominant impression about a person, object, or place.",
+
+"To write a good descriptive essay, the writer must be a good observer of events and objects.",
+
+"Effective description requires good language use, engaging the senses, and giving specific details.",
+
+"The purpose of an expository essay is to inform, clarify, explain or show how something is done.",
+
+"An argumentative essay is also called a persuasive essay and its purpose is to change the reader's point of view.",
+
+"A good argumentative essay should be objective, based on facts, reasons, and statistics.",
+
+"The stages of essay writing include pre-writing, writing, and re-writing stages.",
+
+"The pre-writing stage involves choosing a topic, gathering facts, analyzing ideas, and outlining.",
+
+"An outline is a graphical presentation of information and the relationship between ideas.",
+
+"The types of outline include topic outline, sentence outline, and paragraph outline.",
+
+"A good outline helps to organize ideas and improves the structure of an essay.",
+
+"The writing stage is the actual process of writing the essay.",
+
+"The re-writing stage involves revising, editing, and proofreading the essay.",
+
+"A good paragraph must have unity, completeness, order, and coherence.",
+
+"A paragraph should focus on one main idea only.",
+
+"A full stop marks the end of a sentence and indicates the longest pause.",
+
+"A question mark is used at the end of interrogative sentences.",
+
+"An exclamation mark is used to show strong emotion or surprise.",
+
+"A comma is the shortest pause in writing.",
+
+"A semi-colon is used to join two related independent clauses.",
+
+"A colon is used to introduce a list or explanation.",
+
+"A dash is used to show a sudden change of thought.",
+
+"Capital letters are used to begin sentences and proper nouns.",
+
+"A hyphen is used to join prefixes such as ex- and anti-.",
+
+"An apostrophe is used for contractions and possession.",
+
+"Quotation marks are used to enclose direct speech or quotations.",
+
+"An ellipsis is used to show omission of words.",
+
+"Brackets are used to add extra information or explanations in a sentence."
+]
