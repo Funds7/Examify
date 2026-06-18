@@ -1,33 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Examify Learn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1 id="chapterTitle">Loading Chapter...</h1>
+
+  <div id="contentArea"></div>
+
+  <br>
+
+  <button onclick="startTest()">
+    📝 Take Chapter Test
+  </button>
+
+</div>
+
+<script src="content.js"></script>
+
 <script>
 
 const course = localStorage.getItem("course");
 const chapter = localStorage.getItem("chapter");
 
-// safety fix (VERY IMPORTANT)
-const chapterKey = "chapter" + Number(chapter || 1);
-
-console.log("Course:", course);
-console.log("Chapter:", chapterKey);
+const chapterKey = "chapter" + chapter;
 
 if (
   CONTENT &&
   CONTENT[course] &&
-  CONTENT[course][chapterKey] &&
-  Array.isArray(CONTENT[course][chapterKey])
+  CONTENT[course][chapterKey]
 ) {
 
   let notes = CONTENT[course][chapterKey];
 
   let html = "";
 
-  notes.forEach((point, index) => {
+  notes.forEach((point,index)=>{
 
     html += `
       <div class="course-card">
 
-        <h3>Point ${index + 1}</h3>
+        <h3>
+          Point ${index + 1}
+        </h3>
 
-        <p>${point}</p>
+        <p>
+          ${point}
+        </p>
 
         <div style="
           display:flex;
@@ -35,15 +59,15 @@ if (
           margin-top:10px;
         ">
 
-          <button onclick="bookmarkPoint('${point.replace(/'/g, "\\'")}')">
+          <button>
             🔖 Bookmark
           </button>
 
-          <button onclick="sharePoint('${point.replace(/'/g, "\\'")}')">
+          <button>
             📤 Share
           </button>
 
-          <button onclick="reportPoint('${point.replace(/'/g, "\\'")}')">
+          <button>
             🚩 Report
           </button>
 
@@ -53,6 +77,7 @@ if (
 
       <br>
     `;
+
   });
 
   document.getElementById("contentArea").innerHTML = html;
@@ -60,34 +85,22 @@ if (
   document.getElementById("chapterTitle").innerHTML =
     course.toUpperCase() + " - Chapter " + chapter;
 
-} else {
-
-  console.error("Missing data:", {
-    course,
-    chapter,
-    data: CONTENT?.[course]
-  });
+}
+else{
 
   document.getElementById("contentArea").innerHTML =
-    "<h3>⚠ Chapter not found. Check content.js or chapter selection.</h3>";
-}
+    "<h3>No content available.</h3>";
 
-
-// optional functions (prevents button errors)
-function bookmarkPoint(text){
-  alert("Bookmarked!");
-}
-
-function sharePoint(text){
-  alert("Share feature coming soon!");
-}
-
-function reportPoint(text){
-  alert("Reported!");
 }
 
 function startTest(){
-  window.location.href = "chapter-test.html";
+
+  window.location.href =
+    "chapter-test.html";
+
 }
 
 </script>
+
+</body>
+</html>
