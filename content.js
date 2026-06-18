@@ -681,4 +681,5 @@ chapter4: [
 "The duty of the philosopher is not to instruct, but to prod, or to be more precise, to stimulate people to think about the basic problems of existence as they affect them as individuals and as social collectives."
 
 ]
-
+}
+};
