@@ -16,8 +16,10 @@
 <script src="gst102.js"></script>
 
 <script>
+
 let html = "";
 
+// render chapter list
 gst102Chapters.forEach(chapter => {
 
   html += `
@@ -35,6 +37,7 @@ gst102Chapters.forEach(chapter => {
   `;
 });
 
+// CBT test card
 html += `
   <div class="course-card">
     <h3>🏆 GST 102 Course Test</h3>
@@ -46,12 +49,17 @@ html += `
 
 document.getElementById("chapterList").innerHTML = html;
 
+// ✅ FIXED FUNCTION (IMPORTANT)
 function openChapter(id){
-  localStorage.setItem("gstCourse","gst102");
-  localStorage.setItem("chapterId",id);
 
-  window.location.href = "chapter.html?id=" + id;
+  // IMPORTANT: match learn page keys exactly
+  localStorage.setItem("course", "gst102");
+  localStorage.setItem("chapter", id);
+
+  // go to learn page (NO ID PARAMS)
+  window.location.href = "chapter.html";
 }
+
 </script>
 
 </body>
