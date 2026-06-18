@@ -414,6 +414,24 @@ chapter4: [
 "The complex sentence requires the presence of two clauses as its primary constituent eg. Unless you pay your NEPA bill, your electricity will be disconnected."
 
 ]
+,
+ chapter7: [
+  "Book materials also known as print materials, include textbooks, reference sources such as dictionaries, encyclopedias, yearbooks, directories, manuals, bibliographies, government documents, pamphlets, etc.",
+
+  "Non-book or nonprint materials otherwise referred to as audio-visual materials include microforms, magnetic tapes, slides, filmstrips, radio, television, computer, motion picture films, etc.",
+
+  "The different types of libraries across the world include national libraries, public libraries, special libraries, academic libraries, school libraries, and media centres.",
+
+  "Academic libraries are those libraries that are established and managed by tertiary/higher institutions of learning.",
+
+  "Examples of academic libraries are those established and managed by universities, polytechnics, colleges of education, petroleum training institutes, schools of nursing, etc.",
+
+  "Significance of the library include: 1. The library is a storehouse or warehouse of knowledge 2. The library grants borrowing privileges to its users 3. User-education programme 3. Support for university accreditation etc.",
+
+  "Automated libraries can perform the following functions which include: 1. Online Public Access Catalogue (OPAC) 2. Open Access Publication 3. Social Media Networks 4. Institutional Repositories 5. Access to Library Collections in remote places etc.",
+
+  "OPAC allows the library user at the terminal to search the database to see if the library holds a particular work."
+]
   }
 
 };
