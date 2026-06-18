@@ -1,78 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Examify Learn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1 id="chapterTitle">Loading Chapter...</h1>
+
+  <div id="contentArea"></div>
+
+  <br>
+
+  <button onclick="startTest()">
+    📝 Take Chapter Test
+  </button>
+
+</div>
+
+<script src="content.js"></script>
+
 <script>
 
 const course = localStorage.getItem("course");
 const chapter = localStorage.getItem("chapter");
 
-// 🔥 SAFE NORMALIZATION (VERY IMPORTANT)
-const chapterNumber = String(chapter || "").replace("chapter", "").trim();
-const chapterKey = "chapter" + chapterNumber;
+const chapterKey = "chapter" + chapter;
 
-// DEBUG (helps you see errors in console)
-console.log("COURSE:", course);
-console.log("CHAPTER:", chapter);
-console.log("CHAPTER KEY:", chapterKey);
-
-const box = document.getElementById("contentArea");
-const title = document.getElementById("chapterTitle");
-
-// 🚨 SAFETY CHECK
-if (!course || !chapterNumber) {
-  box.innerHTML = "<h3>❌ No chapter selected. Go back and choose a chapter.</h3>";
-} 
-else if (
+if (
   CONTENT &&
   CONTENT[course] &&
-  CONTENT[course][chapterKey] &&
-  Array.isArray(CONTENT[course][chapterKey]) &&
-  CONTENT[course][chapterKey].length > 0
+  CONTENT[course][chapterKey]
 ) {
 
   let notes = CONTENT[course][chapterKey];
 
   let html = "";
 
-  notes.forEach((point, index) => {
+  notes.forEach((point,index)=>{
 
     html += `
       <div class="course-card">
 
-        <h3>Point ${index + 1}</h3>
+        <h3>
+          Point ${index + 1}
+        </h3>
 
-        <p>${point}</p>
+        <p>
+          ${point}
+        </p>
 
-        <div style="display:flex;justify-content:space-between;margin-top:10px;">
+        <div style="
+          display:flex;
+          justify-content:space-between;
+          margin-top:10px;
+        ">
 
-          <button>🔖 Bookmark</button>
-          <button>📤 Share</button>
-          <button>🚩 Report</button>
+          <button>
+            🔖 Bookmark
+          </button>
+
+          <button>
+            📤 Share
+          </button>
+
+          <button>
+            🚩 Report
+          </button>
 
         </div>
 
       </div>
+
       <br>
     `;
+
   });
 
-  box.innerHTML = html;
-  title.innerHTML = `${course.toUpperCase()} - Chapter ${chapterNumber}`;
+  document.getElementById("contentArea").innerHTML = html;
 
-} 
-else {
+  document.getElementById("chapterTitle").innerHTML =
+    course.toUpperCase() + " - Chapter " + chapter;
 
-  console.error("MISSING DATA:", {
-    course,
-    chapter,
-    chapterKey,
-    CONTENT_EXISTS: !!CONTENT,
-    COURSE_EXISTS: !!CONTENT?.[course],
-    CHAPTER_EXISTS: CONTENT?.[course]?.[chapterKey]
-  });
+}
+else{
 
-  box.innerHTML = "<h3>⚠ Chapter content not found. Check content.js</h3>";
+  document.getElementById("contentArea").innerHTML =
+    "<h3>No content available.</h3>";
+
 }
 
 function startTest(){
-  window.location.href = "chapter-test.html";
+
+  window.location.href =
+    "chapter-test.html";
+
 }
 
 </script>
+
+</body>
+</html>
