@@ -1,88 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Examify Chapter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body { font-family: Arial; background:#f4f6f9; }
-
-    .container { max-width:800px; margin:auto; padding:15px; }
-
-    .box {
-      background:white;
-      padding:15px;
-      border-radius:10px;
-      margin-top:10px;
-    }
-
-    .btn {
-      padding:10px;
-      background:#0d6efd;
-      color:white;
-      text-decoration:none;
-      border-radius:6px;
-      display:inline-block;
-      margin-top:10px;
-    }
-
-    .point {
-      padding:10px;
-      border-bottom:1px solid #eee;
-      cursor:pointer;
-    }
-
-    .point:hover { background:#f0f0f0; }
-
-    input {
-      width:100%;
-      padding:10px;
-      margin-top:10px;
-      border-radius:6px;
-      border:1px solid #ccc;
-    }
-
-    .topbar {
-      display:flex;
-      gap:10px;
-      margin-top:10px;
-    }
-
-    .smallbtn {
-      flex:1;
-      padding:8px;
-      text-align:center;
-      background:#333;
-      color:white;
-      border-radius:6px;
-      cursor:pointer;
-    }
-
-    .active { background:green !important; }
-  </style>
-</head>
-
-<body>
-
-<div class="container">
-
-  <h2 id="courseTitle">Loading...</h2>
-  <h3 id="chapterTitle">Loading...</h3>
-
-  <input id="search" placeholder="Search this chapter...">
-
-  <div class="topbar">
-    <div class="smallbtn" onclick="toggleImportant()">Important Mode</div>
-    <div class="smallbtn" onclick="showBookmarks()">Bookmarks</div>
-  </div>
-
-  <div class="box" id="contentBox">Loading...</div>
-
-  <a class="btn" id="backBtn">⬅ Back</a>
-  <a class="btn" id="testBtn">📝 Take Test</a>
-
-</div>
-
 <script src="content.js"></script>
 
 <script>
@@ -99,27 +14,43 @@ const courses = {
 let importantMode = false;
 let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
 
-document.getElementById("courseTitle").innerText = courses[course];
-document.getElementById("chapterTitle").innerText =
-  CONTENT[course].meta.chapters[chapterId];
+const chapterKey = "chapter" + chapterId;
 
-// render
+document.getElementById("courseTitle").innerText =
+  courses[course] || "Course";
+
+document.getElementById("chapterTitle").innerText =
+  "Chapter " + chapterId;
+
+// Render chapter points
 function render(list) {
   const box = document.getElementById("contentBox");
 
-  box.innerHTML = list.map((p, i) => `
+  box.innerHTML = list.map(p => `
     <div class="point">
       ${p}
       <div style="font-size:12px;margin-top:5px;">
-        ⭐ <span onclick="bookmark('${p}')">Bookmark</span>
+        ⭐ <span onclick="bookmark('${p.replace(/'/g,"\\'")}')">
+          Bookmark
+        </span>
       </div>
     </div>
   `).join("");
 }
 
-// load
+// Load chapter
 function load() {
-  let data = CONTENT[course].chapters[chapterId];
+
+  if (
+    !CONTENT[course] ||
+    !CONTENT[course][chapterKey]
+  ) {
+    document.getElementById("contentBox").innerHTML =
+      "<b>Chapter not found.</b>";
+    return;
+  }
+
+  let data = CONTENT[course][chapterKey];
 
   if (importantMode) {
     data = data.filter(p => p.length < 120);
@@ -128,22 +59,33 @@ function load() {
   render(data);
 }
 
-// search
-document.getElementById("search").addEventListener("input", e => {
+// Search
+document.getElementById("search")
+.addEventListener("input", e => {
+
   const value = e.target.value.toLowerCase();
 
-  let data = CONTENT[course].chapters[chapterId];
+  let data = CONTENT[course][chapterKey];
 
-  data = data.filter(p => p.toLowerCase().includes(value));
+  data = data.filter(item =>
+    item.toLowerCase().includes(value)
+  );
 
   render(data);
 });
 
-// bookmarks
+// Bookmark
 function bookmark(text) {
+
   if (!bookmarks.includes(text)) {
+
     bookmarks.push(text);
-    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+
+    localStorage.setItem(
+      "bookmarks",
+      JSON.stringify(bookmarks)
+    );
+
     alert("Bookmarked!");
   }
 }
@@ -152,7 +94,7 @@ function showBookmarks() {
   render(bookmarks);
 }
 
-// important mode
+// Important Mode
 function toggleImportant() {
   importantMode = !importantMode;
   load();
@@ -167,6 +109,3 @@ document.getElementById("testBtn").href =
   "exam.html?course=" + course;
 
 </script>
-
-</body>
-</html>
