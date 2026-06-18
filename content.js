@@ -587,7 +587,98 @@ chapter4: [
   "The title catalog enables users to locate library materials when the title is known.",
 
   "The subject catalog describes the content of a book, thereby making the users understand the usefulness and scope of such material."
-]
-  }
+],
+  
+  gst102: {
+    chapter1: [
+      
+"Western philosophy which originated from Greece began when the earliest Greek philosophers became dissatisfied with mythological explanation of reality.",
 
-};
+"Etymologically, philosophy is derived from two Greek words, 'Philos' and 'Sophia' meaning 'love' and 'wisdom'.",
+
+"Philosophy is the love of wisdom.",
+
+"In the academic sense, philosophy is to critically search and probe to understand the reality of things in themselves and being in itself.",
+
+"All philosophy should lead to ethics if not it will be useless.",
+
+"Ethics is the endpoint and destination of philosophical knowledge.",
+
+"People's beliefs, opinions, positions, way of life, orientations, and worldview could be considered as philosophy.",
+
+"Philosophy is a rigorous academic discipline that involves using the critical tool of human reasoning to search into the issues of being, existence, and life in all its ramifications.",
+
+"You can be a philosopher without being located in the classroom.",
+
+"Philosophers are of various orientations depending on the branch of philosophy that they specialize in e.g philosopher of education, philosopher of religion, philosopher of science, etc.",
+
+"Some people conceive philosophy as occultism such as witchcraft, because of its branch, metaphysics which deals with realities that are beyond the physical like being, God, etc.",
+
+"Some conceive philosophy as anti-religious and philosophers as atheists.",
+
+"Philosophy can be understood from two perspectives namely: as a way of life and as an academic discipline.",
+
+"Philosophy as a way of life explains how most people and organizations or institutions are said to have philosophies of life due to the very practical fact that they have developed.",
+
+"Philosophy is the science that investigates the highest cause of all things as far as they are knowable.",
+
+"The activity of critical and reflective thinking is central to philosophical activities.",
+
+"The spirit of philosophy is critical reasoning.",
+
+"The four branches of philosophy include 1. Metaphysics 2. Epistemology 3. Logic 4. Ethics.",
+
+"The word 'metaphysics' is derived from two Greek words 'meta' which means after or beyond, and 'Physika' which means nature.",
+
+"Andronicus of Rhodes was the compiler of Aristotle's work he came up with the name metaphysics.",
+
+"Metaphysics is the science that deals with being as being.",
+
+"Metaphysics studies the essence of being.",
+
+"Ontology and theodicy are branches of metaphysics.",
+
+"Ontology critically probes into the nature and essence of being/reality.",
+
+"Theodicy studies the problem of evil and the existence of a good God.",
+
+"Cosmology is a branch of metaphysics that is concerned with the origin, nature, and structure of the universe.",
+
+"The word 'epistemology' is derived from two Greek words 'episteme' meaning knowledge and 'logos' meaning theory or discourse.",
+
+"Epistemology is the theory of knowledge.",
+
+"Epistemology is the branch of philosophy which studies the nature, the origin, the foundation, the method, the validity and the extent and limits of human knowledge.",
+
+"Ethics which is also known as moral philosophy is normative not simply speculative.",
+
+"Ethics is concerned with whether basic values are absolute relative, subjective, culturally varied, modifiable.",
+
+"Axiology is the critical study of the nature of value, while aesthetics is the study of the nature of beauty.",
+
+"Logic is the branch of philosophy that treats the rules and laws of thinking or thought.",
+
+"For Okoro, logic is the study of the norms of sound and unsound arguments.",
+
+"Social and political philosophy concerns itself with the study of the political process, especially that of the state and the struggle for control and use of power.",
+
+"Social and political philosophy is concerned with the relationship of the individual to the state and that of the state to the individual.",
+
+"Aesthetics or philosophy of art is an important branch of philosophy which deals with issues of beauty with regards to creation and appreciation of artwork.",
+
+"It is in the philosophy of Art that we have a philosophy of religion, philosophy of social science, philosophy of law, philosophy of nature, philosophy of history, etc.",
+
+"Philosophy should serve the purpose of social reconstruction, it should lead not only to wisdom but also to virtue and happiness at an individual and social level.",
+
+"Karl Marx accused philosophers of interpreting the world, without changing it.",
+
+"Philosophy has always aimed at changing society.",
+
+"Ideological and radical philosophies of our forefathers and foremothers helped in winning independence for African countries.",
+
+"For Wiredu, the function of philosophy everywhere is to examine the intellectual foundations of life, using the best available modes of knowledge and reflection for human well-being.",
+
+"The duty of the philosopher is not to instruct, but to prod, or to be more precise, to stimulate people to think about the basic problems of existence as they affect them as individuals and as social collectives."
+
+]
+
