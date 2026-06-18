@@ -253,9 +253,8 @@ chapter3: [
 
 "The type of intonation includes the falling tune, the rising tune, the rise fall, the fall rise."
 
-]
-,
-    
+],
+
 chapter4: [
 
 "Anderson (2006) sees reading as the process of constructing meaning from written texts.",
