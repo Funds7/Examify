@@ -348,6 +348,72 @@ chapter4: [
 "Points to note in public speaking include being sensitive to the situation and audience, being conscious of cultural diversity, avoiding abusive language, being prepared, being honest, rehearsing no matter how familiar the topic is, etc."
 
 ]
+,
+ chapter6: [
+
+"A clause is the primary constituent of a sentence. Clause themselves are made up of phrases (or group).",
+
+"To effectively construct a sentence the knowledge of its building blocks is necessary.",
+
+"Morphemes illustrate the compositional structure in language.",
+
+"Word is made up of one or more morphemes.",
+
+"A group is a combination of words built upon the basis of a particular logical relation",
+
+"A nominal group is a group that is headed by a noun or a nominal. eg the books on the table are mine.",
+
+"The verbal group or a verb phrase is headed by a verb, the word class used to express processes, events, actions, states, and relations within a clause e.g She 'cried', They 'left' here two hours ago.",
+
+"The adjectival group is headed by the word class adjective and it functions as a complement in the structure of a clause e.g. She is very beautiful, the food is too sweet, etc.",
+
+"The prepositional group is headed by a preposition, its function is to show the relationship between two entities e.g The books are on the table.",
+
+"The grammatical unit immediately above the group and immediately below the sentence is the clause.",
+
+"A clause contains four elements of clause structure in the order: Subject, predicator, complement, and adjunct abbreviated as S, P, C, A.",
+
+"Mary is fine this evening follows SPCA.",
+
+"They made Jonathan the President follows SPCC.",
+
+"Wash the rice following PC.",
+
+"They sang the chorus lustily follows SPCA.",
+
+"They made him their leader last year following SPCCСА.",
+
+"The young shall grow follows SP.",
+
+"Jane is very beautiful follows SPC.",
+
+"The former president is Dr Goodluck Jonathan follows SPC.",
+
+"Clauses are classified into two types using the structural and functional criteria.",
+
+"A clause is said to be independent if it has a form in which it could stand as an independent sentence.",
+
+"A dependent clause (subordinate clause) cannot stand alone as an independent sentence, it needs an independent clause to be able to function.",
+
+"In terms of discourse functions, there are four forms of clauses namely declarative clause, interrogative clause, imperative clause, and exclamatory clause.",
+
+"A declarative clause states information or an opinion. It is also called a statement as it is used to state facts, ideas, and opinions and to inform. Ekpe is my grandmother's name.",
+
+"An interrogative clause is used to ask questions. e.g what is our name.",
+
+"An imperative clause is used to express a command, an instruction, a directive or a request e.g. Praise the Lord.",
+
+"An exclamatory clause is used to express shock, surprise, or to express how a speaker is emotionally impressed. What a nice meal she cooked.",
+
+"Sentences can be grouped into three namely: Simple, compound, and complex sentences.",
+
+"The simple sentence consists of an independent alpha clause which means that it can function on its own e.g Jack is a very ferocious dog",
+
+"A compound sentence consists of two or more independent clauses linked by appropriate coordinators e.g. Take her to the police station or Set her free.",
+
+"The complex sentence requires the presence of two clauses as its primary constituent eg. Unless you pay your NEPA bill, your electricity will be disconnected."
+
+]
   }
 
 };
