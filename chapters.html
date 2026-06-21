@@ -1,111 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Examify Learn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1 id="chapterTitle">Loading Chapter...</h1>
+
+  <div id="contentArea"></div>
+
+  <br>
+
+  <button onclick="startTest()">
+    📝 Take Chapter Test
+  </button>
+
+</div>
+
 <script src="content.js"></script>
 
 <script>
 
-const course = localStorage.getItem("gstCourse");
-const chapterId = parseInt(localStorage.getItem("chapterId"));
+const course = localStorage.getItem("course");
+const chapter = localStorage.getItem("chapter");
 
-const courses = {
-  gst101: "GST 101 - Use of English & Library",
-  gst102: "GST 102 - Philosophy & Human Existence",
-  gst103: "GST 103 - Culture & Ethics"
-};
+const chapterKey = "chapter" + chapter;
 
-let importantMode = false;
-let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
+if (
+  CONTENT &&
+  CONTENT[course] &&
+  CONTENT[course][chapterKey]
+) {
 
-const chapterKey = "chapter" + chapterId;
+  let notes = CONTENT[course][chapterKey];
 
-document.getElementById("courseTitle").innerText =
-  courses[course] || "Course";
+  let html = "";
 
-document.getElementById("chapterTitle").innerText =
-  "Chapter " + chapterId;
+  notes.forEach((point,index)=>{
 
-// Render chapter points
-function render(list) {
-  const box = document.getElementById("contentBox");
+    html += `
+      <div class="course-card">
 
-  box.innerHTML = list.map(p => `
-    <div class="point">
-      ${p}
-      <div style="font-size:12px;margin-top:5px;">
-        ⭐ <span onclick="bookmark('${p.replace(/'/g,"\\'")}')">
-          Bookmark
-        </span>
+        <h3>
+          Point ${index + 1}
+        </h3>
+
+        <p>
+          ${point}
+        </p>
+
+        <div style="
+          display:flex;
+          justify-content:space-between;
+          margin-top:10px;
+        ">
+
+          <button>
+            🔖 Bookmark
+          </button>
+
+          <button>
+            📤 Share
+          </button>
+
+          <button>
+            🚩 Report
+          </button>
+
+        </div>
+
       </div>
-    </div>
-  `).join("");
+
+      <br>
+    `;
+
+  });
+
+  document.getElementById("contentArea").innerHTML = html;
+
+  document.getElementById("chapterTitle").innerHTML =
+    course.toUpperCase() + " - Chapter " + chapter;
+
+}
+else{
+
+  document.getElementById("contentArea").innerHTML =
+    "<h3>No content available.</h3>";
+
 }
 
-// Load chapter
-function load() {
+function startTest(){
 
-  if (
-    !CONTENT[course] ||
-    !CONTENT[course][chapterKey]
-  ) {
-    document.getElementById("contentBox").innerHTML =
-      "<b>Chapter not found.</b>";
-    return;
-  }
+  window.location.href =
+    "chapter-test.html";
 
-  let data = CONTENT[course][chapterKey];
-
-  if (importantMode) {
-    data = data.filter(p => p.length < 120);
-  }
-
-  render(data);
 }
-
-// Search
-document.getElementById("search")
-.addEventListener("input", e => {
-
-  const value = e.target.value.toLowerCase();
-
-  let data = CONTENT[course][chapterKey];
-
-  data = data.filter(item =>
-    item.toLowerCase().includes(value)
-  );
-
-  render(data);
-});
-
-// Bookmark
-function bookmark(text) {
-
-  if (!bookmarks.includes(text)) {
-
-    bookmarks.push(text);
-
-    localStorage.setItem(
-      "bookmarks",
-      JSON.stringify(bookmarks)
-    );
-
-    alert("Bookmarked!");
-  }
-}
-
-function showBookmarks() {
-  render(bookmarks);
-}
-
-// Important Mode
-function toggleImportant() {
-  importantMode = !importantMode;
-  load();
-}
-
-load();
-
-document.getElementById("backBtn").href =
-  "chapters-" + course + ".html";
-
-document.getElementById("testBtn").href =
-  "exam.html?course=" + course;
 
 </script>
+
+</body>
+</html>
