@@ -239,7 +239,68 @@ chapter2:[
 
 "The types of intonation include falling tune, rising tune, rise-fall, and fall-rise."
 
-]
+],
+ chapter4: [
+
+"Anderson (2006) sees reading as the process of constructing meaning from written texts.",
+
+"Stebbins (2011) defines reading as a complex cognitive process of decoding symbols(words) to construct or derive meaning.",
+
+"Reading involves the mastery of interrelated functions which include: the skills and knowledge to understand how phonemes are connected to print, identification of the letters of the alphabet including a recognition of the differences in printed symbols.",
+
+"Medical factors that could be responsible for deficiency in reading include dyslexia and aphasia.",
+
+"Dyslexia is a reading disability linked to the brain characterized by difficulty in recognizing and getting meaning from printed text.",
+
+"Aphasia is a disorder caused by damage to the left part of the brain which controls the ability to acquire, learn, and use language.",
+
+"Reading problems associated with bad reading and studying habits include Vocalization, regression, word-by-word reading, pointing to words, recognition span, sub-vocalization, head movement, poor vocabulary, and inflexible reading.",
+
+"Readers who vocalize read with their mouths.",
+
+"Regression is rereading a word, phrase or sentence, not because it is necessary for comprehension, but out of habit.",
+
+"Bad readers tend to see words singly and in isolation.",
+
+"Pointing at words drastically reduces speed and limits comprehension and distorts the meaning relations that exist between words in a passage.",
+
+"Recognition span is the amount of written text that a reader is capable of perceiving at a glance.",
+
+"The kinds of reading include Skimming, scanning, proofreading, revision reading, extensive and intensive reading, critical reading, etc.",
+
+"Skimming is a method of rapidly moving the eyes over text to get only the main ideas and a general overview of the content.",
+
+"Scanning is used to rapidly cover a great deal of materials to locate a specific fact or piece of information.",
+
+"Proofreading involves carefully reading and rereading a document intended for publication or a thesis, it is done to eliminate spelling, punctuation, or grammatical errors.",
+
+"Revision reading is undertaken to confirm knowledge that is previously known, usually in a material that is familiar to the reader.",
+
+"Extensive reading is geared towards wide coverage of a text.",
+
+"Intensive reading occurs when the learner is focused on the language rather than the text.",
+
+"Intensive reading focuses on the relationship between words, phrases, sentences and how they combine to realize the message of the text.",
+
+"Critical reading is a form of reading that does not take the given text at face value. It involves a deeper examination of the claims made by the writer.",
+
+"Critical reading examines arguments and attempts to provide possible counterarguments.",
+
+"Some study methods include: SQ3R (Survey, Question, Read, Recite, and Review), PQRST (Preview, Question, Read, Summary, and Test), 3S3R (Survey, Study-read, Speed-read, Recite, Review, and Reflect).",
+
+"The SQ3R method of reading was introduced by Francis Pleasant Robinson (1946).",
+
+"The PQRST method of reading places emphasis on acquiring information in a way that is directly connected to how students are expected to use the information in an examination scenario.",
+
+"The 3S3R study method was developed by Unoh.",
+
+"Evoker was developed by Walter Paul in 1962. It is designed for studying literature (prose, poetry, and drama).",
+
+"Evoker is made up of six stages namely: 1. Explore 2. Vocabulary 3. Oral Reading 4. Key Ideas 5. Evaluate 6. Recapitulation.",
+
+"The tips for effective study include: 1. Reading should be purpose-oriented 2. The essence of reading is to remember 3. Skip irrelevant materials 4. Read for ideas etc."
+
+],   
 }
 
 };
