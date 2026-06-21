@@ -1,57 +1,44 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html>
 <head>
   <title>Examify Learn</title>
   <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<div class="container">
-
-  <h1 id="chapterTitle">Loading Chapter...</h1>
-
-  <div id="contentArea"></div>
-
-  <br>
-
-  <button onclick="startTest()">
+</head><body><div class="container">  <h1 id="chapterTitle">Loading Chapter...</h1>  <div id="contentArea"></div>  <br>  <button onclick="startTest()">
     📝 Take Chapter Test
-  </button>
+  </button></div><script src="content.js"></script><script>
 
-</div>
+// Supports BOTH old and new storage names
+const course =
+  localStorage.getItem("course") ||
+  localStorage.getItem("gstCourse");
 
-<script src="content.js"></script>
-
-<script>
-
-const course = localStorage.getItem("course");
-const chapter = localStorage.getItem("chapter");
+const chapter =
+  localStorage.getItem("chapter") ||
+  localStorage.getItem("chapterId");
 
 const chapterKey = "chapter" + chapter;
 
+console.log("Course:", course);
+console.log("Chapter:", chapter);
+console.log("Key:", chapterKey);
+
 if (
-  CONTENT &&
+  typeof CONTENT !== "undefined" &&
   CONTENT[course] &&
   CONTENT[course][chapterKey]
 ) {
 
-  let notes = CONTENT[course][chapterKey];
+  const notes = CONTENT[course][chapterKey];
 
   let html = "";
 
-  notes.forEach((point,index)=>{
+  notes.forEach((point, index) => {
 
     html += `
       <div class="course-card">
 
-        <h3>
-          Point ${index + 1}
-        </h3>
+        <h3>Point ${index + 1}</h3>
 
-        <p>
-          ${point}
-        </p>
+        <p>${point}</p>
 
         <div style="
           display:flex;
@@ -59,17 +46,9 @@ if (
           margin-top:10px;
         ">
 
-          <button>
-            🔖 Bookmark
-          </button>
-
-          <button>
-            📤 Share
-          </button>
-
-          <button>
-            🚩 Report
-          </button>
+          <button>🔖 Bookmark</button>
+          <button>📤 Share</button>
+          <button>🚩 Report</button>
 
         </div>
 
@@ -85,22 +64,30 @@ if (
   document.getElementById("chapterTitle").innerHTML =
     course.toUpperCase() + " - Chapter " + chapter;
 
+} else {
+
+  document.getElementById("chapterTitle").innerHTML =
+    "Content Not Found";
+
+  document.getElementById("contentArea").innerHTML = `
+    <div class="course-card">
+      <h3>Debug Information</h3>
+
+      <p><b>Course:</b> ${course}</p>
+      <p><b>Chapter:</b> ${chapter}</p>
+      <p><b>Chapter Key:</b> ${chapterKey}</p>
+
+      <p>
+        Content for this chapter was not found.
+        Check content.js.
+      </p>
+    </div>
+  `;
 }
-else{
 
-  document.getElementById("contentArea").innerHTML =
-    "<h3>No content available.</h3>";
-
+function startTest() {
+  window.location.href = "chapter-test.html";
 }
 
-function startTest(){
-
-  window.location.href =
-    "chapter-test.html";
-
-}
-
-</script>
-
-</body>
+</script></body>
 </html>
