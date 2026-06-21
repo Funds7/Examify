@@ -240,3 +240,6 @@ chapter2:[
 "The types of intonation include falling tune, rising tune, rise-fall, and fall-rise."
 
 ]
+}
+
+};
