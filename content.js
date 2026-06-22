@@ -918,6 +918,65 @@ chapter10: [
   "Voluntary euthanasia occurs when a person requests the termination of their own life.",
 
   "Non-voluntary euthanasia occurs when the patient is not mentally competent to make an informed request."
+],
+  chapter5: [
+  "Owolabi (2002) sees philosophy as the critical reflection of human beings on the problems of their existence and essence.",
+
+  "African philosophy refers to the activities of African people in the art of philosophizing.",
+
+  "African philosophy involves the process of critical thinking embarked upon by African people in their bid to interpret proverbs and folktales and solve existential problems.",
+
+  "Traditional African thought is what later came to be called folk philosophy or ethnophilosophy.",
+
+  "The genesis of the African philosophy debate can be traced to the reaction that followed Placide Tempels' work 'Bantu Philosophy'.",
+
+  "The publication of 'Bantu Philosophy' brought to scholarly attention the possibility of a body of literature categorized as African philosophy.",
+
+  "Many African writers argued that some European perceptions of Africa were outright condemnations of the continent.",
+
+  "Hegel and Lucien Lévy-Bruhl belong to the school of thought that portrayed Africa negatively.",
+
+  "Chinweizu and Madubuike argued that many African writers were Eurocentric in orientation and often viewed African literature through Western perspectives.",
+
+  "The four trends in African philosophy identified by Kenyan philosophers are: Ethnophilosophy, Philosophical Sagacity, Professional Philosophy, and Nationalist Ideology.",
+
+  "The first trend in African philosophy is Ethnophilosophy.",
+
+  "Ethnophilosophy involves the recording of beliefs found in African cultures.",
+
+  "Communal philosophy is a uniquely African worldview that treats African philosophy as a set of shared beliefs, values, categories, and assumptions embedded in African culture.",
+
+  "The term ethnophilosophy was associated with the work of Paulin Hountondji, a Beninese philosopher.",
+
+  "Hountondji criticized Placide Tempels' 'Bantu Philosophy' for presenting African thought as an anonymous collective system.",
+
+  "Scholars who challenged the view that Africans are incapable of rational thought include theologians such as J. S. Mbiti and Bolaji Idowu, and anthropologists such as Marcel Griaule and Alexis Kagame.",
+
+  "One reason for studying African thought is to make African cultural perspectives understandable to Western audiences.",
+
+  "One of the strongest critics of ethnophilosophy is Paulin Hountondji.",
+
+  "Hountondji argued that ethnophilosophy represents a weak and uncritical form of philosophy.",
+
+  "Philosophical sagacity, also known as African Sage Philosophy, refers to the ideas of individuals considered wise in African communities.",
+
+  "One argument against the denigration of African thought is that philosophy is often wrongly assumed to exist only in written form.",
+
+  "For Oruka and Bello, rationality is not exclusive to Western thought but is a universal human attribute.",
+
+  "Professional philosophy is the view that philosophy is a particular way of thinking, reflecting, and reasoning.",
+
+  "For philosophers such as Wiredu, Bodunrin, Hountondji, Kwame Gyekye, Odera Oruka, and Benjamin Ewuku Oguah, African philosophy is philosophy done by African philosophers in areas such as logic, metaphysics, ethics, and history of philosophy.",
+
+  "It is argued that African traditional thought cannot be classified as philosophy because it was not well documented due to the absence of a written tradition in traditional African society.",
+
+  "Nationalist ideological philosophy is associated with first-generation African statesmen and politicians who engaged in philosophical reflection.",
+
+  "Nationalist ideological philosophers include Kwame Nkrumah, Julius Nyerere, Léopold Sédar Senghor, Sékou Touré, Obafemi Awolowo, and Nnamdi Azikiwe.",
+
+  "The involvement of nationalist ideological philosophers in philosophy was largely accidental.",
+
+  "The nationalist ideological approach has been criticized on the grounds that many of the traditional ideas they relied on are historically inaccessible or lost."
 ]
   } 
 
