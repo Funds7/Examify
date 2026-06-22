@@ -854,6 +854,71 @@ chapter10: [
 
   "There is no dogma in philosophy; everything can be questioned and analyzed."
 ], 
+  chapter4: [
+  "Ethics is a branch of philosophy that studies human behavior.",
+
+  "Applied ethics is devoted to the treatment of moral problems, practices, and policies in human life, professions, science, technology, and government legislation.",
+
+  "The criteria for judging whether actions are good or bad is the intention or motive of the moral agent.",
+
+  "Conventionalism holds that moral actions are right or wrong because someone claims or believes them to be so.",
+
+  "The following are theories under conventionalism: Divine Command Theory, Individualist Theory, and Ethical Relativism.",
+
+  "In Divine Command Theory, moral actions are right or wrong because God commands them.",
+
+  "The Individualist Theory states that the individual determines whether an action is right or wrong.",
+
+  "Ethical Relativism holds that whether an action is right or wrong is determined by the society in which we live.",
+
+  "Ethical Realism holds that ethical truths are true irrespective of who states them.",
+
+  "Theories under Ethical Realism include Ethical Absolutism, Ethical Universalism, Bioethics, and Medical Ethics.",
+
+  "Ethical Absolutism holds that there is a single moral standard that applies to all people at all times and in all circumstances.",
+
+  "Ethical Universalism allows exceptions to moral rules depending on the situation in which one finds oneself.",
+
+  "Bioethics studies the ethical implications of advances in genetics, biotechnology, cloning, and reproductive technologies.",
+
+  "Medical Ethics offers guidance to physicians, healthcare workers, and patients on issues ranging from euthanasia to fertility treatment and medical confidentiality.",
+
+  "Moral philosophers are concerned with issues such as amniocentesis, a medical test used to detect diseases in an unborn child.",
+
+  "Surrogate motherhood is a situation where a woman is impregnated with sperm from the husband of an infertile couple and later gives the baby to the couple; the ethical issue is whether this is different from selling a baby.",
+
+  "Euthanasia refers to terminating the life of a terminally ill person, including debates involving abortion and the denial of life to a fetus.",
+
+  "The two types of abortion are induced abortion and spontaneous abortion.",
+
+  "Spontaneous abortion occurs naturally when the fetus is not well-formed.",
+
+  "Induced abortion is caused by a physician or through the use of drugs.",
+
+  "Ethicists are mainly concerned with induced abortion.",
+
+  "The abortion debate involves two groups: anti-abortionists (conservatives) and pro-abortionists (liberals).",
+
+  "Pro-abortionists argue that a woman has the right to choose whether to terminate or continue a pregnancy.",
+
+  "Pro-life advocates argue that abortion should only be allowed when the life of the mother is at risk.",
+
+  "Pro-life supporters regard embryos and fetuses as unborn children, and believe pregnant women have moral obligations to them.",
+
+  "Abortion may be considered acceptable when the mother's mental or physical health is in danger.",
+
+  "Euthanasia is one of the most controversial issues in contemporary moral philosophy.",
+
+  "The two types of euthanasia are passive and active euthanasia.",
+
+  "Passive euthanasia involves withholding or withdrawing treatment and allowing the patient to die.",
+
+  "Active euthanasia is the intentional act of painlessly ending the life of a terminally ill patient.",
+
+  "Voluntary euthanasia occurs when a person requests the termination of their own life.",
+
+  "Non-voluntary euthanasia occurs when the patient is not mentally competent to make an informed request."
+]
   } 
 
 };
