@@ -444,7 +444,66 @@ chapter5: [
   "Examples of references for single authors include Olili, C. (2011). Examination malpractice. Abraka: DELSU Library Services.",
 
   "Example of reference of two to seven authors include: Osakwe, P., Ofuoma, O., Otagbe R., Eku, S., & Ofogba, C. (2014)."
-]
+],
+  chapter9: [
+  "Lynch & Garcia Molina (1995) describe the e-library as a system that provides a community of users with coherent access to a large organized repository of information and knowledge.",
+
+  "E-library may either be accessed remotely via the internet or locally.",
+
+  "Some E-resources currently available in Delta State University E-library include EBSCOhost http://search.ebschost.com, HINARI https://extranet.who.int/hinari/en/journals.php.",
+
+  "The advantages of a library include: 1. Round-the-clock access to information 2. Requires smaller storage space 3. Users can easily organize any material they require.",
+
+  "Electronic resources is any information source that the library provides access to in an electronic format.",
+
+  "Search engines are the basic tool for searching e-resources e.g google search engine.",
+
+  "The two types of search engines are individual search engines and meta search engines.",
+
+  "Individual search engines compile their own searchable databases on the web, e.g. Google, Yahoo, Bing, etc.",
+
+  "Meta-search engines is a search tool that depends on other search engine's data to produce their own results from the internet.",
+
+  "Search engines compile their databases by employing spiders or robots to crawl through web space from link to link, identifying and perusing pages.",
+
+  "Directories are smaller than search engine databases.",
+
+  "A search strategy involves a structured organization of terms used to search a database.",
+
+  "Boolean logic is a form of algebra in which all values are reduced to either TRUE or FALSE.",
+
+  "Boolean AND narrows a search by retrieving only documents that contain every keyword entered.",
+
+  "Boolean OR expands the search result by returning documents in which either or both keywords appear.",
+
+  "Boolean NOT limits your search by returning only your first keyword but not the second, even if the first word appears in that document too.",
+
+  "Nesting involves using parentheses to force operation precedence and to separate keywords when using more than one operator and three or more keywords.",
+
+  "Field searching is a very powerful tool that allows users to specify exactly where the search engine should search in locating a Web document.",
+
+  "Examples of field searching include URL searching, title searching, host searching, and image searching.",
+
+  "Copyright is a set of exclusive rights granted by law to the author or creator of an original work which include the right to copy, distribute and adapt the work.",
+
+  "The Copyright Act CAP. 68, Laws of the Federation 2004 recognizes copyright as a right to stop or debar others from doing something and to restrain others from exploiting other's work.",
+
+  "The two types of rights any copyright owner is entitled to include: 1. The exclusive right to copy and exploit the work that is copyrighted, as well as permit other people to have the copyright to do the same 2. A legal right to disallow anybody from exploiting the copyrighted work without approval.",
+
+  "In Nigeria and countries that are party to the Berne Convention, the duration of copyright provided for by law is the life of the author plus not less than 50 years after his death.",
+
+  "Copyright protects authors of original works of authorship including literary, dramatic, musical, artistic, and other intellectual works, regardless of whether the work is published or unpublished.",
+
+  "Infringement of copyright is the unauthorized use of copyrighted materials in a manner that violates one of the copyright owner's exclusive rights to produce or to make derivative works.",
+
+  "Plagiarism is the violation of copyright law to use all or any part of an author's document, either verbatim or with trivial changes.",
+
+  "In Nigeria, a body known as the Nigeria Copyright Council was established to see to the administration of copyright.",
+
+  "Fair dealings cover noncommercial use of works such as for the purpose of private research, criticism, review and reporting current events.",
+
+  "Factors that determine what constitutes fair dealing of a copyrighted work include: 1. The amount of the original work which is taken 2. The purpose of the use of the work 3. The necessity of the use of the work etc."
+],
   } 
 
 };
