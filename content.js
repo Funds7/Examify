@@ -384,7 +384,7 @@ chapter5: [
 
 "The complex sentence requires the presence of two clauses as its primary constituent eg. Unless you pay your NEPA bill, your electricity will be disconnected."
 
-],
+]
   }
 
 };
