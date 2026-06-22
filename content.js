@@ -300,8 +300,38 @@ chapter2:[
 
 "The tips for effective study include: 1. Reading should be purpose-oriented 2. The essence of reading is to remember 3. Skip irrelevant materials 4. Read for ideas etc."
 
-]
+],
+chapter5: [
 
+"Public speaking involves speech making before an audience and it has a dual mode of presentation which manifests in the written and oral medium.",
+
+"For Dale Carnegie and J. Berg Esanwein, the audience is probably the most important factor to be considered in public speaking.",
+
+"The success of the art of public speaking also depends on how much information is at the disposal of the speaker.",
+
+"The specific objective that defines the purpose of public speaking is usually the reason for the event.",
+
+"The goal of public speaking includes information, education, and entertainment.",
+
+"Different means of information gathering include The library, newspapers and magazines, interviews/informal interactions, questionnaires, the internet, etc.",
+
+"An outline is a brief plan which helps in organizing our idea in an orderly manner and also giving a hint of how what we are writing will turn out when it is finished.",
+
+"A good introduction in a speech must be well reasoned, sharp, and relevant for the speaker to win the audience over from the beginning.",
+
+"A good conclusion should emphasize the purpose of the speech.",
+
+"Words which make up a language are tools deployed in public speaking.",
+
+"The type of audience whether it is an educated one or not will determine the level of diction the speaker will deploy.",
+
+"Delivery/presentation is the high point of the public speech event where the speaker will encounter the audience and present his speech to it.",
+
+"The type of public speaking range from speaking to inform, speaking to entertain, speaking to persuade, speaking on a special occasion.",
+
+"Points to note in public speaking include being sensitive to the situation and audience, being conscious of cultural diversity, avoiding abusive language, being prepared, being honest, rehearsing no matter how familiar the topic is, etc."
+
+],
   }
 
 };
