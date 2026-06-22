@@ -797,6 +797,63 @@ chapter10: [
 
   "Sartre is considered an atheist because his ideas opposed religious beliefs."
 ], 
+ chapter3: [
+  "There is no single definition of philosophy that is universally acceptable.",
+
+  "There are other fields of philosophical inquiry which include: Philosophy of Science, Philosophy of the Social Sciences, Philosophy of Religion, Philosophy of Law, Philosophy of Mathematics, etc.",
+
+  "Onyeocha (1995) divides philosophy into two main areas: theoretical or speculative philosophy and practical philosophy.",
+
+  "Under speculative philosophy, you have logic, general metaphysics, and special metaphysics.",
+
+  "Logic studies the processes, procedures, and order of good reasoning.",
+
+  "General metaphysics is concerned with the issue of being as being.",
+
+  "General metaphysics probes into ontology or the essence of things.",
+
+  "Philosophy defies classification since it includes Christian philosophy, Islamic philosophy, Buddhist philosophy, Hindu philosophy, African philosophy, and Chinese philosophy.",
+
+  "Onyeocha writes that practical philosophy covers ethics (moral philosophy), aesthetics (philosophy of beauty), and political philosophy.",
+
+  "One reason philosophy is difficult to define and classify is that it is concerned with all of existence and the quiddity (essence) of things.",
+
+  "For Onyeocha, metaphysics is the branch of philosophy concerned with basic issues such as reality, existence, personhood, and freedom versus determinism.",
+
+  "Parmenides claimed that Being is what exists. For him, Being is immutable, one, and timeless.",
+
+  "Heraclitus, in contrast to Parmenides, believed that change is the only constant in life and that everything is in constant flux.",
+
+  "The issue of change and permanence has been a central problem in philosophy.",
+
+  "In philosophy, a substance is what makes a thing what it is; it is the thing in itself.",
+
+  "The color, size, and height of a thing are called accidents.",
+
+  "A substance can exist on its own, but an accident cannot exist independently.",
+
+  "In the problem of essence and existence, essence is what a thing is, while existence refers to the fact that a thing exists.",
+
+  "Traditional Western philosophy holds that essence precedes existence, while existentialist philosophy argues that existence precedes essence.",
+
+  "For Thomas Aquinas, existence makes essence come into being.",
+
+  "For Kant, essence and existence are inseparable.",
+
+  "One problem of metaphysics is the problem of universals and particulars.",
+
+  "The issue of appearance and reality is a fundamental problem in philosophy because what we see with our senses may not be reality.",
+
+  "For Plato, Parmenides, Descartes, and others, the senses cannot be fully trusted as a source of knowledge.",
+
+  "For Plato, everything in this world is a mere reflection of things in the real suprasensible world.",
+
+  "Monists could not agree on the single substance that constituted the universe: Thales said water, Anaximenes said air, Anaximander said the unlimited (apeiron), and Heraclitus said fire.",
+
+  "A core task of philosophy is conceptual clarification.",
+
+  "There is no dogma in philosophy; everything can be questioned and analyzed."
+], 
   } 
 
 };
