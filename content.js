@@ -1155,6 +1155,117 @@ chapter10: [
 
   "The law of excluded middle states that every statement is either true or false."
 ]
+  chapter9: [
+  "A fallacy can be defined simply as an error in reasoning.",
+
+  "Fallacies are not meant to be persuasive, but they often are. They may be committed unintentionally or intentionally to deceive others.",
+
+  "The first known study of fallacies was carried out by Aristotle in his work 'De Sophisticis Elenchis'.",
+
+  "A formal fallacy can be detected by examining the logical form of an argument.",
+
+  "An informal fallacy depends on the content and purpose of the reasoning.",
+
+  "You commit the Ad Hominem (circumstantial) fallacy whenever you make an irrelevant attack on the arguer instead of addressing the argument.",
+
+  "The accent fallacy is a fallacy of ambiguity caused by different ways a word or phrase is emphasized.",
+
+  "An example of the accent fallacy is when a National Assembly member responds to a question about supporting a missile defense system by saying, 'I support a missile defense system that effectively defends Nigeria'.",
+
+  "Anthropomorphism is the error of attributing human qualities to non-human entities.",
+
+  "An example of anthropomorphism is: 'My dog is wagging his tail and running around me; therefore, he knows I love him.'",
+
+  "An appeal to authority occurs when a claim is supported by citing an authority rather than evidence.",
+
+  "An example of appeal to authority is believing the moon is covered in dust because a local authority figure said so.",
+
+  "The appeal to emotion fallacy occurs when an argument relies on emotional response rather than logical reasoning.",
+
+  "Appeal to emotion is similar to appeal to pity; while pity is natural, basing conclusions solely on pity is fallacious.",
+
+  "The appeal to money fallacy assumes that something is better simply because it is expensive.",
+
+  "An example of appeal to money is: 'He is rich, so he should be the president of our parents-teachers association.'",
+
+  "The fallacy of avoiding the issue occurs when a speaker goes off-topic instead of addressing the main argument.",
+
+  "The bandwagon fallacy occurs when a claim is accepted as true because many people believe it.",
+
+  "An example of bandwagon fallacy is: 'More people are buying this car, so you should buy it too.'",
+
+  "A double standard fallacy occurs when different standards are unfairly applied to similar cases.",
+
+  "An example of double standard is: hiring only those who score 70%, but allowing others from a certain area to be hired with 50%.",
+
+  "A hasty generalization occurs when a conclusion is drawn from insufficient evidence.",
+
+  "An example of hasty generalization is: 'I met two nice people in Ghana, so all Ghanaians are nice.'",
+
+  "Poisoning the well is a pre-emptive attempt to discredit a person or argument before it is presented.",
+
+  "An example of poisoning the well is referring to a witness as a convicted criminal before they testify.",
+
+  "Quibbling is a fallacy where attention is shifted to minor errors to dismiss a larger argument.",
+
+  "An example of quibbling is rejecting a poem because of typographical errors.",
+
+  "Rationalization occurs when people give false reasons to justify their actions.",
+
+  "We are rationalizing when we provide reasons that are not our true motives.",
+
+  "Inconsistency occurs when one holds contradictory beliefs at the same time.",
+
+  "An example of inconsistency is claiming not to be racist while making contradictory statements about racial groups.",
+
+  "Irrelevant conclusion occurs when an argument proves something different from what was intended.",
+
+  "Scapegoating is the unjust blaming of an individual or group for a problem.",
+
+  "Ad Hominem (circumstantial) is committed when an argument attacks a person instead of addressing their position.",
+
+  "An example of Ad Hominem is rejecting Mr. Z as president because of personal and political disputes rather than his qualifications.",
+
+  "Hasty conclusion (converse accident) occurs when a general rule is wrongly applied to a specific case.",
+
+  "An example is assuming a lecturer who is absent must have gone for personal business.",
+
+  "Amphiboly is a fallacy caused by ambiguous grammatical structure.",
+
+  "An example of amphiboly is the statement: 'Chief Omes was the president Nigeria never had; therefore, he should be honored.'",
+
+  "Argumentum ad Baculum (appeal to force) is a fallacy where force or threat is used to support a claim.",
+
+  "An example is using military power or threat to influence political decisions.",
+
+  "Argumentum ad Misericordiam (appeal to pity) is a fallacy where sympathy is used instead of evidence.",
+
+  "An example is asking for a pass mark because of illness during an exam.",
+
+  "Ignoratio Elenchi (irrelevant conclusion) is a fallacy where the conclusion does not address the original argument.",
+
+  "Non sequitur is a fallacy where the conclusion does not logically follow from the premises.",
+
+  "An example is assuming someone should be senate president simply because they are a lawyer and philosopher.",
+
+  "Argumentum ad Ignorantiam (appeal to ignorance) is a fallacy where something is assumed true because it has not been proven false.",
+
+  "Misplaced aggression is attacking an innocent person instead of the real cause of a problem.",
+
+  "The fallacy of two wrongs make a right involves justifying a wrong action because another wrong has been committed.",
+
+  "A false dilemma is a fallacy that presents limited options when more alternatives exist.",
+
+  "An example of false dilemma is claiming suicide is the only option due to life problems.",
+
+  "Provincialism is a fallacy where arguments are accepted or rejected based on group loyalty.",
+
+  "The fallacy of a small sample is a more refined version of hasty generalization.",
+
+  "Using data of differing quality is a fallacy that occurs when comparing statistical results without considering differences in methods and accuracy.",
+
+  "According to Efemini, fallacies occur due to carelessness or insufficient attention to subject matter."
+],
   } 
 
 };
