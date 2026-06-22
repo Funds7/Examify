@@ -401,7 +401,50 @@ chapter5: [
       "Automated libraries can perform the following functions which include: 1. Online Public Access Catalogue (OPAC) 2. Open Access Publication 3. Social Media Networks 4. Institutional Repositories 5. Access to Library Collections in remote places etc.",
 
       "OPAC allows the library user at the terminal to search the database to see if the library holds a particular work."
-    ]
-  }
+   ],
+  chapter8: [
+  "Information services take a variety of forms, from the simple provision of an address, tracking down an elusive bibliographic citation, and delivery of document.",
+
+  "Bibliographic instruction or user education refers to any activity/program designed to teach library users the skills required to identify, locate, retrieve, evaluate, and use information resources available in the library.",
+
+  "Selective dissemination of information is a customized reference service offered to users by academic libraries.",
+
+  "The reference librarian works closely with the potential user to ascertain his or her needs.",
+
+  "Reference services also referred to as indirect reference consist of behind the scene activities of the library in selection, acquisition, processing, maintenance of library stock, preparation, and development.",
+
+  "A reference source is any materials, published work, database, website, etc which is used to obtain authoritative information.",
+
+  "The types of reference sources include encyclopedias, dictionaries, abstracts, indexes, handbooks, yearbooks, maps and atlases, biographies, bibliographies, and government documents.",
+
+  "Encyclopedias are books that contain information on all branches of knowledge e.g. New Encyclopaedia Britannica and the Encyclopedia of the Social Sciences.",
+
+  "The dictionary may be defined as a collection of words in which each word is treated in terms of pronunciation, derivation, usage, meaning, and syllabification.",
+
+  "A directory may be defined as a list of persons or organizations, systematically arranged, usually in alphabetical or classified order, giving addresses and affiliations.",
+
+  "Abstracts present a brief summary of the content of a document in a pattern similar to that of the original document.",
+
+  "The handbook or manual serves as a handy guide to a particular subject.",
+
+  "A map is a representation, usually flat, of the earth's surface or part of it.",
+
+  "Biographical sources record the history of the lives of individuals in the society.",
+
+  "A bibliography may be defined as a list of books, manuscripts, and other items of information systematically described and arranged to ease their identification, location, retrieval, and use.",
+
+  "Documentation style can vary depending on the field of study.",
+
+  "When referencing, when a work has two authors, cite both authors. For example Akohwo and Omote (200, p.20) also observe...",
+
+  "When referencing one work by multiple authors, list all authors in the first instance; subsequent citations should be the first author followed by et al.",
+
+  "The reference list appears at the end of your report but before the appendix.",
+
+  "Examples of references for single authors include Olili, C. (2011). Examination malpractice. Abraka: DELSU Library Services.",
+
+  "Example of reference of two to seven authors include: Osakwe, P., Ofuoma, O., Otagbe R., Eku, S., & Ofogba, C. (2014)."
+]
+  } 
 
 };
