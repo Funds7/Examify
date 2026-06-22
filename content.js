@@ -645,7 +645,158 @@ chapter10: [
   "For Wiredu, the function of philosophy everywhere is to examine the intellectual foundations of life, using the best available modes of knowledge and reflection for human well-being.",
 
   "The duty of the philosopher is not to instruct, but to prod, or to be more precise, to stimulate people to think about the basic problems of existence as they affect them as individuals and as social collectives."
-]
+],
+ chapter2: [
+  "Philosophy among the Greeks emerged out of religion and myth which deals with the principles and elements of the natural world.",
+
+  "Philosophy started with a sense of curiosity and wonder in Miletus, a Greek city-state.",
+
+  "Philosophers like Thales, Anaximander, and Anaximenes were known as the Pre-Socratic philosophers; they were the first set of philosophers that ever lived.",
+
+  "The Pre-Socratic philosophers were focused on the universe; as a result, they were referred to as cosmologists.",
+
+  "The Sophists were itinerant teachers who were interested in practical issues, and few of them had patience with metaphysical speculation.",
+
+  "The Atomists, the Pluralists, and the Pythagoreans all belong to the Ancient Greek period.",
+
+  "Socrates was born in Athens, and he was regarded as one of the greatest philosophers that ever lived since he greatly influenced Western philosophy.",
+
+  "Socrates left no writings of his own; all we know about him was written by his student Plato.",
+
+  "Socrates believed that all men have knowledge embedded in them.",
+
+  "The Encyclopedia Britannica states that Socrates' life is based on two principles: (1) never to do wrong or participate, even indirectly, in wrongdoing, and (2) the belief that anyone who truly knows what is good and right cannot act against it.",
+
+  "The famous statement 'The unexamined life is not worth living' is credited to Socrates.",
+
+  "Socrates believed in a purely objective understanding of concepts such as love, virtue, and justice.",
+
+  "Socrates was charged with impiety and corrupting the youth; as a result, he was sentenced to death.",
+
+  "Plato was born into an Athenian aristocratic family and was raised in an aristocratic environment.",
+
+  "Plato founded his Academy in Athens in 388 BC after witnessing the unjust execution of his master.",
+
+  "The objective of Plato's Academy was to train potential statesmen and scientists.",
+
+  "Plato postulated two worlds: (1) the physical world we live in, and (2) the world of Forms, accessible only through the mind.",
+
+  "Plato was a dualist because he believed in the existence of two realities.",
+
+  "For Plato, man is made up of a soul divided into three parts: reason, emotion, and appetite.",
+
+  "For Plato, emotions and appetites must be controlled by reason for a person to achieve virtue, which is possible through knowledge of the Form of the Good.",
+
+  "Aristotle was born in Stagira in Northern Greece and studied in Plato's Academy in Athens at the age of 17.",
+
+  "Aristotle later founded his own school in Athens called the Lyceum.",
+
+  "Unlike Plato, Aristotle held that the form or essence of a thing exists within the object itself and not in a separate world.",
+
+  "Plato believed in rational knowledge, unlike Aristotle who emphasized empirical observation.",
+
+  "Aristotle rejected innate ideas and argued that all knowledge comes from experience and sense perception.",
+
+  "Aristotle believed that the human mind is a blank slate at birth but acquires knowledge through experience.",
+
+  "The Medieval period refers to philosophical thought developed between the 8th and 14th centuries AD.",
+
+  "Philosophy in the Medieval period was closely connected to Christian theology.",
+
+  "The chief philosophers of the Medieval period were church fathers who tried to give rational explanations to religious doctrines.",
+
+  "The main concern of Medieval philosophers was to prove the existence of God.",
+
+  "Medieval philosophers include St. Augustine, St. Anselm, St. Bonaventure, Averroes, Avicenna, St. Thomas Aquinas, William of Ockham, etc.",
+
+  "St. Augustine was born in Tagaste in North Africa, studied rhetoric, and became a professor of rhetoric in 384 AD.",
+
+  "St. Augustine became Bishop of Hippo in 396 AD.",
+
+  "For Augustine, philosophy means the knowledge of God.",
+
+  "St. Augustine did not make a strict distinction between philosophy and theology.",
+
+  "For St. Augustine, God created all things out of nothing, showing that the world is the product of God's free act.",
+
+  "For St. Augustine, the goal of man is happiness, which can only be found in God.",
+
+  "St. Augustine taught that there are two cities: the City of God and the City of Man.",
+
+  "According to St. Augustine, those who love God belong to the City of God, while those who love the world belong to the City of Man.",
+
+  "St. Thomas Aquinas was born in Rocca Secca near the town of Aquinas, between Naples and Rome, into Italian nobility.",
+
+  "St. Thomas Aquinas was taught by Albert the Great, who was famous for his knowledge of Aristotle.",
+
+  "St. Thomas Aquinas is often called the Medieval Aristotle.",
+
+  "His philosophy is called Thomism.",
+
+  "St. Thomas Aquinas' five proofs for the existence of God include motion, efficient cause, necessity, degrees of perfection, and order in the universe.",
+
+  "For Thomas Aquinas, an action is morally bad when it moves a person away from the ultimate goal, and morally good when it moves a person toward God.",
+
+  "The Modern period marked a revival of knowledge and renewed interest in learning.",
+
+  "During the Modern period, emphasis shifted from God and religion to man and science.",
+
+  "Modern philosophers include René Descartes, Benedict Spinoza, John Locke, David Hume, Immanuel Kant, and Leibniz.",
+
+  "René Descartes was born in Touraine to a councilor of the Parliament of Brittany.",
+
+  "René Descartes was a French philosopher, mathematician, and scientist.",
+
+  "René Descartes is considered the father of modern philosophy.",
+
+  "Descartes, a rationalist, believed that reason is the ultimate source of human knowledge.",
+
+  "For Descartes, reason alone guarantees certainty in knowledge.",
+
+  "René Descartes is known for the statement 'Cogito, ergo sum' meaning 'I think, therefore I am'.",
+
+  "The method by which Descartes reached this conclusion is called Cartesian doubt or methodic doubt.",
+
+  "John Locke was born at Wrington in Somersetshire.",
+
+  "John Locke was an empiricist who believed that knowledge comes from experience and that the mind is a blank slate (tabula rasa) at birth.",
+
+  "According to Bertrand Russell, John Locke is regarded as the founder of empiricism.",
+
+  "For Locke, sense experience is the main source of knowledge.",
+
+  "John Locke rejected the divine right of kings and supported natural rights such as freedom and equality.",
+
+  "The analytic trend in philosophy dominated English-speaking philosophy in the late 19th and 20th centuries.",
+
+  "The contemporary period is characterized by diverse philosophical schools of thought.",
+
+  "Contemporary philosophy includes Neo-Thomism, Pragmatism, Phenomenology, and Existentialism.",
+
+  "Existentialism is one of the most influential movements in contemporary philosophy.",
+
+  "Contemporary philosophers include Martin Heidegger, Jean-Paul Sartre, Karl Jaspers, Friedrich Nietzsche, Albert Camus, and Søren Kierkegaard.",
+
+  "Friedrich Nietzsche was a German philosopher, poet, and classical philologist born to a Protestant pastor.",
+
+  "Nietzsche was an existentialist concerned with the individual.",
+
+  "Nietzsche contributed mainly to ethics and was critical of religion.",
+
+  "Nietzsche rejected the state and traditional morality and criticized Christianity.",
+
+  "Nietzsche described Christianity as slave morality and a dangerous illusion.",
+
+  "For Nietzsche, Christian virtues like humility and meekness weaken human strength and will.",
+
+  "Nietzsche argued that 'God is dead' and called for a new 'master morality' and the creation of the 'Superman' (Übermensch).",
+
+  "Jean-Paul Sartre was born in Paris and was a French existentialist philosopher.",
+
+  "Existentialism is a philosophy that emphasizes individual existence, freedom, and choice.",
+
+  "Sartre is considered an atheist because his ideas opposed religious beliefs."
+], 
   } 
 
 };
