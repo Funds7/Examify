@@ -504,6 +504,57 @@ chapter5: [
 
   "Factors that determine what constitutes fair dealing of a copyrighted work include: 1. The amount of the original work which is taken 2. The purpose of the use of the work 3. The necessity of the use of the work etc."
 ],
+chapter10: [
+  "The library can simply be defined as a collection of books and other literary materials organized for reading, studying, and consultation.",
+
+  "In this modern era, library materials are made of books, computer systems and their accessories, library software, internet, e-books databases, compact discs, flash drives, newspapers, audio-visual materials, etc.",
+
+  "Library management is a sensitive task that has to do with overseeing the work of a library in all its relations, and planning and promoting its usefulness and services.",
+
+  "The features of a library include the books and non-book materials, the staff, and the building.",
+
+  "Books mean a collection of written papers in a manuscript or in printed forms that are of substantial length.",
+
+  "Non-book materials are those library materials which do not come within the definition of book; these include audio-visual materials, periodicals, computer systems, video recordings, etc.",
+
+  "The staff of the library are the human resources who power the library services and who ensure its effectiveness.",
+
+  "Library staff that possess university degrees such as BLS, MLS, and Ph.D in Library and Information Sciences are called professional Librarians.",
+
+  "The different types of libraries include academic libraries, public libraries, private libraries, national libraries, special libraries, and school libraries.",
+
+  "Academic libraries are those libraries that serve tertiary institutions such as universities, polytechnics, and colleges of education.",
+
+  "Public libraries are primarily established by state government to provide viable and relevant information otherwise known as library services, to the entire members of the public to serve custodial, educational, research, information and recreational needs.",
+
+  "Private libraries are libraries owned by private individuals and not supported by public funds.",
+
+  "School library refers to a library attached to primary and secondary school to enhance their curriculum, teaching, and learning.",
+
+  "The National Library is the apex library of any nation.",
+
+  "Special libraries are those libraries which serve a particular group of people such as employees of a firm, government, banks, research institutes such as the International Institute of Tropical Agriculture, etc.",
+
+  "Libraries may be organized using modern ICT facilities such as computers, appropriate software, internet, etc.",
+
+  "Traditional methods describe library materials in 3x5 cards, showing details like the author, title, and edition in the catalog cabinet.",
+
+  "The traditional mode of organizing library materials involves the following steps: 1. Pre-cataloguing or bibliographic search 2. Descriptive cataloging 3. Subject cataloging.",
+
+  "In classifying library materials, we have the following standards: 1. Library of Congress (LC) 2. Dewey Decimal Classification 3. Brown Subject Classification Scheme.",
+
+  "Library of Congress was developed by the Library of Congress in the United States of America.",
+
+  "The Library of Congress scheme uses a combination of letters and Arabic numerals to display the various fields of knowledge.",
+
+  "In searching for material, clientele should endeavor to commence by checking the card catalog.",
+
+  "The Author card shows the main entry such as the author or corporate name responsible for the production of such material.",
+
+  "The title catalog enables users to locate library materials when the title is known.",
+
+  "The subject catalog describes the content of a book, thereby making the users understand the usefulness and scope of such material."
+]  
   } 
 
 };
