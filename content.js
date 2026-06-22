@@ -299,8 +299,7 @@ chapter2:[
 "Evoker is made up of six stages namely: 1. Explore 2. Vocabulary 3. Oral Reading 4. Key Ideas 5. Evaluate 6. Recapitulation.",
 
 "The tips for effective study include: 1. Reading should be purpose-oriented 2. The essence of reading is to remember 3. Skip irrelevant materials 4. Read for ideas etc."
-
-],   
+]   
 }
 
 };
