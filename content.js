@@ -1057,7 +1057,104 @@ chapter10: [
   "The theory of human rights holds that every human being should be treated equally.",
 
   "To skeptics, human rights are unjustifiable in terms of human worth because the arguments supporting them are considered invalid."
-] 
+]' 
+  chapter8: [
+  "For philosophers to perform their work well, they are required to use correct (valid) arguments. They must be able to differentiate between valid and invalid arguments.",
+
+  "The study of the methods or principles used by philosophers to test the validity or invalidity of arguments is known as logic.",
+
+  "Logic may be defined as the art of argumentation or the science of reasoning.",
+
+  "Types of logic include: (1) Traditional (formal) logic developed by Aristotle, and (2) Symbolic or mathematical logic.",
+
+  "Traditional (formal) logic was first developed by Aristotle.",
+
+  "Formal logic is concerned with the formal and general structure of thought.",
+
+  "Formal logic is a priori in character; it deals with the form of thought and does not rely on empirical principles.",
+
+  "Syllogisms are deductive arguments consisting of three categorical propositions.",
+
+  "In syllogisms, two statements are premises while the third is the conclusion.",
+
+  "An example of a syllogism is: All men are mortal; Socrates is a man; therefore, Socrates is mortal.",
+
+  "When considering the validity of an argument, what matters is its logical form rather than the content of its statements.",
+
+  "The two main types of symbolic logic are logistics and metalogic.",
+
+  "Logistics deals with the calculus of logic.",
+
+  "Metalogic deals with the formal conditions of logical systems.",
+
+  "Metalogic includes syntax and semantics.",
+
+  "Notable figures in the development of symbolic logic include Peano, Tarski, Gödel, and Russell.",
+
+  "Logic is concerned with reasoning validly or soundly.",
+
+  "What differentiates humans from lower animals is the capacity to reason.",
+
+  "For Frank Harrison, propositions used to establish the truth or falsity of a conclusion are called premises.",
+
+  "An example of an argument is: All men are mortal; John is a man; therefore, John is mortal.",
+
+  "An argument with two premises and a conclusion is known as a syllogism.",
+
+  "Arguments consist of premises, conclusions, and inference.",
+
+  "A proposition is the meaning or idea expressed in a sentence.",
+
+  "A sentence is a combination of words arranged according to grammatical rules.",
+
+  "A proposition is either true or false and is represented in symbolic logic using letters such as P, Q, R, and S.",
+
+  "Premises are propositions that provide reasons for accepting the conclusion of an argument.",
+
+  "Indicators of premises include words such as 'since', 'because', 'for', and 'inasmuch as'.",
+
+  "Inferring is the process by which a conclusion is derived from one or more premises.",
+
+  "The conclusion is the proposition affirmed based on the premises.",
+
+  "Types of arguments include deductive and inductive arguments.",
+
+  "In deductive arguments, premises provide necessary and conclusive grounds for the conclusion.",
+
+  "In deductive logic, the terms 'valid' and 'invalid' are used instead of 'correct' and 'incorrect'.",
+
+  "A deductive argument is valid only if its premises guarantee the truth of its conclusion.",
+
+  "The premises of an inductive argument do not guarantee the truth of the conclusion.",
+
+  "In strong inductive arguments, the premises provide high support for the conclusion, while in weak inductive arguments, they provide little support.",
+
+  "Inductive reasoning moves from particular instances to general conclusions, for example: The goat seen today is black; the one seen yesterday is black; therefore, all goats are black.",
+
+  "Unlike deductive arguments, inductive arguments can be strengthened or weakened by adding more premises, for example: Most Nigerian lawyers are civil rights activists; Mudiaga Odje is a Nigerian lawyer; therefore, Mudiaga Odje is probably a civil rights activist.",
+
+  "The logician is concerned with the validity of arguments.",
+
+  "An invalid argument occurs when the premises do not provide sufficient justification for the conclusion.",
+
+  "An argument is invalid if its premises do not support its conclusion.",
+
+  "The argument: If anyone is from Nigeria, then he is African; Shehu is a Nigerian; therefore, Shehu is an African, is valid and sound.",
+
+  "Validity concerns logical form, while soundness concerns both form and truth of the content.",
+
+  "An unsound deductive argument may be valid, but its premises or conclusion may be false.",
+
+  "An example of a valid but unsound argument is: All mammals are cold-blooded; animals are mammals; therefore, some cold-blooded animals are reptiles.",
+
+  "The three laws of thought are: the law of identity, the law of non-contradiction, and the law of excluded middle.",
+
+  "The law of identity states that if a statement is true, then it is true; a thing is identical with itself.",
+
+  "The law of non-contradiction states that a statement cannot be both true and false at the same time.",
+
+  "The law of excluded middle states that every statement is either true or false."
+]
   } 
 
 };
