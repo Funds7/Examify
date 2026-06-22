@@ -977,7 +977,36 @@ chapter10: [
   "The involvement of nationalist ideological philosophers in philosophy was largely accidental.",
 
   "The nationalist ideological approach has been criticized on the grounds that many of the traditional ideas they relied on are historically inaccessible or lost."
-]
+],
+ chapter6: [
+  "Philosophy for Pythagoras is both a mere intellectual exercise and cerebral entertainment.",
+
+  "For Sodipo, philosophy is reflective and critical thinking about the concepts and principles used to organize our experience in morals, religion, social life, and political life.",
+
+  "For Ake, development is the process by which people create and recreate themselves and their life circumstances to achieve higher levels of civilization.",
+
+  "There are two classes of challenges to national development: empirical/material and mental/moral/spiritual.",
+
+  "The empirical/material challenges of national development are regarded as the tangible challenges of development.",
+
+  "The mental/moral/spiritual challenges, which are intangible, include values such as freedom, justice, human rights, liberty, and other moral indicators.",
+
+  "Immanuel Kant's deontological ethics emphasizes the priority of human dignity.",
+
+  "Consequentialism determines the moral worth of actions, policies, and events based on their outcomes.",
+
+  "Adopting a deontological standard ensures that as income per capita increases through development, the human being remains the priority.",
+
+  "Governance is one of the key factors affecting national development.",
+
+  "Political philosophy identifies and evaluates ideal forms of political existence by examining how people should behave within the state or society.",
+
+  "Social philosophy helps explain the rational and critical connection between development and culture.",
+
+  "Cultural syncretism refers to the blending or unity of values across different cultures.",
+
+  "According to Copi, the greatest benefit of logic is the recognition that reason can be applied in every aspect of human affairs."
+] 
   } 
 
 };
