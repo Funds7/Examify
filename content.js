@@ -1057,7 +1057,7 @@ chapter10: [
   "The theory of human rights holds that every human being should be treated equally.",
 
   "To skeptics, human rights are unjustifiable in terms of human worth because the arguments supporting them are considered invalid."
-]' 
+], 
   chapter8: [
   "For philosophers to perform their work well, they are required to use correct (valid) arguments. They must be able to differentiate between valid and invalid arguments.",
 
