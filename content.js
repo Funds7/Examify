@@ -1154,7 +1154,7 @@ chapter10: [
   "The law of non-contradiction states that a statement cannot be both true and false at the same time.",
 
   "The law of excluded middle states that every statement is either true or false."
-]
+],
   chapter9: [
   "A fallacy can be defined simply as an error in reasoning.",
 
