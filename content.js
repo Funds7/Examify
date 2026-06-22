@@ -1266,6 +1266,101 @@ chapter10: [
 
   "According to Efemini, fallacies occur due to carelessness or insufficient attention to subject matter."
 ],
+  chapter10: [
+  "A proposition is an assertion or sentence that has a truth value.",
+
+  "The truth value of a proposition is whether it is true or false.",
+
+  "The sentence 'Is Ngozi a Nigerian name?' is not a proposition because it does not state something that can be true or false; it is a question.",
+
+  "The sentence 'Give me the GST 102 handbook' is not a proposition because it is a command and has no truth value.",
+
+  "A proposition is either categorical or non-categorical.",
+
+  "A proposition is a statement that asserts something without reference to conditions or alternatives.",
+
+  "A proposition asserts something about another thing, showing that what it asserts is either true or false, for example: Nicholas is kind; Nicholas is not tall.",
+
+  "A non-categorical proposition is one whose truth or falsity depends on conditions or alternatives.",
+
+  "An example of a non-categorical proposition is: If Nicholas is nice, then Obi is beautiful; either Nicholas is nice or Obi is ugly.",
+
+  "An example of a hypothetical proposition is: If Nicholas is nice, then Obi is beautiful.",
+
+  "An example of a disjunctive proposition is: Either Nicholas is nice or Obi is ugly.",
+
+  "The three basic parts of a categorical proposition are the subject term, predicate term, and copula.",
+
+  "The subject term is what is being described, while the predicate term is what describes the subject.",
+
+  "The copula is the form of the verb 'to be' that links the subject and predicate.",
+
+  "A categorical proposition is formed by combining a subject and predicate using a copula, for example: Richard is humble; Anita is charming; women are kind-hearted.",
+
+  "A standard form categorical proposition contains four elements: quantifier, subject term, copula, and predicate term.",
+
+  "The most commonly used quantifiers in logic are 'all', 'some', and 'no'.",
+
+  "The quantity of a proposition refers to how much of the subject is affirmed or denied.",
+
+  "There are two types of quantity: universal and particular.",
+
+  "Universal quantity refers to propositions where all members of the subject class are considered, while particular quantity refers to only some members.",
+
+  "If the subject term is quantified by 'all' or 'no', the proposition is universal.",
+
+  "If the subject term is quantified by 'some', the proposition is particular.",
+
+  "Examples of universal propositions are: All trees are living things; No stones are automobiles.",
+
+  "Examples of particular propositions are: Some men are lovely people; Some women are not kind-hearted.",
+
+  "The quality of a proposition refers to whether it is affirmative or negative.",
+
+  "Examples of affirmative propositions are: All trees are living things; Some men are lovely people.",
+
+  "Examples of negative propositions are: No stones are automobiles; Some women are not friendly.",
+
+  "The four standard form categorical propositions are: A (universal affirmative), E (universal negative), I (particular affirmative), and O (particular negative).",
+
+  "A term is distributed if the proposition refers to every member of the class represented by that term.",
+
+  "A term is undistributed if the proposition refers only to part of the class.",
+
+  "Terms affected by 'no', 'all', or 'not' are distributed, while those affected by 'some' are undistributed.",
+
+  "An example of an A-proposition is: All men are kind.",
+
+  "An example of an E-proposition is: No men are trees.",
+
+  "An example of an I-proposition is: Some stones are men.",
+
+  "An example of an O-proposition is: Some mammals are not animals.",
+
+  "Inference is the logical process of deriving a conclusion from one or more propositions.",
+
+  "The proposition being derived is called the conclusion, while those providing support are called premises.",
+
+  "There are two types of inference: mediate and immediate.",
+
+  "Mediate inference draws a conclusion from two or more premises, while immediate inference draws a conclusion from a single premise.",
+
+  "Aristotle’s Square is also called the Square of Opposition.",
+
+  "Examples of immediate inference include conversion, obversion, and contraposition.",
+
+  "The four relationships among standard form categorical propositions are contraries, subcontraries, contradictories, and subalternation.",
+
+  "A and E propositions are contraries; if A is true, E is false.",
+
+  "O and I propositions are subcontraries; both cannot be false, but both can be true.",
+
+  "A and O propositions are contradictories, and so are E and I propositions; if one is true, the other is false.",
+
+  "Propositions are subalternates when they share the same quality; subalternation exists between A and I, and between E and O propositions.",
+
+  "Universal propositions are called superalterns, while particular propositions are called subalterns."
+]
   } 
 
 };
