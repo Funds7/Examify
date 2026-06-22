@@ -1006,6 +1006,57 @@ chapter10: [
   "Cultural syncretism refers to the blending or unity of values across different cultures.",
 
   "According to Copi, the greatest benefit of logic is the recognition that reason can be applied in every aspect of human affairs."
+], 
+ chapter7: [
+  "Etymologically, the word 'philosophy' is taken from two Greek words: 'philo' (love) and 'sophia' (wisdom).",
+
+  "According to Taylor (1957), Socrates is credited as the first thinker to use the word 'philosophy'.",
+
+  "Philosophy begins from human experience of oneself and the world around.",
+
+  "Critical philosophy seeks to analyze and clarify concepts, beliefs, and presuppositions in other disciplines.",
+
+  "Philosophy is not dogmatic; it does not accept ideas based on faith alone.",
+
+  "The following are branches of philosophy: Metaphysics, Epistemology, Ethics, Axiology, Logic, Social and Political Philosophy, Philosophy of Science, Philosophy of Law, Existentialism, Phenomenology, etc.",
+
+  "Philosophy enables us to critically interrogate issues, beliefs, and values instead of accepting them dogmatically.",
+
+  "Democracy is difficult to define because it is associated with political development and civilization.",
+
+  "The word 'democracy' is derived from two Greek words, 'demos' and 'kratos', meaning rule or sovereignty of the people.",
+
+  "The classical definition of democracy as 'rule of the people' implies that every individual should participate in the affairs of the state.",
+
+  "The principle of participation is therefore an essential defining feature of democracy.",
+
+  "Abraham Lincoln defined democracy as government of the people, by the people, and for the people.",
+
+  "Ideals associated with democracy include participation, accountability, equality, and freedom.",
+
+  "Participation in democracy is often expressed through voting in elections where citizens choose their leaders.",
+
+  "Accountability means that leaders and citizens are responsible for their actions within the society.",
+
+  "The concept of equality includes political equality, equality before the law, equality of opportunity, economic equality, and social equality.",
+
+  "Freedom refers to the ability to act without unjust restrictions.",
+
+  "The essence of freedom is its capacity to promote peace, order, and tolerance in society.",
+
+  "Democracy promotes participation, accountability, and liberty, emphasizes human rights, and upholds the principle of 'live and let live'.",
+
+  "Human rights are international norms that protect all people everywhere from political, legal, and social abuses.",
+
+  "Human rights are moral rights held by all human beings unconditionally and are based on human nature.",
+
+  "Human rights are enshrined in Chapter Four of the 1999 Constitution of the Federal Republic of Nigeria (as amended).",
+
+  "Fundamental human rights include the right to life, freedom of speech, freedom of movement, right to own property, right to self-determination, and right to human dignity.",
+
+  "The theory of human rights holds that every human being should be treated equally.",
+
+  "To skeptics, human rights are unjustifiable in terms of human worth because the arguments supporting them are considered invalid."
 ] 
   } 
 
