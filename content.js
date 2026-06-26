@@ -1599,6 +1599,111 @@ chapter1: [
   "DELSU's Counselling Unit supports the emotional well-being of students and contributes to a healthy campus environment.",
 
   "Functions of the Counselling Unit include individual counselling, group counselling, crisis intervention, psychological assessment, referrals, workshops and seminars, preventive mental health programmes, consultation, outreach and awareness, career counselling, confidentiality, online counselling, and training and development."
+    ],
+  chapter4: [
+  "Security is a condition of being free from threat or danger.",
+
+  "Security is a state of feeling secure, or freedom from fear, anxiety, anger, or doubt.",
+
+  "The primary purpose of security is to protect life and property by making it difficult for criminals to target a person or a place.",
+
+  "Some types of security challenges are food security, health security, economic security, environmental security, personal security, political security, and community security.",
+
+  "One of the greatest fears of man is that the danger which we least expected soonest comes to us.",
+
+  "Some types of health hazards are physical hazards, biological hazards, chemical hazards, and ergonomic hazards.",
+
+  "Some categories of hazards based on cause are natural hazards, human-caused or man-made hazards, and technological hazards.",
+
+  "Natural hazards are commonly called natural disasters.",
+
+  "Examples of natural hazards are extreme weather, floods, infections, diseases, and earthquakes.",
+
+  "An example of a human-caused or man-made hazard is a fire outbreak.",
+
+  "An example of a technological hazard is engine fumes.",
+
+  "Some basic safety rules include keeping emergency contact information, knowing the phone numbers of relatives and security agencies, avoiding strangers, avoiding lonely roads and shortcuts at night, and being security conscious.",
+
+  "Some basic safety rules include not sharing personal information online or on class WhatsApp groups, avoiding dangerous situations, respecting personal boundaries, avoiding unnecessary secrets, and reporting unsafe conditions to authorities.",
+
+  "Some basic safety rules include embracing pool safety, trusting your instincts, and protecting your skin and organs by drinking enough water and covering up on hot days.",
+
+  "The four states of mind that predispose individuals to safety challenges are rushing, frustration, fatigue, and complacency.",
+
+  "The three E's of safety are Evaluation, Education, and Enforcement.",
+
+  "Health hazards are biological, physical, or chemical factors in our environment that negatively impact health.",
+
+  "Some major hazards in DELSU are falls and falling objects, electrical hazards, fire hazards, chemical exposure, and repetitive motion injury.",
+
+  "Phases of emergency management include prevention, mitigation, preparedness, response, and recovery.",
+
+  "The 3C's in the emergency action plan are Check, Call, and Care.",
+
+  "Hygiene is derived from the Greek word 'hygieinos'.",
+
+  "The Greek word 'hygieinos' means healthful or relating to health.",
+
+  "Hygiene describes the practice of keeping oneself and surroundings clean to prevent illness and disease spread.",
+
+  "Types of hygiene include personal hygiene, environmental hygiene, domestic hygiene, and food hygiene.",
+
+  "Environmental hygiene creates a safe space to prevent diseases.",
+
+  "Environmental hygiene involves disinfection activities, rodent and reptile control, disinfestation, and fumigation.",
+
+  "When the environment is polluted with toxic waste or contaminants, disease outbreaks may occur.",
+
+  "Indiscriminate dumping of refuse in classrooms, gutters, or through car windows should be discouraged because it causes pollution.",
+
+  "The 'Trash D Trash' campaign introduced by Prof. Eze K. Nwangwa should be extended throughout the university to control pollution.",
+
+  "Environmental hygiene is important for the health of present and future generations.",
+
+  "The goals of the school health program are ensuring access to emergency healthcare, handling critical medical situations, monitoring screening and immunization, identifying student health problems, and providing a healthy learning environment.",
+
+  "Some common emergency situations in the university are fainting, chest pain, choking, stroke, heavy bleeding, and severe head injury.",
+
+  "Fainting may result from overcrowding, lack of food, low oxygen supply, anemia, fear, and other causes.",
+
+  "If someone faints, allow the person to lie flat, ensure adequate air supply, and manage according to the cause.",
+
+  "Chest pain may result from ordinary indigestion or a serious cardiac arrest.",
+
+  "When a person is choking and cannot cough, speak, or breathe, give five back blows followed by five abdominal thrusts until the blockage is removed.",
+
+  "When stroke is suspected, observe the F-A-S-T warning signs.",
+
+  "In the F-A-S-T warning sign, F means Face drooping.",
+
+  "In the F-A-S-T warning sign, A means Arm weakness.",
+
+  "In the F-A-S-T warning sign, S means Speech difficulty.",
+
+  "In the F-A-S-T warning sign, T means Time to get help.",
+
+  "Measures to manage emergency situations include calling emergency care, staying calm, checking for dangers, protecting victims, and assessing the situation carefully.",
+
+  "The 3P's of First Aid are Preserve life, Prevent deterioration, and Promote recovery.",
+
+  "Basic first aid steps include checking for danger, checking response, sending for help, checking airway, checking breathing, administering CPR, and using a defibrillator when necessary.",
+
+  "If the person is breathing, align the head, neck, and spine and wait for help.",
+
+  "If the person is not breathing, cardiopulmonary resuscitation (CPR) may be administered.",
+
+  "CPR is an emergency life-saving procedure that restores breathing through chest compressions and artificial ventilation.",
+
+  "Properly administered mouth-to-mouth breathing improves survival chances.",
+
+  "A defibrillator is an Automated External Defibrillator (AED).",
+
+  "A defibrillator is used by trained personnel on unconscious persons who are not breathing.",
+
+  "A defibrillator sends controlled shocks to the heart to restore a regular heartbeat.",
+
+  "Emergency preparations include keeping first aid boxes, carrying personal details, updating medical records, saving emergency contacts, knowing nearby medical clinics, having medical insurance, and updating knowledge of medical emergencies."
     ]
   }
 };
