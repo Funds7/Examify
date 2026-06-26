@@ -1516,6 +1516,89 @@ chapter1: [
   "According to DELSU's mission, the purpose of education is to promote character refinement, cultural transformation, and the ability to address contemporary challenges effectively.",
 
   "Green, Safe and Healthy Environment signifies DELSU's commitment to sustainability, safety, and well-being within its campus and surrounding areas."
+    ],
+  chapter3: [
+  "University service departments are specialized units within a university that provide various essential services to support the institution's operations, students, faculty, staff, and the broader campus community.",
+
+  "DELSU University's service departments offer a range of services essential for the effective functioning of the university.",
+
+  "DELSU University's Registry plays a crucial role in supporting the academic mission of the university and ensuring the integrity of academic records and processes.",
+
+  "Some service departments in DELSU are Registry, Bursary, Health Centre, Examination Centre, Entrepreneurship Centre, Sports Centre, Hostel Unit, ICT Unit, Student Affairs Unit, Security Unit, Quality Assurance Unit, and Counselling Unit.",
+
+  "DELSU's Registry plays a crucial role in supporting the academic mission of the university and ensuring the integrity of academic records and processes.",
+
+  "The different units in the Registry Department are Establishment, Exams and Records, Admissions Office, and Senate Division.",
+
+  "The function of the Establishment Unit is to collaborate with academic departments and other administrative units to ensure smooth operation of academic processes.",
+
+  "The Establishment Unit implements and communicates university policies related to academic matters and student affairs.",
+
+  "The Exams and Records Unit manages and maintains accurate records of student enrollment, academic progress, grades, diplomas, degree results, and transcripts.",
+
+  "The Admissions Office oversees student admissions, screening processes, and compliance with academic requirements and policies.",
+
+  "The Admissions Office provides statistical data and reports related to student enrollment and other relevant metrics.",
+
+  "The Senate Division handles requests for certificates and manages the retention and disposal of academic records and documentation.",
+
+  "DELSU's Bursary is responsible for managing the financial aspects of the institution.",
+
+  "The duties of the Bursary Department include budget management, tuition and fee collection, financial reporting, payroll processing, financial planning, procurement, financial aid and scholarships, investment management, accounting and auditing, risk management, cash management, and compliance.",
+
+  "Procurement in the Bursary Department involves purchasing goods and services while ensuring cost-effectiveness and compliance with policies.",
+
+  "Risk management in the Bursary Department involves identifying financial risks and implementing strategies to mitigate them.",
+
+  "Cash management involves overseeing cash flow, banking relationships, and ensuring availability of funds for daily operations.",
+
+  "DELSU's Health Centre is responsible for providing medical services and promoting the overall health and well-being of students and staff.",
+
+  "The Health Centre contributes to creating a healthy and supportive environment within the university community.",
+
+  "Responsibilities of the Health Centre include medical screening and registration, medical care, preventive health services, health counselling, emergency response, health promotion, immunization, health records management, collaboration on health concerns, community outreach, and support for students with chronic health conditions.",
+
+  "DELSU's Examination Centre coordinates and manages various aspects of the examination process.",
+
+  "The Examination Centre ensures the fair and efficient administration of examinations and contributes to academic integrity.",
+
+  "Duties of the Examination Centre include exam scheduling, venue setup, invigilation, logistics and materials management, accommodations, exam security, examination regulations, results processing, conflict resolution, post-exam procedures, and communication.",
+
+  "DELSU's Entrepreneurship Centre focuses on fostering entrepreneurial spirit and supporting the development of entrepreneurial skills.",
+
+  "Functions of the Entrepreneurship Centre include entrepreneurship education, access to funding, entrepreneurial events, industry partnerships, skill development, start-up incubation, networking opportunities, business planning assistance, and community engagement.",
+
+  "DELSU's Sports Centre manages and facilitates sports and physical activities on campus.",
+
+  "The Sports Centre contributes to students' holistic development through fitness, teamwork, leadership, and community engagement.",
+
+  "Duties of the Sports Centre include organizing athletic programs, maintaining sports facilities, offering fitness classes, organizing inter-university and inter-faculty sports, providing coaching and training, planning competitions, and offering sports medicine services.",
+
+  "DELSU's Hostel Unit manages student housing and ensures a safe and conducive living environment.",
+
+  "Functions of the Hostel Unit include room allocation, facility maintenance and cleanliness, security measures, enforcement of hostel regulations, student support, health and safety services, social activities, and hostel facility upkeep.",
+
+  "DELSU's ICT Unit manages and supports the institution's technology infrastructure.",
+
+  "The ICT Unit ensures technology is effectively utilized, reliable, and secure across academic and administrative activities.",
+
+  "Functions of the ICT Unit include network management, technical support, server and database management, cybersecurity, hardware and software maintenance, e-learning support, data management, information systems development, IT training, software licensing, and examination technology support.",
+
+  "DELSU's Student Affairs Unit addresses non-academic aspects of student life and supports student well-being.",
+
+  "Functions of the Student Affairs Unit include counselling, guidance, orientation programmes, student engagement, wellness programmes, housing support, international student support, advocacy, and student activities.",
+
+  "DELSU's Security Unit ensures the safety and security of students, staff, and university property.",
+
+  "Functions of the Security Unit include campus patrol, access control, emergency response, crisis management, surveillance, crime prevention programmes, investigations, crowd control, collaboration with law enforcement, parking security, lost and found management, security training, and campus escorts.",
+
+  "DELSU's Quality Assurance Unit monitors and ensures the quality of academic programmes and administrative processes.",
+
+  "Functions of the Quality Assurance Unit include assessment and evaluation, quality standards monitoring, institutional research, student feedback collection, documentation and reporting, strategic planning, and stakeholder engagement.",
+
+  "DELSU's Counselling Unit supports the emotional well-being of students and contributes to a healthy campus environment.",
+
+  "Functions of the Counselling Unit include individual counselling, group counselling, crisis intervention, psychological assessment, referrals, workshops and seminars, preventive mental health programmes, consultation, outreach and awareness, career counselling, confidentiality, online counselling, and training and development."
     ]
   }
 };
