@@ -1431,6 +1431,91 @@ chapter1: [
   "Some examples of fauna found in the biosphere are mammals, birds, reptiles, and insects.",
   "The main components of the atmosphere are oxygen, nitrogen, and carbon dioxide.",
   "The River Niger and Benin River are the major river systems present in Delta State."
+    ],
+  chapter2: [
+  "Delta State University or DELSU was established on the 30th of April, 1992.",
+
+  "Delta State University was established by the then Governor whose name is Olorogun Felix Ibru.",
+
+  "Delta State University started with 5 faculties namely: Education, Agriculture, Arts, Sciences, and Social Sciences.",
+
+  "In 1995, Oleh Campus was established for Law and Engineering.",
+
+  "In 2001, the College of Health Sciences was established.",
+
+  "On 25th February 2021, three new universities were established by Governor Ifeanyi Okowa.",
+
+  "The universities established by Ifeanyi Okowa were in Asaba, Agbor, and Ozoro.",
+
+  "DELSU Organogram and administrative structure are: The Visitor, The Chancellor, The Pro-Chancellor, The Vice-Chancellor, The Deputy Vice-Chancellors, The Provost of Oleh Campus, The Registrar, The Bursar, The University Librarian, The Deans of Faculties, The Directors, and The Heads of Departments/Units.",
+
+  "The current Governor of Delta State serves as the Visitor of DELSU.",
+
+  "The Chancellor holds an honorary position in DELSU's administrative structure.",
+
+  "The Pro-Chancellor serves as the chairman of the Governing Council.",
+
+  "The Vice-Chancellor serves as the Chief Executive Officer of DELSU.",
+
+  "The Registrar serves as the Secretary to the Council and Senate in DELSU.",
+
+  "The Bursar is responsible for managing the financial matters of DELSU.",
+
+  "The University Librarian oversees the University's library services.",
+
+  "The Deans of Faculties and the Provost of the College of Health Sciences lead the academic units in DELSU.",
+
+  "The main administrative organs of DELSU are: Governing Council, Senate, Congregation, Committees, Faculty Board Studies, Departmental Board, and Student Union Government.",
+
+  "The Pro-Chancellor serves as the Head of the Governing Council of DELSU.",
+
+  "The Senate is responsible for academic matters and policies within DELSU.",
+
+  "The Congregation in DELSU serves as a forum for academic discussions and decisions.",
+
+  "The chairpersons appointed for each committee lead the respective committees within DELSU.",
+
+  "The Deans of Faculties typically oversee the Faculty Board Studies in DELSU.",
+
+  "The Departmental Board oversees academic matters at the departmental level within DELSU.",
+
+  "The Student Union Government serves as the student governing body in DELSU.",
+
+  "Some DELSU Visitors (Governors) include Rt. Hon. Sheriff Oborevwori, Dr. Ifeanyi Okowa, Dr. Emmanuel Uduaghan, Mr. James Ibori, Navy Commodore Walter Feghabo, Col. John Dungs, and Air Commodore Ibrahim Kefas.",
+
+  "Some Vice-Chancellors of DELSU (past and present) are Prof. Andy O. Egwunyenga, Prof. Victor F. Peretomode, Prof. Eric A. Arubayi, Prof. John O. Enaohwo, Prof. Uvie A. Igun, Prof. Abednego E. Ekoko, and Prof. Pius O. Sada.",
+
+  "Some service units within DELSU are Registry, Bursary, Health Centre, Sports Department, Library, ICT Centre, Works and Services, and Security Department.",
+
+  "DELSU's official website is https://www.delsu.edu.ng.",
+
+  "The motto of DELSU is 'Knowledge, Character, and Service'.",
+
+  "Vision can be defined as the act or power of imagination.",
+
+  "Vision serves as a guide and can be used to provide a sense of purpose.",
+
+  "Delta State University's vision statement is to become a centre of excellence through quality teaching, cutting-edge research, innovation, scholarship, collaboration, partnership, community service, and dissemination of knowledge.",
+
+  "DELSU core values are Integrity, Hard Work and Entrepreneurship, Institutional Loyalty, Innovation, Gown and Town Prosperity, and Green, Safe, and Healthy Environment.",
+
+  "A mission statement is a short statement on why an organization exists, what its overall goal is, and what kind of product or service it provides.",
+
+  "Delta State University's mission is to promote quality education, character refinement, and cultural transformation to meet the challenges of our time through exemplary scholarship and professionalism.",
+
+  "According to DELSU's core values, Gown and Town Prosperity represents the mutual development and prosperity of both the university and its surrounding community.",
+
+  "DELSU aims to contribute to the global community by addressing key local, national, and international issues through education, research, and professionalism.",
+
+  "DELSU's official portal URL is https://portal.delsu.edu.ng.",
+
+  "Institutional Loyalty signifies commitment to the values, goals, and well-being of DELSU as an institution.",
+
+  "DELSU aims to achieve its vision through quality teaching, research, innovation, collaboration, partnership, community service, and knowledge dissemination.",
+
+  "According to DELSU's mission, the purpose of education is to promote character refinement, cultural transformation, and the ability to address contemporary challenges effectively.",
+
+  "Green, Safe and Healthy Environment signifies DELSU's commitment to sustainability, safety, and well-being within its campus and surrounding areas."
     ]
   }
 };
