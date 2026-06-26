@@ -1861,6 +1861,37 @@ chapter1: [
   "A personal collection may serve as a memory store, research tool, or source of leisure and inspiration.",
   "Steps to developing a personal library include choosing a location, taking stock, acquiring books, organizing the collection, and ensuring continuous growth.",
   "Benefits of being an avid reader include broader horizons, improved discipline, better memory, higher self-esteem, increased knowledge, and improved vocabulary."
+    ],
+ chapter8: [
+  "Some measurement techniques used in determining students' academic progress in DELSU are Oral Examination, Multiple Choice or Objective Test, and Essay Test.",
+  "Oral examination is utilized at final year and postgraduate examinations for seminars, teaching practice, projects, and thesis.",
+  "In Delta State University, Continuous Assessment attracts a maximum score of about 30% obtained through class attendance, assignments, tests, projects, etc.",
+  "In Delta State University, to be eligible to write an examination, a student must register for the course and record at least 79% attendance.",
+  "In Delta State University, the grades and scores are Grade A (70–100), Grade B (60–69), Grade C (50–59), Grade D (45–49), Grade E (40–44), and Grade F (0–39).",
+  "There is no magic formula for success in tests, written or oral assignments, except studying which requires hard work.",
+  "The essence of reading is to comprehend or understand fully the material.",
+  "Some effective study habits are the use of SQ3R developed by Robinson, starting study immediately after resumption, adopting overlearning and constant recitation, studying actively, and developing the will to study by setting reading goals.",
+  "Danga's outline for effective study is: Get acquainted with the library, budget your study time, determine your best study time, psyche out your teacher, read under ideal conditions, and avoid excessive anxiety at examination time.",
+  "SQ3R is a type of study habit that facilitates comprehension, internalization, retention, and retrieval of learned materials.",
+  "The 'S' in SQ3R means Survey, which means to glance over the headings in a chapter or lecture note to identify the major points.",
+  "The 'Q' in SQ3R means Question, which means turning headings into questions.",
+  "The first 'R' in SQ3R means Read, which means reading to answer the questions already raised.",
+  "The second 'R' in SQ3R means Recite, which means recalling and writing what has been learned from memory.",
+  "The third 'R' in SQ3R means Review, which means revisiting the material to fill in forgotten points.",
+  "Students should learn how to take notes correctly, particularly during classroom instruction.",
+  "During private reading, students should take down notes on what has been read.",
+  "Some methods of note-taking are paraphrasing, summarizing, verbatim recording, and abbreviation.",
+  "Position of the body when studying should not constitute strain or pain on any part of the body.",
+  "A normal reading position is usually sitting on a chair that is slightly lower than the table.",
+  "There should be no conversation or distracting noise while studying.",
+  "Students should cultivate the habit of using dictionaries, encyclopedias, and other reference guides to cross-check meanings, spellings, and pronunciations.",
+  "Students should join study groups where individuals can inspire one another.",
+  "Students should have strong motivation and set standards that improve on previous performances.",
+  "For maximum performance in examinations, students should put themselves in the best psychological, physical, emotional, and mental shape and build confidence through adequate study.",
+  "Some regulations before examinations are: report to the examination hall fifteen minutes before the examination with valid identification, do not enter after thirty minutes from the start of the examination, and do not bring personal effects, textbooks, phones, or similar materials into the hall.",
+  "Some conduct during examinations are: no candidate shall leave until thirty minutes after commencement, candidates may visit the toilet only when accompanied by an invigilator, and candidates must not leave with answer sheets or booklets.",
+  "Some conduct during examinations are: candidates must comply with instructions from the chief invigilator and rough notes should be crossed out neatly at the end of the answer booklet.",
+  "Some conduct after examinations are: review answers before submission, pray if desired after proper preparation, and never attempt to induce or bribe a lecturer after an examination."
     ]
   }
 };
