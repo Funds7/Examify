@@ -1893,5 +1893,41 @@ chapter1: [
   "Some conduct during examinations are: candidates must comply with instructions from the chief invigilator and rough notes should be crossed out neatly at the end of the answer booklet.",
   "Some conduct after examinations are: review answers before submission, pray if desired after proper preparation, and never attempt to induce or bribe a lecturer after an examination."
     ]
-  }
-};
+  },
+gst111: {
+  chapter1: [
+    "An anthem is a type of music composition usually for a full chorus with or without an orchestral accompaniment.",
+    "The regular singing of anthems in events reminds members of their identity and responsibilities within the group.",
+    "Nigeria's national anthem includes the basic civic duties of the citizens and directs some prayers to God.",
+    "A national anthem is also seen as an official musical composition that praises a country.",
+    "The National Anthem music was composed by Benedict Elide Odiase and adopted in 1978.",
+    "The Nigerian national anthem is meant to be sung by a congregation with or without instrumental accompaniment.",
+    "Singing or playing contexts of the Nigerian national anthem include military and paramilitary routines, governmental and national gatherings or assemblies, and gatherings in schools and institutions.",
+    "Officially, the etiquette of singing the Nigerian national anthem is military in nature.",
+    "Everyone must stand up and remain in the attention posture until the national anthem is over.",
+    "Direct impact of the Nigerian national anthem refers to the immediate roles and benefits derived from singing it.",
+    "Nigeria's national anthem is a veritable means of national identity.",
+    "Direct functions of the Nigerian national anthem include: indicator of governmental protocol, sign of authority for speeches of the president, governor, or ambassador, and encouraging the desire to serve the nation while uplifting national pride.",
+    "The indirect impact of the Nigerian national anthem refers to the extended roles and benefits derived from singing it.",
+    "The indirect functions of the Nigerian national anthem include: people naturally respect what they value, and the anthem binds citizens together and promotes national solidarity.",
+    "The text of the Nigerian national anthem is made up of strong statements highlighting issues of national interest.",
+    "The first stanza of the national anthem outlines a call to national service, the required attitudes to serve the nation, and acknowledges the good works of past heroes.",
+    "The second stanza is a prayer to God for solace, guidance, and help.",
+    "The Nigerian pledge presents a vow of faithfulness, loyalty, honesty in national service, defending the unity, and sustaining the honor and glory of Nigeria.",
+    "The music of the Nigerian national anthem is purely strophic in structure, meaning both stanzas are sung with the same tune.",
+    "The music of the Nigerian national anthem is in F major and simple quadruple common time.",
+    "The Nigerian Coat of Arms was adopted on May 20, 1960.",
+    "The Nigerian Coat of Arms embodies significant components that explain important features, motives, and the motto of the nation.",
+    "The Nigerian Coat of Arms serves as a national symbol of identity and authority.",
+    "The eagle in the Nigerian Coat of Arms represents strength, while the two white horses symbolize the dignity and importance of Nigeria among African nations and the world.",
+    "The white wavy Y-shaped stripe represents Rivers Niger and Benue and their confluence.",
+    "The grassy field and flowers at the base of the Coat of Arms represent the beauty of Nigeria.",
+    "The inscription 'Unity and Faith, Peace and Progress' is Nigeria's national motto.",
+    "Delta State University, Abraka was established in 1992 with a logo and motto.",
+    "The Delta State University logo is circular with a brace as its base and contains a book, water, oil rig, and tusk horn.",
+    "The Delta State University Anthem was introduced in February 2010 through the initiative of Vice-Chancellor Professor Eric Arubayi and coordinated by Professor Emurobome Idolor.",
+    "The lyrics of the Delta State University Anthem were written by Professor Emurobome Idolor.",
+    "The music of the Delta State University Anthem was composed by Dr. Joseph O. Ofosu.",
+    "The award of degrees in Delta State University is based on worthy character and learning."
+  ]
+},
