@@ -1931,4 +1931,5 @@ gst111: {
     "The award of degrees in Delta State University is based on worthy character and learning."
     ]
 }
+
 };
