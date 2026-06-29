@@ -1929,5 +1929,6 @@ gst111: {
     "The lyrics of the Delta State University Anthem were written by Professor Emurobome Idolor.",
     "The music of the Delta State University Anthem was composed by Dr. Joseph O. Ofosu.",
     "The award of degrees in Delta State University is based on worthy character and learning."
-  ]
-},
+    ]
+}
+};
