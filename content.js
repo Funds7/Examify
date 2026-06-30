@@ -2054,6 +2054,27 @@ chapter3: [
   "The Nigerian National Democratic Party (NNDP), formed in 1922, was the first political party in Nigeria.",
   "Political parties in Nigeria have often been constrained by ethnicity, regionalism, and religion, making it difficult for them to function as truly national parties.",
   "Ethnicity refers to social groupings distinguished by shared cultural identity and communal boundaries."
+],
+chapter4: [
+  "Musical arts education in Nigeria was fostered by colonialism and adopted and developed under the auspices of the churches that established mission schools.",
+  "In Nigeria, the missionaries were lovers of music; this facilitated the inclusion of music as a subject in all the mission schools established between 1842 and 1913.",
+  "The activities of the missionaries were mainly in the South, hence the neglect of the North, probably due to the strong influence of Islam in Northern Nigeria.",
+  "The pioneers of music education in Southern Nigeria, according to Adegbite (2001), include Robert Coker, who studied music in Germany in 1871, and T.K.E. Philips, who was educated in England and graduated from the School of Music in 1914.",
+  "The second generation of Nigerian music scholars and composers includes Akin Euba, Ayo Bankole, Laz Ekwueme, Samuel Akpabot, Adam Fiberesima, Ayo Dedeke, Okechukwu Ndubuisi, and others. They made a significant and lasting impact on music education in Nigeria.",
+  "The years 2000 to 2016 witnessed an increase in the inclusion of music as a discipline in tertiary institutions.",
+  "Musical arts education in the 21st century refers to the formal study of music in educational institutions against the traditional background of musical creativity.",
+  "Musical expression within the framework of classicism is guided by thoroughness and precision.",
+  "The foundation of university music education in Nigeria was strengthened by the University of Ibadan, University of Nigeria, Obafemi Awolowo University, and the University of Lagos.",
+  "Music media is one of the areas of specialization in music where music journalism is the major focus of study and project concentration.",
+  "The incorporation of musical knowledge into the media facilitates the electronic distribution and circulation of music with ease.",
+  "A graduate of music is often more relevant to media houses in the collection, packaging, presentation, and documentation of artistic programmes than many other personnel.",
+  "Creative mobility and warmth are essential prerequisites for success in the broadcasting industry.",
+  "Anchoring a talk show requires self-confidence, while anchoring a music programme on television showcases knowledge, interest, and poise.",
+  "Ensemble organization in Nigeria is diverse and includes orchestral, band, dance, African instrumental, choral, and operatic ensembles.",
+  "A notable characteristic of a band or orchestral ensemble is that it requires more than one person working together in harmony to bring the music to life.",
+  "Composition is a creative endeavour that requires proficiency on the part of the scholar who undertakes the exercise.",
+  "Rhythm, as a component of musical composition, includes frequency, duration, patterns, regular rhythm, irregular rhythm, additive rhythm, divisive rhythm, syncopation, interaction, transition, and other rhythmic structures.",
+  "Development challenges in Nigeria have been the focus of the National Economic Empowerment and Development Strategy (NEEDS)."
 ]
   }
 };
