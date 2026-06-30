@@ -2139,6 +2139,33 @@ chapter4: [
   "Belief in spirits is widespread in Nigeria, with spirits believed to dwell in trees, rocks, rivers, mountains, and other natural objects.",
   "The born-to-die spirits are called 'Ogbanje' among the Igbo and 'Abiku' among the Yoruba.",
   "The failure of any society to uphold positive norms and values leads to retrogression in its development."
+],
+  chapter6: [
+  "The word Indigenous refers to anything that is native to a particular geographical region in the world.",
+  "Indigenous religion refers to those religions that are native to particular people living in particular geographical regions of the world.",
+  "According to Thomson Gale, the characteristics of indigenous religion include: bio-regional identity, absence of sacred texts, lack of formal theologies, and non-missionary religions.",
+  "St. Augustine describes evil as 'privatio boni'; it is the absence of goodness that prevails when anything defects from the mode of being proper to it in God's creative intention.",
+  "In the biblical sense, evil is seen as a punishment or chastisement sent from God.",
+  "The five types of evil are moral evil, natural evil, metaphysical evil, pathological evil, and necessary evil.",
+  "Moral evil originates from human actions such as killing, stealing, lying, cheating, and abortion.",
+  "Sin is the theological name for moral evil.",
+  "Natural evil refers to evils resulting from natural occurrences such as earthquakes, tornadoes, floods, tsunamis, and drought.",
+  "Metaphysical evil is a term first used by Leibniz. It refers to the basic fact of finitude and limitation within the created order.",
+  "Pathological evil refers to evils associated with diseases and their effects such as suffering and death.",
+  "Necessary evil refers to actions contemplated to prevent greater evils, such as pain, infanticide, suicide, and euthanasia.",
+  "From the African worldview, evil is regarded as anything injurious, painful, hurtful, or calamitous.",
+  "The Urhobo people are located in the southern portion of the Benin Lowland in present-day Delta State, Nigeria.",
+  "The Urhobo are the largest single ethnic group in Delta State.",
+  "The core elements of Urhobo indigenous religion are the worship of Oghene (Supreme God), Edjo and Erhan (divinities), and ancestral veneration.",
+  "Among the Urhobo, anyone who commits suicide is considered to have died an evil death and is buried in the evil forest as the property of the gods.",
+  "The Yoruba people are located in Southwestern Nigeria and adjoining parts of the Republic of Benin.",
+  "In the Yoruba worldview, evil is understood as originating from or being associated with spiritual beings other than God.",
+  "In Yoruba cosmology, evil does not originate from one source but from various supernatural forces known as the Ajogun.",
+  "The Yoruba believe that non-moral evils such as earthquakes, tornadoes, and floods are consequences of human moral evil.",
+  "In Yoruba cosmology, Esu is a primordial divinity believed to perpetrate both good and evil.",
+  "Esu is regarded as the special ambassador or inspector-general who reports to Olodumare on the deeds of both divinities and humans.",
+  "In Igbo religion, Chineke or Chukwu is the Supreme Being and the focal point of worship.",
+  "Among the Igbo, evil is believed to be a product of one's Chi (personal god)."
 ]
   }
 };
