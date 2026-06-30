@@ -15,7 +15,7 @@
 
   <br>
 
-  <button onclick="startTest()">
+  <button onclick="startTest()" class="btn">
     📝 Take Chapter Test
   </button>
 
@@ -36,40 +36,26 @@ if (
   CONTENT[course][chapterKey]
 ) {
 
-  let notes = CONTENT[course][chapterKey];
+  const notes = CONTENT[course][chapterKey];
 
   let html = "";
 
-  notes.forEach((point,index)=>{
+  notes.forEach((point, index) => {
 
     html += `
       <div class="course-card">
 
-        <h3>
-          Point ${index + 1}
-        </h3>
+        <h3>Point ${index + 1}</h3>
 
-        <p>
-          ${point}
-        </p>
+        <p>${point}</p>
 
-        <div style="
-          display:flex;
-          justify-content:space-between;
-          margin-top:10px;
-        ">
+        <div style="display:flex;justify-content:space-between;margin-top:10px;">
 
-          <button>
-            🔖 Bookmark
-          </button>
+          <button>🔖 Bookmark</button>
 
-          <button>
-            📤 Share
-          </button>
+          <button>📤 Share</button>
 
-          <button>
-            🚩 Report
-          </button>
+          <button>🚩 Report</button>
 
         </div>
 
@@ -82,21 +68,22 @@ if (
 
   document.getElementById("contentArea").innerHTML = html;
 
-  document.getElementById("chapterTitle").innerHTML =
+  document.getElementById("chapterTitle").innerText =
     course.toUpperCase() + " - Chapter " + chapter;
 
-}
-else{
+} else {
+
+  document.getElementById("chapterTitle").innerText = "Chapter Not Found";
 
   document.getElementById("contentArea").innerHTML =
-    "<h3>No content available.</h3>";
+    "<h3>No content available for this chapter.</h3>";
 
 }
 
-function startTest(){
+function startTest() {
 
   window.location.href =
-    "chapter-test.html";
+    `exam.html?course=${course}&chapter=${chapter}`;
 
 }
 
