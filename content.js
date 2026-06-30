@@ -2010,8 +2010,6 @@ chapter2: [
 "In the Nupe Kingdom, only the first son born during the father's reign was heir to the throne.",
 "The Efik-speaking people inhabit the area known as Calabar.",
 "The Efik-speaking people belong to the Cross River group and are closely related linguistically to the Benue-Congo language group."
-],
-
-}
-
+]
+  }
 };
