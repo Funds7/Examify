@@ -2660,7 +2660,7 @@ chapter1: [
   "Protozoa are highly diverse organisms found almost everywhere. Examples include Amoeba proteus, Balantidium coli, Paramecium caudatum, Plasmodium, and Trypanosoma.",
   "Phylum Porifera are commonly known as sponges. Examples include Siliceous sponge, Nereis, and Virenes."
 ],
-    chapter9: [
+  chapter9: [
   "Agriculture is the oldest occupation known to mankind and had its beginning in the early ages of man and biblical times.",
   "In Nigeria, agriculture contributed about 60% to the Gross Domestic Product (GDP) between 1960 and 1970 and provided direct and indirect employment for over 70% of the population.",
   "The discovery of crude oil in the Niger Delta in 1956 and its commercial exploitation shifted attention away from agriculture due to huge capital inflows.",
