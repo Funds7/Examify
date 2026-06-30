@@ -44,6 +44,8 @@ html += `
   </div>
 `;
 
+document.getElementById("chapterList").innerHTML = html;
+
 function openChapter(id) {
 
   localStorage.setItem("course", "gst112");
@@ -51,3 +53,7 @@ function openChapter(id) {
 
   window.location.href = "learn.html";
 }
+</script>
+
+</body>
+</html>
