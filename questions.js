@@ -1,735 +1,790 @@
-const questions = [
-
-/* =========================
-   GST 101
-========================= */
-
 {
   course: "gst101",
-  question: "Communication is best defined as the process of:",
+  chapter: 1,
+  question: "Lexis and structure are also known as the study of:",
   options: [
-    "Sending and receiving messages",
-    "Writing only",
-    "Speaking only",
-    "Reading books"
+    "The word and the structure of the sentence",
+    "The paragraph and the essay",
+    "Phonetics and phonology",
+    "Literature and poetry"
   ],
   answer: 0
 },
 
 {
   course: "gst101",
-  question: "The main purpose of communication is to:",
+  chapter: 1,
+  question: "According to Huddleston, the two most basic units of grammar are:",
   options: [
-    "Confuse people",
-    "Exchange information",
-    "Increase noise",
-    "Delay understanding"
+    "The clause and the phrase",
+    "The word and the sentence",
+    "The noun and the verb",
+    "The paragraph and the essay"
   ],
   answer: 1
 },
 
 {
   course: "gst101",
-  question: "A paragraph is made up of:",
+  chapter: 1,
+  question: "The two most basic units of grammar are:",
   options: [
-    "Random words",
-    "One sentence only",
-    "Related sentences",
-    "Numbers"
-  ],
-  answer: 2
-},
-
-{
-  course: "gst101",
-  question: "The subject of a sentence is usually:",
-  options: [
-    "The action word",
-    "The doer of the action",
-    "The object",
-    "The punctuation"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "A formal letter is written to:",
-  options: [
-    "Friends only",
-    "Officials or organizations",
-    "Family members",
-    "Pets"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "Skimming means:",
-  options: [
-    "Reading slowly",
-    "Reading for detail",
-    "Reading quickly for main idea",
-    "Ignoring text"
-  ],
-  answer: 2
-},
-
-{
-  course: "gst101",
-  question: "The opposite of synonym is:",
-  options: [
-    "Verb",
-    "Antonym",
-    "Noun",
-    "Adjective"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "Which of these is a vowel?",
-  options: [
-    "B",
-    "C",
-    "A",
-    "D"
-  ],
-  answer: 2
-},
-
-{
-  course: "gst101",
-  question: "An essay is:",
-  options: [
-    "A long sentence",
-    "A short word",
-    "A written composition",
-    "A number system"
-  ],
-  answer: 2
-},
-
-{
-  course: "gst101",
-  question: "Grammar deals with:",
-  options: [
-    "Sentence structure",
-    "Mathematics",
-    "Physics",
-    "Chemistry"
+    "The word and the sentence",
+    "The clause and the phrase",
+    "The noun and the adjective",
+    "The subject and the predicate"
   ],
   answer: 0
 },
 
 {
   course: "gst101",
-  question: "A verb shows:",
+  chapter: 1,
+  question: "Morphology deals with:",
   options: [
-    "Name",
-    "Action",
-    "Place",
-    "Time"
+    "Sentence construction",
+    "Forms of words",
+    "Pronunciation",
+    "Punctuation"
   ],
   answer: 1
 },
 
 {
   course: "gst101",
-  question: "The plural of child is:",
+  chapter: 1,
+  question: "Syntax deals with:",
   options: [
-    "Childs",
-    "Childes",
-    "Children",
-    "Childrens"
+    "The forms of words",
+    "The pronunciation of words",
+    "The way words combine to form sentences",
+    "The meanings of words"
   ],
   answer: 2
 },
 
 {
   course: "gst101",
-  question: "Which is a noun?",
+  chapter: 1,
+  question: "Vocabulary refers to:",
   options: [
-    "Run",
-    "Beautiful",
-    "Happiness",
-    "Quickly"
-  ],
-  answer: 2
-},
-
-{
-  course: "gst101",
-  question: "The past tense of go is:",
-  options: [
-    "Goed",
-    "Went",
-    "Gone",
-    "Going"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "Comprehension means:",
-  options: [
-    "Writing stories",
-    "Understanding a passage",
-    "Drawing pictures",
-    "Speaking loudly"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "A sentence must have at least:",
-  options: [
-    "One word",
-    "A verb and subject",
-    "A comma",
-    "A number"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "Punctuation marks are used to:",
-  options: [
-    "Confuse readers",
-    "Structure sentences",
-    "Remove meaning",
-    "Replace words"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst101",
-  question: "A dictionary is used to find:",
-  options: [
-    "Meanings of words",
-    "Numbers",
-    "Maps",
-    "Pictures"
+    "Words and their precise dictionary meanings",
+    "Words with opposite meanings",
+    "Word pronunciation only",
+    "Sentence patterns"
   ],
   answer: 0
 },
 
 {
   course: "gst101",
-  question: "An adjective describes:",
+  chapter: 1,
+  question: "Lexis refers to words and their:",
   options: [
-    "Action",
-    "A noun",
-    "A place",
-    "A verb"
+    "Dictionary arrangement only",
+    "Pronunciation only",
+    "Connections such as synonyms, antonyms, homonyms, idioms and figurative usages",
+    "Alphabetical order only"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Words can be divided and interpreted in how many ways?",
+  options: [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
   ],
   answer: 1
 },
 
 {
   course: "gst101",
-  question: "The opposite of big is:",
+  chapter: 1,
+  question: "The spoken form of words involves ______ while the written form is the spelling of a word.",
   options: [
-    "Large",
-    "Small",
-    "Huge",
-    "Wide"
-  ],
-  answer: 1
-},
-
-/* =========================
-   GST 102
-========================= */
-
-{
-  course: "gst102",
-  question: "Entrepreneurship involves:",
-  options: [
-    "Sleeping",
-    "Starting and managing businesses",
-    "Avoiding work",
-    "Borrowing money only"
+    "Grammar",
+    "Pronunciation",
+    "Punctuation",
+    "Translation"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "A good entrepreneur should be:",
+  course: "gst101",
+  chapter: 1,
+  question: "Homophones are words that:",
   options: [
-    "Lazy",
-    "Risk-taking and innovative",
-    "Careless",
-    "Irresponsible"
+    "Have the same spelling and meaning",
+    "Are pronounced the same but have different spellings and meanings",
+    "Have opposite meanings",
+    "Have similar spellings only"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "The Nigerian national currency is:",
+  course: "gst101",
+  chapter: 1,
+  question: "Homonyms are words that:",
   options: [
-    "Dollar",
-    "Naira",
-    "Cedi",
-    "Pound"
+    "Have different pronunciations",
+    "Have the same spelling and pronunciation but different meanings",
+    "Have opposite meanings",
+    "Have different spellings but the same meaning"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "Saving money means:",
+  course: "gst101",
+  chapter: 1,
+  question: "According to Jackson, homophone, homograph and homonym are derived from:",
   options: [
-    "Spending everything",
-    "Keeping money for future use",
-    "Borrowing money",
-    "Losing money"
+    "Latin",
+    "French",
+    "Greek",
+    "English"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The term 'homograph' means:",
+  options: [
+    "The same sound",
+    "The same meaning",
+    "The same letter",
+    "The same sentence"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The term 'homophone' means:",
+  options: [
+    "The same name",
+    "The same sound",
+    "The same letter",
+    "The same word"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "A business plan is:",
+  course: "gst101",
+  chapter: 1,
+  question: "The term 'homonym' means:",
   options: [
-    "A story",
-    "A written document for business goals",
-    "A song",
-    "A phone app"
+    "The same sound",
+    "The same letter",
+    "The same name",
+    "The same sentence"
+  ],
+  answer: 2
+},
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The lexeme is also known as the:",
+  options: [
+    "Suffix",
+    "Base form of a word",
+    "Prefix",
+    "Root sentence"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "Profit is:",
+  course: "gst101",
+  chapter: 1,
+  question: "The lexeme of the words 'boy', 'boys', and 'boy's' is:",
   options: [
-    "Loss",
-    "Income minus cost",
-    "Debt",
-    "Expense only"
+    "Boys",
+    "Boy's",
+    "Boy",
+    "Boys'"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Words are studied under which branch of linguistics?",
+  options: [
+    "Syntax",
+    "Phonology",
+    "Morphology",
+    "Semantics"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A word is made up of how many principal parts?",
+  options: [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "A sole proprietorship is owned by:",
+  course: "gst101",
+  chapter: 1,
+  question: "The three principal parts of a word are:",
   options: [
-    "Government",
-    "One person",
-    "Many people",
+    "Prefix, root and suffix",
+    "Subject, verb and object",
+    "Noun, adjective and verb",
+    "Phrase, clause and sentence"
+  ],
+  answer: 0
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The root of any word is also known as the:",
+  options: [
+    "Bound morpheme",
+    "Suffix",
+    "Free morpheme",
+    "Lexical word"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The free morpheme of a word can:",
+  options: [
+    "Only appear with a prefix",
+    "Stand alone and function as a word",
+    "Only appear with a suffix",
+    "Never stand alone"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The part before the root of a word is called the:",
+  options: [
+    "Suffix",
+    "Lexeme",
+    "Prefix",
+    "Stem"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The part after the root of a word is called the:",
+  options: [
+    "Prefix",
+    "Sentence",
+    "Suffix",
+    "Clause"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is an example of an 'only root word'?",
+  options: [
+    "Re-educate",
+    "Intake",
+    "Educate",
+    "Unhappy"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is an example of a prefix plus base word?",
+  options: [
+    "Boy",
+    "Educate",
+    "Re-educate",
     "Bank"
   ],
-  answer: 1
+  answer: 2
 },
 
 {
-  course: "gst102",
-  question: "Marketing means:",
+  course: "gst101",
+  chapter: 1,
+  question: "Ebele defined register as vocabulary associated with:",
   options: [
-    "Hiding products",
-    "Promoting and selling goods",
-    "Destroying goods",
-    "Stealing goods"
+    "Poetry only",
+    "Various fields of human activity",
+    "Grammar only",
+    "Literature only"
   ],
   answer: 1
 },
 
 {
-  course: "gst102",
-  question: "Capital refers to:",
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following belongs to the register of building?",
   options: [
-    "Profit",
-    "Money used to start business",
-    "Loss",
-    "Tax"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "The internet is used for:",
-  options: [
-    "Communication and information",
-    "Sleeping",
-    "Cooking",
-    "Driving"
+    "Concrete",
+    "Cheque",
+    "Deposit",
+    "Interest"
   ],
   answer: 0
 },
 
 {
-  course: "gst102",
-  question: "Budgeting helps to:",
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following belongs to the register of banking?",
   options: [
-    "Waste money",
-    "Plan expenses",
-    "Lose money",
-    "Ignore income"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "An entrepreneur identifies:",
-  options: [
-    "Problems and opportunities",
-    "Only problems",
-    "Only risks",
-    "Only debts"
-  ],
-  answer: 0
-},
-
-{
-  course: "gst102",
-  question: "Small businesses are important because they:",
-  options: [
-    "Create jobs",
-    "Destroy economy",
-    "Reduce trade",
-    "Stop growth"
-  ],
-  answer: 0
-},
-
-{
-  course: "gst102",
-  question: "ICT stands for:",
-  options: [
-    "Internet Computer Text",
-    "Information and Communication Technology",
-    "Internal Control Tool",
-    "Integrated Coding Theory"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "Bank account helps to:",
-  options: [
-    "Hide money",
-    "Store money safely",
-    "Lose money",
-    "Spend without control"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "Inflation means:",
-  options: [
-    "Price decrease",
-    "Price increase",
-    "No change in price",
-    "Free goods"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "Trade involves:",
-  options: [
-    "Buying and selling",
-    "Sleeping",
-    "Destroying goods",
-    "Hiding money"
-  ],
-  answer: 0
-},
-
-{
-  course: "gst102",
-  question: "Risk in business means:",
-  options: [
-    "Guaranteed success",
-    "Possibility of loss",
-    "Free profit",
-    "No change"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "Innovation means:",
-  options: [
-    "Copying others",
-    "Creating new ideas",
-    "Sleeping",
-    "Avoiding work"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst102",
-  question: "Customer satisfaction means:",
-  options: [
-    "Customers are unhappy",
-    "Meeting customer needs",
-    "Ignoring customers",
-    "Raising prices"
-  ],
-  answer: 1
-},
-
-/* =========================
-   GST 103
-========================= */
-
-{
-  course: "gst103",
-  question: "ICT is used in:",
-  options: [
-    "Communication and computing",
-    "Only farming",
-    "Only sports",
-    "Only cooking"
-  ],
-  answer: 0
-},
-
-{
-  course: "gst103",
-  question: "A computer is an:",
-  options: [
-    "Animal",
-    "Electronic device",
-    "Human",
-    "Book"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst103",
-  question: "The brain of the computer is:",
-  options: [
-    "RAM",
-    "CPU",
-    "Monitor",
-    "Mouse"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst103",
-  question: "Input device is used to:",
-  options: [
-    "Show output",
-    "Enter data",
-    "Store data",
-    "Delete data"
-  ],
-  answer: 1
-},
-
-{
-  course: "gst103",
-  question: "Output device example is:",
-  options: [
-    "Keyboard",
-    "Mouse",
-    "Monitor",
-    "Scanner"
+    "Bricklayer",
+    "Scaffolding",
+    "Crossed cheque",
+    "Painter"
   ],
   answer: 2
 },
 
 {
-  course: "gst103",
-  question: "RAM is:",
+  course: "gst101",
+  chapter: 1,
+  question: "Synonyms are words that:",
   options: [
-    "Permanent memory",
-    "Temporary memory",
-    "Software",
-    "Virus"
+    "Have opposite meanings",
+    "Have almost the same meaning",
+    "Have the same spelling only",
+    "Have different pronunciations"
   ],
   answer: 1
 },
 
 {
-  course: "gst103",
-  question: "Internet is a network of:",
+  course: "gst101",
+  chapter: 1,
+  question: "Which pair of words are synonyms?",
   options: [
-    "Cars",
-    "Computers",
-    "Houses",
-    "Books"
+    "Hot and cold",
+    "Battle and conflict",
+    "Big and small",
+    "Day and night"
   ],
   answer: 1
 },
 
 {
-  course: "gst103",
-  question: "Email is used for:",
+  course: "gst101",
+  chapter: 1,
+  question: "Antonyms are:",
   options: [
-    "Sending messages electronically",
-    "Cooking",
-    "Driving",
-    "Sleeping"
+    "Words with almost the same meaning",
+    "Pairs of words opposite in meaning",
+    "Words with the same pronunciation",
+    "Words with the same spelling"
   ],
-  answer: 0
+  answer: 1
 },
-
 {
-  course: "gst103",
-  question: "Keyboard is an:",
+  course: "gst101",
+  chapter: 1,
+  question: "According to Ejiogu, an idiom is:",
   options: [
-    "Input device",
-    "Output device",
-    "Storage device",
-    "Software"
-  ],
-  answer: 0
-},
-
-{
-  course: "gst103",
-  question: "Software refers to:",
-  options: [
-    "Physical parts",
-    "Programs and instructions",
-    "Wires",
-    "Screens"
+    "A single word with many meanings",
+    "A combination of words whose meaning differs from the meanings of the individual words",
+    "A phrase with the same meaning as its individual words",
+    "A grammatical error"
   ],
   answer: 1
 },
 
 {
-  course: "gst103",
-  question: "Virus in computer means:",
+  course: "gst101",
+  chapter: 1,
+  question: "A combination of words in English is known as:",
   options: [
-    "Helpful program",
-    "Malicious software",
-    "Hardware",
-    "Internet"
+    "Collocation",
+    "Clause",
+    "Morphology",
+    "Syntax"
+  ],
+  answer: 0
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is an example of an idiom?",
+  options: [
+    "Take the bull by the horn",
+    "Read a book",
+    "Go to school",
+    "Open the door"
+  ],
+  answer: 0
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A clause consists of:",
+  options: [
+    "A noun only",
+    "A verb only",
+    "A subject noun phrase (NP) and a verb phrase (VP)",
+    "An adjective and an adverb"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is an example of a finite clause?",
+  options: [
+    "Who came here yesterday?",
+    "Running quickly",
+    "To eat food",
+    "Very beautiful"
+  ],
+  answer: 0
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "The major types of clauses are:",
+  options: [
+    "Simple and compound",
+    "Main (independent) and subordinate (dependent)",
+    "Finite and infinite",
+    "Active and passive"
   ],
   answer: 1
 },
 
 {
-  course: "gst103",
-  question: "File is:",
+  course: "gst101",
+  chapter: 1,
+  question: "A main clause is a clause that:",
   options: [
-    "Collection of data",
-    "Computer screen",
-    "Mouse",
-    "Printer"
+    "Cannot stand alone",
+    "Can stand alone",
+    "Has no verb",
+    "Has no subject"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A subordinate clause is a clause that:",
+  options: [
+    "Can stand alone",
+    "Cannot stand on its own",
+    "Is always a sentence",
+    "Contains only adjectives"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is NOT a type of finite subordinate clause?",
+  options: [
+    "Relative clause",
+    "Noun clause",
+    "Adverbial clause",
+    "Imperative clause"
+  ],
+  answer: 3
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "An example of a relative clause is:",
+  options: [
+    "Who came yesterday",
+    "Because I was sick",
+    "That John travelled yesterday",
+    "Come here"
   ],
   answer: 0
 },
 
 {
-  course: "gst103",
-  question: "Storage device example:",
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is an example of a noun clause?",
   options: [
-    "Flash drive",
-    "Keyboard",
-    "Monitor",
-    "Speaker"
+    "Because I was sick",
+    "That John travelled yesterday",
+    "Who came yesterday",
+    "Come here"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is an example of an adverbial clause?",
+  options: [
+    "Who came yesterday",
+    "That is my boy",
+    "If it rains",
+    "The boy won the prize"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A basic English sentence is divided into:",
+  options: [
+    "Subject and predicate",
+    "Noun and adjective",
+    "Verb and object",
+    "Phrase and clause"
   ],
   answer: 0
 },
 
 {
-  course: "gst103",
-  question: "Browser is used to:",
+  course: "gst101",
+  chapter: 1,
+  question: "Noun phrases function mostly as the ______ of a sentence.",
   options: [
-    "Browse the internet",
-    "Write code",
-    "Cook food",
-    "Draw pictures"
+    "Object",
+    "Predicate",
+    "Subject",
+    "Adjunct"
   ],
-  answer: 0
+  answer: 2
 },
 
 {
-  course: "gst103",
-  question: "WWW stands for:",
+  course: "gst101",
+  chapter: 1,
+  question: "Verb phrases function as the ______ of a clause.",
   options: [
-    "World Wide Web",
-    "Web World Wide",
-    "Wide World Web",
-    "Work With Web"
+    "Subject",
+    "Complement",
+    "Verb or predicator",
+    "Object"
   ],
-  answer: 0
+  answer: 2
 },
 
 {
-  course: "gst103",
-  question: "Operating system example:",
+  course: "gst101",
+  chapter: 1,
+  question: "The complement of a sentence is divided into:",
   options: [
-    "Windows",
-    "MS Word",
-    "Chrome",
-    "Excel"
+    "Subject and predicate",
+    "Complement and object",
+    "Verb and noun",
+    "Phrase and clause"
   ],
-  answer: 0
+  answer: 1
 },
 
 {
-  course: "gst103",
-  question: "Printer is used for:",
+  course: "gst101",
+  chapter: 1,
+  question: "Noun phrases and adjective phrases function mostly as:",
   options: [
-    "Printing documents",
-    "Typing",
-    "Scanning only",
-    "Browsing"
+    "Adjuncts",
+    "Complements",
+    "Subjects only",
+    "Predicates"
   ],
-  answer: 0
+  answer: 1
 },
 
 {
-  course: "gst103",
-  question: "Data means:",
+  course: "gst101",
+  chapter: 1,
+  question: "Adverb phrases and prepositional phrases function mainly as:",
   options: [
-    "Raw facts",
-    "Final report",
-    "Computer game",
-    "Internet"
+    "Objects",
+    "Complements",
+    "Adjuncts",
+    "Subjects"
   ],
-  answer: 0
+  answer: 2
 },
 
 {
-  course: "gst103",
-  question: "Information is:",
+  course: "gst101",
+  chapter: 1,
+  question: "How many types of clauses are there in English?",
   options: [
-    "Processed data",
-    "Raw data",
-    "Hardware",
-    "Virus"
+    "Two",
+    "Three",
+    "Four",
+    "Five"
   ],
-  answer: 0
+  answer: 2
 },
 
 {
-  course: "gst103",
-  question: "ICT helps in:",
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is NOT one of the four types of English clauses?",
   options: [
-    "Faster communication",
-    "Slowing work",
-    "Destroying data",
-    "Stopping learning"
+    "Declarative",
+    "Imperative",
+    "Interrogative",
+    "Comparative"
+  ],
+  answer: 3
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A declarative clause is also known as the:",
+  options: [
+    "Marked type",
+    "Unmarked type",
+    "Dependent type",
+    "Complex type"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is a declarative clause?",
+  options: [
+    "Come here.",
+    "The man is old.",
+    "Is the man tall?",
+    "How careful you are!"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A declarative clause always ends with a:",
+  options: [
+    "Question mark",
+    "Exclamation mark",
+    "Comma",
+    "Full stop"
+  ],
+  answer: 3
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "An interrogative clause is a clause that:",
+  options: [
+    "Expresses surprise",
+    "Requires an answer",
+    "Gives a command",
+    "Makes a statement"
+  ],
+ answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "According to Adejare, the sentence is:",
+  options: [
+    "The smallest grammatical unit",
+    "The largest grammatical unit",
+    "A type of phrase",
+    "A type of morpheme"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A main clause standing alone is known as a:",
+  options: [
+    "Compound sentence",
+    "Complex sentence",
+    "Simple sentence",
+    "Fragment"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A compound sentence consists of:",
+  options: [
+    "One main clause only",
+    "Two or more main clauses joined by a coordinating conjunction",
+    "One main clause and one subordinate clause",
+    "Only subordinate clauses"
+  ],
+  answer: 1
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "Which of the following is a coordinating conjunction?",
+  options: [
+    "Because",
+    "Although",
+    "And",
+    "If"
+  ],
+  answer: 2
+},
+
+{
+  course: "gst101",
+  chapter: 1,
+  question: "A complex sentence consists of:",
+  options: [
+    "One or more main clauses and one or more subordinate clauses",
+    "Only one clause",
+    "Two noun phrases",
+    "Only imperative clauses"
   ],
   answer: 0
-}
-
-];
+},
