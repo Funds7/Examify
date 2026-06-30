@@ -2934,5 +2934,120 @@ gst113: {
   "The Associated Gas Reinjection Act, passed in 1979 and effective from 28 September 1979, requires every oil and gas-producing company in Nigeria to submit preliminary and detailed gas reinjection programmes.",
   "Other laws enacted by the National Assembly to regulate the use of natural resources and promote sustainability include the Sea Fisheries Act Cap 404 LFN 1990, the Navigable Waterways (Declaration) Act Cap 287 LFN 1990, and the Land Use Act."
 ]
+  },
+  gst114: {
+chapter1: [
+  "Language can bring together people of diverse cultures and civilizations.",
+  "The first advantage of learning French as a first-contact learner is the development of self-confidence, especially in a bilingual English–French environment.",
+  "First-contact French learners in disciplines such as Natural Sciences, Agriculture, Biology, Botany, Chemistry, Horticulture, etc., should learn to think outside the box in order to create and innovate.",
+  "With a satisfactory knowledge of the French language, one can become a problem solver.",
+  "First-contact French learners need to develop the habit of listening carefully to the sounds of French words and expressions.",
+  "French words are not always pronounced the way they are written; therefore, learners must pay close attention to pronunciation.",
+  "The advantages of careful listening include: clear understanding of every word pronounced by the teacher, increased interest in the lesson, and active participation in class.",
+  "Reading is the oral realization of the sounds of words arranged in sequence to convey meaning.",
+  "Spontaneity is the major characteristic of speaking skills, as it encourages French learners to begin expressing themselves.",
+  "Students who can communicate effectively in French have a greater advantage over those who cannot in today's job market.",
+  "The French saying 'Qui ne dit rien n'écrit rien' means 'Who says nothing has nothing to write.'",
+  "For greetings: 'Bonjour' and 'Bonsoir Monsieur/Madame Edet' mean 'Good morning' and 'Good evening Mr./Mrs. Edet' respectively.",
+  "For wishes: 'Joyeux Noël' means 'Merry Christmas,' while 'Bonnes Pâques' means 'Happy Easter.'",
+  "For needs: 'Eguono aime parler' means 'Eguono wants to speak.'",
+  "For direction: 'Où est Abuja ?' means 'Where is Abuja?' while 'Abuja est au nord du Nigeria' means 'Abuja is in the North of Nigeria.'"
+],
+
+chapter2: [
+  "An alphabet is a set of letters or other characters used to write one or more languages, usually arranged in a customary order.",
+  "The French alphabet is made up of 26 letters.",
+  "In the letters 'Aa,' the uppercase letter is called 'lettre majuscule' while the lowercase letter is called 'lettre minuscule.'",
+  "In French, some letters are vowels ('les voyelles') while the others are consonants ('les consonnes').",
+  "There are 36 sounds (phonemes) in French, consisting of 16 vowels, 17 consonants, and 3 semi-consonants.",
+  "Most consonants at the end of French words are silent. Examples include: état, poulet, mot, départ, sujet, lit, petit, Paris, français, propos, and bras.",
+  "In French, final letters such as c, r, f, l, and b are usually pronounced in words such as sac, avec, parc, pur, soif, neuf, table, and souffle.",
+  "The letters b, d, f, g, k, n, s, t, v, and z are generally pronounced similarly to their English counterparts. Examples include: bœuf, dame, garçon, klaxon, nez, soie, and voiture.",
+  "French speakers are generally more formal when addressing one another than Nigerians. Among friends, the informal greeting 'Salut' is commonly used.",
+  "The verb 'Aller' means 'to go.'"
+],
+
+chapter3: [
+  "The statement 'A family is one social unit which comprises a father, mother, and children living together under the same roof' in French is: 'La famille est l'ensemble des personnes apparentées vivant sous le même toit.'",
+  "The statement 'This type of social unit is common particularly in the Western world' in French is: 'Une famille se compose du père, de la mère et des enfants, en particulier chez les Occidentaux.'",
+  "The statement 'In Africa, in general, a family is made up of the father, the mother, the children, and the extended family members' in French is: 'En Afrique en général, la famille se compose du père, de la mère, des enfants et de la famille étendue.'",
+  "The statement 'Consequently, in the African context, a family is large' in French is: 'Néanmoins, il y a des familles consistant seulement d'un parent et ses enfants.'",
+  "For pleasantries in French: 'Bonne chance' means 'Good luck,' 'Bon voyage' means 'Safe journey,' and 'Bon appétit' means 'Have a nice meal.'",
+  "When the letter 's' occurs between two vowels, it is pronounced as /z/. For example, 'les enfants' is pronounced 'lez enfants.'"
+],
+
+chapter4: [
+  "Some French words indicating direction include: 'À' meaning 'to/at,' 'dans' meaning 'in,' 'de' meaning 'from/of,' 'avec' meaning 'with,' 'sans' meaning 'without,' and 'devant' meaning 'in front of.'",
+  "The best way to determine the meaning of a French word is by understanding it within the context of a sentence and its relationship with other words.",
+  "The verb 'Aller' is an irregular verb. Some of its conjugations are: 'Je vais' (I go), 'Tu vas' (You go), 'Il va' (He goes), and 'Nous allons' (We go).",
+  "The word 'Où' simply means 'Where.'",
+  "'Où vais-je ?' means 'Where am I going?'",
+  "'Où vas-tu ?' means 'Where are you going?'",
+  "Some useful French directional phrases include: 'À gauche' (To your left), 'À droite' (To your right), 'La rue suivante' (The next street), and 'À la bibliothèque' (To the library)."
+],
+    chapter5: [
+  "Names of continents in French include: 'l'Afrique' (Africa), 'l'Asie' (Asia), 'l'Amérique' (America), 'l'Afrique du Nord' (North Africa), 'la Tunisie' (Tunisia), 'la Mauritanie' (Mauritania), etc.",
+  "'He is an African' in French is written as 'Il est Africain.'",
+  "'She is an African' in French is written as 'Elle est Africaine.'",
+  "For adjectives: in French, 'Algérien/Algérienne' means 'Algerian' in English.",
+  "For adjectives: in French, 'Sierra-Léonais/Sierra-Léonaise' means 'Sierra Leonean' in English.",
+  "For adjectives: in French, 'Thaïlandais/Thaïlandaise' means 'Thai' in English."
+],
+
+chapter6: [
+  "French numbers include: 1 = Un, 2 = Deux, 3 = Trois, 4 = Quatre, 5 = Cinq, 6 = Six, 7 = Sept, 8 = Huit, 9 = Neuf, 10 = Dix, 11 = Onze, 12 = Douze, 13 = Treize, 14 = Quatorze, 15 = Quinze, 16 = Seize, 17 = Dix-sept, etc.",
+  "French numbers also include: 20 = Vingt, 30 = Trente, 40 = Quarante, 50 = Cinquante, 60 = Soixante, 70 = Soixante-dix, 80 = Quatre-vingts, 90 = Quatre-vingt-dix, etc.",
+  "French numbers also include: 100 = Cent, 200 = Deux cents, 300 = Trois cents, 400 = Quatre cents, 500 = Cinq cents, 600 = Six cents, 700 = Sept cents, 800 = Huit cents, 900 = Neuf cents, and 1000 = Mille.",
+  "French numbers also include: 2000 = Deux mille, 3000 = Trois mille, 4000 = Quatre mille, 5000 = Cinq mille, 6000 = Six mille, 7000 = Sept mille, 8000 = Huit mille, 9000 = Neuf mille, and 10,000 = Dix mille.",
+  "'Ça coûte combien ?' means 'How much does it cost?'",
+  "'Quel est le prix de ces tomates ?' means 'What is the price of these tomatoes?' or 'How much are these tomatoes?'"
+],
+
+chapter7: [
+  "The plural of most French nouns is formed by adding 's' to the singular form. For example: 'La maison' becomes 'Les maisons' and 'Le patron' becomes 'Les patrons.'",
+  "In French, nouns ending in 's', 'x', or 'z' do not change in the plural. For example: 'Le pois' becomes 'Les pois' (pea/peas), and 'La croix' becomes 'Les croix' (cross/crosses).",
+  "In French, many nouns ending in '-al' change to '-aux' in the plural. For example: 'Le canal' becomes 'Les canaux' (canal/canals), and 'Le journal' becomes 'Les journaux' (newspaper/newspapers).",
+  "In French, nouns ending in '-au', '-eau', or '-eu' usually take an 'x' in the plural. For example: 'Le noyau' becomes 'Les noyaux' (stone/stones), 'Le manteau' becomes 'Les manteaux' (coat/coats), and 'Le jeu' becomes 'Les jeux' (game/games).",
+  "In French, many nouns ending in '-ou' take an 'x' in the plural. For example: 'Le bijou' becomes 'Les bijoux' (jewel/jewels), 'Le caillou' becomes 'Les cailloux' (pebble/pebbles), and 'Le chou' becomes 'Les choux' (cabbage/cabbages).",
+  "Demonstrative adjectives are used to indicate or point out a person, animal, or object. In French, the singular forms are 'ce', 'cet', and 'cette', while the plural form is 'ces'. For example: 'Ce jardin' becomes 'Ces jardins' in the plural."
+],
+    chapter8: [
+  "The days of the week in French are: Monday = Lundi, Tuesday = Mardi, Wednesday = Mercredi, Thursday = Jeudi, Friday = Vendredi, Saturday = Samedi, and Sunday = Dimanche.",
+  "The months of the year in French are: January = Janvier, February = Février, March = Mars, April = Avril, May = Mai, June = Juin, July = Juillet, August = Août, September = Septembre, October = Octobre, November = Novembre, and December = Décembre.",
+  "'It is 2:00 p.m.' in French is 'Il est quatorze heures,' while 'It is 11:20 p.m.' is 'Il est vingt-trois heures vingt.'",
+  "'It is 10:25 a.m.' in French is 'Il est dix heures vingt-cinq,' while 'It is ten minutes to seven' is 'Il est sept heures moins dix.'",
+  "'À quelle heure ?' means 'At what time?'",
+  "'Est-ce qu'on peut prendre le petit déjeuner ?' means 'Can we have breakfast?'",
+  "'Qu'est-ce que vous faites dans la vie ?' means 'What do you do for a living?'",
+  "In French, 'Coup de foudre' means 'Love at first sight.'",
+  "In French, 'Coup d'État' means 'An illegal and usually violent change of government.'"
+],
+
+chapter9: [
+  "'Une réservation' means 'A reservation,' 'La nationalité' means 'Nationality,' 'Décoller' means 'To take off,' and 'Atterrir' means 'To land.'",
+  "In French, 'À la douane' means 'At customs,' while 'La déclaration de douane' means 'Customs declaration.'",
+  "In French, 'Le personnel volant' means 'Cabin crew,' while 'Monter à bord' means 'To go on board.'",
+  "In French, 'Passer à l'immigration' means 'To go through immigration,' while 'Récupérer les bagages' means 'To collect or pick up the luggage.'",
+  "In French, 'Du café sans lait' means 'A cup of coffee without milk,' while 'Qu'est-ce que vous mangez ?' means 'What would you like to eat?'",
+  "In French, 'À votre service' means 'At your service.'"
+],
+
+chapter10: [
+  "Language has the ability to bring together people of diverse cultures and civilizations.",
+  "The first advantage of learning French as a first-contact learner is the development of self-confidence, especially in a bilingual English–French environment.",
+  "First-contact French learners in disciplines such as Natural Sciences, Agriculture, Biology, Botany, Chemistry, Horticulture, etc., should learn to think outside the box in order to create and innovate.",
+  "With a satisfactory knowledge of the French language, one can become a problem solver.",
+  "First-contact French learners need to develop the habit of listening carefully to the sounds of French words and expressions.",
+  "French words are not always pronounced the way they are written; therefore, learners must pay close attention to pronunciation.",
+  "The advantages of careful listening include: clear understanding of every word pronounced by the teacher, increased interest in the lesson, and active participation in class.",
+  "Reading is the oral realization of the sounds of words arranged in sequence to convey meaning.",
+  "Spontaneity is the major characteristic of speaking skills, as it encourages French learners to begin expressing themselves.",
+  "Students who can communicate effectively in French have a greater advantage over those who cannot in today's job market.",
+  "The French saying 'Qui ne dit rien n'écrit rien' means 'Who says nothing has nothing to write.'",
+  "For greetings: 'Bonjour' and 'Bonsoir Monsieur/Madame Edet' mean 'Good morning' and 'Good evening Mr./Mrs. Edet' respectively.",
+  "For wishes: 'Joyeux Noël' means 'Merry Christmas,' while 'Bonnes Pâques' means 'Happy Easter.'",
+  "For needs: 'Eguono aime parler' means 'Eguono wants to speak.'",
+  "For direction: 'Où est Abuja ?' means 'Where is Abuja?' while 'Abuja est au nord du Nigeria' means 'Abuja is in the North of Nigeria.'"
+]
   }
 };
