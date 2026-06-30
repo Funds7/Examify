@@ -44,18 +44,10 @@ html += `
   </div>
 `;
 
-document.getElementById("chapterList").innerHTML = html;
-
 function openChapter(id) {
 
-  localStorage.setItem("course", "gst112"); // change to gst101, gst102, etc.
+  localStorage.setItem("course", "gst112");
   localStorage.setItem("chapter", id);
 
   window.location.href = "learn.html";
 }
-  window.location.href = "learn.html";
-}
-</script>
-
-</body>
-</html>
