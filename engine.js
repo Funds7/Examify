@@ -1,13 +1,9 @@
 let params = new URLSearchParams(window.location.search);
 
 let course = params.get("course");
-let chapter = Number(params.get("chapter"));
 
-// Load questions for selected course and chapter
-let questions = QUESTIONS.filter(q =>
-    q.course === course &&
-    q.chapter === chapter
-);
+// Load ALL questions for selected course
+let questions = QUESTIONS.filter(q => q.course === course);
 
 // Shuffle questions
 questions = questions.sort(() => Math.random() - 0.5);
@@ -19,7 +15,7 @@ let review = [];
 // No questions found
 if (questions.length === 0) {
     document.getElementById("question-box").innerHTML =
-        "<h3>No questions found for this chapter.</h3>";
+        "<h3>No questions found for this course.</h3>";
 }
 
 /* =========================
@@ -143,7 +139,6 @@ function finishExam() {
     localStorage.setItem("score", score);
     localStorage.setItem("total", questions.length);
     localStorage.setItem("course", course);
-    localStorage.setItem("chapter", chapter);
 
     window.location.href = "result.html";
 
@@ -171,7 +166,7 @@ let timer = setInterval(() => {
     let sec = time % 60;
 
     document.getElementById("timer").innerText =
-        `⏰ ${min}:${sec.toString().padStart(2,"0")}`;
+        `⏰ ${min}:${sec.toString().padStart(2, "0")}`;
 
 }, 1000);
 
