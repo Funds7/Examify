@@ -2277,5 +2277,1782 @@ const QUESTIONS = [
       "Articulation"
     ],
     answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to Anderson (2006), reading is defined as the process of:",
+    options: [
+      "constructing meaning from written texts",
+      "memorizing lists of technical words",
+      "analyzing the grammar of a passage",
+      "checking spelling and punctuation errors"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Who sees reading as the process of constructing meaning from written texts?",
+    options: [
+      "Stebbins (2011)",
+      "Anderson (2006)",
+      "Francis Pleasant Robinson (1946)",
+      "Walter Paul (1962)"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "How does Stebbins (2011) define reading?",
+    options: [
+      "As a process of pronouncing words out loud to improve speech",
+      "As a complex cognitive process of decoding symbols(words) to construct or derive meaning",
+      "As wide coverage of texts without a deep focus on details",
+      "As a method designed specifically for studying literature"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which researcher defines reading as a complex cognitive process of decoding symbols (words) to construct or derive meaning?",
+    options: [
+      "Anderson (2006)",
+      "Stebbins (2011)",
+      "Walter Paul (1962)",
+      "Unoh"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to the notes, reading involves the mastery of interrelated functions which include understanding how phonemes are connected to:",
+    options: [
+      "print",
+      "speech organs",
+      "syllables",
+      "accents"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Along with identifying the letters of the alphabet, the interrelated functions of reading include a recognition of the differences in:",
+    options: [
+      "printed symbols",
+      "medical diagnoses",
+      "oral presentations",
+      "vocalizations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which medical factors could be responsible for deficiency in reading according to the notes?",
+    options: [
+      "Dyslexia and aphasia",
+      "Pointing and vocalization",
+      "Regression and sub-vocalization",
+      "Skimming and scanning"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to Point 4, dyslexia and aphasia are classified as:",
+    options: [
+      "Bad studying habits",
+      "Medical factors responsible for reading deficiency",
+      "Kinds of intensive reading",
+      "Stages of study methods"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is dyslexia according to the notes?",
+    options: [
+      "A disorder caused by damage to the left part of the brain that controls language acquisition",
+      "A reading disability linked to the brain characterized by difficulty in recognizing and getting meaning from printed text",
+      "A habit of pointing at words while reading",
+      "The process of rapidly moving the eyes over a text to get main ideas"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is a key characteristic of dyslexia as mentioned in Point 5?",
+    options: [
+      "Total loss of speech production",
+      "Difficulty in recognizing and getting meaning from printed text",
+      "Reading words word-by-word with the mouth",
+      "Speed-reading a familiar text"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is aphasia?",
+    options: [
+      "A reading disability characterized by pointing to words",
+      "A disorder caused by damage to the left part of the brain which controls the ability to acquire, learn, and use language",
+      "A technique for studying prose, poetry, and drama",
+      "The amount of text a reader can perceive at a single glance"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Damage to which part of the brain causes aphasia and affects the ability to acquire, learn, and use language?",
+    options: [
+      "The right part",
+      "The left part",
+      "The visual cortex only",
+      "The cerebellum"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which of the following is listed as a reading problem associated with bad reading and studying habits?",
+    options: [
+      "Vocalization, regression, pointing to words, and head movement",
+      "Skimming, scanning, and proofreading",
+      "Surveying, questioning, and reciting",
+      "Exploring, evaluating, and oral reading"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Pointing to words, poor vocabulary, and inflexible reading are associated with:",
+    options: [
+      "Bad reading and studying habits",
+      "Advanced linguistic proficiency",
+      "Medical brain damage",
+      "Effective skimming techniques"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "How do readers who vocalize read?",
+    options: [
+      "With their mouths",
+      "At a very high speed",
+      "Only in a quiet room",
+      "Without looking at printed symbols"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to the notes, reading with the mouth is known as:",
+    options: [
+      "Vocalization",
+      "Regression",
+      "Skimming",
+      "Revision reading"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is regression in reading?",
+    options: [
+      "Rereading a word, phrase or sentence out of habit, rather than necessity for comprehension",
+      "Scanning a text for a specific fact",
+      "Moving the head from left to right while reading",
+      "Reading words singly and in isolation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "When a reader rereads a word, phrase, or sentence out of habit rather than for comprehension, they are experiencing:",
+    options: [
+      "Sub-vocalization",
+      "Regression",
+      "Critical reading",
+      "Recognition span"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "How do bad readers tend to see words?",
+    options: [
+      "In large conceptual groups",
+      "Singly and in isolation",
+      "Only when pointing to them with a pen",
+      "In a chronological order of events"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Seeing words singly and in isolation is a characteristic of:",
+    options: [
+      "Bad readers",
+      "Critical readers",
+      "Efficient skimmers",
+      "Extensive readers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What are the effects of pointing at words while reading?",
+    options: [
+      "It drastically reduces speed, limits comprehension, and distorts meaning relations",
+      "It increases reading efficiency and improves recognition span",
+      "It guarantees perfect memory of technical vocabulary",
+      "It activates the left part of the brain during revision"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to Point 11, which bad habit distorts the meaning relations that exist between words in a passage?",
+    options: [
+      "Pointing at words",
+      "Regression",
+      "Inflexible reading",
+      "Extensive reading"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is recognition span?",
+    options: [
+      "The amount of written text that a reader is capable of perceiving at a glance",
+      "The time it takes to read a complete paragraph",
+      "The number of grammatical mistakes corrected in a publication",
+      "The physical distance between the reader's eyes and the book"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "The amount of written text perceived at a glance is known as:",
+    options: [
+      "Sub-vocalization",
+      "Recognition span",
+      "Inflexible reading",
+      "Extensive reading"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which of the following contains kinds of reading listed in the notes?",
+    options: [
+      "Skimming, scanning, proofreading, revision reading, extensive, intensive, and critical reading",
+      "Vocalization, regression, pointing, and sub-vocalization",
+      "Dyslexia, aphasia, and neurological brain damage",
+      "Survey, question, recite, and review"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Extensive and intensive reading, as well as critical reading, are examples of:",
+    options: [
+      "Study stages",
+      "Kinds of reading",
+      "Bad reading habits",
+      "Evaluation methods"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is skimming?",
+    options: [
+      "A method of rapidly moving the eyes over text to get only the main ideas and a general overview of the content",
+      "A method to locate a specific fact or piece of information",
+      "Reading a document to eliminate spelling and punctuation errors",
+      "Reading to confirm knowledge that is previously known"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which method of reading involves rapidly moving the eyes over text to get only the main ideas and a general overview?",
+    options: [
+      "Scanning",
+      "Skimming",
+      "Intensive reading",
+      "Proofreading"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is scanning used for according to the notes?",
+    options: [
+      "To rapidly cover a great deal of materials to locate a specific fact or piece of information",
+      "To get only the main ideas and a general overview of the content",
+      "To read with the mouth out of habit",
+      "To study literature like prose, poetry, and drama"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "When a reader rapidly covers a great deal of material specifically to find a single fact or piece of information, they are using:",
+    options: [
+      "Skimming",
+      "Scanning",
+      "Revision reading",
+      "Sub-vocalization"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What does proofreading involve according to the notes?",
+    options: [
+      "Carefully reading and rereading a document intended for publication or a thesis to eliminate spelling, punctuation, or grammatical errors",
+      "Rapidly moving the eyes over text to get only main ideas",
+      "Rereading a word or sentence out of a bad habit",
+      "Studying literature using six key stages"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Proofreading is specifically done to eliminate:",
+    options: [
+      "Specific facts and details",
+      "Spelling, punctuation, or grammatical errors",
+      "Deep examinations of claims",
+      "Oral reading and vocabulary lists"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is the purpose of revision reading?",
+    options: [
+      "To confirm knowledge that is previously known, usually in a material familiar to the reader",
+      "To identify new grammar rules in an unfamiliar text",
+      "To locate a specific fact or piece of information",
+      "To criticize the claims made by an author"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Reading that is undertaken in familiar material to confirm previously known knowledge is called:",
+    options: [
+      "Revision reading",
+      "Extensive reading",
+      "Proofreading",
+      "Critical reading"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is extensive reading geared towards?",
+    options: [
+      "Wide coverage of a text",
+      "Detailed analysis of words and phrases",
+      "Finding spelling and punctuation errors",
+      "Studying poetry and drama structures"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which kind of reading is focused on wide coverage of a text?",
+    options: [
+      "Intensive reading",
+      "Extensive reading",
+      "Scanning",
+      "Proofreading"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to the notes, when does intensive reading occur?",
+    options: [
+      "When the learner is focused on the language rather than the text",
+      "When the reader is trying to cover as many pages as possible",
+      "When the reader reads with their mouth out of habit",
+      "When a document is read to eliminate publishing errors"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "During intensive reading, the learner focuses on:",
+    options: [
+      "The language rather than the text",
+      "Quickly locating a specific date",
+      "Rereading sentences out of bad habit",
+      "Broad and wide coverage of several books"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What relationships are focused on during intensive reading?",
+    options: [
+      "The relationship between words, phrases, sentences and how they combine to realize the message of the text",
+      "The connection between the left brain and dyslexia symptoms",
+      "The relationship between the PQRST and SQ3R study steps",
+      "The differences between prose and poetry features"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Intensive reading focuses on how words, phrases, and sentences combine to:",
+    options: [
+      "realize the message of the text",
+      "eliminate spelling errors",
+      "increase the recognition span",
+      "build a graphical outline of a book"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What is critical reading?",
+    options: [
+      "A form of reading that does not take the given text at face value and involves a deeper examination of the writer's claims",
+      "A rapid search for specific facts using eye movements",
+      "Reading familiar material to confirm known facts",
+      "A method developed strictly to eliminate punctuation mistakes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which form of reading involves a deeper examination of the writer's claims and does not take the text at face value?",
+    options: [
+      "Intensive reading",
+      "Critical reading",
+      "Extensive reading",
+      "Revision reading"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to the notes, what does critical reading examine and attempt to provide?",
+    options: [
+      "It examines arguments and attempts to provide possible counterarguments",
+      "It examines letter recognition and provides phonemic lists",
+      "It examines printing errors and provides corrections",
+      "It examines literature types and provides stages"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Attempting to provide possible counterarguments to a writer's claims is a feature of:",
+    options: [
+      "Proofreading",
+      "Critical reading",
+      "Revision reading",
+      "Skimming"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which of the following lists the components of the SQ3R study method based on the notes?",
+    options: [
+      "Survey, question, read, recite, and review",
+      "Preview, Question, Read, Summary, and Test",
+      "Survey, Study-read Speed-read, Recite, Review, and Reflect",
+      "Explore, Vocabulary, Oral reading, Key Ideas, Evaluate, Recapitulation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What do the letters in the PQRST study method stand for?",
+    options: [
+      "Preview, Question, Read, Summary, and Test",
+      "Preview, Question, Read, Recite, and Review",
+      "Survey, Question, Read, Recite, and Review",
+      "Survey, Study-read Speed-read, Recite, Review, and Reflect"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Who introduced the SQ3R method of reading in 1946?",
+    options: [
+      "Francis Pleasant Robinson",
+      "Walter Paul",
+      "Stebbins",
+      "Unoh"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "In what year was the SQ3R method of reading introduced by Francis Pleasant Robinson?",
+    options: [
+      "1946",
+      "1962",
+      "2006",
+      "2011"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which method of reading emphasizes acquiring information in a way directly connected to its use in an examination scenario?",
+    options: [
+      "PQRST",
+      "SQ3R",
+      "3S3R",
+      "Evoker"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "What does the PQRST method place emphasis on according to Point 25?",
+    options: [
+      "Acquiring information in a way that is directly connected to how students are expected to use the information in an examination scenario",
+      "Reading with the mouth to increase recognition span",
+      "Deeply examining claims to find counterarguments",
+      "Correcting grammatical and spelling errors in manuscripts"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Who developed the 3S3R study method?",
+    options: [
+      "Unoh",
+      "Francis Pleasant Robinson",
+      "Walter Paul",
+      "Anderson"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "The study method developed by Unoh is:",
+    options: [
+      "3S3R",
+      "SQ3R",
+      "PQRST",
+      "Evoker"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Who developed the Evoker study method, and in what year?",
+    options: [
+      "Walter Paul in 1962",
+      "Francis Pleasant Robinson in 1946",
+      "Unoh in 1962",
+      "Stebbins in 2011"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "For studying what subject is the Evoker method designed?",
+    options: [
+      "Literature (prose, poetry, and drama)",
+      "Brain neurology (dyslexia and aphasia)",
+      "Advanced language and grammar rules",
+      "Statistical analysis and facts"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "How many stages make up the Evoker study method?",
+    options: [
+      "Four stages",
+      "Five stages",
+      "Six stages",
+      "Seven stages"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "Which of the following lists the six stages of the Evoker method?",
+    options: [
+      "Explore, Vocabulary, Oral reading, Key Ideas, Evaluate, Recapitulation",
+      "Survey, Study-read, Speed-read, Recite, Review, Reflect",
+      "Preview, Question, Read, Summary, Test",
+      "Survey, Question, Read, Recite, Review"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to the notes, what are tips for effective study?",
+    options: [
+      "Reading should be purpose-oriented, the essence of reading is to remember, skip irrelevant materials, and read for ideas",
+      "Pointing at words, reading word-by-word, vocalization, and regression",
+      "Sub-vocalization, head movement, and poor vocabulary limits",
+      "Exploring, reading orally, and evaluating literature"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 4,
+    question: "According to Point 29, what is the essence of reading?",
+    options: [
+      "To remember",
+      "To read with the mouth",
+      "To point at each word",
+      "To memorize lists of definitions"
+    ],
+    answer: 0
+  },
+  
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "What does public speaking involve according to the notes?",
+    options: [
+      "Speech making before an audience",
+      "Writing a thesis for publication",
+      "Reading silently in the library",
+      "Studying literature structures"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Public speaking has a dual mode of presentation which manifests in which two mediums?",
+    options: [
+      "Written and oral medium",
+      "Physical and digital medium",
+      "Visual and auditory medium",
+      "Formal and informal medium"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to Dale Carnegie and J. Berg Esanwein, what is probably the most important factor to be considered in public speaking?",
+    options: [
+      "The audience",
+      "The language used",
+      "The library materials",
+      "The speech outline"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Which individuals consider the audience to be probably the most important factor in public speaking?",
+    options: [
+      "Dale Carnegie and J. Berg Esanwein",
+      "Francis Pleasant Robinson and Walter Paul",
+      "McCrimmon and Unoh",
+      "Anderson and Stebbins"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to the notes, the success of the art of public speaking depends on:",
+    options: [
+      "how much information is at the disposal of the speaker",
+      "the physical size of the larynx",
+      "avoiding the use of an outline",
+      "reading strictly with the mouth"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Based on Point 3, a speaker's success in public speaking is directly linked to:",
+    options: [
+      "the amount of information at their disposal",
+      "using only the past tense",
+      "pointing at written words",
+      "the length of the pauses they make"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to the notes, the specific objective that defines the purpose of public speaking is usually:",
+    options: [
+      "the reason for the event",
+      "a summary of literature",
+      "the size of the audience",
+      "the choice of a graphic outline"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "What is usually the reason for a public speaking event?",
+    options: [
+      "The specific objective that defines its purpose",
+      "The collection of audience questionnaires",
+      "The use of various punctuation marks",
+      "The transition between different reading habits"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Which of the following is listed in the notes as a goal of public speaking?",
+    options: [
+      "Information, education, and entertainment",
+      "Sub-vocalization, pointing, and head movement",
+      "Scanning, skimming, and proofreading",
+      "Explore, evaluate, and oral reading"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to Point 5, information, education, and entertainment are considered:",
+    options: [
+      "the goals of public speaking",
+      "bad speaking habits",
+      "places of articulation",
+      "stages of the Evoker method"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Which of the following is listed as a means of information gathering for public speaking?",
+    options: [
+      "The library, newspapers and magazines, interviews/informal interactions, questionnaires, the internet, etc.",
+      "Falling tunes, rising tunes, rise falls, and fall rises",
+      "Dyslexia, aphasia, and other medical factors",
+      "Pure vowels, impure vowels, and diphthongs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to Point 6, interviews, informal interactions, and questionnaires are examples of:",
+    options: [
+      "means of information gathering",
+      "stages of revision reading",
+      "bad studying habits",
+      "types of outlines"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "How is an outline defined in the notes for Chapter 5?",
+    options: [
+      "A brief plan which helps in organizing our idea in an orderly manner and also giving a hint of how what we are writing will turn out when it is finished",
+      "A complex cognitive process of decoding symbols to derive meaning",
+      "The relatively greater energy or force used in pronunciation",
+      "Pitch variation superimposed on word-groups connected speech"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to Point 7, an outline helps to:",
+    options: [
+      "organize our idea in an orderly manner and give a hint of how the final work will turn out",
+      "evoke a mood or create a dominant impression",
+      "ensure that we do not use a full stop after clipped forms",
+      "determine the level of diction of the speaker"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "A good introduction in a speech must have which of the following characteristics?",
+    options: [
+      "Well reasoned, sharp, and relevant",
+      "Long, detailed, and completely unscripted",
+      "Biased, subjective, and highly emotional",
+      "Focused entirely on a list of statistics"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Why must a good introduction in a speech be well reasoned, sharp, and relevant?",
+    options: [
+      "For the speaker to win the audience over from the beginning",
+      "To meet the strict four requirements of McCrimmon",
+      "To help the reader avoid sub-vocalization",
+      "To eliminate the need for any further delivery stages"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to the notes, what should a good conclusion do?",
+    options: [
+      "Emphasize the purpose of the speech",
+      "Introduce an entirely new topic",
+      "Detail the methods of information gathering",
+      "Avoid summarizing any main points"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Emphasizing the purpose of the speech is the main function of:",
+    options: [
+      "a good conclusion",
+      "a good introduction",
+      "information gathering",
+      "the written medium"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "What are words which make up a language considered as in public speaking?",
+    options: [
+      "Tools deployed in public speaking",
+      "Obstructions to the free flow of air",
+      "Bad reading habits",
+      "Elements of the pre-writing stage"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to the notes, the tools deployed in public speaking are:",
+    options: [
+      "words which make up a language",
+      "physical pamphlets and handouts",
+      "visual aids and graphic elements",
+      "punctuation marks like semi-colons"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "What determines the level of diction the speaker will deploy?",
+    options: [
+      "The type of audience, whether it is an educated one or not",
+      "The specific layout of the library",
+      "The physical size of the vocal tract",
+      "The speed of the delivery"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to Point 11, the speaker's choice of diction level is determined by:",
+    options: [
+      "whether the audience is educated or not",
+      "the length of the written outline",
+      "the number of pages to cover",
+      "the past tense verb forms used"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "What is the high point of the public speech event according to the notes?",
+    options: [
+      "Delivery/presentation",
+      "Outlining",
+      "Choosing a topic",
+      "Information gathering"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "What happens during the delivery/presentation of a public speech?",
+    options: [
+      "The speaker encounters the audience and presents his speech to it",
+      "The speaker drafts their thoughts for the first time",
+      "The speaker edits the final document for publication",
+      "The speaker gathers questionnaires from the internet"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to the notes, the types of public speaking range from:",
+    options: [
+      "speaking to inform, speaking to entertain, speaking to persuade, speaking on a special occasion",
+      "pure vowels, impure vowels, diphthongs, and consonants",
+      "pre-writing, writing, re-writing, and outlining",
+      "survey, study-read, speed-read, and review"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Which of the following is NOT listed as a type of public speaking in Point 13?",
+    options: [
+      "Speaking to silently read",
+      "Speaking to inform",
+      "Speaking to persuade",
+      "Speaking on a special occasion"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "Which of the following is listed as a point to note in public speaking?",
+    options: [
+      "Rehearsing no matter how familiar the topic is, avoiding abusive language, and being prepared",
+      "Pointing at words to maintain speed",
+      "Reading only with the mouth",
+      "Using double punctuation marks after clipped words"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 5,
+    question: "According to Point 14, even if a topic is very familiar, a public speaker must:",
+    options: [
+      "rehearse",
+      "avoid using any diction",
+      "ignore cultural diversity",
+      "skip the introduction"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the primary constituent of a sentence according to the notes?",
+    options: [
+      "A clause",
+      "A punctuation mark",
+      "An outline",
+      "A visual aid"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to Point 1, clauses themselves are made up of:",
+    options: [
+      "phrases (or group)",
+      "capital letters only",
+      "speech organs",
+      "public speech events"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, what is necessary to effectively construct a sentence?",
+    options: [
+      "The knowledge of its building blocks",
+      "Writing in the past tense exclusively",
+      "Gathering info only from newspapers",
+      "Rehearsing with an audience"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Point 2 states that effective sentence construction requires knowledge of its:",
+    options: [
+      "building blocks",
+      "punctuation pauses",
+      "delivery techniques",
+      "bibliographic links"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What illustrates the compositional structure in language according to the notes?",
+    options: [
+      "Morphemes",
+      "Full stops",
+      "Adjectival groups",
+      "Simple sentences"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Compositional structure in language is illustrated by:",
+    options: [
+      "morphemes",
+      "speech delivery",
+      "the PQRST method",
+      "bad reading habits"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, a word is made up of:",
+    options: [
+      "one or more morphemes",
+      "a series of nominal clauses",
+      "three or more phonemes only",
+      "prepositional groups exclusively"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What grammatical unit is composed of one or more morphemes as stated in Point 4?",
+    options: [
+      "Word",
+      "Phrase",
+      "Clause",
+      "Sentence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "How is a 'group' defined in the notes?",
+    options: [
+      "A combination of words built upon the basis of a particular logical relation",
+      "The primary constituent of an independent text",
+      "A clause that must contain a verb phrase",
+      "A structural unit containing only nouns"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "A combination of words built upon the basis of a particular logical relation is referred to as a:",
+    options: [
+      "group",
+      "sentence",
+      "morpheme",
+      "clause"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is a nominal group according to the notes?",
+    options: [
+      "A group that is headed by a noun or a nominal",
+      "A group that is headed strictly by a verb",
+      "A phrase showing relationships between two entities",
+      "A combination of words functioning as an adverb"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "In the example 'the books on the table are mine', what kind of group is illustrated?",
+    options: [
+      "A nominal group",
+      "A verbal group",
+      "An adjectival group",
+      "A prepositional group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What class of word heads a verbal group or verb phrase?",
+    options: [
+      "A verb",
+      "A noun",
+      "An adjective",
+      "A preposition"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, what is the word class 'verb' used to express within a clause?",
+    options: [
+      "Processes, events, actions, states, and relations",
+      "Graphical relations between ideas",
+      "Structural elements of the brain",
+      "The shortest stretch of speech we can pronounce"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the adjectival group headed by, and what is its function?",
+    options: [
+      "Headed by an adjective and functions as a complement in the structure of a clause",
+      "Headed by a verb and functions as a predicator",
+      "Headed by a noun and functions as a subject",
+      "Headed by a preposition and functions as an adjunct"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "In the examples 'She is very beautiful' and 'the food is too sweet', which group is demonstrated?",
+    options: [
+      "The adjectival group",
+      "The verbal group",
+      "The nominal group",
+      "The prepositional group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the primary function of a prepositional group?",
+    options: [
+      "To show the relationship between two entities",
+      "To express processes and actions",
+      "To function as a subject in the clause",
+      "To stand as an independent sentence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "In the example 'The books are on the table', which group is highlighted?",
+    options: [
+      "Prepositional group",
+      "Nominal group",
+      "Adjectival group",
+      "Verbal group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which grammatical unit sits immediately above the group and immediately below the sentence?",
+    options: [
+      "The clause",
+      "The word",
+      "The morpheme",
+      "The phrase"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, where does the clause sit in the hierarchy of grammatical units?",
+    options: [
+      "Immediately above the group and immediately below the sentence",
+      "Immediately above the sentence and below the paragraph",
+      "Immediately below the word and above the morpheme",
+      "Immediately above the phrase and below the word"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What are the four elements of clause structure and their correct order as mentioned in the notes?",
+    options: [
+      "Subject, predicator, complement, and adjunct (S, P, C, A)",
+      "Sentence, phrase, clause, and alphabet (S, P, C, A)",
+      "Sound, pitch, chord, and accent (S, P, C, A)",
+      "Structure, preview, concept, and analysis (S, P, C, A)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "The abbreviation SPCA in clause structure stands for:",
+    options: [
+      "Subject, predicator, complement, adjunct",
+      "Sentence, phrase, clause, analysis",
+      "Syllable, phoneme, consonant, accent",
+      "Simple, persuasive, critical, argumentative"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, what structural pattern does 'Mary is fine this evening' follow?",
+    options: [
+      "SPCA",
+      "SPCC",
+      "PC",
+      "SP"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Identify the clause structure of the sentence 'Mary is fine this evening':",
+    options: [
+      "SPCA",
+      "SPCC",
+      "SP",
+      "SPC"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What structural pattern does 'They made Jonathan the President' follow?",
+    options: [
+      "SPCC",
+      "SPCA",
+      "SPC",
+      "SP"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following sentences follows the SPCC structure according to Point 13?",
+    options: [
+      "They made Jonathan the President",
+      "Mary is fine this evening",
+      "Wash the rice",
+      "The young shall grow"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "The clause structure for the instruction 'Wash the rice' is:",
+    options: [
+      "PC",
+      "SP",
+      "SPC",
+      "SPCA"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which sentence follows the structural pattern PC according to Point 14?",
+    options: [
+      "Wash the rice",
+      "Mary is fine this evening",
+      "Jane is very beautiful",
+      "They sang the chorus lustily"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following follows the SPCA structure?",
+    options: [
+      "They sang the chorus lustily",
+      "Jane is very beautiful",
+      "Wash the rice",
+      "The young shall grow"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What structural pattern does 'They sang the chorus lustily' follow based on the notes?",
+    options: [
+      "SPCA",
+      "SPCC",
+      "SPC",
+      "PC"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What structural pattern is followed by 'They made him their leader last year'?",
+    options: [
+      "SPCCСА",
+      "SPCA",
+      "SPC",
+      "SP"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, which sentence corresponds to the structure SPCCСА?",
+    options: [
+      "They made him their leader last year",
+      "Mary is fine this evening",
+      "Jane is very beautiful",
+      "The young shall grow"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What structural pattern does the sentence 'The young shall grow' follow?",
+    options: [
+      "SP",
+      "SPC",
+      "SPCA",
+      "PC"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, 'The young shall grow' has a clause structure of:",
+    options: [
+      "SP",
+      "SPC",
+      "SPCC",
+      "SPCA"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What structural pattern does 'Jane is very beautiful' follow?",
+    options: [
+      "SPC",
+      "SPCA",
+      "SPCC",
+      "SP"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following follows the SPC structure?",
+    options: [
+      "Jane is very beautiful",
+      "They sang the chorus lustily",
+      "Wash the rice",
+      "Mary is fine this evening"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, what structure does 'The former president is Dr Goodluck Jonathan' follow?",
+    options: [
+      "SPC",
+      "SPCC",
+      "SPCA",
+      "PC"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "The sentence 'The former president is Dr Goodluck Jonathan' shares the exact clause structure SPC with which of the following?",
+    options: [
+      "Jane is very beautiful",
+      "Mary is fine this evening",
+      "They made Jonathan the President",
+      "The young shall grow"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to Point 20, how many types of clauses are there, and what criteria are used to classify them?",
+    options: [
+      "Two types using the structural and functional criteria",
+      "Three types using the phonetic and orthographic criteria",
+      "Four types using only the length criteria",
+      "Five types using the grammatical and rhetorical criteria"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Structural and functional criteria are used to classify clauses into how many types?",
+    options: [
+      "Two types",
+      "Three types",
+      "Four types",
+      "Five types"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "When is a clause said to be independent?",
+    options: [
+      "If it has a form in which it could stand as an independent sentence",
+      "If it is headed by a prepositional group",
+      "If it cannot stand alone as an independent sentence",
+      "If it consists of only a Subject and Predicator"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, an independent clause:",
+    options: [
+      "can stand alone as an independent sentence",
+      "cannot function without a dependent clause",
+      "is headed strictly by an adjectival group",
+      "is also known as a subordinate clause"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, a dependent clause is also known as a:",
+    options: [
+      "subordinate clause",
+      "nominal group",
+      "main clause",
+      "declarative clause"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the key characteristic of a dependent clause?",
+    options: [
+      "It cannot stand alone as an independent sentence and needs an independent clause to function",
+      "It always begins with a capital letter and a full stop",
+      "It can stand alone as an independent sentence",
+      "It functions strictly as a prepositional group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "How many forms of clauses are there in terms of discourse functions, and what are they?",
+    options: [
+      "Four: declarative, interrogative, imperative, and exclamatory",
+      "Three: simple, compound, and complex",
+      "Two: independent and dependent",
+      "Five: S, P, C, A, and nominal"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Declarative, interrogative, imperative, and exclamatory are classification forms of clauses based on:",
+    options: [
+      "discourse functions",
+      "structural length",
+      "compositional structure",
+      "phonetic accents"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the function of a declarative clause according to the notes?",
+    options: [
+      "It states information or an opinion",
+      "It is used to ask questions",
+      "It expresses a command or directive",
+      "It expresses shock or surprise"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is given as an example of a declarative clause?",
+    options: [
+      "Ekpe is my grandmother's name.",
+      "what is our name.",
+      "Praise the Lord.",
+      "What a nice meal she cooked."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the function of an interrogative clause based on the notes?",
+    options: [
+      "To ask questions",
+      "To state information or opinions",
+      "To express a command or request",
+      "To express surprise or strong emotion"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is given as an example of an interrogative clause?",
+    options: [
+      "what is our name.",
+      "Ekpe is my grandmother's name.",
+      "Praise the Lord.",
+      "What a nice meal she cooked."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is an imperative clause used to express according to Point 26?",
+    options: [
+      "A command, an instruction, a directive or a request",
+      "A question or an interrogation",
+      "Facts, ideas, and opinions",
+      "Shock, surprise, or emotional impressions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is the example of an imperative clause given in the notes?",
+    options: [
+      "Praise the Lord.",
+      "what is our name.",
+      "Ekpe is my grandmother's name.",
+      "What a nice meal she cooked."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What is the purpose of an exclamatory clause according to the notes?",
+    options: [
+      "To express shock, surprise, or how a speaker is emotionally impressed",
+      "To ask a direct question",
+      "To provide objective facts and statistics",
+      "To state basic instructions and requests"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is the example of an exclamatory clause provided in Point 27?",
+    options: [
+      "What a nice meal she cooked.",
+      "Praise the Lord.",
+      "Ekpe is my grandmother's name.",
+      "what is our name."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "According to the notes, sentences can be grouped into which three categories?",
+    options: [
+      "Simple, compound, and complex sentences",
+      "Declarative, interrogative, and imperative sentences",
+      "Nominal, adjectival, and prepositional sentences",
+      "Subject, predicator, and complement sentences"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Simple, compound, and complex are groups of:",
+    options: [
+      "sentences",
+      "clauses",
+      "phrases",
+      "morphemes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What does a simple sentence consist of based on the notes?",
+    options: [
+      "An independent alpha clause which means that it can function on its own",
+      "Two or more independent clauses linked by coordinators",
+      "One dependent clause and one subordinate clause",
+      "Multiple nominal groups without any verbal group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is given as an example of a simple sentence?",
+    options: [
+      "Jack is a very ferocious dog",
+      "Take her to the police station or Set her free.",
+      "Uness you pay your NEPA bill, your electricity will be disconnected.",
+      "Praise the Lord."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What does a compound sentence consist of according to the notes?",
+    options: [
+      "Two or more independent clauses linked by appropriate coordinators",
+      "An independent alpha clause and a subordinate group",
+      "Only one independent clause that cannot stand alone",
+      "A primary constituent of an adjectival group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is given as an example of a compound sentence?",
+    options: [
+      "Take her to the police station or Set her free.",
+      "Jack is a very ferocious dog",
+      "Uness you pay your NEPA bill, your electricity will be disconnected.",
+      "Ekpe is my grandmother's name."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "What does a complex sentence require as its primary constituent according to Point 31?",
+    options: [
+      "The presence of two clauses",
+      "A single independent alpha clause only",
+      "Two or more independent clauses linked by coordinators",
+      "One nominal group and one adjectival group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 6,
+    question: "Which of the following is the example of a complex sentence provided in Point 31?",
+    options: [
+      "Uness you pay your NEPA bill, your electricity will be disconnected.",
+      "Take her to the police station or Set her free.",
+      "Jack is a very ferocious dog",
+      "Jane is very beautiful"
+    ],
+    answer: 0
   }
 ]
