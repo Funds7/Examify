@@ -1,16 +1,21 @@
 let params = new URLSearchParams(window.location.search);
 
 let course = params.get("course");
+let chapter = params.get("chapter");
 
-alert("Course = " + course);
-alert("QUESTIONS = " + QUESTIONS.length);
+let questions;
 
-// Load questions for this course
-let questions = QUESTIONS.filter(q => q.course === course);
+if (chapter) {
+    questions = QUESTIONS.filter(q =>
+        q.course === course &&
+        q.chapter == chapter
+    );
+} else {
+    questions = QUESTIONS.filter(q =>
+        q.course === course
+    );
+}
 
-alert("Filtered questions = " + questions.length);
-
-// Shuffle
 questions = questions.sort(() => Math.random() - 0.5);
 
 let index = 0;
