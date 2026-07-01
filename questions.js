@@ -1749,5 +1749,533 @@ const QUESTIONS = [
       "The semi-colon(;)"
     ],
     answer: 0
+  },
+{
+    course: "gst101",
+    chapter: 3,
+    question: "What does the term 'organ of speech' refer to according to the notes?",
+    options: [
+      "The various parts of the human anatomy",
+      "The grammatical structure of sentences",
+      "The alphabetical arrangement of sounds",
+      "The graphic presentation of thoughts"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Based on Point 1, the various parts of the human anatomy involved in speech are referred to as:",
+    options: [
+      "Manners of articulation",
+      "Syllable structures",
+      "Organs of speech",
+      "Vowel classes"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to the notes, which of the following is included in the list of organs of speech?",
+    options: [
+      "Lungs, Larynx, Pharynx, Velum or soft palate, hard palate, Nasal cavity, lips, and teeth",
+      "Syllables, stress, and intonation",
+      "Pure vowels, impure vowels, and diphthongs",
+      "Falling tune and rising tune"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which of the following is NOT listed as an organ of speech in Point 2?",
+    options: [
+      "Velum or soft palate",
+      "Diphthongs",
+      "Nasal cavity",
+      "Lungs"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "How does Roach define vowels?",
+    options: [
+      "Sounds in which there is no obstruction to the flow of air as it passes from the larynx to the lips",
+      "Sounds produced when two or more organs come firmly together",
+      "Pitch variations superimposed on word-groups",
+      "The minimum or shortest stretch of speech we can pronounce"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Roach's definition of vowels, what is the behavior of the air flow?",
+    options: [
+      "It is released slowly after complete closure",
+      "There is no obstruction to the flow of air as it passes from the larynx to the lips",
+      "It is completely blocked by the upper and lower lips",
+      "It escapes only over the sides of the tongue"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Vowels in English are divided into which two classes?",
+    options: [
+      "Bilabial and labiodental vowels",
+      "Pure and impure vowels",
+      "Voiced and voiceless vowels",
+      "Stressed and unstressed vowels"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to the notes, English vowels are divided into how many classes?",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which vowel sound is pronounced 'ee' and is used in the word 'see'?",
+    options: [
+      "/1 :/",
+      "/e/",
+      "/i/",
+      "/a/"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "How is the vowel /1 :/ pronounced based on the notes?",
+    options: [
+      "Pronounced 'ee' and used in the word 'see'",
+      "Pronounced 'eh' and used in the word 'ten'",
+      "Pronounced with closed lips as an approximant",
+      "Pronounced with the tongue forming a complete closure"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 6, the sound /i/ is classified as a:",
+    options: [
+      "Front vowel",
+      "Consonant",
+      "Diphthong",
+      "Lateral sound"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which of the following is described simply as a front vowel in Point 6?",
+    options: [
+      "/i/",
+      "/e/",
+      "/1 :/",
+      "/u/"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which short vowel is used in words like 'den' and 'ten' and produced with spread lips?",
+    options: [
+      "/e/",
+      "/i/",
+      "/1 :/",
+      "/o/"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to the notes, /e/ is a short, front vowel produced with:",
+    options: [
+      "Spread lips",
+      "Partial closure of the lungs",
+      "A complete blockage of air",
+      "No air passing from the larynx"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "How are diphthongs produced according to the notes?",
+    options: [
+      "With no obstruction to the free flow of air out of the mouth",
+      "With a complete closure followed by a slow release",
+      "When two or more organs come firmly together",
+      "With pitch variations superimposed on word-groups"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which of the following is produced with no obstruction to the free flow of air out of the mouth?",
+    options: [
+      "Diphthongs",
+      "Consonants",
+      "Affricates",
+      "Laterals"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What is a consonant according to the definition provided in the notes?",
+    options: [
+      "A sound produced when two or more organs come firmly, intermittently or partially together, or a sound produced with structures",
+      "A sound in which there is no obstruction to the flow of air passing from the larynx to the lips",
+      "A pitch variation superimposed on word-groups in connected speech",
+      "The minimum or shortest stretch of speech we can pronounce"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "A sound produced when two or more organs come firmly, intermittently or partially together is a:",
+    options: [
+      "Vowel",
+      "Diphthong",
+      "Consonant",
+      "Syllable"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What does 'place of articulation' refer to?",
+    options: [
+      "The point along the vocal tract where the sound is produced",
+      "How sounds are produced with air flow",
+      "The energy used in pronouncing a syllable",
+      "Pitch variations in connected speech"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to the notes, the point along the vocal tract where a sound is produced is known as:",
+    options: [
+      "Manner of articulation",
+      "Place of articulation",
+      "Intonation",
+      "Syllable"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which of the following contains different places of articulation mentioned in the notes?",
+    options: [
+      "Bilabial, Labiodental, Dental, Alveolar, Palato alveolar etc.",
+      "Pure vowels, impure vowels, and diphthongs",
+      "Larynx, pharynx, velum, and nasal cavity",
+      "Lungs, lips, and teeth"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 11, Alveolar and Palato alveolar are places of:",
+    options: [
+      "Intonation",
+      "Syllable division",
+      "Articulation",
+      "Vowel classification"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What does the term 'Bilabial' mean according to the notes?",
+    options: [
+      "The upper and the lower lips",
+      "The lip and the teeth",
+      "The front of the tongue",
+      "The soft palate"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which place of articulation specifically means the upper and lower lips?",
+    options: [
+      "Labiodental",
+      "Bilabial",
+      "Dental",
+      "Alveolar"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What does 'Labiodental' refer to?",
+    options: [
+      "The lip and the dental to the teeth",
+      "The upper and lower lips",
+      "The front of the tongue and the hard palate",
+      "The larynx and pharynx"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 13, dental refers to:",
+    options: [
+      "The teeth",
+      "The lip",
+      "The tongue",
+      "The lungs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What is 'manner of articulation' concerned with?",
+    options: [
+      "How sounds are produced",
+      "The point along the vocal tract where sound is made",
+      "Pitch variations superimposed on word-groups",
+      "The anatomy of the human lungs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 14, how speech sounds are produced is the concern of:",
+    options: [
+      "Place of articulation",
+      "Manner of articulation",
+      "Intonation",
+      "Syllables"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What are affricates according to the notes?",
+    options: [
+      "Sounds produced with a complete closure followed by a slow release",
+      "Sounds made with air allowed to escape over the sides of the tongue",
+      "Sounds produced with no obstruction to the free flow of air",
+      "Sounds that share characteristics of both vowels and consonants"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which sounds are produced with a complete closure followed by a slow release?",
+    options: [
+      "Laterals",
+      "Affricates",
+      "Semi-vowels",
+      "Pure vowels"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "How are lateral sounds made according to the notes?",
+    options: [
+      "With the front of the tongue forming a complete closure but with the air allowed to escape over the sides of the tongue",
+      "With a complete closure followed by a slow release",
+      "With the upper and lower lips firmly pressed together",
+      "With pitch variations superimposed on word-groups"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "During the production of lateral sounds, where is the air allowed to escape?",
+    options: [
+      "Over the sides of the tongue",
+      "Through the nasal cavity",
+      "With a slow release after complete closure",
+      "Through a partial closure of the lips"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What are semi-vowels also referred to as in the notes?",
+    options: [
+      "Approximants",
+      "Laterals",
+      "Affricates",
+      "Pure vowels"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 17, semi-vowels or approximants are sounds that:",
+    options: [
+      "Share the characteristics of both vowels and consonants",
+      "Are produced with a complete closure followed by a slow release",
+      "Are made with air escaping only over the sides of the tongue",
+      "Have no pitch variation in connected speech"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "How is the syllable defined in the notes?",
+    options: [
+      "The minimum or shortest stretch of speech we can pronounce",
+      "The relatively greater energy or force used in pronunciation",
+      "Pitch variations superimposed on word-groups",
+      "The point along the vocal tract where sound is made"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "The minimum or shortest stretch of speech we can pronounce is called:",
+    options: [
+      "Stress",
+      "Intonation",
+      "Syllable",
+      "Consonant"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What is stress according to the notes?",
+    options: [
+      "The relatively greater energy or force that is used in the pronunciation of a syllable",
+      "The shortest stretch of speech we can pronounce",
+      "Pitch variations superimposed on connected speech",
+      "A complete closure of the organs of speech"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to the notes, stress is applied to which unit of speech?",
+    options: [
+      "A syllable",
+      "A pure vowel only",
+      "An organ of anatomy",
+      "An individual consonant"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "How does Chukwu define intonation?",
+    options: [
+      "Pitch variation superimposed on word-groups connected speech",
+      "The minimum or shortest stretch of speech we can pronounce",
+      "The relatively greater energy or force used on a syllable",
+      "Sounds produced with no obstruction to air flow"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Who defines intonation as pitch variation superimposed on word-groups connected speech?",
+    options: [
+      "Chukwu",
+      "Roach",
+      "McCrimmon",
+      "The Phonetician"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "What is intonation combined with to determine the meaning of utterances?",
+    options: [
+      "Accent",
+      "Stress",
+      "Syllable length",
+      "Organs of speech"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 21, combining intonation and accent helps to determine:",
+    options: [
+      "The meaning of utterances",
+      "The places of articulation",
+      "The spelling of words",
+      "The classes of vowels"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "Which of the following is listed as a type of intonation in the notes?",
+    options: [
+      "The falling tune, the rising tune, the rise fall, the fall rise",
+      "Pure vowels, impure vowels, and diphthongs",
+      "Bilabial, labiodental, and dental",
+      "Lungs, larynx, and pharynx"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 3,
+    question: "According to Point 22, the falling tune, the rising tune, the rise fall, and the fall rise are types of:",
+    options: [
+      "Intonation",
+      "Stress",
+      "Accent",
+      "Articulation"
+    ],
+    answer: 0
   }
 ]
