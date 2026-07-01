@@ -2,10 +2,15 @@ let params = new URLSearchParams(window.location.search);
 
 let course = params.get("course");
 
-// Load ALL questions for selected course
+alert("Course = " + course);
+alert("QUESTIONS = " + QUESTIONS.length);
+
+// Load questions for this course
 let questions = QUESTIONS.filter(q => q.course === course);
 
-// Shuffle questions
+alert("Filtered questions = " + questions.length);
+
+// Shuffle
 questions = questions.sort(() => Math.random() - 0.5);
 
 let index = 0;
