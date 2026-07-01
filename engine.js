@@ -3,10 +3,8 @@ let params = new URLSearchParams(window.location.search);
 let course = params.get("course");
 let chapter = Number(params.get("chapter"));
 
-let db = getDB();
-
 // Load questions for selected course and chapter
-let questions = db.questions.filter(q =>
+let questions = QUESTIONS.filter(q =>
     q.course === course &&
     q.chapter === chapter
 );
