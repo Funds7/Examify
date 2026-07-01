@@ -46,15 +46,17 @@ function loadQuestion() {
 
     let html = "";
 
-    q.options.forEach((option, i) => {
+    const letters = ["A", "B", "C", "D"];
 
-        html += `
-            <button class="btn option-btn" onclick="answer(${i})">
-                ${option}
-            </button><br><br>
-        `;
+q.options.forEach((option, i) => {
 
-    });
+    html += `
+        <button class="btn option-btn" onclick="answer(${i})">
+            <strong>${letters[i]}.</strong> ${option}
+        </button><br><br>
+    `;
+
+});
 
     document.getElementById("options").innerHTML = html;
 
