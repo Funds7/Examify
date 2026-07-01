@@ -1,3 +1,5 @@
+const QUESTIONS = [
+
 {
   course: "gst101",
   chapter: 1,
@@ -787,4 +789,6 @@
     "Only imperative clauses"
   ],
   answer: 0
-},
+}
+
+];
