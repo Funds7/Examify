@@ -789,6 +789,965 @@ const QUESTIONS = [
     "Only imperative clauses"
   ],
   answer: 0
-}
-
-];
+},
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "How is an essay defined based on the notes?",
+    options: [
+      "Any piece of writing on related ideas with each idea overlapping with one another until they form a unified whole",
+      "A collection of completely disjointed sentences of various structures",
+      "An academic text that must be exactly five paragraphs in length",
+      "A collection of bulleted facts without transitions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to Point 1, what must happen to the related ideas in an essay until they form a unified whole?",
+    options: [
+      "They must be listed in a table",
+      "They must overlap with one another",
+      "They must be separated by blank lines",
+      "They must be translated into multiple languages"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Based on the notes, what is a text?",
+    options: [
+      "Any piece of writing of any length that has unity",
+      "A long book consisting of at least ten distinct chapters",
+      "A written work that has no specific structure or unity",
+      "A piece of writing that is exactly one page long"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the key requirement for a piece of writing of any length to be considered a text?",
+    options: [
+      "It must have illustrations",
+      "It must be objective",
+      "It must have unity",
+      "It must use the past tense"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, what is the material required for an essay?",
+    options: [
+      "Language",
+      "An outlining software",
+      "Statistical data",
+      "Graphic elements"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is specified as the material required for an essay?",
+    options: [
+      "A computer",
+      "Verifiable facts",
+      "Language",
+      "An index"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the major aim of the essay?",
+    options: [
+      "To communicate",
+      "To list facts in alphabetical order",
+      "To show proficiency in grammar rules only",
+      "To present a graphical outline of a work"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, the primary goal or major aim of an essay is:",
+    options: [
+      "To use complex adjectives",
+      "To communicate",
+      "To minimize punctuation",
+      "To explain how a machine works"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What must the essayist be in control of to write a good essay?",
+    options: [
+      "The idea which he wants to communicate to readers",
+      "The reader's personal emotions",
+      "The publishing format of the document",
+      "The word count of every single paragraph"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "In order to produce a good essay, the writer must maintain control over:",
+    options: [
+      "The vocabulary of the reader",
+      "The grammatical rules of punctuation only",
+      "The idea they wish to communicate to their readers",
+      "The chronological outline of the paragraph"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is a complete list of the types of essays mentioned in the notes?",
+    options: [
+      "Personal essay, Academic essay, and Technical essay",
+      "Narrative essay, Descriptive essay, Expository essay, and Argumentative essay",
+      "Paragraph essay, Sentence essay, and Topic essay",
+      "Objective essay, Subjective essay, and Persuasive essay"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to Point 6, how many types of essays are there?",
+    options: [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the purpose of a narrative essay?",
+    options: [
+      "To tell a story in chronological order",
+      "To create a dominant impression about an object",
+      "To change the reader's point of view",
+      "To inform, clarify, or explain how something is done"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "In which type of essay is the purpose to tell a story in chronological order?",
+    options: [
+      "Descriptive essay",
+      "Expository essay",
+      "Narrative essay",
+      "Argumentative essay"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Why should you use the past tense form of the verb for effective narration?",
+    options: [
+      "Because the story is of events that occurred in the past",
+      "Because it is the only tense allowed in essay writing",
+      "To make the essay look longer",
+      "To create a dominant impression of a place"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following guidelines is given for effective narration?",
+    options: [
+      "Use the present continuous tense",
+      "Use the past tense form of the verb",
+      "Avoid using any verbs",
+      "Use the future tense exclusively"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the purpose of a descriptive essay?",
+    options: [
+      "To tell a story in chronological order",
+      "To evoke a mood or create a dominant impression about an object, a person, or a place",
+      "To change the reader's point of view using statistics",
+      "To tell how something is done"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "An essay that aims to evoke a mood or create a dominant impression about a person, object, or place is called a/an:",
+    options: [
+      "Narrative essay",
+      "Descriptive essay",
+      "Expository essay",
+      "Persuasive essay"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What must you be to write a good descriptive essay?",
+    options: [
+      "A good observer of events and objects to be described",
+      "A biased narrator of historical facts",
+      "An expert in gathering statistical data",
+      "A person who only uses the past tense"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, being a good observer of events and objects is required to write which type of essay?",
+    options: [
+      "Argumentative essay",
+      "Expository essay",
+      "Narrative essay",
+      "Descriptive essay"
+    ],
+    answer: 3
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is NOT a guideline for effective description?",
+    options: [
+      "Be proficient in language",
+      "Use only the past tense of the verb",
+      "Try as much as possible to invoke all the senses",
+      "Give specific details"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "One of the guidelines for effective description is to try as much as possible to:",
+    options: [
+      "Avoid specific details",
+      "Invoke all the senses",
+      "Write in chronological order",
+      "Be highly biased"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the purpose of an expository essay?",
+    options: [
+      "To tell a story in chronological order using the past tense",
+      "To inform, clarify, explain or to expose or tell how something is done",
+      "To change the reader's point of view with arguments",
+      "To evoke a mood about an object"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which essay type aims to inform, clarify, explain, expose, or tell how something is done?",
+    options: [
+      "Expository essay",
+      "Narrative essay",
+      "Descriptive essay",
+      "Persuasive essay"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is another name for an argumentative essay?",
+    options: [
+      "Persuasive essay",
+      "Expository essay",
+      "Narrative essay",
+      "Paragraph outline"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the purpose of an argumentative essay?",
+    options: [
+      "To change the reader's point of view",
+      "To tell a story in chronological order",
+      "To evoke a mood about a person",
+      "To tell how something is done"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "To be effective, a good argumentative essay should be objective and based on:",
+    options: [
+      "Personal biases and emotional appeals",
+      "Reasons, verifiable facts, and statistics",
+      "Chronological narratives",
+      "Sensory descriptions"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following should a good argumentative essay be based on to ensure effectiveness?",
+    options: [
+      "Biased opinions and unverified facts",
+      "Reasons, verifiable facts, and statistics",
+      "General impressions and mood-evoking words",
+      "Past tense verbs only"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "How many stages are involved in writing an essay according to the notes?",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following correctly lists the stages involved in writing an essay?",
+    options: [
+      "Outlining, drafting, and publishing",
+      "Pre-writing stages, Writing stages, and Re-writing stages",
+      "Choosing a topic, searching for facts, and editing",
+      "Revising, editing, and proofreading"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What does the pre-writing stage consist of?",
+    options: [
+      "Several activities which the writer must go through before setting out to write the essay",
+      "The actual drafting of the essay paragraphs",
+      "The final processes of revising, editing, and proofreading",
+      "The evaluation of the essay by readers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "At what point must a writer go through the activities of the pre-writing stage?",
+    options: [
+      "After completing the final draft",
+      "During the actual writing of the essay",
+      "Before setting out to write the essay",
+      "After the re-writing stage is finished"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is an activity of the pre-writing stage?",
+    options: [
+      "Proofreading the final essay",
+      "Actual writing of the essay paragraphs",
+      "Choosing a topic, forming a point of view, searching for facts, analyzing and arranging facts, and outlining",
+      "Editing and revising sentences"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, analyzing and arranging the facts is an activity that occurs in which stage?",
+    options: [
+      "Writing stage",
+      "Pre-writing stage",
+      "Re-writing stage",
+      "Final publishing stage"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is defined as the graphical presentation of all the information in a work and the relationship between them?",
+    options: [
+      "An outline",
+      "A paragraph",
+      "A draft",
+      "A text"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What does an outline graphically present?",
+    options: [
+      "All the information in a work and the relationship between them",
+      "The emotional tone of the narrator",
+      "A set of grammatical rules and punctuation errors",
+      "The chronological sequence of historical events"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following lists the three types of outlines?",
+    options: [
+      "Word outline, phrase outline, and clause outline",
+      "Topic outline, sentence outline, and paragraph outline",
+      "Graphical outline, narrative outline, and fact outline",
+      "Basic outline, intermediate outline, and advanced outline"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "How many types of outlines are mentioned in the notes?",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Why does a good outline facilitate writing according to the notes?",
+    options: [
+      "It helps to discover more ideas and the interrelationship between them, and gives structure and organization to the essay",
+      "It eliminates the need for the writing and re-writing stages",
+      "It automatically corrects punctuation and grammar mistakes",
+      "It translates the essay into multiple languages"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, a good outline helps to discover more ideas and:",
+    options: [
+      "Eliminate the need for language",
+      "Change the reader's point of view",
+      "Give structure and organization to the essay",
+      "Avoid using full stops"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the writing stage of an essay?",
+    options: [
+      "The selection of a topic and facts",
+      "The actual writing of the essay",
+      "The processes of revising and editing",
+      "The creation of a graphical outline"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which stage involves the actual writing of the essay?",
+    options: [
+      "Pre-writing stage",
+      "Re-writing stage",
+      "Writing stage",
+      "Outlining stage"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which stage in the essay writing process is the last?",
+    options: [
+      "The re-writing stage",
+      "The pre-writing stage",
+      "The writing stage",
+      "The outlining stage"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What three closely interrelated processes are involved in the re-writing stage?",
+    options: [
+      "Choosing a topic, outlining, and drafting",
+      "Revising, editing, and proofreading",
+      "Analyzing, arranging, and writing",
+      "Evoking, observing, and telling"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to McCrimmon, what are the four requirements of a good paragraph?",
+    options: [
+      "Topic, sentence, paragraph, and outline",
+      "Unity, completeness, order, and coherence",
+      "Language, facts, statistics, and communication",
+      "Revising, editing, proofreading, and writing"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Who identified the four requirements of a good paragraph as unity, completeness, order, and coherence?",
+    options: [
+      "McCrimmon",
+      "The Essayist",
+      "The Observer",
+      "The Reader"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "How many ideas must a good paragraph discuss?",
+    options: [
+      "One idea only",
+      "At least two related ideas",
+      "Multiple overlapping ideas",
+      "As many ideas as possible"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, what is a key rule regarding the discussion of ideas in a good paragraph?",
+    options: [
+      "It must discuss one idea only",
+      "It must discuss at least four different ideas",
+      "It must avoid discussing any ideas",
+      "It must discuss different ideas in every sentence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which punctuation mark denotes the longest pause according to the notes?",
+    options: [
+      "The comma(,)",
+      "The full stop(.)",
+      "The semi-colon(;)",
+      "The colon(:)"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is another name for the full stop(.) as mentioned in the notes?",
+    options: [
+      "The period",
+      "The pause",
+      "The dash",
+      "The ellipsis"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, when should you NOT use a full stop?",
+    options: [
+      "At the end of an interrogative clause",
+      "After shortened or clipped forms (e.g., 1st, 12th, lab, gym, laser, etc.)",
+      "At the end of a declarative sentence",
+      "After an exclamation mark"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Based on Point 26, which of the following examples should NOT have a full stop after it?",
+    options: [
+      "lab",
+      "A completed essay",
+      "An interrogative question",
+      "A proper noun at the end of a sentence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Where is the question mark(?) used?",
+    options: [
+      "After an emphatic interjection",
+      "At the end of interrogative clauses (also known as a question)",
+      "After shortened or clipped forms",
+      "At the end of every paragraph"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Interrogative clauses are also known as:",
+    options: [
+      "A question",
+      "An exclamation",
+      "A transition",
+      "A contraction"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "When is the exclamation mark(!) used according to the notes?",
+    options: [
+      "After shortened or clipped forms",
+      "After an emphatic interjection, or a phrase, clause, or sentence expressing surprise or strong emotion",
+      "To denote a pause midway between the full stop and the comma",
+      "To show that some words have been omitted"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "An exclamation mark(!) is used to express which of the following?",
+    options: [
+      "A direct quotation",
+      "Surprise or strong emotion",
+      "An interrogative clause",
+      "A contraction"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which punctuation mark represents the shortest of all the pauses?",
+    options: [
+      "The full stop(.)",
+      "The comma(,)",
+      "The semi-colon(;)",
+      "The dash(-)"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What kind of pause does the comma(,) denote?",
+    options: [
+      "The longest pause",
+      "The shortest of all the pauses",
+      "A pause midway between the full stop and the comma",
+      "A pause marking a sudden change of thought"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to Point 31, what denotes a pause midway between the full stop and the comma?",
+    options: [
+      "The semi-colon",
+      "The exclamation mark",
+      "The bracket",
+      "The hyphen"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the semi-colon used to join according to the notes?",
+    options: [
+      "Two clauses which are separate but related in sense",
+      "Two prefixes",
+      "Emphatic interjections only",
+      "Shortened and clipped forms"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is given as an example of a semi-colon(;) usage in the notes?",
+    options: [
+      "The doctor who came out from the theatre with smiles; obviously it was a successful operation.",
+      "The doctor who came out from the theatre: with smiles; obviously.",
+      "The pupils are to bring the following items: pens, pencils, paper.",
+      "I will go jogging this evening-oh! I am yet to do my assignment."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "In the example sentence about the doctor, which punctuation mark is used between 'smiles' and 'obviously'?",
+    options: [
+      "A semi-colon(;)",
+      "A hyphen(-)",
+      "An apostrophe(')",
+      "A question mark(?)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What punctuation mark is used to denote that something is to follow, and to introduce a list?",
+    options: [
+      "The colon(:)",
+      "The hyphen(-)",
+      "The comma(,)",
+      "The question mark(?)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, the colon(:) has which of the following functions?",
+    options: [
+      "It marks a sudden change of thought",
+      "It denotes that something is to follow, and it introduces a list",
+      "It denotes the shortest of all the pauses",
+      "It is used after some prefixes like ex-"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is the example of the colon usage provided in the notes?",
+    options: [
+      "The pupils are to bring the following items: pens, pencils, paper, books and calculators.",
+      "I will go jogging this evening-oh! I am yet to do my assignment.",
+      "The doctor who came out from the theatre with smiles; obviously it was a successful operation.",
+      "won't(will not). don't(do not)."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "In the provided colon example sentence, what items are the pupils to bring?",
+    options: [
+      "pens, pencils, paper, books and calculators",
+      "lab, gym, and laser equipment",
+      "outline templates and drafts",
+      "dictionaries and computers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What punctuation mark is used to mark a sudden change of thought?",
+    options: [
+      "The dash (-)",
+      "The full stop (.)",
+      "The semi-colon (;)",
+      "The colon (:)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "In the example 'I will go jogging this evening-oh! I am yet to do my assignment', the dash (-) is used to:",
+    options: [
+      "Mark a sudden change of thought",
+      "Introduce a list",
+      "Show a contraction of words",
+      "Join two separate but unrelated paragraphs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the capital used to indicate according to the notes?",
+    options: [
+      "The beginning of a sentence, as the first letter in proper noun, etc.",
+      "A sudden change of thought",
+      "The shortest of all pauses",
+      "A contraction of words"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, which of the following should be written with a capital?",
+    options: [
+      "The first letter in proper noun",
+      "Shortened or clipped forms like gym",
+      "The first letter of a list introduced by a colon",
+      "Every word in brackets"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Where is the hyphen (-) used according to the notes?",
+    options: [
+      "After some prefixes such as ex-, anti- etc.",
+      "At the end of interrogative clauses",
+      "To show that some words have been omitted",
+      "To mark a sudden change of thought"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to Point 37, which of the following prefixes can be followed by a hyphen (-)?",
+    options: [
+      "ex-, anti-",
+      "1st, 12th",
+      "lab, gym",
+      "laser"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the apostrophe(') used to show?",
+    options: [
+      "The contracted form of some words e.g won't(will not). don't(do not).",
+      "A sudden change of thought",
+      "The beginning of a proper noun",
+      "Words that have been omitted from a sentence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which of the following is given as an example of apostrophe usage in the notes?",
+    options: [
+      "won't(will not). don't(do not).",
+      "ex-, anti-",
+      "1st, 12th",
+      "lab, gym"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "According to the notes, quotation marks (\") must always be:",
+    options: [
+      "In pairs",
+      "Double only",
+      "Single only",
+      "Placed after commas only"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What are quotation marks used to enclose or indicate?",
+    options: [
+      "A direct quotation or to indicate the actual words of a speaker or writer",
+      "A sudden change of thought in the sentence",
+      "A pause midway between the full stop and the comma",
+      "Prefixes such as ex- and anti-"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is an ellipsis(...) according to the notes?",
+    options: [
+      "A mark of omission",
+      "A pause midway between the full stop and the comma",
+      "A mark used after prefixes",
+      "A contraction of words"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is the function of the ellipsis(...) based on the notes?",
+    options: [
+      "To show that some words have been omitted in a sentence",
+      "To denote the longest pause in a paragraph",
+      "To show surprise or strong emotion",
+      "To enclose the actual words of a speaker"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "What is brackets/parenthesis(()) used for according to the notes?",
+    options: [
+      "To mark off words, phrases commentaries in the flow of our writings",
+      "To denote that a list is to follow",
+      "To indicate the first letter of proper nouns",
+      "To show the contracted form of words"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst101",
+    chapter: 2,
+    question: "Which punctuation mark is used to mark off words, phrases commentaries in the flow of our writings?",
+    options: [
+      "Brackets/parenthesis(())",
+      "Quotation marks (\")",
+      "Ellipsis(...)",
+      "The semi-colon(;)"
+    ],
+    answer: 0
+  }
+]
