@@ -7102,5 +7102,2343 @@ const QUESTIONS = [
       "Rulers and absolute political monarchs"
     ],
     answer: 0
+  },
+  {
+  course: "gst102",
+  chapter: 2,
+  question: "According to Point 1, philosophy among the Greeks emerged out of which two domains?",
+  options: ["Science and technology", "Politics and law", "Religion and myth", "Art and literature"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The religion and myth from which Greek philosophy emerged primarily dealt with:",
+  options: ["Socio-economic structures", "Principles and elements of the natural world", "Occult rituals and witchcraft", "Advanced mathematical calculations"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "In which Greek city-state did philosophy start, sparked by curiosity and wonder?",
+  options: ["Athens", "Sparta", "Mellitus", "Rhodes"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "With what dual emotional state or capacity did philosophy begin among the Greeks?",
+  options: ["Fear and trembling", "Curiosity and wonder", "Anger and dissatisfaction", "Apathy and boredom"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Thales, Anaximander, and Anaximenes are collectively classified as which set of philosophers?",
+  options: ["The Sophists", "The Scholastics", "The pre-Socratic philosophers", "The Existentialists"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who are identified as the very first sets of philosophers that ever lived?",
+  options: ["Plato and Aristotle", "The pre-Socratic philosophers", "St. Augustine and Thomas Aquinas", "Descartes and John Locke"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Because the pre-Socratic philosophers focused heavily on the universe, they were referred to as:",
+  options: ["Metaphysicians", "Cosmologists", "Epistemologists", "Theologians"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was the main object of focus for the pre-Socratic philosophers?",
+  options: ["The human mind", "The political state", "The universe", "Moral conduct"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which group of ancient Greek thinkers consisted of itinerant teachers interested in practical issues?",
+  options: ["The Atomists", "The Sophists", "The Pythagoreans", "The Scholastics"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What kind of speculation did few of the Sophists have patience with?",
+  options: ["Empirical observations", "Political dialogue", "Practical calculations", "Metaphysical speculations"],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The Atomists, the Pluralists, and the Pythagoreans all belong to which period of philosophy?",
+  options: ["Ancient Greek period", "Medieval period", "Modern period", "Contemporary period"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following groups belongs to the Ancient Greek period?",
+  options: ["The Neo-Thomists", "The Existentialists", "The Atomists, The Pluralists, and The Pythagoreans", "The Cartesian Rationalists"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Socrates was born in which Greek city?",
+  options: ["Stagira", "Rhodes", "Mellitus", "Athens"],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Why is Socrates said to be the greatest philosopher that ever lived?",
+  options: ["He established the first physical laboratory", "He greatly influenced Western philosophy", "He was born to Italian nobility", "He wrote numerous books on logic"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How many philosophical books or manuscripts did Socrates write himself?",
+  options: ["None, he left no writings of his own", "Several dialogical treatises", "One single autobiography", "Five volumes on metaphysics"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "All we know about Socrates' philosophy was written down by which of his disciples?",
+  options: ["Aristotle", "Plato", "Thales", "Andronicus"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was Socrates' core belief regarding the presence of knowledge in human beings?",
+  options: ["Knowledge is completely absent at birth", "All men have knowledge embedded in them", "Only aristocratic elites possess knowledge", "Knowledge can only be obtained through witchcraft"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Socrates, what is embedded in all men?",
+  options: ["Sin", "Ignorance", "Knowledge", "Doubt"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to the Encyclopedia Britannica, the first principle Socrates' life hinged on is to never do what?",
+  options: ["Doubt the state", "Wrong or participate, even indirectly, in any wrongdoing", "Teach students without charging money", "Engage in physical labor"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What is the second conviction of Socrates mentioned by the Encyclopedia Britannica?",
+  options: ["That the soul is entirely mortal", "That anybody who really knows what is good and right could act against it", "That money is the root of all wisdom", "That sensory knowledge is the only truth"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who is credited with the famous statement 'The unexamined life is not worth living'?",
+  options: ["Plato", "Aristotle", "Socrates", "Nietzsche"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "To which philosopher do we attribute the claim that an unexamined life has no worth?",
+  options: ["St. Augustine", "John Locke", "Descartes", "Socrates"],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Socrates believed in which type of understanding of concepts like love, virtue, and justice?",
+  options: ["A purely objective understanding", "A purely relative understanding", "A completely subjective understanding", "A culturally varied understanding"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Socrates sought to establish an objective understanding of which set of concepts?",
+  options: ["Physical objects and planetary tracks", "Love, virtue, justice, etc.", "Mathematics and symbolic logic", "Witchcraft and the occult"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "With which specific charges was Socrates formally accused, leading to his death sentence?",
+  options: ["Treason and theft of state assets", "Impiety and corrupting the morals of the youth", "Practicing witchcraft and illegal assembly", "Denying the validity of mathematics"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was the final sentence passed on Socrates after he was prosecuted?",
+  options: ["Banishment from Athens", "Execution by hanging", "Sentence of death", "A heavy financial fine"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Into what specific setting was Plato born and brought up?",
+  options: ["A poor peasant community", "A purely scientific research hub", "An Aristocratic setting in Athens", "A merchant class environment in Stagira"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Plato belonged to an influential family located in which Greek city?",
+  options: ["Athens", "Stagira", "Hippo", "Mellitus"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "In what year did Plato establish his Academy in Athens?",
+  options: ["396 BC", "388 BC", "384 AD", "470 BC"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What tragic event directly motivated Plato to establish his Academy?",
+  options: ["The invasion of Athens by foreign powers", "He witnessed the way his master was unjustly executed", "The burning of the city of Mellitus", "His expulsion from Stagira"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was the central objective behind founding Plato's Academy?",
+  options: ["To train potential statesmen and scientists", "To tutor military commanders", "To compile Aristotle's works", "To promote the trade of physical artifacts"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Plato's Academy was established to prepare which groups of professionals?",
+  options: ["Monks and theologians", "Potential statesmen and scientists", "Poets and dramatists", "Traders and craftsmen"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Plato postulated the existence of how many worlds?",
+  options: ["Only one physical world", "Two worlds (the physical world and the world of forms)", "Three worlds (sensory, mental, and spiritual)", "An infinite number of universes"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Plato, how can human beings reach the world of forms?",
+  options: ["Through physical sense perception", "Through scientific laboratory tools", "Only through our mind", "By traveling beyond the physical sky"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Why is Plato classified as a dualist?",
+  options: ["He rejected the existences of the soul", "He postulated the existence of two realities", "He was both a mathematician and a politician", "He studied under both Socrates and Aristotle"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Because he believed in two distinct realities, Plato's philosophical position is called:",
+  options: ["Monism", "Dualism", "Materialism", "Empiricism"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Plato, the human soul is divided into which three parts?",
+  options: ["Faith, Hope, and Charity", "Reason, Emotion, and Appetites", "Id, Ego, and Superego", "Innate, Acquired, and Speculative"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What constitutes the human being's non-physical aspect (soul) according to Platonic philosophy?",
+  options: ["Mind and physical brain", "Reason, Emotion, and Appetites", "Pure logic and empirical observation", "Spirituality and witchcraft"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "For Plato, what must keep man's emotion and appetites in check to achieve virtue?",
+  options: ["The political laws of the state", "Reason", "Sensory experience", "Religious rituals"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Plato, how can complete virtue be achieved by a human being?",
+  options: ["By acquiring material wealth", "By the knowledge of the form of the good", "By rejecting all academic studies", "Through physical combat"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Where was Aristotle born?",
+  options: ["Athens in Southern Greece", "Stagira in Northern Greece", "Tagaste in North Africa", "Warrington in England"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "At what age did Aristotle begin his studies at Plato's Academy in Athens?",
+  options: ["12 years old", "17 years old", "30 years old", "38 years old"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was the name of the school Aristotle opened in Athens?",
+  options: ["The Academy", "The Lyceum", "Rocca Secca", "The Hippo School"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which ancient Greek philosopher opened the 'Lyceum' school?",
+  options: ["Plato", "Socrates", "Aristotle", "Thales"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Unlike Plato, where did Aristotle hold that the 'form' or 'essence' of a thing exists?",
+  options: ["In a transcendent world of ideas", "In the object or thing itself", "Only in the mind of the creator", "In the realm of the divine"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who argued against Plato by asserting that the essence of an object is located in the object itself?",
+  options: ["St. Augustine", "Aristotle", "Rene Descartes", "John Locke"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Point 24 of the text, who believed in empirical knowledge?",
+  options: ["Aristotle", "Socrates", "Plato", "Descartes"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Point 24, what did Aristotle believe in, in contrast to Plato's empirical stance?",
+  options: ["Scientific verification", "National speculation", "Occult rituals", "Mathematical calculus"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What concept did Aristotle reject concerning the origin of human ideas?",
+  options: ["Sensory perception", "Innate ideas", "Logical reasoning", "Philosophical speculation"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Aristotle, where do all ideas or knowledge originate from?",
+  options: ["The world of transcendent forms", "Experience or sense perception", "Divine revelation in dreams", "Pure deductive logic without senses"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What did Aristotle believe about the state of the human mind at birth?",
+  options: ["It contains complete innate knowledge", "It is blank", "It is pre-programmed with mathematical truths", "It is filled with moral virtues"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How does a person acquire different knowledge as they live, according to Aristotle?",
+  options: ["Through their senses", "By remembering forms from a past life", "Through national speculation", "Through systematic cartesian doubt"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The medieval period refers to philosophical thoughts elaborated between which time frames?",
+  options: ["388 BC and 396 AD", "Later part of the 8th century and end of the 14th century B.C.", "The 15th century and 18th century AD", "Late 19th and 20th century AD"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which century B.C. marks the conclusion of the medieval period according to Point 27?",
+  options: ["End of the 14th century B.C.", "Begin of the 8th century B.C.", "4th century B.C.", "20th century B.C."],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Philosophy of the medieval period was closely connected to which discipline?",
+  options: ["Modern natural science", "Christian theology", "Secular political theory", "Ancient mythology"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Medieval philosophical systems worked in close harmony with:",
+  options: ["Aristocratic atheism", "Christian theology", "Sophist rhetoric", "Cartesian doubt"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who were the chief philosophers of the medieval period?",
+  options: ["The pre-Socratic cosmologists", "The Greek Sophists", "The church fathers", "The French existentialists"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What did the church fathers of the medieval period try to achieve with philosophy?",
+  options: ["To discredit the existence of the physical world", "To give a rational explanation to their religious doctrines", "To separate academic science from the church", "To promote the political control of kings"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What issue was paramount to the philosophers of the medieval period?",
+  options: ["To establish democratic political systems", "To prove the existence of God", "To analyze the nature of physical atoms", "To reject the authority of the church"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The central project of medieval philosophy was focused on proving:",
+  options: ["The spherical shape of the earth", "The existence of God", "The value of aesthetic beauty", "The non-existence of innate ideas"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following lists contains only philosophers of the medieval period?",
+  options: ["Thales, Socrates, Plato", "St. Augustine, St. Anselm, St. Bonaventure", "Rene Descartes, John Locke, David Hume", "Jean-Paul Sartre, Martin Heidegger, Albert Camus"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "St. William Ockham, St. Averroes, and St. Avicenna belong to which period of philosophy?",
+  options: ["Ancient Greek period", "Medieval period", "Modern period", "Contemporary period"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "St. Augustine was born in which location?",
+  options: ["Stagira in Northern Greece", "Tagaste in North Africa", "Rocca Secca in Italy", "Warrington in England"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "In what year did St. Augustine become a professor of Rhetoric?",
+  options: ["388 BC", "384 AD", "396 AD", "1224 AD"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "St. Augustine was made the Bishop of Hippo in what year?",
+  options: ["384 AD", "388 BC", "396 AD", "1274 AD"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Of which ancient North African city was St. Augustine made Bishop in 396AD?",
+  options: ["Carthage", "Hippo", "Tagaste", "Alexandria"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "For St. Augustine, philosophy means the:",
+  options: ["speculative study of the natural world", "knowledge of God", "rejection of religious faith", "analysis of human political laws"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who defined the true meaning of philosophy as 'the knowledge of God'?",
+  options: ["Aristotle", "St. Thomas Aquinas", "St. Augustine", "John Locke"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "St. Augustine thinks that there can be no clear distinction between:",
+  options: ["Empiricism and Rationalism", "Philosophy and theology", "Science and mathematics", "Mind and physical body"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Augustine's worldview, how separated are the domains of philosophy and theology?",
+  options: ["They are completely incompatible", "There can be no clear distinction between them", "Theology is speculative, while philosophy is scientific", "They were separated by the medieval church fathers"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to St. Augustine, how did God create all things?",
+  options: ["Out of pre-existing chaotic physical matter", "Out of nothing", "Through natural evolutionary processes", "Using the blueprint of the world of forms"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "St. Augustine stressed that the physical world is the product of:",
+  options: ["An accidental cosmic collision", "God's free act", "Human collective imagination", "Natural speculation"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to St. Augustine, what is the ultimate goal of man?",
+  options: ["To acquire political power", "To acquire happiness", "To accumulate material wealth", "To reject all theological dogmas"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "For St. Augustine, true happiness can only be obtained from:",
+  options: ["Sensory and physical experience", "Political states and sovereign laws", "God", "Intellectual speculation in classrooms"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What are the names of the two cities postulated by St. Augustine?",
+  options: ["The city of Greece and the city of Rome", "The city of God and the city of Man", "The city of Athens and the city of Stagira", "The city of Reason and the city of Emotion"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How many distinct cities did St. Augustine conceptualize in his philosophy?",
+  options: ["One city", "Two cities", "Three cities", "An infinite number of cities"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to St. Augustine, who belongs to the city of God?",
+  options: ["Those who are rich and noble in society", "Those who love God and are guided by God", "Those who studied rhetoric in Carthage", "Those who love the physical world"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "In Augustine's view, who resides in the city of man?",
+  options: ["Those who love the world and are guided by sensual and emotional needs", "Those who are ordained as priests by the church", "Those who reject political kingdoms", "Those who study the pre-Socratic cosmologists"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "St. Thomas Aquinas was born to Italian nobility in the castle of:",
+  options: ["Hippo", "Stagira", "Rocca Secca", "Tagaste"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The town of Aquinas, where St. Thomas was born, lies between which two cities?",
+  options: ["Athens and Stagira", "Naples and Rome", "Mellitus and Rhodes", "Paris and Touraine"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who tutored St. Thomas Aquinas in philosophy and theology?",
+  options: ["Andronicus of Rhodes", "Albert the Great", "Plato", "St. Augustine"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Albert the Great, who tutored St. Thomas Aquinas, was famous for his deep knowledge of whose doctrines?",
+  options: ["Socrates", "Aristotle", "Descartes", "Nietzsche"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What nickname is frequently given to St. Thomas Aquinas?",
+  options: ["The Modern Socrates", "Medieval Aristotle", "The Father of Empiricism", "The Atheist Existentialist"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who was often called the 'Medieval Aristotle'?",
+  options: ["St. Augustine", "St. Anselm", "St. Thomas Aquinas", "St. William Ockham"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What is the name given to the philosophy of St. Thomas Aquinas and his followers?",
+  options: ["Platonism", "Thomism", "Cartesianism", "Existentialism"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "'Thomism' refers to the intellectual school founded upon the teachings of:",
+  options: ["Albert the Great", "St. Augustine", "St. Thomas Aquinas", "Bertrand Russell"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How many rational arguments did St. Thomas Aquinas propose to prove the existence of God?",
+  options: ["Two arguments", "Three arguments", "Five arguments", "Seven arguments"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following is NOT one of St. Thomas Aquinas's five proofs for God's existence?",
+  options: ["Proof from motion", "Proof from efficient cause", "Proof from innate ideas", "Proof from the degrees of perfection"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Thomas Aquinas, what makes an action morally bad?",
+  options: ["When it violates state law", "When it moves an agent far away from the ultimate goal", "When it is not based on empirical observation", "When it is done outside the classroom"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "For Aquinas, an action is regarded as morally good when it moves an agent toward:",
+  options: ["Material prosperity", "Scientific certainty", "The ultimate goal (God)", "Aristocratic political power"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How is the Modern Period of philosophy described in Point 46?",
+  options: ["A period of intellectual decline and dark ages", "A birth of knowledge, a revival of interest and zeal for knowledge", "An era dominated strictly by church dogmas", "The rise of ancient mythological explanations"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which era was characterized by a 'birth of knowledge' and a 'revival of interest and zeal'?",
+  options: ["The Ancient Greek period", "The Medieval period", "The Modern Period", "The Contemporary period"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "During the Modern Period, there was a major shift of emphasis from God or religion to:",
+  options: ["Mythology and custom", "Man and science", "Aesthetics and beauty", "Theological dogmas"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The shift of focus from God or religion to man and science occurred during which period?",
+  options: ["The Ancient Greek period", "The Medieval period", "The Modern Period", "The Contemporary period"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following philosophers belong to the Modern Period?",
+  options: ["Thales, Anaximander, Socrates", "St. Augustine, St. Thomas Aquinas, St. Anselm", "Rene Descartes, Benedict Spinoza, John Locke", "Jean-Paul Sartre, Martin Heidegger, Albert Camus"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "David Hume, Immanuel Kant, and Gottfried Leibniz are figures of which philosophical era?",
+  options: ["Ancient Greek Period", "Medieval Period", "Modern Period", "Contemporary Period"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Where was Rene Descartes born?",
+  options: ["Paris, France", "Touraine, France", "Warrington, England", "Stagira, Greece"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Descartes' father held what professional title in Brittany?",
+  options: ["Protestant pastor", "Councilor of the parliament of Brittany", "Professor of Rhetoric", "Aristocratic military general"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Rene Descartes was of what nationality, and what were his main fields of work?",
+  options: ["German poet and classical philologist", "French philosopher, mathematician, and scientist", "English empiricist and political theorist", "Italian theologian and scholastic tutor"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following fields was Rene Descartes NOT actively involved in?",
+  options: ["Philosophy", "Mathematics", "Natural Science", "Occult Witchcraft"],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Who is considered to be the founder of modern philosophy?",
+  options: ["Socrates", "St. Thomas Aquinas", "Rene Descartes", "John Locke"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Descartes is widely recognized in Western history as the:",
+  options: ["Medieval Aristotle", "Founder of modern philosophy", "Father of Empiricism", "First Atheist Existentialist"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "As a Rationalist, what did Rene Descartes hold to be the ultimate source of human knowledge?",
+  options: ["Sense experience", "Reason", "Divine revelation", "Occult practices"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "To which school of epistemology did Rene Descartes belong?",
+  options: ["Empiricism", "Rationalism", "Existentialism", "Skepticism"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "For Rene Descartes, what is the only thing that guarantees the certainty of what one knows?",
+  options: ["Sensory experience", "Reason", "Scientific tools", "State authority"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Descartes argued that without reason, we cannot guarantee the ________ of our knowledge.",
+  options: ["certainty", "practical value", "theological purity", "emotional appeal"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Rene Descartes is famously known for which philosophical phrase?",
+  options: ["'The unexamined life is not worth living'", "'Cogito, ergo sum'", "'God is dead'", "'Existence precedes essence'"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What is the English meaning of the Latin phrase 'Cogito, ergo sum'?",
+  options: ["I think, therefore I am", "Love of wisdom", "Being as being", "Knowledge of God"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The process by which Descartes arrived at his famous phrase 'Cogito, ergo sum' is known as:",
+  options: ["Deductive syllogism", "Empirical experimentation", "Cartesian doubt or Methodic doubt", "Speculative intuition"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What is another name for 'Cartesian doubt'?",
+  options: ["Socratic dialectic", "Methodic doubt", "Occult skepticism", "Radical empiricism"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Where was John Locke born?",
+  options: ["Touraine in France", "Warrington in Somersetshire", "Stagira in Northern Greece", "Tagaste in North Africa"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which English-born philosopher is associated with Warrington in Somersetshire?",
+  options: ["David Hume", "Bertrand Russell", "John Locke", "William Ockham"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "As an empiricist, what did John Locke believe the human mind is at birth?",
+  options: ["Pre-programmed with innate ideas", "A blank mind, that is, a 'tabula rasa'", "An objective world of forms", "Infused with the knowledge of God"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What is the meaning of the Latin term 'tabula rasa' used in Locke's philosophy?",
+  options: ["Divine soul", "Blank slate / blank mind", "Rational speculation", "Double reality"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "For Bertrand Russell, who may be regarded as the founder of empiricism?",
+  options: ["Rene Descartes", "John Locke", "David Hume", "Immanuel Kant"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Bertrand Russell's definition of empiricism, all our knowledge is derived from experience with the possible exception of:",
+  options: ["Religion and theology", "Logic and mathematics", "Physics and biology", "Aesthetics and ethics"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "As an Empiricist, what did John Locke regard as the sole originating source of knowledge?",
+  options: ["Reason", "Sense experience", "National speculation", "Innate concepts"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "John Locke's epistemology denies that knowledge can originate anywhere other than:",
+  options: ["Pure intellectual intuition", "Sense experience", "Metaphysical forms", "Classroom teachings"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "John Locke's political theory was an express denial of which political concept?",
+  options: ["Democratic elections", "The divine right of kings and the absolute power of the sovereign", "The natural right to freedom", "The equality of citizens"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Instead of sovereign absolutism, John Locke insisted that all men have a natural right to:",
+  options: ["Wealth and aristocracy", "Freedom and equality", "Occult power and state control", "Academic certification"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which trend in philosophy came to dominate the English-speaking world in the late 19th and 20th centuries?",
+  options: ["The scholastic trend", "The analytic trend", "The rationalist trend", "The mythological trend"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "During which timeframe did the analytic trend dominate English-speaking philosophy?",
+  options: ["Later part of the 8th century B.C.", "The 17th and 18th centuries", "The late 19th and 20th century", "The pre-Socratic Greek period"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was the contemporary period of philosophy specifically known for?",
+  options: ["A complete lack of speculative ideas", "Varied philosophical ideas and schools", "The absolute dominance of Christian theology", "A return to Greek mythological explanations"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "The contemporary period of Western philosophy is characterized by:",
+  options: ["A single unified school of thought", "Varied and diverse philosophical movements", "Strict adherence to Platonic dualism", "The complete rejection of science"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following is a philosophical movement presented during the contemporary period?",
+  options: ["The pre-Socratic cosmologists", "The Neo-Thomist movement, pragmatists, phenomenologists, and existentialists", "Cartesian rationalism", "The ancient Sophists"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Along with Neo-Thomism, Pragmatism, and Phenomenology, the contemporary period is most especially known for which philosophers?",
+  options: ["The Scholastic theologians", "The Existentialist philosophers", "The Atomists", "The Cartesian doubt theorists"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Among the movements of the contemporary period, which philosophers are described as the most influential?",
+  options: ["The pre-Socratic cosmologists", "The Existentialist philosophers", "The logical positivists", "The ancient Sophists"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How does the text characterize the influence of existentialist philosophers in the contemporary era?",
+  options: ["They had no lasting impact", "They are the most influential", "They were completely rejected by universities", "They only focused on the divine right of kings"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which of the following lists contains only philosophers of the contemporary period?",
+  options: ["Socrates, Plato, Aristotle", "St. Augustine, St. Thomas Aquinas, St. Anselm", "Rene Descartes, John Locke, David Hume", "Martin Heidegger, Jean-Paul Sartre, Karl Jaspers"],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Albert Camus, Soren Kierkegaard, and Friedrich Nietzsche are classified under which period?",
+  options: ["Ancient Greek period", "Medieval period", "Modern period", "Contemporary period"],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Friedrich Nietzsche was a German philosopher, poet, and classical philologist born to what kind of father?",
+  options: ["An Aristocratic councilor of parliament", "A Protestant pastor", "A professor of Rhetoric", "An itinerant Sophist teacher"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "How is Friedrich Nietzsche's upbringing described in the text?",
+  options: ["It was completely secular and scientific", "It was pious", "It was aristocratic and wealthy", "It was spent in a monastery in Hippo"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What was the primary focus or concern of the existentialist philosopher Friedrich Nietzsche?",
+  options: ["The political state", "The individual", "The physical universe", "Planetary motion"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Nietzsche's existential philosophy placed ultimate value and concern on:",
+  options: ["Collective state structures", "The individual", "Ecclesiastical theology", "Mathematical logic"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Friedrich Nietzsche's main contribution to philosophy is primarily in which branch?",
+  options: ["Epistemology", "Logic", "Ethics", "Aesthetics"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Besides his work in ethics, Nietzsche was highly critical of which institution?",
+  options: ["The university classroom", "Religion", "Modern mathematics", "Empirical science"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Because Friedrich Nietzsche was an individualist to the core, he did not believe in:",
+  options: ["The individual", "The state", "Ethics", "Philosophy"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Point 69, Nietzsche harbored a natural contempt for:",
+  options: ["Philosophers", "Women", "State kings", "Poets"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Friedrich Nietzsche associated Christianity with which form of morality?",
+  options: ["Master morality", "Slave morality", "Objective morality", "Rational morality"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Nietzsche mentioned that Christianity is the most ________ lie that ever existed.",
+  options: ["virtuous and holy", "fatal and seductive", "logical and scientific", "ancient and mythological"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Why did Friedrich Nietzsche consider Christian virtue to be 'bad'?",
+  options: ["It rejects the existence of Jesus", "It makes a virtue of meekness, humility, and weakness", "It requires too much mathematical calculation", "It was founded by the state"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Nietzsche, what does Christianity require an individual to do when slapped, instead of seeking revenge?",
+  options: ["Report to the sovereign king", "Turn the other cheek", "Engage in methodic doubt", "Write a philosophical book"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "According to Nietzsche, why should man do away with 'slave morality'?",
+  options: ["Because the state forbids it", "Because God is dead", "Because it is not empirical", "Because it was created by Plato"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Nietzsche opined that man should take on 'master morality' and move towards the highest stage of human existence, which is:",
+  options: ["The church bishop", "The superman", "The sovereign king", "The academic professor"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Jean-Paul Sartre was a French existentialist born in which city?",
+  options: ["Touraine", "Paris", "Athens", "Naples"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "What is the nationality and philosophical orientation of Jean-Paul Sartre?",
+  options: ["German rationalist", "French existentialist", "Italian scholastic", "English empiricist"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Existentialism is a philosophy that emphasizes which three core themes?",
+  options: ["Logic, reason, and scientific proof", "Individual existence, freedom, and choice", "Theology, faith, and the city of God", "Innate ideas, tabula rasa, and empirical senses"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which philosophical movement is defined by its emphasis on individual existence, freedom, and choice?",
+  options: ["Rationalism", "Thomism", "Existentialism", "Empiricism"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Why is Jean-Paul Sartre described as an atheist?",
+  options: ["He refused to study under Plato", "His ideas were opposed to religious teachings", "He did not believe in the existence of the human soul", "He was charged with corrupting the youth"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 2,
+  question: "Which French existentialist's ideas were heavily opposed to religious teachings, earning him the label of an atheist?",
+  options: ["Albert Camus", "Jean-Paul Sartre", "Martin Heidegger", "Karl Jaspers"],
+  answer: 1
+   },
+  {
+  course: "gst102",
+  chapter: 3,
+  question: "Regarding the definition of philosophy, which of the following is true?",
+  options: [
+    "There is a single definition universally accepted by all scholars",
+    "There is no single definition of philosophy that is universally acceptable",
+    "It is only defined by ancient Greek scholars",
+    "It can only be defined in a classroom setting"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Why is there no single, universally acceptable definition of philosophy?",
+  options: [
+    "Because philosophers refuse to communicate with each other",
+    "Because of the diverse perspectives and the vast scope of the discipline",
+    "Because the ancient Greek language is lost",
+    "Because the state has banned the study of philosophy"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which of the following is listed in Point 2 as an other field of philosophical inquiry?",
+  options: [
+    "Philosophy of sciences",
+    "Philosophy of physical education",
+    "Philosophy of chemical reactions",
+    "Philosophy of digital accounting"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Philosophy of Religion, Philosophy of Law, and Philosophy of Mathematics are classified as:",
+  options: [
+    "Sub-branches of cosmology",
+    "Other fields of philosophical inquiry",
+    "The only universally accepted branches of logic",
+    "Non-philosophical academic courses"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Onyeocha (1995) divides philosophy into which two main areas?",
+  options: [
+    "Theoretical or speculative philosophy, and Practical philosophy",
+    "Socratic philosophy and Aristotelian philosophy",
+    "Christian philosophy and Islamic philosophy",
+    "Ontology and Cosmology"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which philosopher divided the discipline of philosophy into speculative and practical areas in 1995?",
+  options: [
+    "Okoro",
+    "Wiredu",
+    "Onyeocha",
+    "Parmenides"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Point 4, what subjects are found under speculative philosophy?",
+  options: [
+    "Ethics, aesthetics, and political philosophy",
+    "Logic, general and special metaphysics",
+    "Philosophy of science, law, and social sciences",
+    "Witchcraft, occultism, and mythology"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Under Onyeocha's categorization, logic and metaphysics are grouped under which main division?",
+  options: [
+    "Practical philosophy",
+    "Speculative philosophy",
+    "Empirical philosophy",
+    "Applied science"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Point 5, what does Logic wonder about?",
+  options: [
+    "The physical elements that constitute the cosmos",
+    "The processes, procedures, and order in good reasoning",
+    "The existence of a good God and the problem of evil",
+    "The natural beauty of creative artworks"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which branch of speculative philosophy studies the processes, procedures, and order in good reasoning?",
+  options: [
+    "Metaphysics",
+    "Logic",
+    "Ontology",
+    "Aesthetics"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What is general metaphysics primarily concerned with?",
+  options: [
+    "The rules of sound and unsound arguments",
+    "The issue of being as being",
+    "The relationship between the individual and the state",
+    "The chemical composition of natural objects"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which branch of speculative philosophy deals directly with 'being as being'?",
+  options: [
+    "General metaphysics",
+    "Special metaphysics",
+    "Moral philosophy",
+    "Syllogistic logic"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What does general metaphysics probe into?",
+  options: [
+    "The rules of valid syllogisms",
+    "The ontology or essence of things",
+    "The social contract of the state",
+    "The creation of artistic beauty"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Probing into the ontology or essence of things is the key focus of:",
+  options: [
+    "Practical ethics",
+    "General metaphysics",
+    "Special logic",
+    "Political philosophy"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Why does philosophy defy strict classification according to Point 8?",
+  options: [
+    "Because it cannot be studied outside Greece",
+    "Because you can speak of Christian, Islamic, Buddhist, Hindu, African, and Chinese philosophies",
+    "Because it has no practical relevance to human life",
+    "Because academic institutions have banned its classification"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "The existence of Christian, Islamic, African, and Chinese philosophies shows that philosophy:",
+  options: [
+    "Defies classification",
+    "Is strictly European",
+    "Is a form of religion",
+    "Has no divisions"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Onyeocha, which areas are covered by practical philosophy?",
+  options: [
+    "Logic, general metaphysics, and special metaphysics",
+    "Ethics (moral philosophy), aesthetics, and political philosophy",
+    "Philosophy of religion, law, and mathematics",
+    "Ontology, cosmology, and theodicy"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Under Onyeocha's division, where are ethics, aesthetics, and political philosophy placed?",
+  options: [
+    "Speculative philosophy",
+    "Practical philosophy",
+    "Theoretical philosophy",
+    "Ancient Greek cosmology"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Why is it difficult to define philosophy and its branches?",
+  options: [
+    "Because it has no written textbooks",
+    "Because it is concerned with all of existence and the quiddity of things",
+    "Because it is an occult practice kept secret",
+    "Because modern scientists have rejected its definitions"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "The difficulty in defining philosophy lies in its vast concern with 'all of existence' and the:",
+  options: [
+    "quiddity of things",
+    "physical weight of matter",
+    "laws of modern states",
+    "dogmas of the medieval church"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Onyeocha, metaphysics is concerned with which basic issues?",
+  options: [
+    "Syllogisms, arguments, premises, and logical fallacies",
+    "Reality, existence, personhood, and freedom versus determinism",
+    "Creation of artwork, beauty, and appreciation",
+    "The divine right of kings and political power"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which of the following is listed by Onyeocha as a basic metaphysical issue?",
+  options: [
+    "Validity of physical laboratory apparatus",
+    "Freedom versus determinism",
+    "The grammatical structure of sentences",
+    "The rules of sound arguments"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which philosopher claimed that being is immutable, one, and timeless?",
+  options: ["Heraclitus", "Parmenides", "Aristotle", "Onyeocha"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "How did Parmenides describe 'being' in his philosophical system?",
+  options: ["An ever-changing flow of fire", "Immutable, one, and timeless", "A mere mirror in a supra-sensible world", "An accidental combination of physical color and height"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which philosopher held a view contrary to Parmenides by claiming that change is the only constant?",
+  options: ["Heraclitus", "Socrates", "Thales", "Kant"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Heraclitus believed that things are changing in:",
+  options: ["Slow patterns over millions of years", "Quick succession", "Response to political laws of the state", "No constant pattern at all"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What issue has been a central problem in philosophy, as demonstrated by the debate between Parmenides and Heraclitus?",
+  options: ["Logic and mathematics", "Change and permanence", "Ethics and aesthetics", "Church and state"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "The core philosophical clash between the concepts of static stability and continuous flow is known as the problem of:",
+  options: ["Subjective and objective values", "Change and permanence", "Universals and particulars", "Essence and existence"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "In philosophy, what is defined as 'what makes a thing what it is' or 'the thing in itself'?",
+  options: ["An accident", "A substance", "A universal", "A particular"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "How is 'substance' defined within metaphysical inquiry?",
+  options: ["The external color, size, and weight of an object", "What makes a thing what it is; the thing in itself", "A secondary quality that cannot exist on its own", "A concept that only exists in the world of forms"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Point 16, the color, size, and height of a thing are classified as:",
+  options: ["Substances", "Accidents", "Essences", "Universals"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which of the following is considered an 'accident' rather than a 'substance' in philosophical terms?",
+  options: ["The thing in itself", "The height of an object", "The core essence of being", "A self-existing entity"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What is the key metaphysical difference between a substance and an accident regarding existence?",
+  options: ["An accident can exist on its own, a substance cannot", "A substance can exist on its own, an accident cannot", "Both can exist completely independently of each other", "Neither has any real physical existence"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which of the following requires a substance to exist and cannot exist on its own?",
+  options: ["An accident", "The thing in itself", "The core essence", "A primary being"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "In the problem of essence and existence, what refers to 'the fact of a thing being in being'?",
+  options: ["Substance", "Accident", "Existence", "Essence"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What is the philosophical definition of 'essence'?",
+  options: ["The fact of a thing being in being", "What makes a thing what it is", "The physical weight of an object", "An accidental quality like color or size"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Traditional Western philosophy spoke of ________ preceding ________.",
+  options: ["existence / essence", "essence / existence", "accident / substance", "reality / appearance"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which philosophical school contrary to traditional Western philosophy proposes that existence comes before essence?",
+  options: ["Thomism", "Existentialism", "Rationalism", "Scholasticism"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "For Thomas Aquinas, what makes essence come into being?",
+  options: ["Reason", "Existence", "Accident", "Aesthetics"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which medieval scholar asserted that it is existence that makes essence come into being?",
+  options: ["St. Augustine", "Thomas Aquinas", "Kant", "Parmenides"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What was Immanuel Kant's position on the relationship between existence and essence?",
+  options: ["Essence always precedes existence", "Existence always precedes essence", "Existence and essence are inseparable", "Existence and essence are entirely irrelevant to metaphysics"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Kant, how are existence and essence related?",
+  options: ["They are completely independent of each other", "They are inseparable", "Essence is superior to existence", "Existence is merely an accident"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What is identified in Point 22 as a core problem of metaphysics?",
+  options: ["The problem of universals and particulars", "The problem of physical gravity and velocity", "The problem of logical fallacies and premises", "The problem of state laws and constitutional rights"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "The debate between 'universals' and 'particulars' belongs directly to which branch of philosophy?",
+  options: ["Logic", "Aesthetics", "Metaphysics", "Political philosophy"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Why is the issue of appearance and reality a fundamental problem of philosophy?",
+  options: ["Because it has no logical solution", "Because what you see with your naked eye may not necessarily be as you see it", "Because it is strictly based on religious faith", "Because the state has banned sensory measurements"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "The discrepancy between sensory observation and the actual truth of things forms the problem of:",
+  options: ["Essence and existence", "Appearance and reality", "Change and permanence", "Substance and accident"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which philosophers argued that we cannot trust our senses as means of acquiring knowledge?",
+  options: ["Aristotle, Locke, and Hume", "Plato, Parmenides, and Descartes", "Karl Marx, Wiredu, and Okoro", "St. Thomas Aquinas and Onyeocha"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Plato, Parmenides, and Descartes, what is untrustworthy for obtaining true knowledge?",
+  options: ["Our reason", "Our senses", "Mathematical equations", "Philosophical books"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "For Plato, everything in this physical world is a:",
+  options: ["Self-existing substance", "Mere mirror of things in the real supra-sensible world", "Perfect and timeless entity", "Source of ultimate truth"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Which philosopher described physical things in this world as mere mirrors of a real, supra-sensible world?",
+  options: ["Aristotle", "Plato", "Heraclitus", "Kant"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Point 26, the monists could not agree on:",
+  options: ["The existence of the state", "The one stuff that constituted the universe", "The moral absolute values of ethics", "The rules of sound arguments"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Match the monists with their proposed primary elements of the universe: Thales and Heraclitus.",
+  options: [
+    "Thales: air; Heraclitus: fire",
+    "Thales: water; Heraclitus: fire",
+    "Thales: unlimited; Heraclitus: air",
+    "Thales: water; Heraclitus: unlimited"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Anaximenes, what primary substance constituted the universe?",
+  options: ["Water", "Fire", "Air", "The unlimited"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Who among the monists believed that the universe was constituted by 'the unlimited'?",
+  options: ["Thales", "Anaximander", "Anaximenes", "Heraclitus"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "What is identified in Point 27 as a core task of philosophy?",
+  options: ["Theological indoctrination", "Conceptual clarification", "The creation of national policies", "Empirical measurement"],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "Conceptual clarification is a primary and core task of which discipline?",
+  options: ["Political Science", "Natural Science", "Philosophy", "History"],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "According to Point 28, why can everything in philosophy be questioned and analyzed?",
+  options: ["Because there is no dogma in philosophy", "Because it is banned from classrooms", "Because it is a form of political theory", "Because it relies purely on sensory experience"],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 3,
+  question: "In philosophy, what is completely absent, meaning no idea is beyond critical analysis?",
+  options: ["Reason", "Logic", "Dogma", "Ethics"],
+  answer: 2
+  },
+  {
+  course: "gst102",
+  chapter: 4,
+  question: "According to Point 1, what does the branch of ethics study?",
+  options: [
+    "Biological cells and tissues",
+    "Human behavior",
+    "Modern political institutions",
+    "Ancient historical documents"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Ethics is described in Point 1 as a branch of what?",
+  options: [
+    "Human behavior",
+    "Physical science",
+    "Traditional theology",
+    "Pure mathematics"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which branch of ethics is devoted to the treatment of moral problems, practices, and policies in human life, professions, science, technology, and government legislations?",
+  options: [
+    "Meta-ethics",
+    "Speculative ethics",
+    "Applied ethics",
+    "Medieval ethics"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is the primary devotion of Applied Ethics?",
+  options: [
+    "Defining the etymological origins of Greek words",
+    "Treating moral problems, practices, and policies in human life, professions, science, technology, and government legislations",
+    "Proving the metaphysical existence of God",
+    "Developing chemical formulas for genetics"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What are the criteria of knowing whether actions are good or bad, according to Point 3?",
+  options: [
+    "The physical weight and size of the agent",
+    "The intention or the motive of the moral agent",
+    "The legal constitution of the state alone",
+    "The consensus of modern scientists"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Whose intention or motive determines if an action is good or bad?",
+  options: [
+    "The legal advocate",
+    "The non-moral spectator",
+    "The moral agent",
+    "The ancient Greek philosopher"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which theory connotes that moral actions are right or wrong because someone claims it is or someone believes it to be so?",
+  options: [
+    "Conventionalism",
+    "Ethical Realism",
+    "Ethical Absolutism",
+    "Bioethics"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to conventionalism, moral actions are right or wrong because:",
+  options: [
+    "They are verified by empirical laboratories",
+    "Someone claims it is or someone believes it to be so",
+    "They are universally true irrespective of anyone's opinion",
+    "They exist as abstract entities in the world of forms"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which of the following is listed under conventionalist theories?",
+  options: [
+    "Ethical Universalism and Bioethics",
+    "Divine command theory, Individualist theory, and Ethical relativism",
+    "Medical ethics and Euthanasia",
+    "Anti-abortion and Pro-life theories"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Divine command theory, Individualist theory, and Ethical relativism are theories categorized under:",
+  options: [
+    "Ethical realism",
+    "The conventionalists theory",
+    "The universalist theory",
+    "The realist theory"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to the divine command theory, why are moral actions right or wrong?",
+  options: [
+    "Because society accepts or rejects them",
+    "Because the individual decides so",
+    "Because God claims it to be right or wrong",
+    "Because physicians and scientists verify them"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which moral theory asserts that the rightness or wrongness of an action is determined by God's claims?",
+  options: [
+    "Individualist theory",
+    "Divine command theory",
+    "Ethical relativism",
+    "Ethical absolutism"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What does the individualist theory state regarding morality?",
+  options: [
+    "Society makes the rules",
+    "It is the individual that determines if an action is right or wrong",
+    "Moral standards apply to all men at all times",
+    "God's laws are the only moral guide"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Who or what determines if an action is right or wrong under the individualist theory?",
+  options: [
+    "The sovereign king",
+    "The church",
+    "The individual",
+    "The society"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to ethical relativism, what determines whether an action is right or wrong?",
+  options: [
+    "The individual's subjective mood",
+    "The society we live in",
+    "A single universal standard",
+    "The commands of God"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which moral theory posits that rightness and wrongness are relative to and determined by the society we live in?",
+  options: [
+    "Ethical relativism",
+    "Ethical realism",
+    "Ethical absolutism",
+    "Divine command theory"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is the core claim of Ethical Realism?",
+  options: [
+    "Moral actions are right because society says so",
+    "Ethical truths are true, irrespective of the person saying it",
+    "All values are relative and modifiable",
+    "The individual's intention has no moral value"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which ethical school holds that moral truths exist objectively and are true regardless of the speaker?",
+  options: [
+    "Conventionalism",
+    "Individualism",
+    "Ethical realism",
+    "Ethical relativism"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which of the following is listed as a theory under ethical realism in Point 10?",
+  options: [
+    "Divine command theory",
+    "Individualist theory",
+    "Ethical absolutism",
+    "Ethical relativism"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Ethical absolutism, Ethical Universalism, Bioethics, and Medical ethics fall under which major category?",
+  options: [
+    "Conventionalism",
+    "Ethical realism",
+    "Individualism",
+    "Skepticism"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What does Ethical Absolutism hold?",
+  options: [
+    "Moral rules depend entirely on the individual",
+    "There is a single moral standard which applies to all men at all times and in all circumstances",
+    "Society's traditions dictate what is morally acceptable",
+    "The situations determine if an action is right or wrong"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which theory asserts that a single moral standard applies universally to all humans, in all circumstances and times?",
+  options: [
+    "Ethical relativism",
+    "Individualism",
+    "Ethical absolutism",
+    "Ethical universalism"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which theory gives room for exceptions to the rule, meaning the situation determines if an action is right or wrong?",
+  options: [
+    "Ethical universalism theory",
+    "Ethical absolutism",
+    "Divine command theory",
+    "Individualist theory"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to ethical universalism, what determines whether an action is right or wrong?",
+  options: [
+    "A completely unyielding code that never allows exceptions",
+    "The situation one finds oneself in",
+    "The claim of the sovereign ruler",
+    "The belief of the individual alone"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What does Bioethics study?",
+  options: [
+    "The political administration of public hospitals",
+    "The ethical implication of advances in genetics and biotechnology, cloning and new reproductive technologies",
+    "The rules of correct reasoning in scientific labs",
+    "The chemical equations used in physical cloning"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which field of ethics specifically studies cloning, genetics, biotechnology, and new reproductive technologies?",
+  options: [
+    "Medical ethics",
+    "Bioethics",
+    "Ethical universalism",
+    "Ethical relativism"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "To whom does medical ethics offer moral advice?",
+  options: [
+    "Politicians, lawmakers, and legal judges",
+    "Physicians, health care personnel, and patients",
+    "Biotechnologists and genetic engineers",
+    "Only ancient Greek moralists"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which issues are addressed under medical ethics according to Point 14?",
+  options: [
+    "Theological proofs for the existence of God",
+    "Euthanasia, fertility treatment, and medical confidentiality",
+    "The relationship of the individual to the state",
+    "The definition of substance and accident"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is Amniocentesis, as defined in Point 15?",
+  options: [
+    "A surgical method of terminating a pregnancy",
+    "A biological test by which a scientist tries to see if an unborn baby has a disease",
+    "A process of cloning physical organisms",
+    "A method of passive euthanasia"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Why are moral philosophers concerned with Amniocentesis?",
+  options: [
+    "Because it is an illegal occult practice",
+    "Because it is a biological test on pregnant women to check if the unborn baby has a disease",
+    "Because it was banned by the medieval church",
+    "Because it contradicts the laws of logic"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is surrogate motherhood as defined in the notes?",
+  options: [
+    "A case where a woman is impregnated with the sperm of the husband of an infertile couple and then surrenders the baby to them",
+    "A process where biotechnology is used to clone human infants",
+    "The spontaneous termination of a pregnancy by natural causes",
+    "A method of medical test carried out on pregnant women"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What core ethical question does the practice of surrogate motherhood raise?",
+  options: [
+    "Is this act different from selling a baby?",
+    "Does this act require a state license?",
+    "Is this act a form of spontaneous abortion?",
+    "Does this act involve theodicy?"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "How is Euthanasia defined in Point 17?",
+  options: [
+    "Denying human life to a fetus",
+    "Terminating the life of one who is on the verge of death",
+    "Impregnating a woman with the sperm of an infertile couple's husband",
+    "A biological test carried out on pregnant women"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "How is abortion defined in the context of Point 17?",
+  options: [
+    "Denying human life to a fetus",
+    "A form of passive euthanasia",
+    "A method of surrogate motherhood",
+    "A biological test checking for diseases"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What are the two types of abortion listed in Point 18?",
+  options: [
+    "Voluntary and nonvoluntary abortion",
+    "Induced and spontaneous abortion",
+    "Active and passive abortion",
+    "Somatic and genetic abortion"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "The two main types of abortion analyzed by moral philosophers are spontaneous and:",
+  options: [
+    "Active",
+    "Induced",
+    "Voluntary",
+    "Nonvoluntary"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Under what conditions does spontaneous abortion happen?",
+  options: [
+    "When a physician administers drugs",
+    "If the fetus is not well-formed, letting nature take its natural course",
+    "When a surrogate mother decides to surrender the baby",
+    "When the mother's physical health is threatened"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Spontaneous abortion is characterized by:",
+  options: [
+    "The influence of physicians and drugs",
+    "Nature taking its natural course when the fetus is not well-formed",
+    "The explicit choice of the pregnant woman to terminate",
+    "Passive euthanasia procedures"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What influences an induced abortion, according to Point 20?",
+  options: [
+    "Nature taking its natural course",
+    "The physician or drugs",
+    "A physical accident",
+    "The legal law of the state"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Abortion that is active and influenced by medical personnel or chemical substances is called:",
+  options: [
+    "Spontaneous abortion",
+    "Induced abortion",
+    "Passive abortion",
+    "Natural abortion"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which type of abortion are ethicists primarily concerned about?",
+  options: [
+    "The spontaneous type of abortion",
+    "The induced type of abortion",
+    "The accidental type of abortion",
+    "The natural course of abortion"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Ethicists focus their moral inquiries on induced abortion because it is:",
+  options: [
+    "A natural event over which humans have no control",
+    "Influenced by human intervention (physician or drugs)",
+    "A purely legal matter with no moral implications",
+    "An unpreventable biological test"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "The abortion debate comprises which two sets of people?",
+  options: [
+    "The monists and the dualists",
+    "The anti-abortionist (conservative) and the pro-abortionist (liberalist)",
+    "The scholastic fathers and the contemporary scientists",
+    "The individualists and the relativists"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is another name for the anti-abortionist position in the contemporary debate?",
+  options: [
+    "Liberalist",
+    "Conservative",
+    "Realist",
+    "Relativist"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What do the pro-abortionists (liberalists) claim in the debate?",
+  options: [
+    "Abortion can only be allowed when the life of the mother is threatened",
+    "The woman carrying the pregnancy has a right to choose to terminate or carry the fetus to term",
+    "Embryos and fetuses must be regarded as pre-born children",
+    "Nature must always take its natural course"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to the liberalist position on abortion, the choice to carry the fetus to term belongs to:",
+  options: [
+    "The physician in charge",
+    "The state legal system",
+    "The woman carrying the pregnancy",
+    "The surrogate couple"
+  ],
+  answer: 2
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "When do pro-life abortionists claim that abortion can be allowed?",
+  options: [
+    "At any time the mother chooses",
+    "Only when the life of the mother is threatened",
+    "When the fetus is confirmed to be female",
+    "Never, under any circumstances"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to pro-life advocates, the threat to what is the only justification for allowing an abortion?",
+  options: [
+    "The mother's financial status",
+    "The life of the mother",
+    "The doctor's professional schedule",
+    "The surrogate contract"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "How do pro-lifers regard embryos and fetuses?",
+  options: [
+    "As non-human biological matter",
+    "As pre-born children",
+    "As accidental substances",
+    "As products of cloning only"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "According to pro-lifers, pregnant women are considered to have a moral obligation to:",
+  options: [
+    "Their physician and local hospital",
+    "Their fetus and their born children",
+    "The legal constitution of the state",
+    "The society they live in"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Under what conditions might abortion be perceived as a right action according to Point 26?",
+  options: [
+    "If the pregnancy is financially inconvenient",
+    "If the mother's mental and physical health condition is in jeopardy",
+    "If the child is not wanted by the father",
+    "Whenever a relative commands it"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "If a mother's mental and physical health is in jeopardy, abortion may be perceived as:",
+  options: [
+    "An illegal act of passive euthanasia",
+    "A right action",
+    "A spontaneous abortion",
+    "A form of surrogate motherhood"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Which of the following is listed in Point 27 as a highly controversial issue that bothers moral philosophers in the contemporary era?",
+  options: [
+    "Medieval scholasticism",
+    "Euthanasia",
+    "Aristotelian forms",
+    "Divine right of kings"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Euthanasia continues to bother moral philosophers in which philosophical era?",
+  options: [
+    "Ancient Greek period",
+    "Medieval period",
+    "Modern period",
+    "Contemporary era"
+  ],
+  answer: 3
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What are the two types of Euthanasia listed in Point 28?",
+  options: [
+    "Induced and spontaneous euthanasia",
+    "Passive and active euthanasia",
+    "Bioethical and medical euthanasia",
+    "Conservative and liberal euthanasia"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "The two main types of euthanasia discussed by moral philosophers are active and:",
+  options: [
+    "Spontaneous",
+    "Passive",
+    "Induced",
+    "Voluntary"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What does Passive Euthanasia involve?",
+  options: [
+    "The act or practice of painlessly putting to death with drugs",
+    "The act of withholding or withdrawing certain treatments and letting a patient die",
+    "Terminating a pregnancy due to natural causes",
+    "Requesting the termination of one's own life directly"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Withholding or withdrawing treatments and letting a patient die of their natural illness is defined as:",
+  options: [
+    "Active euthanasia",
+    "Passive euthanasia",
+    "Voluntary abortion",
+    "Surrogate motherhood"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is Active Euthanasia?",
+  options: [
+    "Withholding or withdrawing medical treatment to let a patient die",
+    "The act or practice of painlessly putting to death those who suffer from terminal disease",
+    "Terminating a pregnancy using surgical procedures",
+    "Impregnating an infertile couple's surrogate"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "Painlessly putting a terminally ill patient to death is categorized as:",
+  options: [
+    "Passive euthanasia",
+    "Active euthanasia",
+    "Nonvoluntary abortion",
+    "Amniocentesis"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is Voluntary Euthanasia?",
+  options: [
+    "One in which a person requests the termination of his or her life",
+    "One in which the patient is mentally incompetent to make a choice",
+    "Letting a patient die naturally without their request",
+    "Terminating a fetus due to medical threats"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "When a terminal patient explicitly requests the termination of their own life, the act is known as:",
+  options: [
+    "Voluntary euthanasia",
+    "Nonvoluntary euthanasia",
+    "Passive abortion",
+    "Surrogacy"
+  ],
+  answer: 0
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "What is Nonvoluntary Euthanasia?",
+  options: [
+    "One in which a person requests the termination of his or her life",
+    "One in which the patient concerned is not mentally competent to make an informed request",
+    "The spontaneous termination of a pregnancy",
+    "A biological test checking for fetal diseases"
+  ],
+  answer: 1
+},
+{
+  course: "gst102",
+  chapter: 4,
+  question: "When a patient is mentally incompetent to make an informed request regarding their death, the euthanasia is called:",
+  options: [
+    "Voluntary",
+    "Nonvoluntary",
+    "Spontaneous",
+    "Induced"
+  ],
+  answer: 1
   }
-]
