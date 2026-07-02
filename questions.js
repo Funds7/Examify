@@ -23971,5 +23971,750 @@ const QUESTIONS = [
       "decree"
     ],
     answer: 2
+  },
+  
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What type of musical composition is an anthem usually written for?",
+    options: [
+      "A full chorus with or without orchestral accompaniment",
+      "A solo vocalist with a piano",
+      "An instrumental brass band only",
+      "A duet with a string quartet"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "An anthem is defined as a type of music composition usually meant for which of the following?",
+    options: [
+      "An acapella trio",
+      "A full chorus with or without an orchestral accompaniment",
+      "A solo keyboard performance",
+      "A jazz ensemble"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "According to the notes, what does the regular singing of anthems in events remind members of?",
+    options: [
+      "Their past achievements and financial status",
+      "Their identity and responsibilities within the group",
+      "The musical history of the composer",
+      "The rules of the physical venue"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the primary psychological effect of regularly singing anthems in group events?",
+    options: [
+      "It reminds members of their identity and responsibilities within the group",
+      "It encourages competition among different members",
+      "It creates division among different sub-groups",
+      "It serves as a distraction from event activities"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What does Nigeria's national anthem include and direct?",
+    options: [
+      "Basic civic duties of the citizens and prayers to God",
+      "Historical wars and economic policies",
+      "Biographies of founding fathers and physical geography",
+      "Global alliances and trade agreements"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Apart from civic duties, who does the Nigerian national anthem direct some prayers to?",
+    options: [
+      "The President",
+      "The ancestors",
+      "God",
+      "The military commanders"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is a national anthem officially seen as?",
+    options: [
+      "A traditional folk song for entertainment",
+      "An official musical composition that praises a country",
+      "A political campaign song",
+      "A commercial advertisement track"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "A national anthem can be defined as an official musical composition that does what?",
+    options: [
+      "Praises a country",
+      "Criticizes foreign governments",
+      "Details the budget of a country",
+      "Highlights the laws of a nation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Who composed the music of the Nigerian national anthem adopted in 1978?",
+    options: [
+      "Professor Eric Arubayi",
+      "Dr. Joseph O. Ofosu",
+      "Benedict Elide Odiase",
+      "Professor Emurobome Idolor"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "In what year was the national anthem music composed by Benedict Elide Odiase adopted?",
+    options: [
+      "1960",
+      "1978",
+      "1992",
+      "2010"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "How is the Nigerian national anthem meant to be sung?",
+    options: [
+      "By a congregation with or without instrumental accompaniment",
+      "Strictly by a solo opera singer",
+      "Exclusively by an instrumental brass band without voices",
+      "By a small selected duet"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The Nigerian national anthem is designed for congregational singing. Which of the following is true about its performance?",
+    options: [
+      "It must always have a full orchestra",
+      "It must never be accompanied by instruments",
+      "It is meant to be sung by a congregation with or without instrumental accompaniment",
+      "It must be hummed rather than sung"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which of the following is a primary context for singing or playing the Nigerian national anthem?",
+    options: [
+      "Private family dinners and birthday parties",
+      "Military and paramilitary routines, governmental, and school gatherings",
+      "Commercial market transactions",
+      "Personal sporting workouts"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "According to the notes, gatherings of schools and institutions fall under what category for the national anthem?",
+    options: [
+      "Singing or playing contexts of the national anthem",
+      "Informal rehearsal contexts only",
+      "Prohibited zones for anthem rendition",
+      "Optional performance contexts"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the official nature of the etiquette for singing the Nigerian national anthem?",
+    options: [
+      "Informal and relaxed",
+      "Military in nature",
+      "Theatrical and dramatic",
+      "Religious and quiet"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The etiquette observed when singing the Nigerian national anthem is officially characterized as being what?",
+    options: [
+      "Military in nature",
+      "Casual in nature",
+      "Academic in nature",
+      "Cultural in nature"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What posture must everyone maintain when the Nigerian national anthem is being sung?",
+    options: [
+      "Sitting with hands folded",
+      "Standing up and remaining in attention posture",
+      "Kneeling down",
+      "Walking slowly in circles"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "When does the requirement to stand up and remain in an attention posture during the national anthem end?",
+    options: [
+      "Immediately after the first stanza",
+      "When the instrumental begins",
+      "Until singing the national anthem is over",
+      "When the President sits down"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "How is the 'direct impact' of the Nigerian National Anthem defined?",
+    "options": [
+      "Immediate roles and benefits derived from singing the anthem",
+      "Long-term economic policies of the state",
+      "The global ranking of the nation's music industry",
+      "The physical health of the singers"
+    ],
+    "answer": 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What do the immediate roles and benefits derived from singing the Nigerian national anthem represent?",
+    options: [
+      "Indirect impact",
+      "Direct impact",
+      "Aesthetic impact",
+      "Secondary functions"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Nigeria's national anthem serves as a veritable means of what?",
+    options: [
+      "National identity",
+      "Economic generation",
+      "Political debate",
+      "Religious conversion"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which of the following is described as a veritable means of national identity for Nigeria?",
+    options: [
+      "The national anthem",
+      "The university logo",
+      "The currency exchange rate",
+      "The highway system"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which of the following is a direct function of the Nigerian National Anthem?",
+    options: [
+      "It serves as an indicator of governmental protocol",
+      "It establishes the nation's tax rates",
+      "It outlines the academic syllabus of universities",
+      "It regulates international trading hours"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The national anthem acts as a sign of authority for the speech of which officials?",
+    options: [
+      "The chief justice, local chiefs, and school principals",
+      "A president, governor, or ambassador",
+      "Private business owners and managers",
+      "Local councilors and priests"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "One direct function of the Nigerian national anthem is that it helps to encourage what?",
+    options: [
+      "One's desire to serve their nation and uplift one's pride",
+      "A competitive spirit among neighboring countries",
+      "An increase in local agricultural production",
+      "The memorization of government laws"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the indirect impact of the Nigerian National Anthem defined as?",
+    options: [
+      "Immediate roles and benefits derived from singing",
+      "Extreme roles and benefits derived from singing the national anthem",
+      "Financial gains from music streaming platforms",
+      "The external reputation of the country's armed forces"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "\"Extreme roles and benefits derived from singing the Nigerian national anthem\" refers to its:",
+    options: [
+      "Direct impact",
+      "Indirect impact",
+      "Minor functions",
+      "Political protocol"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which of the following is considered an indirect function of the Nigerian National Anthem?",
+    options: [
+      "Helping to bind citizens together and create national solidarity",
+      "Acting as an indicator of presidential protocol",
+      "Serving as a sign of authority for an ambassador's speech",
+      "Providing financial rewards to citizens"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "According to the notes, what is the connection between human nature and value in relation to the indirect functions of the national anthem?",
+    options: [
+      "Human beings naturally fear what they do not understand",
+      "Human beings naturally respect what they value",
+      "Human beings ignore symbols of authority",
+      "Human beings prioritize individual interests over symbols"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the text of the Nigerian national anthem made up of?",
+    options: [
+      "Strong statements which highlight issues of national interest",
+      "Poetic metaphors about natural landscapes",
+      "A list of past political leaders and their terms",
+      "Historical descriptions of pre-colonial empires"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The strong statements in the text of the Nigerian national anthem primarily highlight what?",
+    options: [
+      "Issues of national interest",
+      "Agricultural techniques",
+      "International sports achievements",
+      "The geographical size of the nation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which of the following is outlined in the first stanza of the Nigerian national anthem?",
+    options: [
+      "A prayer to the supreme God for solace",
+      "Call to national service, required attitudes, and acknowledgement of past heroes' works",
+      "The establishment of the coat of arms",
+      "The detailed geography of the Niger and Benue rivers"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The acknowledgement of the good works of past heroes is found in which part of the national anthem?",
+    options: [
+      "The first stanza",
+      "The second stanza",
+      "The third stanza",
+      "The chorus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the main focus of the second stanza of the Nigerian national anthem?",
+    options: [
+      "An acknowledgement of past heroes",
+      "An essential prayer to the supreme God for solace, guidance, and help",
+      "The historical background of the military",
+      "A call to national service"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "In the second stanza, who is the essential prayer directed to for solace, guidance, and help?",
+    options: [
+      "The founding fathers",
+      "The supreme God",
+      "The military commanders",
+      "The citizens of the nation"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What does the Nigerian national pledge present?",
+    options: [
+      "A personified vow of faithfulness, loyalty, and honesty in national service",
+      "A set of guidelines for international relations",
+      "A list of constitutional rights of the citizen",
+      "A code of conduct for university administration"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "According to the pledge, what three virtues are vowed for national service, defending unity, and sustaining the honor and glory of Nigeria?",
+    options: [
+      "Faithfulness, loyalty, and honesty",
+      "Patience, tolerance, and wisdom",
+      "Strength, courage, and pride",
+      "Humility, discipline, and respect"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What musical term describes the structure of the Nigerian national anthem where both stanzas are sung with the same tune?",
+    options: [
+      "Through-composed",
+      "Binary",
+      "Strophic",
+      "Ternary"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What does it mean that the music of the Nigerian national anthem is purely strophic?",
+    options: [
+      "The two stanzas are sung with the same tune",
+      "Each stanza has a completely different melody",
+      "It must be sung in two different languages",
+      "It features alternating solo and chorus sections"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the key of the Nigerian national anthem's music?",
+    options: [
+      "G-major",
+      "F-major",
+      "C-minor",
+      "A-major"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "In what time signature is the music of the Nigerian national anthem set?",
+    options: [
+      "Simple triple time",
+      "Compound duple time",
+      "Simple quadruple common time",
+      "Compound triple time"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "On what date was the Nigerian Coat of Arms adopted?",
+    options: [
+      "October 1, 1960",
+      "May 20, 1960",
+      "January 15, 1970",
+      "May 29, 1999"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The national symbol adopted on May 20, 1960 is the:",
+    options: [
+      "Nigeria Coat of Arms",
+      "National Pledge",
+      "National Anthem",
+      "University Logo"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What do the significant components of the Nigeria Coat of Arms explain?",
+    options: [
+      "The economic budget of the federation",
+      "Vital features, motives, and motto of the nation",
+      "The names of past military heads of state",
+      "The boundary coordinates of all states"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which national symbol embodies components explaining the vital features, motives, and motto of Nigeria?",
+    options: [
+      "The Coat of Arms",
+      "The National Flag",
+      "The National Anthem",
+      "The National Pledge"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Besides being a national symbol of identity, what else does the Nigeria Coat of Arms serve as?",
+    options: [
+      "A political party emblem",
+      "A symbol of authority",
+      "An educational standard",
+      "A commercial trademark"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The Nigeria Coat of Arms serves as a national symbol of identity and ________.",
+    options: [
+      "authority",
+      "defense",
+      "recreation",
+      "commerce"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What does the Eagle in the Nigeria Coat of Arms represent?",
+    options: [
+      "Strength",
+      "Peace",
+      "Agriculture",
+      "Dignity"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is portrayed by the two white horses (or chargers) on each side of the shield in the Nigeria Coat of Arms?",
+    options: [
+      "The agricultural potential of the soil",
+      "The dignity and importance of Nigeria among African nations and the world",
+      "The twin major rivers flowing through the nation",
+      "The military power of the Nigerian Army"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What does the white wavy 'Y'-shape stripe on the Nigeria Coat of Arms represent?",
+    options: [
+      "The railway network of Nigeria",
+      "Rivers Niger and Benue and their confluence",
+      "The division of the country into three regions",
+      "The major highways connecting the North and South"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "In the Nigeria Coat of Arms, the Rivers Niger, Benue, and their confluence are represented by:",
+    options: [
+      "The two white horses",
+      "The white wavy 'Y'-shape stripe",
+      "The grassy field at the base",
+      "The red eagle at the top"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What do the grassy field and flowers at the base of the Nigeria Coat of Arms represent?",
+    options: [
+      "The industrial development of the cities",
+      "The beauty of the nation",
+      "The military strength of the country",
+      "The historical trade routes"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which feature of the Nigeria Coat of Arms is found all over Nigeria and represents the nation's beauty?",
+    options: [
+      "The red eagle",
+      "The white wavy 'Y'-shape stripe",
+      "The grassy field and flowers at the base",
+      "The black shield"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the national motto of Nigeria?",
+    options: [
+      "Justice and Peace, Freedom and Unity",
+      "Unity and Faith, Peace and Progress",
+      "Loyalty and Service, Honor and Glory",
+      "Strength and Dignity, Peace and Unity"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "The inscription 'Unity and Faith, Peace and Progress' on the Coat of Arms represents Nigeria's:",
+    options: [
+      "National motto",
+      "Military slogan",
+      "Constitutional amendment",
+      "Pledge of allegiance"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "In what year was Delta State University, Abraka established?",
+    options: [
+      "1960",
+      "1978",
+      "1992",
+      "2010"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which institution was established in 1992 with a logo and motto, according to the notes?",
+    options: [
+      "Delta State University, Abraka",
+      "University of Ibadan",
+      "University of Nigeria, Nsukka",
+      "Federal University of Technology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "What is the shape of the Delta State University logo?",
+    options: [
+      "Triangular with a flat base",
+      "Circular in shape with a brace as a base",
+      "Square with an arched top",
+      "Oval with a pointed base"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Which of the following features is located in the center of the Delta State University logo?",
+    options: [
+      "An eagle, a shield, and two horses",
+      "A book, water, oilrig, and tusk-horn",
+      "A tractor, cocoa tree, and a fish",
+      "A computer, a pen, and a globe"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "When did the Delta State University Anthem come on board?",
+    options: [
+      "May 1992",
+      "February 2010",
+      "October 1978",
+      "May 1960"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Under whose initiative as Vice Chancellor was the Delta State University Anthem introduced?",
+    options: [
+      "Professor Eric Arubayi",
+      "Professor Emurobome Idolor",
+      "Dr. Joseph O. Ofosu",
+      "Benedict Elide Odiase"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 1,
+    question: "Who coordinated the implementation of the Delta State University Anthem?",
+    options: [
+      "Professor Emurobome Idolor",
+      "Professor Eric Arubayi",
+      "Dr. Joseph O. Ofosu",
+      "Benedict Elide Odiase"
+    ],
+    answer: 0
   }
   ]
