@@ -33070,5 +33070,1806 @@ const QUESTIONS = [
     "Guinea and Zaire"
   ],
   answer: 0
+  },
+  
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following terms describes the concept that organisms could be arranged in almost continuous series?",
+    options: [
+      "Chain of being or Scale nature",
+      "Theory of natural selection",
+      "Special creation theory",
+      "Punctuated equilibrium"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "To whom did early philosophers attribute the almost continuous series arrangement of organisms in the 'Chain of being'?",
+    options: [
+      "The direct action of the creator",
+      "The process of natural selection",
+      "Continuous genetic mutation",
+      "Environmental adaptation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In the past, what were the major challenges scientists struggled to find explanations for regarding organisms?",
+    options: [
+      "Their observed diversity, adaptations, and distributing patterns",
+      "Their microscopic structures, genetics, and molecular functions",
+      "Their reproductive organs, cellular respiration, and photosynthesis",
+      "Their skeletal systems, nervous coordination, and chemical composition"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following was NOT listed in the notes as one of the major historical challenges scientists faced in explaining organisms?",
+    options: [
+      "Their complex genetic codes and DNA sequences",
+      "Their observed diversity",
+      "Their adaptations",
+      "Their distributing patterns"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What term describes the progressive change of living things over a long time such that their latter appearance differs considerably from earlier ones?",
+    options: [
+      "Evolution",
+      "Special creation",
+      "Gradualism",
+      "Spontaneous generation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, evolution is described as a progressive change occurring over what time frame?",
+    options: [
+      "A long time",
+      "A few generations",
+      "A single decade",
+      "A sudden catastrophic moment"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, evolution is centered on which of the following?",
+    options: [
+      "So many theories",
+      "A single, unalterable law",
+      "Strictly geological evidence",
+      "Modern mythological stories"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Complete the statement based on the notes: 'Evolution is centered on ________.'",
+    options: [
+      "so many theories",
+      "a single definitive proof",
+      "mythological ideas alone",
+      "theological dictates"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Most of the old mythological ideas were linked with which set of elements?",
+    options: [
+      "Earth, fire, water, and air",
+      "Gold, silver, bronze, and iron",
+      "Wood, metal, water, and fire",
+      "Carbon, hydrogen, oxygen, and nitrogen"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following was NOT one of the elements commonly linked with old mythological ideas?",
+    options: [
+      "Electricity",
+      "Earth",
+      "Fire",
+      "Water"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Who is recognized as the founder of ancient philosophy and science and believed that all life came from water?",
+    options: [
+      "Thales (640-545 BC)",
+      "Anaximenes of Miletus (585-528 BC)",
+      "Aristotle (384-322 BC)",
+      "Kircher (1601-1680)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What did the ancient philosopher Thales believe was the origin of all life?",
+    options: [
+      "Water",
+      "Air",
+      "Fire",
+      "Earth"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which pre-socratic philosopher argued that all things came from the air?",
+    options: [
+      "Anaximenes of Miletus (585-528 BC)",
+      "Thales (640-545 BC)",
+      "Aristotle (384-322 BC)",
+      "Kircher (1601-1680)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Anaximenes of Miletus, all things originated from which element?",
+    options: [
+      "Air",
+      "Water",
+      "Fire",
+      "Earth"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which German Jesuit scholar postulated that orchids gave birth to birds and small men?",
+    options: [
+      "Kircher (1601-1680)",
+      "Denoist De Maihet (1656-1738)",
+      "John Ray (1627-1705)",
+      "Carolus Linnaeus (1708-1778)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The scholar Kircher proposed that birds and small men were given birth to by what?",
+    options: [
+      "Orchids",
+      "Flying fish",
+      "Mermen",
+      "Air"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which French natural historian believed that birds were derived from flying fish, lions from sea lions, and men from mermen?",
+    options: [
+      "Denoist De Maihet (1656-1738)",
+      "Kircher (1601-1680)",
+      "Georges-Louis Lectere (1707-1788)",
+      "Jean Baptiste de Lamarck (1744-1829)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Denoist De Maihet, from which creature were men derived?",
+    options: [
+      "Mermen",
+      "Flying fish",
+      "Sea lions",
+      "Orchids"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which Greek thinker and biological philosopher showed the importance of 'change' and the theory of 'forms or essences'?",
+    options: [
+      "Aristotle (384-322 BC)",
+      "Thales (640-545 BC)",
+      "Anaximenes (585-528 BC)",
+      "John Ray (1627-1705)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Aristotle is noted in biology for showing the importance of 'change' and which of the following theories?",
+    options: [
+      "Theory of forms or essences",
+      "Theory of natural selection",
+      "Theory of pangenes",
+      "Theory of catastrophic events"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Aristotle's thoughts and works demonstrated the idea that life began as what?",
+    options: [
+      "A matter that was capable of turning into a form",
+      "An advanced single-cell organism",
+      "A direct creation in six days",
+      "An aquatic fish-like creature"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "For Aristotle, life began as a matter capable of turning into a ________.",
+    options: [
+      "form",
+      "gas",
+      "spirit",
+      "mineral"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which group of thinkers opined that evolution is an act of God, believing creation occurred in six days?",
+    options: [
+      "Theologians",
+      "Geologists",
+      "Philosophers",
+      "Biologists"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Theologians believed that creation by God was a once-and-for-all event in six days, forming the basis for which theory?",
+    options: [
+      "Special creation theory",
+      "Lamarckism",
+      "Natural selection",
+      "Gradualism"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the Special Creation theory, how were all living things made?",
+    options: [
+      "At once (due to sudden catastrophes) by God in their present form",
+      "Gradually over millions of years through minor physical changes",
+      "From simple single-cell protozoans in the sea",
+      "By inheriting parental genotypes through mutations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The Special Creation theory states that organisms have continued to reproduce in what manner over the years?",
+    options: [
+      "Without change",
+      "With gradual modifications",
+      "Through genetic variation",
+      "By adapting to climate changes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Until which historical scientific advent was the special creation theory the generally accepted explanation of the origin of life?",
+    options: [
+      "The advent of Darwinism",
+      "The discovery of the Taung baby",
+      "The publication of Lamarckism",
+      "The birth of modern geology by Hutton"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What was the dominant explanation of life's origin prior to the rise of Darwinism?",
+    options: [
+      "Special creation theory",
+      "Theory of inheritance of acquired traits",
+      "Punctuated equilibrium",
+      "Comparative biochemistry"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which scientist established the system of naming organisms that is still in use today?",
+    options: [
+      "Linnaeus",
+      "John Ray",
+      "Aristotle",
+      "James Hutton"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Carolus Linnaeus is famous for establishing which of the following biological systems?",
+    options: [
+      "The system of naming organisms",
+      "The theory of natural selection",
+      "The geological timescale",
+      "The classification of hominids"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which two historical figures believed that every feature of any organism is a product of divine action in the special creation process?",
+    options: [
+      "Carolus Linnaeus and John Ray",
+      "Charles Darwin and Alfred Wallace",
+      "Jean Baptiste de Lamarck and Georges Buffon",
+      "James Hutton and Charles Lyell"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Carolus Linnaeus and John Ray, the unique features of organisms are products of what?",
+    options: [
+      "Divine action in the special creation process",
+      "Pangenes transmitting acquired traits",
+      "Slow geological erosion and natural forces",
+      "Survival of the fittest"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What scientific fields have directly contradicted the Special Creation theory?",
+    options: [
+      "Fossil evidence and genetic studies",
+      "Mythology and ancient philosophy",
+      "Clergymen's journals and economics",
+      "Early anatomy and cataloging systems"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The special creation theory has been contradicted by genetic studies and ________.",
+    options: [
+      "fossil evidence",
+      "mythological ideas",
+      "theological treatises",
+      "early Greek philosophy"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Who is widely referred to as the father of modern Geology?",
+    options: [
+      "James Hutton",
+      "Charles Lyell",
+      "John Ray",
+      "Georges Buffon"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "James Hutton (1726-1779) is historically distinguished as the father of:",
+    options: [
+      "modern Geology",
+      "comparative anatomy",
+      "paleontology",
+      "evolutionary biochemistry"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to James Hutton, the landscape of the earth was created by what?",
+    options: [
+      "A continuous process of natural change",
+      "Sudden catastrophes",
+      "Noah's flood exclusively",
+      "The special creation event in six days"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "James Hutton argued against contemporary scientists who claimed the earth's landscape was shaped by:",
+    options: [
+      "sudden catastrophes",
+      "continuous natural change",
+      "rains and winds",
+      "gradual erosion"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following French biologists spoke explicitly on the kinds of organisms?",
+    options: [
+      "Georges-Louis Lectere, Comte de Buffon and Joseph Pitton de Tournefort",
+      "Jean Baptiste de Lamarck and Charles Darwin",
+      "Carolus Linnaeus and John Ray",
+      "Charles Lyell and Thomas Malthus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Georges-Louis Lectere, Comte de Buffon, and Joseph Pitton de Tournefort were outstanding scientists of which nationality?",
+    options: [
+      "French",
+      "German",
+      "English",
+      "Greek"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which biologist suggested that all species, including human beings, were descendants from other species?",
+    options: [
+      "Jean Baptiste de Lamarck",
+      "James Hutton",
+      "Charles Darwin",
+      "Thomas Malthus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Jean Baptiste de Lamarck, human beings and other species were descendants of:",
+    options: [
+      "other species",
+      "mermen",
+      "sea lions",
+      "strictly unique divine creations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Who was the first scientist to propose a coherent theory of evolution?",
+    options: [
+      "Jean Baptiste de Lamarck",
+      "Charles Darwin",
+      "Alfred Russel Wallace",
+      "Aristotle"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Lamarck holds a significant place in biological history because he was the first to:",
+    options: [
+      "propose a coherent theory of evolution",
+      "develop the theory of natural selection",
+      "propose the genetic basis of inheritance",
+      "map out the geological eras of the earth"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The theory of natural selection was developed by which English naturalist?",
+    options: [
+      "Charles Darwin",
+      "Jean Baptiste de Lamarck",
+      "Thomas Malthus",
+      "Charles Lyell"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What major evolutionary theory is Charles Darwin famous for developing?",
+    options: [
+      "The theory of natural selection",
+      "The theory of forms or essences",
+      "The theory of acquired inheritance",
+      "The theory of special creation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Jean Baptiste de Lamarck criticized special creation and agreed that living things change physically as they:",
+    options: [
+      "strive to meet the needs in their environment",
+      "experience sudden catastrophic floods",
+      "undergo random genetic mutations",
+      "face overpopulation and famine"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which theory did Jean Baptiste de Lamarck criticize while proposing that physical changes occur to meet environmental needs?",
+    options: [
+      "Special creation theory",
+      "Natural selection",
+      "Geological gradualism",
+      "Malthusian population limits"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What structures were historically thought to transmit characteristics of a particular organ to the next generation?",
+    options: [
+      "Pangenes",
+      "Alleles",
+      "Phenotypes",
+      "Hominids"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to older beliefs, pangenes were responsible for transmitting characteristics of:",
+    options: [
+      "a particular organ",
+      "the environment",
+      "non-heritable traits",
+      "the whole ecosystem"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Contrary to Lamarck's suggestions, modern genetics shows that inheritance is based on the parental:",
+    options: [
+      "genotype",
+      "phenotype",
+      "acquired physical trait",
+      "organ use and disuse"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What did Lamarck unknowingly suggest could be inherited, which was later corrected to be the genotype instead?",
+    options: [
+      "Phenotypes",
+      "Chromosomes",
+      "Proteins",
+      "Genes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which ship did the English naturalist Charles Robert Darwin board for scientific research in 1831?",
+    options: [
+      "HMS Beagle",
+      "HMS Challenger",
+      "HMS Victory",
+      "HMS Discovery"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In what year did Charles Robert Darwin embark on his famous voyage aboard the HMS Beagle?",
+    options: [
+      "1831",
+      "1779",
+      "1859",
+      "1924"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Who wrote the book 'The Principles of Geology'?",
+    options: [
+      "Charles Lyell",
+      "James Hutton",
+      "Thomas Malthus",
+      "Charles Darwin"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In 'The Principles of Geology', Charles Lyell stated that the earth underwent changes through what forces instead of Noah's flood?",
+    options: [
+      "Rains, wind, earthquakes, volcanoes, and other natural forces",
+      "Sudden meteorite impacts and orbital variations",
+      "An immediate divine modification over six days",
+      "Human industrialization and agriculture"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Who stated that populations of plants, animals, and humans tend to increase at a geometric rate?",
+    options: [
+      "Thomas Malthus",
+      "Charles Lyell",
+      "John Ray",
+      "James Hutton"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Thomas Malthus, populations increase geometrically until their numbers outstrip:",
+    options: [
+      "food supplies and space",
+      "geological boundaries",
+      "the rate of mutations",
+      "their parental phenotypes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which two scientists formulated the theory of evolution by natural selection?",
+    options: [
+      "Darwin and Wallace",
+      "Lamarck and Buffon",
+      "Hutton and Lyell",
+      "Linnaeus and Ray"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Alfred Russel Wallace is credited alongside which scientist for formulating the theory of natural selection?",
+    options: [
+      "Charles Darwin",
+      "Jean Baptiste de Lamarck",
+      "Thomas Malthus",
+      "Charles Lyell"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What term is used to describe simple single-cell organisms?",
+    options: [
+      "Protozoans",
+      "Anthropoids",
+      "Platyrhines",
+      "Catarrhines"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Protozoans are biological entities characterized as:",
+    options: [
+      "simple single-cell organisms",
+      "highly complex multicellular organisms",
+      "primitive terrestrial primates",
+      "decayed skeletal remains in rocks"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What is the study of structures of different organisms called?",
+    options: [
+      "Comparative anatomy",
+      "Comparative biochemistry",
+      "Comparative embryology",
+      "Paleontology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which biological discipline compares the physical structures of various organisms to establish evolutionary connections?",
+    options: [
+      "Comparative anatomy",
+      "Comparative biochemistry",
+      "Comparative embryology",
+      "Paleontology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Organs that are structurally similar but functionally different are described as:",
+    options: [
+      "homologous organs",
+      "analogous organs",
+      "vestigial structures",
+      "primitive organs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, the wings of a bird and flippers of a whale are classic examples of:",
+    options: [
+      "homologous organs",
+      "analogous organs",
+      "vestigial structures",
+      "mutated genotypes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What are organs that are functionally similar but different in structure and development called?",
+    options: [
+      "Analogous organs",
+      "Homologous organs",
+      "Vestigial structures",
+      "Atavistic organs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The proboscis of the Elephant and that of a butterfly are examples of:",
+    options: [
+      "analogous organs",
+      "homologous organs",
+      "vestigial structures",
+      "rudimentary organs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What term is used for organs that have no current function in an organism?",
+    options: [
+      "Vestigial structures",
+      "Homologous organs",
+      "Analogous organs",
+      "Pangenes"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following is listed in the notes as a vestigial structure?",
+    options: [
+      "The two small non-walking toes of a pig",
+      "The wings of a bird",
+      "The flippers of a whale",
+      "The proboscis of an elephant"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What did Darwin believe about vestigial structures?",
+    options: [
+      "They were at one time in the past useful to the organisms",
+      "They were created by sudden catastrophes",
+      "They are complex systems destined to evolve into new organs",
+      "They are direct evidence of spontaneous generation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Darwin, why did once-useful structures become vestigial over time?",
+    options: [
+      "The organisms evolved in a changing environment where those structures no longer served any function",
+      "The structures were worn out by physical overuse",
+      "The organisms stopped reproducing because of food shortages",
+      "They were eliminated by natural disasters"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What is the study of organisms on a chemical level?",
+    options: [
+      "Comparative biochemistry",
+      "Comparative anatomy",
+      "Comparative embryology",
+      "Paleontology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which branch of biology analyzes organisms chemically to establish ancestral links?",
+    options: [
+      "Comparative biochemistry",
+      "Comparative anatomy",
+      "Comparative embryology",
+      "Paleontology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What field studies the development of different organisms to provide evidence of evolutionary relationships?",
+    options: [
+      "Comparative embryology",
+      "Comparative biochemistry",
+      "Comparative anatomy",
+      "Paleontology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Comparative embryology provides additional evidence for evolution by focusing on what biological stage?",
+    options: [
+      "The development of different organisms",
+      "The adult skeletal structures",
+      "The fossilization of tissues",
+      "The chemical interactions of proteins"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to Darwin, what remains the same during an animal's beginning, even as they evolve different traits?",
+    options: [
+      "The basic plan of the embryo",
+      "The final adult physical traits",
+      "The specific environment they live in",
+      "Their exact dietary preferences"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "For Darwin, although animals gradually evolved different traits, they started out:",
+    options: [
+      "the same",
+      "completely different",
+      "as fully formed modern species",
+      "without any physical structure"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What is the scientific study of fossils called?",
+    options: [
+      "Paleontology",
+      "Comparative anatomy",
+      "Embryology",
+      "Biochemistry"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Paleontology provides direct evidence of evolutionary history through the study of:",
+    options: [
+      "fossils",
+      "embryos",
+      "pangenes",
+      "chemical compounds"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following is identified as a contemporary issue in evolution?",
+    options: [
+      "Levels of genetic variation in a natural population",
+      "The literal translation of ancient mythology",
+      "The classification of simple single-cell protozoans",
+      "The structural difference between wings and flippers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The contemporary issues in evolution involve genetic variation, evolutionary rates, and:",
+    options: [
+      "the steadiness of the pace of evolution",
+      "the creation of mermen from sea creatures",
+      "the original six days of creation",
+      "the physical tracking of HMS Beagle"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What genetic process is responsible for constantly creating new alleles?",
+    options: [
+      "Mutation",
+      "Gradualism",
+      "Comparative biochemistry",
+      "Punctuated equilibrium"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, mutation has the constant role of:",
+    options: [
+      "creating new alleles",
+      "deleting the genetic code",
+      "maintaining phenotypic stasis",
+      "preventing evolutionary change"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "When more than one allele of a particular gene is present in a population, the population is described as:",
+    options: [
+      "polymorphic",
+      "monomorphic",
+      "homogenous",
+      "vestigial"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "A population is polymorphic for a gene when:",
+    options: [
+      "more than one allele of that particular gene is present",
+      "only one single allele exists in the population",
+      "all members of the population are phenotypic clones",
+      "no mutations occur within that gene"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, what type of environment serves as an important site of evolutionary innovation?",
+    options: [
+      "A harsh environment where survival is difficult",
+      "A completely constant and stable environment",
+      "A chemical-free controlled laboratory environment",
+      "An environment with no natural predators"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In contrast to harsh environments, constant environments are evidently:",
+    options: [
+      "much less sites of evolutionary innovation",
+      "the primary sources of evolutionary spurts",
+      "impossible for organisms to live in",
+      "solely responsible for generating new alleles"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which model assumes that evolution occurs in sudden spurts between long periods of little change?",
+    options: [
+      "Punctuated equilibrium model",
+      "Gradualism model",
+      "Malthusian model",
+      "Lamarckian model"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The punctuated equilibrium model describes evolution as occurring in:",
+    options: [
+      "spurts (sudden)",
+      "a passive, continuous line",
+      "six exact days",
+      "a predictable chemical sequence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which model assumes that evolution proceeds gradually with passive change in a given evolution line?",
+    options: [
+      "Gradualism model",
+      "Punctuated equilibrium model",
+      "Special creation model",
+      "Catastrophism model"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The gradualism model assumes that evolutionary change within an evolutionary line is:",
+    options: [
+      "passive",
+      "sudden",
+      "spurt-like",
+      "catastrophic"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In the published work 'Scientific Creationism', how is the theory of evolution viewed?",
+    options: [
+      "As some sort of bizarre 'secular humanistic' plot",
+      "As a continuous process of natural change",
+      "As a coherent theory first proposed by Lamarck",
+      "As a highly structured study of homologous structures"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What is the title of the published work that views the theory of evolution as a bizarre 'secular humanistic' plot?",
+    options: [
+      "Scientific Creationism",
+      "The Principles of Geology",
+      "Scale of Nature",
+      "Darwinism and the Hominidae"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What does 'Scientific Creationism' believe regarding the biblical account of the origin of the earth?",
+    options: [
+      "It is literally true",
+      "It is historically metaphorical",
+      "It is contradicted by fossil evidence",
+      "It was written by Greek philosophers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, proponents of scientific creationism hold that the biblical account of earth's origin is:",
+    options: [
+      "literally true",
+      "scientifically invalid",
+      "a secular humanistic plot",
+      "a product of ancient Greek philosophy"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following is NOT one of the three questions evolution attempts to provide answers to?",
+    options: [
+      "How can we prevent genetic mutations?",
+      "Where and when did man arise?",
+      "What forces and factors guided his development?",
+      "What lies ahead?"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Evolution attempts to answer: 'Where and when did man arise?', 'What forces and factors guided his development?', and 'What ________?'",
+    options: [
+      "lies ahead",
+      "is the chemical structure of DNA",
+      "is the exact size of the universe",
+      "are the main elements of fire and air"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Taxonomically, primates are a smaller group (order) within which larger group (class)?",
+    options: [
+      "Mammals",
+      "Vertebrates",
+      "Anthropoids",
+      "Hominidae"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In mammalian classification, primates represent a/an:",
+    options: [
+      "order",
+      "class",
+      "family",
+      "genus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Mammals are characterized by which set of features?",
+    options: [
+      "Mammary glands, hairs, and body temperature regulation",
+      "Enlarged hands, five digits, and flat noses",
+      "Decayed remains, limestone structures, and tool usage",
+      "Anatomical, biochemical, and embryonic structures"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following is a core characteristic of mammals as listed in the notes?",
+    options: [
+      "Body temperature regulation",
+      "Having flat noses",
+      "Consistently using tools",
+      "Possessing only vestigial organs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Primates are placental mammals characterized by:",
+    options: [
+      "elongated limbs and enlarged hands and feet, each with five digits",
+      "the presence of cold-blooded temperature regulation",
+      "having three digits on each hand and foot",
+      "possessing feathers and laying eggs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "How many digits are found on each of the enlarged hands and feet of primates?",
+    options: [
+      "Five",
+      "Four",
+      "Six",
+      "Three"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "An objective analysis of human characteristics leads to the conclusion that man is:",
+    options: [
+      "a vertebrate, a placental mammal, and a primate",
+      "an invertebrate, a marsupial, and a prosimian",
+      "a cold-blooded reptile, a mammal, and an anthropoid",
+      "a merman, a sea lion, and an ancient hominid"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which mammalian subgroup is man classified under according to the objective analysis of human characteristics?",
+    options: [
+      "Placental mammal",
+      "Marsupial mammal",
+      "Monotreme",
+      "Invertebrate"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following are the older members of primates from which man evolved?",
+    options: [
+      "Tree Shrews, Monkeys, Chimpanzees, and Gorillas",
+      "Orchids, birds, and small men",
+      "Flying fish, sea lions, and mermen",
+      "Protozoans, vertebrates, and hominids"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, Tree Shrews, Monkeys, Chimpanzees, and Gorillas represent:",
+    options: [
+      "the older members of primates from which man evolved",
+      "the modern representatives of the family Hominidae",
+      "extinct species that vanished 1.3 million years ago",
+      "the flat-nosed primates classified as platyrhines"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which primates constitute the group known as Anthropoids?",
+    options: [
+      "Monkeys, Apes, and man",
+      "Tree shrews, lemurs, and tarsiers",
+      "Chimpanzees, gorillas, and tree shrews",
+      "Australopithecus, Homo habilis, and Homo erectus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Monkeys, Apes, and man constitute the ________ primates.",
+    options: [
+      "higher (Anthropoids)",
+      "lower (Prosimians)",
+      "earliest (Hominids)",
+      "prehuman (Vertebrates)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Anthropoids have been divided into which two major groups?",
+    options: [
+      "Platyrhines and Catarrhines",
+      "Porgidae and Hominidae",
+      "Protozoans and Vertebrates",
+      "Neanderthals and Cro-magnons"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The Platyrhines and Catarrhines are the two major divisions of:",
+    options: [
+      "Anthropoids",
+      "Hominids",
+      "Porgidae",
+      "Mammals"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What is a distinguishing physical feature of the Platyrhines?",
+    options: [
+      "They are flat-nosed monkeys with widely spaced nostrils",
+      "They have nostrils that are close together and point downward",
+      "They completely lack five digits on their limbs",
+      "They belong exclusively to the family Hominidae"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which group of anthropoids is characterized by nostrils that are close together and point downward?",
+    options: [
+      "Catarrhines",
+      "Platyrhines",
+      "Porgidae",
+      "Hominidae"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, the anthropoid apes belong to the sub-group family known as:",
+    options: [
+      "Porgidae",
+      "Hominidae",
+      "Platyrhines",
+      "Catarrhines"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In taxonomy, man belongs to which family?",
+    options: [
+      "Hominidae",
+      "Porgidae",
+      "Platyrhines",
+      "Catarrhines"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What are the decayed remains of the existing races of man cast in rocks and soils called?",
+    options: [
+      "Fossils",
+      "Pangenes",
+      "Hominids",
+      "Vestigial structures"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Fossils are defined in these notes as the decay of existing races of man remains cast in:",
+    options: [
+      "rocks and soils",
+      "water and ice",
+      "limestone quarries exclusively",
+      "the atmosphere"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What term is used to describe man's ancestors positioned between the Ape and humans?",
+    options: [
+      "Prehuman",
+      "Anthropoids",
+      "Platyrhines",
+      "Hominidae"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The ancestral lineage falling directly between the Ape and humans is termed:",
+    options: [
+      "prehuman",
+      "protozoan",
+      "porgidae",
+      "catarrhine"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Researchers have linked humans more closely to which of the following than other primates?",
+    options: [
+      "African Chimpanzees and gorillas",
+      "Tree shrews and monkeys",
+      "South American flat-nosed monkeys",
+      "Asian orangutans and gibbons"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Humans share their closest researcher-linked evolutionary ties with:",
+    options: [
+      "African Chimpanzees and gorillas",
+      "Tree Shrews and lemurs",
+      "Mermen and sea lions",
+      "Flat-nosed platyrhines"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In which year was the earliest definite hominid fossil discovered?",
+    options: [
+      "1924",
+      "1856",
+      "1831",
+      "1950"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Where was the earliest definite hominid fossil discovered in 1924?",
+    options: [
+      "In a limestone quarry in Bechuanaland, South Africa",
+      "In the Olduvai Gorge, Tanzania",
+      "In the valley of the Neander River, Germany",
+      "In Peking, China"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Dart's discovered skull was found to be that of a six-year-old baby now famously called:",
+    options: [
+      "Taung baby",
+      "Java man",
+      "Peking man",
+      "Cro-magnon"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What was the biological age of the Taung baby at death, as revealed by the skull discovered by Dart?",
+    options: [
+      "Six-year-old",
+      "Two-year-old",
+      "Ten-year-old",
+      "Fourteen-year-old"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What scientific name did Dart give to the Taung baby?",
+    options: [
+      "Australopithecus robustus",
+      "Homo habilis",
+      "Homo erectus",
+      "Homo sapiens"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Why did Dart name the Taung baby 'Australopithecus robustus'?",
+    options: [
+      "Because the Taung baby was a man-like ape",
+      "Because it was the first primate to use tools consistently",
+      "Because it was found with highly advanced stone weapons",
+      "Because it possessed modern skeletal characteristics"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Australopithecus is believed to have disappeared approximately how many years ago?",
+    options: [
+      "1.3 million years ago",
+      "500,000 years ago",
+      "150,000 years ago",
+      "40,000 years ago"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The fossil discoveries of Australopithecus robustus point to the fact that humans evolved from:",
+    options: [
+      "Africa",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following was the second set of hominids discovered?",
+    options: [
+      "Homo habilis",
+      "Australopithecus robustus",
+      "Homo erectus",
+      "Neanderthals"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Homo Habilis was discovered along with tools by whom and where?",
+    options: [
+      "By the Leakeys in the Olduvai Gorge, Tanzania",
+      "By Dart in a limestone quarry in South Africa",
+      "By geologists in the Neander River valley, Germany",
+      "By French naturalists in Java, Indonesia"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which hominid was the first member of our own genus and the first primate to use tools consistently?",
+    options: [
+      "Homo habilis",
+      "Australopithecus robustus",
+      "Homo erectus",
+      "Cro-magnon"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "A key defining characteristic of Homo habilis was that it was the first primate to:",
+    options: [
+      "use tools consistently",
+      "migrate out of Africa to Asia",
+      "possess modern characteristics",
+      "develop body temperature regulation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In which hominid were fully developed human characteristics first observed?",
+    options: [
+      "Homo habilis",
+      "Australopithecus robustus",
+      "Homo erectus",
+      "Neanderthals"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The first observation of fully developed human characteristics occurred in:",
+    options: [
+      "Homo habilis",
+      "Australopithecus robustus",
+      "Java man",
+      "Peking man"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Approximately when did Homo erectus migrate to Asia and Europe?",
+    options: [
+      "About 500,000 years ago",
+      "About 1.3 million years ago",
+      "About 150,000 years ago",
+      "About 40,000 years ago"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which hominid species migrated to Asia and Europe about 500,000 years ago?",
+    options: [
+      "Homo erectus",
+      "Homo habilis",
+      "Australopithecus robustus",
+      "Homo sapiens"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "What are two of the most famous early fossils representing the genus Homo erectus?",
+    options: [
+      "Java man and Peking man",
+      "Taung baby and Lucy",
+      "Cro-magnon and Neanderthal",
+      "Tree shrew and Merman"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Java man and Peking man represent the early fossils of which genus/species that was eventually replaced by our species?",
+    options: [
+      "Homo erectus",
+      "Homo habilis",
+      "Australopithecus robustus",
+      "Neanderthals"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "According to the notes, Homo sapiens are also referred to as:",
+    options: [
+      "Neanderthals",
+      "Cro-magnons",
+      "Peking men",
+      "Java men"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Neanderthals (Homo sapiens) were abundant in Europe and Western Asia during which period?",
+    options: [
+      "Between 150,000 and 35,000 years ago",
+      "About 500,000 years ago",
+      "1.3 million years ago",
+      "40,000 years ago"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Where were Homo sapiens (Neanderthal) fossils first discovered in 1856?",
+    options: [
+      "In the valley of the Neander River in Germany",
+      "In Bechuanaland, South Africa",
+      "In the Olduvai Gorge, Tanzania",
+      "In Peking, China"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In what year were the first Homo sapiens fossils discovered in the Neander River valley, Germany?",
+    options: [
+      "1856",
+      "1924",
+      "1831",
+      "1950"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which group of Homo sapiens possesses essential modern characteristics and abruptly replaced the European Neanderthals?",
+    options: [
+      "Cro-magnon",
+      "Java man",
+      "Peking man",
+      "Australopithecus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "The Cro-magnon people abruptly replaced which group in Europe?",
+    options: [
+      "Neanderthals",
+      "Homo erectus",
+      "Homo habilis",
+      "Australopithecus robustus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Which of the following represents the correct sequential route of the evolution of modern man as listed in the notes?",
+    options: [
+      "Ape -> Australopithecus -> Homo habilis -> Homo erectus -> Neanderthals -> Cro-magnons -> Modern man",
+      "Ape -> Homo erectus -> Australopithecus -> Homo habilis -> Neanderthals -> Modern man",
+      "Australopithecus -> Ape -> Homo erectus -> Homo habilis -> Cro-magnons -> Modern man",
+      "Ape -> Homo habilis -> Homo erectus -> Australopithecus -> Neanderthals -> Modern man"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "In the proposed evolutionary route of modern man, which group directly follows Neanderthals?",
+    options: [
+      "Cro-magnons",
+      "Homo erectus",
+      "Homo habilis",
+      "Australopithecus"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Approximately how many years ago is modern man believed to have originated?",
+    options: [
+      "About 40,000 years ago",
+      "About 150,000 years ago",
+      "About 500,000 years ago",
+      "About 1.3 million years ago"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst112",
+    chapter: 1,
+    question: "Modern man, with essential modern appearance, is thought to have emerged around:",
+    options: [
+      "40,000 years ago",
+      "150,000 years ago",
+      "35,000 years ago",
+      "1.3 million years ago"
+    ],
+    answer: 0
   }
-  ]
+];
