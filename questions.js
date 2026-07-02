@@ -34871,5 +34871,7412 @@ const QUESTIONS = [
       "1.3 million years ago"
     ],
     answer: 0
-  }
-];
+  },
+  {
+  course: "gst112",
+  chapter: 2,
+  question: "Which word did the ancient Greeks use for the universe?",
+  options: [
+    "kosmos",
+    "galaxy",
+    "singularity",
+    "nebula"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What does the ancient Greek word 'kosmos' translate to in English?",
+  options: [
+    "cosmos",
+    "galaxy",
+    "star",
+    "atmosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What did early telescopic observation reveal about the state of the universe?",
+  options: [
+    "It was quiet, orderly, predictable, and populated with unchanging stars and galaxies",
+    "It was violently expanding, chaotic, and completely unpredictable",
+    "It was filled only with dense black holes and no stars",
+    "It was a completely empty void with no galaxies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to early telescopic observations, what types of stars and galaxies populated the quiet, orderly universe?",
+  options: [
+    "unchanging",
+    "constantly collapsing",
+    "exploding",
+    "retrograde"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What term is defined as the assembly of stars, gases, and dust held together by gravitational forces within the universe?",
+  options: [
+    "galaxy",
+    "universe",
+    "constellation",
+    "solar system"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which force holds the assembly of stars, gases, and dust together to form a galaxy?",
+  options: [
+    "gravitational force",
+    "electromagnetic force",
+    "nuclear fusion",
+    "retrograde rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to the 'Big Bang Theory', what three stages characterize the universe?",
+  options: [
+    "A beginning, progressive development, and a conclusion",
+    "An unchanging past, stable present, and infinite future",
+    "Constant expansion, sudden collapse, and immediate rebirth",
+    "No beginning, no change, and no end"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which theory of the origin of the universe states that the universe has a beginning, progressive development, and a conclusion?",
+  options: [
+    "Big Bang Theory",
+    "Steady State Theory",
+    "Special Creation Theory",
+    "Greenhouse Theory"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which theory of the universe adopts the principle that 'the more things change, the more they stay the same and are stable'?",
+  options: [
+    "Steady State Theory",
+    "Big Bang Theory",
+    "Nebular Theory",
+    "Catastrophism Theory"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What principle does the Steady State Theory adopt regarding changes in the universe?",
+  options: [
+    "The more things change, the more they stay the same and are stable",
+    "Everything changes rapidly and unpredictably",
+    "The universe is progressively developing towards a conclusion",
+    "The universe undergoes sudden catastrophes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to some Big Bang theorists, what was the infinitely dense and small point called that existed 15-20 billion years ago?",
+  options: [
+    "singularity",
+    "white dwarf",
+    "photosphere",
+    "asteroid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many years ago do some schools of thought in the Big Bang theory believe the singularity exploded to form the present universe?",
+  options: [
+    "15-20 billion years ago",
+    "4.6 billion years ago",
+    "1.3 million years ago",
+    "500,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "In what year was the Steady State Theory proposed by three astronomers?",
+  options: [
+    "1950",
+    "1930",
+    "1856",
+    "1924"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many astronomers originally proposed the Steady State Theory in 1950?",
+  options: [
+    "three",
+    "two",
+    "four",
+    "five"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following is the predominant element of the universe?",
+  options: [
+    "hydrogen",
+    "helium",
+    "nitrogen",
+    "oxygen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Hydrogen is classified as what in the context of the chemical composition of the universe?",
+  options: [
+    "The predominant element",
+    "A trace element",
+    "An absent gas",
+    "A liquid core component"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "From what physical action do stars emerge according to the notes?",
+  options: [
+    "The circular motion of cosmic gases",
+    "The sudden collapse of a planet",
+    "The explosion of meteorites",
+    "The cooling of liquid iron"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What type of motion of cosmic gases leads to the emergence of stars?",
+  options: [
+    "circular motion",
+    "retrograde motion",
+    "linear motion",
+    "irregular motion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What process enables a star to shine for billions of years with a steady ejection of electromagnetic energy?",
+  options: [
+    "Nuclear fusion reaction converting four hydrogen atoms into a helium atom",
+    "Gravitational collapse of rocks",
+    "Radioactive decay of nitrogen",
+    "Retrograde rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "In the nuclear fusion reaction that powers stars, how many hydrogen atoms are converted into a helium atom?",
+  options: [
+    "four",
+    "two",
+    "three",
+    "six"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which red-giant star is about 290 times larger than the sun?",
+  options: [
+    "ANTARES",
+    "SPINA",
+    "Sirius",
+    "Betelgeuse"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How much larger than the sun is the red-giant star ANTARES?",
+  options: [
+    "About 290 times larger",
+    "About 109 times larger",
+    "About 5 times larger",
+    "About 1000 times larger"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the approximate temperature of the blue star SPINA?",
+  options: [
+    "About 25 000 kelvin",
+    "About 10 000 kelvin",
+    "About 100 000 kelvin",
+    "About 5 000 kelvin"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What color star is SPINA, which has a temperature of about 25 000 kelvin?",
+  options: [
+    "blue",
+    "red",
+    "yellow",
+    "white"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How do the stars in a galaxy move relative to its centre?",
+  options: [
+    "They revolve about its centre",
+    "They move away in straight lines",
+    "They remain completely static",
+    "They collide with each other"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The revolution of stars about the galactic centre is compared to what solar system phenomenon?",
+  options: [
+    "The revolution of planets about the sun",
+    "The rotation of Venus",
+    "The collision of meteorites",
+    "The greenhouse effect"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the average distance separating stars from one another within galaxies?",
+  options: [
+    "About 48.28 trillion kilometers",
+    "About 150 million kilometers",
+    "About 2 million light years",
+    "About 149 598 000 kilometers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Stars within galaxies are separated from one another by an average distance of approximately:",
+  options: [
+    "48.28 trillion kilometers",
+    "4.6 billion kilometers",
+    "1 600 kilometers",
+    "63 249 AU"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which galaxy is the closest one comparable in size to the Milky Way Galaxy?",
+  options: [
+    "Andromeda Galaxy",
+    "Hercules cluster",
+    "Milky Way II",
+    "Ceres Galaxy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How far is the Andromeda Galaxy from us?",
+  options: [
+    "2 million light years",
+    "48.28 trillion kilometers",
+    "150 million kilometers",
+    "63 249 AU"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What cluster of galaxies, along with other large clusters, represents the largest system of matter well known in the universe?",
+  options: [
+    "Hercules cluster",
+    "Andromeda cluster",
+    "Milky Way cluster",
+    "SPINA cluster"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The Hercules cluster and other large clusters of Galaxies are recognized as what?",
+  options: [
+    "The largest systems of matter well known in the universe",
+    "Singularity points",
+    "The smallest solar system bodies",
+    "Retrograde galaxies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is formed by the sun, its family of planets and moons, and a large number of smaller objects?",
+  options: [
+    "The solar system",
+    "The Milky Way galaxy",
+    "The Hercules cluster",
+    "The Andromeda galaxy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following is NOT a component that directly forms the solar system according to Point 17?",
+  options: [
+    "The stars of the Hercules cluster",
+    "The sun",
+    "Its family of planets and moons",
+    "A large number of smaller objects"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many years ago was the sun formed?",
+  options: [
+    "4.6 billion years ago",
+    "15-20 billion years ago",
+    "1.3 million years ago",
+    "40,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What physical process within a large molecular cloud led to the formation of the sun?",
+  options: [
+    "Gravitational collapse",
+    "Retrograde rotation",
+    "Nuclear fusion of helium",
+    "Spontaneous explosion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What holds the earth in its orbit around the sun?",
+  options: [
+    "The gravity of the sun",
+    "The atmosphere of the earth",
+    "The rotation of the moon",
+    "Solar radiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "When the earth absorbs light from the sun, what does this light change into?",
+  options: [
+    "heat",
+    "electricity",
+    "magnetism",
+    "water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is produced by the unequal heating of the earth?",
+  options: [
+    "Thunderstorms, tornadoes, hurricanes, and other weather systems",
+    "Gravitational collapse and solar winds",
+    "Retrograde rotations and solar atmospheres",
+    "The formation of new stars and galaxies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Thunderstorms, tornadoes, and hurricanes are weather systems generated by:",
+  options: [
+    "unequal heating of the earth",
+    "the retrograde rotation of Venus",
+    "the gravity of the moon",
+    "nuclear fusion in the sun"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What percentage of the total mass of the solar system is accounted for by the sun?",
+  options: [
+    "About 99.86%",
+    "About 78%",
+    "About 21%",
+    "About 90%"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The sun accounts for about 99.86% of what?",
+  options: [
+    "The total mass of the solar system",
+    "The total diameter of the earth",
+    "The total hydrogen in the universe",
+    "The total volume of galaxies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What fraction of the mass of the sun consists of hydrogen?",
+  options: [
+    "Three-quarters",
+    "One-quarter",
+    "Half",
+    "Two-thirds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which gas makes up three-quarters of the sun's mass?",
+  options: [
+    "hydrogen",
+    "helium",
+    "nitrogen",
+    "carbon dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The sun's diameter is how many times the earth's diameter?",
+  options: [
+    "109 times",
+    "290 times",
+    "5 times",
+    "1 600 times"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Approximately how many earths would fit inside the Sun?",
+  options: [
+    "More than one million",
+    "Exactly one thousand",
+    "About ten thousand",
+    "Roughly 500,000"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Into which sections can the sun be divided?",
+  options: [
+    "Photosphere, chromosphere, and corona",
+    "Core, mantle, and crust",
+    "Photosphere, atmosphere, and troposphere",
+    "Photosphere, mantle, and corona"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following is NOT one of the three sections into which the sun can be divided?",
+  options: [
+    "Mantle",
+    "Photosphere",
+    "Chromosphere",
+    "Corona"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the visible surface of the sun called?",
+  options: [
+    "photosphere",
+    "chromosphere",
+    "corona",
+    "core"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How is the photosphere of the sun defined?",
+  options: [
+    "The visible surface of the sun",
+    "The outermost layer of the solar atmosphere",
+    "The rocky central mantle",
+    "The source of retrograde rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What term is used to collectively describe the parts of the sun above the photosphere?",
+  options: [
+    "solar atmosphere",
+    "solar corona",
+    "photospheric section",
+    "core"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The parts of the sun above the photosphere make up the ________.",
+  options: [
+    "solar atmosphere",
+    "visible surface",
+    "solar core",
+    "rocky mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The solar system consists of the sun and celestial objects bound to it by which force?",
+  options: [
+    "gravity",
+    "nuclear fusion",
+    "electromagnetism",
+    "retrograde motion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What elements are bound to the sun by gravity to form the solar system?",
+  options: [
+    "celestial objects",
+    "unchanging stars",
+    "singularity points",
+    "mermen and sea lions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many planets and dwarf planets are in the solar system according to Point 28?",
+  options: [
+    "Eight planets and five dwarf planets",
+    "Nine planets and three dwarf planets",
+    "Eight planets and three dwarf planets",
+    "Seven planets and five dwarf planets"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many known moons are in the solar system according to the notes?",
+  options: [
+    "173",
+    "63",
+    "60",
+    "27"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following is listed as a small body in the solar system?",
+  options: [
+    "Asteroids, icy Kuiper belt objects, comets, meteoroids, and interplanetary dust",
+    "Terrestrial planets and dwarf planets",
+    "Red-giant stars like Antares",
+    "Blue stars like Spina"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Interplanetary dust, comets, meteoroids, and asteroids are classified in the solar system as:",
+  options: [
+    "small bodies",
+    "dwarf planets",
+    "terrestrial planets",
+    "retrograde planets"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What does the inner solar system include?",
+  options: [
+    "The four terrestrial planets and the main asteroid belt",
+    "The eight planets and five dwarf planets",
+    "The icy Kuiper belt and giant planets",
+    "Only the photosphere and corona"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many terrestrial planets are included in the inner solar system alongside the main asteroid belt?",
+  options: [
+    "four",
+    "eight",
+    "five",
+    "two"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which organization classified objects orbiting the sun into planets, dwarf planets, and small solar system bodies?",
+  options: [
+    "International Astronomical Union / IAU",
+    "NASA",
+    "European Space Agency",
+    "Astronomical Society of Miletus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Into how many categories has the International Astronomical Union (IAU) classified objects orbiting the sun?",
+  options: [
+    "three",
+    "two",
+    "four",
+    "five"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to the IAU, what must a body in orbit around the sun do to be classified as a planet?",
+  options: [
+    "Have enough mass to form a spherical shape and clear its immediate neighborhood of smaller objects",
+    "Have at least one moon and a retrograde rotation",
+    "Have oceans of water and an oxygen-rich atmosphere",
+    "Be larger than the sun and revolve around a galaxy center"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What shape does a planet form itself into due to having enough mass?",
+  options: [
+    "spherical shape",
+    "circular shape",
+    "irregular shape",
+    "flat disk shape"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following is the correct list of the eight known planets in the solar system?",
+  options: [
+    "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune",
+    "Mercury, Venus, Earth, Mars, Ceres, Pluto, Uranus, and Neptune",
+    "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Eris",
+    "Mercury, Venus, Earth, Moon, Jupiter, Saturn, Uranus, and Neptune"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many known planets are there in the solar system?",
+  options: [
+    "eight",
+    "nine",
+    "five",
+    "seven"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What distinguishes a dwarf planet from a regular planet?",
+  options: [
+    "It has not cleared its neighbouring region of planetesimals",
+    "It does not orbit the sun",
+    "It is a satellite of another planet",
+    "It is not rounded by its own gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to the definition, a dwarf planet is massive enough to be rounded by its own gravity, is not a satellite, and orbits the ________.",
+  options: [
+    "sun",
+    "Earth",
+    "Milky Way center",
+    "asteroid belt"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following lists the five known dwarf planets in the solar system?",
+  options: [
+    "Ceres, Pluto, Haumea, Makemake, and Eris",
+    "Ceres, Pluto, Charon, Phobos, and Deimos",
+    "Phobos, Deimos, Titan, Triton, and Ceres",
+    "Ceres, Pluto, Haumea, Titan, and Eris"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many dwarf planets are officially recognized in our solar system according to Point 35?",
+  options: [
+    "five",
+    "eight",
+    "three",
+    "four"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet is the closest to the sun and the second smallest in the solar system?",
+  options: [
+    "Mercury",
+    "Venus",
+    "Mars",
+    "Earth"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is Mercury's size ranking in the solar system according to the notes?",
+  options: [
+    "second smallest",
+    "smallest",
+    "third largest",
+    "second largest"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet's surface is described as one of the hottest places in the solar system?",
+  options: [
+    "Mercury",
+    "Earth",
+    "Mars",
+    "Jupiter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "True or False: Mercury's surface is one of the hottest places in the solar system.",
+  options: [
+    "True",
+    "False",
+    "Only during retrograde",
+    "Only near its poles"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many days does it take Mercury to complete a full orbit around the sun?",
+  options: [
+    "88 days",
+    "365 days",
+    "687 days",
+    "24 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Why does Mercury complete its orbit so quickly compared to other objects in the solar system?",
+  options: [
+    "Since it goes round the sun faster than any other object",
+    "Because it has retrograde rotation",
+    "Because it is a dwarf planet",
+    "Because it has no atmosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet is referred to by astronomers as Earth's sister planet?",
+  options: [
+    "Venus",
+    "Mercury",
+    "Mars",
+    "Jupiter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Why is Venus called Earth's sister planet?",
+  options: [
+    "Because they have almost the same mass, diameter, average density, and surface gravity",
+    "Because they both have retrograde rotation and 173 moons",
+    "Because they both support human life and have liquid iron cores",
+    "Because they both orbit the sun in exactly 365 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the main component of Venus's heavy atmosphere?",
+  options: [
+    "carbon dioxide",
+    "nitrogen",
+    "oxygen",
+    "hydrogen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following is true regarding Venus's surface and atmosphere?",
+  options: [
+    "It has no oceans and virtually no water vapor",
+    "It has vast oceans of liquid water",
+    "Its atmosphere consists of 78% nitrogen",
+    "It contains no carbon dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the phenomenon whereby an atmosphere warms a planet's surface called?",
+  options: [
+    "greenhouse effect",
+    "solar collapse",
+    "retrograde rotation",
+    "gravitational heating"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The greenhouse effect refers to the warming of a planet's surface by its ________.",
+  options: [
+    "atmosphere",
+    "core",
+    "mantle",
+    "volcanic activity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What type of rotation does Venus exhibit, causing the sun to rise in the west and set in the east?",
+  options: [
+    "backward or retrograde",
+    "forward or prograde",
+    "circular",
+    "no rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "To an observer on Venus, where would the sun rise and set?",
+  options: [
+    "Rise in the west and set in the east",
+    "Rise in the east and set in the west",
+    "Rise in the north and set in the south",
+    "Rise in the south and set in the north"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "From what was the Earth formed about 4.6 billion years ago?",
+  options: [
+    "A nebular cloud of dust and gas surrounding the sun",
+    "The collision of two red-giant stars",
+    "The sudden explosion of singularity",
+    "The collapse of the Hercules cluster"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How long ago was the Earth formed?",
+  options: [
+    "About 4.6 billion years ago",
+    "About 15-20 billion years ago",
+    "About 1.3 million years ago",
+    "About 40,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "At what speed does the Earth rotate on its axis at the equator?",
+  options: [
+    "About 1 600 kilometers per hour",
+    "About 25 000 kilometers per hour",
+    "About 290 000 kilometers per hour",
+    "About 48.28 kilometers per hour"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How long does the Earth take to complete one full rotation on its axis?",
+  options: [
+    "24 hours",
+    "365 and quarter days",
+    "27 days",
+    "88 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Day and night on Earth are caused by which planetary movement?",
+  options: [
+    "The rotation of the Earth",
+    "The revolution of the Earth",
+    "The orbit of the Moon",
+    "Retrograde rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the direct consequence of the Earth's rotation on its axis?",
+  options: [
+    "day and night",
+    "the four seasons",
+    "thunderstorms and tornadoes",
+    "the gravitational orbit of the moon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the average distance at which the Earth revolves around the sun?",
+  options: [
+    "About 150 million kilometers",
+    "About 149 598 000 astronomical units",
+    "About 48.28 trillion kilometers",
+    "About 2 million light years"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How long does it take the Earth to complete one full revolution around the sun?",
+  options: [
+    "365 and quarter days",
+    "24 hours",
+    "27 days",
+    "88 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What composition and state characterize the center (core) of the Earth?",
+  options: [
+    "Highly compressed rocks and iron in a liquid state",
+    "Solid hydrogen and helium",
+    "Liquid water and gas",
+    "Compressed gaseous nitrogen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What structural layer of the Earth lies outside the core and extends almost to the surface?",
+  options: [
+    "rocky mantle",
+    "atmosphere",
+    "photosphere",
+    "chromosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the exact composition of the Earth's atmosphere?",
+  options: [
+    "78 percent nitrogen, 21 percent oxygen, and 1 percent other constituents",
+    "78 percent oxygen, 21 percent nitrogen, and 1 percent carbon dioxide",
+    "50 percent hydrogen, 40 percent helium, and 10 percent oxygen",
+    "99 percent carbon dioxide and 1 percent water vapor"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The thin layer of gas surrounding the Earth is known as the ________.",
+  options: [
+    "Atmosphere",
+    "Photosphere",
+    "Chromosphere",
+    "Mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Why is the atmosphere considered an important part of the Earth?",
+  options: [
+    "Because it moderates the heat reaching the surface of the Earth",
+    "Because it causes the Earth to rotate backward",
+    "Because it is composed entirely of compressed iron",
+    "Because it holds the moon in its orbit"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What does the Earth's atmosphere moderate to make the surface hospitable?",
+  options: [
+    "The heat reaching the surface of the Earth",
+    "The gravitational pull of the moon",
+    "The speed of Earth's rotation",
+    "The nuclear fusion reactions of the sun"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is referred to as the 'natural insulator' of the earth?",
+  options: [
+    "the atmosphere",
+    "the rocky mantle",
+    "the liquid iron core",
+    "the Moon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to Point 50, the atmosphere acts as the Earth's natural ________.",
+  options: [
+    "insulator",
+    "satellite",
+    "photosphere",
+    "greenhouse core"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many days does the Moon take to revolve around the Earth?",
+  options: [
+    "27 days",
+    "24 days",
+    "365 days",
+    "88 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the name of Earth's single natural satellite?",
+  options: [
+    "the Moon",
+    "Ceres",
+    "Phobos",
+    "Deimos"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which of the following describes the environmental conditions of the moon?",
+  options: [
+    "A desolate, hostile world of barren rocks, towering mountains, and huge plains",
+    "A wet, humid world with lush vegetation and moderate heat",
+    "A gas-covered sphere composed mainly of liquid iron",
+    "A quiet, orderly world with changing atmospheres"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How do some of the towering mountains on the moon compare in height to Earth's geography?",
+  options: [
+    "Some are higher than Mount Everest",
+    "They are all shorter than average hills",
+    "They are identical in height to the Rocky Mantle",
+    "They are twice as high as Olympus Mons"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Why is there no air on the moon?",
+  options: [
+    "Because its gravitational pull is too small to retain any gas",
+    "Because solar radiation destroyed all gas elements",
+    "Because it rotates too quickly on its axis",
+    "Because it is a desolate satellite with no rocks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The moon lacks air because its ________ is too small to retain gas.",
+  options: [
+    "gravitational pull",
+    "physical diameter",
+    "distance from Earth",
+    "speed of revolution"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet is the fourth from the sun and commonly referred to as the Red Planet?",
+  options: [
+    "Mars",
+    "Venus",
+    "Mercury",
+    "Jupiter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many days does it take Mars to complete a revolution around the sun?",
+  options: [
+    "687 days",
+    "88 days",
+    "365 days",
+    "12 years"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the name of the highest known mountain in the solar system, and where is it located?",
+  options: [
+    "Olympus Mons on Mars",
+    "Mount Everest on the Moon",
+    "Olympus Mons on Venus",
+    "Antares on Mars"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Where is Olympus Mons, the highest known mountain in the solar system, found?",
+  options: [
+    "Mars",
+    "Earth",
+    "the Moon",
+    "Venus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What gas primarily composes the atmosphere of Mars?",
+  options: [
+    "carbon dioxide",
+    "nitrogen",
+    "oxygen",
+    "hydrogen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The atmosphere of Mars consists of small amounts of other gases and primarily ________.",
+  options: [
+    "carbon dioxide",
+    "helium",
+    "interplanetary dust",
+    "nitrogen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What are the names of the two tiny moons of Mars?",
+  options: [
+    "Phobos and Deimos",
+    "Callisto and Europa",
+    "Ganymede and Io",
+    "Titan and Triton"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many tiny moons does Mars have?",
+  options: [
+    "two",
+    "three",
+    "four",
+    "sixty-three"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planets are classified as the giant planets?",
+  options: [
+    "Jupiter, Saturn, Uranus, and Neptune",
+    "Mercury, Venus, Earth, and Mars",
+    "Ceres, Pluto, Haumea, Makemake, and Eris",
+    "Phobos, Deimos, Titan, and Triton"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How do the giant planets compare to Earth in terms of size and density?",
+  options: [
+    "They are 5 to 10 times larger and far more massive but considerably lower in density",
+    "They are identical in size but twice as dense",
+    "They are smaller than Earth but significantly denser",
+    "They are larger, more massive, and have a higher density"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet is the fifth from the Sun according to the notes?",
+  options: [
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Mars"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "According to Point 59, Jupiter is the fifth planet from the Sun and is ________.",
+  options: [
+    "Venus",
+    "Mars",
+    "Earth's sister",
+    "a dwarf planet"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Approximately how long does it take Jupiter to complete one revolution around the sun?",
+  options: [
+    "12 years",
+    "687 days",
+    "165 years",
+    "88 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet completes its revolution around the sun in approximately 12 years?",
+  options: [
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many known satellites does Jupiter have according to Point 61?",
+  options: [
+    "63",
+    "60",
+    "27",
+    "13"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which four of Jupiter's satellites were observed by Galileo in 1610?",
+  options: [
+    "Callisto, Europa, Ganymede, and Io",
+    "Phobos, Deimos, Titan, and Triton",
+    "Titan, Hyperion, Phoebe, and Iapetus",
+    "Titania, Oberon, Miranda, and Ariel"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet is described as being similar to Jupiter in size but having less mass than the Earth?",
+  options: [
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Mars"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How does the mass of Saturn compare to the mass of the Earth according to Point 62?",
+  options: [
+    "It has less mass than the Earth",
+    "It has identical mass to the Earth",
+    "It is ten times more massive",
+    "It has no mass"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many known satellites does Saturn have?",
+  options: [
+    "sixty",
+    "sixty-three",
+    "twenty-seven",
+    "thirteen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Titan, Hyperion, Phoebe, and Iapetus are satellites of which planet?",
+  options: [
+    "Saturn",
+    "Jupiter",
+    "Uranus",
+    "Neptune"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which planet is the seventh from the sun and the third largest in the solar system?",
+  options: [
+    "Uranus",
+    "Saturn",
+    "Neptune",
+    "Jupiter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is Uranus's size ranking in the solar system?",
+  options: [
+    "third largest",
+    "second largest",
+    "largest",
+    "smallest"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "In which year was Uranus first observed with the aid of a telescope?",
+  options: [
+    "1781",
+    "1610",
+    "1846",
+    "1930"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What instrument was aided in the first observation of Uranus in 1781?",
+  options: [
+    "telescope",
+    "spectroscope",
+    "space probe Voyager 2",
+    "radar"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many known satellites does Uranus have at least?",
+  options: [
+    "27",
+    "63",
+    "60",
+    "13"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Which five moons of Uranus were large enough to be discovered from Earth before the Voyager 2 flyby?",
+  options: [
+    "Titania, Oberon, Miranda, Ariel, and Umbriel",
+    "Callisto, Europa, Ganymede, Io, and Titan",
+    "Titan, Hyperion, Phoebe, Iapetus, and Triton",
+    "Phobos, Deimos, Triton, Nereid, and Ceres"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Who discovered the two largest moons of Uranus, Titania and Oberon, in 1787?",
+  options: [
+    "William Herschel",
+    "Galileo",
+    "Clyde Tombaugh",
+    "W. Lassell"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "In which year did William Herschel discover Uranus's two largest moons, Titania and Oberon?",
+  options: [
+    "1787",
+    "1781",
+    "1846",
+    "1949"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many years does it take Neptune to complete its orbit around the Sun?",
+  options: [
+    "165 years",
+    "12 years",
+    "88 days",
+    "687 days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is the exact length of a day on Neptune?",
+  options: [
+    "16 hours and 6.7 minutes",
+    "24 hours",
+    "10 hours",
+    "16 hours and 30 minutes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many known satellites does Neptune have?",
+  options: [
+    "thirteen",
+    "sixty",
+    "sixty-three",
+    "twenty-seven"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Triton and Nereid are satellites of Neptune discovered by which two astronomers?",
+  options: [
+    "W. Lassell and G. Kuiper",
+    "William Herschel and Galileo",
+    "Clyde Tombaugh and Dart",
+    "Charles Lyell and James Hutton"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Who discovered Pluto in 1930?",
+  options: [
+    "Clyde Tombaugh",
+    "William Herschel",
+    "W. Lassell",
+    "G. Kuiper"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "In what year was Pluto discovered by American astronomer Clyde Tombaugh?",
+  options: [
+    "1930",
+    "1950",
+    "1856",
+    "1924"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What are meteorites defined as?",
+  options: [
+    "Pieces of rock and iron with complex physical and chemical history broken off from large bodies during repeated collisions",
+    "Small solar system bodies exhibiting a visible coma or tail",
+    "Celestial bodies massive enough to be rounded but not cleared of planetesimals",
+    "Gaseous sections of the solar atmosphere above the photosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "The complex physical and chemical history of meteorites suggests they were broken off from large bodies during what events?",
+  options: [
+    "repeated collisions",
+    "nuclear fusion reactions",
+    "gravitational collapse",
+    "retrograde rotations"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What happens to meteorites when they enter the atmosphere?",
+  options: [
+    "They heat up",
+    "They freeze",
+    "They expand instantly",
+    "They stop moving"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Upon entering what layer of Earth do meteorites heat up?",
+  options: [
+    "The atmosphere",
+    "The core",
+    "The mantle",
+    "The visible photosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What small solar system body exhibits a visible coma or a tail when close enough to the sun?",
+  options: [
+    "comet",
+    "meteorite",
+    "asteroid",
+    "dwarf planet"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What causes a comet to exhibit a visible coma (atmosphere) or a tail?",
+  options: [
+    "The effects of solar radiation upon the comet's nucleus",
+    "The rapid retrograde rotation of the comet",
+    "Repeated collisions with meteoroids",
+    "The gravitational pull of Earth's moon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What unit do astronomers use to measure distances within the solar system?",
+  options: [
+    "Astronomical units / AU",
+    "Light years",
+    "Kilometers per second",
+    "Kelvin"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "What is 1 AU approximately equal to?",
+  options: [
+    "149 598 000km",
+    "48.28 trillion km",
+    "2 million light years",
+    "290 000 km"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How is a light year defined according to the notes?",
+  options: [
+    "The distance traveled in one year by a ray of light traveling at 290,000 kilometers per second",
+    "The average distance between the Earth and the sun",
+    "The distance separating stars in the Milky Way",
+    "The time it takes a star to convert hydrogen to helium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "How many Astronomical Units (AU) make up one light year?",
+  options: [
+    "63 249 AU",
+    "149 598 000 AU",
+    "48.28 trillion AU",
+    "25 000 AU"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst112",
+  chapter: 3,
+  question: "From which Latin word is the term 'Science' derived?",
+  options: [
+    "Scine",
+    "Scientia",
+    "Cosmos",
+    "Scire"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What is the meaning of the Latin word 'Scine' from which 'Science' is coined?",
+  options: [
+    "to know",
+    "to observe",
+    "to build",
+    "to change"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "In which areas did Ancient Egypt contribute significantly according to the notes?",
+  options: [
+    "Mathematics, Astronomy, and Medicine",
+    "Physics, Chemistry, and Zoology",
+    "Algebra, Geography, and Geology",
+    "Statics, Hydrostatics, and Seismology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which ancient civilization made significant contributions specifically to Mathematics, Astronomy, and Medicine?",
+  options: [
+    "Ancient Egypt",
+    "Indus Valley",
+    "Luoyang",
+    "Babylonian"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "To which ancient medical document can the advent of modern neuroscience be ascribed?",
+  options: [
+    "Edwin Smith's papyrus",
+    "The Hippocratic Oath",
+    "Euclid's Elements",
+    "Al-Jabr"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Edwin Smith's papyrus is recognized as one of the first medical documents that attempted to analyze what organ (referred to in the notes)?",
+  options: [
+    "the Grain",
+    "the Heart",
+    "the Lungs",
+    "the Liver"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which astronomers used planetary and stellar records to develop arithmetical methods to predict eclipses and moon appearances?",
+  options: [
+    "Babylonian astronomists",
+    "Egyptian astronomists",
+    "Greek philosophers",
+    "Indus Valley mathematicians"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Babylonian astronomists used arithmetical methods to predict what celestial events?",
+  options: [
+    "The appearance and disappearance of the moon and eclipses of the sun and moon",
+    "The distance to the Andromeda Galaxy",
+    "The temperature of blue stars like Spina",
+    "The exact rotation speed of Venus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which two prominent Greek philosophers produced the first systematic discussion of natural philosophy?",
+  options: [
+    "Aristotle and Plato",
+    "Hippocrates and Euclid",
+    "Jean Buridan and Nicole Oresme",
+    "Karl Popper and Imre Lakatos"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What did the prominent Greek philosophers Aristotle and Plato produce the first systematic discussion of?",
+  options: [
+    "natural philosophy",
+    "modern neuroscience",
+    "hydrostatics",
+    "the scientific method"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who developed the Hippocratic Oath, which is still used by modern-day physicians?",
+  options: [
+    "Hippocrites and their followers",
+    "Aristotle and Plato",
+    "Edwin Smith",
+    "Euclid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What medical code, developed by Hippocrites and their followers, is still used by modern-day physicians?",
+  options: [
+    "The Hippocratic Oath",
+    "The Edwin Smith Papyrus",
+    "The Elements of Medicine",
+    "Clinical Trials"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "In which professional area did the Hippocratic Oath make a significant contribution?",
+  options: [
+    "medicine",
+    "mathematics",
+    "astronomy",
+    "physics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Besides establishing ethical standards, the Hippocratic Oath was the first to do what?",
+  options: [
+    "Describe many diseases and medical conditions",
+    "Conduct clinical trials",
+    "Predict solar eclipses",
+    "Lay the foundation of hydrostatics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which mathematician in Hellenistic Egypt laid the foundation of mathematical rigor and wrote the textbook 'Element'?",
+  options: [
+    "Euclid",
+    "Archimedes",
+    "Aryabhata",
+    "Muhammad Ibn Musa Khwarizmi"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which concepts did Euclid introduce in his textbook 'Element' that are still in use today?",
+  options: [
+    "Definition, axiom, theorem, and proof",
+    "Calculus, logarithms, and decimals",
+    "Impetus, gravity, and velocity",
+    "Seismometers and earthquake alerts"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "To whom is the laying of the foundation of hydrostatics, statics, and the explanation of the lever in physics attributed?",
+  options: [
+    "Archimedes",
+    "Euclid",
+    "Zhang Heng",
+    "Jean Buridan"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Archimedes made significant contributions to physics by laying the foundation of:",
+  options: [
+    "hydrostatics, statics, and explanation of the principle of the lever",
+    "algebraic algorithms",
+    "seismology and continental drift",
+    "modern neuroscience"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "To which ancient civilization in the 3rd and 4th Millennium BC can the earliest traces of mathematical knowledge be linked?",
+  options: [
+    "Indus Valley civilization",
+    "Ancient Egyptian civilization",
+    "Babylonian civilization",
+    "Greek civilization"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which mathematical figure from early Indus Valley civilization traces introduced several trigonometric functions, tables, techniques, and algorithms of algebra?",
+  options: [
+    "Aryabhata",
+    "Euclid",
+    "Al-Khwarizmi",
+    "Al-Battani"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who invented a seismometer that provided instant alerts of earthquakes occurring in the capital city of Luoyang?",
+  options: [
+    "Zhang Heng",
+    "Aryabhata",
+    "Muhammad Ibn Musa Khwarizmi",
+    "Jean Buridan"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What was the primary function of the seismometer invented by Zhang Heng?",
+  options: [
+    "To provide instant alert to authorities that an earthquake had occurred in the capital city of Luoyang",
+    "To measure the temperature of red-giant stars",
+    "To calculate the algebraic algorithms of trigonometry",
+    "To predict the eclipses of the sun and moon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "From where did Arabic numerals originally originate?",
+  options: [
+    "India",
+    "Egypt",
+    "Babylonia",
+    "Greece"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What refinement did Muslim mathematicians introduce to the Arabic numeral system?",
+  options: [
+    "Decimal point notation",
+    "Axioms and theorems",
+    "Trigonometric functions",
+    "Roman alphabets"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "From which term is the word 'algebra' derived?",
+  options: [
+    "al-jabr",
+    "al-razhi",
+    "scine",
+    "impetus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which mathematician's publication title contains 'al-jabr', from which the term 'algebra' is derived?",
+  options: [
+    "Muhammad Ibn Musa Khwarizmi",
+    "Aryabhata",
+    "Al-Razi",
+    "Al-Battani"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who is recognized as the first physician to conduct clinical trials, according to the notes?",
+  options: [
+    "Ibu Sina",
+    "Al-Razi",
+    "Al-Battani",
+    "Hippocrates"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which fields of study are paired with Al-Razi in the history of scientific refinements?",
+  options: [
+    "Chemistry and Medicine",
+    "Astronomy and Mathematics",
+    "Physics and Hydrostatics",
+    "Geometry and Logic"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What historical development in the 12th century brought about the intellectual resuscitation of Europe?",
+  options: [
+    "The birth of medieval Universities",
+    "The invention of the seismometer",
+    "The decline of Greek philosophy",
+    "The translation of the Edwin Smith papyrus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "During which century did the birth of medieval Universities bring about the intellectual resuscitation of Europe?",
+  options: [
+    "12th century",
+    "15th century",
+    "20th century",
+    "4th century"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which scholars developed the theory that impetus was the cause of the motion of a projectile?",
+  options: [
+    "Jean Buridan and Nicole Oresine",
+    "Al-Razi and Ibu Sina",
+    "Roger Bacon and Francis Bacon",
+    "Karl Popper and Thomas Kuhn"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "According to Jean Buridan and Nicole Oresine, what was the cause of the motion of a projectile?",
+  options: [
+    "impetus",
+    "gravity",
+    "nuclear fusion",
+    "magnetic induction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who was the first philosopher to realize the importance of empirical measurement?",
+  options: [
+    "Aristotle",
+    "Epicurus",
+    "Plato",
+    "Zhang Heng"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Aristotle holds a significant place in the methodology of science for being the first to realize the importance of:",
+  options: [
+    "empirical measurement",
+    "decimal point notation",
+    "clinical trials",
+    "seismological alerts"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who is known as the father of science according to the notes?",
+  options: [
+    "Aristotle",
+    "Epicurus",
+    "Euclid",
+    "Karl Popper"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What was Aristotle's core belief about how scientific knowledge is gained?",
+  options: [
+    "By building on what is already known",
+    "By rejecting previous predictions through falsification",
+    "By using a single method applicable to all sciences",
+    "By sudden catastrophes and direct divine action"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who proposed the idea of induction as a tool for gaining knowledge?",
+  options: [
+    "Aristotle",
+    "Epicurus",
+    "Francis Bacon",
+    "Roger Bacon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What tool for gaining knowledge was proposed by Aristotle according to Point 19?",
+  options: [
+    "induction",
+    "deduction",
+    "clinical trials",
+    "falsification"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "According to Epicurus's first rule of inquiry in physics, the first concept must be seen and must NOT require what?",
+  options: [
+    "demonstration",
+    "induction",
+    "clinical trial",
+    "empirical measurement"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What was Epicurus's second rule of inquiry before starting an investigation?",
+  options: [
+    "We are to have self-evident concepts to enable us to infer both what is expected and what is not",
+    "We must construct a mathematical textbook of axioms",
+    "We must conduct clinical trials with multiple control groups",
+    "We must prove that impetus is the cause of motion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What methods were Muslim scientists like Ibn al-Haytham and Al-Biruni known for using to distinguish between competing scientific theories?",
+  options: [
+    "Experimentation and quantification methods",
+    "Axioms and deductive theorems",
+    "Divine revelation and scriptural literalism",
+    "Impetus and projectile motion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which of the following is listed as a Muslim scientist known for using experimentation and quantification?",
+  options: [
+    "Ibn al-Haytham, Al-Biruni, Al-Rahwi, Abu Jibir, etc.",
+    "Jean Buridan",
+    "Epicurus",
+    "Edwin Smith"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What historical period marked a turning point for the scientific method as European scientists improved on Greek and Muslim knowledge?",
+  options: [
+    "The Renaissance",
+    "The 12th century medieval university birth",
+    "The Hellenistic age in Egypt",
+    "The Indus Valley civilization"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "During the Renaissance, European scientists improved the scientific method by building on the knowledge of which two groups?",
+  options: [
+    "Greeks and Muslims",
+    "Egyptians and Babylonians",
+    "Indus Valley and Chinese",
+    "Mesopotamians and Romans"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which set of notable Renaissance scholars made remarkable contributions to the history of the scientific method?",
+  options: [
+    "Roger Bacon, Francis Bacon, Galileo, etc.",
+    "Jean Buridan, Nicole Oresme, Aristotle",
+    "Al-Razi, Ibu Sina, Al-Battani",
+    "Zhang Heng, Euclid, Archimedes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Roger Bacon, Francis Bacon, and Galileo are famous for making contributions to the scientific method during which historical era?",
+  options: [
+    "The Renaissance",
+    "The Medieval period",
+    "The 20th century",
+    "The Hellenistic age"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Who provided meaningful improvements in the understanding of the scientific method in the 20th century?",
+  options: [
+    "Karl Popper",
+    "Epicurus",
+    "Jean Buridan",
+    "Zhang Heng"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Karl Popper is celebrated for his 20th-century contributions to the understanding of which area?",
+  options: [
+    "the scientific method",
+    "modern neuroscience",
+    "clinical trial guidelines",
+    "algebra and decimals"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "According to Karl Popper, a scientific theory should be able to make predictions that can be tested, and findings can be ________ if proven incorrect.",
+  options: [
+    "rejected",
+    "harmonized",
+    "classified",
+    "ignored"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Karl Popper's view on testing predictions and rejecting incorrect findings is central to his philosophy of:",
+  options: [
+    "scientific theory",
+    "natural philosophy",
+    "mathematical rigor",
+    "algebra and decimals"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "Which group of philosophers criticized and repudiated Karl Popper's ideology of a single scientific method?",
+  options: [
+    "Kuhu, Paul Feyerabend, and Imre Lakatos",
+    "Roger Bacon, Francis Bacon, and Galileo",
+    "Al-Razi, Al-Battani, and Ibu Sina",
+    "Jean Buridan, Nicole Oresme, and Aristotle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 3,
+  question: "What specific ideology of Karl Popper did Kuhu, Paul Feyerabend, and Imre Lakatos criticize?",
+  options: [
+    "That there exists a single method applicable to all sciences and could account for its progress",
+    "That scientific theory must make testable predictions",
+    "That impetus is the cause of projectile motion",
+    "That knowledge is only gained by induction"
+  ],
+  answer: 0
+    },
+  {
+  course: "gst112",
+  chapter: 4,
+  question: "According to Point 1, what are fundamentally altering the way people live, connect, communicate, and transact?",
+  options: [
+    "Developments in science and technology",
+    "Traditional customs and values",
+    "Historical shifts in philosophy",
+    "Only pure biological mutations"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Developments in science and technology have profound effects on which of the following?",
+  options: [
+    "economic development",
+    "stellar configurations",
+    "physical vestigial structures",
+    "the location of the Taung baby"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What should developing countries invest in to promote technological advancement?",
+  options: [
+    "Quality education for youth, and continuous skills training for workers and managers",
+    "Space exploration and telescopic observation",
+    "Traditional agricultural tools and manual labor",
+    "Decimating foreign languages and mathematics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Besides quality education for youth, what else should developing countries provide to promote technological advancement?",
+  options: [
+    "continuous skills training for workers and managers",
+    "free internet services globally",
+    "complex seismometers in every city",
+    "astronomical units of measurement"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "From what sectors are the technological revolutions of the 21st century emerging?",
+  options: [
+    "Entirely new sectors based on microprocessors, telecommunications, biotechnology, and nano-technology",
+    "Traditional agricultural, maritime, and manual sectors",
+    "Ancient philosophical, astronomical, and medicinal systems",
+    "Steam-engine, metallurgy, and early geological disciplines"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Which of the following is NOT listed as a base sector for 21st-century technological revolutions?",
+  options: [
+    "Hydrostatics and statics",
+    "Microprocessors",
+    "Biotechnology",
+    "Nano-technology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What determines the extent to which developing economies emerge as economic powerhouses?",
+  options: [
+    "Their ability to grasp and apply insights from science and technology and use them creatively",
+    "Their population growth rate compared to geometric food supplies",
+    "Their quantity of raw natural fossils and ancient meteorites",
+    "Their total reliance on traditional special creation models"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "To emerge as economic powerhouses, developing economies must grasp and apply insights from science and technology and use them ________.",
+  options: [
+    "creatively",
+    "passively",
+    "retrogradely",
+    "hypothetically"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is the primary driver of technological growth that also drives higher living standards?",
+  options: [
+    "Innovation",
+    "Gradualism",
+    "Mutation",
+    "Tradition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "According to the notes, innovation drives technological growth and what else?",
+  options: [
+    "higher living standards",
+    "lower productivity",
+    "longer orbits",
+    "greater catastrophes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "In a world where the internet makes information ubiquitous, what counts is the ability to:",
+  options: [
+    "use knowledge intelligently",
+    "store raw data physically",
+    "reject testable predictions",
+    "avoid the greenhouse effect"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What does the internet do to information in the modern world according to Point 6?",
+  options: [
+    "It makes information ubiquitous",
+    "It restricts access to clinical trials",
+    "It prevents technological innovation",
+    "It halts economic development"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "How is 'knowledge' defined in Chapter 4?",
+  options: [
+    "Systemically integrated information that allows a citizen, worker, manager, or finance minister to act purposefully and intelligently",
+    "The simple collection of raw telescopic data from ancient times",
+    "The direct instruction of the creator through special creation",
+    "The progressive change of living things over geological time"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Knowledge allows a citizen, worker, manager, or finance minister to act in what way in a complex and demanding world?",
+  options: [
+    "purposefully and intelligently",
+    "passively and slowly",
+    "retrogradely and orderlily",
+    "hypothetically and randomly"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What does adopting appropriate technologies lead directly to?",
+  options: [
+    "higher productivity",
+    "lower living standards",
+    "sudden environmental catastrophes",
+    "a decrease in population"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "According to Point 8, what is the key to economic growth?",
+  options: [
+    "higher productivity",
+    "importing only foreign tools",
+    "ignoring science education",
+    "avoiding all technological innovation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is defined as a systematic way of acquiring knowledge about a particular field of study?",
+  options: [
+    "Science",
+    "Technology",
+    "Innovation",
+    "Seismology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Complete the definition based on the text: 'Science is a systematic way of ________ about a particular field of study.'",
+  options: [
+    "acquiring knowledge",
+    "creating physical tools",
+    "explaining the greenhouse effect",
+    "constructing physical models"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Through what organized system does science help us to gain knowledge?",
+  options: [
+    "Observation and experimentation",
+    "Special creation and divine action",
+    "Impetus and projectile motion",
+    "Retrograde rotation and telescopics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "According to the text, science helps us gain knowledge by using an organized system of:",
+  options: [
+    "observation and experimentation",
+    "definitions and theorems",
+    "simple rules of inquiry",
+    "mechanical lever designs"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Which of the following is listed as a basic field of pure science?",
+  options: [
+    "Biology, chemistry, physics, and earth science",
+    "Neuroscience, statics, and hydrostatics",
+    "Medicine, algebra, and geometry",
+    "Seismology, biotechnology, and metallurgy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Which of the following is NOT one of the basic fields of pure science listed in Point 11?",
+  options: [
+    "Neuroscience",
+    "Biology",
+    "Chemistry",
+    "Physics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is defined as the products, tools, and processes used to accomplish tasks in daily life?",
+  options: [
+    "Technology",
+    "Pure science",
+    "Systematic philosophy",
+    "Human innovation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Technology includes the products, tools, and processes used to do what in daily life?",
+  options: [
+    "accomplish tasks",
+    "explain the natural world",
+    "reject testable predictions",
+    "study cosmic elements"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is technology in relation to science?",
+  options: [
+    "The application of science to solve a problem",
+    "The theoretical baseline of pure science",
+    "The direct contradiction of empirical measurement",
+    "The study of the chemical level of organisms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Technology is described as the ________ of science to solve a problem.",
+  options: [
+    "application",
+    "contradiction",
+    "precursor",
+    "pure form"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Technology is basically human knowledge that is used to create what?",
+  options: [
+    "Products and artifacts",
+    "Pure scientific theories",
+    "Planetary orbits",
+    "Natural physical environments"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "With the help of what does technology use human knowledge to create products and artifacts?",
+  options: [
+    "Innovative tools, systems, and materials",
+    "Empirical measurement and observational catalogs",
+    "Basic fields of pure biology and chemistry",
+    "The hierarchical views of ancient philosophy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Which view holds that science and technology interact in a reciprocal two-way relationship?",
+  options: [
+    "Symmetrical view",
+    "Hierarchical view",
+    "Progressive view",
+    "Traditional view"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "How does the symmetrical view describe the interaction between science and technology?",
+  options: [
+    "Collectively, they interact in a reciprocal two-way relationship",
+    "Science produces technology in a prevailing one-way relationship",
+    "They are completely independent and do not interact",
+    "Technology dictates science in an unequal manner"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Which view of science and technology holds that science produces technology in a prevailing one-way relationship?",
+  options: [
+    "Hierarchical view",
+    "Symmetrical view",
+    "Progressive view",
+    "Retrograde view"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "According to the hierarchical view, what is the nature of the relationship between science and technology?",
+  options: [
+    "Science produces technology in a prevailing one-way relationship",
+    "They interact in a reciprocal two-way relationship",
+    "Technology produces science in a prevailing one-way relationship",
+    "They do not share any functional relationship"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is one major implication of the hierarchical view of science and technology?",
+  options: [
+    "Technology cannot progress without the knowledge of science",
+    "Science cannot exist without technological products",
+    "Both fields progress entirely in a reciprocal two-way relationship",
+    "There is no relationship between science and technology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Under the hierarchical view, what is required for technology to progress?",
+  options: [
+    "The knowledge of science",
+    "The use of simple single-cell models",
+    "The complete rejection of logical reasoning",
+    "Sudden natural catastrophes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is the overriding purpose of science according to the text?",
+  options: [
+    "To explain the natural world through interactive intellectual and investigative practices",
+    "To intervene in the world to produce something other than what exists",
+    "To create innovative tools and products for daily survival",
+    "To generate economic powerhouses using clinical trials"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Investigative practices in science involve observation and ________ of the natural world.",
+  options: [
+    "controlled manipulations",
+    "spontaneous creation",
+    "natural isolation",
+    "immediate destruction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is the primary role of a scientist according to Point 19?",
+  options: [
+    "To interrogate the real thing of the natural world to construct explanations of them",
+    "To intervene in the world to build physical products",
+    "To establish the names of new stars and constellations",
+    "To sell innovative tools to workers and managers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "A scientist interrogates the real thing of the natural world in order to:",
+  options: [
+    "construct explanations of them",
+    "modify their physical genotypes",
+    "create commercial artifacts",
+    "destroy their natural balance"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is required for new knowledge to be validated within the domain of science?",
+  options: [
+    "It must adhere to logical reasoning and be internally coherent within the dominant paradigm",
+    "It must be supported by political economists and clergymen",
+    "It must be approved through a series of sudden catastrophes",
+    "It must immediately create a new physical product"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "To be validated, scientific knowledge must be internally coherent within the:",
+  options: [
+    "dominant paradigm",
+    "hierarchical view",
+    "symmetrical relation",
+    "mythological ideas"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is the primary purpose of technology?",
+  options: [
+    "To intervene in the world to produce something other than that which currently exists",
+    "To explain the natural world through controlled observations",
+    "To acquire systematic knowledge about basic fields of pure science",
+    "To validate testable predictions through logical reasoning"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Technology seeks to intervene in the world to:",
+  options: [
+    "produce something other than that which currently exists",
+    "preserve the natural world exactly as it is",
+    "explain the why and why not of natural systems",
+    "maintain the dominant paradigm of science"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What temporal sources do technologists draw from to design interventions?",
+  options: [
+    "The past, current, and a range of possible and probable futures",
+    "Only the ancient mythological periods and pre-socratic times",
+    "Exclusively modern and advanced scientific laboratories",
+    "The future exclusively, without referencing the past"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Technologists draw from the past, current, and a range of ________.",
+  options: [
+    "possible and probable futures",
+    "unalterable static concepts",
+    "pure chemical reactions",
+    "astronomical coordinates"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What can provide powerful explanations for the why and why not behind technological intervention?",
+  options: [
+    "Science",
+    "Pure innovation",
+    "Market demand",
+    "Retrograde rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Science explains the 'why and why not' behind which human activity?",
+  options: [
+    "technological intervention",
+    "pure physical evolution",
+    "spontaneous generation",
+    "mythological storytelling"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What happens to a nation that does not implement science and technology?",
+  options: [
+    "Its chances of development become minimal and it could be rated as undeveloped",
+    "It immediately emerges as an economic powerhouse",
+    "It transitions to a steady state stable economy",
+    "It automatically builds higher living standards"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Without implementing science and technology, a nation's chances of development become:",
+  options: [
+    "minimal",
+    "maximum",
+    "highly predictable",
+    "perfectly gradual"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "What is described as the greatest example of the implementation of science and technology in every nation?",
+  options: [
+    "Modernization in every aspect of life",
+    "An increase in the total mass of the solar system",
+    "The systematic discussion of ancient Greek philosophy",
+    "The discovery of prehuman fossils in South Africa"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Modernization in every aspect of life is a direct example of the implementation of:",
+  options: [
+    "science and technology",
+    "special creation",
+    "the Malthusian principle",
+    "the steady state theory"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "Which countries are understood to have developed faster when carefully analyzed?",
+  options: [
+    "Those with a strong base in science and technology",
+    "Those that maintain constant stable climates",
+    "Those that rely purely on traditional systems",
+    "Those that completely avoid industrialization"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "A strong base in science and technology is correlated with which national outcome?",
+  options: [
+    "faster development",
+    "higher levels of sudden catastrophes",
+    "complete atmospheric insulation",
+    "slower rates of population increase"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "For what purpose has man virtually used science and technology regarding his environment?",
+  options: [
+    "To improve his environment and to supply his basic needs",
+    "To completely destroy all natural biological variation",
+    "To construct new stellar systems in the Andromeda galaxy",
+    "To validate only the myths of the ancient Greeks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 4,
+  question: "According to Point 27, which of the following is listed as a basic need that science and technology help supply?",
+  options: [
+    "Food, shelter, clothing, as well as recreation, communication, etc.",
+    "Advanced seismometers and telescopic observatories",
+    "Extinct hominid fossils and stone tools",
+    "Pure mathematical axioms and proofs"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst112",
+  chapter: 5,
+  question: "How is 'energy' defined in the notes?",
+  options: [
+    "The ability of a body or system to do work",
+    "Force applied to move an object through a distance",
+    "The rate at which power is consumed commercially",
+    "The heat produced by converting hydrogen into helium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is 'work' defined as according to the text?",
+  options: [
+    "force applied to move an object through a distance",
+    "the ability of a body or system to do work",
+    "the total quantity of energy present in a closed system",
+    "thermal agitation of particles in solar cells"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "In which of the following units is energy measured?",
+  options: [
+    "Joules (J) or Newton meter",
+    "Kilowatt hour (kWh) only",
+    "Kelvin or Celsius",
+    "Astronomical Units or Light years"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Besides Joules (J), what is another unit of measurement for energy?",
+  options: [
+    "Newton meter",
+    "Kilowatt hour",
+    "Watt per second",
+    "Pascal meter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "For commercial estimation of consumption, energy is calculated in which unit?",
+  options: [
+    "Kilowatt hour (kWh)",
+    "Joules (J)",
+    "Newton meter",
+    "Volts"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is Kilowatt hour (kWh) used for in energy calculation?",
+  options: [
+    "Commercial estimation of consumption",
+    "Measuring basic kinetic energy",
+    "Converting wind speed to volts",
+    "Measuring the heat of a red-giant star"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What does the universal law of conservation of energy state?",
+  options: [
+    "Energy cannot be created nor destroyed but can be changed from one form to another",
+    "Energy is constantly being destroyed and recreated",
+    "Potential energy is always greater than kinetic energy",
+    "Total energy increases geometrically with space"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "According to the universal law of conservation of energy, what is true about the quantity of energy present in the world?",
+  options: [
+    "It is constant",
+    "It is constantly decreasing",
+    "It increases geometrically",
+    "It changes depending on wind velocity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What are the two basic forms of energy?",
+  options: [
+    "potential energy and kinetic energy",
+    "chemical energy and heat energy",
+    "renewable and non-renewable energy",
+    "primary and secondary energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following lists the two basic forms of energy?",
+  options: [
+    "Potential energy and kinetic energy",
+    "Electrical energy and mechanical energy",
+    "Solar energy and hydropower",
+    "Thermal energy and nuclear energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What type of energy is possessed by a body or object because of its position from the ground?",
+  options: [
+    "Potential energy",
+    "Kinetic energy",
+    "Chemical energy",
+    "Wind energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Potential energy is possessed by a body as a result of its:",
+  options: [
+    "position from the ground",
+    "speed of motion",
+    "chemical composition",
+    "rate of nuclear fusion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What type of energy is possessed by a body or object by the reason of its motion?",
+  options: [
+    "Kinetic energy",
+    "Potential energy",
+    "Geothermal energy",
+    "Chemical energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "According to the notes, what type of energy does a mango fruit hanging on a tree possess compared to a running car?",
+  options: [
+    "The mango possesses potential energy while the car possesses kinetic energy",
+    "The mango possesses kinetic energy while the car possesses potential energy",
+    "Both possess potential energy",
+    "Both possess kinetic energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following is listed under 'other forms of energy' in Point 8?",
+  options: [
+    "Chemical, heat, mechanical, electrical, magnetic, and light, etc.",
+    "Only potential and kinetic energy",
+    "Only renewable solar and wind energy",
+    "Lignocellulosic and biomass energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Electrical, magnetic, and heat energy are classified in the notes as:",
+  options: [
+    "other forms of energy",
+    "the two basic forms of energy",
+    "primary sources of energy",
+    "non-renewable energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Concerning human development, into what two types are energy sources divided?",
+  options: [
+    "primary source and secondary source",
+    "renewable and non-renewable",
+    "potential and kinetic",
+    "mechanical and nuclear"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "The division of energy sources into primary and secondary sources is established concerning:",
+  options: [
+    "human development",
+    "commercial estimation",
+    "the law of conservation",
+    "nuclear reactors"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How are primary sources of energy created?",
+  options: [
+    "Directly from the actual resource available in the earth",
+    "Through commercial conversion of secondary sources",
+    "From the thermal agitation of solar batteries",
+    "By stepping down electricity at distribution stations"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Energy sources created directly from actual resources available in the earth are called:",
+  options: [
+    "primary sources",
+    "secondary sources",
+    "kinetic sources",
+    "synthetic sources"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Into what two categories are primary sources of energy classified?",
+  options: [
+    "The non-renewable energy sources and the renewable energy sources",
+    "Potential energy and kinetic energy",
+    "Primary sources and secondary sources",
+    "Lignocellulosic and non-lignocellulosic biomass"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Renewable and non-renewable energy sources are the two classifications of:",
+  options: [
+    "primary sources of energy",
+    "secondary sources of energy",
+    "commercial consumption units",
+    "potential energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How are non-renewable energy sources defined in the notes?",
+  options: [
+    "Those which have limited supplies or which are depleted as a result of its use without it being replenished within a short time",
+    "Those which can naturally be replenished much easily and quickly as they are explored",
+    "Those which are created directly from the core of the earth by wind power",
+    "Those which are calculated exclusively in kilowatt hours"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Non-renewable energy sources are depleted because they cannot be replenished:",
+  options: [
+    "within a short time",
+    "through gravitational collapse",
+    "by nuclear reactors",
+    "at very low cost"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following is an example of a non-renewable energy source?",
+  options: [
+    "Fossil fuels and nuclear energy",
+    "Solar and wind energy",
+    "Biomass and geothermal",
+    "Hydropower and wood"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What fuels are included in the category of fossil fuels according to the notes?",
+  options: [
+    "Oil, natural gas, and coal",
+    "Solar, wind, and biomass",
+    "Uranium, plutonium, and water",
+    "Magma, peat, and lumber"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How are renewable energy sources defined?",
+  options: [
+    "Those which can naturally be replenished much easily and quickly as it is being explored for use by man",
+    "Those which have limited supplies and are depleted upon use",
+    "Those which are created directly from fossilized prehistoric vegetation",
+    "Those which are calculated strictly in Joules"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Renewable energy sources can naturally be replenished much:",
+  options: [
+    "easily and quickly",
+    "slowly over millions of years",
+    "rarely during repeated collisions",
+    "only during thunderstorms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following lists examples of renewable energy sources?",
+  options: [
+    "solar, wind, biomass, geothermal, hydropower, etc.",
+    "oil, natural gas, coal, and nuclear",
+    "fossil fuels and magma",
+    "pulverized coal and uranium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Geothermal, solar, and wind energy are classified as:",
+  options: [
+    "renewable energy sources",
+    "non-renewable energy sources",
+    "secondary energy sources",
+    "potential energy forces"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is wind energy defined as in the notes?",
+  options: [
+    "The process of producing electricity through the use of wind that occurs naturally in the earth's atmosphere",
+    "The energy possessed by a body because of its position from the ground",
+    "The thermal agitation of particles under solar radiation",
+    "The drilling of holes into the naturally occurring convective zone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Wind energy is a type of ________ energy that produces electricity from atmospheric wind.",
+  options: [
+    "renewable",
+    "non-renewable",
+    "potential",
+    "commercial"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following is NOT one of the three factors that cause daily wind?",
+  options: [
+    "The gravitational pull of the moon",
+    "The uneven heating of the surface of the earth by the sun",
+    "The irregularities of the earth's surface",
+    "The rotation of the earth"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Daily wind results from the irregularities of the earth's surface, the rotation of the earth, and:",
+  options: [
+    "the uneven heating of the surface of the earth by the sun",
+    "the nuclear fusion of hydrogen in the core",
+    "the drilling of convective zones",
+    "the Pulverized Coal Combustion system"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is used to capture wind energy to produce an electric current?",
+  options: [
+    "turbine blades",
+    "solar cells",
+    "pulverized coal combustion",
+    "transformers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How do turbine blades capture wind energy to produce electricity?",
+  options: [
+    "They are made to rotate by the force of the wind to produce an electric current in the process",
+    "They absorb solar radiation through thermal agitation",
+    "They are heated by magma below the earth's crust",
+    "They store wind when it is available in high basins"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following is listed as an advantage of wind-generated electricity?",
+  options: [
+    "Wind energy is available to everybody freely, is clean, and plants do not emit radiation",
+    "It can be easily stored in high-voltage transformers",
+    "It has unlimited supplies of fossil fuels",
+    "It is highly reliable due to constant and predictable wind speeds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "According to the notes, wind plants are advantageous because they do NOT emit:",
+  options: [
+    "radiation",
+    "oxygen",
+    "carbon dioxide",
+    "nitrogen oxides"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is a major disadvantage of wind-generated electricity?",
+  options: [
+    "The energy source is intermittent and impossible to store wind when available",
+    "It produces massive amounts of radioactive waste",
+    "It emits carbon dioxide and nitrogen oxides",
+    "It is extremely expensive compared to fossil fuels"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Why is storing wind energy considered a disadvantage in the notes?",
+  options: [
+    "It is impossible to store wind when it is available and use when it is not available",
+    "It requires large water basins and dams",
+    "It can only be done using pulverized coal",
+    "It causes thermal agitation of the atmosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How can geothermal energy be generated according to the notes?",
+  options: [
+    "By drilling a hole from the surface into the naturally occurring convective zone in the earth",
+    "By rotating turbine blades with atmospheric wind",
+    "By converting hydrogen into helium using nuclear reactors",
+    "By collecting forest debris and manure in swamps"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Geothermal energy generation requires drilling into which zone of the earth?",
+  options: [
+    "the naturally occurring convective zone",
+    "the liquid core",
+    "the top of the earth's crust",
+    "the high-voltage grid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Into what three sections is the earth divided?",
+  options: [
+    "the earth's crust, mantle, and core",
+    "the atmosphere, lithosphere, and biosphere",
+    "the convective zone, grid, and basin",
+    "the photosphere, chromosphere, and corona"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following is NOT one of the three divisions of the earth listed in Point 22?",
+  options: [
+    "convective zone",
+    "earth's crust",
+    "mantle",
+    "core"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is the top portion of the earth called?",
+  options: [
+    "the earth's crust",
+    "the mantle",
+    "the core",
+    "the magma layer"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How is the earth's crust defined in the notes?",
+  options: [
+    "the top portion of the earth",
+    "the layer of hot and molten rock",
+    "the convective zone of natural gas",
+    "the inner liquid state of compressed iron"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is the mantle composed of?",
+  options: [
+    "layers of hot and molten rock called magma",
+    "compressed rocks and liquid iron",
+    "lignocellulosic forest debris",
+    "positively charged protons"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is the name of the hot and molten rock that composes the mantle below the earth's crust?",
+  options: [
+    "magma",
+    "peat",
+    "coal",
+    "slag"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which source of energy is noted as presently gaining popularity in most parts of the world?",
+  options: [
+    "Solar energy",
+    "Geothermal energy",
+    "Nuclear energy",
+    "Coal energy"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Solar energy's current global status is described as:",
+  options: [
+    "presently gaining popularity in most parts of the world",
+    "completely depleted",
+    "limited in supply",
+    "highly polluting"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How do solar cells/batteries convert absorbed solar radiation into electrical energy?",
+  options: [
+    "due to thermal agitation of its particles",
+    "through the use of wind-driven turbine blades",
+    "by burning organic materials in peat bogs",
+    "by building up the voltage to high values"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Specially fabricated devices capable of absorbing solar radiations and converting them into electrical energy are called:",
+  options: [
+    "solar cells/batteries",
+    "transformers",
+    "grid systems",
+    "pulverizers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is hydropower electricity?",
+  options: [
+    "the provision of electricity through waterfalls usually called 'Dams'",
+    "the generation of power by burning prehistoric vegetation",
+    "the conversion of atmospheric wind currents using turbines",
+    "the extraction of natural gas from crude oil"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Waterfalls used in the provision of hydropower electricity are usually called:",
+  options: [
+    "Dams",
+    "Basins",
+    "Grids",
+    "Convective zones"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What physical requirements must be present for any natural or artificial hydropower dam?",
+  options: [
+    "evidence of enough water flowing with considerable velocity and there must be a huge water basin",
+    "a high-temperature convective zone and magma",
+    "prehistoric peat bogs and swamps",
+    "pulverized coal and high-voltage transmission lines"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "For a dam to function, water must flow with:",
+  options: [
+    "considerable velocity",
+    "retrograde motion",
+    "thermal agitation",
+    "nuclear fusion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Why does hydropower stand out as one of the most reliable electricity supply sources today?",
+  options: [
+    "Because it can be supplied to numerous domestic homes, government parastatals, and industrial establishments simultaneously at very low cost",
+    "Because it is completely independent of weather systems",
+    "Because it does not require a water basin or dam",
+    "Because it converts helium into hydrogen atoms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Hydropower is highly reliable and can supply homes and industries simultaneously at what cost?",
+  options: [
+    "very low cost",
+    "extremely high cost",
+    "intermittent cost",
+    "a commercial estimation of Joules"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What devices are used to build up voltage to high values before sending them to transmission lines?",
+  options: [
+    "transformers",
+    "turbine blades",
+    "solar cells",
+    "nuclear reactors"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What are the high-voltage transmission lines called that receive electricity from transformers?",
+  options: [
+    "the grid",
+    "the dam",
+    "the convective zone",
+    "the peat bog"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which is the major hydropower dam in Nigeria according to the notes?",
+  options: [
+    "Kainji dam",
+    "Shiroro dam",
+    "Jebba dam",
+    "Lokoja dam"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Where is the Kainji dam located?",
+  options: [
+    "New Bussa, Niger state",
+    "Luoyang, Niger state",
+    "Kainji, Niger state",
+    "Bechuanaland, Niger state"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What does the term 'Biomass' mean?",
+  options: [
+    "fuel that is produced from organic materials",
+    "the top portion of the earth's crust",
+    "energy possessed by a body in motion",
+    "energy generated by drilling into convective zones"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following is listed as an example of an organic material used for biomass?",
+  options: [
+    "scrap lumber, forest debris, certain crops, manure and certain types of waste residues",
+    "natural gas, oil, and coal",
+    "liquid magma and molten rock",
+    "compressed iron and core materials"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What are plant-based biomass materials referred to as, excluding those not used for food or feed?",
+  options: [
+    "lignocellulosic biomass",
+    "pulverized biomass",
+    "primary biomass",
+    "geothermal biomass"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Lignocellulosic biomass is produced from:",
+  options: [
+    "plants or plant-based materials excluding those not used for food or feed",
+    "scrap lumber and manure residues only",
+    "animal waste in prehistoric swamps",
+    "molten volcanic rock magma"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is an advantage of Biomass power?",
+  options: [
+    "Abundance and convenience in terms of processing, storage, and transportation, and emissions are far less than fossil fuels",
+    "It is completely free from air pollutants",
+    "It does not require processing, storage, or transportation",
+    "It has higher energy levels than nuclear reactions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Emissions from biomass combustion compare how to those from fossil fuels?",
+  options: [
+    "emissions from biomass combustion are far less",
+    "they are completely identical",
+    "they are twice as much",
+    "they do not exist"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is the major disadvantage of biomass power?",
+  options: [
+    "its combustion produces air pollutants such as the oxides of carbon, nitrogen oxides, volatile organic compounds, etc.",
+    "it is extremely scarce and difficult to transport",
+    "it emits harmful nuclear radiation",
+    "it requires expensive high-voltage transformers to distribute"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which of the following air pollutants is produced by the combustion of biomass?",
+  options: [
+    "oxides of carbon, nitrogen oxides, volatile organic compounds, etc.",
+    "radioactive alpha particles and radon",
+    "dense sulphur dioxide and helium gas",
+    "strictly oxygen and water vapor"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How is the atom structurally composed according to Point 36?",
+  options: [
+    "composed of a centrally placed nucleus surrounded by electron shells",
+    "a core of liquid iron surrounded by a rocky mantle",
+    "a positive charge-free proton surrounded by magma",
+    "a central mass of solar cells"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What surrounds the centrally placed nucleus in an atom?",
+  options: [
+    "electron shells",
+    "protons",
+    "neutrons",
+    "convective zones"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What particles compose the nucleus of an atom?",
+  options: [
+    "positively charged protons and charge-free neutrons",
+    "negatively charged electrons and protons",
+    "positively charged electrons and charge-free neutrons",
+    "electron shells and magma"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which forces hold protons and neutrons together in the nucleus?",
+  options: [
+    "very strong nucleon forces",
+    "electromagnetic forces",
+    "gravitational forces",
+    "retrograde forces"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is a nuclear power reactor or plant?",
+  options: [
+    "a device in which these nuclear reactions take place and the heat produced is used for the generation of electricity",
+    "a device that converts wind energy using turbine blades",
+    "a dam that utilizes waterfalls for domestic voltage",
+    "a system that combusts organic lumber in swamps"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "In a nuclear reactor, what is the heat produced by nuclear reactions directly used for?",
+  options: [
+    "the generation of electricity",
+    "the melting of magma",
+    "the thermal agitation of solar cells",
+    "the commercial calculation of Newton meters"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "How does the World Coal Association define coal?",
+  options: [
+    "altered remains of prehistoric vegetation that originally accumulated in swamps and peat bog",
+    "a liquid state of compressed iron and rock",
+    "organic scrap lumber and forest debris",
+    "the primary source of wind-generated electricity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Prehistoric vegetation that forms coal originally accumulated in:",
+  options: [
+    "swamps and peat bog",
+    "high water basins",
+    "earth's liquid core",
+    "dry convective zones"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which energy source is acclaimed as the world's most abundant, most accessible, and most versatile?",
+  options: [
+    "Coal",
+    "Solar",
+    "Wind",
+    "Biomass"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "According to the notes, coal is celebrated as being:",
+  options: [
+    "the world's most abundant, most accessible, and most versatile source of energy",
+    "completely free of carbon dioxide emissions",
+    "a highly replenished renewable resource",
+    "the main component of Earth's mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which system is used to convert coal to electricity?",
+  options: [
+    "Pulverized Coal Combustion (PCC) system",
+    "Lignocellulosic Grid system",
+    "Convective Zone Drilling system",
+    "High-Voltage Transformer system"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "What is the primary purpose of the Pulverized Coal Combustion (PCC) system?",
+  options: [
+    "To convert coal to electricity",
+    "To step down high-voltage currents",
+    "To drill into the earth's core",
+    "To extract natural gas from crude oil"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "From what is natural gas technically separated when exploited and extracted for use?",
+  options: [
+    "crude",
+    "coal",
+    "magma",
+    "biomass"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Natural gas undergoes what technical process during exploitation and extraction?",
+  options: [
+    "separated technically from crude",
+    "converted by PCC systems",
+    "purified through nuclear reactors",
+    "stored in huge water basins"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "Which organization was formed in 1961 to regulate petroleum policy, production, and sale, of which Nigeria is a member?",
+  options: [
+    "Organization of Petroleum Exporting Countries (OPEC)",
+    "International Astronomical Union (IAU)",
+    "World Coal Association",
+    "National Grid Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 5,
+  question: "In what year was the Organization of Petroleum Exporting Countries (OPEC) formed?",
+  options: [
+    "1961",
+    "1950",
+    "1930",
+    "1924"
+  ],
+  answer: 0
+    },
+  {
+  course: "gst112",
+  chapter: 6,
+  question: "What term denotes the sum total of both the biological and physical factors that directly influence the well-being of organisms?",
+  options: [
+    "Environment",
+    "Ecology",
+    "Siltation",
+    "Contaminant"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What two factors make up the sum total of the environment that directly influences organisms' well-being?",
+  options: [
+    "Biological and physical factors",
+    "Chemical and artificial factors",
+    "Geological and thermal factors",
+    "Atmospheric and nuclear factors"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which two words is 'Environment' coined from?",
+  options: [
+    "'Environs' meaning surrounding and 'ment' meaning actioning",
+    "'Enviro' meaning nature and 'ment' meaning study",
+    "'Environ' meaning life and 'ment' meaning condition",
+    "'Environs' meaning biosphere and 'ment' meaning process"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "In the coining of the word 'Environment', what is the meaning of the suffix 'ment'?",
+  options: [
+    "actioning",
+    "surrounding",
+    "living",
+    "decomposing"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are the two main types of factors that make up the environment?",
+  options: [
+    "Biotic (living things) and abiotic (non-living) factors",
+    "Primary and secondary pollutants",
+    "Natural and artificial contaminants",
+    "Biodegradable and non-biodegradable components"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "In environmental science, non-living factors are referred to as:",
+  options: [
+    "abiotic factors",
+    "biotic factors",
+    "pollutants",
+    "contaminants"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "According to the notes, what is described as one of the most horrible ecological crises of modern society?",
+  options: [
+    "Pollution of our environment",
+    "The gradualism model",
+    "The discovery of fossils in Germany",
+    "The speed of Earth's rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Pollution is considered a major ecological crisis of which era?",
+  options: [
+    "modern society",
+    "ancient Greece",
+    "medieval Europe",
+    "pre-socratic times"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Environmental pollution is primarily the result of urban development coupled with:",
+  options: [
+    "industrialization",
+    "agriculture",
+    "natural decay",
+    "nuclear fusion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What two processes are coupled together to result in environmental pollution?",
+  options: [
+    "Urban development and industrialization",
+    "Atmospheric insulation and global warming",
+    "Siltation and thermal agitation",
+    "Primary and secondary filtration"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "How is 'pollution' defined in the notes?",
+  options: [
+    "The undesirable change in the biology, chemical and physical characteristics of the environment causing harmful effects to life and properties",
+    "The natural process of decomposing organic materials using bacteria",
+    "The presence of substances originally absent from nature that are safely integrated",
+    "The continuous process of natural change shaping the earth's landscape"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What kind of change does pollution represent in the biology, chemical, and physical characteristics of the environment?",
+  options: [
+    "Undesirable change",
+    "Progressive adaptation",
+    "Predictable improvement",
+    "Symmetrical rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is a pollutant according to Chapter 6?",
+  options: [
+    "A substance originally present in nature, but becomes a pollutant when present in amounts greater than the natural abundance because of man's activities",
+    "A substance that does not occur originally in nature but is artificially synthesized",
+    "A domestic waste product that decomposes within a very short time",
+    "Finely divided matter suspended in the atmosphere from forest fires"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "When does a naturally occurring substance become classified as a pollutant?",
+  options: [
+    "When it is present in amounts greater than natural abundance due to human activities and hurts the environment",
+    "When it reacts with ozone in the stratosphere",
+    "When it is completely decomposed by natural decay",
+    "When it exists in the deep liquid iron core of the earth"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What distinguishes a contaminant from a pollutant?",
+  options: [
+    "A contaminant does not occur originally in nature but it is introduced into the environment by man's activities",
+    "A contaminant is always biodegradable and easily decomposed",
+    "A contaminant occurs naturally in the earth's mantle",
+    "A contaminant reduces the oxygen-carrying efficiency of blood"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "By what means are contaminants introduced into the environment?",
+  options: [
+    "man's activities",
+    "natural forest fires",
+    "volcanic eruptions",
+    "convective zone agitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are primary pollutants?",
+  options: [
+    "Primary pollutants are released from an identifiable source as pollutant into the environment",
+    "Compounds formed through sunlight-triggered chemical reactions",
+    "Substances that are easily decomposed in their natural environment",
+    "Finely divided dust particles carried from land to water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is an example of a primary pollutant?",
+  options: [
+    "sulfur dioxide, carbon monoxide, oxide of nitrogen, etc.",
+    "peroxyacetyl nitrate (PAN)",
+    "lead and mercury salts",
+    "dichlorodiphenyltrichloroethane (DDT)"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "How are secondary pollutants formed?",
+  options: [
+    "Secondary pollutants are substances derived from primary pollutants by chemical reactions",
+    "They are released directly from an identifiable industrial source",
+    "They occur naturally in coal peat bogs and swamps",
+    "They are introduced as raw contaminants by volcanic eruptions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which compound is produced as a secondary pollutant when hydrocarbons and nitrogen oxides react in the presence of sunlight?",
+  options: [
+    "peroxyacetyl nitrate (PAN)",
+    "carbon monoxide",
+    "sulfur dioxide",
+    "ozone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Into what two major groups can pollutants be classified based on their decomposition?",
+  options: [
+    "Biodegradable and Non-biodegradable",
+    "Primary and Secondary",
+    "Biotic and Abiotic",
+    "Natural and Artificial"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "The ease of decomposition determines whether pollutants are classified as:",
+  options: [
+    "biodegradable or non-biodegradable",
+    "organic or thermal",
+    "suspended or dissolved",
+    "contaminants or siltation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is a defining characteristic of biodegradable pollutants?",
+  options: [
+    "Biodegradable pollutants can be decomposed easily in their natural environment",
+    "They cannot be degraded by natural processes",
+    "They react in sunlight to form peroxyacetyl nitrate",
+    "They reduce the mechanical strength of synthetic polymers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is an example of a biodegradable pollutant?",
+  options: [
+    "animal and plant debris, domestic sewage, etc.",
+    "lead and mercury salts",
+    "aluminum cans",
+    "dichlorodiphenyltrichloroethane (DDT)"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are non-biodegradable pollutants?",
+  options: [
+    "Substances which can either not be degraded or are degraded slowly in their natural environment",
+    "Pollutants released directly from an identifiable industrial chimney",
+    "Highly compressed rocks and iron in a liquid state",
+    "Finely divided dust particles carried from land to water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is classified as a non-biodegradable pollutant in the notes?",
+  options: [
+    "lead and mercury salts, aluminum cans, and phenolic compounds",
+    "animal and plant debris, and domestic sewage",
+    "sulfur dioxide and carbon monoxide",
+    "ozone and nitrogen dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following lists only natural sources of pollution?",
+  options: [
+    "natural forest fire, earthquake, tsunamis, natural decay, and volcanic eruptions",
+    "domestic sewage, industrial chimneys, and lead salts",
+    "DDT combustion, vehicle exhaust, and synthetic polymers",
+    "thermal power plants, coal dust, and aluminum cans"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Artificial sources of pollution are defined as those that originate from:",
+  options: [
+    "the activities of man via domestic or industrial sources",
+    "naturally occurring earthquakes and tsunamis",
+    "the decay of organic forest debris",
+    "the thermal agitation of solar batteries"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are the main classes of pollution listed in the notes?",
+  options: [
+    "air, water, and land/soil",
+    "biotic, abiotic, and thermal",
+    "primary, secondary, and tertiary",
+    "radioactive, chemical, and biological"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is NOT one of the main classes of pollution listed in Point 15?",
+  options: [
+    "thermal",
+    "air",
+    "water",
+    "land/soil"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is the harmful effect of inhaling excessive amounts of carbon monoxide?",
+  options: [
+    "reduces the efficiency of the blood in carrying oxygen from the lungs to other parts",
+    "causes a reduction in plant growth",
+    "decreases the mechanical strength of natural rubber",
+    "leads to the siltation of water bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which pollutant specifically reduces the efficiency of blood in carrying oxygen from the lungs to other parts of the body?",
+  options: [
+    "Carbon monoxide",
+    "Nitrogen dioxide",
+    "Ozone",
+    "Sulfur dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "A higher concentration of smoke and oxides of sulfur can lead to which health conditions?",
+  options: [
+    "bronchitis and lung cancer",
+    "eye irritation and chest discomfort",
+    "fatigue and high body temperature",
+    "oxygen deficiency and blood poisoning"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Bronchitis and lung cancer are associated with higher concentrations of smoke and:",
+  options: [
+    "oxides of sulfur",
+    "carbon monoxide",
+    "volatile organic compounds",
+    "ozone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which gas is described as a deadly poison that affects both man and vegetation?",
+  options: [
+    "Nitrogen Dioxide",
+    "Carbon Monoxide",
+    "Helium",
+    "Ozone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Nitrogen Dioxide acts as a deadly poison affecting which of the following?",
+  options: [
+    "both man and vegetation",
+    "only industrial equipment",
+    "only aquatic organisms",
+    "only synthetic polymers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Ozone is an allotrope of which element?",
+  options: [
+    "oxygen",
+    "nitrogen",
+    "carbon",
+    "sulfur"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Photochemical smog is caused by the combination of ozone, nitrogen dioxide, and:",
+  options: [
+    "peroxyacetylnitrate",
+    "carbon monoxide",
+    "sulfur dioxide",
+    "suspended dust"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is an effect of ozone on humans?",
+  options: [
+    "causes eye irritation, cough, chest discomfort and fatigue",
+    "reduces the oxygen-carrying efficiency of blood",
+    "causes bronchitis and lung cancer",
+    "increases thermal energy in cells"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "How does ozone affect natural rubber and synthetic polymers?",
+  options: [
+    "reduces the mechanical strength of natural rubber and synthetic polymers",
+    "converts them to biodegradable compounds",
+    "turns them into peroxyacetyl nitrate",
+    "increases their elasticity and density"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What does 'suspended matter' refer to in air pollution?",
+  options: [
+    "the suspension of finely divided matter or droplet of liquid in the air",
+    "dust and dirt carried from land to water",
+    "waste heat released from nuclear and thermal power plants",
+    "radioactive particles dissolved in water bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Suspended matter consists of finely divided matter or ________ of liquid in the air.",
+  options: [
+    "droplet",
+    "crystal",
+    "bubble",
+    "stream"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is 'siltation' defined as in the notes?",
+  options: [
+    "dust particles and dirt which are carried from land to water",
+    "finely divided liquid droplets suspended in the air",
+    "waste heat released from thermal power plants",
+    "the presence of lead and mercury salts in the soil"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Siltation consists mainly of dirt and dust particles carried from:",
+  options: [
+    "land to water",
+    "atmosphere to soil",
+    "industrial sources to clouds",
+    "water to the air"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is a major source of thermal pollution?",
+  options: [
+    "waste heat mainly from atomic, nuclear, and thermal power plants",
+    "liquid iron and compressed rocks from the core",
+    "the reaction of hydrocarbons and nitrogen oxides",
+    "siltation carrying dirt from land to water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What ecological effect does thermal pollution have on water bodies?",
+  options: [
+    "leads to increased demand for dissolved oxygen",
+    "coats the water with peroxyacetyl nitrate",
+    "causes immediate radioactive decay",
+    "reduces the temperature of the water mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What causes radioactive pollution in a water body?",
+  options: [
+    "the presence of radioactive materials in a water body",
+    "excessive waste heat from atomic plants",
+    "high concentrations of oxides of sulfur",
+    "siltation carrying dust particles"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Radioactive pollution primarily occurs due to the presence of radioactive materials in a:",
+  options: [
+    "water body",
+    "photosphere",
+    "plant leaf",
+    "synthetic polymer"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is land or soil pollution?",
+  options: [
+    "the presence of material (chemical, physical and biological) in the soil, which would affect its optimal functioning",
+    "the suspension of finely divided matter or droplets of liquid in the air",
+    "the accumulation of dust particles and dirt carried from land to water",
+    "the emission of toxic gases from volcanic eruptions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Soil pollution is defined as the presence of physical, chemical, and biological materials that affect the soil's:",
+  options: [
+    "optimal functioning",
+    "natural insulation",
+    "convective heat",
+    "biodegradability"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst112",
+  chapter: 7,
+  question: "Chemistry is concerned mainly with which aspects of matter?",
+  options: [
+    "Structure, synthesis, reactivity, and properties of matter",
+    "Symmetrical rotation and orbits",
+    "Decomposition of forest debris",
+    "Atmospheric insulation and global warming"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the primary subject of study in chemistry?",
+  options: [
+    "Matter",
+    "Energy",
+    "The Universe",
+    "Ecology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is a division of chemistry listed in the notes?",
+  options: [
+    "Inorganic, organic, environmental, analytical, physical, polymer, etc.",
+    "Pure biology, physics, and earth science",
+    "Biotic, abiotic, and secondary pollution",
+    "Paleontology, comparative anatomy, and embryology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Analytical, physical, polymer, and organic are recognized as:",
+  options: [
+    "divisions of chemistry",
+    "basic fields of pure science",
+    "classes of environmental pollution",
+    "categories of dwarf planets"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What do inorganic chemicals represent?",
+  options: [
+    "Manufactured elements and compounds excluding carbon-containing ones, except simple carbon compounds",
+    "Compounds derived strictly from plant-based lignocellulosic biomass",
+    "Naturally occurring organic waste residues found in peat bogs",
+    "Materials that occur originally in nature and degrade easily"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following carbon compounds is an exception that is covered under inorganic chemicals?",
+  options: [
+    "Calcium carbide, carbon disulfide, and carbon monoxide",
+    "Complex proteins and amino acids",
+    "Polymers and natural rubbers",
+    "Phenolic compounds like DDT"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is listed as an inorganic chemical manufactured in countries like Canada, China, and the USA?",
+  options: [
+    "Aluminum sulfate, ammonia, and nitric acid",
+    "Dichlorodiphenyltrichloroethane (DDT)",
+    "Peroxyacetyl nitrate (PAN)",
+    "Phenolic compounds and natural rubber"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Ammonia, ammonium nitrate, carbon black, and chlorine are examples of:",
+  options: [
+    "manufactured inorganic chemicals",
+    "primary biological pollutants",
+    "secondary organic pollutants",
+    "biodegradable plant debris"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are the two main classes of inorganic chemicals?",
+  options: [
+    "Chlor-alkali chemicals and Basic inorganic chemicals",
+    "Primary pollutants and Secondary pollutants",
+    "Biodegradable and Non-biodegradable chemicals",
+    "Metallic luster and Non-metallic luster chemicals"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Caustic soda and soda ash are examples of which class of inorganic chemicals?",
+  options: [
+    "Chlor-alkali chemicals",
+    "Basic inorganic chemicals",
+    "Secondary contaminants",
+    "Lignocellulosic compounds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "The Chlor-alkali industry refers to the manufacture of which related group of heavy industrial chemicals?",
+  options: [
+    "Chlorine, caustic soda, and sodium carbonate",
+    "Aluminum fluoride, calcium carbide, and titanium dioxide",
+    "Nitric acid, nitrogen, and hydrogen peroxide",
+    "Lead, mercury, and sulfur dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is manufactured in the Chlor-alkali industry?",
+  options: [
+    "Caustic soda",
+    "Titanium dioxide",
+    "Potassium chlorate",
+    "Aluminum sulfate"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "During the electrolysis of sodium chloride, what is produced at the positive electrode?",
+  options: [
+    "chlorine",
+    "sodium hydroxide",
+    "hydrogen peroxide",
+    "potassium chlorate"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is produced at the negative electrode during the electrolysis of sodium chloride?",
+  options: [
+    "sodium hydroxide",
+    "chlorine",
+    "soda ash",
+    "hydrochloric acid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the primary use of titanium dioxide in industries like paint, paper, and cosmetics?",
+  options: [
+    "As a white pigment",
+    "As a primary fuel source",
+    "As a liquid disinfectant",
+    "As a metal alloy for aircraft"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following uses titanium dioxide as a white pigment?",
+  options: [
+    "Paints, lacquers, paper, plastics, and cosmetics",
+    "Chlor-alkali electrolysis cells",
+    "Lead and mercury salt buffers",
+    "Swamps and peat bogs"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Why do heavy metals pose a serious threat to the environment and health?",
+  options: [
+    "They are not biodegradable and tend to accumulate in living tissue, with most being toxic or carcinogenic",
+    "They are highly volatile and react in sunlight to cause photochemical smog",
+    "They are easily decomposed in their natural environment by bacteria",
+    "They reduce the temperature of water bodies causing thermal pollution"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Because they tend to accumulate in living tissue and are non-biodegradable, heavy metal ions are known to be:",
+  options: [
+    "toxic or carcinogenic",
+    "nutrient-rich",
+    "highly volatile",
+    "organic stabilizers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What health problems can occur if humans or animals ingest heavy metals in concentrations higher than those stipulated by regulatory agencies?",
+  options: [
+    "Mutation, neurological disorders, and carcinogenic diseases",
+    "Eye irritation, cough, and temporary fatigue only",
+    "Siltation of blood vessels and thermal agitation",
+    "Instant decay and fossilization of tissues"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which Nigerian regulatory agency is mentioned in relation to stipulating safe concentrations of ingested chemicals?",
+  options: [
+    "NAFDAC",
+    "IAU",
+    "OPEC",
+    "PCC"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Why does chemistry rule the world according to Point 11?",
+  options: [
+    "Since there is nothing on earth that is not chemistry",
+    "Because it is the father of all modern geology",
+    "Because it relies strictly on the Big Bang singularity",
+    "Since it is the only science that uses empirical measurement"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Complete the statement: 'Chemistry rules the world since there is ________ on earth that is not chemistry.'",
+  options: [
+    "nothing",
+    "everything",
+    "only mineralogy",
+    "only physical matter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are the two most abundant minerals?",
+  options: [
+    "oxygen and silicon",
+    "calcium and iron",
+    "aluminum and titanium",
+    "beryllium and chromium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Oxygen and silicon are recognized as the world's most:",
+  options: [
+    "abundant minerals",
+    "non-biodegradable pollutants",
+    "chlor-alkali chemicals",
+    "metallic alloys"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "By weight, what percentage of the earth's crust is occupied by oxygen?",
+  options: [
+    "46.6%",
+    "27.7%",
+    "78%",
+    "21%"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What percentage of the earth's crust by weight is occupied by silicon?",
+  options: [
+    "27.7%",
+    "46.6%",
+    "99.86%",
+    "1%"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What factors can alter the mineralogy of a rock according to the notes?",
+  options: [
+    "Changes in temperature, pressure, and composition",
+    "The rotation and speed of the earth on its axis",
+    "Unequal heating and the greenhouse effect",
+    "The abundance of primary and secondary pollutants"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Rock mineralogy is altered when there are changes in composition, temperature, and ________.",
+  options: [
+    "pressure",
+    "gravity",
+    "luster",
+    "hardness"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is listed as a physical property used for the classification of minerals?",
+  options: [
+    "Crystal structure, hardness, luster, color, streak, specific gravity, cleavage, and fracture",
+    "Biodegradability, toxicity, and carcinogenic level",
+    "Electrolysis potential and positive electrode attraction",
+    "Lignocellulosic composition and thermal agitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Color, streak, cleavage, and hardness are classified as:",
+  options: [
+    "physical properties of minerals",
+    "chemical reactions of secondary pollutants",
+    "basic fields of earth science",
+    "divisions of the earth's mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "When is a mineral said to be hard according to Point 16?",
+  options: [
+    "When the physical property is controlled by the chemical composition and crystalline structure",
+    "When it can displace a higher amount of liquid sample",
+    "When it exhibits a metallic luster and opague diaphaneity",
+    "When it breaks unevenly without cleavage planes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "A mineral's hardness is physically controlled by its chemical composition and:",
+  options: [
+    "crystalline structure",
+    "diaphaneity",
+    "specific gravity",
+    "fracture plane"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What property shows how light shines or reflects when subjected to a mineral's surface?",
+  options: [
+    "Lustre",
+    "Streak",
+    "Cleavage",
+    "Diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Pyrite is mentioned in the notes as an example of a mineral showing what property?",
+  options: [
+    "Lustre",
+    "Hardness",
+    "Cleavage",
+    "Specific gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the most attractive property of a mineral?",
+  options: [
+    "Color",
+    "Hardness",
+    "Lustre",
+    "Streak"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Color is recognized as a mineral's most:",
+  options: [
+    "attractive property",
+    "unreliable physical characteristic",
+    "complex chemical feature",
+    "dense specific gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the 'streak' of a mineral?",
+  options: [
+    "The color of a mineral in powdered form",
+    "The way light reflects off the mineral's surface",
+    "The breakage of a mineral along planar surfaces",
+    "The ability of light to pass through the mineral's body"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "The color of a mineral when reduced to a powdered form is called its:",
+  options: [
+    "streak",
+    "luster",
+    "cleavage",
+    "diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What property of a mineral shows the ability of light to pass through its body?",
+  options: [
+    "Diaphaneity",
+    "Lustre",
+    "Cleavage",
+    "Hardness"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Diaphaneity measures how well ________ can pass through the body of a mineral.",
+  options: [
+    "light",
+    "liquid",
+    "electricity",
+    "radiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are minerals that do not permit the passage of light through them called?",
+  options: [
+    "Opague",
+    "Translucent",
+    "Transparent",
+    "Lustrous"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "An opague mineral is characterized by its inability to:",
+  options: [
+    "permit the passage of light through it",
+    "displace liquid when measured",
+    "break along defined cleavage planes",
+    "conduct heat and electricity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What does 'specific gravity' measure in minerals?",
+  options: [
+    "The amount of liquid a mineral sample can displace",
+    "The ability of light to pass through the mineral's body",
+    "The resistance of a mineral to being scratched",
+    "The alignment of crystal structure along flat planes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "The amount of liquid a mineral sample can displace is measured as its:",
+  options: [
+    "specific gravity",
+    "cleavage",
+    "diaphaneity",
+    "luster"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "In chemistry, how does atomic mass affect specific gravity?",
+  options: [
+    "Elements with higher atomic mass have high specific gravities compared to those with lesser atomic mass",
+    "Elements with higher atomic mass have lower specific gravities",
+    "Atomic mass has no relationship with specific gravity",
+    "Lesser atomic mass increases the displacement of liquid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Elements with high specific gravities generally possess:",
+  options: [
+    "higher atomic mass",
+    "lesser atomic mass",
+    "highly flexible cleavage planes",
+    "an opague diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "How does the specific gravity of minerals with metallic luster compare to those with non-metallic dull luster?",
+  options: [
+    "Metallic luster minerals tend to have higher specific gravities",
+    "Non-metallic dull luster minerals have higher specific gravities",
+    "They have identical specific gravities",
+    "Metallic luster minerals displace significantly less liquid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Minerals with non-metallic dull luster tend to have:",
+  options: [
+    "lower specific gravities compared to those with metallic luster",
+    "higher specific gravities compared to those with metallic luster",
+    "the same specific gravity as pure liquid water",
+    "the highest atomic mass in the mineral kingdom"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the breakage of a mineral along planes called?",
+  options: [
+    "cleavage",
+    "fracture",
+    "streak",
+    "diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Cleavage refers to a mineral's breakage along its:",
+  options: [
+    "planes",
+    "uneven surfaces",
+    "powdered structures",
+    "convective zones"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which non-metallic element is unique for being the only liquid non-metallic element?",
+  options: [
+    "Bromine",
+    "Chromium",
+    "Sulphur",
+    "Beryllium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are some commercial uses of the liquid non-metallic element Bromine?",
+  options: [
+    "Leaded gasoline, fire retardants, and extinguishers",
+    "Stainless steel production and heat resistance",
+    "Fertilizer complexes and drugs",
+    "Yarn paint filler, cloth, and paper"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "From what is Chromium produced, and what is its primary industrial use?",
+  options: [
+    "It is a product of ore minerals used in producing stainless and heat-resistant steel",
+    "It is a liquid element used in leaded gasoline and extinguishers",
+    "It is a volcanic mineral used in fertilizer complexes and drugs",
+    "It is an igneous rock alloy used for aircraft construction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which element is mainly used in the production of stainless and heat-resistant steel?",
+  options: [
+    "Chromium",
+    "Bromine",
+    "Sulphur",
+    "Beryllium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "For what industrial purposes is Sulphur highly useful?",
+  options: [
+    "Manufacturing fertilizer complexes and drugs",
+    "Production of stainless and heat-resistant steel",
+    "Leaded gasoline and fire extinguishers",
+    "Yarn paint filler and fabrics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which mineral is specifically noted as highly useful for manufacturing fertilizer complexes and drugs?",
+  options: [
+    "Sulphur",
+    "Asbestos",
+    "Beryllium",
+    "Bromine"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What mineral is used in fabrics, yarn paint filler, cloth, and paper?",
+  options: [
+    "Asbestos",
+    "Beryllium",
+    "Chromium",
+    "Sulphur"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "In which materials is the mineral Asbestos used according to the notes?",
+  options: [
+    "Fabrics, yarn paint filler, cloth, and paper",
+    "Fertilizer complexes and pharmaceutical drugs",
+    "Stainless and heat-resistant steel",
+    "Strong alloys for aircraft construction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Where is Beryllium found, and what industry does it serve?",
+  options: [
+    "It is found in igneous rocks and serves as strong alloys for the aircraft construction industry",
+    "It is found in peat bogs and serves the fertilizer and drug industries",
+    "It is found in liquid non-metals and serves the fire extinguisher industry",
+    "It is found in ore minerals and serves the paint filler and paper industries"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which mineral found in igneous rocks serves as very strong alloys for the aircraft construction industry?",
+  options: [
+    "Beryllium",
+    "Asbestos",
+    "Chromium",
+    "Sulphur"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst112",
+  chapter: 8,
+  question: "What is defined as the basic and structural unit of life?",
+  options: [
+    "Cell",
+    "Tissue",
+    "Organ",
+    "Atom"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The basic and structural unit of every living organism is the:",
+  options: [
+    "cell",
+    "nucleus",
+    "atom",
+    "molecule"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following lists the characteristics of living things mentioned in the notes?",
+  options: [
+    "Movement, Growth, Nutrition, Reproduction, Release and use of energy, Excretion, and Respiration",
+    "Siltation, pollution, thermal agitation, and greenhouse warming",
+    "Crystalline structure, hardness, streak, and specific gravity",
+    "Subduction, core compression, and convective drilling"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is NOT listed as a characteristic of living things in Point 2?",
+  options: [
+    "Siltation",
+    "Movement",
+    "Excretion",
+    "Nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are specialized organs such as fins, wings, and legs used by animals to move their whole bodies called?",
+  options: [
+    "locomotory organs",
+    "vestigial structures",
+    "homologous organs",
+    "analogous structures"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Fins, wings, and legs are examples of:",
+  options: [
+    "locomotory organs",
+    "vestigial organs",
+    "embryonic structures",
+    "secondary pollutants"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the ability of all organisms, including plants, to sense and respond to changes in their environment called?",
+  options: [
+    "irritability",
+    "metabolism",
+    "excretion",
+    "reproduction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Irritability is defined as the ability of an organism to:",
+  options: [
+    "sense a change in their environment and respond to that change",
+    "permanently increase in physical size and weight",
+    "reproduce asexually without gametes",
+    "convert carbon dioxide into volatile organic compounds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is a change that affects the activity of an organism called?",
+  options: [
+    "stimulus",
+    "response",
+    "irritability",
+    "impetus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "A stimulus is fundamentally described as any change that:",
+  options: [
+    "affects the activity of the organism",
+    "causes an irreversible increase in weight",
+    "decomposes organic material naturally",
+    "alters the mineralogy of a rock"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as a potential stimulus?",
+  options: [
+    "Chemicals, gravity, light, sound, touch, or anything causing a response",
+    "Only artificial industrial contaminants",
+    "Only the thermal power plants of the city",
+    "The specific gravity of a mineral sample"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Gravity, light, touch, and sound are examples of:",
+  options: [
+    "stimuli",
+    "irritabilities",
+    "locomotory organs",
+    "metabolisms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "How is 'growth' defined in Chapter 8?",
+  options: [
+    "An irreversible increase in size and weight",
+    "A temporary change in physical shape",
+    "The ability to sense and respond to environmental stimuli",
+    "The systematic removal of waste products of metabolism"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "An organism grows primarily as a result of the intake and:",
+  options: [
+    "assimilation of nutrients",
+    "excretion of harmful toxins",
+    "controlled release of carbon dioxide",
+    "production of sexual gametes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Through what three processes does growth take place?",
+  options: [
+    "Cell division, cell enlargement, and cell differentiation (specialization)",
+    "Induction, deduction, and empirical measurement",
+    "Sexual union, asexual division, and gamete formation",
+    "Aerobic respiration, anaerobic respiration, and photosynthesis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Cell specialization is another term for which growth process?",
+  options: [
+    "cell differentiation",
+    "cell division",
+    "cell enlargement",
+    "irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What nutrition process is characterized by feeding on ready-made organic matter, as seen in animals?",
+  options: [
+    "heterotrophic nutrition",
+    "autotrophic nutrition",
+    "saprophytic nutrition",
+    "lignocellulosic nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "How do plants feed under autotrophic nutrition?",
+  options: [
+    "They feed on simple inorganic material which builds up into complex organic molecules",
+    "They feed directly on ready-made organic matter",
+    "They consume other photosynthetic algae in the environment",
+    "They ingest soil minerals through chemical specific gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the process by which living organisms give rise to their kind called?",
+  options: [
+    "Reproduction",
+    "Respiration",
+    "Nutrition",
+    "Irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Reproduction is fundamentally defined as:",
+  options: [
+    "the process by which living organisms give rise to their kind",
+    "the irreversible increase in cell size and weight",
+    "the systematic breakdown of sugar to make ATP",
+    "the summation of all chemical activities in a cell"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are the two primary ways in which organisms reproduce?",
+  options: [
+    "Sexual reproduction and asexual reproduction",
+    "Autotrophic and heterotrophic reproduction",
+    "Aerobic and anaerobic reproduction",
+    "Mitotic and specialized differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Organisms can reproduce either through asexual reproduction or:",
+  options: [
+    "sexual reproduction",
+    "metabolic synthesis",
+    "cell differentiation",
+    "heterotrophic ingestion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What does sexual reproduction involve?",
+  options: [
+    "The union of the male and female gametes from two parents",
+    "A single parent reproducing without sex gametes",
+    "The progressive change of living things over geological time",
+    "The physical division of a single cell into specialized tissues"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In sexual reproduction, offspring share the characteristics of:",
+  options: [
+    "both parents",
+    "the male parent only",
+    "the female parent only",
+    "neither parent due to mutation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What does asexual reproduction involve?",
+  options: [
+    "A single parent without the union of sex game",
+    "Two parents fusing male and female gametes",
+    "The synthesis of sugar during aerobic respiration",
+    "A direct act of the creator during special creation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Asexual reproduction is characterized by having:",
+  options: [
+    "only one single parent",
+    "two parents with distinct genotypes",
+    "the union of male and female gametes",
+    "extensive cellular differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the name of the compound used by organisms to release and use energy in a controlled and usable form?",
+  options: [
+    "adenosine triphosphate (ATP)",
+    "lignocellulosic biomass",
+    "peroxyacetyl nitrate (PAN)",
+    "titanium dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Adenosine triphosphate (ATP) is used by organisms to:",
+  options: [
+    "release and use energy in a controlled and usable form",
+    "catalyze the division of non-biodegradable lead salts",
+    "transmit parental phenotypes to the next generation",
+    "absorb solar radiation during thermal agitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is broken down during respiration to make energy available for producing ATP?",
+  options: [
+    "Sugar",
+    "Lignocellulose",
+    "Magma",
+    "Oxygen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Sugar is broken down during respiration to provide energy needed for making:",
+  options: [
+    "ATP",
+    "Pangenes",
+    "Algae",
+    "Siltation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is defined as the summation of all the chemical activities that an organism performs?",
+  options: [
+    "metabolism",
+    "respiration",
+    "excretion",
+    "irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Metabolism represents the summation of all:",
+  options: [
+    "chemical activities that the organism performs",
+    "locomotory organs found in an animal",
+    "cells formulated in a single tissue",
+    "trigonometric algorithms used to predict eclipses"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is 'excretion' defined as in the notes?",
+  options: [
+    "The removal of waste products of metabolism which otherwise would be harmful to the body",
+    "The breakdown of sugar during aerobic respiration",
+    "The orderly formation of new cells through division",
+    "The process of giving rise to offspring of the same kind"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as an example of an excretory waste product?",
+  options: [
+    "carbon, oxide, urine, etc.",
+    "sugar and starch",
+    "adenosine triphosphate (ATP)",
+    "chlorophyll and algae"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is respiration?",
+  options: [
+    "A complex sequence of chemical reactions which result in the release of energy from food",
+    "The removal of waste products of metabolism from the body",
+    "The ability to respond to external physical stimuli",
+    "The division of cells during differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The primary result of the chemical reactions involved in respiration is:",
+  options: [
+    "the release of energy from food",
+    "the irreversible increase in cell weight",
+    "the creation of new locomotory organs",
+    "the synthesis of autotrophic sugar"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are the two types of respiration?",
+  options: [
+    "Aerobic respiration and anaerobic respiration",
+    "Autotrophic and heterotrophic respiration",
+    "Sexual and asexual respiration",
+    "Chemical and physical respiration"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Respiration can be categorized into aerobic respiration and:",
+  options: [
+    "anaerobic respiration",
+    "metabolic synthesis",
+    "cell differentiation",
+    "heterotrophic nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What gas is involved in aerobic respiration?",
+  options: [
+    "oxygen",
+    "nitrogen",
+    "carbon dioxide",
+    "helium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are the by-products of aerobic respiration that are eliminated as waste?",
+  options: [
+    "water and carbon dioxide",
+    "urine and sugar",
+    "ATP and oxygen",
+    "sulfur dioxide and carbon monoxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Under what condition does anaerobic respiration take place?",
+  options: [
+    "In the absence of oxygen",
+    "In the presence of pure nitrogen",
+    "During the thermal agitation of cells",
+    "During autotrophic photosynthesis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Anaerobic respiration is defined by its occurrence in the:",
+  options: [
+    "absence of oxygen",
+    "presence of carbon dioxide",
+    "presence of water vapor",
+    "absence of sugar"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are often referred to as the 'building blocks of life'?",
+  options: [
+    "Cells",
+    "Atoms",
+    "Tissues",
+    "Proteins"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "According to Point 22, cells are commonly known as the:",
+  options: [
+    "building blocks of life",
+    "basic units of atoms",
+    "locomotory organs of animals",
+    "chemical agents of metabolism"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Who discovered the cell in 1665?",
+  options: [
+    "Robert Hooke",
+    "Theodor Schwann",
+    "Matthias Schleiden",
+    "Edwin Smith"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In what year did Robert Hooke discover the cell?",
+  options: [
+    "1665",
+    "1839",
+    "1610",
+    "1856"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which German scientist was given credit for the formulation of the Cell theory?",
+  options: [
+    "Theodor Schwann",
+    "Robert Hooke",
+    "Matthias Schleiden",
+    "Jean Buridan"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Theodor Schwann, credited with the Cell theory, was a scientist of what nationality?",
+  options: [
+    "German",
+    "French",
+    "English",
+    "Greek"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In what year was the Cell theory formulated?",
+  options: [
+    "1839",
+    "1665",
+    "1856",
+    "1924"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The formulation of the Cell theory in 1839 is usually credited to Theodor Schwann and:",
+  options: [
+    "Matthias Schleiden",
+    "Robert Hooke",
+    "Karl Popper",
+    "Aristotle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is a tenet of the Cell theory?",
+  options: [
+    "All living organisms are composed of cells, which are the basic and structural units of life",
+    "All cells contain chloroplasts and can perform autotrophic nutrition",
+    "All cells undergo anaerobic respiration in the presence of helium",
+    "All cells are created by sudden catastrophes in six days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "According to the Cell theory, all cells share the same basic:",
+  options: [
+    "chemical composition",
+    "locomotory organs",
+    "crystalline structure",
+    "diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Based on genetic similarity, living things are divided into which three domains/groups?",
+  options: [
+    "Archaea, Eubacteria, and Eukaryota",
+    "Protista, Fungi, and Animalia",
+    "Thallophytes, Bryophytes, and Pteridophytes",
+    "Angiosperms, Gymnosperms, and Spermatophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "On what basis are living things divided into the groups Archaea, Eubacteria, and Eukaryota?",
+  options: [
+    "genetic similarity",
+    "locomotory mechanisms",
+    "nutritional methods",
+    "respiratory pathways"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Into what taxonomic groups is the Eukaryote domain divided?",
+  options: [
+    "kingdoms",
+    "classes",
+    "orders",
+    "phyla"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is a kingdom within the Eukaryote domain according to the notes?",
+  options: [
+    "Kingdom Protista, Kingdom Fungi, Kingdom Plantae, and Kingdom Animalia",
+    "Kingdom Archaea, Kingdom Eubacteria, and Kingdom Eukaryota",
+    "Kingdom Thallophyta and Kingdom Bryophyta",
+    "Kingdom Porifera and Kingdom Angiospermae"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Thallophytes?",
+  options: [
+    "Organisms including, algae, fungi, and lichens that show no differentiation into root, stem, and leaf",
+    "Land plants that are non-vascular and dominated by the gametophyte stage",
+    "Flowering seed-producing plants with protected ovaries",
+    "Vascular plants with leaves known as fronds and full trunks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is a member of the Thallophytes?",
+  options: [
+    "algae, fungi, and lichens",
+    "bryophytes and mosses",
+    "ferns and tree ferns",
+    "conifers and cycads"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What green-colored matter is contained in algae, giving them their green color?",
+  options: [
+    "chlorophyll",
+    "starch",
+    "ATP",
+    "magma"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Algae are a group of thallophytes that are generally what color?",
+  options: [
+    "green",
+    "red",
+    "blue",
+    "yellow"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as an example of a single-celled algae?",
+  options: [
+    "Chlamydomonas and Euglena",
+    "Spirogyra",
+    "Nostoc",
+    "Salmonella typhi"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Spirogyra is listed as an example of an algae containing:",
+  options: [
+    "many cells",
+    "a single cell",
+    "no cell division",
+    "only flagella"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Why are bacteria placed in the group Protista?",
+  options: [
+    "Because they possess both plant and animal characteristics and are neither plants nor animals",
+    "Because they are multicellular eukaryotic organisms that live on land",
+    "Because they perform heterotrophic autotrophic nutrition in bogs",
+    "Because they have naked seeds that develop in ovaries"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are bacteria described as in the notes?",
+  options: [
+    "the smallest and most primitive cellular organism",
+    "highly complex vascular land plants",
+    "single-celled animal-like protozoans",
+    "decayed fossil remains of the existing races"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What structure do bacteria possess for locomotion?",
+  options: [
+    "flagellum",
+    "fins",
+    "legs",
+    "wings"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The flagellum in bacteria is used primarily for:",
+  options: [
+    "locomotion",
+    "nutrition",
+    "cellular division",
+    "irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which bacterium is listed in the notes as the cause of typhoid fever?",
+  options: [
+    "Salmonella typhi",
+    "Nostoc",
+    "Chlamydomonas",
+    "Amoeba proteus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the ecological function of the bacterium Nostoc?",
+  options: [
+    "form an association with the root nodules of leguminous plants to convert atmospheric nitrogen to nitrate",
+    "It acts as a deadly poison affecting man and vegetation",
+    "It undergoes aerobic respiration using hydrogen atoms",
+    "It acts as a primary pollutant in water bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is a virus according to Point 35?",
+  options: [
+    "a small infectious agent that replicates only inside the living cells of other organisms",
+    "The smallest and most primitive cellular organism with flagella",
+    "An non-vascular embryophyte dominated by the gametophyte stage",
+    "A single-celled algal organism containing chlorophyll"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "A virus is characterized by its ability to replicate:",
+  options: [
+    "only inside the living cells of other organisms",
+    "autotrophically in any terrestrial soil",
+    "through rapid cell division in water basins",
+    "asexually inside decayed volcanic rocks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Where do most fungi live according to the notes?",
+  options: [
+    "land",
+    "under water",
+    "inside chloroplasts",
+    "in the air"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Fungi can range from single-celled to:",
+  options: [
+    "very complex multicellular organisms",
+    "primitive non-cellular viruses",
+    "vascular seed-producing gymnosperms",
+    "animal-like protozoans with flagella"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What does the traditional name 'Bryophyte' refer to?",
+  options: [
+    "all embryophytes (land plants) that are non-vascular plants",
+    "Vascular land plants with leaves known as fronds",
+    "Flowering plants that produce seeds within an ovary",
+    "Algae containing chlorophyll that show no root differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Bryophytes are land plants (embryophytes) that are:",
+  options: [
+    "non-vascular",
+    "vascular",
+    "seed-producing",
+    "single-celled"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the defining feature of bryophytes?",
+  options: [
+    "their life cycles are dominated by the gametophyte stage",
+    "They possess vascular tissues called xylem and phloem",
+    "They develop protected seeds inside a mature ovary",
+    "They reproduce exclusively through asexual spores"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The life cycle of bryophytes is dominated by which stage?",
+  options: [
+    "gametophyte stage",
+    "sporophyte stage",
+    "mitotic stage",
+    "locomotory stage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Pteridophytes?",
+  options: [
+    "vascular plants and have leaves (known as fronds), roots, and sometimes, true stems",
+    "Non-vascular land plants dominated by the gametophyte stage",
+    "Unicellular protists with animal-like locomotor organs",
+    "Seedless thallophytes containing chlorophyll"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In pteridophytes, the leaves are specifically known as:",
+  options: [
+    "fronds",
+    "needles",
+    "trunks",
+    "lobes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Spermatophytes also known as?",
+  options: [
+    "phanerogams or phonogramme",
+    "bryophytes",
+    "pteridophytes",
+    "thallophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the defining characteristic of spermatophytes that gives them the name 'seed plants'?",
+  options: [
+    "They produce seeds",
+    "They lack vascular tissues",
+    "They consist of single-celled algae",
+    "They replicate only inside host cells"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the difference between angiosperms and gymnosperms?",
+  options: [
+    "Angiosperms develop their seeds within an ovary and their seeds are covered while gymnosperms have naked seeds",
+    "Angiosperms are non-vascular, while gymnosperms possess fronds and trunks",
+    "Angiosperms reproduce asexually, while gymnosperms use male and female gametes",
+    "Angiosperms lack root differentiation, while gymnosperms have full trunks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Gymnosperms are characterized by having:",
+  options: [
+    "naked seeds",
+    "covered seeds",
+    "no seeds",
+    "fronds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is included in the gymnosperm group of seed-producing plants?",
+  options: [
+    "conifers, cycads, Ginkgo, and gnetophytes",
+    "Flowering plants and angiosperms",
+    "Mosses, liverworts, and hornworts",
+    "Spirogyra, Chlamydomonas, and Euglena"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Conifers and cycads are taxonomically classified as:",
+  options: [
+    "gymnosperms",
+    "angiosperms",
+    "pteridophytes",
+    "bryophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Angiosperms?",
+  options: [
+    "members of the flowering plant, the largest and diverse group within the kingdom Plantae",
+    "Non-vascular land plants with naked seeds",
+    "Single-celled green thallophytes containing chlorophyll",
+    "Vascular plants with fronds instead of flowers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Within the kingdom Plantae, the largest and most diverse group is composed of:",
+  options: [
+    "angiosperms",
+    "gymnosperms",
+    "bryophytes",
+    "pteridophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What comprises the group Protista according to Point 44?",
+  options: [
+    "all organisms having eukaryotic cells and based on unicellular body plan",
+    "Vascular plants that produce naked seeds in cones",
+    "Multicellular land-living fungi that decompose matter",
+    "Non-vascular land plants dominated by the gametophyte stage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Protists are characterized by a unicellular body plan and:",
+  options: [
+    "eukaryotic cells",
+    "prokaryotic cells",
+    "no cell walls",
+    "multicellular trunk systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are animal-like protists called?",
+  options: [
+    "protozoa",
+    "algae",
+    "fungi",
+    "bryophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Protozoa are classified under Protista as:",
+  options: [
+    "animal-like protists",
+    "plant-like thallophytes",
+    "non-vascular land plants",
+    "primitive cellular bacteria"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as a member of the Protozoa group?",
+  options: [
+    "Amoeba proteus, Balantidium coli, Paramecium caudatum, Plasmodium, Trypanosome, etc.",
+    "Chlamydomonas, Euglena, and Spirogyra",
+    "Nostoc, Salmonella typhi, and Conifers",
+    "Conifers, cycads, and Ginkgo"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "According to the notes, protozoa are found:",
+  options: [
+    "almost everywhere",
+    "only in natural bogs and swamps",
+    "only in the blood of humans",
+    "only on high mountain soils"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are members of Phylum Porifera commonly called?",
+  options: [
+    "sponges",
+    "protozoa",
+    "thallophytes",
+    "pteridophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is an example of Phylum Porifera?",
+  options: [
+    "Siliceous sponge, Nereis, Virenes, etc.",
+    "Amoeba proteus and Paramecium caudatum",
+    "Salmonella typhi and Nostoc",
+    "Chlamydomonas and Spirogyra"
+  ],
+  answer: 0
+    },
+  {
+  course: "gst112",
+  chapter: 9,
+  question: "Which occupation is recognized as the oldest known to mankind, beginning in the dim ages of early men?",
+  options: [
+    "Agriculture",
+    "Metallurgy",
+    "Seismology",
+    "Astrophysics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "According to Point 1, agriculture had its beginning in the dim ages of early men and what other era?",
+  options: [
+    "the biblical times",
+    "the Renaissance",
+    "the Industrial Revolution",
+    "the 21st century"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Between 1960 and 1970, approximately what percentage did agriculture contribute to Nigeria's Gross Domestic Product (GDP)?",
+  options: [
+    "60 percent",
+    "70 percent",
+    "21 percent",
+    "99.86 percent"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What percentage of the Nigerian population was provided with direct and indirect employment by agriculture between 1960 and 1970?",
+  options: [
+    "over 70 percent",
+    "about 60 percent",
+    "exactly 10 percent",
+    "less than 40 percent"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "In what year was oil discovered in the Niger Delta, leading to commercial exploration that shifted emphasis away from agriculture?",
+  options: [
+    "1956",
+    "1960",
+    "1976",
+    "1980"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Why was little emphasis placed on agriculture in Nigeria after the discovery of oil in the Niger Delta?",
+  options: [
+    "Its exploration in commercial quantities led to huge capital inflows",
+    "The soil became completely non-biodegradable and contaminated",
+    "The population grew too fast geometrically according to Malthus",
+    "The Land Use Decree of 1956 banned private farming"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "According to Point 4, Nigeria has been experiencing a food crisis in recent times on account of what factors?",
+  options: [
+    "Low productivity, poor infrastructure, poor incentives, and innovations",
+    "The sudden explosion of a singularity in the environment",
+    "Excessive thermal pollution and radioactive water bodies",
+    "A massive decrease in the agricultural labor population"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Which of the following is NOT listed in Point 4 as a cause of Nigeria's recent food crisis?",
+  options: [
+    "Lack of land space",
+    "Low productivity",
+    "Poor infrastructure",
+    "Poor incentives and innovations"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Agriculture is fundamental to the sustenance of all human life and represents the bedrock of:",
+  options: [
+    "economic development",
+    "space exploration",
+    "theological creationism",
+    "geological gradualism"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Complete the statement: 'Agriculture is fundamental to the ________ of all human life...'",
+  options: [
+    "sustenance",
+    "evolution",
+    "mutation",
+    "classification"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What propels sustainable agricultural development according to Point 6?",
+  options: [
+    "agricultural policy",
+    "sudden catastrophes",
+    "oil exploration",
+    "hereditary genotypes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Sustainable agricultural development can be successfully propelled by:",
+  options: [
+    "agricultural policy",
+    "theological principles",
+    "geological shifts",
+    "cellular differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "How is a 'policy' defined in the notes?",
+  options: [
+    "A statement of intent outlining what an individual, organization, or government wants to do, is doing, is not doing, and what would be done",
+    "A rigid system of naming organisms used across various universes",
+    "A set of clinical trials conducted by the first physician to evaluate crops",
+    "The physical process of converting wind energy into high-voltage voltage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "A policy can be simply summarized as a statement of:",
+  options: [
+    "intent",
+    "theorems",
+    "empirical observation",
+    "hypothetical myths"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What does agricultural policy describe?",
+  options: [
+    "A set of laws relating to domestic agriculture and imports of foreign agricultural products",
+    "The study of the structural elements of prehistoric organic vegetation",
+    "The physical rotation of Venus backwards from west to east",
+    "A collection of astronomical units used to measure crop yields"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Agricultural policy regulates domestic agriculture and:",
+  options: [
+    "imports of foreign agricultural products",
+    "the pricing of crude oil exports",
+    "the genetic mutation rate of local crops",
+    "the registration of domestic businesses"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What does 'agricultural reform' refer to?",
+  options: [
+    "An overall redirection of the agrarian system of the country, involving changes in constitutional agricultural practices to improve it",
+    "A sudden shift from primary renewable sources of energy to non-renewable coal",
+    "The transition of human ancestors from apes to Australopithecus robustus",
+    "The separation of natural gas technically from crude oil during exploitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Agricultural reform involves changes in constitutional agricultural practices to:",
+  options: [
+    "improve the agrarian system",
+    "minimize food production costs",
+    "promote foreign crop imports only",
+    "control local labor unions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "In what year was the Forestry Research Institute of Nigeria (FRIN) established?",
+  options: [
+    "1900",
+    "1956",
+    "1976",
+    "1986"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What is the full meaning of the acronym FRIN established in 1900?",
+  options: [
+    "Forestry Research Institute of Nigeria",
+    "Federal Reform of Industrialization in Nigeria",
+    "Forestry Resource Integration Network",
+    "Federal Research and Innovation of Nigeria"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Who launched the Operation Feed the Nation (OFN) program?",
+  options: [
+    "Chief Olusegun Obasanjo",
+    "Alhaji Shehu Shagari",
+    "General Ibrahim Babangida",
+    "Dr. Goodluck Jonathan"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What is the full meaning of the agricultural program acronym OFN?",
+  options: [
+    "Operation Feed the Nation",
+    "Organization of Forestry in Nigeria",
+    "Operational Food Network",
+    "Objective of Federal Nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "In what year were the River Basin Development Authorities established throughout Nigeria?",
+  options: [
+    "Niger state",
+    "1950",
+    "1930",
+    "1924"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Where was the earliest definite hominid fossil discovered in 1924?",
+  options: [
+    "In a limestone quarry in Bechuanaland, South Africa",
+    "In the Olduvai Gorge, Tanzania",
+    "In the valley of the Neander River, Germany",
+    "In Peking, China"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "On careful observation of Dart's discovered skull, it was found to be that of a six-year-old baby now called Taung baby.",
+  options: [
+    "Taung baby",
+    "Java man",
+    "Peking man",
+    "Cro-magnon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What was the estimated age of the Taung baby at the time of death based on Dart's discovered skull?",
+  options: [
+    "Six years old",
+    "Two years old",
+    "Ten years old",
+    "Infant"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Dart named the Taung baby 'Australopithecus robustus' since Taung baby was a man-like ape.",
+  options: [
+    "Australopithecus robustus",
+    "Homo habilis",
+    "Homo erectus",
+    "Homo sapiens"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Why did Dart name the Taung baby 'Australopithecus robustus'?",
+  options: [
+    "It was a man-like ape",
+    "It was a tool-using hominid",
+    "It was found in Germany",
+    "It was highly related to chimpanzees"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Australopithecus disappeared about 1.3 million years ago. These discoveries point to the fact that humans evolved from Africa.",
+  options: [
+    "1.3 million years ago",
+    "500,000 years ago",
+    "40,000 years ago",
+    "150,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "The discoveries of Australopithecus point to the fact that humans evolved from which continent?",
+  options: [
+    "Africa",
+    "Asia",
+    "Europe",
+    "South America"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo Habilis was the second set of hominids discovered. They were discovered along with tools by the leakeys in the Olduvia Gorge, Tanzania.",
+  options: [
+    "Homo habilis",
+    "Australopithecus",
+    "Homo erectus",
+    "Homo sapiens"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Where and by whom was Homo habilis discovered along with tools?",
+  options: [
+    "By the Leakeys in Olduvai Gorge, Tanzania",
+    "By Dart in Bechuanaland, South Africa",
+    "In Neander Valley, Germany",
+    "In Java, Indonesia"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo habilis was the first member of our own genus and first primate to use tools consistently.",
+  options: [
+    "Homo habilis",
+    "Australopithecus robustus",
+    "Homo erectus",
+    "Neanderthal"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo habilis is significant in human evolution because it was the first member of our own genus and the first primate to do what?",
+  options: [
+    "Use tools consistently",
+    "Migrate to Asia",
+    "Control fire",
+    "Paint cave walls"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "It was in Homo habilis that fully developed human characteristics were first observed.",
+  options: [
+    "Homo habilis",
+    "Australopithecus",
+    "Homo erectus",
+    "Cro-magnon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What evolutionary milestone is associated with the discovery of Homo habilis?",
+  options: [
+    "Fully developed human characteristics were first observed",
+    "The total loss of body hair",
+    "The complete switch to an aquatic lifestyle",
+    "The direct migration to North America"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo erectus migrated to Asia and Europe in about 500 000 years ago.",
+  options: [
+    "About 500,000 years ago",
+    "About 1.3 million years ago",
+    "About 40,000 years ago",
+    "About 150,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "To which continents did Homo erectus migrate approximately 500,000 years ago?",
+  options: [
+    "Asia and Europe",
+    "Africa and Australia",
+    "South and North America",
+    "Antarctica and Greenland"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "'Java man' and 'Peking man' were two of the most famous early fossils of the genus Homo erectus was replaced by our species.",
+  options: [
+    "Homo erectus",
+    "Homo habilis",
+    "Homo sapiens",
+    "Australopithecus robustus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Which genus/species, famously represented by 'Java man' and 'Peking man', was eventually replaced by our species?",
+  options: [
+    "Homo erectus",
+    "Homo habilis",
+    "Australopithecus robustus",
+    "Neanderthals"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo sapiens are also called Neanderthals. They were abundant in Europe and Western Asia between 150 000 and 35 000 years ago.",
+  options: [
+    "Neanderthals",
+    "Cro-magnons",
+    "Peking man",
+    "Java man"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Neanderthals (Homo sapiens) were abundant in Europe and Western Asia during what period?",
+  options: [
+    "Between 150,000 and 35,000 years ago",
+    "About 500,000 years ago",
+    "1.3 million years ago",
+    "40,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo sapiens fossils were first discovered in the valley of the Neander River in Germany in 1856.",
+  options: [
+    "1856 in the Neander River valley, Germany",
+    "1924 in Bechuanaland, South Africa",
+    "1950 in Olduvai Gorge, Tanzania",
+    "1831 on the HMS Beagle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "The Neander River valley in Germany was the site of the first discovery of which fossils in 1856?",
+  options: [
+    "Homo sapiens / Neanderthals",
+    "Homo erectus",
+    "Australopithecus",
+    "Homo habilis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Cro-magnon (Homo sapiens) are people with essential modern characteristics. They abruptly replaced the European Neanderthals.",
+  options: [
+    "Cro-magnon",
+    "Java man",
+    "Peking man",
+    "Australopithecus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What group did the Cro-magnons abruptly replace in Europe?",
+  options: [
+    "Neanderthals",
+    "Homo erectus",
+    "Homo habilis",
+    "Australopithecus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "The possible route of evolution of modern man is from Ape - Australopithecus - Homo habilis Homo erectus - Neanderthals - Cro Manons Modern man of modern appearance.",
+  options: [
+    "Ape -> Australopithecus -> Homo habilis -> Homo erectus -> Neanderthals -> Cro-magnons -> Modern man",
+    "Ape -> Homo erectus -> Australopithecus -> Homo habilis -> Neanderthals -> Modern man",
+    "Australopithecus -> Ape -> Homo erectus -> Homo habilis -> Cro-magnons -> Modern man",
+    "Ape -> Homo habilis -> Homo erectus -> Australopithecus -> Neanderthals -> Modern man"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Which hominid directly precedes Neanderthals in the possible evolutionary route of modern man?",
+  options: [
+    "Homo erectus",
+    "Homo habilis",
+    "Australopithecus",
+    "Cro-magnon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Modern man is believed to have originated about 40 000 years ago.",
+  options: [
+    "About 40,000 years ago",
+    "About 150,000 years ago",
+    "About 500,000 years ago",
+    "About 1.3 million years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Modern man, with a modern appearance, is estimated to have originated around:",
+  options: [
+    "40,000 years ago",
+    "150,000 years ago",
+    "35,000 years ago",
+    "1.3 million years ago"
+  ],
+  answer: 0
+    },
+  {
+  course: "gst112",
+  chapter: 10,
+  question: "What are pesticides defined as in the notes?",
+  options: [
+    "A group of substances commonly used as plant protection products protecting plants from weeds, insects, and fungi",
+    "A type of non-biodegradable heavy metal used in the chlor-alkali industry",
+    "The altered remains of prehistoric vegetation accumulating in swamps",
+    "The physical process of converting thermal energy into voltage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Pesticides protect plants from the damaging influences of which of the following?",
+  options: [
+    "weeds, insects, and fungi",
+    "atmospheric nitrogen and nitrate",
+    "irregular surface rotations",
+    "severe droughts and solar radiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed as a plant and crop pest in Chapter 10?",
+  options: [
+    "Weeds, insects, nematodes, termites, rodents, mollusks, birds, bacteria, and fungi",
+    "Red-giant stars, Spina, and Antares",
+    "Sulphur, asbestos, beryllium, and chromium",
+    "Algae, lichens, bryophytes, and pteridophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Plant and crop pests are described as generally including weeds, insects, termites, and other:",
+  options: [
+    "living organisms",
+    "inorganic chemicals",
+    "chlor-alkali products",
+    "meteoroid collisions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "What are the three ways insecticides can gain entry into an insect's body?",
+  options: [
+    "Dermal, oral, and respiratory entry",
+    "Aerobic, anaerobic, and metabolic entry",
+    "Primary, secondary, and tertiary entry",
+    "Bacterial, viral, and fungal entry"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Insecticides entering an insect's body through the skin is referred to as:",
+  options: [
+    "Dermal Entry",
+    "Oral Entry",
+    "Respiratory Entry",
+    "Convective Entry"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed as a group of pesticides based on their chemical component in Point 4?",
+  options: [
+    "Inorganic, organic pyrethrins, synthetic pyrethroids, organochlorine, organophosphorus, and carbonates",
+    "Chlor-alkali chemicals, heavy metals, basic inorganics, and minerals",
+    "Sulphur, asbestos, beryllium, and chromium",
+    "Spermatophytes, angiosperms, and gymnosperms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "According to the notes, which of the following is one of the chemical groups used to classify pesticides?",
+  options: [
+    "Carbonates",
+    "Hydrostatics",
+    "Barium salts",
+    "Lignocellulosics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "From what substances are inorganic pesticides produced?",
+  options: [
+    "Mineral substances such as arsenic trioxide powder and boric acid",
+    "Naturally occurring chrysanthemum flowers and plant extracts",
+    "Synthetic polymers and natural rubber composites",
+    "Swamps, peat bogs, and prehistoric vegetation bogs"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Boric acid and arsenic trioxide powder are mineral substances used to produce:",
+  options: [
+    "inorganic pesticides",
+    "synthetic pyrethroids",
+    "secondary organic pollutants",
+    "organochlorine insecticides"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "What naturally occurring plants are organic pyrethrins obtained from?",
+  options: [
+    "A type of chrysanthemum flower",
+    "Leguminous root nodules",
+    "Swamp and peat bog vegetation",
+    "Lignocellulosic forest debris"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is described as the most widely used natural insecticide?",
+  options: [
+    "Organic pyrethrins",
+    "Synthetic pyrethroids",
+    "Arsenic trioxide powder",
+    "Boric acid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "What is the first factor that should guide a person in selecting an appropriate pesticide?",
+  options: [
+    "Consider and determine from available pesticides which will control the target pest",
+    "Check the atomic mass and specific gravity of the pesticide elements",
+    "Examine if the pesticide can be easily decomposed in its natural environment",
+    "Test if the compound reduces the oxygen-carrying efficiency of blood"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 1,
+  question: "Before an investigation, we are to have self-evident concepts to enable us to infer both what is expected and what is not",
+  options: [
+    "The second rule of inquiry",
+    "The first rule of inquiry",
+    "The induction method",
+    "The falsification method"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "According to Point 7, after determining which pesticide controls the target pest, what should one consider next?",
+  options: [
+    "Which of the available pesticides would be a better choice to use",
+    "The exact rate of biodegradation in water bodies",
+    "The presence of any volatile organic compounds",
+    "The chemical formula of its positive and negative electrodes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed as a characteristic of pesticides in Point 8?",
+  options: [
+    "Solubility, absorption, persistence, and volatility",
+    "Hardness, luster, color, and specific gravity",
+    "Cell division, cell enlargement, and differentiation",
+    "Dermal, oral, and respiratory entrance"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Solubility, absorption, persistence, and volatility are recognized as:",
+  options: [
+    "physical properties of minerals",
+    "chemical reactions of secondary pollutants",
+    "basic fields of earth science",
+    "characteristics of pesticides"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed in the notes as an environmental effect of pesticides?",
+  options: [
+    "Air pollution, water pollution, soil contamination, and reduced crop yields",
+    "Photochemical smog, greenhouse warming, and thermal agitation",
+    "The systematic loss of cell division and nuclear forces",
+    "Eclipses of the sun and moon and tsunamis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Pesticides can affect agriculture negatively by causing:",
+  options: [
+    "reduced crop yields",
+    "increased dissolved oxygen demand",
+    "spontaneous generation of weedy thallophytes",
+    "rapid cell differentiation in soil bacteria"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "In what forms do pesticides come according to Point 10?",
+  options: [
+    "Inorganic, organic, and synthetic forms with varying levels of toxicity",
+    "Solid, liquid, and gaseous forms with identical specific gravity",
+    "Acidic, basic, and neutral forms with no toxic compounds",
+    "Placental, marsupial, and prosimian groupings"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Pesticides in their inorganic, organic, and synthetic forms are characterized by having:",
+  options: [
+    "varying levels of toxicity",
+    "completely non-toxic chemical structures",
+    "identical rates of rapid biodegradation",
+    "the same chemical composition as chlorophyll"
+  ],
+  answer: 0
+}
+]
+  
+  
+  
