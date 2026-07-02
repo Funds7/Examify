@@ -6046,5 +6046,1061 @@ const QUESTIONS = [
     "Letters and Arabic numerals combinations"
   ],
   answer: 0
-}
+},
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to the notes, Western philosophy originated from which ancient region?",
+    options: [
+      "Greece",
+      "Egypt",
+      "Rome",
+      "Mesopotamia"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What triggered the beginning of Western philosophy in ancient Greece?",
+    options: [
+      "The invention of the written alphabet",
+      "Dissatisfaction with mythological explanations of reality",
+      "The rise of democratic state systems",
+      "Economic prosperity and trade expansion"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Etymologically, philosophy is derived from which two Greek words?",
+    options: [
+      "'Philos' and 'Sophia'",
+      "'Philia' and 'Logos'",
+      "'Psyche' and 'Sophia'",
+      "'Nomos' and 'Episteme'"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What do the etymological Greek roots of the word 'philosophy' mean?",
+    options: [
+      "Study of nature",
+      "Love of wisdom",
+      "Theory of knowledge",
+      "Search for truth"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is the literal, etymological definition of philosophy?",
+    options: [
+      "The love of wisdom",
+      "The study of mind",
+      "The search for reality",
+      "The pursuit of happiness"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "In the literal definition of philosophy as 'the love of wisdom', 'wisdom' is represented by which Greek root?",
+    options: [
+      "Logos",
+      "Physika",
+      "Sophia",
+      "Episteme"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "In the academic sense, what is the primary goal of philosophy when it critically searches and probes?",
+    options: [
+      "To establish dogmatic religious beliefs",
+      "To understand the reality of things in themselves and being in itself",
+      "To create scientific experiments for natural phenomena",
+      "To memorize historical events of ancient civilizations"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which perspective of philosophy is defined as critically searching and probing to understand the reality of things in themselves?",
+    options: [
+      "The mythological perspective",
+      "The academic sense",
+      "The common-sense perspective",
+      "The empirical sense"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 5, all philosophy should lead to which branch, otherwise it will be useless?",
+    options: [
+      "Ethics",
+      "Metaphysics",
+      "Logic",
+      "Epistemology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is the consequence if a philosophy fails to lead to ethics?",
+    options: [
+      "It becomes highly speculative",
+      "It will be useless",
+      "It becomes purely academic",
+      "It transforms into science"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy is described as the endpoint and destination of philosophical knowledge?",
+    options: [
+      "Logic",
+      "Metaphysics",
+      "Ethics",
+      "Epistemology"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "How does the text define the ultimate destination of philosophical knowledge?",
+    options: [
+      "Aesthetics",
+      "Political power",
+      "Epistemic certainty",
+      "Ethics"
+    ],
+    answer: 3
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Besides an academic discipline, what elements of people's lives could be considered as philosophy?",
+    options: [
+      "Beliefs, opinions, positions, way of life, orientations, and worldview",
+      "Only formal university certificates and research publications",
+      "Scientific experiments and mathematical proofs",
+      "Strict legal codes and constitutional documents"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "A person's worldview, orientations, and way of life can be broadly considered as their:",
+    options: [
+      "Axiom",
+      "Philosophy",
+      "Dogma",
+      "Science"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What critical tool does philosophy use as a rigorous academic discipline to search into the issues of being, existence, and life?",
+    options: [
+      "Empirical laboratory apparatus",
+      "Religious scripture and faith",
+      "The critical tool of human reasoning",
+      "Statistical and mathematical modeling"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "How is philosophy defined when it is described as using human reasoning to search into being, existence, and life in all its ramifications?",
+    options: [
+      "A simple common-sense opinion",
+      "A rigorous academic discipline",
+      "A non-academic spiritual exercise",
+      "An empirical branch of natural science"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to the notes, where is it NOT strictly necessary for a philosopher to be located?",
+    options: [
+      "In the classroom",
+      "In a society",
+      "In the physical world",
+      "In critical thought"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Can an individual be a philosopher if they are not based in an academic classroom environment?",
+    options: [
+      "No, philosophy is strictly for classroom professors",
+      "Yes, you can be a philosopher without being located in the classroom",
+      "Only if they have published a peer-reviewed book",
+      "Only if they belong to an ancient Greek tradition"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What determines the various orientations of philosophers (e.g., philosopher of education, philosopher of religion, etc.)?",
+    options: [
+      "The branch of philosophy that they specialize in",
+      "The country where they obtained their degree",
+      "The specific period of history in which they lived",
+      "Their personal wealth and social standing"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "A philosopher who focuses on the fundamental principles of scientific inquiry is a philosopher of science. This variation is based on their:",
+    options: [
+      "Political party affiliation",
+      "Philosophical orientation and specialization",
+      "Religious background",
+      "Classroom location"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Why do some people misconceive philosophy as occultism or witchcraft?",
+    options: [
+      "Because philosophers perform physical rituals in classrooms",
+      "Because of its branch, metaphysics, which deals with realities beyond the physical like being and God",
+      "Because it originated from ancient mythological Greek systems",
+      "Because of its association with modern scientific laboratory experiments"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The misconception of philosophy as witchcraft is primarily linked to which of its branches?",
+    options: [
+      "Logic",
+      "Ethics",
+      "Metaphysics",
+      "Aesthetics"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is a common misconception about philosophers regarding their religious stance?",
+    options: [
+      "They are conceived as all-knowing deities",
+      "They are conceived as anti-religious and as atheists",
+      "They are seen as strictly orthodox Christian priests",
+      "They are regarded as purely political rulers"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 12, some people conceive philosophy as being:",
+    options: [
+      "Anti-religious",
+      "Pro-establishment",
+      "Purely scientific",
+      "Unreasonable"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Philosophy can be understood from which two major perspectives?",
+    options: [
+      "As a physical science and as a spiritual guide",
+      "As a way of life and as an academic discipline",
+      "As a political ideology and as a legal framework",
+      "As a religious dogma and as an occult practice"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which of the following represents the dual framework through which philosophy is understood?",
+    options: [
+      "As a way of life / academic discipline",
+      "As a mathematical tool / scientific method",
+      "As a private hobby / public policy",
+      "As ancient myth / modern technology"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which perspective of philosophy explains how most people and organizations develop practical guiding principles?",
+    options: [
+      "Philosophy as an academic discipline",
+      "Philosophy as a way of life",
+      "Philosophy as a scientific inquiry",
+      "Philosophy as speculative ontology"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to the notes, why are organizations or institutions said to have 'philosophies of life'?",
+    options: [
+      "Because they hire professional philosophers in classrooms",
+      "Due to the very practical fact that they have developed",
+      "Because they are registered as academic departments",
+      "Because they are religious or occult institutions"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "How is philosophy defined in terms of its scientific investigation?",
+    options: [
+      "The science that investigates the highest cause of all things as far as they are knowable",
+      "The science that measures physical matter under controlled situations",
+      "The study of chemical elements and their immediate reactions",
+      "The quantitative analysis of mathematical variables and equations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 15, philosophy is the science that investigates the ________ of all things as far as they are knowable.",
+    options: [
+      "highest cause",
+      "immediate physical structure",
+      "evolutionary origin",
+      "mathematical limit"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What dual activities are described as being central to all philosophical activities?",
+    options: [
+      "Empirical measurement and scientific recording",
+      "Critical and reflective thinking",
+      "Dogmatic memorization and recitation",
+      "Political mobilization and campaigning"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to the notes, which cognitive process is central to philosophical activities?",
+    options: [
+      "Uncritical acceptance of ancient myths",
+      "Critical and reflective thinking",
+      "Purely mathematical computation",
+      "Sensory isolation and biological rest"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is described as the 'spirit' of philosophy?",
+    options: [
+      "Spiritual mediumship",
+      "Critical reasoning",
+      "Occult worship",
+      "Dogmatic belief"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 17, critical reasoning is identified as the ________ of philosophy.",
+    options: [
+      "spirit",
+      "byproduct",
+      "obstacle",
+      "origin"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which of the following correctly lists the four main branches of philosophy?",
+    options: [
+      "Ontology, Cosmology, Ethics, Aesthetics",
+      "Metaphysics, Epistemology, Logic, Ethics",
+      "Theology, Science, Law, History",
+      "Philosophy of Mind, Social Philosophy, Axiology, Logic"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which of these is NOT listed as one of the four primary branches of philosophy in Point 18?",
+    options: [
+      "Metaphysics",
+      "Epistemology",
+      "Cosmology",
+      "Logic"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What are the two Greek words from which the word 'metaphysics' is etymologically derived?",
+    options: [
+      "'Meta' and 'Physika'",
+      "'Meta' and 'Logos'",
+      "'Mellitus' and 'Soma'",
+      "'Meta' and 'Sophia'"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Etymologically, the word 'meta' in metaphysics means:",
+    options: [
+      "Before or within",
+      "After or beyond",
+      "Against or anti",
+      "Equal to or beside"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Who was the compiler of Aristotle's work who came up with the name 'metaphysics'?",
+    options: [
+      "Thales of Miletus",
+      "Andronicus of Rhodes",
+      "Socrates of Athens",
+      "Karl Marx"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Andronicus of Rhodes coined the term 'metaphysics' while compiling the works of which philosopher?",
+    options: [
+      "Plato",
+      "Socrates",
+      "Aristotle",
+      "Wiredu"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "How is Metaphysics defined in Point 21?",
+    options: [
+      "The study of sound arguments",
+      "The science that deals with being as being",
+      "The historical narrative of the universe",
+      "The normative inquiry into human values"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy is defined as the 'science that deals with being as being'?",
+    options: [
+      "Logic",
+      "Epistemology",
+      "Metaphysics",
+      "Ethics"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What does Metaphysics study according to Point 22?",
+    options: [
+      "The essence of being",
+      "The rules of invalid arguments",
+      "The chemical properties of physical nature",
+      "The historical validity of religious books"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy is dedicated to studying the essence of being?",
+    options: [
+      "Aesthetics",
+      "Metaphysics",
+      "Epistemology",
+      "Logic"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to the notes, which of the following are branches of metaphysics?",
+    options: [
+      "Aesthetics and Axiology",
+      "Ontology and theodicy",
+      "Inductive logic and Deductive logic",
+      "Political science and Sociology"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Ontology and theodicy belong directly under which major branch of philosophy?",
+    options: [
+      "Epistemology",
+      "Ethics",
+      "Metaphysics",
+      "Logic"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which sub-branch of metaphysics critically probes into the nature and essence of being/reality?",
+    options: [
+      "Theodicy",
+      "Ontology",
+      "Cosmology",
+      "Epistemology"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is the primary concern of ontology?",
+    options: [
+      "To study the rules of syllogistic reasoning",
+      "To critically probe into the nature and essence of being/reality",
+      "To resolve the problem of evil in religious settings",
+      "To evaluate artistic beauty in creative artworks"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What does the metaphysical sub-branch called 'theodicy' study?",
+    options: [
+      "The rules of correct reasoning",
+      "The problem of evil and the existence of a good God",
+      "The physical laws of gravity and motion",
+      "The relationship between the individual and the state"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The problem of evil and the existence of a good God is studied under which branch of metaphysics?",
+    options: [
+      "Ontology",
+      "Cosmology",
+      "Theodicy",
+      "Axiology"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of metaphysics is concerned with the origin, nature, and structure of the universe?",
+    options: [
+      "Theodicy",
+      "Cosmology",
+      "Ontology",
+      "Epistemology"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is the specific focus of Cosmology?",
+    options: [
+      "The study of values and ethics",
+      "The origin, nature, and structure of the universe",
+      "The validity of human knowledge and truths",
+      "The rules of sound and unsound arguments"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The word 'epistemology' is derived from two Greek words: 'episteme' and 'logos'. What does 'episteme' mean?",
+    options: [
+      "Knowledge",
+      "Nature",
+      "Being",
+      "Wisdom"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is the literal translation of the two Greek roots of 'epistemology'?",
+    options: [
+      "Theory of being",
+      "Knowledge and theory/discourse",
+      "Love of wisdom",
+      "Beyond physical nature"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Epistemology is commonly referred to as the theory of what?",
+    options: [
+      "Reality",
+      "Values",
+      "Knowledge",
+      "Beauty"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy is defined as the 'theory of knowledge'?",
+    options: [
+      "Logic",
+      "Epistemology",
+      "Metaphysics",
+      "Axiology"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which aspects of human knowledge does Epistemology study?",
+    options: [
+      "Only the grammatical structure of spoken language",
+      "The nature, origin, foundation, method, validity, extent, and limits of human knowledge",
+      "The mathematical rules of digital data transmission",
+      "The psychological factors of mental illness"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy studies the extent and limits of human knowledge?",
+    options: [
+      "Metaphysics",
+      "Ethics",
+      "Epistemology",
+      "Logic"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Ethics, which is also known as moral philosophy, is described as being ________ rather than simply speculative.",
+    options: [
+      "empirical",
+      "normative",
+      "metaphysical",
+      "theological"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is another name for moral philosophy, according to the text?",
+    options: [
+      "Aesthetics",
+      "Ontology",
+      "Ethics",
+      "Axiology"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Ethics is concerned with whether basic values are:",
+    options: [
+      "Logical, mathematical, precise, and calculated",
+      "Absolute, relative, subjective, culturally varied, or modifiable",
+      "Physical, measurable, scientific, and observable",
+      "Derived from Greek vocabulary or Latin definitions"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy studies whether values are subjective or culturally varied?",
+    options: [
+      "Epistemology",
+      "Ethics",
+      "Cosmology",
+      "Logic"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is Axiology?",
+    options: [
+      "The critical study of the nature of value",
+      "The study of the nature of beauty",
+      "The study of valid arguments",
+      "The theory of human knowledge"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "While axiology is the study of value, aesthetics is the study of:",
+    options: [
+      "The nature of beauty",
+      "The nature of being as being",
+      "The rules and laws of logic",
+      "The origin and structures of the cosmos"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which branch of philosophy treats the rules and laws of thinking or thought?",
+    options: [
+      "Metaphysics",
+      "Epistemology",
+      "Logic",
+      "Aesthetics"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Logic is primarily concerned with treating the rules and laws of what?",
+    options: [
+      "The political state",
+      "Thinking or thought",
+      "Scientific methodology",
+      "Artistic appreciation"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "How does Okoro define logic?",
+    options: [
+      "The critical study of moral values",
+      "The study of the norms of sound and unsound arguments",
+      "The science of physical reality beyond nature",
+      "The analysis of political processes and power"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Okoro, logic studies the norms of:",
+    options: [
+      "Divine creation",
+      "Epistemological validity",
+      "Sound and unsound arguments",
+      "Artistic creation"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What does social and political philosophy concern itself with studying?",
+    options: [
+      "The political process, especially that of the state and the struggle for control and use of power",
+      "The rules of formal logical fallacies",
+      "The physical evolution of solar systems",
+      "The psychological development of small children"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The struggle for control and use of power is a main concern of which branch of philosophy?",
+    options: [
+      "Ethics",
+      "Social and political philosophy",
+      "Epistemology",
+      "Theodicy"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Social and political philosophy is concerned with the relationship between which two entities?",
+    options: [
+      "The individual and the state",
+      "The mind and the physical brain",
+      "Reason and theological faith",
+      "Beauty and the creative artist"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The reciprocal relationship between the state and the individual is analyzed under:",
+    options: [
+      "Epistemology",
+      "Metaphysics",
+      "Social and political philosophy",
+      "Cosmology"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What is aesthetics also known as?",
+    options: [
+      "Philosophy of art",
+      "Philosophy of science",
+      "Philosophy of value",
+      "Philosophy of nature"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Aesthetics (philosophy of art) deals with issues of beauty in relation to which two aspects?",
+    options: [
+      "The logical validity and scientific measurement of objects",
+      "The creation and appreciation of artwork",
+      "The legal framework and moral judgments of the state",
+      "The physical mass and optical density of materials"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 38, within which specific philosophical area are philosophy of religion, law, nature, and history grouped?",
+    options: [
+      "Philosophy of Art",
+      "Metaphysics",
+      "Epistemology",
+      "Logic"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The notes state that 'it is in the philosophy of Art that we have...'",
+    options: [
+      "philosophy of religion, philosophy of social science, philosophy of law, etc.",
+      "the main divisions of formal deductive reasoning.",
+      "the origin of physical atoms and planetary systems.",
+      "the primary definitions of ethical values."
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 39, philosophy should serve the purpose of:",
+    options: [
+      "Social reconstruction",
+      "Political dictatorship",
+      "Theological isolation",
+      "Scientific reduction"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Besides wisdom, philosophy should lead to which two elements at an individual and social level?",
+    options: [
+      "Wealth and power",
+      "Virtue and happiness",
+      "Certainty and dogmatism",
+      "Technology and trade"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Which thinker accused philosophers of merely interpreting the world, without changing it?",
+    options: [
+      "Okoro",
+      "Wiredu",
+      "Karl Marx",
+      "Socrates"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What accusation did Karl Marx level against philosophers?",
+    options: [
+      "They focused too much on ethical problems",
+      "They interpreted the world without changing it",
+      "They ignored classroom settings",
+      "They equated metaphysics to witchcraft"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What has philosophy always aimed at doing, according to Point 41?",
+    options: [
+      "Changing society",
+      "Remaining purely speculative",
+      "Serving religious temples",
+      "Rejecting moral arguments"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to the notes, what is the historical aim of philosophy?",
+    options: [
+      "To change society",
+      "To avoid social change",
+      "To establish absolute monarchies",
+      "To replace science entirely"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "What kind of philosophies of our forefathers and foremothers helped in winning independence for African countries?",
+    options: [
+      "Ideological and radical philosophies",
+      "Conservative and quietist philosophies",
+      "Occultic and metaphysical witchcraft",
+      "Speculative and aesthetic philosophies"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The independence of African countries was aided by what aspect of our forefathers' legacy?",
+    options: [
+      "Their ideological and radical philosophies",
+      "Their purely theoretical logical systems",
+      "Their rejection of ethics and values",
+      "Their dedication to classroom environments"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "Who stated that the function of philosophy everywhere is to examine the intellectual foundations of life?",
+    options: [
+      "Okoro",
+      "Karl Marx",
+      "Wiredu",
+      "Andronicus"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Wiredu, philosophy uses the best available modes of knowledge and reflection for what purpose?",
+    options: [
+      "Winning political elections",
+      "Human well-being",
+      "Speculative classroom arguments",
+      "Developing technological military defense"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "According to Point 44, the duty of the philosopher is NOT to instruct, but to:",
+    options: [
+      "prod or stimulate people to think about basic problems of existence",
+      "establish dogmatic and unchangeable scientific laws",
+      "remain silent in the classroom setting",
+      "enforce legal penalties on citizens of the state"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst102",
+    chapter: 1,
+    question: "The duty of the philosopher is to stimulate people to think about basic problems of existence as they affect them as:",
+    options: [
+      "Individuals and as social collectives",
+      "Scientific experts and researchers",
+      "Religious leaders and church members",
+      "Rulers and absolute political monarchs"
+    ],
+    answer: 0
+  }
 ]
