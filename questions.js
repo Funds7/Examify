@@ -4054,5 +4054,1997 @@ const QUESTIONS = [
       "Jane is very beautiful"
     ],
     answer: 0
-  }
+  },
+  {
+  course: "gst101",
+  chapter: 7,
+  question: "What is another name for book materials according to the notes?",
+  options: [
+    "Print materials",
+    "Nonprint materials",
+    "Audio-visual materials",
+    "Microforms"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "Which of the following is listed as an example of book or print materials?",
+  options: [
+    "Textbooks, dictionaries, encyclopedias, yearbooks, directories, manuals, bibliographies, government documents, and pamphlets",
+    "Microforms, magnetic tapes, and motion picture films",
+    "Open Access Publications and OPAC terminals",
+    "University accreditation documents and social media networks"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "What is another term used to refer to non-book or nonprint materials?",
+  options: [
+    "Audio-visual materials",
+    "Reference sources",
+    "Government documents",
+    "Institutional repositories"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "Which of the following is categorized as a non-book or nonprint material in Point 2?",
+  options: [
+    "Microforms, magnetic tapes, slides, filmstrips, radio, television, computer, and motion picture films",
+    "Textbooks, dictionaries, encyclopedias, and pamphlets",
+    "National libraries and special libraries",
+    "OPAC databases and user education programs"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "According to the notes, what are the different types of libraries across the world?",
+  options: [
+    "National libraries, public libraries, special libraries, academic libraries, school libraries, and media centres",
+    "Automated libraries, manual libraries, and book stores",
+    "Textbooks, dictionaries, encyclopedias, and pamphlets",
+    "Universities, polytechnics, and schools of nursing"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "Which of the following is NOT listed as a type of library in Point 3?",
+  options: [
+    "Institutional repositories",
+    "Public libraries",
+    "Special libraries",
+    "Media centres"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "According to the notes, what are academic libraries?",
+  options: [
+    "Libraries that are established and managed by tertiary/higher institutions of learning",
+    "Libraries managed directly by national governments only",
+    "Media centres located strictly within primary schools",
+    "Storehouses that contain only nonprint audio-visual materials"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "Which institutions establish and manage academic libraries?",
+  options: [
+    "Tertiary/higher institutions of learning",
+    "Private social media companies",
+    "National broadcasting corporations",
+    "Media centers and libraries across the world"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "Which of the following is listed as an example of an institution that manages an academic library?",
+  options: [
+    "Universities, polytechnics, colleges of education, petroleum training institutes, and schools of nursing",
+    "National libraries, public libraries, and special libraries",
+    "Social media networks and OPAC terminals",
+    "Institutional repositories in remote places"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "According to Point 5, libraries managed by schools of nursing and petroleum training institutes are examples of:",
+  options: [
+    "Academic libraries",
+    "National libraries",
+    "Special media centres",
+    "Non-book materials"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "What is listed as part of the significance of the library in Point 6?",
+  options: [
+    "Storehouse/warehouse of knowledge, borrowing privileges, user-education programme, and support for university accreditation",
+    "Designing six-stage literature programs like Evoker",
+    "Creating digital lists of consonants and vowels",
+    "Providing television and radio broadcasts to primary schools"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "According to the notes, the library acts as a storehouse or:",
+  options: [
+    "warehouse of knowledge",
+    "reference dictionary",
+    "media publication center",
+    "remote online server"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "What functions can automated libraries perform according to the notes?",
+  options: [
+    "Online Public Access Catalogue (OPAC), Open Access Publication, Social Media Networks, Institutional Repositories, and Access to Library Collections in remote places",
+    "Grading examinations, printing textbooks, and managing tertiary admissions",
+    "Eliminating all spelling and punctuation errors automatically in publication",
+    "Organizing narrative essays in chronological order"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "According to Point 7, automated libraries can provide access to library collections in:",
+  options: [
+    "remote places",
+    "national libraries only",
+    "schools of nursing only",
+    "local media centres only"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "What does OPAC allow a library user to do at the terminal?",
+  options: [
+    "Search the database to see if the library holds a particular work",
+    "Borrow books without permission from the librarian",
+    "Revise literature studies like prose and poetry",
+    "Check their university accreditation status"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 7,
+  question: "According to Point 8, what is searched by the library user at the OPAC terminal?",
+  options: [
+    "The database",
+    "The national library collections",
+    "The social media network",
+    "The school of nursing files"
+  ],
+  answer: 0
+},
+  {
+  course: "gst101",
+  chapter: 8,
+  question: "What forms do information services take according to the notes?",
+  options: [
+    "From the simple provision of an address, tracking down an elusive bibliographic citation, and delivery of document",
+    "Direct teaching of the five stages of literature studies",
+    "Performing brain surgery for reading deficiencies",
+    "Translating all verbal groups into nominal clauses"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 1, tracking down an elusive bibliographic citation and delivery of a document are forms of:",
+  options: [
+    "Information services",
+    "Bad reading habits",
+    "Places of articulation",
+    "Academic library types"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What is bibliographic instruction or user education according to the notes?",
+  options: [
+    "Any activity/program designed to teach library users the skills required to identify, locate retrieve evaluate, and use information resources available in the library",
+    "Behind-the-scene indirect referential activities involving acquisition of stock",
+    "An online database system that holds all reference directories of the state",
+    "A visual representation of the earth's flat surface"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 2, user education aims to teach skills to retrieve, evaluate, locate, identify, and use:",
+  options: [
+    "information resources available in the library",
+    "speech organs of the human anatomy",
+    "single-author citations in APA format",
+    "pre-writing outlines"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What is selective dissemination of information?",
+  options: [
+    "A customized reference service offered to users by academic libraries",
+    "A manual program used to eliminate spelling errors in publications",
+    "The shortest stretch of speech we can pronounce",
+    "A database that systematically arranges organization addresses"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 3, what type of service is selective dissemination of information?",
+  options: [
+    "A customized reference service",
+    "An automated catalog service",
+    "A general public lecture service",
+    "A direct document delivery service"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Who works closely with the potential user to ascertain his or her needs?",
+  options: [
+    "The reference librarian",
+    "The university president",
+    "The research supervisor",
+    "The school principal"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, the reference librarian works closely with potential users to:",
+  options: [
+    "ascertain his or her needs",
+    "restrict borrowing privileges",
+    "teach them how to write in the past tense",
+    "proofread their research manuscripts"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What are reference services also referred to as, according to Point 5?",
+  options: [
+    "Indirect reference",
+    "Selective dissemination",
+    "Bibliographic instruction",
+    "Direct reference"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What do indirect reference or reference services consist of?",
+  options: [
+    "Behind the scene activities of the library in selection, acquisition, processing, maintenance of library stock, preparation, and development",
+    "Direct physical assistance at the OPAC database terminals",
+    "Giving direct instructions to users on alphabetical letters",
+    "Teaching five-stage literature procedures to research students"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "How is a reference source defined in Chapter 8?",
+  options: [
+    "Any materials, published work, database, website, etc which is used to obtain authoritative information",
+    "A flat representation of the earth's surface",
+    "A summary of the content of a publication",
+    "A list of single-author publications arranged chronologically"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Any materials, published work, database, or website used to obtain authoritative information is called:",
+  options: [
+    "A reference source",
+    "An indirect service",
+    "A bibliographic citation",
+    "An index list"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, which of the following is included in the types of reference sources?",
+  options: [
+    "Encyclopedias, dictionaries, abstracts, indexes, handbooks, yearbooks, maps and atlases, biographies, bibliographies, and government documents",
+    "Textbooks, libraries, reference librarians, and OPAC databases",
+    "Lungs, larynx, pharynx, velum, lips, and teeth",
+    "Narrative, descriptive, expository, and argumentative essays"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Which of the following is NOT listed as a type of reference source in Point 7?",
+  options: [
+    "Syllable",
+    "Abstract",
+    "Biography",
+    "Handbook"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What are encyclopedias according to the notes?",
+  options: [
+    "Books that contain information on all branches of knowledge",
+    "Collections of words treated for pronunciation and meaning",
+    "Lists of names and systematically arranged addresses",
+    "Representations of the earth's surface"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Which of the following is given in the notes as an example of an encyclopedia?",
+  options: [
+    "New Encyclopedias Britannica and the Encyclopedia of the Social Sciences",
+    "Olili, C. (2011). Examination malpractice.",
+    "Akohwo and Omote(200, p.20)",
+    "Osakwe, P., Ofuoma, O., Otagbe R., Eku, S.,& Ofogba, C. (2014)"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "How is the dictionary defined in Point 9?",
+  options: [
+    "A collection of words in which each word is treated as to pronunciations, derivation, usage meaning. and syllabification",
+    "A book containing information on all branches of knowledge",
+    "A systematic list of persons or organizations giving addresses",
+    "A brief summary of the content of a document"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, what elements are words treated for in a dictionary?",
+  options: [
+    "Pronunciations, derivation, usage meaning. and syllabification",
+    "Statistical values and target audiences",
+    "Pre-writing stages and outline types",
+    "Places and manners of articulation"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What is a directory according to the notes?",
+  options: [
+    "A list of persons or organizations, systematically arranged, usually in alphabetical or classed order, giving addresses affiliation",
+    "A collection of words treated for their derivation and syllabification",
+    "A representation of the earth's surface",
+    "A handy guide to a particular subject"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 10, directories are systematically arranged and typically give:",
+  options: [
+    "addresses affiliation",
+    "pronunciations and derivations",
+    "brief summaries of academic content",
+    "life histories of famous individuals"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What do abstracts present according to Point 11?",
+  options: [
+    "A brief summary of the content of a document in a pattern similar to that of the original document",
+    "A systematic list of names and organizational locations",
+    "The pronunciation and derivation of words",
+    "Historical life records of individuals"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, an abstract presents a summary of a document in a pattern:",
+  options: [
+    "similar to that of the original document",
+    "that matches an argumentative essay format",
+    "dictated by Francis Pleasant Robinson",
+    "arranged strictly in geographical order"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, what serves as a handy guide to a particular subject?",
+  options: [
+    "The handbook or manual",
+    "The map or atlas",
+    "The bibliography",
+    "The abstract"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What is the function of a handbook or manual based on Point 12?",
+  options: [
+    "It serves as a handy guide to a particular subject",
+    "It presents a brief summary of a document's content",
+    "It lists all book and non-book academic materials",
+    "It records the history of individuals in a society"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "How is a map defined in the notes?",
+  options: [
+    "A representation, usually flat, of the earth's surface or part of it",
+    "A list of systematically described books and manuscripts",
+    "A handy guide to a particular literature genre",
+    "A brief summary of a document's core contents"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 13, a map is usually:",
+  options: [
+    "flat",
+    "digital",
+    "alphabetical",
+    "structured as a list"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What do biography sources record?",
+  options: [
+    "The history of the lives of individuals in the society",
+    "Systematically arranged list of books and manuscripts",
+    "Pronunciation and derivation of words",
+    "Addresses and affiliations of organizations"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 14, sources that record the life history of individuals in society are:",
+  options: [
+    "Biographies sources",
+    "Bibliographies",
+    "Directories",
+    "Yearbooks"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What is a bibliography according to Point 15?",
+  options: [
+    "A list of books, manuscripts, and other items of information systematically described and arranged to ease their identification, location, retrieval, and use",
+    "A handy guide to a particular science or technical subject",
+    "A list of organizational members along with their residential addresses",
+    "A flat visual representation of the earth's surface or sections of it"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, a bibliography is systematically arranged and described to ease:",
+  options: [
+    "identification, location, retrieval, and use of items of information",
+    "the pronunciation and syllabification of vocabulary",
+    "the final process of editing and proofreading",
+    "the classification of pure and impure vowels"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "What can vary depending on the field of study according to Point 16?",
+  options: [
+    "Documentation style",
+    "The definition of a map",
+    "The format of an abstract",
+    "The spelling of abbreviations"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, variations in documentation style depend directly on:",
+  options: [
+    "the field of study",
+    "the length of the bibliography",
+    "the number of reference librarians",
+    "the type of encyclopedia used"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "When referencing a work that has two authors, what is the rule?",
+  options: [
+    "Cite both authors",
+    "Cite only the first author followed by et al.",
+    "Cite only the first author's initials",
+    "Omit the names and list only the publication date"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Which of the following examples is given in the notes for referencing a work with two authors?",
+  options: [
+    "Akohwo and Omote(200, p.20) also observe....",
+    "Olili, C. (2011). Examination malpractice.",
+    "Osakwe, P., Ofuoma, O., Otagbe R., Eku, S.,& Ofogba, C. (2014)",
+    "Walter Paul (1962)"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 19, when referencing one work by multiple authors, what should be done in the first instance?",
+  options: [
+    "List all authors",
+    "List only the first author followed by et al.",
+    "Cite the book title instead of the authors",
+    "Omit all authors' names"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "For a work with multiple authors, how should subsequent citations be formatted after the first instance?",
+  options: [
+    "The first author followed by et al.",
+    "List all authors again",
+    "List only the book title and publication year",
+    "Omit everything except the page numbers"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Where does the reference list appear according to Point 20?",
+  options: [
+    "At the end of your report but before the appendix",
+    "At the very beginning of the first chapter",
+    "Immediately following the abstract page",
+    "Within the body paragraphs of the report"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to the notes, the reference list is placed:",
+  options: [
+    "before the appendix",
+    "after the appendix",
+    "after the title page",
+    "before the bibliography section"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Which of the following is the single-author reference example given in the notes?",
+  options: [
+    "Olili, C. (2011). Examination malpractice. Abraka: Delsu, library services.",
+    "Akohwo and Omote(200, p.20)",
+    "Osakwe, P., Ofuoma, O., Otagbe R., Eku, S.,& Ofogba, C. (2014)",
+    "New Encyclopedias Britannica"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 21, the book 'Examination malpractice' (2011) is written by:",
+  options: [
+    "Olili, C.",
+    "Akohwo and Omote",
+    "Osakwe, P.",
+    "Walter Paul"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "Which of the following is provided in the notes as an example of a reference with two to seven authors?",
+  options: [
+    "Osakwe, P., Ofuoma, O., Otagbe R., Eku, S.,& Ofogba, C. (2014).",
+    "Olili, C. (2011). Examination malpractice. Abraka: Delsu, library services.",
+    "Akohwo and Omote(200, p.20)",
+    "New Encyclopedias Britannica"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 8,
+  question: "According to Point 22, the reference example starting with 'Osakwe, P.' represents how many authors?",
+  options: [
+    "Two - seven authors",
+    "A single author",
+    "More than ten authors",
+    "An anonymous source"
+  ],
+  answer: 0
+},
+  {
+  course: "gst101",
+  chapter: 9,
+  question: "Who describes the e-library as a system providing a community of users with coherent access to a large organized repository of information and knowledge?",
+  options: [
+    "Lynch & Garcia Molina (1995)",
+    "Anderson (2006)",
+    "Stebbins (2011)",
+    "Francis Pleasant Robinson (1946)"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Lynch & Garcia Molina (1995), what does an e-library provide to a community of users?",
+  options: [
+    "Coherent access to a large organized repository of information and knowledge",
+    "Direct print textbook deliveries",
+    "Proofreading tools for published documents",
+    "A five-stage literature evaluation method"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to the notes, how can an e-library be accessed?",
+  options: [
+    "Remotely via the internet or locally",
+    "Only physically inside a university building",
+    "Exclusively by mailing a written request",
+    "Only through microforms and magnetic tapes"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "An e-library can be accessed locally or remotely via:",
+  options: [
+    "the internet",
+    "national newspapers",
+    "selective dissemination reference lists",
+    "speech organs"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which of the following is listed in the notes as an e-resource available in the Delta State University E-library?",
+  options: [
+    "EBSCOhost (http://search.ebschost.com) and HINARI (https://extranet.who.int/hinari/en/journals.php)",
+    "Encyclopaedia Britannica and Encyclopedia of the Social Sciences",
+    "Evoker literature guides",
+    "Delsu library print archives"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Point 3, HINARI is accessible via which web address?",
+  options: [
+    "https://extranet.who.int/hinari/en/journals.php",
+    "http://search.ebschost.com",
+    "http://google.com",
+    "http://search.ebscohost.com"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Point 4, what are the advantages of a library?",
+  options: [
+    "Round-the-clock access to information, smaller storage space, and easy organization of materials",
+    "Restricting borrowing privileges to local residents",
+    "Physical-only directories and a larger storage footprint",
+    "The life of the author plus 50 years restriction"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which of the following is listed as an advantage of a library in Point 4?",
+  options: [
+    "Requires smaller storage space",
+    "It has a six-stage literature program",
+    "Eliminates the need for computers",
+    "Allows search only via Meta search engines"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is an electronic resource according to the notes?",
+  options: [
+    "Any information source that the library provides access to in an electronic format",
+    "A textbook stored strictly as print material",
+    "A physical representation of the earth's surface",
+    "A systematically arranged list of persons and organizations"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Any information source that the library provides access to in an electronic format is defined as:",
+  options: [
+    "Electronic resources",
+    "Direct reference services",
+    "Bibliographic outlines",
+    "Book materials"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What are the basic tools for searching e-resources according to the notes?",
+  options: [
+    "Search engines",
+    "Bibliographies",
+    "Print directories",
+    "Sound chords"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which of the following is given in the notes as an example of a search engine?",
+  options: [
+    "google search engine",
+    "EBSCOhost",
+    "OPAC terminal",
+    "HINARI"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What are the two types of search engines according to the notes?",
+  options: [
+    "Individual search engines and Meta search engines",
+    "National search engines and academic search engines",
+    "Automated search engines and manual search engines",
+    "Boolean search engines and Nesting search engines"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Point 8, individual and Meta are types of:",
+  options: [
+    "search engines",
+    "e-libraries",
+    "copyright laws",
+    "reference sources"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What do individual search engines do according to the notes?",
+  options: [
+    "Compile their own searchable databases on the web",
+    "Depend on other search engines' databases to produce results",
+    "Search only print-based library materials",
+    "Format single-author reference citations"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Google, Yahoo, and Bing are given as examples of:",
+  options: [
+    "Individual search engines",
+    "Meta-search engines",
+    "Reference directories",
+    "Bibliographic styles"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is a Meta-search engine according to the notes?",
+  options: [
+    "A search tool that depends on other search engine's data to produce their own results from the internet",
+    "A tool that compiles its own searchable database on the web",
+    "A small directory restricted to academic publications",
+    "A system used to track down physical bibliographic citations"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "A search tool that depends on other search engines' data to produce its own results is classified as:",
+  options: [
+    "Meta-search engines",
+    "Individual search engines",
+    "Field search engines",
+    "Nested search engines"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "How do search engines compile their databases according to Point 11?",
+  options: [
+    "By employing 'spiders' or 'robots to crawl through web space from link to link, identifying and perusing pages",
+    "By gathering physical questionnaires from students",
+    "By requiring librarians to enter each web link manually",
+    "By referencing CAP. 68 Laws of the Federation"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What do search engines employ to crawl through web space from link to link?",
+  options: [
+    "'spiders' or 'robots",
+    "Boolean operators",
+    "Reference librarians",
+    "Plagiarism checkers"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to the notes, what is the size relationship between directories and search engine databases?",
+  options: [
+    "Directories are smaller than search engine databases",
+    "Directories are much larger than search engine databases",
+    "Directories and search engine databases are exactly the same size",
+    "Directories do not have databases"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which search tool database is described in Point 12 as being smaller than a search engine database?",
+  options: [
+    "Directories",
+    "Meta-search engines",
+    "Individual search engines",
+    "URL databases"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What does a search strategy involve according to Point 13?",
+  options: [
+    "A structured organization of terms used to search a database",
+    "Reading an entire document intended for publication",
+    "Restricting noncommercial use of copyright works",
+    "A five-stage literature evaluation process"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "The structured organization of terms used to search a database is known as a:",
+  options: [
+    "search strategy",
+    "nested search",
+    "Boolean logic",
+    "field search"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is Boolean logic based on the notes?",
+  options: [
+    "A form of algebra in which all values are reduced to either TRUE or FALSE",
+    "A method to search for images on a host server",
+    "A legal right to disallow exploitation of original works",
+    "A system used to organize reference libraries"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "In Boolean logic, all values are reduced to:",
+  options: [
+    "either TRUE or FALSE",
+    "either YES or NO",
+    "either 1 or 10",
+    "either ALL or NONE"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "How does the Boolean 'AND' affect a search?",
+  options: [
+    "It narrows a search by retrieving only documents that contain every keyword entered",
+    "It expands a search by returning a document in which either keyword appears",
+    "It limits the search by excluding the first keyword completely",
+    "It forces operation precedence using parentheses"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which Boolean operator narrows a search by retrieving only documents that contain every keyword entered?",
+  options: [
+    "'AND'",
+    "'OR'",
+    "'NOT'",
+    "'NEST'"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "How does the Boolean 'OR' affect a search?",
+  options: [
+    "It expands the search result by returning a document in which either or both keyboards appear",
+    "It narrows the search to only documents containing every keyword entered",
+    "It limits the search by returning only the first keyword and not the second",
+    "It forces operation precedence in more than one operator"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which Boolean operator expands search results by returning documents in which either or both keyboards appear?",
+  options: [
+    "'OR'",
+    "'AND'",
+    "'NOT'",
+    "'EXCEPT'"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is the function of the Boolean 'NOT' operator?",
+  options: [
+    "It limits your search by returning only your first keyword but not the second, even if the first word appears in that document too",
+    "It narrows the search by retrieving only documents that contain every keyword entered",
+    "It expands the search by returning either or both keywords",
+    "It separates keywords when using three or more terms"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which Boolean operator limits a search by returning only the first keyword but not the second?",
+  options: [
+    "'NOT'",
+    "'AND'",
+    "'OR'",
+    "'NEST'"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What does nesting involve according to the notes?",
+  options: [
+    "Using parentheses to force operation precedence and to separate keywords when using more than one operator and three or more keywords",
+    "Limiting your search to only the first keyword entered",
+    "Compiling searchable databases on the web using spiders",
+    "Restraining others from exploiting an author's original work"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Point 18, why are parentheses used in nesting?",
+  options: [
+    "To force operation precedence and separate keywords when using more than one operator and three or more keywords",
+    "To narrow search results using Boolean 'AND'",
+    "To show that words have been omitted in a sentence",
+    "To cite single-author references"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is the primary function of field searching according to Point 19?",
+  options: [
+    "It allows users to specify exactly where the search engine should search in locating a Web document",
+    "It reduces all algebraic values to either TRUE or FALSE",
+    "It compiles databases using crawling spiders",
+    "It restricts copyright exploitation without approval"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which search tool allows users to specify exactly where a search engine should search in locating a Web document?",
+  options: [
+    "Field searching",
+    "Boolean 'OR'",
+    "Nesting",
+    "Meta-searching"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which of the following contains examples of field searching listed in the notes?",
+  options: [
+    "Title searching, Host searching, URL searching, and Image searching",
+    "Individual search engines and Meta-search engines",
+    "Boolean 'AND', 'OR', and 'NOT'",
+    "Literary, dramatic, musical, and artistic works"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Point 20, host searching and URL searching are examples of:",
+  options: [
+    "Field searching",
+    "Boolean algebra",
+    "Database crawlers",
+    "Copyright protection"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is copyright according to the notes?",
+  options: [
+    "A set of exclusive rights granted by law to the author or creator of an original work which include the right to copy, distribute, and adapt the work",
+    "A form of algebra in which values are reduced to TRUE or FALSE",
+    "The violation of laws by using an author's document verbatim",
+    "A system that provides access to e-resources remotely"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to Point 21, what rights are included in copyright?",
+  options: [
+    "The right to copy, distribute and adapt the work",
+    "The right to exploit works without any legal permission",
+    "The right to use search engine databases locally",
+    "The right to crawl through web spaces using robots"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which Act recognizes copyright as a right to stop others and restrain them from exploiting another's work?",
+  options: [
+    "The Copyright Act CAP. 68, Laws of the Federation 2004",
+    "The Berne Convention of 1962",
+    "The Delta State University E-library Charter",
+    "The Electronic Library and Copyright Decree"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "How does the Copyright Act CAP. 68 recognize copyright?",
+  options: [
+    "As a right to stop or debar others from doing something and to restrain others from exploiting other's work",
+    "As an absolute right to plagiarize a document with trivial changes",
+    "As a means of sharing nonprint materials on social media networks",
+    "As a guideline to select, acquire, and maintain library stock"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is the first type of right a copyright owner is entitled to under Point 23?",
+  options: [
+    "The exclusive right to copy and exploit the work, as well as permit others to do the same",
+    "The right to use other people's work verbatim without permission",
+    "The right to access search databases remotely via HINARI",
+    "The right to use parentheses to force operation precedence"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to the notes, what is the second type of right a copyright owner holds?",
+  options: [
+    "A legal right to disallow anybody from exploiting the copyrighted work without approval",
+    "An exclusive right to change the author's name with trivial changes",
+    "A right to bypass Google, Yahoo, and Bing databases",
+    "A right to limit fair dealings to commercial purposes only"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is the duration of copyright provided for by law in Nigeria and Berne Convention countries?",
+  options: [
+    "The life of the author plus not less than 50 years after his death",
+    "Exactly 50 years from the date of publication",
+    "The life of the author plus not less than 20 years after his death",
+    "Up to the death of the author's children"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which convention is mentioned alongside Nigeria regarding the duration of copyright?",
+  options: [
+    "The Berne Convention",
+    "The Copyright Act CAP. 68",
+    "The Delta State E-library Agreement",
+    "The Selective Dissemination Convention"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which of the following is protected by copyright according to Point 25?",
+  options: [
+    "Original works of authorship including literary, dramatic, musical, artistic, and other intellectual works",
+    "Only published works that are stored in academic libraries",
+    "Search engines like Google, Yahoo, and Bing databases exclusively",
+    "Parentheses used to force operation precedence in search terms"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Does copyright protect unpublished original works according to Point 25?",
+  options: [
+    "Yes, regardless of whether the work is published or unpublished",
+    "No, it only protects published works",
+    "No, it only protects works registered under CAP. 68",
+    "Only if they are hosted on a remote library database"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is defined as the infringement of copyright?",
+  options: [
+    "The unauthorized use of copyrighted materials in a manner that violates one of the copyright owner's exclusive rights to produce or to make derivative that build upon it",
+    "The noncommercial use of works for private research and criticism",
+    "Using parentheses to force operation precedence in Boolean logic",
+    "Accessing electronic resources remotely via HINARI"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Infringement occurs when unauthorized use violates the owner's exclusive right to produce or to make:",
+  options: [
+    "derivative that build upon it",
+    "search engine databases",
+    "fair dealings exceptions",
+    "Nesting operators"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What is plagiarism according to Point 27?",
+  options: [
+    "The violation of copyright law to use all or any part of an author's document, either verbatim or with trivial changes",
+    "The legal right to copy and distribute original works under fair dealings",
+    "The use of 'spiders' or 'robots' to index web databases",
+    "A customized reference service offered by academic libraries"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Using all or any part of an author's document, either verbatim or with trivial changes, is considered:",
+  options: [
+    "Plagiarism",
+    "Nesting",
+    "Fair dealing",
+    "Field searching"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which body was established in Nigeria to see to the administration of copyright?",
+  options: [
+    "Nigeria Copyright Council",
+    "Berne Convention Committee",
+    "Selective Dissemination Board",
+    "Delta State Library Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to the notes, what is the role of the Nigeria Copyright Council?",
+  options: [
+    "To see to the administration of copyright",
+    "To compile individual search engine databases",
+    "To manage remote academic e-libraries",
+    "To regulate Boolean logic operations"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "What does 'fair dealings' cover according to Point 29?",
+  options: [
+    "Noncommercial use of works such as for the purpose of private research, criticism, review and reporting current events",
+    "Verbatim copying of an author's entire document with trivial changes",
+    "The commercial exploitation of copyrighted materials without approval",
+    "Spiders crawling through web space from link to link"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Private research, criticism, review, and reporting current events are considered:",
+  options: [
+    "Noncommercial uses covered by fair dealings",
+    "Direct violations of copyright law",
+    "Examples of plagiarism",
+    "Field searching techniques"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "Which of the following is listed as a factor that determines what constitutes fair dealing of a copyrighted work?",
+  options: [
+    "The amount of the original work taken, the purpose of use, and the necessity of use",
+    "The duration of the life of the author plus 50 years",
+    "Whether the work is literary, dramatic, musical, or artistic",
+    "Using google, Yahoo, or Bing databases"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 9,
+  question: "According to the notes, the necessity of the use of the work is a factor that helps determine:",
+  options: [
+    "What constitutes fair dealing of a copyrighted work",
+    "If a work has been plagiarized verbatim",
+    "The classification of search engine databases",
+    "The placement of parenthetical operators in nesting"
+  ],
+  answer: 0
+},
+  {
+  course: "gst101",
+  chapter: 10,
+  question: "How is the library simply defined based on the notes?",
+  options: [
+    "A collection of books and other literary materials organized for reading, studying, and consultation",
+    "A building containing only non-book audio-visual materials",
+    "An online portal designed strictly for Boolean searches",
+    "A system managed exclusively by the Nigeria Copyright Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 1, library materials are organized for which of the following purposes?",
+  options: [
+    "Reading, studying, and consultation",
+    "Direct publication and commercial reproduction",
+    "Checking for spelling and punctuation errors",
+    "Translating all verbal groups into clauses"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, what are library materials made of in this modern era?",
+  options: [
+    "Books, computer systems and their accessories, library software, internet, e-books databases, compact discs, flash drives, newspapers, audio-visual materials, etc.",
+    "Exclusively 3x5 paper cards in wooden catalog cabinets",
+    "Printed reference dictionaries and encyclopedias only",
+    "Non-book materials managed by the Berne Convention"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Which of the following is listed as a modern library material in Point 2?",
+  options: [
+    "E-books databases, compact discs, and flash drives",
+    "Manual outline templates",
+    "Speech organs and phonetic chords",
+    "Pre-writing drafts"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 3, what sensitive task involves overseeing the work of a library in all its relations, and planning and promoting its usefulness and services?",
+  options: [
+    "Library management",
+    "Descriptive cataloging",
+    "User education",
+    "Subject cataloging"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Based on the notes, what does library management do regarding the library's usefulness and services?",
+  options: [
+    "Planning and promoting them",
+    "Eliminating them to reduce storage space",
+    "Restricting them to university employees only",
+    "Restraining others from exploiting them"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Which of the following are listed as the features of a library?",
+  options: [
+    "The books and non-book materials, the staff, and the building",
+    "The catalog cards, the databases, and the internet",
+    "The national, public, and private sections",
+    "The LC scheme, the Dewey scheme, and the Brown scheme"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 4, the human resource (staff) and the physical structure (building) are classified as:",
+  options: [
+    "Features of a library",
+    "Standard classification schemes",
+    "Traditional retrieval methods",
+    "Automated library functions"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What is the definition of books based on Point 5?",
+  options: [
+    "A collection of written papers in a manuscript or in printed forms that are of substantial length",
+    "Library materials which do not come within the definition of book",
+    "Microforms and magnetic tapes used to obtain authoritative information",
+    "Graphical presentations of all information in a work"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, books must be of:",
+  options: [
+    "Substantial length",
+    "Shortened or clipped forms",
+    "Nonprint format only",
+    "Three levels of comprehension"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What are non-book materials according to Point 6?",
+  options: [
+    "Library materials which do not come within the definition of book",
+    "Textbooks and reference encyclopedias of substantial length",
+    "Only those resources accessed remotely via the internet",
+    "Books written in printed forms or manuscripts"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, which of the following is included in non-book materials?",
+  options: [
+    "Audio-visual materials, periodicals, computer systems, video recording, etc.",
+    "Textbooks and dictionaries of substantial length",
+    "Only 3x5 cards showing author details",
+    "Narrative and expository manuscripts"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Who are the staff of the library based on Point 7?",
+  options: [
+    "The human resources who power the library services and who ensure its effectiveness",
+    "The students who take user-education programmes",
+    "The private individuals who manage special libraries",
+    "The programmers who build library software databases"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, the effectiveness of library services is powered and ensured by:",
+  options: [
+    "The staff of the library",
+    "Modern ICT facilities",
+    "The Library of Congress scheme",
+    "Subject catalog cards"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Library staff who possess university degrees such as BLS, MLS, and Ph.D in Library and Information Sciences are called:",
+  options: [
+    "Professional Librarians",
+    "Reference clientele",
+    "Traditional catalogers",
+    "Academic administrators"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, what qualifications must professional Librarians possess?",
+  options: [
+    "University degrees such as BLS, MLS, and Ph.D in Library and Information Sciences",
+    "At least a diploma in computer systems and accessories",
+    "Certification from the Nigeria Copyright Council",
+    "Experience in writing descriptive outlines"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Which of the following lists the different types of libraries according to Point 9?",
+  options: [
+    "Academic libraries, Public libraries, Private libraries, National libraries, Special libraries, and School libraries",
+    "Textbooks, reference sources, databases, and microforms",
+    "Automated libraries, automated catalogs, and remote e-libraries",
+    "Subject catalog, author catalog, and title catalog"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 9, how many different types of libraries are listed?",
+  options: [
+    "Six",
+    "Five",
+    "Four",
+    "Three"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, what are academic libraries?",
+  options: [
+    "Libraries that serve tertiary institutions such as universities, polytechnics, and colleges of education",
+    "Libraries primarily established by state governments to serve the public",
+    "Libraries owned by private individuals and not supported by public funds",
+    "Apex libraries of any nation that preserve literary heritages"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Which institutions do academic libraries serve?",
+  options: [
+    "Tertiary institutions such as universities, polytechnics, and colleges of education",
+    "Primary and secondary schools exclusively",
+    "Particular groups of employees in governments and banks",
+    "Private companies and firms across the world"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Who primarily establishes public libraries according to Point 11?",
+  options: [
+    "State government",
+    "Private individuals without public funds",
+    "Tertiary institutions such as polytechnics",
+    "Particular firms and government banks"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Public libraries serve the educational, research, information, custodial, and:",
+  options: [
+    "Recreational needs of the entire members of the public",
+    "Commercial reproduction needs of corporate authors",
+    "Academic certification needs of school libraries",
+    "Programming needs of automated systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What are private libraries according to the notes?",
+  options: [
+    "Libraries owned by private individuals and not supported by public funds",
+    "Libraries established by state governments for all members of the public",
+    "Libraries attached to primary and secondary schools to enhance curriculum",
+    "Libraries serving a particular group of employees in banks or firms"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 12, private libraries are NOT supported by:",
+  options: [
+    "Public funds",
+    "Private individuals",
+    "Professional Librarians",
+    "Modern ICT facilities"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What does a school library refer to?",
+  options: [
+    "A library attached to primary and secondary school to enhance their curriculum, teaching, and learning",
+    "An apex library that serves the entire nation",
+    "A library owned by private individuals without public funding",
+    "A library that serves tertiary institutions like colleges of education"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, school libraries are attached to primary and secondary schools to enhance their:",
+  options: [
+    "Curriculum, teaching, and learning",
+    "Custodial, research, and recreational needs of the public",
+    "Selection, acquisition, and processing of stock",
+    "Online Public Access Catalog (OPAC)"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 14, what is the apex library of any nation?",
+  options: [
+    "The National Library",
+    "The Academic Library",
+    "The Public Library",
+    "The Special Library"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "The National Library is defined simply as the:",
+  options: [
+    "Apex library of any nation",
+    "Library owned by private individuals",
+    "Library serving tertiary institutions",
+    "Library attached to primary schools"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Which libraries serve a particular group of people, such as employees of a firm, government, banks, or research institutes?",
+  options: [
+    "Special libraries",
+    "Public libraries",
+    "Private libraries",
+    "School libraries"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 15, the library of the International Institute of Tropical Agriculture is an example of a:",
+  options: [
+    "Special library",
+    "Public library",
+    "School library",
+    "Private library"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 16, libraries mate can be organized using:",
+  options: [
+    "Modern ICT facilities such as computers, appropriate software, internet, etc.",
+    "Only traditional 3*5 cards in catalog cabinets",
+    "Selective dissemination reference services",
+    "The life of the author plus 50 years laws"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What modern facilities are mentioned for organizing libraries mate?",
+  options: [
+    "Computers, appropriate software, internet, etc.",
+    "Encyclopedias and directories",
+    "3*5 cards with author names",
+    "Manual catalogs and directories"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What card dimensions are specified in traditional methods for describing library materials?",
+  options: [
+    "3*5 cards",
+    "5*7 cards",
+    "4*6 cards",
+    "2*4 cards"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, traditional methods show details such as:",
+  options: [
+    "Author, title, and edition in the catalog cabinet",
+    "Spiders, robots, and web links",
+    "PLS, MLS, and Ph.D. qualifications",
+    "Host, URL, and image searching"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Which of the following lists the correct steps in the traditional mode of organizing library materials?",
+  options: [
+    "Pre-cataloguing or bibliographic search, Descriptive cataloging, and Subject cataloging",
+    "Choosing a topic, forming a point of view, and outlining",
+    "Exploring, evaluating, and recapitulation",
+    "Surveying, study-reading, and speed-reading"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "In Point 18, pre-cataloguing is also referred to as:",
+  options: [
+    "Bibliographic search",
+    "Subject cataloging",
+    "Descriptive search",
+    "Card search"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What standard classification schemes are listed in the notes?",
+  options: [
+    "Library of Congress (LC), Dewey Decimal Classification, and Brown Subject Classification Scheme",
+    "Author catalog, title catalog, and subject catalog",
+    "EBSCOhost, HINARI, and OPAC terminals",
+    "Individual search engines, Meta-search engines, and Directories"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Dewey Decimal Classification and Brown Subject Classification Scheme are standards used for:",
+  options: [
+    "Classifying library materials",
+    "Performing user-education programmes",
+    "Organizing administrative school libraries",
+    "Determining copyright duration"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "Who developed the Library of Congress classification scheme, and in which country?",
+  options: [
+    "Developed by the Library of Congress in the United States of America",
+    "Developed by Unoh in Nigeria",
+    "Developed by Francis Pleasant Robinson in the United Kingdom",
+    "Developed by Walter Paul in Switzerland"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 20, the LC scheme was developed in:",
+  options: [
+    "The United States of America",
+    "Nigeria",
+    "Switzerland",
+    "Delta State"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What does the Library of Congress scheme use to display the various fields of knowledge?",
+  options: [
+    "A combination of letters and Arabic numerals",
+    "Only roman numerals",
+    "Only 3*5 paper cards",
+    "A system of binary true or false values"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 21, the LC scheme displays fields of knowledge using letters combined with:",
+  options: [
+    "Arabic numerals",
+    "Roman numerals",
+    "Punctuation marks",
+    "Special symbols"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 22, what should clientele endeavor to commence with when searching for material?",
+  options: [
+    "Checking the cards catalog",
+    "Asking the reference librarian directly",
+    "Searching the HINARI database on the internet",
+    "Drafting an outline plan"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "The notes state that searching for library materials should commence at the:",
+  options: [
+    "Cards catalog",
+    "National Library apex server",
+    "Private individual files",
+    "Reference directories list"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What does the Author card show according to Point 23?",
+  options: [
+    "The main entry such as the author or cooperate name responsible for the production of such material",
+    "The specific title of the book in alphabetical order",
+    "A description of the content and scope of the book",
+    "The classification standards like LC and Dewey"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, the author or cooperate name responsible for the production of a material is found on the:",
+  options: [
+    "Author card",
+    "Title catalog",
+    "Subject catalog",
+    "Reference list"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What enables users to locate library materials when the title is known?",
+  options: [
+    "The title catalog",
+    "The author catalog",
+    "The subject catalog",
+    "The cards catalog"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to Point 24, a user should consult the title catalog when they:",
+  options: [
+    "know the title of the library material",
+    "do not know the title of the material",
+    "want to check the credentials of the librarian",
+    "need to review the copyright CAP. 68"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "What describes the content of a book, helping users understand its usefulness and scope?",
+  options: [
+    "The subject catalog",
+    "The author card",
+    "The title catalog",
+    "The directory list"
+  ],
+  answer: 0
+},
+{
+  course: "gst101",
+  chapter: 10,
+  question: "According to the notes, the subject catalog is consulted to understand the book's:",
+  options: [
+    "Usefulness and scope",
+    "Main entry and cooperate name",
+    "Traditional publishing date",
+    "Letters and Arabic numerals combinations"
+  ],
+  answer: 0
+}
 ]
