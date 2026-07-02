@@ -16413,5 +16413,7578 @@ const QUESTIONS = [
       "Limpopo River"
     ],
     answer: 0
-  }
+  },
+  {
+  course: "gst103",
+  chapter: 2,
+  question: "On what date was Delta State University (DELSU) established?",
+  options: [
+    "30th of April, 1992",
+    "27th of August, 1991",
+    "25th of February, 2021",
+    "15th of January, 1995"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In what year was Delta State University established?",
+  options: [
+    "1992",
+    "1991",
+    "1995",
+    "2001"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who was the Governor that established Delta State University?",
+  options: [
+    "Olorogun Felix Ibru",
+    "Dr. Ifeanyi Okowa",
+    "Mr. James Ibori",
+    "Dr. Emmanuel Uduaghan"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Olorogun Felix Ibru established Delta State University in his capacity as the then:",
+  options: [
+    "Governor of Delta State",
+    "Visitor of the University",
+    "Pro-Chancellor of the University",
+    "Chancellor of the University"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Delta State University started with how many faculties?",
+  options: [
+    "5 faculties",
+    "3 faculties",
+    "7 faculties",
+    "4 faculties"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following was NOT one of the initial 5 faculties that DELSU started with?",
+  options: [
+    "Law",
+    "Education",
+    "Agriculture",
+    "Social Sciences"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In what year was the Oleh Campus of Delta State University established?",
+  options: [
+    "1995",
+    "1992",
+    "2001",
+    "2021"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Oleh Campus was established in 1995 specifically for which disciplines?",
+  options: [
+    "Law and Engineering",
+    "Agriculture and Sciences",
+    "Education and Arts",
+    "Social Sciences and Health Sciences"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In what year was the College of Health Sciences established at Delta State University?",
+  options: [
+    "2001",
+    "1992",
+    "1995",
+    "2021"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which major academic unit of DELSU was established in the year 2001?",
+  options: [
+    "The College of Health Sciences",
+    "Oleh Campus for Law and Engineering",
+    "The Faculty of Social Sciences",
+    "The Faculty of Agriculture"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "On what date were three new universities established by Governor Ifeanyi Okowa?",
+  options: [
+    "25th February 2021",
+    "30th April 1992",
+    "27th August 1991",
+    "12th June 1995"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "How many new universities were established by Governor Ifeanyi Okowa on 25th February 2021?",
+  options: [
+    "Three new universities",
+    "Two new universities",
+    "Five new universities",
+    "Four new universities"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The three new universities established by Governor Ifeanyi Okowa were located in which areas?",
+  options: [
+    "Asaba, Agbo, and Ozoro",
+    "Abraka, Oleh, and Asaba",
+    "Sapele, Warri, and Ughelli",
+    "Oghara, Effurun, and Ozoro"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following locations is listed as home to one of the new universities established by Ifeanyi Okowa in 2021?",
+  options: [
+    "Ozoro",
+    "Abraka",
+    "Oleh",
+    "Sapele"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who is placed at the top of the DELSU administrative organogram and structure?",
+  options: [
+    "The Visitor",
+    "The Chancellor",
+    "The Vice-Chancellor",
+    "The Pro-Chancellor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following is listed immediately after the Visitor in DELSU's administrative structure?",
+  options: [
+    "The Chancellor",
+    "The Pro-Chancellor",
+    "The Vice-Chancellor",
+    "The Registrar"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who serves as the Visitor of Delta State University?",
+  options: [
+    "The current Governor of Delta State",
+    "The Pro-Chancellor of the University",
+    "The traditional ruler of Abraka",
+    "The Vice-Chancellor of the University"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What administrative role does the current Governor of Delta State perform at Delta State University?",
+  options: [
+    "The Visitor",
+    "The Chancellor",
+    "The Pro-Chancellor",
+    "The Chairman of Governing Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In DELSU's administrative structure, what type of position does the Chancellor hold?",
+  options: [
+    "An honorary position",
+    "An executive position",
+    "A full-time resident position",
+    "The secretary position"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which officer in DELSU's administrative structure holds an honorary position?",
+  options: [
+    "The Chancellor",
+    "The Pro-Chancellor",
+    "The Vice-Chancellor",
+    "The Registrar"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who serves as the chairman of the Governing Council in Delta State University?",
+  options: [
+    "The Pro-Chancellor",
+    "The Chancellor",
+    "The Vice-Chancellor",
+    "The Visitor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The Pro-Chancellor's primary role in DELSU's administrative structure is to serve as:",
+  options: [
+    "The chairman of the Governing Council",
+    "The honorary head of the university",
+    "The chief executive officer of the university",
+    "The secretary to the council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who serves as the Chief Executive Officer of Delta State University?",
+  options: [
+    "The Vice-Chancellor",
+    "The Chancellor",
+    "The Pro-Chancellor",
+    "The Visitor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The role of the Vice-Chancellor of DELSU is best described as the:",
+  options: [
+    "Chief Executive Officer",
+    "Secretary to the Senate",
+    "Chairman of the Governing Council",
+    "Honorary Representative of the Visitor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who serves as the secretary to the Council and the Senate in Delta State University?",
+  options: [
+    "The Registrar",
+    "The Bursar",
+    "The Pro-Chancellor",
+    "The Vice-Chancellor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The Registrar's administrative function in DELSU includes serving as secretary to which bodies?",
+  options: [
+    "The Council and Senate",
+    "The Student Union and Congregation",
+    "The Governing Council and Library Board",
+    "The Faculty Board and Departmental Board"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who is responsible for managing the financial matters of DELSU?",
+  options: [
+    "The Bursar",
+    "The Registrar",
+    "The Vice-Chancellor",
+    "The University Librarian"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The management of financial matters at DELSU is the primary responsibility of the:",
+  options: [
+    "Bursar",
+    "Registrar",
+    "Deans of Faculties",
+    "Pro-Chancellor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who oversees the library services of Delta State University?",
+  options: [
+    "The University Librarian",
+    "The Registrar",
+    "The Deans of Faculties",
+    "The Bursar"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The primary responsibility of the University Librarian in DELSU is to:",
+  options: [
+    "Oversee the University's library services",
+    "Manage the academic records of the university",
+    "Direct student welfare and sports",
+    "Manage university investments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which officers lead the academic units in DELSU alongside the Deans of Faculties?",
+  options: [
+    "The Provost of the College of Health Sciences",
+    "The Registrar",
+    "The Bursar",
+    "The University Librarian"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Academic units in DELSU are led by the Deans of Faculties and the:",
+  options: [
+    "Provost of the College of Health Sciences",
+    "Director of ICT",
+    "Bursar of the University",
+    "Heads of non-academic departments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following is listed as one of the main administrative organs of DELSU?",
+  options: [
+    "Governing Council",
+    "Works and Services Unit",
+    "Registry Unit",
+    "Sports Department"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "How many main administrative organs of DELSU are listed in the notes?",
+  options: [
+    "6 main organs",
+    "5 main organs",
+    "8 main organs",
+    "4 main organs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who serves as the Head of the Governing Council of DELSU?",
+  options: [
+    "The Pro-Chancellor",
+    "The Chancellor",
+    "The Vice-Chancellor",
+    "The Registrar"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The Governing Council of DELSU is headed by which administrative officer?",
+  options: [
+    "The Pro-Chancellor",
+    "The Vice-Chancellor",
+    "The Visitor",
+    "The Chancellor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which administrative organ is responsible for academic matters and policies within DELSU?",
+  options: [
+    "The Senate",
+    "The Governing Council",
+    "The Congregation",
+    "The Student Union Government"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Within DELSU, academic matters and policies are the core responsibility of which body?",
+  options: [
+    "The Senate",
+    "The Congregation",
+    "The Governing Council",
+    "The Student Union Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The Congregation in DELSU serves as a forum for:",
+  options: [
+    "Academic discussions and decisions",
+    "Managing the university financial matters",
+    "Directing sports and student welfare",
+    "Enforcing security policies on campus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which administrative body serves as a forum for academic discussions and decisions in DELSU?",
+  options: [
+    "Congregation",
+    "Senate Committees",
+    "Governing Board",
+    "Student Senate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who leads each of the respective committees within Delta State University?",
+  options: [
+    "Appointed chairpersons",
+    "The Registrar",
+    "The Vice-Chancellor exclusively",
+    "The Deans of Faculties"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In the committee system of DELSU, who is designated to lead each respective committee?",
+  options: [
+    "The chairpersons appointed for each committee",
+    "The Provost of Oleh Campus",
+    "The Secretary of the Senate",
+    "The President of the Student Union Government"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who typically oversees the Faculty Board Studies in DELSU?",
+  options: [
+    "The Deans of Faculties",
+    "The Provost of Oleh Campus",
+    "The Vice-Chancellor",
+    "The Registrar"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The Faculty Board Studies in DELSU is typically overseen by which officer?",
+  options: [
+    "The Dean of Faculty",
+    "The Head of Department",
+    "The Director of the Service Unit",
+    "The Pro-Chancellor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which board oversees academic matters at the departmental level within DELSU?",
+  options: [
+    "The Departmental Board",
+    "The Faculty Board Studies",
+    "The Senate Committee",
+    "The Governing Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Academic matters at the departmental level in DELSU are overseen by the:",
+  options: [
+    "Departmental Board",
+    "Faculty Board Studies",
+    "Registry",
+    "Student Union Government"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What serves as the student governing body in DELSU?",
+  options: [
+    "The Student Union Government",
+    "The Congregation",
+    "The Departmental Board",
+    "The Faculty Board Studies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The student governing body in Delta State University is officially known as:",
+  options: [
+    "Student Union Government",
+    "Student Representative Council",
+    "Student Senate Board",
+    "Congregation of Students"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following is listed as a past or present Visitor (Governor) of DELSU?",
+  options: [
+    "Dr. Emmanuel Uduaghan",
+    "Prof. Eric A. Arubayi",
+    "Olorogun Felix Ibru (under visitor list)",
+    "Prof. Andy O. Egwunyenga"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which military or air force administrator is listed among the past visitors of DELSU?",
+  options: [
+    "Air Commodore Ibrahim Kefas",
+    "General Ibrahim Babangida",
+    "Col. Walter Feghabo only",
+    "Navy Commodore John Dungs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Who is listed among the vice-chancellors (past and present) of DELSU?",
+  options: [
+    "Prof. Andy O. Egwunyenga",
+    "Rt. Hon Sheriff Oborevwori",
+    "Olorogun Felix Ibru",
+    "Dr. Ifeanyi Okowa"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Prof. Victor F. Peretomode and Prof. Eric A. Arubayi are listed as past:",
+  options: [
+    "Vice-Chancellors of DELSU",
+    "Pro-Chancellors of DELSU",
+    "Chancellors of DELSU",
+    "Registrars of DELSU"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following is listed as a service unit within Delta State University?",
+  options: [
+    "Health Centre",
+    "Faculty of Arts",
+    "Oleh Law Campus",
+    "Governing Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The Registry, Bursary, and Security Department are categorized as what within DELSU?",
+  options: [
+    "Service units",
+    "Administrative organs",
+    "Academic faculties",
+    "Student organizations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What is Delta State University's official website URL?",
+  options: [
+    "https://www.delsu.edu.ng",
+    "https://portal.delsu.edu.ng",
+    "https://www.delsu.com",
+    "https://www.delsu.org"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The URL https://www.delsu.edu.ng represents Delta State University's official:",
+  options: [
+    "Official website",
+    "Official student portal",
+    "Governing council blog",
+    "ICT Registry database"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What is the official motto of Delta State University?",
+  options: [
+    "Knowledge, Character, and Service",
+    "Excellence, Truth, and Service",
+    "Discipline, Integrity, and Knowledge",
+    "Leadership, Character, and Wisdom"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The phrase 'Knowledge, Character, and Service' represents DELSU's official:",
+  options: [
+    "Motto",
+    "Vision",
+    "Mission statement",
+    "Core values list"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "How is 'Vision' defined in Delta State University notes?",
+  options: [
+    "The act of power of imagination",
+    "A detailed strategy of commercial transactions",
+    "A written description of organizational history",
+    "The physical rules governing student conduct"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The 'act of power of imagination' is the definition given for:",
+  options: [
+    "Vision",
+    "Mission",
+    "Motto",
+    "Core values"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What serves as a guide and can be used to provide a sense of purpose?",
+  options: [
+    "Vision",
+    "The organogram",
+    "The official portal",
+    "The service units"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "According to the notes, a vision serves as a guide and provides which of the following?",
+  options: [
+    "A sense of purpose",
+    "A strict set of laws",
+    "An honorary academic title",
+    "Financial funding details"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Delta State University's vision statement is to become a centre of what?",
+  options: [
+    "Excellence",
+    "Innovation and Science",
+    "Strict discipline",
+    "Purely commercial research"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "According to DELSU's vision statement, excellence is to be achieved through quality teaching, cutting edge research innovation, scholarship, collaboration, partnership, community service, and:",
+  options: [
+    "Dissemination of knowledge",
+    "High school enrollment fees",
+    "Mandatory traditional practices",
+    "Campus expansion projects"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of the following is listed as one of DELSU's core values?",
+  options: [
+    "Institutional Loyalty",
+    "Academic isolation",
+    "Absolute hierarchy",
+    "Technological competition"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "How many core values are specifically outlined in Delta State University's notes?",
+  options: [
+    "6 core values",
+    "5 core values",
+    "8 core values",
+    "4 core values"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What is a mission statement defined as in the notes?",
+  options: [
+    "A short statement on why an organization exists, what its overall goal is, and what kind of product or service it provides",
+    "A legal contract signed by the visitor and Chancellor of a state university",
+    "An imaginative statement describing the ultimate dream of the founding governor",
+    "A directory of administrative staff and contact information"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "A short statement on why an organization exists, its overall goal, and the products/services it provides is called a:",
+  options: [
+    "Mission statement",
+    "Vision statement",
+    "Core value list",
+    "Service charter"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "According to the mission statement, Delta State University aims to promote quality education, character refinement, and which of the following?",
+  options: [
+    "Cultural transformation",
+    "Absolute isolation",
+    "Commercial monopolization",
+    "Linguistic standardisation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "DELSU's mission statement seeks to meet the challenges of our time through exemplary scholarship and:",
+  options: [
+    "Professionalism",
+    "Commercialization",
+    "Replication",
+    "Standardization"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In DELSU's core values, 'Gown and Town Prosperity' represents the mutual development and prosperity of:",
+  options: [
+    "The university (gown) and its surrounding community (town)",
+    "The academic staff (gown) and the administrative staff (town)",
+    "The state government (gown) and the federal government (town)",
+    "The student union (gown) and the alumni association (town)"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Which of Delta State University's core values emphasizes the mutual prosperity of both the university and its surrounding community?",
+  options: [
+    "Gown and Town Prosperity",
+    "Green, safe, and healthy environment",
+    "Institutional Loyalty",
+    "Hard work and entrepreneurship"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "How does DELSU aim to contribute to the global community, according to the notes?",
+  options: [
+    "By addressing key local, national, and international issues through education, research, and professionalism",
+    "By establishing overseas administrative branches",
+    "By excluding non-indigenous languages",
+    "By focusing strictly on commercial activities"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "DELSU aims to address key issues at which three geographical levels?",
+  options: [
+    "Local, national, and international",
+    "Community, local government, and state",
+    "State, regional, and national",
+    "National, continental, and global only"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "What is Delta State University's official portal URL?",
+  options: [
+    "https://portal.delsu.edu.ng",
+    "https://www.delsu.edu.ng",
+    "https://delsuportal.com.ng",
+    "https://www.portal.delsu.com"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "The URL https://portal.delsu.edu.ng is designated as DELSU's official:",
+  options: [
+    "Portal URL",
+    "Main website URL",
+    "Alumni database URL",
+    "Librarian resource URL"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Among DELSU's core values, what does 'institutional loyalty' signify?",
+  options: [
+    "A commitment to the values, goals, and well-being of DELSU as an institution",
+    "An absolute obedience to student political parties",
+    "Strict financial isolation from surrounding communities",
+    "Promoting individual success over university goals"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Commitment to the values, goals, and well-being of DELSU as an institution is defined as:",
+  options: [
+    "Institutional loyalty",
+    "Gown and town prosperity",
+    "Character refinement",
+    "Exemplary scholarship"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "DELSU aims to achieve its vision through quality teaching, research, innovation, and which other means?",
+  options: [
+    "Collaboration, partnership, community service, and knowledge dissemination",
+    "Strict separation of departments and high tuition fees",
+    "Political campaigns and infrastructural isolation",
+    "Strict environmental logging permissions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "Partnership, community service, and knowledge dissemination are listed as means to achieve Delta State University's:",
+  options: [
+    "Vision",
+    "Bursary structures",
+    "Organogram positions",
+    "Erosion control measures"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "According to DELSU's mission, the purpose of education is to promote:",
+  options: [
+    "Character refinement, cultural transformation, and the ability to address contemporary challenges",
+    "Direct commercial profit and immediate job placement only",
+    "Strict physical isolation and regional focus",
+    "Simplistic technological standardisation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "DELSU's mission describes the purpose of education as promoting character refinement, cultural transformation, and the ability to address:",
+  options: [
+    "Contemporary challenges effectively",
+    "Strictly local issues only",
+    "Historical grievances only",
+    "Traditional practices exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "In DELSU's core values, a 'green, safe and healthy environment' signifies a commitment to:",
+  options: [
+    "Sustainability, safety, and well-being within campus and surrounding areas",
+    "Deforesting the campus for newer concrete structures",
+    "Developing heavy fossil fuel refineries inside the campus",
+    "Allowing unrestricted waste dumping and logging"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 2,
+  question: "DELSU's commitment to sustainability, safety, and well-being within its campus and surrounding areas is represented by which core value?",
+  options: [
+    "Green, safe, and healthy environment",
+    "Gown and Town Prosperity",
+    "Institutional Loyalty",
+    "Integrity"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst103",
+  chapter: 3,
+  question: "What are specialized units within a university that provide essential services to support the institution's operations called?",
+  options: [
+    "University service departments",
+    "Academic faculties",
+    "Governing councils",
+    "Research divisions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "University service departments are specialized units designed to support operations, students, faculty, staff, and who else?",
+  options: [
+    "The broader campus community",
+    "International commercial partners only",
+    "The state judicial council exclusively",
+    "Off-campus commercial transport unions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "What do DELSU's service departments offer to ensure the effective functioning of the university?",
+  options: [
+    "A range of essential services",
+    "Purely political directives",
+    "Free commercial transport",
+    "External legal arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Essential services required for the effective functioning of Delta State University are offered by which of the following?",
+  options: [
+    "Service departments",
+    "The state ministry of agriculture",
+    "The local government council of Abraka",
+    "Private campus hostlers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which office or department plays a crucial role in supporting DELSU's academic mission and ensuring the integrity of academic records?",
+  options: [
+    "The Registry",
+    "The Sports Centre",
+    "The Hostel Unit",
+    "The Security Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Delsu University's Registry is tasked with ensuring the integrity of academic processes and what else?",
+  options: [
+    "Academic records",
+    "Banking relationships",
+    "Physical sports facilities",
+    "Lost and found campus items"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as one of the service departments in DELSU in Point 4?",
+  options: [
+    "Quality Assurance Unit",
+    "External Auditing Firm",
+    "Agricultural Extension Office",
+    "Judicial Grievance Board"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "How many service departments are specifically listed in Point 4 of the notes?",
+  options: [
+    "12 service departments",
+    "10 service departments",
+    "8 service departments",
+    "15 service departments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "DELSU's registry department provides crucial support specifically to which mission of the university?",
+  options: [
+    "Academic mission",
+    "Commercial mission",
+    "Agricultural mission",
+    "Infrastructural mission"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Ensuring the integrity of academic processes and academic records is the primary mandate of DELSU's:",
+  options: [
+    "Registry",
+    "ICT unit",
+    "Bursary",
+    "Hostel Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is NOT listed as one of the units in the Registry Department?",
+  options: [
+    "Bursary Division",
+    "Establishment",
+    "Admissions office",
+    "Senate Division"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The Registry Department consists of Establishment, Exams and Records, Admissions office, and which other division?",
+  options: [
+    "Senate Division",
+    "Finance Division",
+    "Audit Division",
+    "Medical Division"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which registry unit collaborates with academic departments and administrative units to ensure smooth operation of academic processes?",
+  options: [
+    "Establishment Unit",
+    "Admissions Office",
+    "Senate Division",
+    "Exams and Records"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Collaborating with academic and administrative units to ensure smooth operations is a function of the:",
+  options: [
+    "Establishment Unit",
+    "Bursary Department",
+    "Sports Centre",
+    "Security Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit of the Registry Department is responsible for implementing and communicating university policies related to academic matters and student affairs?",
+  options: [
+    "Establishment Unit",
+    "Admission Office Unit",
+    "Exams and Records Unit",
+    "Senate Division Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The Establishment Unit is responsible for implementing and communicating university policies related to student affairs and:",
+  options: [
+    "Academic matters",
+    "Financial payroll",
+    "Banking relationships",
+    "E-learning software"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit is responsible for managing and maintaining accurate records of student enrollment, academic progress, and grades?",
+  options: [
+    "Exams and Records Unit",
+    "Establishment Unit",
+    "Admissions Office",
+    "Senate Division"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The issuance of diplomas, degree results, and academic transcripts in DELSU is handled by which registry unit?",
+  options: [
+    "Exams and Records Unit",
+    "Admission Office Unit",
+    "Establishment Unit",
+    "Senate Division Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit is responsible for overseeing the admission of students into different programs and course screening processes?",
+  options: [
+    "Admission Office Unit",
+    "Exams and Records Unit",
+    "Establishment Unit",
+    "Senate Division Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Ensuring compliance with academic requirements and policies during student entry is the function of the:",
+  options: [
+    "Admission Office Unit",
+    "Counselling Unit",
+    "Quality Assurance Unit",
+    "Senate Division"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit has the function of providing statistical data and reports related to student enrollment and other relevant metrics?",
+  options: [
+    "Admission Office Unit",
+    "Bursary Department",
+    "Quality Assurance Unit",
+    "ICT Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The Admission Office Unit provides statistical data and reports related to which of the following metrics?",
+  options: [
+    "Student enrollment",
+    "Staff monthly payroll",
+    "Library book inventory",
+    "Hostel maintenance costs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit in the Registry Department handles requests for all certificates, and manages the retention and disposal of academic records?",
+  options: [
+    "Senate Division Unit",
+    "Establishment Unit",
+    "Exams and Records Unit",
+    "Admission Office Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Handling academic certificate requests and record retention following relevant regulations is a function of the:",
+  options: [
+    "Senate Division Unit",
+    "Exams and Records Unit",
+    "Establishment Unit",
+    "Admission Office Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which department of DELSU is responsible for managing the financial aspects of the institution?",
+  options: [
+    "University Bursary",
+    "Registry Department",
+    "Quality Assurance Unit",
+    "ICT Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The University Bursary is responsible for managing which aspect of Delta State University?",
+  options: [
+    "Financial aspects",
+    "Academic curriculum",
+    "Student residential housing",
+    "Security patrols"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a duty of DELSU's bursary department under Point 14?",
+  options: [
+    "Tuition and Fee Collection",
+    "Student Admissions Screening",
+    "Exam Invigilation Scheduling",
+    "E-learning Software Development"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Budget Management, Financial Reporting, and Payroll Processing are duties belonging to the:",
+  options: [
+    "Bursary department",
+    "Establishment unit",
+    "Quality Assurance unit",
+    "Admissions office"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "In the bursary department, the procurement function involves purchasing goods and services for the university while ensuring what?",
+  options: [
+    "Cost-effectiveness and compliance with policies",
+    "Maximum budgetary deficit",
+    "Direct student physical health",
+    "No external audits"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which function in the bursary department is responsible for purchasing goods and services while ensuring cost-effectiveness?",
+  options: [
+    "Procurement",
+    "Risk management",
+    "Cash management",
+    "Payroll Processing"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "What does the risk management function in DELSU's bursary department involve?",
+  options: [
+    "Identifying and managing financial risks, and mitigating potential challenges",
+    "Patrolling campus premises to prevent property theft",
+    "Managing cash flow and banking relationships",
+    "Reviewing student medical registration records"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Identifying financial risks and implementing mitigation strategies represents which function of the Bursary department?",
+  options: [
+    "Risk management",
+    "Procurement",
+    "Cash management",
+    "Compliance auditing"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Overseeing cash flow, managing banking relationships, and ensuring the availability of funds for daily operations describes which function?",
+  options: [
+    "Cash management",
+    "Risk management",
+    "Procurement",
+    "Compliance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Ensuring that funds are available for the university's daily operations is a core responsibility of:",
+  options: [
+    "Cash management",
+    "Risk management",
+    "The security unit",
+    "The hostel unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which service unit is responsible for providing medical services and promoting the health and well-being of students and staff?",
+  options: [
+    "Health Centre",
+    "Counselling Unit",
+    "Student Affairs Unit",
+    "Quality Assurance Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The Health Centre in DELSU provides medical services to support which groups of people?",
+  options: [
+    "Students and staff",
+    "Surrounding community traders only",
+    "External audit delegates only",
+    "Federal ministry officials exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "How does DELSU's Health Centre contribute to the university community's daily life?",
+  options: [
+    "By creating a healthy and supportive environment",
+    "By providing technical internet infrastructure",
+    "By organizing inter-university sport events",
+    "By overseeing financial audits"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The creation of a healthy and supportive environment within the university community is actively supported by the:",
+  options: [
+    "Health Centre",
+    "ICT Unit",
+    "Establishment Unit",
+    "Examination Centre"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as one of the responsibilities of DELSU's Health Centre?",
+  options: [
+    "Medical Screening and Registration",
+    "Evaluating academic curriculum standards",
+    "Allocating student hostel rooms",
+    "Scheduling end-of-semester examinations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "According to the notes, the Health Centre provides medical care, preventive health, immunization, and what other service?",
+  options: [
+    "Support services for students with chronic health conditions",
+    "Assistance with business planning and startup incubation",
+    "Disposal and retention of Senate academic documentation",
+    "Lost and found campus item identification"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which service unit is responsible for coordinating and managing various aspects of the examination process?",
+  options: [
+    "Examination Centre",
+    "Registry Senate Division",
+    "Quality Assurance Unit",
+    "ICT Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The coordination of examination processes is the primary mandate of the:",
+  options: [
+    "Examination Centre",
+    "Registry Admissions Office",
+    "Bursary Risk Management",
+    "Counselling Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "DELSU's Examination Centre ensures the fair and efficient administration of examinations to contribute to the university's:",
+  options: [
+    "Academic integrity",
+    "Cash flow reserves",
+    "Network infrastructure safety",
+    "Ecosystem biodiversity conservation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Ensuring the fair and efficient administration of examinations is a crucial role played by:",
+  options: [
+    "The Examination Centre",
+    "The Quality Assurance Unit",
+    "The Counselling Unit",
+    "The Security Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a duty of DELSU's Examination Centre?",
+  options: [
+    "Exam scheduling and invigilation",
+    "Organizing inter-university athletic programs",
+    "Conducting psychiatric counseling assessments",
+    "Procuring goods and services for departments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Exam scheduling, venue setup, and conflict resolution about exams are duties handled by the:",
+  options: [
+    "Examination Centre",
+    "Registry Establishment Unit",
+    "Student Affairs Unit",
+    "Quality Assurance Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "DELSU's Entrepreneurship Centre typically focuses on fostering which spirit among students?",
+  options: [
+    "An entrepreneurial spirit",
+    "An athletic spirit",
+    "A political spirit",
+    "A purely scientific spirit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Fostering an entrepreneurial spirit and supporting the development of entrepreneurial skills is the focus of:",
+  options: [
+    "The Entrepreneurship Centre",
+    "The Bursary Department",
+    "The Quality Assurance Unit",
+    "The Senate Division"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a function of DELSU's Entrepreneurship Centre?",
+  options: [
+    "Start-up Incubation",
+    "Exam Venue Setup",
+    "Student Room Allocation",
+    "Financial Payroll Processing"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "According to the notes, business planning assistance and access to funding are functions of which center?",
+  options: [
+    "The Entrepreneurship Centre",
+    "The Bursary Department",
+    "The Student Affairs Unit",
+    "The Examination Centre"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which service unit is responsible for managing and facilitating sports and physical activities on DELSU campuses?",
+  options: [
+    "Sports Centre",
+    "Student Affairs Unit",
+    "Hostel Unit",
+    "Security Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Managing and facilitating various aspects of sports and physical activities on campus is the duty of:",
+  options: [
+    "The Sports Centre",
+    "The Hostel Unit",
+    "The Entrepreneurship Centre",
+    "The Quality Assurance Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "DELSU's Sports Centre contributes to the holistic development of students by providing opportunities for physical fitness, teamwork, leadership, and what else?",
+  options: [
+    "A sense of community",
+    "Academic certificate documentation",
+    "Commercial startup funding",
+    "Financial risk mitigation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "A sense of community, teamwork, and leadership are promoted through sports and recreational activities managed by the:",
+  options: [
+    "Sports Centre",
+    "Health Centre",
+    "Counselling Unit",
+    "Exams and Records"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a duty of DELSU's Sports Centre under Point 28?",
+  options: [
+    "Organizing Inter-University and Inter-Faculty Sports",
+    "Reviewing course entry compliance requirements",
+    "Creating cybersecurity defense databases",
+    "Providing financial aid and scholarships"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Organizing athletic programs, maintaining sports facilities, and offering services related to sports medicine are duties of the:",
+  options: [
+    "Sports Centre",
+    "Health Centre",
+    "Hostel Unit",
+    "Student Affairs Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit is responsible for managing student housing and ensuring a safe and conducive living environment?",
+  options: [
+    "Hostel Unit",
+    "Security Unit",
+    "Sports Centre",
+    "Student Affairs Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The Hostel Unit's core responsibility revolves around managing:",
+  options: [
+    "Student housing",
+    "Examination venues",
+    "ICT network configurations",
+    "Financial investment options"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a function of DELSU's Hostel Unit?",
+  options: [
+    "Room allocation",
+    "Exam invigilation",
+    "IT system maintenance",
+    "Course entry screening"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Enforcing residential policies, rules, and regulations to maintain a harmonious living environment is a function of the:",
+  options: [
+    "Hostel Unit",
+    "Admissions Office",
+    "Security Unit",
+    "Counselling Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which service department is responsible for managing and supporting DELSU's technology infrastructure?",
+  options: [
+    "ICT Unit",
+    "Registry Department",
+    "Quality Assurance Unit",
+    "Examination Centre"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "DELSU's ICT Unit primarily focuses on managing and supporting:",
+  options: [
+    "The institution's technology infrastructure",
+    "The athletic competitions and events",
+    "The allocation of student hostel spaces",
+    "The medical needs of the university community"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "DELSU's ICT unit supports the university's functioning by ensuring that technology is effectively utilized, reliable, and what else?",
+  options: [
+    "Secure",
+    "Cost-effective in procurement",
+    "Sparing in incidence",
+    "Conducive for housing"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Ensuring that technology is effectively utilized across various academic and administrative activities is the role of the:",
+  options: [
+    "ICT Unit",
+    "Admissions Office",
+    "Bursary Department",
+    "Sports Centre"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a function of DELSU's ICT Unit under Point 33?",
+  options: [
+    "Network Management and technical support",
+    "Managing financial audits and banking",
+    "Organizing inter-university sports competitions",
+    "Enforcing residential housing policies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Cybersecurity, hardware and software maintenance, and managing IT databases are functions of the:",
+  options: [
+    "ICT Unit",
+    "Security Unit",
+    "Bursary Department",
+    "Quality Assurance Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which service unit is responsible for addressing the non-academic aspects of student life in DELSU?",
+  options: [
+    "Student Affairs Unit",
+    "Exams and Records Unit",
+    "Establishment Unit",
+    "Quality Assurance Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "The Student Affairs Unit is tasked with supporting which aspect of students' life?",
+  options: [
+    "The overall well-being and non-academic aspects",
+    "Only financial aid and academic exams",
+    "Strictly the network technology infrastructure",
+    "Tectonic environmental rock examinations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a duty of DELSU's Student Affairs Unit under Point 35?",
+  options: [
+    "Organizing orientation sessions for new students",
+    "Maintaining surface and groundwater reserves",
+    "Managing the disposal of old academic senate records",
+    "Directing physical therapy and sports medicine"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Student advocacy, international student support, and health and wellness programs are duties of the:",
+  options: [
+    "Student Affairs Unit",
+    "Quality Assurance Unit",
+    "Establishment Unit",
+    "Bursary Department"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which service department is responsible for ensuring the safety and security of students, faculty, staff, and campus property?",
+  options: [
+    "Security Unit",
+    "Student Affairs Unit",
+    "Establishment Unit",
+    "Bursary Department"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Ensuring safety across campus properties, students, and staff is the primary responsibility of the:",
+  options: [
+    "Security Unit",
+    "Hostel Unit",
+    "Quality Assurance Unit",
+    "Bursary Department"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a function of DELSU's Security Unit?",
+  options: [
+    "Campus Patrol and Access Control",
+    "Exam results processing",
+    "E-learning training workshops",
+    "Financial budget planning"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Managing a lost and found system and collaborating with law enforcement are functions of the:",
+  options: [
+    "Security Unit",
+    "Student Affairs Unit",
+    "Counselling Unit",
+    "Admissions Office"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit is responsible for monitoring and ensuring the quality of academic programs and administrative processes?",
+  options: [
+    "Quality Assurance Unit",
+    "Establishment Unit",
+    "Counselling Unit",
+    "ICT Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Monitoring and ensuring the quality of both academic programs and administrative processes is the mandate of the:",
+  options: [
+    "Quality Assurance Unit",
+    "Senate Division Unit",
+    "Exams and Records Unit",
+    "Bursary Compliance Unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following is listed as a duty of the Quality Assurance Unit under Point 39?",
+  options: [
+    "Assessment and evaluation",
+    "Sports medicine and physical therapy",
+    "Tuition collection and cash management",
+    "Student room allocation and clean-up"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Strategic planning, stakeholder engagement, and gathering student feedback are duties of the:",
+  options: [
+    "Quality Assurance Unit",
+    "Exams and Records Unit",
+    "Counselling Unit",
+    "Bursary Department"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which unit plays a crucial role in supporting the emotional well-being of students?",
+  options: [
+    "Counselling Unit",
+    "Quality Assurance Unit",
+    "Bursary Department",
+    "Admissions Office"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Supporting students' emotional well-being through the Counselling Unit contributes directly to:",
+  options: [
+    "A positive and healthy campus environment",
+    "Higher institutional financial aid",
+    "More efficient sports facility upkeep",
+    "Higher security surveillance coverage"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Which of the following functions is performed by DELSU's Counselling Unit under Point 41?",
+  options: [
+    "Individual and Group Counselling",
+    "Budget Management and Auditing",
+    "Exam scheduling and security",
+    "ICT network management"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 3,
+  question: "Crisis Intervention, career counselling, psychological assessment, and online counselling are functions of the:",
+  options: [
+    "Counselling Unit",
+    "Student Affairs Unit",
+    "Registry Department",
+    "Health Centre"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst103",
+  chapter: 4,
+  question: "What is defined as a condition of being free from threat or danger?",
+  options: [
+    "Security",
+    "Hygiene",
+    "Mitigation",
+    "Preparedness"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Security is a condition of being free from danger or which of the following?",
+  options: [
+    "Threat",
+    "Anxiety",
+    "Fatigue",
+    "Ergonomics"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "According to Point 2, security can be described as freedom from fear, anxiety, anger, or what?",
+  options: [
+    "Doubt",
+    "Danger",
+    "Fatigue",
+    "Complacency"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What is described as a state of feeling secure, or freedom from fear, anxiety, anger, or doubt?",
+  options: [
+    "Security",
+    "Hygiene",
+    "First Aid",
+    "Evaluation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What is the primary purpose of security?",
+  options: [
+    "To protect life and property",
+    "To provide financial planning",
+    "To manage public academic records",
+    "To eliminate all physical fatigue"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Security protects life and property by making it difficult for criminals to do what?",
+  options: [
+    "Target a person or a place",
+    "Establish educational programs",
+    "Create unhygienic waste",
+    "Report unsafe conditions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a type of security challenge in Point 4?",
+  options: [
+    "Economic security",
+    "Financial auditing",
+    "Academic transcript security",
+    "Software security"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many types of security challenges are listed under Point 4?",
+  options: [
+    "7 challenges",
+    "5 challenges",
+    "10 challenges",
+    "4 challenges"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "According to Point 5, one of the greatest fears of man is that:",
+  options: [
+    "The danger which we least expected soonest comes to us",
+    "We fail to achieve high academic grades",
+    "We lose our personal internet data online",
+    "The environmental pollution spreads to other regions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What does man fear most in terms of unexpected danger, according to the notes?",
+  options: [
+    "That it soonest comes to us when least expected",
+    "That it is caused by modern technology",
+    "That it results in serious cardiac arrest",
+    "That it compromises community hygiene"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a type of health hazard in Point 6?",
+  options: [
+    "Ergonomic hazards",
+    "Tectonic hazards",
+    "Economic hazards",
+    "Political hazards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Physical, biological, chemical, and ergonomic factors are categorized under which of the following?",
+  options: [
+    "Types of health hazards",
+    "Phases of emergency management",
+    "Basic safety rules",
+    "Environmental hygiene steps"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many categories of hazards based on the cause are listed in Point 7?",
+  options: [
+    "Three categories",
+    "Four categories",
+    "Five categories",
+    "Two categories"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is a hazard category based on the cause?",
+  options: [
+    "Technological hazards",
+    "Physical hazards",
+    "Biological hazards",
+    "Ergonomic hazards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What are Natural Hazards commonly called?",
+  options: [
+    "Natural disasters",
+    "Human-caused hazards",
+    "Ergonomic hazards",
+    "Technological failures"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Natural disasters is the common term used to describe:",
+  options: [
+    "Natural hazards",
+    "Technological hazards",
+    "Biological health hazards",
+    "Man-made hazards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as an example of a Natural Hazard in Point 9?",
+  options: [
+    "Extreme weather",
+    "Engine fumes",
+    "Fire outbreaks",
+    "Repetitive motion injury"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Floods, infections, diseases, extreme weather, and earthquakes are examples of:",
+  options: [
+    "Natural hazards",
+    "Technological hazards",
+    "Man-made hazards",
+    "Ergonomic hazards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "According to Point 10, which of the following is an example of a human-caused or man-made hazard?",
+  options: [
+    "A fire outbreak",
+    "An earthquake",
+    "Extreme weather",
+    "Engine fumes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "A fire outbreak is categorized under which type of hazard?",
+  options: [
+    "Human-caused or man-made hazard",
+    "Natural hazard",
+    "Technological hazard",
+    "Ergonomic hazard"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What is listed as an example of a technological hazard in Point 11?",
+  options: [
+    "Engine fumes",
+    "A fire outbreak",
+    "An earthquake",
+    "An infection"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Engine fumes are categorized as what type of hazard?",
+  options: [
+    "Technological hazard",
+    "Natural hazard",
+    "Human-caused hazard",
+    "Biological hazard"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "According to the safety rules in Point 12, what should you keep in case of an emergency?",
+  options: [
+    "Contact person information",
+    "A spare copy of class handouts",
+    "A complete map of the campus",
+    "An updated list of faculty deans"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "To ensure personal safety, which areas should you avoid in the night?",
+  options: [
+    "Lonely areas, roads, and shortcuts",
+    "The university health center",
+    "All public campus sports grounds",
+    "The university main gate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What are you advised against sharing online or on your class WhatsApp groups?",
+  options: [
+    "Personal information",
+    "Homework assignments",
+    "Timetable schedules",
+    "University motto details"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What should you do if you are warned not to inform your parents, course adviser, or guardians about a transaction?",
+  options: [
+    "Take a deeper look at that transaction",
+    "Proceed with the transaction immediately",
+    "Delete your class WhatsApp group details",
+    "Keep it as a confidential asset"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "To whom should you learn to report incidences or unsafe conditions within the university?",
+  options: [
+    "The Head of Department, Dean of faculty, Dean of students, and university management",
+    "Your class representatives and student hostlers exclusively",
+    "Local security agencies outside Delta State only",
+    "The nearest commercial banking managers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Why should you never jump into a pool to impress anyone according to Point 14?",
+  options: [
+    "You may not come out alive",
+    "It leads to severe skin infections",
+    "It pollutes the clean water supply",
+    "It violates general university rules"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What does the safety rule 'Trust your instinct' advise you to do when you are unsure about an outcome?",
+  options: [
+    "Do not go against your wish, even if it means stepping away from everyone else",
+    "Follow what the majority of students are doing to stay safe",
+    "Proceed with caution and keep it a secret from your parents",
+    "Report the situation directly to the local police"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many states of mind are listed as predisposing individuals to safety challenges?",
+  options: [
+    "Four states of mind",
+    "Three states of mind",
+    "Five states of mind",
+    "Two states of mind"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as one of the four states of mind that predispose individuals to safety challenges?",
+  options: [
+    "Frustration",
+    "Anxiety",
+    "Anger",
+    "Fear"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What are the 'three E's of safety' as outlined in Point 16?",
+  options: [
+    "Evaluation, Education, and Enforcement",
+    "Emergency, Elimination, and Evacuation",
+    "Environment, Ecology, and Ergonomics",
+    "Exams, Enrollment, and Education"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is NOT one of the three E's of safety?",
+  options: [
+    "Elimination",
+    "Evaluation",
+    "Education",
+    "Enforcement"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What are health hazards defined as in Point 17?",
+  options: [
+    "Biological, Physical or Chemical factors in our environment that impact negatively on health status",
+    "The specific physical injuries sustained during sporting activities",
+    "The lack of emergency response personnel on campus",
+    "Unsanitary student rooms and common hostel spaces"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Health hazards can impact the health status in which ways?",
+  options: [
+    "Negatively in the short- or long-term",
+    "Only positively in the short-term",
+    "Only long-term and permanently",
+    "Mildly and only during the wet season"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a major hazard in DELSU in Point 18?",
+  options: [
+    "Falls and falling objects",
+    "Ozone layer depletion",
+    "The growth of water hyacinth",
+    "Indiscriminate waste dumping"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Falls, electrical issues, fire, chemical exposure, and repetitive motion injuries are categorized as:",
+  options: [
+    "Major hazards in DELSU",
+    "Ergonomic environmental guidelines",
+    "Health counseling categories",
+    "Phases of basic first aid"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a phase of Emergency Management?",
+  options: [
+    "Mitigation",
+    "Evaluation",
+    "Enforcement",
+    "Counselling"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many phases of Emergency Management are outlined in Point 19?",
+  options: [
+    "Five phases",
+    "Three phases",
+    "Four phases",
+    "Six phases"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What are the 3C's in the emergency action plan?",
+  options: [
+    "Check, Call, Care",
+    "Check, Clean, Cover",
+    "Clear, Call, Control",
+    "Check, Clear, Care"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is NOT one of the 3C's in the emergency action plan?",
+  options: [
+    "Clear",
+    "Check",
+    "Call",
+    "Care"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "From which language is the word 'hygiene' derived?",
+  options: [
+    "Greek",
+    "Latin",
+    "French",
+    "Arabic"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "The word 'hygiene' is derived from which Greek word?",
+  options: [
+    "hygieinos",
+    "hydros",
+    "bios",
+    "lithos"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What does the Greek word 'hygieinos' mean?",
+  options: [
+    "Healthful or relating to health",
+    "Clean and sterile environment",
+    "Preventing the spread of water",
+    "Safe from external threat"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "The concept 'healthful or relating to health' represents the meaning of:",
+  options: [
+    "hygieinos",
+    "biologically active",
+    "mitigation",
+    "preservation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What term describes the practice of keeping oneself and their surroundings clean, especially to prevent illness?",
+  options: [
+    "Hygiene",
+    "First Aid",
+    "Mitigation",
+    "Security"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Hygiene involves keeping oneself and one's surroundings clean, especially to stop what?",
+  options: [
+    "The spread of diseases",
+    "The depletion of ozone",
+    "The expansion of classrooms",
+    "Tectonic plate movements"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a type of hygiene in Point 24?",
+  options: [
+    "Personal Hygiene",
+    "Tectonic Hygiene",
+    "Physical Hygiene",
+    "Clinical Hygiene"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many types of hygiene are outlined in Point 24 of the notes?",
+  options: [
+    "Four types",
+    "Three types",
+    "Five types",
+    "Two types"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What creates a safe space to prevent diseases according to Point 25?",
+  options: [
+    "Environmental hygiene",
+    "Personal first aid",
+    "Mitigation training",
+    "Tectonic safety rules"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "The primary purpose of environmental hygiene is to create a safe space to:",
+  options: [
+    "Prevent diseases",
+    "Regulate temperature",
+    "Collect student tuition",
+    "Increase pool safety"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following activities is involved in environmental hygiene?",
+  options: [
+    "Disinfection, rodent and reptile control, dis-infestation, and fumigation",
+    "Classroom lectures and student exam scheduling",
+    "Gathering stakeholder feedback and institutional research",
+    "Organizing inter-faculty sports competitions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Rodent and reptile control, dis-infestation, and fumigation are parts of:",
+  options: [
+    "Environmental hygiene",
+    "Domestic first aid",
+    "Emergency management phases",
+    "Personal health screening"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What happens when the environment is polluted with toxic waste or contaminants?",
+  options: [
+    "It leads to outbreak of diseases",
+    "It increases the availability of groundwater",
+    "It stabilizes the minimum temperature",
+    "It prevents wildlife extinction"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "An outbreak of diseases can be directly triggered when the environment is polluted with:",
+  options: [
+    "Toxic waste or contaminants",
+    "Fumes from non-wood products",
+    "Excessive pool water",
+    "Green campus trees"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Why must the indiscriminate dumping of refuse in classrooms, gutters, or through car windows be discouraged?",
+  options: [
+    "As it leads to pollution",
+    "As it causes extreme earthquakes",
+    "As it damages class WhatsApp groups",
+    "As it increases daily temperatures"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Indiscriminate dumping of refuse in gutters or through car windows directly causes which hazard?",
+  options: [
+    "Pollution",
+    "Tectonic shift",
+    "Ergonomic hazard",
+    "Physical safety challenge"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Who introduced the (Trash 'D' Trash) campaign of the Faculty of Basic Medical Sciences?",
+  options: [
+    "Prof Eze K. Nwangwa",
+    "Prof. Andy O. Egwunyenga",
+    "Olorogun Felix Ibru",
+    "Rt. Hon Sheriff Oborevwori"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "The (Trash 'D' Trash) campaign was originally introduced by which of the following faculties?",
+  options: [
+    "Faculty of Basic Medical Sciences",
+    "Faculty of Arts",
+    "Faculty of Education",
+    "Faculty of Sciences"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Environmental hygiene is an important factor in the health of which generations?",
+  options: [
+    "Both current and future generations",
+    "Only the current generation",
+    "Only future generations",
+    "Past historical generations exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "The health of both current and future generations relies heavily on which factor?",
+  options: [
+    "Environmental hygiene",
+    "Pool safety enforcement",
+    "Class WhatsApp rules",
+    "The F-A-S-T stroke sign"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a goal of the school health program?",
+  options: [
+    "Provide a healthy and safe learning environment",
+    "Ban all class WhatsApp groups",
+    "Charge students for first aid boxes",
+    "Build private pools on campus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many goals of the school health program are listed in Point 31 of the notes?",
+  options: [
+    "Five goals",
+    "Three goals",
+    "Four goals",
+    "Six goals"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as a common emergency situation in the university?",
+  options: [
+    "Fainting/syncopal attacks",
+    "Chemical pollution of groundwater",
+    "Loss of hostel room key",
+    "Failure to join student union"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Fainting, chest pain, choking, stroke, heavy bleeding, and severe head injury are categorized as:",
+  options: [
+    "Common emergency situations in the university",
+    "Ergonomic health hazards",
+    "Natural environmental hazards",
+    "Basic safety rules categories"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "According to the notes, fainting may result from which of the following?",
+  options: [
+    "Overcrowding, lack of food, low oxygen supply, anemia, or fear",
+    "Engine fumes and toxic waste contaminants",
+    "Jumping into swimming pools without sunscreen",
+    "Fumigation and rodent control activities"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following physiological or environmental factors is listed as a cause of fainting?",
+  options: [
+    "Anemia",
+    "Sunscreen protection",
+    "Ergonomic hazard",
+    "Fumigation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What is the first step you should take if you see someone fainting?",
+  options: [
+    "Allow the person to be flat on the ground",
+    "Perform immediate abdominal thrusts",
+    "Administer controlled defibrillator shocks",
+    "Keep them upright and walking"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "When managing a person who has fainted, you must allow them to lie flat and ensure they receive:",
+  options: [
+    "Adequate air",
+    "Water to drink immediately",
+    "Direct sunscreen protection",
+    "An urgent cardiac massage"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Chest pain may be due to ordinary indigestion or which very serious condition?",
+  options: [
+    "Cardiac arrest",
+    "Syncopal attack",
+    "Fainting",
+    "Choking"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Indigestion or serious cardiac arrest can manifest as which common emergency symptom?",
+  options: [
+    "Chest pain",
+    "Face drooping",
+    "Arm weakness",
+    "Choking"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "When a person is choked and cannot cough, speak, or breathe, how should you clear the airway first?",
+  options: [
+    "Give five blows to the back with the flat of the hand",
+    "Perform cardiopulmonary resuscitation (CPR)",
+    "Apply an automated external defibrillator",
+    "Give them water to wash down the blockage"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "To clear the airway of a choking victim, you should alternate five back blows with how many abdominal thrusts?",
+  options: [
+    "Five abdominal thrusts",
+    "Three abdominal thrusts",
+    "Ten abdominal thrusts",
+    "Two abdominal thrusts"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What warning sign must you know once you notice a stroke in someone?",
+  options: [
+    "The F-A-S-T warning sign",
+    "The 3C's warning sign",
+    "The 3P's warning sign",
+    "The 3E's warning sign"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "The acronym F-A-S-T is used to identify warning signs for which condition?",
+  options: [
+    "Stroke",
+    "Choking",
+    "Fainting",
+    "Cardiac arrest"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "In the F-A-S-T warning sign for stroke, what does 'F' stand for?",
+  options: [
+    "Face drooping",
+    "First aid",
+    "Fatigue",
+    "Fear"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Face drooping is represented by which letter in the F-A-S-T warning acronym?",
+  options: [
+    "F",
+    "A",
+    "S",
+    "T"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "In the F-A-S-T warning sign for stroke, what does 'A' mean?",
+  options: [
+    "Arm weakness",
+    "Airway clearing",
+    "Anemia",
+    "Anxiety"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which letter in the F-A-S-T stroke detection method stands for 'Arm weakness'?",
+  options: [
+    "A",
+    "F",
+    "S",
+    "T"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "In the F-A-S-T warning sign for stroke, what does 'S' mean?",
+  options: [
+    "Speech difficulty",
+    "Security check",
+    "Shortcuts avoid",
+    "Sunscreen protect"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Speech difficulty is represented by which letter in the F-A-S-T stroke warning system?",
+  options: [
+    "S",
+    "F",
+    "A",
+    "T"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "In the F-A-S-T warning sign for stroke, what does 'T' represent?",
+  options: [
+    "Time to get help",
+    "Trust your instinct",
+    "Take a deep breath",
+    "Traditional practices"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which letter in the F-A-S-T acronym represents the urgency to call or get help?",
+  options: [
+    "T",
+    "F",
+    "A",
+    "S"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Why are you advised to take a deep breath, count to 10, and tell yourself 'I can handle the situation' during an emergency?",
+  options: [
+    "It helps you not to panic and prevents taking the wrong step",
+    "It allows the victim to regain consciousness instantly",
+    "It fulfills the first step of the CPR guidelines",
+    "It acts as a substitute for calling emergency care"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "When managing an emergency comprehensively, what is the purpose of checking for dangers?",
+  options: [
+    "To protect yourself and the injured person from other hazards",
+    "To determine if the victim has health insurance",
+    "To find out if the victim is breathing regularly",
+    "To report the situation immediately to the Dean"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What are the 3P's of First Aid?",
+  options: [
+    "Preserve life, Prevent deterioration, Promote recovery",
+    "Prevention, Preparedness, Protection",
+    "Physical, Personal, Public safety",
+    "Prepare, Patrol, Prevent"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is NOT one of the 3P's of First Aid?",
+  options: [
+    "Prevent panic",
+    "Preserve life",
+    "Prevent deterioration",
+    "Promote recovery"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "According to Point 44, what is Step 1 in Basic First Aid?",
+  options: [
+    "Check for danger",
+    "Breathing",
+    "Defibrillator",
+    "CPR"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How many steps in Basic First Aid are outlined in Point 44?",
+  options: [
+    "7 steps",
+    "5 steps",
+    "6 steps",
+    "8 steps"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "In Step 1 of Basic First Aid, what should you do if an unconscious person is breathing?",
+  options: [
+    "Align the head, neck, and spine and wait for help",
+    "Administer cardiopulmonary resuscitation (CPR) immediately",
+    "Use an automated external defibrillator (AED)",
+    "Turn them over and perform abdominal thrusts"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What should you check to verify if an unconscious person is breathing during Step 1?",
+  options: [
+    "Chest movement",
+    "Drooping of the face",
+    "Arm weakness",
+    "Instinct reactions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "In Step 2 of Basic First Aid, what should you do if the person is NOT breathing?",
+  options: [
+    "Cardiopulmonary resuscitation (CPR) may be administered",
+    "Align their head and spine while they lie flat",
+    "Provide five abdominal thrusts immediately",
+    "Search for emergency phone contacts on speed dial"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Administering CPR is indicated in Step 2 when you establish that the victim is:",
+  options: [
+    "Not breathing",
+    "Experiencing ordinary indigestion",
+    "Showing F-A-S-T signs of stroke",
+    "Complaining of chest pain"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What is Cardiopulmonary Resuscitation (CPR)?",
+  options: [
+    "An emergency life procedure to restore breathing through chest compressions and artificial ventilation",
+    "A mandatory medical screening process required for school enrollment",
+    "A controlled high-voltage shock sent to the heart by paramedics",
+    "A diagnostic assessment tool used to identify cardiac stroke levels"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "CPR attempts to restore breathing using chest compressions and what else?",
+  options: [
+    "Artificial ventilation (mouth-to-mouth breathing)",
+    "F-A-S-T warning check alignments",
+    "Back blows with the flat of the hand",
+    "Fumigation and disinfection of surroundings"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "When mouth-to-mouth breathing is done properly, what is its primary benefit?",
+  options: [
+    "Improves survival",
+    "Stops the spread of rodent diseases",
+    "Mitigates ergonomic muscle hazards",
+    "Re-establishes a regular heartbeat via shock"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Properly administered mouth-to-mouth breathing directly contributes to:",
+  options: [
+    "Improving survival",
+    "Mitigating chemical hazards",
+    "Curing syncopal attacks",
+    "Restoring spinal alignment"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "What does the abbreviation AED stand for in Point 49?",
+  options: [
+    "Automated external defibrillator",
+    "Emergency automated device",
+    "Automated external direction",
+    "Annual emergency diagnostic"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "An automated external defibrillator (AED) is commonly known as a:",
+  options: [
+    "Defibrillator",
+    "First aid box",
+    "Ventilator",
+    "Resuscitator"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "On whom is a defibrillator used by trained paramedics?",
+  options: [
+    "Unconscious persons who are not breathing",
+    "Choking persons who can still cough",
+    "Fainting victims who have just regained consciousness",
+    "Students experiencing ordinary indigestion pain"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Who is described as being trained to use a defibrillator?",
+  options: [
+    "Paramedics",
+    "All university students",
+    "Course advisers",
+    "School health program screeners"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "How does a defibrillator help a non-breathing unconscious person?",
+  options: [
+    "It sends controlled shocks to the heart to re-establish a regular heartbeat",
+    "It provides oxygen through the mouth-to-mouth breathing process",
+    "It clears physical blocks obstructing the victim's airway",
+    "It stabilizes the head, neck, and spine alignment"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Controlled shocks are sent to the heart by a defibrillator to re-establish a:",
+  options: [
+    "Regular heartbeat",
+    "Mouth-to-mouth ventilation",
+    "Correct spinal posture",
+    "F-A-S-T warning reflex"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Which of the following is listed as an emergency preparation step in Point 52?",
+  options: [
+    "Save important numbers to call on your speed dial",
+    "Post personal transaction secrets on class WhatsApp groups",
+    "Avoid carrying personal details outside the hostel campus",
+    "Jump into swimming pools to practice water safety"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 4,
+  question: "Where should you maintain and update your medical record as part of emergency preparation?",
+  options: [
+    "In the Health Centre",
+    "With your course adviser",
+    "At the nearest local police post",
+    "On your student union portal"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst103",
+  chapter: 5,
+  question: "What is a students' union defined as in Point 1?",
+  options: [
+    "A group formed and run by the students, recognized by school authorities, to express and pursue student interests and welfare",
+    "A board of senior academic lecturers appointed by the governor to manage university transport",
+    "A branch of the state ministry of education that collects student school fees",
+    "A local student housing committee managed by off-campus private landlords"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "A students' union dedicates its time and resources to pursue student welfare so that students are treated fairly by whom?",
+  options: [
+    "The administration of the institution",
+    "The state judicial council exclusively",
+    "The national student umbrella associations",
+    "The local government representatives"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What does the term 'student unionism' refer to?",
+  options: [
+    "The modus operandi of students' unions",
+    "The physical construction of the student union building",
+    "The financial audit process of the university bursary",
+    "The rules governing student housing allocations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "The modus operandi of students' unions is known as:",
+  options: [
+    "Student unionism",
+    "Alumni interaction",
+    "Registry collaboration",
+    "Affiliate selection"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What is student's unionism defined as in Point 3?",
+  options: [
+    "The system of practice, procedure, and principles that guide student's unions in promoting student interests and welfare",
+    "A political strategy managed by the university's governing council",
+    "A legal treaty signed between the state governor and university visitors",
+    "The academic curriculum standard established by the Senate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Student unionism promotes the interests and welfare of students in which geographical scope?",
+  options: [
+    "On and off campus in universities and other higher institutions",
+    "Strictly within the local government area of Abraka only",
+    "Only within the physical boundaries of the university classrooms",
+    "Exclusively in international host countries"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is listed as a goal of student unionism in Point 4?",
+  options: [
+    "Promoting cordial relationships between students and the University authorities",
+    "Enforcing strict environmental logging bans",
+    "Monitoring the university's daily bank cash flows",
+    "Providing legal representation for university security staff"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "According to Point 4, student unionism aims to promote which interests of students?",
+  options: [
+    "Social and cultural interests",
+    "Strictly commercial and banking interests",
+    "Political party campaigns outside the state",
+    "Off-campus private housing investments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is listed as a goal of student unionism in Point 5?",
+  options: [
+    "Portraying the image of the university in good light",
+    "Appointing senior academic lecturers as affiliate patrons",
+    "Monitoring the financial investments of the bursary",
+    "Issuing degree results and official transcripts"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "According to Point 5, student unionism aims to ensure the independence of student activities from what?",
+  options: [
+    "Undue external influence",
+    "The university's main academic calendar",
+    "The supervision of appointed staff advisers",
+    "The payment of registration dues"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What are the levels of student unionism in DELSU?",
+  options: [
+    "Internal and External",
+    "State and National",
+    "Faculty and Departmental",
+    "Mainstream and Affiliate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "How many levels of student unionism are identified in DELSU?",
+  options: [
+    "Two levels",
+    "Three levels",
+    "Four levels",
+    "Five levels"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What does internal students' unionism involve?",
+  options: [
+    "Only bonafide students of the University",
+    "Both current students and external secondary school students",
+    "Senior lecturers and local community transport unions",
+    "Graduated alumni of the university exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Internal student unionism is restricted to which category of individuals?",
+  options: [
+    "Bonafide students of the University",
+    "Expelled former students",
+    "Senior non-academic staff",
+    "External union delegates only"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Internal students' unionism promotes the interest and welfare of students only on issues that are:",
+  options: [
+    "Internal to the institution",
+    "Beyond the state geographical borders",
+    "Purely commercial and industrial",
+    "Managed by external national umbrella bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Internal students' unionism restricts its advocacy to issues occurring:",
+  options: [
+    "Internal to the institution",
+    "Outside the university campus",
+    "Across other national higher institutions",
+    "Within the state ministry of education"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What are the two categories of internal students' unionism?",
+  options: [
+    "Mainstream and Affiliates",
+    "Internal and External",
+    "Religious and Extracurricular",
+    "Executive and Senate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "The internal level of student unionism is categorized into mainstream and:",
+  options: [
+    "Affiliates",
+    "External",
+    "Congregation",
+    "Alumni"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Mainstream or internal student unionism deals with activities of student unions directly related to:",
+  options: [
+    "The general interest and welfare of all associating students from different sections of the university",
+    "The specific private spiritual beliefs of voluntary student members",
+    "The national academic policy changes set by NANS",
+    "The commercial operations of surrounding community markets"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Mainstream internal student unionism operates under the regulation of:",
+  options: [
+    "Concerned university authorities",
+    "The National Association of Nigerian Students (NANS)",
+    "External political party chairpersons",
+    "The DELSU Alumni Association executive council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which body leads the Central Students' Union?",
+  options: [
+    "The Students' Union Government (SUG)",
+    "The Faculty Executive Council",
+    "The DELSU Alumni Association",
+    "The School Health Committee"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "The Central Students' Union is made up of the SUG Executive Council, the Supreme Students' Senate (SSS), and:",
+  options: [
+    "The Students Representative Council (SRC)",
+    "The Faculty Board of Studies",
+    "The Registry Admissions Office",
+    "The Departmental Board"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Who can partake in the Central Students' Union?",
+  options: [
+    "All students of the university who subscribe to the union through payment of SUG dues",
+    "Only students registered in law and engineering programs",
+    "Only academic staff members of the university",
+    "Graduates who are members of the Alumni association"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What is the requirement for a student to partake in the Central Students' Union?",
+  options: [
+    "Subscribing to the union through payment of SUG dues",
+    "Obtaining an honorary certificate from the Chancellor",
+    "Securing a CGPA above 4.50 in the first semester",
+    "Volunteering for external community outreach programs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Who can partake in the Associations of non-regular academic programs (e.g., postgraduate, sandwich, continuing education)?",
+  options: [
+    "All students in the concerned academic programs",
+    "Only regular undergraduate students who paid SUG dues",
+    "Any bonafide student of other higher institutions",
+    "Senior non-academic staff in the registry department"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Sandwich, postgraduate, and continuing education associations represent associations of:",
+  options: [
+    "Non-regular academic programs",
+    "Regular internal mainstream unions",
+    "Affiliated religious student groups",
+    "External student umbrella bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Who can participate in Faculty Associations led by their respective executive councils?",
+  options: [
+    "All students in the respective faculties",
+    "Only postgraduate students of the university",
+    "Students from other universities",
+    "Only staff advisers appointed by the Dean"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Faculty Associations are led by which of the following?",
+  options: [
+    "Their respective executive Councils",
+    "Appointed senior non-academic staff",
+    "The Supreme Students' Senate (SSS)",
+    "The Students Representative Council (SRC)"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What does Affiliate Student Unionism deal with?",
+  options: [
+    "Activities of registered student associations serving specific categories of students who voluntarily identify with them",
+    "Mainstream political elections representing all students in the university",
+    "External student groups from other national higher education institutions",
+    "The financial audit reports submitted to the university bursar"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Participation in affiliate student union associations is based on students who:",
+  options: [
+    "Voluntarily identify with them",
+    "Are mandated by the Dean of Students",
+    "Pay mainstream SUG registration dues",
+    "Are elected by the Supreme Students' Senate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is listed as an affiliate to student unionism in Point 16?",
+  options: [
+    "Religious or faith-based students' association",
+    "SUG Executive Council",
+    "Supreme Students' Senate (SSS)",
+    "Students Representative Council (SRC)"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Religous, extra-curricular, voluntary service, and charity groups are examples of:",
+  options: [
+    "Affiliates to student unionism",
+    "Mainstream internal student unions",
+    "External student umbrella bodies",
+    "Alumni association departments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Does DELSU appoint senior academic staff to oversee affiliated associations?",
+  options: [
+    "No, DELSU does not appoint senior academic staff to oversee affiliated associations",
+    "Yes, DELSU appoints two senior lecturers for each affiliate group",
+    "Yes, but only for religious-based affiliated groups",
+    "No, because affiliates are overseen directly by NANS"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "According to Point 17, which type of student associations does DELSU NOT appoint senior academic staff to oversee?",
+  options: [
+    "Affiliated associations",
+    "Mainstream student associations",
+    "Faculty-based associations",
+    "Postgraduate student associations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What does External Student Unionism cover?",
+  options: [
+    "Activities of students from within and outside the university to promote welfare on issues within and beyond DELSU",
+    "Strictly the internal academic and residential welfare of DELSU undergraduate students",
+    "The appointment of staff advisers by the school authorities",
+    "The selection of patrons and matrons by registered faith-based groups"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "External Student Unionism promotes student interest and welfare on issues that exist:",
+  options: [
+    "Within and beyond DELSU",
+    "Strictly within the classrooms of DELSU",
+    "Only within the state capital of Asaba",
+    "Exclusively within international student bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "External Student Unionism covers recognized umbrella bodies that include students from:",
+  options: [
+    "Other higher institutions",
+    "Secondary school councils exclusively",
+    "Private surrounding community markets",
+    "DELSU's academic senate only"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Students from other higher institutions can interact with DELSU students under recognized umbrella bodies of:",
+  options: [
+    "External Student Unionism",
+    "Internal Student Unionism",
+    "Affiliate Student Unionism",
+    "DELSU Alumni Association"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is listed as an umbrella body functioning under External Student Unionism?",
+  options: [
+    "National Association of Nigerian Students (NANS)",
+    "DELSU Students' Union Government (SUG)",
+    "Faculty of Basic Medical Sciences Association",
+    "DELSU Sports Club Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "NANS and NADESTU are examples of student bodies functioning under:",
+  options: [
+    "External Student Unionism",
+    "Internal Mainstream Unionism",
+    "Affiliate Student Unionism",
+    "Alumni Association"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which ethnic student association is listed in Point 21 as functioning under External Student Unionism?",
+  options: [
+    "National Union of Urhobo Students (NUUS)",
+    "Students Representative Council (SRC)",
+    "Postgraduate Student Association",
+    "DELSU Faith-Based Association"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "The National Association of Science Students (NASS) functions under which level of student unionism?",
+  options: [
+    "External Student Unionism",
+    "Internal Student Unionism",
+    "Affiliate Student Unionism",
+    "Alumni Association"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What is the primary role of Patrons, Matrons, and Staff Advisers in student unionism in DELSU?",
+  options: [
+    "To oversee the activities of student unions or associations to guide them",
+    "To manage the physical safety patrols around campus hostels",
+    "To process student course registration and exam results",
+    "To collect annual SUG subscription dues"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Patrons, Matrons, and Staff Advisers oversee student associations primarily to provide:",
+  options: [
+    "Guidance",
+    "Academic lecturing",
+    "Medical treatment",
+    "Legal defense"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "According to Point 23, Patrons or Staff Advisers must be selected from which of the following?",
+  options: [
+    "Experienced lecturers or senior non-academic staff of the University",
+    "Expelled former students of the university",
+    "External political party campaign leaders",
+    "Representatives from other higher institutions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "An experienced lecturer or senior non-academic staff member of DELSU is eligible to serve as a:",
+  options: [
+    "Patron or Staff Adviser",
+    "Member of the Student Union Government executive",
+    "Representative on the Student Senate Council",
+    "Secretary to NANS or NADESTU"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Who appoints staff advisers for mainstream students' unions or associations in DELSU?",
+  options: [
+    "University authorities",
+    "The Student Union Government executive",
+    "The external delegates of NANS",
+    "The local government chairman"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Staff advisers for mainstream student associations are designated through:",
+  options: [
+    "Appointment by university authorities",
+    "Democratic voting by all university students",
+    "Direct selection by the affiliate groups",
+    "Self-appointment by senior lecturers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "How do affiliate students' associations obtain their patrons or matrons?",
+  options: [
+    "They select them from among lecturers and senior non-academic staff in the university",
+    "They are assigned to them automatically by the Dean of Students",
+    "They receive them via appointment from NANS national executive",
+    "They must hire them from outside the university community"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Unlike mainstream associations, affiliate students' associations obtain their patrons or matrons through:",
+  options: [
+    "Selection by the affiliate association members",
+    "Direct appointment by the Vice-Chancellor",
+    "Assignment by the state ministry of education",
+    "Automatic designation based on department headship"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is listed as a general role of Patrons, Matrons, and Staff Advisers in Point 26?",
+  options: [
+    "Provision of general advice on associations' activities",
+    "Mandatorily signing the university bursary monthly accounts",
+    "Enforcing strict judicial penalties on student criminals",
+    "Developing academic curriculum policy changes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "According to Point 26, why do patrons, matrons, or staff advisers periodically attend association activities?",
+  options: [
+    "To gain first-hand experience of students' activities",
+    "To collect membership fees and subscription dues",
+    "To deliver mandatory academic lectures",
+    "To audit the association's bank details"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is a role specific to staff advisers (rather than general patrons/matrons)?",
+  options: [
+    "Serving as mandatory signatories to associations' bank accounts",
+    "Provision of occasional financial support to associations",
+    "Advocating on behalf of students to university authorities",
+    "Attending events to gain first-hand experience"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Approval of budgets, monitoring of expenditure, and serving as mandatory signatories are roles specific to:",
+  options: [
+    "Staff advisers",
+    "General patrons",
+    "General matrons",
+    "Affiliate selection boards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "What is an Alumni Association?",
+  options: [
+    "A body of former students of the university who graduated",
+    "A coalition of current students run by the SUG executive",
+    "A committee of senior lecturers appointed by the governor",
+    "A support unit of health care workers on campus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "An Alumni Association is comprised of which of the following?",
+  options: [
+    "Former students of the university who graduated",
+    "Current bonafide students paying SUG dues",
+    "Staff advisers appointed for mainstream associations",
+    "Parents and guardians of current undergraduates"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Who is explicitly excluded from becoming an alumna or alumnus of Delta State University?",
+  options: [
+    "A student who dropped out, has withdrawn, or was expelled from the University",
+    "A student who graduated with a third-class degree",
+    "A graduate who did not participate in student unionism",
+    "A former student who has relocated beyond Delta State"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Can a student who dropped out or was expelled from DELSU join the alumni association?",
+  options: [
+    "No, they cannot be an alumna or alumnus",
+    "Yes, if they pay their registration fees",
+    "Yes, if recommended by the SUG President",
+    "No, unless they register as an affiliate member"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "Which of the following is listed as a function of the DELSU Alumni Association?",
+  options: [
+    "Promoting academic excellence through the award of prizes to the best overall graduating student",
+    "Managing the daily security patrol activities around campus",
+    "Scheduling end-of-semester examination timetables",
+    "Fostering religious-based affiliate associations on campus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 5,
+  question: "The DELSU Alumni Association promotes social development by organizing rewarding social activities on which day?",
+  options: [
+    "Alumni Day",
+    "SUG Election Day",
+    "Orientation Day",
+    "matriculation Day"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst103",
+  chapter: 6,
+  question: "No department in higher education can exist if the institution fails to meet minimal library accreditation requirements set by which body?",
+  options: [
+    "National Universities Commission (NUC)",
+    "Joint Admissions and Matriculation Board (JAMB)",
+    "Tertiary Education Trust Fund (TETFund)",
+    "National Board for Technical Education (NBTE)"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "To prevent the closure of any academic department, higher education institutions must achieve library accreditation requirements established by:",
+  options: [
+    "National Universities Commission (NUC)",
+    "Student Union Government (SUG) Council",
+    "Delta State Ministry of Education",
+    "University Governing Council"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is defined as a room, building, or other structure without walls that houses books and electronic resources for reading or reference?",
+  options: [
+    "A library",
+    "A registry",
+    "A lecture theater",
+    "A research archive"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "A library is a structure that houses books and what else for reading or reference?",
+  options: [
+    "Electronic resources",
+    "Tectonic records",
+    "Financial payroll ledgers",
+    "Athletic trophies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which of the following is listed as a type of library in Point 3?",
+  options: [
+    "Special libraries",
+    "Departmental registries",
+    "Virtual server networks",
+    "Voluntary sports archives"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "How many types of libraries are specifically listed under Point 3 of the notes?",
+  options: [
+    "Four types",
+    "Three types",
+    "Five types",
+    "Six types"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which type of library is specifically designed for schools, colleges, and Universities?",
+  options: [
+    "Academic libraries",
+    "Special libraries",
+    "National libraries",
+    "Public libraries"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Academic libraries are established to support which educational institutions?",
+  options: [
+    "Schools, colleges, and Universities",
+    "Hospitals and military camps",
+    "Corporate museums and private firms",
+    "State and federal ministries exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Where are Special Libraries typically found according to Point 5?",
+  options: [
+    "Hospitals, corporations, museums, the military, private industry, and government buildings or homes",
+    "State primary schools and general public gardens",
+    "Undergraduate campus lecture rooms exclusively",
+    "Open public markets and local municipal town halls"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Libraries located in hospitals, corporate offices, and military compounds are categorized as:",
+  options: [
+    "Special libraries",
+    "Academic libraries",
+    "National libraries",
+    "Public libraries"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who runs public libraries in towns and cities?",
+  options: [
+    "Various state governments",
+    "The federal government exclusively",
+    "Private multinational corporations",
+    "Registered student union affiliates"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Public libraries are managed by state governments and are situated in:",
+  options: [
+    "Towns and cities",
+    "Hospitals and corporations",
+    "Universities and colleges",
+    "Military cantonments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which level of government establishes national libraries?",
+  options: [
+    "The Federal Government",
+    "The State Government",
+    "The Local Government Area",
+    "Private educational trusts"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is a national library defined as in Point 7?",
+  options: [
+    "A country's preeminent repository of information established by the Federal Government",
+    "A library built strictly inside hospitals and corporate headquarters",
+    "A school or college library run by state ministries",
+    "A digital-only database developed by the university's ICT unit"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Where is the ultra-modern mega library at Delta State University located?",
+  options: [
+    "Site 3",
+    "Site 1",
+    "Oleh Campus",
+    "Aniocha North"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Site 3 at Delta State University is the physical location of the:",
+  options: [
+    "Ultra-modern mega library",
+    "Student affairs office",
+    "College of Health Sciences",
+    "Sports medical center"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Beside the ultra-modern mega library, where are other smaller libraries located in Delta State University?",
+  options: [
+    "Departments, faculties, or schools",
+    "External student union secretariat buildings",
+    "Local town municipal halls off-campus",
+    "Private student residential hostels"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Smaller libraries within DELSU are situated to serve specific:",
+  options: [
+    "Departments, faculties, or schools",
+    "Private hostlers and traders",
+    "State government ministries",
+    "Affiliated extra-curricular clubs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "A library is defined as a location where what is kept?",
+  options: [
+    "Copious amounts of information and related resources",
+    "Only traditional medical vaccines and immunizations",
+    "Tectonic seismic charts and tools",
+    "Local government physical planning records"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is stored in copious amounts within a library facility?",
+  options: [
+    "Information and related resources",
+    "Tectonic and active volcanic equipment",
+    "Financial investment cash and bonds",
+    "Student athletic equipment"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 11, in which formats can a library exist?",
+  options: [
+    "Physical or digital format",
+    "Only a physical format",
+    "Only a verbal format",
+    "Only an encrypted digital format"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "True or False: A library cannot exist without a physical building.",
+  options: [
+    "False, it can exist in a physical or digital format",
+    "True, NUC mandates physical walls only",
+    "False, but only if approved by state governments",
+    "True, digital repositories are classified as ICT servers only"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The physical library is commonly referred to as which of the following?",
+  options: [
+    "An analog library",
+    "A virtual library",
+    "An e-library",
+    "A wall-free library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "An 'analog library' is another term used to describe:",
+  options: [
+    "The physical library",
+    "The digital database",
+    "The online OPAC interface",
+    "A subscribed remote database"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "A digital library is known by which of the following names?",
+  options: [
+    "An e-library, virtual library, or wall-free library",
+    "An analog library or physical structure",
+    "A card catalog cabinet",
+    "A departmental book repository"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is another term for a 'wall-free library'?",
+  options: [
+    "A digital or virtual library",
+    "An analog library",
+    "A corporate medical library",
+    "A public city structure"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which of the following is included in a library's collection according to Point 14?",
+  options: [
+    "Books, periodicals, magazines, newspapers, DVDs, CDs, audio-books, and journals",
+    "Seismic drills, tectonic sensors, and mining models",
+    "Budget ledgers and payroll cash flow statements exclusively",
+    "Athletic tracking clocks and physical fitness gym tools"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Magazines, DVDs, newspapers, and periodicals form part of a library's:",
+  options: [
+    "Collection",
+    "Classification scheme",
+    "Registry database",
+    "Accreditation certificate"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who works at the library to assist patrons in finding books or determining which book is the best fit?",
+  options: [
+    "A librarian",
+    "A registry clerk",
+    "A financial bursar",
+    "A security warden"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 15, a librarian assists patrons by:",
+  options: [
+    "Helping them find books or determining which book is the best fit for them",
+    "Enforcing strict physical fitness regulations in campus sports grounds",
+    "Conducting mandatory clinical screening tests",
+    "Approving the student union's monthly budget"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "When books and similar publications are checked out from a library, they must be returned:",
+  options: [
+    "Within a set amount of time",
+    "At any time before the student graduates",
+    "Within exactly twenty-four hours",
+    "Only after the NUC finishes library accreditation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What rule applies to checked-out library books and publications?",
+  options: [
+    "They must be returned within a set amount of time",
+    "They must be passed to other students within class WhatsApp groups",
+    "They can be retained indefinitely by postgraduate students",
+    "They must be delivered to the Registrar's personal office"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What do modern libraries have to help patrons find books within the building?",
+  options: [
+    "Online databases",
+    "Tectonic compasses",
+    "Registry filing cabinets",
+    "Counselling help desks"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Modern online databases in libraries are utilized to help patrons:",
+  options: [
+    "Find books within the building",
+    "Submit applications for student union funds",
+    "Check their physical fitness schedules",
+    "Acquire off-campus residential rooms"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who keeps track of library materials checked out, who checked them out, and when they must be returned?",
+  options: [
+    "Librarians",
+    "Registry staff",
+    "The Chief Security Officer",
+    "The Student Union president"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "To ensure materials are accounted for, librarians track which of the following information?",
+  options: [
+    "Who checked out materials and when they need to be returned",
+    "The student's residential room allocation number",
+    "The exact financial budget of the procurement division",
+    "The local government political coordinates of the user"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What are the three categories of staff in the university library?",
+  options: [
+    "Professionals, para-professional staff, and administrative staff",
+    "Academic lecturers, researchers, and student interns",
+    "Registrars, bursars, and security officers",
+    "Physicians, physical therapists, and sports coaches"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "How many categories of staff make up the university library workforce?",
+  options: [
+    "Three categories",
+    "Four categories",
+    "Two categories",
+    "Five categories"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What are the two types of professionals involved at every level of library operations?",
+  options: [
+    "Librarians and library paraprofessionals/support workers",
+    "Registry clerks and financial accountants",
+    "Security wardens and clinic nurses",
+    "Faculty deans and departmental heads"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Library paraprofessionals are also described as:",
+  options: [
+    "Library support workers",
+    "Registry administrative staff",
+    "Specialized clinical counselors",
+    "University budget compliance officers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What functions do Librarians and library professionals perform in a library?",
+  options: [
+    "They could oversee libraries or offer highly specialized knowledge in a particular area",
+    "They manage the state-wide funding allocations for NANS",
+    "They conduct standard biological tests inside hospital clinics",
+    "They patrol the external campus borders during security challenges"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Librarians may oversee libraries or offer which of the following?",
+  options: [
+    "Highly specialized knowledge in a particular area",
+    "Diagnostic evaluations for stroke symptoms",
+    "Strategic planning for state public transport",
+    "Standardized training for athletic events"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What academic credential is a common differentiator between paraprofessionals and professionals in libraries?",
+  options: [
+    "Master of Library Science degree (MLS)",
+    "Bachelor of Arts in Education",
+    "Doctor of Philosophy in History",
+    "Master of Business Administration (MBA)"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The abbreviation MLS in library staff credentialing stands for:",
+  options: [
+    "Master of Library Science",
+    "Medical Laboratory Specialist",
+    "Major Library Scheme",
+    "Master of Legislative Studies"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 23, Master of Library Science holders may sometimes find themselves in roles that:",
+  options: [
+    "Ordinarily do not require the degree",
+    "Mandate their immediate transfer to the bursary office",
+    "Prevent them from cataloging electronic resources",
+    "Require state-level military clearance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which degree holders may occasionally occupy library roles that ordinarily do not require their specific level of education?",
+  options: [
+    "Master of Library Science holders",
+    "Doctorate in Civil Law holders",
+    "Bachelor of Science in Engineering holders",
+    "Diploma in Sports Medicine holders"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who can sometimes be found in the highest echelons of library administration?",
+  options: [
+    "Staff without a Master of Science degree",
+    "Students on direct industrial training only",
+    "Only staff transferred from external public registries",
+    "Only individuals with an active medical nursing license"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "True or False: A Master of Science degree is always possessed by every individual working in the highest echelons of library administration.",
+  options: [
+    "False, staff without a Master of Science degree may be found there",
+    "True, it is a strict National Universities Commission rule",
+    "False, only student union representatives can work in those echelons",
+    "True, non-degree holders are restricted to security units"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who are the administrative staff in the university library?",
+  options: [
+    "Registry staff transferred from the Registrar's office to assist the University Librarian",
+    "Academic professors assigned to teach cataloging rules",
+    "Volunteer students from extra-curricular campus sports groups",
+    "Qualified medical personnel transferred from the Health Centre"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Registry staff are transferred from the Registrar's office to the library to assist the University Librarian in:",
+  options: [
+    "Managing his official schedules in the Library",
+    "Drafting the university's annual investment budget",
+    "Administering physical first aid during medical crises",
+    "Supervising students during inter-faculty games"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which of the following is listed as a duty of library staff under Point 26?",
+  options: [
+    "Maintaining budgets for library facilities and resources",
+    "Preserving life and promoting cardiac recovery",
+    "Drafting the Student Union Government constitution",
+    "Screening incoming student medical files"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Assisting customers with charging out materials, assigning tasks, and organizing information resources are duties of:",
+  options: [
+    "Library staff",
+    "The Registrar exclusively",
+    "Student union executives",
+    "The security unit warden"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What key processes do library staff duties revolve around?",
+  options: [
+    "Acquisition, accessioning, organization, dissemination, and retrieval of information resources",
+    "Budget collection, accounting, and state risk management",
+    "Fumigation, dis-infestation, and rodent vector control",
+    "First aid check, calling emergency care, and stroke detection"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Acquisition, accessioning, organization, and dissemination of information resources are key areas in:",
+  options: [
+    "Library staff duties",
+    "The Registrar's mainstream functions",
+    "The school health immunization program",
+    "The campus patrol guidelines"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is the efficient retrieval and accessibility of information materials contingent upon?",
+  options: [
+    "The arrangement of the Library collection",
+    "The total budget of the Registry Establishment unit",
+    "The number of first aid boxes available on campus",
+    "The presence of a digital-only wall-free e-library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Proper arrangement of the library collection is essential because it guarantees:",
+  options: [
+    "Efficient retrieval and accessibility of information materials",
+    "Higher annual funding from state governments",
+    "The absolute safety of books from physical fire hazards",
+    "A direct increase in the minimum room temperature"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is the system in which library materials are methodically organized and structured to enable simple navigation and discovery?",
+  options: [
+    "Cataloging and classification processes",
+    "The cash management and risk management systems",
+    "The student union government mainstream divisions",
+    "The school health and screening programs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Cataloging and classification processes are methodically used to enable:",
+  options: [
+    "Simple navigation and discovery of library materials",
+    "The collection of student tuition and hostel dues",
+    "Standardized training for emergency response teams",
+    "Disinfection and rodent control in student housing"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "How does cataloging help users find particular volumes by subject, author, or title?",
+  options: [
+    "By producing detailed and illuminating bibliographic records for every book",
+    "By organizing mandatory orientation seminars for all new users",
+    "By sending automated external defibrillator messages to users",
+    "By providing free internet search databases inside the building"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What are the detailed and illuminating records produced for every book in the library collection called?",
+  options: [
+    "Bibliographic details (records)",
+    "Seismic structural records",
+    "Registrar establishment policies",
+    "Quality assurance student feedback"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is the primary goal of library classification, also known as subject cataloging?",
+  options: [
+    "To classify resources logically so that they can be arranged on shelves methodically",
+    "To check out publications to readers for a set amount of time",
+    "To evaluate the literary quality of books published internationally",
+    "To select experienced lecturers as mainstream advisers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Subject cataloging is another term used to describe:",
+  options: [
+    "Classification",
+    "Accessioning",
+    "Fumigation",
+    "Procurement"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which of the following is listed as a library classification scheme in Point 32?",
+  options: [
+    "Library of Congress",
+    "Cutter's Expansive only",
+    "Universal Decimal only",
+    "Bliss Bibliographic only"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The Library of Congress, Dewey decimal classification, and Colon classification are examples of:",
+  options: [
+    "Library classification schemes",
+    "Online database retrieval systems",
+    "Administrative registry units",
+    "School health safety goals"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What are library classification schemes defined as in Point 33?",
+  options: [
+    "Frameworks for managing the diverse collection of information materials in libraries",
+    "A set of rules designed to prevent environmental chemical hazards",
+    "Databases used exclusively to check student admission metrics",
+    "Systems governing the election of mainstream student associations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Managing the diverse collection of information materials in a library is facilitated by:",
+  options: [
+    "Library classification schemes",
+    "Emergency risk management units",
+    "Alumni Association executive councils",
+    "Registry exams and records units"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "By putting good organizational principles into practice, what can a library maximize?",
+  options: [
+    "The usability of its collection",
+    "The budget allocated to the Sports Centre",
+    "The speed of the local internet network",
+    "The number of admissions into postgraduate programs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Maximizing collection usability, facilitating successful retrieval, and improving user experience are achieved through:",
+  options: [
+    "Good organizational principles",
+    "The appointment of mainstream staff advisers",
+    "The introduction of the 'Trash D Trash' campaign",
+    "The use of automated external defibrillators"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which two operations together provide a library's holding with a definitely organized layout?",
+  options: [
+    "Cataloging and categorization",
+    "Accessioning and auditing",
+    "Procurement and risk management",
+    "Disinfection and fumigation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Cataloging and categorization are combined in library practice because they together provide:",
+  options: [
+    "A definitely organized layout",
+    "A free subscription to distant databases",
+    "A set return date for checked out books",
+    "A method to minimize physical travel"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Charles Ami Cutter, traditional classification guarantees:",
+  options: [
+    "The useful arrangement of books and documents on shelves and cataloguing",
+    "An increase in the total funding received from the federal government",
+    "The safety of books from biological pests and humidity",
+    "A reduction in the time needed to check out materials"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who stated that traditional classification guarantees the useful arrangement of books and documents on shelves?",
+  options: [
+    "Charles Ami Cutter",
+    "Melvil Dewey",
+    "S.R. Ranganathan",
+    "Henry Evelyn Bliss"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 37, which of the following is a reason why books are cataloged?",
+  options: [
+    "To make it possible for library users to locate a book whose author, title, or subject is known",
+    "To prevent students from keeping secrets from their course advisers",
+    "To reduce the financial budget required to operate physical buildings",
+    "To provide statistical data regarding student campus enrollment"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Displaying the works that the library owns by a specific author, theme, or genre is a primary reason for:",
+  options: [
+    "Cataloging",
+    "Immunization monitoring",
+    "Fumigation",
+    "Procurement"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What does cataloguing provide to assist readers in evaluating the literary or topical aspects of a work?",
+  options: [
+    "Information about a book's nature or character",
+    "A list of local bookstores selling the same publication",
+    "An official approval stamp from the NUC accreditors",
+    "A digital link to the author's personal website"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Cataloguing assists readers in evaluating the literary or topical aspects of a work by providing information about its:",
+  options: [
+    "Nature or character",
+    "Financial cost of printing",
+    "Expected return duration",
+    "Physical layout class location"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "To ensure materials are ready as quickly as feasible after delivery, they should be arranged and categorized according to:",
+  options: [
+    "A predefined system",
+    "The size and color of their cover bindings",
+    "The total number of chapters inside them",
+    "The preferences of the student union executives"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Materials must be arranged according to a predefined system as quickly as feasible after:",
+  options: [
+    "Delivery",
+    "Accreditation",
+    "Disinfection",
+    "Borrowing"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 40, which of the following is it important to catalog?",
+  options: [
+    "Print, non-print, electronic resources, and distant databases subscribed to",
+    "Only traditional print textbooks kept in analog buildings",
+    "The student union government constitution documents",
+    "First aid boxes stocked around the school environment"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Subscribed distant databases and non-print resources must be:",
+  options: [
+    "Cataloged",
+    "Disinfected",
+    "Audited by the bursar",
+    "Kept in the security office"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What are the two methods of cataloguing listed in Point 41?",
+  options: [
+    "Card catalogue and Online Public Access Catalogue",
+    "Traditional analog shelfing and digital pdf files",
+    "Dewey decimal system and Library of Congress classes",
+    "Subject cataloguing and expansive categorization"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The Card catalogue and the Online Public Access Catalogue are categorized as:",
+  options: [
+    "Methods of cataloguing",
+    "Schemes of classification",
+    "Types of service departments",
+    "Phases of emergency response"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What is the full meaning of the abbreviation OPAC?",
+  options: [
+    "Online Public Access Catalogue",
+    "Office of Public Academic Credentials",
+    "Online Private Access Code",
+    "Organization of Professional Academic Counselors"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The acronym OPAC stands for which cataloguing method?",
+  options: [
+    "Online Public Access Catalogue",
+    "Organized Physical Archive Collection",
+    "Official Program Accreditation Committee",
+    "Online Peer Academic Consultation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which of the following classification schemes is used worldwide according to Point 43?",
+  options: [
+    "Henry Evelyn Bliss's Bibliographic Classification",
+    "NUC Accreditation Classification only",
+    "DELSU Ultra Modern Site 3 Scheme",
+    "Faculty of Basic Medical Sciences Index"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "S.R. Ranganathan's Colon Classification and Charles Ami Cutter's Expansive Classification are schemes of:",
+  options: [
+    "Classification used worldwide",
+    "Online databases used in secondary schools",
+    "First aid assessment procedures",
+    "Emergency check lists"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who developed the Decimal Classification Scheme in the late 19th Century?",
+  options: [
+    "Melvil Dewey",
+    "Charles Ami Cutter",
+    "Paul Otlet",
+    "S.R. Ranganathan"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "In what century was Melvil Dewey's Decimal Classification Scheme developed?",
+  options: [
+    "Late 19th Century",
+    "Mid 20th Century",
+    "Late 18th Century",
+    "Early 21st Century"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Melvil Dewey's decimal classification is predicated on classifying knowledge into how many primary groups?",
+  options: [
+    "10 primary groups",
+    "21 primary groups",
+    "5 primary groups",
+    "12 primary groups"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "In Melvil Dewey's decimal classification, each of the 10 primary groups is denoted by:",
+  options: [
+    "A particular range of numerals",
+    "An alphabetic letter combination",
+    "A specific color-coded binding",
+    "A colon and notation symbol"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who created the Expansive Classification library classification system?",
+  options: [
+    "Charles Ami Cutter",
+    "Melvil Dewey",
+    "J.D. Brown",
+    "Henry Evelyn Bliss"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Charles Ami Cutter developed the Expansive Classification system to offer more:",
+  options: [
+    "Versatility and flexibility for classifying library items",
+    "Predefined classes for military hospital libraries",
+    "Numerical ranges for public city archives",
+    "Simple navigation for card catalogs only"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which institution created the widely used Library of Congress Classification (LCC) system?",
+  options: [
+    "The Library of Congress",
+    "The National Universities Commission",
+    "Delta State University",
+    "The British Library Board"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The classification system widely known as LCC was created by:",
+  options: [
+    "The Library of Congress",
+    "The state ministry of culture",
+    "Melvil Dewey and Charles Cutter",
+    "Henri La Fontaine"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The Delta State University Ultra Modern Mega Library's classification separates knowledge into how many major classes?",
+  options: [
+    "Twenty-one (21) major classes",
+    "Ten (10) major classes",
+    "Twelve (12) major classes",
+    "Fifteen (15) major classes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "DELSU's Ultra Modern Mega Library organizes its knowledge using how many major classes?",
+  options: [
+    "21 major classes",
+    "10 major classes",
+    "12 major classes",
+    "5 major classes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What type of structure does the Library of Congress Classification (LCC) system use?",
+  options: [
+    "A hierarchical structure",
+    "An analytical synthetic notation",
+    "A purely alphabetic sequence",
+    "An decimal range framework"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The Library of Congress Classification (LCC) makes it simpler for patrons to find books on specific subjects by arranging materials logically on:",
+  options: [
+    "Library shelves",
+    "Card catalog cabinets",
+    "Class WhatsApp platforms",
+    "The registry database"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The Library of Congress Classification (LCC) is renowned for which of the following?",
+  options: [
+    "Comprehensive and in-depth subject coverage",
+    "Restricting library access to registered alumni",
+    "Being a digital-only wall-free e-library system",
+    "Using a combination of colons to separate subjects"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "LCC is extensively utilized in which type of libraries, especially in the United States?",
+  options: [
+    "Academic and research libraries",
+    "Private domestic hospital libraries",
+    "Municipal public libraries only",
+    "Voluntary extra-mural sports clubs"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which classification scheme offers an alternative method of subject-centered library material organization?",
+  options: [
+    "Brown's subject classification",
+    "Dewey Decimal Classification",
+    "Henry Evelyn Bliss's Bibliographic system",
+    "S.R. Ranganathan's Colon system"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Under Brown's subject-centered classification method, how are subjects organized?",
+  options: [
+    "Subjects are assigned to main classes and then further sub-classes",
+    "Subjects are categorized into exactly ten numeric primary groups",
+    "Subjects are assigned letters and numbers in a hierarchical sequence",
+    "Subjects are split using colons to enable flexible retrieval"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who created the Universal Decimal Classification in the 19th century?",
+  options: [
+    "Paul Otlet and Henri La Fontaine",
+    "Melvil Dewey and Charles Cutter",
+    "Henry Evelyn Bliss and S.R. Ranganathan",
+    "J.D. Brown"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "In which century was the Universal Decimal Classification (UDC) developed?",
+  options: [
+    "19th century",
+    "18th century",
+    "20th century",
+    "21st century"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What does the Universal Decimal Classification (UDC) allow for?",
+  options: [
+    "Accurate material classification and retrieval across a broad range of subjects",
+    "Bypassing the minimal requirements set by the NUC",
+    "Assigning daily tasks to administrative staff teams",
+    "Establishing state-run public libraries in cities"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Accurate material classification and retrieval across a broad range of knowledge areas is allowed by:",
+  options: [
+    "Universal Decimal Classification (UDC)",
+    "Brown's subject classification",
+    "Expansive Classification",
+    "Traditional card catalogues"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who created the Colon Classification (CC)?",
+  options: [
+    "S.R. Ranganathan",
+    "Paul Otlet",
+    "Henry Evelyn Bliss",
+    "Henri La Fontaine"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "S.R. Ranganathan, who created the Colon Classification, was a well-known:",
+  options: [
+    "Indian librarian",
+    "American academic",
+    "British researcher",
+    "Nigerian governor"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What does the Colon Classification (CC) seek to offer?",
+  options: [
+    "A complete and adaptable approach to knowledge organization",
+    "A rigid alphabetical class division for analog shelves",
+    "A simple card index system for city public libraries",
+    "An alternative method based strictly on book cover bindings"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "A complete and adaptable approach to knowledge organization is the objective of:",
+  options: [
+    "Colon Classification (CC)",
+    "Dewey Decimal Classification (DDC)",
+    "Expansive Classification",
+    "Subject Classification"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Who created the Bibliographic Classification?",
+  options: [
+    "Henry Evelyn Bliss",
+    "S.R. Ranganathan",
+    "Charles Ami Cutter",
+    "J.D. Brown"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The classification system known as Bibliographic Classification was developed by:",
+  options: [
+    "Henry Evelyn Bliss",
+    "S.R. Ranganathan",
+    "Paul Otlet",
+    "Henri La Fontaine"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What type of classification method is the Bibliographic Classification?",
+  options: [
+    "An analytical synthetic classification method that is systematic",
+    "A basic physical indexing framework that is non-systematic",
+    "A card-only classification system designed for small libraries",
+    "A rigid decimal sequence restricted to ten groups"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The systematic, analytical synthetic method known as Bibliographic Classification focuses on comprehensively:",
+  options: [
+    "Organizing knowledge",
+    "Tracking borrowed materials",
+    "Financing campus resources",
+    "Managing physical safety patrols"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "What notation does the Bibliographic Classification use to express subjects and subcategories?",
+  options: [
+    "A combination of numeric and alphabetic notation",
+    "A sequence of colons and punctuation symbols only",
+    "A set of color-coded numeric ranges",
+    "A purely decimal range of numerals"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "The combination of numeric and alphabetic notation to express subjects is a feature of:",
+  options: [
+    "The Bibliographic Classification",
+    "The Dewey Decimal Classification",
+    "The Colon Classification",
+    "The Universal Decimal Classification"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Which of the following is listed as an importance of libraries in Point 59?",
+  options: [
+    "Serves as a platform for community",
+    "Eliminates the need for registry staff",
+    "Enforces state-wide political directives",
+    "Provides mandatory medical insurance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 59, how does an e-library benefit users?",
+  options: [
+    "It minimizes the need to travel to get information",
+    "It awards prizes to the best overall graduating student",
+    "It eliminates NUC accreditation requirements",
+    "It provides physical first aid medical care"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "According to Point 60, what is an advantage of libraries?",
+  options: [
+    "Libraries provide users with access to a wealth of knowledge from many sources",
+    "They automatically pay SUG dues for registered students",
+    "They eliminate the need for classroom lectures on campus",
+    "They prevent all physical and chemical health hazards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 6,
+  question: "Through novels or narrative books, what do libraries give readers a place for?",
+  options: [
+    "Mental relaxation",
+    "Tectonic studies",
+    "Financial auditing",
+    "Physical fitness training"
+  ],
+  answer: 0
+},
+  {
+  course: "gst103",
+  chapter: 7,
+  question: "What are basic library routines defined as in Point 1?",
+  options: [
+    "The library functions repeatedly carried out to make day-to-day functions successful",
+    "The official legal protocols designed to secure NUC accreditation",
+    "The election guidelines run by the student union government",
+    "The medical procedures carried out within the university health center"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Basic library routines are repeatedly carried out by a library to make what successful?",
+  options: [
+    "Day-to-day functions",
+    "The annual student athletic competitions",
+    "The collection of postgraduate tuition fees",
+    "The development of campus security patrols"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a basic library routine in Point 2?",
+  options: [
+    "Acquisition",
+    "Direct budget auditing",
+    "Student hosteler room allocation",
+    "Psychological counseling screening"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to the notes, the basic library routines consist of acquisition, processing, circulation and use, and:",
+  options: [
+    "Maintenance",
+    "Establishment",
+    "Accreditation",
+    "Fumigation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Library Routines can be performed in which of the following ways?",
+  options: [
+    "Manually or with the aid of computers",
+    "Only through manual mechanical devices",
+    "Only by certified NUC external administrators",
+    "Exclusively through digital-only wall-free databases"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "True or False: According to Point 3, library routines can only be performed manually.",
+  options: [
+    "False, they can be performed manually or with the aid of computers",
+    "True, NUC prohibits the use of computers for routines",
+    "False, they are performed exclusively by the student union executives",
+    "True, using computers is classified under security challenges"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What library routine has to do with the means through which additions are made to a library's collection?",
+  options: [
+    "Acquisition",
+    "Processing",
+    "Circulation",
+    "Maintenance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Acquisition specifically refers to the means of adding materials to:",
+  options: [
+    "A library's collection",
+    "The registry student database",
+    "The bursary financial ledgers",
+    "The university sports facilities"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as an acquisition procedure in Point 5?",
+  options: [
+    "Selection and Ordering",
+    "Labeling and Shelving",
+    "User registration and loaning",
+    "Binding and weeding"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The four acquisition procedures listed in the notes are selection, ordering, receiving, and:",
+  options: [
+    "Accessioning",
+    "Cataloging",
+    "Classification",
+    "Shelve reading"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is processing defined as in the context of library routines?",
+  options: [
+    "The process by which library materials must be customized before they can be circulated for use",
+    "The means of making physical additions to a library's collection",
+    "The proper care for materials when they become worn out from heavy use",
+    "The removal of outdated and torn materials from the library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Before library materials can be circulated for use in the library, they must be customized through:",
+  options: [
+    "Processing",
+    "Acquisition",
+    "Circulation",
+    "Weeding"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a basic processing procedure in Point 7?",
+  options: [
+    "Cataloging and Classification",
+    "User registration and loaning",
+    "Shelf maintenance and binding",
+    "Weeding and document replacement"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Labeling, shelving, and shelve reading are categorized under which library routine?",
+  options: [
+    "Processing",
+    "Acquisition",
+    "Circulation",
+    "Maintenance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What does 'circulation and use' as a library routine connote?",
+  options: [
+    "Appropriate display and use of library materials",
+    "Customizing new books before placing them on shelves",
+    "Caring for library books when they become worn out",
+    "Removing outdated materials from the collection"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The appropriate display and use of library materials is the core focus of:",
+  options: [
+    "Circulation and use",
+    "Acquisition",
+    "Processing",
+    "Maintenance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a circulation task in Point 9?",
+  options: [
+    "User registration",
+    "Weeding outdated books",
+    "Budgeting for facilities",
+    "Labeling new book spines"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Book reservation, keeping statistics, and the inter-library loan and renewal of documents are tasks of:",
+  options: [
+    "Circulation",
+    "Acquisition",
+    "Processing",
+    "Maintenance"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What does 'maintenance' as a library routine connote?",
+  options: [
+    "Proper care for library materials when they become worn out from heavy use",
+    "Customizing materials before circulating them for general use",
+    "The selection and ordering of new information materials",
+    "The removal of outdated books from the collection"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Maintenance involves taking proper care of library materials when they become worn out due to:",
+  options: [
+    "Heavy use",
+    "Poor cataloging",
+    "Low student enrollment",
+    "Fumigation chemical exposure"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a duty of library staff under the maintenance / pre-processing categories?",
+  options: [
+    "Shelf maintenance and binding",
+    "Selection and ordering",
+    "User registration",
+    "Labeling and shelving"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Shelf maintenance, binding, replacing lost materials, and weeding are basic functions of:",
+  options: [
+    "Maintenance",
+    "Acquisition",
+    "Processing",
+    "Circulation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What does 'weeding' in the library connote?",
+  options: [
+    "The removal of outdated and torn materials from the library's collection",
+    "The cleaning and dusting of empty bookshelves",
+    "The chemical spraying to prevent insect infestations",
+    "The selection of books for immediate digital scanning"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The removal of outdated and torn materials from the library's collection is known as:",
+  options: [
+    "Weeding",
+    "Binding",
+    "Accessioning",
+    "Shelve reading"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a function of the library in Point 13?",
+  options: [
+    "Promotion of research by providing current information materials",
+    "Managing the monthly payroll of university administrative staff",
+    "Organizing inter-university sports and athletic activities",
+    "Enforcing strict safety guidelines in campus swimming pools"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Providing regular information to the academic community and offering opportunities for information literacy are key:",
+  options: [
+    "Functions of the library",
+    "Aims of the student union government",
+    "Responsibilities of the health center",
+    "Duties of the security unit patrols"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "How are 'Library Services' defined in Point 14?",
+  options: [
+    "The resources, activities, and programs provided by libraries to address users' information needs",
+    "The strict disciplinary regulations enforced on student union assemblies",
+    "The physical cleaning activities performed by volunteer hostel student groups",
+    "The financial auditing processes carried out by external bursars"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Library Services are resources, activities, and programs provided specifically to address:",
+  options: [
+    "Users' information needs",
+    "NUC minimum accreditation scores",
+    "The university visitor's schedule",
+    "The security challenges on campus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a type of library service in Point 15?",
+  options: [
+    "Current Awareness Service (CAS)",
+    "Student Union Advocacy Service",
+    "Medical Immunization Service",
+    "Financial Payroll Service"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Current Awareness Service (CAS) and Selective Dissemination of Information (SDI) are classified as:",
+  options: [
+    "Types of library services",
+    "Academic registry divisions",
+    "Goals of the school health program",
+    "Phases of campus security management"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are 'circulation services' defined as in Point 16?",
+  options: [
+    "Activities enabling library users to efficiently take out information resources on loan and return them",
+    "Behind-the-scenes processes like cataloging and index creation",
+    "Personalized assistance helping users find answers to questions",
+    "Different tools used to keep users informed about new arrivals"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Circulation services primarily enable library users to perform which task?",
+  options: [
+    "Take out information resources on loan and return them",
+    "Audit the financial accounts of library facilities",
+    "Clean the physical shelves after book deliveries",
+    "Appoint staff advisers to oversee affiliate sports groups"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is reference service defined as in Point 17?",
+  options: [
+    "Providing personalized assistance that helps users find answers to questions",
+    "Letting users see the holdings of the library from any location",
+    "Removing outdated and torn books from the library's collection",
+    "Coordinating the scheduling of final exam venues"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Personalized assistance helping users find answers to questions is known as:",
+  options: [
+    "Reference service",
+    "Circulation service",
+    "Technical service",
+    "Reprographic service"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are 'technical services' defined as?",
+  options: [
+    "The behind-the-scene activities that help users have access to materials",
+    "Personalized assistance provided at the library help desk",
+    "Activities aimed at scanning and photocopying student resources",
+    "The digital database tools enabling off-campus library access"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Behind-the-scene activities that facilitate user access to library materials are classified as:",
+  options: [
+    "Technical services",
+    "Circulation services",
+    "Reference services",
+    "Reprographic services"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a behind-the-scenes activity of Technical Service?",
+  options: [
+    "Cataloging and Classification",
+    "User registration on card indexes",
+    "Fainting first aid treatment",
+    "Organizing inter-university games"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Acquisition and collection management, indexing, and abstracting services are part of:",
+  options: [
+    "Technical services",
+    "Circulation services",
+    "Reference services",
+    "Reprographic services"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which library service allows users to see the holdings of the library from any location?",
+  options: [
+    "Online Public Access Catalogue (OPAC) service",
+    "Selective Dissemination of Information (SDI) service",
+    "Current Awareness Service (CAS)",
+    "Reprographic service"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The OPAC service is beneficial to library patrons primarily because it enables them to:",
+  options: [
+    "See the holdings of the library from any location",
+    "Physically photocopy textbooks without payment",
+    "Conduct specialized research inside medical laboratories",
+    "Retrieve lost items on campus through security tracking"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is an OPAC defined as in Point 21?",
+  options: [
+    "An online database of materials held by a library or group of libraries",
+    "A physical catalog cabinet situated in the ultra-modern library",
+    "A security system developed to track book theft",
+    "An institutional repository containing postgraduate thesis reports"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "An online database containing details of materials held by a library or group of libraries is called:",
+  options: [
+    "OPAC",
+    "SDI",
+    "CAS",
+    "Registry"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What does Current Awareness Service (CAS) employ to keep users informed about materials in a timely and personalized manner?",
+  options: [
+    "Different tools",
+    "The OPAC terminal only",
+    "The physical library card catalogue",
+    "A direct phone call to registered speed dials"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Keeping library users informed about information materials in a timely and personalized manner is the function of:",
+  options: [
+    "Current Awareness Service (CAS)",
+    "Selective Dissemination of Information (SDI)",
+    "Reprographic Service",
+    "Technical Service"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which service alerts users to the latest publications in their specified fields of interest?",
+  options: [
+    "Selective Dissemination of Information (SDI)",
+    "Current Awareness Service (CAS)",
+    "Online Public Access Catalogue (OPAC)",
+    "Circulation Service"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Selective Dissemination of Information (SDI) primarily keeps users informed of latest publications in:",
+  options: [
+    "Their specified fields of interest",
+    "The general registry establishment files",
+    "The state ministry of education guidelines",
+    "The university security unit patrol schedules"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a reprographic service in Point 24?",
+  options: [
+    "Photocopying and Scanning",
+    "Cataloging and Indexing",
+    "Abstracting and Accessioning",
+    "User registration and loaning"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Photocopying, printing, scanning, and laminating provisions are collectively known as:",
+  options: [
+    "Reprographic services",
+    "Technical services",
+    "Current Awareness services",
+    "Digital and Online services"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is the primary aim of Digital and Online Library Services?",
+  options: [
+    "Providing users with access to information resources, irrespective of their location",
+    "Binding worn-out physical books that have suffered heavy use",
+    "Coordinating the setup of exam venues on site 3 campus",
+    "Monitoring the budget allocated to the Sports Centre"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Providing users with access to information resources irrespective of their physical location is the function of:",
+  options: [
+    "Digital and Online Library Services",
+    "Reprographic Services",
+    "Domestic and School Hygiene Services",
+    "Registry exams and records units"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are 'reference sources' defined as?",
+  options: [
+    "Information materials that are used to locate specific types of information",
+    "Different tools used to photocopy and scan print resources",
+    "Databases containing all student registry admission details",
+    "Official guidelines governing the conduct of student union elections"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Information materials used to locate specific types of information are called:",
+  options: [
+    "Reference sources",
+    "Reprographic materials",
+    "Digital web URLs",
+    "Academic transcript files"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is a key feature of reference sources according to Point 27?",
+  options: [
+    "They are not meant for continuous page-to-page reading, they are meant to be consulted",
+    "They can only be read within the physical walls of the library",
+    "They must be weeded from the collection every academic year",
+    "They are reserved exclusively for postgraduate research students"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Rather than continuous page-to-page reading, reference sources are intended to be:",
+  options: [
+    "Consulted",
+    "Expelled",
+    "Digitized only",
+    "Weeded"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Reference books can exist in which of the following forms?",
+  options: [
+    "Physical or electronic forms",
+    "Only standard physical paper forms",
+    "Only encrypted electronic forms",
+    "Exclusively verbal historical forms"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "True or False: Reference books are restricted strictly to physical analog paper.",
+  options: [
+    "False, they can be in physical or electronic forms",
+    "True, electronic resources are categorized as e-resources only",
+    "False, they exist only in virtual databases with no physical copies",
+    "True, physical consultation is mandatory for all reference books"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as an example of a reference source in Point 29?",
+  options: [
+    "Almanacs",
+    "E-journals",
+    "First aid boxes",
+    "Course Advisers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Dictionaries, encyclopedias, handbooks, yearbooks, and directories are examples of:",
+  options: [
+    "Reference sources",
+    "Reprographic devices",
+    "Acquisition procedures",
+    "Academic service departments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is a dictionary defined as in Point 30?",
+  options: [
+    "A book containing words of a language arranged alphabetically with their meanings",
+    "A list of names and addresses of people and organizations",
+    "An annual publication detailing eclipses and planet movements",
+    "A book of information recording events of the previous year"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "A dictionary contains words of a language arranged in which manner?",
+  options: [
+    "Alphabetically",
+    "By word length",
+    "Chronologically by usage date",
+    "By thematic research field"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as an example of a dictionary in Point 31?",
+  options: [
+    "General language dictionaries and subject dictionaries",
+    "Digital databases and online portals",
+    "Almanacs and yearbooks",
+    "Maps, atlases, and gazetteers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Bilingual and multilingual dictionaries are listed in the notes as types of:",
+  options: [
+    "Dictionaries",
+    "Thesauruses",
+    "Encyclopedias",
+    "Handbooks"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What reference source deals with words that have the same or similar meaning?",
+  options: [
+    "Thesaurus",
+    "Dictionary",
+    "Encyclopedia",
+    "Almanac"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "A thesaurus is primarily utilized to help a user find:",
+  options: [
+    "The most appropriate word to express an idea",
+    "The postal address of a national organization",
+    "A complete history of the previous year's world events",
+    "The time of moonrise and planetary eclipses"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is an encyclopedia defined as in Point 33?",
+  options: [
+    "A book or set of books providing information and knowledge with short articles arranged alphabetically",
+    "A book containing words arranged alphabetically with their same or similar meanings",
+    "A list of names and addresses of corporate organizations",
+    "An annually published calendar of planetary movements and eclipses"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "An encyclopedia provides information and knowledge through short articles arranged in what order?",
+  options: [
+    "Alphabetically",
+    "By article length",
+    "By geographical coordinates",
+    "Chronologically"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What kind of questions do encyclopedias provide information on?",
+  options: [
+    "Who, what, where, when, how, and why of things",
+    "Definitions and pronunciation of individual vocabulary words only",
+    "Statistical data on university enrollment figures",
+    "The postal address and contact person details of organizations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Information explaining 'who, what, where, when, how, and why of things' is typically found in:",
+  options: [
+    "Encyclopedias",
+    "Thesauruses",
+    "Directories",
+    "Maps"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "How are 'handbooks' designed and what is their purpose?",
+  options: [
+    "Designed to be easily consulted and provide quick answers, information, or instruction",
+    "Designed to record the major historical developments of the previous year",
+    "Designed to list names and addresses of regional organizations alphabetically",
+    "Designed to display the geographical rivers and lakes of a country"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Reference books designed for easy consultation to provide quick answers or instructions are called:",
+  options: [
+    "Handbooks",
+    "Almanacs",
+    "Yearbooks",
+    "Directories"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are 'yearbooks' defined as?",
+  options: [
+    "Books of information that record events and developments of the previous year in a country or in the world",
+    "Publications offering monthly calendars detailing eclipses and planet movements",
+    "A list of names and addresses of people and registered organizations",
+    "Short articles arranged alphabetically providing quick instructions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which reference source specifically records the events and developments of the previous year?",
+  options: [
+    "Yearbooks",
+    "Almanacs",
+    "Directories",
+    "Thesauruses"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are 'almanacs' published annually to provide?",
+  options: [
+    "A calendar of the months with eclipses, planet movements, dawn/sunset, moon and stars",
+    "Short articles explaining the who, what, and why of historical things",
+    "Detailed definitions and pronunciations of language vocabularies",
+    "A systematic list of university graduates and former students"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Annual publications detailing eclipses, moon and star patterns, and planetary movements are called:",
+  options: [
+    "Almanacs",
+    "Yearbooks",
+    "Handbooks",
+    "Directories"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is a 'directory' defined as?",
+  options: [
+    "A list of names and addresses of people and organizations",
+    "An annual calendar recording planetary eclipses and movements",
+    "A book containing same or similar meanings of words",
+    "A systematic guide explaining how and why things happen"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "A reference source containing a list of names and addresses of people and organizations is called:",
+  options: [
+    "A directory",
+    "An almanac",
+    "A yearbook",
+    "A thesaurus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a geographical reference information source in Point 39?",
+  options: [
+    "Maps, atlases, globes, gazetteers, and guide books",
+    "Almanacs and yearbooks",
+    "Subject and bilingual dictionaries",
+    "Encyclopedias and handbooks"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Atlases, globes, and gazetteers are categorized under which reference type?",
+  options: [
+    "Geographical reference information sources",
+    "Annual directories",
+    "General language dictionaries",
+    "Special purpose handbooks"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What type of information do geographical reference sources provide?",
+  options: [
+    "Information about places, people, rivers, mountains, forests, lakes, etc.",
+    "The names and residential addresses of students in delta state",
+    "The monthly dates of planet movements and solar eclipses",
+    "Definitions of specialized terms in science and law"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Details about places, mountains, rivers, and forests are typically obtained from:",
+  options: [
+    "Geographical reference sources",
+    "Directories",
+    "Almanacs",
+    "Thesauruses"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What gave rise to the emergence of the electronic library?",
+  options: [
+    "The rapid development of the internet and information and communication technologies",
+    "The strict minimal library accreditation requirements set by the NUC",
+    "The introduction of the 'Trash D Trash' campaign by FBMS",
+    "The high cost of maintaining physical books worn out by heavy use"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The emergence of the electronic library is directly linked to the rapid development of:",
+  options: [
+    "The internet and information and communication technologies (ICT)",
+    "Traditional physical cataloging cards",
+    "National student union umbrella organizations",
+    "Local physical sports medicine clinics"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is an electronic library defined as in Point 42?",
+  options: [
+    "A collection of digital resources available and accessible through electronic means using digital technologies",
+    "A room or physical structure containing print periodicals and magazines",
+    "A database of all student admission scores and fee payment records",
+    "A security system built to prevent the physical theft of library books"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "An electronic library's collection of digital resources is accessible through electronic means using:",
+  options: [
+    "Digital technologies",
+    "Card catalog systems",
+    "Speed dial numbers",
+    "Manual administrative lists"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Who defined an e-library as a library with a focused collection of digital materials stored as electronic media formats?",
+  options: [
+    "Olaewe et al (2020)",
+    "Charles Ami Cutter",
+    "Melvil Dewey",
+    "S.R. Ranganathan"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to the definition by Olaewe et al (2020), an e-library stores text, visual, audio, and video materials as:",
+  options: [
+    "Electronic media formats",
+    "Analog physical publications",
+    "Postgraduate sandwich records",
+    "Registry policy documents"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as an example of an e-library in Point 44?",
+  options: [
+    "Wiley Online Library",
+    "FBMS Trash Library",
+    "DELSU Ultra Modern Site 3 Library (physical)",
+    "NUC Accreditation Portal"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The World Digital Library (https://www.loc.gov) and Free Ebooks (https://www.free-ebooks.net/) are listed as examples of:",
+  options: [
+    "E-libraries",
+    "Reprographic centers",
+    "Technical registry units",
+    "Mainstream student associations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as an advantage of an e-library in Point 45?",
+  options: [
+    "Accessibility and Convenience",
+    "Technical and technological issues",
+    "High cost to establish",
+    "Ozone layer depletion"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to the notes, having up-to-date content and requiring no physical boundaries are advantages of:",
+  options: [
+    "An e-library",
+    "An analog library",
+    "A public state library",
+    "A departmental print repository"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a disadvantage of an e-library in Point 46?",
+  options: [
+    "Technical/technological issues",
+    "Up-to-date content",
+    "Accessibility and Convenience",
+    "Efficient Information Retrieval"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to the notes, being expensive to establish and copyright challenges are disadvantages of:",
+  options: [
+    "An e-library",
+    "An analog library",
+    "A public city library",
+    "A special hospital library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are electronic resources (e-resources)?",
+  options: [
+    "Digital contents accessible with the aid of technological devices like computers, smartphones, or tablets",
+    "Worn-out physical books requiring immediate binding and shelf maintenance",
+    "Academic transcript documents stored in the Registry Exams and Records unit",
+    "Laminating and scanning machines managed by reprographic units"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Electronic resources are digital contents that are accessible using which of the following?",
+  options: [
+    "Technological devices like computers, smartphones, and tablets",
+    "Traditional physical card catalogs",
+    "First aid equipment found in boxes",
+    "Speed dial emergency calls"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to Point 48, how can electronic resources (e-resources) be grouped?",
+  options: [
+    "Internet-based e-resources and other e-resources",
+    "Print resources and digital PDF resources",
+    "Bilingual databases and special purpose directories",
+    "Academic textbooks and student union records"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "E-resources are categorized into 'other e-resources' and which primary group?",
+  options: [
+    "Internet-based e-resources",
+    "NUC accreditation resources",
+    "Traditional card catalogs",
+    "Bursary investment ledgers"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What do internet-based e-resources require for access?",
+  options: [
+    "An internet connection",
+    "A physical library membership card",
+    "Approval from the staff adviser",
+    "Special permission from NUC accreditors"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "To successfully access internet-based e-resources, what is mandatory?",
+  options: [
+    "An internet connection",
+    "A speed dial phone contact",
+    "A physical catalog search card",
+    "An updated medical file"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as an example of an internet-based e-resource in Point 50?",
+  options: [
+    "e-journals, e-books, academic databases, and websites",
+    "Physical globes and atlases",
+    "First aid kits and emergency boxes",
+    "Registry policy booklets"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "E-books and academic databases are categorized as examples of:",
+  options: [
+    "Internet-based e-resources",
+    "Analog reference publications",
+    "Bursary cash management tools",
+    "Quality assurance evaluation files"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is the primary purpose of search tools in the library?",
+  options: [
+    "To find and access information materials",
+    "To count student union election votes",
+    "To audit the financial spending of departments",
+    "To inspect campus swimming pool safety"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "To find and access information materials, library users must utilize:",
+  options: [
+    "Search tools",
+    "First aid manuals",
+    "Bursary payroll registers",
+    "Registry policy forms"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to Point 52, search tools help users to know:",
+  options: [
+    "The type of information materials and services",
+    "The exact return date of checked-out books",
+    "The academic qualification of staff advisers",
+    "The state coordinates of neighboring universities"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Helping users identify the type of information materials and services available is the function of:",
+  options: [
+    "Search tools",
+    "Fumigation programs",
+    "First aid steps",
+    "Erosion control dykes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What enable users to discover and locate materials available in a library's collection, including books and journals?",
+  options: [
+    "Library catalogs",
+    "Hostel room registers",
+    "Security unit patrol logs",
+    "Quality assurance reports"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Library catalogs are crucial because they enable users to discover and locate:",
+  options: [
+    "The materials available in the library's collection",
+    "The contact details of mainstream staff advisers",
+    "The medical record files at the clinic",
+    "The list of registered student union affiliates"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What consists of an institution's academic output, including articles, proceedings, reports, and research data?",
+  options: [
+    "Repositories",
+    "Alumni registers",
+    "First aid boxes",
+    "Search indexes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "An institution's reports, research data, proceedings, and academic articles are housed in:",
+  options: [
+    "Repositories",
+    "Card catalogs",
+    "Bursary files",
+    "School health plans"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What are bibliographic and citation indexes used for according to Point 55?",
+  options: [
+    "Literature searches and finding quality publications",
+    "Allocating student rooms in campus hostels",
+    "Managing the payroll of library administrative staff",
+    "Enforcing safety rules in swimming pools"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Literature searches and locating quality publications are primarily supported by:",
+  options: [
+    "Indexes",
+    "Directories",
+    "Almanacs",
+    "Thesauruses"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is listed as one of the major challenges facing libraries in Point 56?",
+  options: [
+    "Abuse and Misuse of Library materials and service",
+    "The rapid growth of the electronic library",
+    "The use of computerized routines over manual ones",
+    "Having too many first aid boxes around offices"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "The abuse and misuse of library materials and services is categorized as:",
+  options: [
+    "One of the major challenges facing libraries",
+    "An advantage of digital e-resources",
+    "An essential function of technical services",
+    "A standard step in developing a personal library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a way in which library materials and services are abused?",
+  options: [
+    "Mutilation, stealing, and dog-earing",
+    "Cataloging, classification, and labeling",
+    "Developing academic database search tools",
+    "Promoting research and literacy skills"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Dog-earing, turning down pages, hiding books, and mutilating materials are examples of:",
+  options: [
+    "Abuses of library materials",
+    "Acquisition procedures",
+    "Circulation tasks",
+    "Personal library steps"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "To develop a personal library, a student must be conscious of:",
+  options: [
+    "The intended aims and functions of the library",
+    "The minimal accreditation requirements set by NUC",
+    "The exact speed dial contacts of security agents",
+    "The list of all past vice-chancellors of DELSU"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Being conscious of the intended aims and functions of a library is necessary for a student to:",
+  options: [
+    "Develop a personal library",
+    "Approve the student union budget",
+    "Conduct cardiopulmonary resuscitation",
+    "Fumigate university hostel premises"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to Point 59, a personal collection can serve as which of the following?",
+  options: [
+    "A store for memories, a tool for research, or a source of leisure and inspiration",
+    "An official repository for university senate records",
+    "A database for registry student entry statistics",
+    "A budget planning ledger for state governments"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "A store for memories, a tool for research, and a source of inspiration represent functions of:",
+  options: [
+    "A personal library collection",
+    "A mainstream central student union",
+    "An online public access catalogue",
+    "The university health center"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "What is the first step to developing a personal library collection?",
+  options: [
+    "Location",
+    "Take stock of what is available",
+    "Acquire books at every opportunity",
+    "Put order in your collection"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "How many steps to developing a personal library collection are outlined in Point 60?",
+  options: [
+    "Five steps",
+    "Three steps",
+    "Four steps",
+    "Six steps"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "Which of the following is listed as a benefit of being an avid reader in Point 61?",
+  options: [
+    "Books can expand one's horizons, improve disciplines, and improve memory",
+    "It allows students to skip regular examination venue checks",
+    "It guarantees automatic access to student union funds",
+    "It decreases the risk of physical and biological hazards on campus"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 7,
+  question: "According to the notes, being an avid reader improves memory, builds self-esteem, improves vocabulary, and helps an individual to:",
+  options: [
+    "Become better informed",
+    "Evacuate debris from water bodies",
+    "Detect strokes using FAST signs",
+    "Select patrons for affiliate associations"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst103",
+  chapter: 8,
+  question: "Which of the following is listed in Point 1 as a measurement technique used in determining students' academic progress in DELSU?",
+  options: [
+    "Oral examination",
+    "Continuous take-home open-book project",
+    "Standard clinical screening assessment",
+    "Peer-review portfolios"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "How many measurement techniques for determining academic progress are listed in Point 1?",
+  options: [
+    "Three techniques",
+    "Two techniques",
+    "Four techniques",
+    "Five techniques"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "At which levels of examination is oral examination utilized in DELSU?",
+  options: [
+    "Final year and postgraduate examinations",
+    "First year and matriculation screenings",
+    "Diploma entry screening levels only",
+    "Sandwich and continuing education entry levels"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Oral examinations in DELSU are utilized for thesis, projects, teaching practice, and what else?",
+  options: [
+    "Seminars",
+    "Classroom attendance registers",
+    "Continuous Assessment tests",
+    "Laminated library documents"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In Delta State University, Continuous Assessment attracts a maximum score of about what percentage?",
+  options: [
+    "30%",
+    "40%",
+    "20%",
+    "50%"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "How is the maximum score of about 30% for Continuous Assessment obtained?",
+  options: [
+    "Through class attendance, assignments, tests, and projects",
+    "Through direct physical fitness and athletic testing",
+    "Through library card catalog searches exclusively",
+    "Through final year project and thesis defenses"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In Delta State University, what minimum record must a student have along with course registration to be eligible to write an examination?",
+  options: [
+    "At least 79%",
+    "At least 50%",
+    "At least 60%",
+    "At least 70%"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What are the two eligibility criteria for a student to write an examination in DELSU?",
+  options: [
+    "Register for the course and record at least 79%",
+    "Pay student union dues and join an affiliate group",
+    "Attend all library orientation seminars and purchase sunscreen",
+    "Secure a Grade A score in continuous assessment"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What is the score range assigned to Grade A in Delta State University?",
+  options: [
+    "70-100",
+    "60-69",
+    "50-59",
+    "80-100"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Which of the following represents the score range for Grade C in Delta State University?",
+  options: [
+    "50-59",
+    "40-44",
+    "45-49",
+    "0-39"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "According to Point 6, is there a magic formula for success in tests or assignments?",
+  options: [
+    "No, success requires studying which demands hard work",
+    "Yes, following the FAST warning acronym guarantees success",
+    "Yes, paying the course lecturer before submission guarantees success",
+    "No, success relies purely on psychological luck"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Success in written or oral tests requires studying, which demands:",
+  options: [
+    "Hard work",
+    "Secret transactions",
+    "Recreation activities",
+    "Laminated handbooks"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What is the primary essence of reading according to Point 7?",
+  options: [
+    "To comprehend or understand fully the material",
+    "To memorize the exact spelling of every word",
+    "To evaluate the library accreditation of NUC",
+    "To find out the contact details of the author"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Reading is performed primarily to understand fully or:",
+  options: [
+    "Comprehend the material",
+    "Weed the collection",
+    "Paraphrase the lecture",
+    "Avoid taking notes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Which study habit system developed by Robinson is listed as effective in Point 8?",
+  options: [
+    "SQ3R",
+    "FAST",
+    "3P's",
+    "3C's"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "According to Point 8, when should a student start studying?",
+  options: [
+    "Immediately after one resumes at school",
+    "Two weeks before the examination starts",
+    "Only after Continuous Assessment grades are published",
+    "Once the NUC finishes library accreditation"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Whose outline for effective study advises budgeting your study time and avoiding excessive anxiety?",
+  options: [
+    "Danga's outline",
+    "Robinson's outline",
+    "Prof Eze K. Nwangwa's outline",
+    "Olaewe's outline"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "According to Danga's outline, what should you try to do while in class?",
+  options: [
+    "Psyche out your teacher",
+    "Formulate 10 primary groups",
+    "Paraphrase external textbooks only",
+    "Calculate your CA percentage"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What type of study habit facilitates comprehension, internalization, retention, and retrieval (recall) of learned materials?",
+  options: [
+    "SQ3R",
+    "FAST",
+    "Card Cataloging",
+    "Reprographics"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "SQ3R facilitates internalization, retention, retrieval, and which other process?",
+  options: [
+    "Comprehension",
+    "Disinfection",
+    "Accreditation",
+    "Lamination"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What does the letter 'S' in the SQ3R study system stand for?",
+  options: [
+    "Survey",
+    "Study",
+    "Summarize",
+    "Security"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In the SQ3R method, 'Survey' specifically means to:",
+  options: [
+    "Glance over the headings in the chapter or lecture note to see the major points",
+    "Paraphrase the exact words spoken by the classroom teacher",
+    "Test your physical posture and seating position during reading",
+    "Cross-check word pronunciations using an online dictionary"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What does the letter 'Q' in the SQ3R study system represent?",
+  options: [
+    "Question",
+    "Quality",
+    "Quantity",
+    "Quiet"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In the SQ3R system, 'Question' involves:",
+  options: [
+    "Turning the heading into question",
+    "Asking classmates for their private exam jottings",
+    "Reviewing the list of past vice-chancellors",
+    "Evaluating the library's physical budget"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What does the first 'R' in the SQ3R system stand for?",
+  options: [
+    "Read",
+    "Recite",
+    "Review",
+    "Recall"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In the SQ3R system, 'Read' specifically means to:",
+  options: [
+    "Read to answer the questions you have already raised",
+    "Read the text continuously from page to page without stopping",
+    "Read out loud to impress other members of your study group",
+    "Scan the distant databases subscribed to by the library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What does the second 'R' in the SQ3R system stand for?",
+  options: [
+    "Recite",
+    "Read",
+    "Review",
+    "Recall"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In the SQ3R system, 'Recite' means:",
+  options: [
+    "Having read the first section, look away and from memory write as much as you can remember",
+    "Reading the entire text again to find missed grammatical spelling errors",
+    "Repeating definitions aloud with other members of your study group",
+    "Copying verbatim notes from external secondary school sources"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What does the third 'R' in the SQ3R system stand for?",
+  options: [
+    "Review",
+    "Read",
+    "Recite",
+    "Recall"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In the SQ3R system, 'Review' means to:",
+  options: [
+    "Fill in the points you couldn't remember by going back to the materials",
+    "Take standard jottings at the end of your examination booklet",
+    "Submit your written notes directly to the course adviser for grading",
+    "Verify the exact location of the site 3 ultra-modern library"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Students should learn how to take notes correctly, particularly during:",
+  options: [
+    "Classroom instruction",
+    "Student union general assemblies",
+    "Inter-faculty athletic sports games",
+    "Private clinic screening registrations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What should students repeatedly practice during classroom instruction to aid learning?",
+  options: [
+    "Take notes correctly",
+    "Avoid looking at the teacher",
+    "Study under distracting noise",
+    "Share personal information online"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "During private reading, what should students actively take down?",
+  options: [
+    "Notes on what has been read",
+    "Verbatim words from their classmates",
+    "Headings without reading the text",
+    "Danga's complete library bibliography"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Students are advised to take down notes on what has been read during:",
+  options: [
+    "Private reading",
+    "Central student union meetings",
+    "Teaching practice project defenses",
+    "Oral examinations"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Which of the following is listed as a method of taking notes in Point 18?",
+  options: [
+    "Paraphrasing and Summarizing",
+    "Verbatim and Abbreviation",
+    "Glancing and Scanning",
+    "Drafting and Reciting"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "How many methods of taking notes are specifically outlined in Point 18 of the notes?",
+  options: [
+    "Four methods",
+    "Three methods",
+    "Five methods",
+    "Two methods"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "When studying, the position of the body should NOT constitute what?",
+  options: [
+    "Strain or pain on any parts of the body",
+    "A direct physical contact with the table",
+    "Overlearning and overactive memory",
+    "Strong motivation to set standards"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "To prevent physical strain or pain while studying, a student should maintain:",
+  options: [
+    "A proper body position",
+    "A standing position exclusively",
+    "An overlearning posture",
+    "A continuous page-to-page look"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What is described as a normal reading position in Point 20?",
+  options: [
+    "Sitting on a chair that is slightly lower than the table",
+    "Lying flat on the ground with the booklet placed above you",
+    "Standing upright beside a high catalog cabinet",
+    "Sitting on a stool that is higher than the study desk"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "In a normal reading position, how should the chair be positioned relative to the study table?",
+  options: [
+    "Slightly lower than the table",
+    "Slightly higher than the table",
+    "Exactly at the same level as the table",
+    "Far away from the table"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "To ensure focus during study, what should there be NO presence of in the environment?",
+  options: [
+    "Conversation or distracting noise",
+    "Reference books or dictionaries",
+    "Classroom note jottings",
+    "Adequate air or light"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "A quiet study environment should be completely free of:",
+  options: [
+    "Distracting noise",
+    "Dictionaries",
+    "Paraphrased notes",
+    "Ideal reading conditions"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Students should cultivate the habit of using dictionaries, encyclopedias, or other reference guides to cross-check:",
+  options: [
+    "Meanings, spellings, and pronunciation",
+    "Student union mainstream election dates",
+    "NUC library accreditation minimal scores",
+    "Course eligibility percentages"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Cultivating the habit of cross-checking meanings and spellings is done using:",
+  options: [
+    "Dictionaries, encyclopedias, or other reference guides",
+    "Classroom instruction notes exclusively",
+    "Alumni Day social activity booklets",
+    "The official student union SUG guidelines"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Why does Point 23 advise students to join study groups?",
+  options: [
+    "Because individuals in the group can inspire others",
+    "Because it guarantees a Grade A score automatically",
+    "Because it is required by the Dean of Faculty",
+    "Because study groups manage the collection of SUG dues"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Joining a study group provides an opportunity for group members to:",
+  options: [
+    "Inspire others",
+    "Share exam jottings secretly",
+    "Avoid attending regular classes",
+    "Access the main catalog card cabinet"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "To improve on previous performances, what should students have and set?",
+  options: [
+    "Strong motivation and set standards",
+    "Strict secrets from their course advisers",
+    "High registration fees paid to the bursary",
+    "A pool safety enforcement plan"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Setting standards that improve on previous performances requires a student to have:",
+  options: [
+    "Strong motivation",
+    "Anemia and fatigue",
+    "Distracting noise",
+    "Excessive anxiety"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "For maximum performance in an examination, students should put themselves in the best shape, which includes being in what shapes?",
+  options: [
+    "Psychological, physical, emotional, and mental shape",
+    "Tectonic, geographic, and ecological shape",
+    "Academic, professional, and commercial shape",
+    "Mainstream, affiliate, and external shape"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Confidence for examination success is built primarily through which of the following?",
+  options: [
+    "Adequate study",
+    "Distracting conversations",
+    "Post-exam blocking of lecturers",
+    "Setting strict secrets"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Students shall report at the examination hall with valid identification how many minutes before the start of the exam?",
+  options: [
+    "Fifteen minutes",
+    "Thirty minutes",
+    "Ten minutes",
+    "Five minutes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "No student is allowed into the examination hall after how many minutes from the start of the examination?",
+  options: [
+    "30 minutes",
+    "15 minutes",
+    "45 minutes",
+    "10 minutes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "According to examination conducts, no candidate shall leave the hall until how many minutes after the start of the exam?",
+  options: [
+    "30 minutes",
+    "15 minutes",
+    "45 minutes",
+    "10 minutes"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "A candidate may go to the toilet during an examination provided they are:",
+  options: [
+    "Accompanied throughout absence by a suitable invigilator",
+    "Finished with all their answer booklets",
+    "Accompanied by a student union representative",
+    "Excused directly by the course lecturer"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Candidates shall comply with instructions regarding the submission of their answer sheets given by:",
+  options: [
+    "The chief invigilator",
+    "The student union SUG executives",
+    "The registry admissions office",
+    "The course representative"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "Where should rough notes or jottings of possible points be made in the booklet, and what should be done to them?",
+  options: [
+    "Made towards the end of the booklet and neatly crossed off",
+    "Made on the front cover of the booklet and highlighted",
+    "Written on personal sheets and taken out of the hall",
+    "Erased completely using liquid whitener before submission"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "What should a candidate endeavor to do within the specified time before submitting their answer booklet?",
+  options: [
+    "Go over the answers to make any necessary corrections",
+    "Copy verbatim notes from neighboring students",
+    "Erase all rough notes made at the end of the booklet",
+    "Calculate their final Grade Point Average"
+  ],
+  answer: 0
+},
+{
+  course: "gst103",
+  chapter: 8,
+  question: "According to Point 29, what is strictly forbidden after an examination regarding the course lecturer?",
+  options: [
+    "Attempting to go to the lecturer to 'block' or induce them with money",
+    "Submitting rough notes made at the end of the booklet",
+    "Asking them for clarification on examination instructions",
+    "Praying over your answers after submission"
+  ],
+  answer: 0
+}
 ]
+  
