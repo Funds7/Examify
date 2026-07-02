@@ -24716,5 +24716,4903 @@ const QUESTIONS = [
       "Benedict Elide Odiase"
     ],
     answer: 0
-  }
+  },
+  
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Geographically, Nigeria lies between which latitudes?",
+    options: [
+      "4 degrees north and 14 degrees north",
+      "5 degrees south and 15 degrees south",
+      "10 degrees north and 20 degrees north",
+      "2 degrees south and 12 degrees north"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Between which longitudes does Nigeria lie?",
+    options: [
+      "3 degrees east and 15 degrees east meridian",
+      "5 degrees west and 10 degrees east",
+      "1 degree east and 12 degrees east",
+      "8 degrees west and 18 degrees east"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which country bounds Nigeria on the North and North West?",
+    options: [
+      "Republic of Niger",
+      "Republic of Benin",
+      "Republic of Chad",
+      "Republic of Cameroon"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Nigeria is bounded on the South by which physical feature?",
+    options: [
+      "The Atlantic Ocean",
+      "The Sahara Desert",
+      "Lake Chad",
+      "The River Niger"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What is the total land area covered by Nigeria?",
+    options: [
+      "913,073 square kilometers",
+      "356,667 square kilometers",
+      "750,000 square kilometers",
+      "1,000,000 square kilometers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Nigeria covers an area of approximately ________ square kilometers.",
+    options: [
+      "500,000",
+      "913,073",
+      "800,000",
+      "923,768"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to contemporary provisional census figures, Nigeria's population is well over ________ people.",
+    options: [
+      "180 million",
+      "100 million",
+      "50 million",
+      "250 million"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which population figure is cited in the notes as being exceeded by Nigeria according to contemporary provisional census data?",
+    options: [
+      "120 million",
+      "150 million",
+      "180 million",
+      "220 million"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Nigeria is sandwiched by two large physical features: the Sahara Desert in the North and ________ in the South.",
+    options: [
+      "The Atlantic Ocean",
+      "The Mediterranean Sea",
+      "The Kalahari Desert",
+      "The River Nile"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which large physical feature borders Nigeria to the North and has affected its history for centuries?",
+    options: [
+      "The Sahara Desert",
+      "The Atlantic Ocean",
+      "The Sinai Peninsula",
+      "The Arabian Desert"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In what year did the geographical region referred to as Nigeria first exist as a single political entity?",
+    options: [
+      "1914",
+      "1960",
+      "1900",
+      "1963"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Prior to ________, the geographical region referred to today as Nigeria did not exist as a single political entity.",
+    options: [
+      "1914",
+      "1800",
+      "1960",
+      "1954"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What are the three broad vegetation regions of Nigeria?",
+    options: [
+      "The coastal region, forest region, and savannah region",
+      "The desert region, swampland, and montane region",
+      "The rainforest, tundra, and grassland",
+      "The mangrove, Sahel, and guinea zones"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Into how many broad vegetation regions does Nigeria fall, according to the notes?",
+    options: [
+      "Three",
+      "Four",
+      "Five",
+      "Two"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following communities of Lagos is found along the coastal region?",
+    options: [
+      "The Awori communities",
+      "The Hausa communities",
+      "The Nupe communities",
+      "The Tiv communities"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Ijo, Itsekiri, Isoko, Urhobo, and Efik are found in which broad vegetation region of Nigeria?",
+    options: [
+      "The coastal region",
+      "The forest belt",
+      "The savannah region",
+      "The desert belt"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which ethnic groups are located in the forest belt of Nigeria?",
+    options: [
+      "The Edo, Yoruba, and Igbo",
+      "The Hausa and Kanuri",
+      "The Awori and Efik",
+      "The Tiv and Nupe"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Yoruba and Igbo are traditionally located in which of the following belts of Nigeria?",
+    options: [
+      "The forest belt",
+      "The savannah belt",
+      "The coastal belt",
+      "The desert belt"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which major community was housed in the Nigerian savannah region?",
+    options: [
+      "The Hausa community",
+      "The Yoruba community",
+      "The Efik community",
+      "The Urhobo community"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Apart from the Hausa, which other people are mentioned as housed in the savannah region?",
+    options: [
+      "The Kanuri people",
+      "The Edo people",
+      "The Igbo people",
+      "The Awori people"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Is there historical evidence of interaction among Nigerian communities and linguistic groups in the past?",
+    options: [
+      "Yes, through migration, conquests, and trade",
+      "No, they lived in total isolation",
+      "Only after European arrival",
+      "Only during religious wars"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What is described in the notes as 'more importantly' facilitating the historical interaction between Nigerian groups?",
+    options: [
+      "Trade",
+      "Language learning",
+      "Agricultural sharing",
+      "Marriage alliances"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Most communities in Nigeria emerged and developed primarily as a result of which two factors?",
+    options: [
+      "Conquest and migration",
+      "Industrialization and mining",
+      "Western education and rail transport",
+      "European treaties and land purchases"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Conquest and migration were key factors in the ________ of most Nigerian communities.",
+    options: [
+      "emergence and development",
+      "isolation and separation",
+      "decay and destruction",
+      "conversion to Islam"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which belief claims that Africa is static in nature?",
+    options: [
+      "The Eurocentric belief",
+      "The Afrocentric belief",
+      "The Pan-Africanist belief",
+      "The Nationalist belief"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Eurocentric belief regarding Africa emphasizes its ________ nature.",
+    options: [
+      "static",
+      "dynamic",
+      "highly industrialized",
+      "unified"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What are the two well-marked seasons in Nigeria?",
+    options: [
+      "The wet or rainy season and the dry season",
+      "Summer and winter",
+      "Spring and autumn",
+      "Harmattan and monsoon"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The two well-marked seasons in Nigeria are characterized by having ________.",
+    options: [
+      "varying intensity",
+      "equal duration everywhere",
+      "no changes in temperature",
+      "uniform rainfall nationwide"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Into how many vegetational belts can the distribution of Nigeria be divided?",
+    options: [
+      "Five",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following is NOT one of the five vegetational belts of Nigeria?",
+    options: [
+      "Mediterranean forest",
+      "Mangrove swamp",
+      "Guinea savannah",
+      "Sahel savannah"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to the notes, geography had a tremendous effect on the general lives of Nigerians, specifically in terms of ________.",
+    options: [
+      "the people's occupational distribution and geographical location",
+      "their modern technological skills",
+      "their democratic electoral patterns",
+      "their biological evolution"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "To a large extent, what had a tremendous effect on the occupational distribution of the people of Nigeria?",
+    options: [
+      "Geography",
+      "European politics",
+      "The introduction of currency",
+      "Modern education"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In the coastal regions of Nigeria, which god of the sea did the people venerate?",
+    options: [
+      "Olukun",
+      "Ani",
+      "Ogun",
+      "Sango"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The deity 'Olukun' was venerated by coastal dwellers as the god of the ________.",
+    options: [
+      "sea",
+      "land",
+      "sky",
+      "thunder"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who was the god of the land or fertility venerated by the forest dwellers?",
+    options: [
+      "Ani",
+      "Olukun",
+      "Sopono",
+      "Obatala"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What did the deity 'Ani' represent to the forest dwellers of Nigeria?",
+    options: [
+      "The god of the land or fertility",
+      "The god of the sea",
+      "The god of iron and war",
+      "The supreme sky being"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The savanna dwellers traditionally talked of the god of the ________.",
+    options: [
+      "sky",
+      "sea",
+      "fertility",
+      "iron"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "While coastal dwellers venerated the god of the sea, savanna dwellers talked of the god of the ________.",
+    options: [
+      "sky",
+      "underworld",
+      "rainforest",
+      "ancestors"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Nigeria is a heterogeneous entity with over how many Indigenous ethnic groups?",
+    options: [
+      "250",
+      "150",
+      "350",
+      "500"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Due to having over 250 Indigenous ethnic groups, Nigeria is described as a ________ entity.",
+    options: [
+      "heterogeneous",
+      "homogeneous",
+      "monolithic",
+      "centralized"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following options lists the major ethnic groups in Nigeria?",
+    options: [
+      "Yoruba, Hausa, and Igbo",
+      "Edo, Fulani, and Tiv",
+      "Efik, Nupe, and Urhobo",
+      "Itsekiri, Isoko, and Ijaw"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Hausa, Igbo, and ________ are identified as the major ethnic groups in Nigeria.",
+    options: [
+      "Yoruba",
+      "Edo",
+      "Tiv",
+      "Ibibio"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following is classified as a minor ethnic group in Nigeria?",
+    options: [
+      "Edo",
+      "Yoruba",
+      "Hausa",
+      "Igbo"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Groups such as the Fulani, Tiv, Efik, Ibibio, and Igala belong to which category in Nigeria?",
+    options: [
+      "Minor ethnic groups",
+      "Major ethnic groups",
+      "Foreign immigrant groups",
+      "Linguistic majorities"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which ancient civilization crossroads is located within part of present-day Nigeria?",
+    options: [
+      "NOK, Igbo-Ukwu, Ife, and Benin",
+      "Meroe, Carthage, and Aksum",
+      "Songhai, Mali, and Ghana",
+      "Kush, Nubia, and Egypt"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "NOK, Igbo-Ukwu, Ife, and Benin are historical examples showing that part of present-day Nigeria has been a ________.",
+    options: [
+      "crossroad of civilization",
+      "uninhabited wasteland",
+      "purely European colony",
+      "vassal state of Egypt"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Bayajidda, the legendary founder of the Hausa states, is said to have come from where?",
+    options: [
+      "The East",
+      "The West",
+      "The South",
+      "The North"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to legend, who was the founder of the Hausa states that came from the East?",
+    options: [
+      "Bayajidda",
+      "Oduduwa",
+      "Tsoede",
+      "Orunmila"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Saifawa dynasty of the Kanuri is associated with which region?",
+    options: [
+      "The Middle East",
+      "Southern Europe",
+      "North America",
+      "East Africa"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which dynasty of the Kanuri people is historically associated with the Middle East?",
+    options: [
+      "Saifawa dynasty",
+      "Oyo dynasty",
+      "Biram dynasty",
+      "Oduduwa dynasty"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In precolonial Nigeria, why was imperfect specialization the order of the day?",
+    options: [
+      "The same person could be a farmer, craftsman, and trader",
+      "No one was allowed to have a profession",
+      "Only the king could trade",
+      "Each person was strictly limited to one job by law"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "An economy where a single person could be a farmer, a craftsman, and a trader is described as having ________.",
+    options: [
+      "imperfect specialization",
+      "complete specialization",
+      "monopolistic control",
+      "feudal stratification"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "How should the European contribution to the development of the Nigerian economy be regarded?",
+    options: [
+      "As a complementary part of Nigeria's economic history",
+      "As the sole origin of all Nigerian trade",
+      "As entirely destructive with no economic impact",
+      "As a modern replacement of traditional laws"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The European contribution to Nigeria's economy must be appropriately acknowledged because it is a ________.",
+    options: [
+      "complementary part of Nigeria's economic history",
+      "complete replacement of local production",
+      "proof of African static nature",
+      "purely modern achievement"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What claim regarding the introduction of Nigeria to international economic activity is described as 'unacceptable'?",
+    options: [
+      "That Europeans introduced Nigeria into international economic activity",
+      "That trade existed before the Europeans arrived",
+      "That precolonial Nigeria engaged in regional trade",
+      "That the Middle East had ties with northern Nigeria"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to the notes, it is unacceptable to claim that ________ introduced Nigeria to international economic activity.",
+    options: [
+      "Europeans",
+      "North African Berbers",
+      "Arab merchants",
+      "The Nok civilization"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "From which historical city was the kingdom of Yoruba land founded?",
+    options: [
+      "Ile-Ife",
+      "Oyo",
+      "Ilesha",
+      "Owo"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The founding origin of the kingdom of Yoruba land is traced back to ________.",
+    options: [
+      "Ile-Ife",
+      "Benin",
+      "Kano",
+      "Calabar"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who is believed to be the first king of Ile-Ife and the father of the founding princes of other Yoruba kingdoms?",
+    options: [
+      "Oduduwa",
+      "Orunmila",
+      "Obatala",
+      "Sango"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Oduduwa is traditionally regarded in Yoruba history as the ________.",
+    options: [
+      "first king of Ile-Ife and father of founding princes",
+      "deputy of Olodumare who created the earth",
+      "god of iron and war",
+      "fourth king who spurted fire"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In about 1500, Yoruba land's mega states with highly centralized political systems were exemplified by the ________.",
+    options: [
+      "Oyo empire",
+      "Ilesha kingdom",
+      "Owo state",
+      "Ifa kingdom"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Yoruba mini states in about 1500 were represented by states like ________.",
+    options: [
+      "Ilesha and Owo",
+      "Oyo and Benin",
+      "Kano and Katsina",
+      "Nupe and Daura"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What system of government did the Yoruba practice in precolonial times?",
+    options: [
+      "Constitutional monarchy",
+      "Absolute autocracy",
+      "Direct democracy",
+      "Military dictatorship"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The precolonial Yoruba political system is best described as a ________.",
+    options: [
+      "constitutional monarchy",
+      "republican democracy",
+      "stateless society",
+      "theocratic oligarchy"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In precolonial Yoruba land, what did the king represent?",
+    options: [
+      "The ancestors",
+      "The sky god",
+      "The European governor",
+      "The Ogboni society"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Yoruba king's word was law and he possessed the power of ________.",
+    options: [
+      "life and death over the people",
+      "taxing foreign nations",
+      "replacing the supreme deity",
+      "appointing the Babalawo as king"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "How was the authority of the Yoruba king checked in precolonial times?",
+    options: [
+      "By other organs of government such as the seven principal chiefs",
+      "By a written democratic constitution",
+      "By direct voting of all adult males",
+      "By foreign military commanders"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The seven principal chiefs in Yoruba land, who checked the king's authority, were also known as the ________.",
+    options: [
+      "kingmakers",
+      "Babalawo",
+      "Ogboni",
+      "Amala"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following functional associations played a prominent role in the government of Yoruba states?",
+    options: [
+      "Hunters, blacksmiths, weavers, and 'Ogboni'",
+      "Nomadic herdsmen, fishermen, and sailors",
+      "School teachers, clerks, and interpreters",
+      "Islamic scholars and Christian missionaries"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The 'Ogboni' along with hunters, blacksmiths, and weavers are examples of ________ that influenced Yoruba government.",
+    options: [
+      "functional associations",
+      "foreign trade groups",
+      "centralized royal dynasties",
+      "monarchical institutions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to Yoruba belief, who was the supreme being in the timeless beginning?",
+    options: [
+      "Olodumare",
+      "Obatala",
+      "Orunmila",
+      "Ogun"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Yoruba believe that Olodumare lived in the sky with ________.",
+    options: [
+      "numerous divinities",
+      "human ancestors",
+      "the king of Ile-Ife",
+      "the Ogboni chiefs"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who was the deputy of Olodumare according to Yoruba beliefs?",
+    options: [
+      "Orisanla or Obatala",
+      "Orunmila or Ifa",
+      "Ogun",
+      "Sango"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Orisanla (also known as Obatala) held what status in the Yoruba pantheon?",
+    options: [
+      "Deputy of Olodumare",
+      "God of iron and war",
+      "The supreme being",
+      "The trickster divinity"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to Yoruba history, which being was commissioned to create the physical earth and mold the physical form of man?",
+    options: [
+      "Obatala",
+      "Ogun",
+      "Orunmila",
+      "Esu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Obatala was commissioned to mold the physical form of man in ________.",
+    options: [
+      "ugly or beautiful form",
+      "perfect forms only",
+      "the likeness of the king",
+      "the image of the sky god"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which being in Yoruba belief divines and controls matters related to wisdom and knowledge?",
+    options: [
+      "Orunmila or Ifa",
+      "Obatala",
+      "Ogun",
+      "Sango"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Orunmila (Ifa) is primarily associated with controlling ________.",
+    options: [
+      "wisdom and knowledge",
+      "iron and war",
+      "thunder and lightning",
+      "divination and secrets"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "How does Orunmila give advice about events of the past, present, and future?",
+    options: [
+      "Through the diviners called Babalawo",
+      "By direct speech to the king",
+      "Through dreams and thunderbolts",
+      "By writing on iron tablets"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The diviners through whom Orunmila communicates advice are known as ________.",
+    options: [
+      "Babalawo",
+      "Ogboni",
+      "Etsu",
+      "Amala"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which Yoruba being controls iron, war, and the chase?",
+    options: [
+      "Ogun",
+      "Sango",
+      "Esu",
+      "Sopono"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Yoruba belief, Ogun is the divinity that controls ________.",
+    options: [
+      "iron, war, and chase",
+      "thunder and lightning",
+      "small-pox and plagues",
+      "wisdom and divination"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Ogun is traditionally regarded as the patron of which group of people?",
+    options: [
+      "Blacksmiths, hunters, and warriors",
+      "Weavers, fishermen, and farmers",
+      "Kings, chiefs, and queen mothers",
+      "Diviners and herbalists"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Blacksmiths, hunters, and warriors in Yoruba land hold ________ as their patron divinity.",
+    options: [
+      "Ogun",
+      "Sango",
+      "Obatala",
+      "Esu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which Yoruba divinity is known as the being of mischief but also regarded as beneficent and ready to help?",
+    options: [
+      "Esu",
+      "Sopono",
+      "Obatala",
+      "Ogun"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Yoruba belief, Esu is characterized as a being of ________.",
+    options: [
+      "mischief",
+      "purity and creation",
+      "thunder and lightning",
+      "iron and war"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who is the Yoruba divinity of thunder and lightning?",
+    options: [
+      "Sango",
+      "Sopono",
+      "Ogun",
+      "Orunmila"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Sango is worshiped in Yoruba land as the being controlling ________.",
+    options: [
+      "thunder and lightning",
+      "small-pox and disease",
+      "iron and metalcraft",
+      "divination and secrets"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "As a historical figure, Sango was the ________ king of his kingdom.",
+    options: [
+      "fourth",
+      "first",
+      "second",
+      "third"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to historical accounts, how did Sango kill his victims when he was king?",
+    options: [
+      "By spurting fire from his mouth",
+      "By hitting them with iron rods",
+      "By calling down small-pox",
+      "By drowning them in the sea"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which Yoruba divinity shows the wrath of God and inflicts small-pox on offenders?",
+    options: [
+      "Sopono",
+      "Sango",
+      "Esu",
+      "Ogun"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Sopono is feared because it inflicts ________ on offenders.",
+    options: [
+      "small-pox",
+      "madness",
+      "blindness",
+      "poverty"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following is true about the Hausa as a linguistic group?",
+    options: [
+      "They do not form an ethnic unity",
+      "They are a highly centralized single kingdom",
+      "They have no written records of their history",
+      "They live in the coastal forest region"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Hausa, although one of the largest linguistic groups in Africa, ________.",
+    options: [
+      "do not form an ethnic unity",
+      "have only one dialect",
+      "migrated entirely from Western Europe",
+      "never practiced agriculture"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "From which diverse elements did the Hausa people and culture emerge?",
+    options: [
+      "Saharan nomads (like Baghama and Zaghawa) and Nilotic Sudanese",
+      "Yoruba princes and Portuguese traders",
+      "Forest dwellers and coastal fishermen",
+      "Edo warriors and Igala migrants"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Baghama and Zaghawa Saharan nomads from the north contributed to the emergence of which group?",
+    options: [
+      "The Hausa",
+      "The Igbo",
+      "The Efik",
+      "The Nupe"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In West Africa, where are the Hausa mostly found today?",
+    options: [
+      "Northern Nigeria and the Cameroons",
+      "Lagos and Republic of Benin",
+      "Calabar and Equitorial Guinea",
+      "Delta State and Ghana"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Apart from Northern Nigeria, which other country is mentioned as having a major concentration of Hausa?",
+    options: [
+      "The Cameroons",
+      "Republic of Benin",
+      "Togo",
+      "Gabon"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to the more popular Daura legend, Daura was founded by ________.",
+    options: [
+      "a fascinating woman of that time",
+      "a prince from Baghdad",
+      "a German scholar",
+      "the king of Egypt"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the Hausa states was founded by a fascinating woman according to popular legend?",
+    options: [
+      "Daura",
+      "Kano",
+      "Gobir",
+      "Zaria"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to legend, Bayajida was one of the sons of ________.",
+    options: [
+      "Baghdad",
+      "Egypt",
+      "Daura",
+      "Biram"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What heroic act did Bayajida perform when he visited the people of Daura?",
+    options: [
+      "He saved the people from the menace of the serpent by the well",
+      "He taught them the art of iron smelting",
+      "He converted them to Islam",
+      "He established the Trans-Saharan trade"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who was the son of Bayajida and the queen of Daura?",
+    options: [
+      "Bawu or Bawa",
+      "Biram",
+      "Gobir",
+      "Kano"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Bawa (Bawu) had six children who went on to found a town each, giving rise to ________ original states.",
+    options: [
+      "seven",
+      "six",
+      "five",
+      "twelve"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following is NOT one of the seven original Hausa Bokwoi states?",
+    options: [
+      "Zamfara",
+      "Daura",
+      "Kano",
+      "Gobir"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The seven original Hausa Bokwoi states include Katsina, Kano, Gobir, Zaria, Rano, Biram, and ________.",
+    options: [
+      "Daura",
+      "Kebbi",
+      "Yauri",
+      "Nupe"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to German scholar Dr. Henry Barth, who entered Hausa land and captured Biram?",
+    options: [
+      "Karbagari",
+      "Bayajida",
+      "Tsoede",
+      "Bawu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Dr. Henry Barth stated that Karbagari was a man who came from ________.",
+    options: [
+      "the East",
+      "the West",
+      "the North",
+      "the South"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Bawu, the son of Karbagari, married a ________ woman.",
+    options: [
+      "Berber",
+      "Yoruba",
+      "Edo",
+      "Igbo"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to Barth's account, which of the following states were founded by twin sons of Bawu?",
+    options: [
+      "Katsina and Zaria",
+      "Kano and Gobir",
+      "Daura and Katsina",
+      "Rano and Biram"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following states is classified as one of the Banza states?",
+    options: [
+      "Zamfara",
+      "Kano",
+      "Katsina",
+      "Daura"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Banza states established from the Bokwoi include Kebbi, Nupe, Gwari, Yauri, Yoruba, Kororofa, and ________.",
+    options: [
+      "Zamfara",
+      "Gobir",
+      "Zaria",
+      "Rano"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Before the advent of Islam, the traditional Hausa religion was based on a belief in ________.",
+    options: [
+      "spirits",
+      "monotheistic gods",
+      "sacred animals",
+      "ancestor masks"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What characterized the Hausa traditional religion before Islam?",
+    options: [
+      "Belief in spirits",
+      "The worship of Sango",
+      "Kneeling before the Etsu",
+      "Strict monotheistic practices"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The concept of spirits, 'Ishoki', is recorded in the Kano Chronicle dating to ________.",
+    options: [
+      "A.D 900-1000",
+      "A.D 1500-1600",
+      "1914",
+      "1960"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which historical document records the concept of 'Ishoki' spirits in Hausa land?",
+    options: [
+      "The Kano Chronicle",
+      "The Daura Legend",
+      "The Saifawa Chronicles",
+      "The Nok tablets"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The contemporary belief in the 'Ishoki' spirit likely derives from which ancient religion?",
+    options: [
+      "Maguzawa religion",
+      "Islamic religion",
+      "Christian religion",
+      "Olukun religion"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The ancient Maguzawa religion is considered the source of contemporary belief in ________.",
+    options: [
+      "the Ishoki spirit",
+      "Oduduwa ancestry",
+      "the Saifawa dynasty",
+      "the Atta Gara dynasty"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What is the belief in the 'Ishoki' spirit called?",
+    options: [
+      "Bori",
+      "Ifa",
+      "Banza",
+      "Biram"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Bori is defined in Hausa culture as the belief in ________.",
+    options: [
+      "the Ishoki spirit",
+      "monarchic divine right",
+      "hereditary priesthood",
+      "Islamic mysticism"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Hausa believe that spirits live in a spirit world called ________.",
+    options: [
+      "JAN GARI",
+      "BORI",
+      "MAGUZAWA",
+      "BANZA"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Where is the spirit world 'Jan Gari' believed to be located?",
+    options: [
+      "Somewhere unknown in the Hausa physical world",
+      "In the Atlantic Ocean",
+      "In the Middle East",
+      "On Mount Patti"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "To which category of states does the Igbo society belong?",
+    options: [
+      "Non-centralized states of south-eastern Nigeria",
+      "Highly centralized mega-states",
+      "Theocratic empires of northern Nigeria",
+      "Constitutional monarchies of western Nigeria"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Igbo society is historically located in which geographical part of Nigeria?",
+    options: [
+      "South-eastern Nigeria",
+      "North-western Nigeria",
+      "South-western Nigeria",
+      "North-eastern Nigeria"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Unlike their Edo and Yoruba neighbors, the Igbo did not develop ________.",
+    options: [
+      "any centralized system of government",
+      "any belief in a supreme being",
+      "any system of agricultural production",
+      "any formal language or trade"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following is a major political feature of the precolonial Igbo society?",
+    options: [
+      "Lack of a centralized system of government",
+      "An absolute ruler called the Etsu",
+      "Checking the king through seven principal chiefs",
+      "Vesting royal power in three clans"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to some views, the Igbo came from which region?",
+    options: [
+      "Egypt (the East)",
+      "The Sahara Desert",
+      "Western Europe",
+      "The Cameroons"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Some theorists believe that Igbo culture evolved under the influence of culture carriers from Egypt and ________.",
+    options: [
+      "the Holy land",
+      "the Middle Niger",
+      "the Atlantic coast",
+      "the Benin kingdom"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Igbo belief, who is the creator of all things?",
+    options: [
+      "Chukwu",
+      "Olukun",
+      "Olodumare",
+      "Ani"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What does Chukwu as 'Anyanwu' symbolically represent?",
+    options: [
+      "The sun",
+      "The earth",
+      "Water",
+      "Thunder"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "For the Igbos, Chukwu manifested as 'Agbala' represents ________.",
+    options: [
+      "the fertility of the earth and its inhabitants",
+      "the god of iron and blacksmiths",
+      "the spirit of mischief",
+      "the sky and weather"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Igbo cosmology, 'Agbala' refers to the fertility of ________.",
+    options: [
+      "the earth and of the beings that inhabit it",
+      "the rivers Niger and Benue",
+      "the royal lineages",
+      "the savannah crops"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following served as traditional instruments of government in Igbo society?",
+    options: [
+      "Age grades, title societies, and secret societies",
+      "Standing armies and royal police forces",
+      "Written tax codes and courts of law",
+      "Centralized parliaments led by kings"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Oracles, fraternities, and age grades in Igbo tradition are classified as ________.",
+    options: [
+      "traditional instruments of government",
+      "foreign religious institutions",
+      "purely social clubs with no political power",
+      "modern colonial structures"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Igbo tradition, villages were bound together by the belief that ________.",
+    options: [
+      "they descended from a common ancestor",
+      "they must obey a single king",
+      "they shared the same market currency",
+      "they belonged to the same secret society"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The binding force that united Igbo villages was a shared belief in ________.",
+    options: [
+      "descent from a common ancestor",
+      "the authority of the Atta Gara",
+      "the Ogboni fraternity",
+      "the code of the Etsu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who performed legislative activities in the Igbo traditional general assembly?",
+    options: [
+      "All adult males",
+      "The oldest chief only",
+      "Members of the secret societies only",
+      "Women and children"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The ad hoc general assembly where Igbo legislative activities took place was called ________.",
+    options: [
+      "Amala or Oha",
+      "Ogboni",
+      "Etsu",
+      "Umunna"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which of the following is true about the structure of power in the traditional Igbo government?",
+    options: [
+      "There was no separation of powers",
+      "There was strict separation of legislative and executive powers",
+      "Power was completely vested in a single judge",
+      "Power was only handled by the supreme king"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In precolonial Igbo tradition, the lack of distinction between different branches of government means there was ________.",
+    options: [
+      "no separation of powers",
+      "a balanced system of checks",
+      "a constitutional monarchy",
+      "a military dictatorship"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Igbo culture, what was the 'Umunna' made up of?",
+    options: [
+      "Several compounds",
+      "Seven principal chiefs",
+      "A single age grade",
+      "Members of the Bori spirit world"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Where did the traditional authority reside in Igbo social organization?",
+    options: [
+      "In the Umunna",
+      "In the palace of the Etsu",
+      "With the foreign traders",
+      "In the Jan Gari"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Where do the Nupe people primarily live today?",
+    options: [
+      "Around Bida, Mokwa, and Jebba",
+      "Around Lagos, Badagry, and Epe",
+      "In south-eastern Nigeria near Calabar",
+      "In the core northern region of Sokoto"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Cities like Bida, Mokwa, and Jebba are home to which language group?",
+    options: [
+      "The Nupe",
+      "The Igbo",
+      "The Efik",
+      "The Yoruba"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who is the cultural hero and mythical founder of the Nupe kingdom?",
+    options: [
+      "Tsoede or Egedi",
+      "Bayajida",
+      "Oduduwa",
+      "Bawu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The earliest history of Nupe centers around the mythological figure named ________.",
+    options: [
+      "Tsoede or Egedi",
+      "Orunmila",
+      "Karbagari",
+      "Atta Gara"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "According to Nupe tradition, the founder was the son of a prince of ________.",
+    options: [
+      "Igala",
+      "Yoruba",
+      "Hausa",
+      "Edo"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The father of the mythical founder of Nupe later became the king or ________.",
+    options: [
+      "Atta Gara",
+      "Etsu Nupe",
+      "Olukun",
+      "Chukwu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "What system of government did the Nupe practice?",
+    options: [
+      "Centralized government under the Etsu Nupe",
+      "Non-centralized lineage democracy",
+      "Stateless village assembly",
+      "Theocratic military regime"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The title of the ruler under whom Nupe practiced centralized government was ________.",
+    options: [
+      "Etsu Nupe",
+      "Atta Gara",
+      "Egedi",
+      "Babalawo"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "How many highest ranks in the hierarchy of the Nupe kingdom were vested in royal clans?",
+    options: [
+      "Three",
+      "Two",
+      "Four",
+      "Seven"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The three highest ranks in the Nupe kingdom's royal hierarchy were Etsu, Shaba, and ________.",
+    options: [
+      "Kpoti",
+      "Atta",
+      "Amala",
+      "Bori"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Who was eligible to be heir to the throne in the Nupe kingdom?",
+    options: [
+      "Only the first son born during the father's reign",
+      "Any male member of the Ogboni",
+      "The son of the queen of Daura",
+      "The chief of the blacksmiths"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "In Nupe, a son born before his father's reign could not be heir because the throne was reserved for ________.",
+    options: [
+      "the first son born during the father's reign",
+      "the eldest brother of the king",
+      "the king's chief adviser",
+      "the Etsu's son-in-law"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Which area is inhabited by the Efik-speaking people?",
+    options: [
+      "Calabar",
+      "Bida",
+      "Abraka",
+      "Lagos"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Efik-speaking people are traditionally associated with which geographic location?",
+    options: [
+      "Calabar",
+      "Jebba",
+      "Kano",
+      "Ile-Ife"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "The Efik-speaking people are classified as belonging to which linguistic group?",
+    options: [
+      "The Cross River group",
+      "The Nilotic Sudanese group",
+      "The Berber group",
+      "The Chadic group"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 2,
+    question: "Linguistically, the Efik are closely related to the language group of the ________.",
+    options: [
+      "Benue-Congo",
+      "Sahara",
+      "Afro-Asiatic",
+      "Nilo-Saharan"
+    ],
+    answer: 0
+  },
+  
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In what year did colonial rule first start in Nigeria with Lagos formally becoming a British colony?",
+    options: [
+      "1861",
+      "1906",
+      "1914",
+      "1960"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which territory formally became a British colony in 1861, marking the beginning of colonial rule in Nigeria?",
+    options: [
+      "Enugu",
+      "Kaduna",
+      "Lagos",
+      "Calabar"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In 1906, the Lagos Colony and the Protectorate of Southern Nigeria were merged into which entity?",
+    options: [
+      "Protectorate of Southern Nigeria",
+      "Colony of Lagos",
+      "Amalgamated Nigeria",
+      "Southern Province"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which two administrative entities were merged in 1906 to form the Protectorate of Southern Nigeria?",
+    options: [
+      "Lagos Colony and Northern Protectorate",
+      "Lagos Colony and Protectorate of Southern Nigeria",
+      "Northern and Southern Protectorates",
+      "Southern Province and Kaduna Province"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "On what date were the Southern and Northern protectorates amalgamated into a single entity called Nigeria?",
+    options: [
+      "October 1, 1960",
+      "May 20, 1960",
+      "January 1, 1914",
+      "December 12, 1999"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who was the first Governor-General of Nigeria following the amalgamation on January 1, 1914?",
+    options: [
+      "Sir Hugh Clifford",
+      "Fredrick Lord Lugard",
+      "Sir Bernard Bourdillon",
+      "Sir Arthur Richards"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In what year did the sovereign entity of Nigeria come into being at independence?",
+    options: [
+      "1914",
+      "1954",
+      "1960",
+      "1963"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "The sovereign entity of Nigeria officially came into existence following which event in 1960?",
+    options: [
+      "The Amalgamation",
+      "Independence",
+      "The Clifford Constitution",
+      "The adoption of the Coat of Arms"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who was at the helm of the affairs of the entire country under the structure of colonial administration?",
+    options: [
+      "The Lieutenant-General",
+      "The Prime Minister",
+      "The Governor-General",
+      "The Secretary of State"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What position represented the highest administrative authority in amalgamated Nigeria from 1914?",
+    options: [
+      "The Governor-General",
+      "The Regional Legislature",
+      "The Traditional Rulers",
+      "The Nationalist Coalition"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "During the colonial period, Nigeria was split into three administrative units consisting of Lagos and which of the following?",
+    options: [
+      "Two former protectorates redesignated as provinces of southern and northern Nigeria",
+      "Three distinct kingdoms with separate treaties",
+      "Four autonomous state military commands",
+      "Six geo-political development zones"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Where was the headquarters of the former colony of Lagos located during the colonial period?",
+    options: [
+      "Kaduna",
+      "Enugu",
+      "Lagos",
+      "Calabar"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "During the colonial period, who headed the provinces of Southern and Northern Nigeria?",
+    options: [
+      "Lieutenant-Generals",
+      "Governor-Generals",
+      "Traditional Chiefs",
+      "Colonial Secretaries"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "According to the notes, which cities served as the headquarters for the Southern and Northern provinces respectively?",
+    options: [
+      "Lagos and Kaduna",
+      "Enugu and Kaduna",
+      "Enugu and Lagos",
+      "Kaduna and Calabar"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What overall aim of the British colonial government led to the enactment of several constitutional provisions?",
+    options: [
+      "Training the people for self-government",
+      "Establishing a permanent military base",
+      "Expanding the boundaries to neighboring countries",
+      "Converting the entire populace to Christianity"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "The enactment of several constitutions by the colonial administration was a response to the people's demand for what?",
+    options: [
+      "Representative legislation",
+      "An immediate military coup",
+      "The return to pre-colonial empires",
+      "A unitary system of government"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who replaced Fredrick Lord Lugard as Governor-General of Nigeria in 1920?",
+    options: [
+      "Sir Bernard Bourdillon",
+      "Sir Hugh Clifford",
+      "Sir Arthur Richards",
+      "Sir John Macpherson"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In what year did Sir Hugh Clifford replace Lord Lugard as Governor-General?",
+    options: [
+      "1906",
+      "1914",
+      "1920",
+      "1922"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which constitution was promulgated by Sir Hugh Clifford in 1922?",
+    options: [
+      "Richards Constitution",
+      "Clifford Constitution",
+      "Macpherson Constitution",
+      "Littleton Constitution"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who promulgated the Clifford Constitution of 1922?",
+    options: [
+      "Sir Bernard Bourdillon",
+      "Sir John Macpherson",
+      "Sir Hugh Clifford",
+      "Sir Arthur Richards"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What provision of the Clifford Constitution of 1922 stimulated the formation of political parties?",
+    options: [
+      "The regional dividing provision",
+      "The elective provision",
+      "The military command provision",
+      "The judicial review provision"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which political party was the very first to be formed in Nigeria?",
+    options: [
+      "Action Group (AG)",
+      "Northern People's Congress (NPC)",
+      "Nigerian National Democratic Party (NNDP)",
+      "National Council of Nigeria and the Cameroons (NCNC)"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who led the first political party in Nigeria, the Nigerian National Democratic Party (NNDP)?",
+    options: [
+      "Herbert Macaulay",
+      "Obafemi Awolowo",
+      "Nnamdi Azikiwe",
+      "Ahmadu Bello"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Herbert Macaulay was the leader of which political party?",
+    options: [
+      "NNDP",
+      "NPC",
+      "AG",
+      "NCNC"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What was a major shortfall of the 1922 Clifford Constitution?",
+    options: [
+      "The Lagos colony rejected it",
+      "The Northern Part of Nigeria was not governed by it",
+      "It completely banned political parties",
+      "It did not have any elective provisions"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which part of Nigeria was excluded from governance under the 1922 Clifford Constitution?",
+    options: [
+      "The Western region",
+      "The Southern protectorate",
+      "The Northern Part of Nigeria",
+      "The Colony of Lagos"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What factor, along with other demands, brought the Clifford Constitution under severe criticisms by nationalists?",
+    options: [
+      "Increased anti-colonial agitations",
+      "The reduction of tax rates",
+      "The rapid development of local infrastructure",
+      "The complete lack of political parties"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who severely criticized the Clifford Constitution due to increased anti-colonial agitations?",
+    options: [
+      "The British Parliament",
+      "The nationalists",
+      "The Lieutenant-Generals",
+      "The military chiefs"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who succeeded Sir Hugh Clifford as Governor-General of Nigeria?",
+    options: [
+      "Sir John Macpherson",
+      "Sir Bernard Bourdillon",
+      "Sir Arthur Richards",
+      "Oliver Littleton"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Sir Bernard Bourdillon served in what capacity after succeeding Clifford?",
+    options: [
+      "Lieutenant-General of Southern Nigeria",
+      "Governor-General of Nigeria",
+      "Colonial Secretary in London",
+      "First Prime Minister of Nigeria"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Why was Sir Bernard Bourdillon unable to promulgate the new constitution he prepared before 1944?",
+    options: [
+      "He was removed by a military coup",
+      "He retired in 1944",
+      "The nationalists rejected his draft",
+      "The British government banned the constitution"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What did Sir Bernard Bourdillon prepare but fail to promulgate before his retirement in 1944?",
+    options: [
+      "A new constitution",
+      "A military decree",
+      "A regional merger treaty",
+      "The Independence Act"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who succeeded Sir Bernard Bourdillon as Governor-General of Nigeria?",
+    options: [
+      "Sir Arthur Richards",
+      "Sir John Macpherson",
+      "Oliver Littleton",
+      "Lord Lugard"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Sir Arthur Richards was the direct successor of which Governor-General?",
+    options: [
+      "Fredrick Lord Lugard",
+      "Sir Hugh Clifford",
+      "Sir Bernard Bourdillon",
+      "Sir John Macpherson"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "When did Sir Arthur Richards publish the constitution prepared by his predecessor, Bernard Bourdillon?",
+    options: [
+      "January 1914",
+      "December 1944",
+      "October 1960",
+      "May 1954"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which Governor-General published the constitution that Bernard Bourdillon could not promulgate before retiring?",
+    options: [
+      "Sir John Macpherson",
+      "Sir Arthur Richards",
+      "Lord Lugard",
+      "Sir Hugh Clifford"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "The Richards Constitution created regional legislative councils for which three administrative regions?",
+    options: [
+      "Northern, Southern, and Western",
+      "Eastern, Western, and Mid-Western",
+      "Lagos, Kaduna, and Enugu",
+      "Delta, Lagos, and Abuja"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which constitution officially created regional legislative councils for the Northern, Southern, and Western regions?",
+    options: [
+      "Clifford Constitution",
+      "Richards Constitution",
+      "Macpherson Constitution",
+      "Littleton Constitution"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who succeeded Sir Arthur Richards as Governor-General and introduced a new constitution in 1951?",
+    options: [
+      "Sir John Macpherson",
+      "Oliver Littleton",
+      "Sir Bernard Bourdillon",
+      "Lord Lugard"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In what year did Sir John Macpherson introduce a new constitution for Nigeria?",
+    options: [
+      "1922",
+      "1944",
+      "1951",
+      "1954"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who was the colonial secretary that suggested a further review of the Macpherson constitution?",
+    options: [
+      "Sir Arthur Richards",
+      "Mr. Oliver Littleton",
+      "Sir Bernard Bourdillon",
+      "Sir Hugh Clifford"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What prompted Colonial Secretary Mr. Oliver Littleton to suggest a further review of the Macpherson constitution?",
+    options: [
+      "Agitations against the Macpherson constitution",
+      "The sudden death of the Governor-General",
+      "The outbreak of a regional military war",
+      "Direct orders from the United Nations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Where were the two constitutional conferences of 1953 and 1954 held respectively?",
+    options: [
+      "Enugu and Kaduna",
+      "London and Lagos",
+      "Lagos and Kaduna",
+      "London and Enugu"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In what year was the Littleton Constitution officially promulgated following conferences in London and Lagos?",
+    options: [
+      "1944",
+      "1951",
+      "1954",
+      "1960"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What was the chief consideration in adopting a federal structure for the Nigerian state?",
+    options: [
+      "The geo-ethnic and historical diversities",
+      "The recommendation of the United Nations",
+      "The demand of the military command",
+      "The need for a single centralized economy"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "The federal structure was adopted chiefly because of Nigeria's:",
+    options: [
+      "geo-ethnic and historical diversities",
+      "lack of natural mineral resources",
+      "homogeneous cultural makeup",
+      "colonial budget restrictions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Where was the seat of the central government of Nigerian federalism located between 1960 and 1999?",
+    options: [
+      "Abuja",
+      "Enugu",
+      "Lagos",
+      "Kaduna"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "On what date did the Federal Capital Territory, Abuja officially become the seat of the Nigerian central government?",
+    options: [
+      "October 1, 1960",
+      "December 12, 1999",
+      "May 20, 1960",
+      "January 1, 1914"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Between 1960 and 1963, Nigeria was divided into which three regions?",
+    options: [
+      "Northern, Eastern, and Western",
+      "Northern, Southern, and Western",
+      "Northern, Eastern, Western, and Mid-western",
+      "Lagos, Southern, and Northern"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "During which years was Nigeria divided into four regions (Northern, Eastern, Western, and Mid-western)?",
+    options: [
+      "1960 and 1963",
+      "1963 and 1967",
+      "1967 and 1976",
+      "1976 and 1987"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Nigeria was divided into twelve states during which of the following periods?",
+    options: [
+      "1960 and 1963",
+      "1963 and 1967",
+      "1967 and 1976",
+      "1976 and 1987"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "How many states was Nigeria divided into between the period of 1967 and 1976?",
+    options: [
+      "Three",
+      "Four",
+      "Twelve",
+      "Nineteen"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Nigeria was divided into nineteen states during which period?",
+    options: [
+      "1967 and 1976",
+      "1976 and 1987",
+      "1987 and 1991",
+      "1991 and 1995"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "How many states was Nigeria divided into between the period of 1987 and 1991?",
+    options: [
+      "Twelve",
+      "Nineteen",
+      "Twenty-one",
+      "Thirty"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "During which period was Nigeria divided into thirty states?",
+    options: [
+      "1987 and 1991",
+      "1991 and 1995",
+      "1995 to date",
+      "1976 and 1987"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Since what year has Nigeria been divided into thirty-six states?",
+    options: [
+      "1987",
+      "1991",
+      "1995",
+      "1999"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which of the following is identified as a major problem of Nigerian federalism in the notes?",
+    options: [
+      "Unhealthy intergovernmental relations between the component units",
+      "A completely homogeneous population",
+      "Lack of an official central government seat",
+      "The absence of constitutional provisions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Why is revenue allocation considered a thorny issue in Nigerian federalism?",
+    options: [
+      "It is tied to the control of fiscal federalism",
+      "There are no financial resources to allocate",
+      "The central government does not collect taxes",
+      "It is fully managed by the United Nations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Other noted problems of Nigerian federalism include power sharing and ________.",
+    options: [
+      "economic marginalization",
+      "monarchical succession disputes",
+      "religious unification laws",
+      "excessive regional military treaties"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "How is a democratic system of governance defined?",
+    options: [
+      "Decision making is by consensus through the representatives of the people",
+      "The military command directs all public policies",
+      "A single monarch makes all state decisions",
+      "The colonial governor-general holds absolute power"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Under a democratic system, decision making occurs through which mechanism?",
+    options: [
+      "Consensus through the representatives of the people",
+      "Direct executive decrees by the armed forces",
+      "Decisions made solely by the oldest citizens",
+      "Referendums run by external foreign states"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What is the main selling point of a democracy?",
+    options: [
+      "The notion of popular power, meaning the people's ownership of power",
+      "The high cost of running public elections",
+      "The centralized rule of a single military leader",
+      "The exclusion of regional political representation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In a democracy, 'popular power' refers to:",
+    options: [
+      "The popularity of the ruling president",
+      "The people's ownership of power",
+      "The dominance of the national military forces",
+      "The central control of state finances"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What defines a military regime according to the notes?",
+    options: [
+      "A government established after a coup where the main executive post is held by a military person",
+      "A system where decisions are made by consensus through public representatives",
+      "A colony governed directly by a civilian British Governor-General",
+      "A system of governance where traditional rulers hold executive power"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In a military regime, how is the government established and who holds the main executive post?",
+    options: [
+      "Through a coup, with the main executive post held by a military person",
+      "Through democratic voting, with the post held by a chief justice",
+      "Through traditional succession, with the post held by a king",
+      "Through colonial appointment, with the post held by a diplomat"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What was the greatest threat to Nigeria's democracy?",
+    options: [
+      "The several intrusions of the military into Nigeria's political ferment",
+      "The lack of mineral and agricultural resources",
+      "The transition of the seat of government to Abuja",
+      "The establishment of regional legislative councils"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "The intrusions of which group posed the greatest threat to Nigeria's political ferment and democracy?",
+    options: [
+      "The traditional monarchs",
+      "The military",
+      "The colonial lieutenant-generals",
+      "The judicial court judges"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "When did civilian intolerance for military regimes in Nigeria reach its climax?",
+    options: [
+      "Following the amalgamation in 1914",
+      "After the annulment of the June 12, 1993 presidential election",
+      "During the promulgation of the Clifford Constitution",
+      "When the capital was moved to Abuja"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who annulled the June 12, 1993 presidential election on June 23, 1993?",
+    options: [
+      "General Aguiyi Thomas Ironsi",
+      "General Yakubu Gowon",
+      "General Ibrahim Badamasi Babangida",
+      "General Abdusalam Abubakar"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who was the last of the military juntas in Nigeria?",
+    options: [
+      "General Ibrahim Badamasi Babangida",
+      "General Murtala Mohammed",
+      "General Abdusalam Abubakar",
+      "General Aguiyi Thomas Ironsi"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "General Abdusalam Abubakar is historically noted in these texts as being:",
+    options: [
+      "The first military ruler of Nigeria",
+      "The last of the military juntas",
+      "The leader of the NNDP",
+      "The first Governor-General of Nigeria"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "How many military regimes were there in Nigeria, according to the notes?",
+    options: [
+      "One",
+      "Three",
+      "Five",
+      "Seven"
+    ],
+    answer: 3
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "True or False: There was only one military regime in the history of Nigeria.",
+    options: [
+      "True, there was only one military regime",
+      "False, there were seven military regimes",
+      "False, there were twelve military regimes",
+      "True, led entirely by Aguiyi Ironsi"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "During what period did Major General Aguiyi Thomas Ironsi rule as a military Governor?",
+    options: [
+      "16th January 1966-29th July 1966",
+      "1st July 1966-29th July 1975",
+      "29th July 1975-13th February 1976",
+      "23rd June 1993-29th May 1999"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who ruled as a military Governor between 16th January 1966 and 29th July 1966?",
+    options: [
+      "Major General Aguiyi Thomas Ironsi",
+      "General Yakubu Gowon",
+      "General Murtala Mohammed",
+      "General Abdusalam Abubakar"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Between which dates did General Yakubu Gowon rule as a military Governor?",
+    options: [
+      "16th January 1966-29th July 1966",
+      "1st July 1966-29th July 1975",
+      "29th July 1975-13th February 1976",
+      "12th December 1999-present"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Which military Governor ruled Nigeria from 1st July 1966 to 29th July 1975?",
+    options: [
+      "General Aguiyi Thomas Ironsi",
+      "General Yakubu Gowon",
+      "General Murtala Mohammed",
+      "General Abdusalam Abubakar"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "During which period did General Murtala Mohammed rule Nigeria as a military Governor?",
+    options: [
+      "16th January 1966-29th July 1966",
+      "1st July 1966-29th July 1975",
+      "29th July 1975-13th February 1976",
+      "23rd June 1993-29th May 1999"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Who ruled Nigeria as a military Governor from 29th July 1975 to 13th February 1976?",
+    options: [
+      "General Murtala Mohammed",
+      "General Yakubu Gowon",
+      "Major General Aguiyi Thomas Ironsi",
+      "General Ibrahim Badamasi Babangida"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In what year was the first political party in Nigeria, the Nigerian National Democratic Party (NNDP), formed?",
+    options: [
+      "1906",
+      "1914",
+      "1922",
+      "1944"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What was the name of the first political party formed in Nigeria?",
+    options: [
+      "National Council of Nigeria and the Cameroons",
+      "Action Group",
+      "Northern People's Congress",
+      "Nigerian National Democratic Party (NNDP)"
+    ],
+    answer: 3
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What constraints have prevented political parties in Nigeria from functioning as truly national parties?",
+    options: [
+      "Lack of registered voters and physical offices",
+      "Ethnicity, regionalism, and religion",
+      "The small size of local government areas",
+      "Strict military registration guidelines"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "Due to factors like ethnicity, regionalism, and religion, political parties have been unable to:",
+    options: [
+      "Function as truly national parties",
+      "Receive any governmental funding",
+      "Represent individual voters",
+      "Hold any localized elections"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "What does it mean to be ethnic, according to the notes?",
+    options: [
+      "To be composed into groups based on 'social formations' distinguished by the communal character of the boundaries",
+      "To be part of a highly centralized global commercial market network",
+      "To be governed strictly by a military council from another state",
+      "To hold a democratic consensus with representatives of the people"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst111",
+    chapter: 3,
+    question: "In the context of the notes, ethnic groups are distinguished by what character of their boundaries?",
+    options: [
+      "Communal character",
+      "Administrative character",
+      "National character",
+      "Military character"
+    ],
+    answer: 0
+    },
+  {
+  course: "gst111",
+  chapter: 4,
+  question: "Musical arts education in Nigeria was fostered by which of the following?",
+  options: [
+    "Colonialism",
+    "Pre-colonial trade",
+    "Military regimes",
+    "Traditional unions"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Under whose auspices was musical arts education in Nigeria adopted and developed?",
+  options: [
+    "Independent music corporations",
+    "The churches that set up mission schools",
+    "The military administration",
+    "The ministry of physical education"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "The inclusion of music in early Nigerian mission schools was facilitated by which characteristic of the missionaries?",
+  options: [
+    "They were lovers of music",
+    "They had strict military backgrounds",
+    "They were solely focused on agricultural studies",
+    "They wanted to establish political parties"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Between which years were the mission schools that included music established in Nigeria?",
+  options: [
+    "1861 and 1906",
+    "1842 and 1913",
+    "1914 and 1960",
+    "2000 and 2016"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Why were missionary activities mainly in the South, leading to the neglect of music education in the North?",
+  options: [
+    "The lack of transport networks to the North",
+    "The strong influence of Islam in the North",
+    "The harsh weather conditions of the North",
+    "A lack of interest from Northern youth"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "According to the notes, the neglect of the North in missionary music education activities was probably due to:",
+  options: [
+    "The strong influence of Islam in the North",
+    "The absence of traditional instruments",
+    "An agreement with colonial lieutenant-generals",
+    "The high cost of school fees in the region"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "According to Adegbite (2001), who is noted as a pioneer of music education in the south who studied in Germany in 1871?",
+  options: [
+    "T.K.E. Philips",
+    "Akin Euba",
+    "Robert Coker",
+    "Samuel Akpabot"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "From which country's School of Music did pioneer T.K.E. Philips graduate in 1914?",
+  options: [
+    "Germany",
+    "England",
+    "Nigeria",
+    "France"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Which of the following scholars belongs to the second generation of Nigerian composers and music scholars?",
+  options: [
+    "Robert Coker",
+    "T.K.E. Philips",
+    "Akin Euba",
+    "Professor Eric Arubayi"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Laz Ekwueme, Ayo Bankole, and Samuel Akpabot are classified under which group in Nigerian music history?",
+  options: [
+    "The pioneer missionaries",
+    "The first generation of German-trained musicians",
+    "The second generation of scholars and composers",
+    "The modern 21st-century broadcast journalists"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "During which period was there a notable upsurge in the inclusion of music as a discipline in Nigerian tertiary institutions?",
+  options: [
+    "1842 to 1913",
+    "1914 to 1960",
+    "1960 to 1999",
+    "2000 to 2016"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "The years 2000 to 2016 witnessed an upsurge in the inclusion of music as a discipline in what level of education?",
+  options: [
+    "Primary schools",
+    "Secondary mission schools",
+    "Tertiary institutions",
+    "Military academies"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "In the context of the 21st century, what does musical arts education precisely refer to?",
+  options: [
+    "The study of music in formal settings against traditional backgrounds",
+    "The study of military parade music only",
+    "Strictly informal learning within local communities",
+    "The documentation of pre-colonial instruments exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "21st-century musical arts education involves studying music in formal settings against the background of what?",
+  options: [
+    "Modern internet streaming",
+    "Traditional background of musical creativity",
+    "Western-only composition formats",
+    "Colonial administrative policies"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What guides musical expression within the framework of classism?",
+  options: [
+    "Improvisation and speed",
+    "Thoroughness and precision",
+    "Emotional chaos and freedom",
+    "Traditional oral transmission only"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Thoroughness and precision are key guides for musical expression within which framework?",
+  options: [
+    "Classism",
+    "Traditionalism",
+    "Modernism",
+    "Colonialism"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Which of the following universities is listed as having strengthened the foundation of music in Nigerian universities?",
+  options: [
+    "University of Ibadan",
+    "Delta State University",
+    "University of Kaduna",
+    "Ahmadu Bello University"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "The foundation of university music in Nigeria was strengthened by the University of Nigeria, University of Lagos, University of Ibadan, and which other institution?",
+  options: [
+    "Obafemi Awolowo University",
+    "Enugu State University",
+    "Covenant University",
+    "University of Benin"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What is the focus of study and project concentration in the music media specialization?",
+  options: [
+    "Orchestral instrument maintenance",
+    "Journalism concerning music",
+    "Traditional composition of folk songs",
+    "Acoustics of physical performance halls"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Music media is a specialization where ________ concerning music is the central focus.",
+  options: [
+    "journalism",
+    "marketing",
+    "manufacturing",
+    "copyright litigation"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What advantage does the incorporation of musical knowledge into the media facilitate?",
+  options: [
+    "The physical printing of music sheet books",
+    "The distribution/circulation of music electronically and with ease",
+    "The strict censorship of traditional lyrics",
+    "The employment of colonial personnel in media houses"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Electronic and easy distribution/circulation of music is facilitated by incorporating musical knowledge into which field?",
+  options: [
+    "Traditional religion",
+    "The media",
+    "Military marching routines",
+    "Agricultural science"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Why is a music graduate sometimes more relevant to media houses than other personnel?",
+  options: [
+    "They possess advanced skills in financial auditing",
+    "They are highly skilled in collecting and packaging procedures for artistic programs",
+    "They are trained primarily in military defense strategies",
+    "They hold degrees in physical education and sports"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Media houses utilize music graduates' expertise for the collection, packaging, regular presentation, and documentation of:",
+  options: [
+    "Political debate transcripts",
+    "Artistic related programs",
+    "National physical census data",
+    "Economic trade agreements"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What are identified as essential prerequisites for success in the broadcast industry?",
+  options: [
+    "Technical engineering and strict military posture",
+    "Creative mobility and warmth",
+    "Formal legal background and financial backing",
+    "Traditional music history and language skills"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "In the broadcast industry, success requires prerequisites of warmth and ________.",
+  options: [
+    "creative mobility",
+    "mathematical calculation",
+    "geographical knowledge",
+    "classical performance speed"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "While anchoring a talk show requires self-confidence, what does anchoring a television music program showcase?",
+  options: [
+    "Strength, speed, and vocal range",
+    "Knowledge, interest, and poise",
+    "Traditional religious beliefs and history",
+    "Political affiliation and local lineage"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What is generally required of a person anchoring a standard talk show?",
+  options: [
+    "Poise",
+    "Self-confidence",
+    "Composition proficiency",
+    "Orchestral experience"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Which of the following is listed as an ensemble organization diversity in Nigeria?",
+  options: [
+    "Orchestral, band, dance, African instrumental, choral and operatic ensembles",
+    "Solo acoustic vocalists only",
+    "Digital synthesizer ensembles exclusively",
+    "Military routines and national parades only"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Choral and operatic ensembles in Nigeria represent examples of what?",
+  options: [
+    "Individual solo performance specializations",
+    "Ensemble organization diversities",
+    "Traditional religious ceremonies",
+    "Media broadcast journalism courses"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What is a notable requirement for making music come alive in a band or orchestral ensemble?",
+  options: [
+    "A single musician working with computer sequencers",
+    "More than one person willing to agree in perception",
+    "A strict audience listening in absolute silence",
+    "An expensive collection of German-made instruments"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "According to the text, a band or orchestral ensemble requires agreement in what area to make music come alive?",
+  options: [
+    "Financial investment",
+    "Perception",
+    "Traditional religious faith",
+    "Political party association"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Composition is described as a creative endeavor that requires what quality from a scholar?",
+  options: [
+    "Poise",
+    "Proficiency",
+    "Warmth",
+    "Self-confidence"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What creative endeavor requires proficiency on the part of the scholar who chooses to embark on it?",
+  options: [
+    "Composition",
+    "Media broadcasting",
+    "Ensemble organization",
+    "Mission school teaching"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Which of the following is listed as a rhythmic component of composition in the notes?",
+  options: [
+    "Classical scale sequences",
+    "Frequency of duration or patterns, regular, irregular, additive, syncopated, etc.",
+    "Electronic media distribution formats",
+    "Orchestral instrument maintenance schedules"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "Rhythmic components of composition include additive, divisive, syncopated, interaction, transition, and other:",
+  options: [
+    "melodic scales",
+    "rhythmic fabric",
+    "harmonic intervals",
+    "tonal frequencies"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What national strategy has focused on addressing the development challenges in Nigeria?",
+  options: [
+    "National Economic Empowerment and Development Strategy (NEEDS)",
+    "National Musical Arts Development Strategy (NMADS)",
+    "Colonial Self-Government Training Strategy (CSGTS)",
+    "Federal Capital Territory Development Plan (FCTDP)"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 4,
+  question: "What has been the primary focus of the National Economic Empowerment and Development Strategy (NEEDS)?",
+  options: [
+    "The funding of local mission schools",
+    "The development challenges in Nigeria",
+    "The promotion of second-generation composers",
+    "The regulation of broadcast media licenses"
+  ],
+  answer: 1
+    },
+  {
+  course: "gst111",
+  chapter: 5,
+  question: "What are the essential components of the Nigerian socio-cultural system?",
+  options: [
+    "Norms, values, and belief system",
+    "Laws, physical infrastructure, and economy",
+    "Political parties, elections, and military forces",
+    "Language, technology, and art"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Norms, values, and belief systems are essential components of which Nigerian system?",
+  options: [
+    "Political system",
+    "Economic system",
+    "Socio-cultural system",
+    "Judicial system"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Under which configuration are norms, values, and belief systems classified?",
+  options: [
+    "Material cultural configuration",
+    "Non-material cultural configuration",
+    "Political structural configuration",
+    "Economic developmental configuration"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Norms, values, and belief systems are classified under non-material culture and are also regarded as what?",
+  options: [
+    "Cultural constraints",
+    "Cultural deviations",
+    "Cultural universals",
+    "Cultural innovations"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the sociological term for established social rules that specify appropriate and inappropriate behaviors?",
+  options: [
+    "Norms",
+    "Values",
+    "Beliefs",
+    "Laws"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Norms are established social rules or guidelines that specify appropriate and inappropriate behaviors in a:",
+  options: [
+    "Particular culture",
+    "Written constitution only",
+    "Military system exclusively",
+    "Foreign court of law"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are norms designed to guide in a society?",
+  options: [
+    "Individual financial savings",
+    "Societal shared standards of behavior",
+    "The physical construction of structures",
+    "International diplomatic trade"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Rules or regulations that guide societal shared standards of behavior are called:",
+  options: [
+    "Norms",
+    "Techniques",
+    "Agreements",
+    "Traditions"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "According to Otite and Ogionwo (2006), norms involve the performance of prescribed behavior and the imposition of what on its omission?",
+  options: [
+    "Financial rewards",
+    "Sanction",
+    "Traditional praise",
+    "Formal promotion"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which scholars (2006) believed that norms involve prescribed behavior and the imposition of sanctions for its omission?",
+  options: [
+    "Ademilokum and Philips",
+    "Adegbite and Coker",
+    "Otite and Ogionwo",
+    "Lemert and Macaulay"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What concept refers to beliefs, standards, and ideals about what constitutes desirable/good or undesirable/bad behavior?",
+  options: [
+    "Norms",
+    "Values",
+    "Folkways",
+    "Taboos"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Values refer to beliefs, standards, and ideals about what constitutes:",
+  options: [
+    "Written legislation only",
+    "Desirable or good behavior versus undesirable or bad behavior",
+    "The religious history of a single ethnic group",
+    "Traditional musical rhythms"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is described as the most general component of social action?",
+  options: [
+    "Values",
+    "Norms",
+    "Folkways",
+    "Taboos"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In sociology, values are considered the most general component of which of the following?",
+  options: [
+    "Political campaigns",
+    "Social action",
+    "Judicial trials",
+    "Financial operations"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which values are necessary for fostering group values core to societal integration and development?",
+  options: [
+    "Moral or ethical values",
+    "Informal folkways",
+    "Economic and commercial values",
+    "Political party values"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Honesty, integrity, truth, obedience, and loyalty are examples of which kind of values?",
+  options: [
+    "Folkways",
+    "Moral or ethical values",
+    "Primary taboos",
+    "Formal laws"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which agency identified seven core values in its survey of core values in Nigeria?",
+  options: [
+    "National Economic Strategy Agency",
+    "National Orientation Agency",
+    "Federal Ministry of Social Welfare",
+    "National Cultural Commission"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "How many core values in Nigeria did the National Orientation Agency identify in its survey?",
+  options: [
+    "Three",
+    "Five",
+    "Seven",
+    "Twelve"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which type of norms specify appropriate and acceptable behaviors in a particular culture?",
+  options: [
+    "Prescriptive norms",
+    "Proscriptive norms",
+    "Informal taboos",
+    "Secondary deviance"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Norms that encourage and specify acceptable behaviors are referred to as:",
+  options: [
+    "Proscriptive",
+    "Prescriptive",
+    "Folkways",
+    "Deviant"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are norms that specify guidelines for behavior that is inappropriate and unacceptable?",
+  options: [
+    "Prescriptive norms",
+    "Proscriptive norms",
+    "Informal folkways",
+    "Positive sanctions"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Proscriptive norms are designed to outline behaviors that are:",
+  options: [
+    "Inappropriate and unacceptable",
+    "Appropriate and highly encouraged",
+    "Written into formal law only",
+    "Enforced by positive rewards"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are norms that are neither written nor codified called?",
+  options: [
+    "Formal norms",
+    "Informal norms",
+    "Laws",
+    "Mores"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Informal norms are characterized by being:",
+  options: [
+    "Written into the constitution",
+    "Neither written nor codified",
+    "Enforced by state police",
+    "Passed by legislative consensus"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are norms that are written down or codified referred to as?",
+  options: [
+    "Informal norms",
+    "Folkways",
+    "Formal norms",
+    "Taboos"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which type of norms are explicitly written down and codified?",
+  options: [
+    "Informal norms",
+    "Folkways",
+    "Formal norms",
+    "Belief systems"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Formalized norms are officially referred to as:",
+  options: [
+    "Folkways",
+    "Laws",
+    "Mores",
+    "Taboos"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What name is given to norms once they become formalized and codified?",
+  options: [
+    "Taboos",
+    "Laws",
+    "Mores",
+    "Folkways"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are socially defined rules based on customary ways of feeling, thinking, and behaving that lack moral overtones?",
+  options: [
+    "Folkways",
+    "Mores",
+    "Laws",
+    "Taboos"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Folkways are rules based on customary ways of behaving that notably lack what?",
+  options: [
+    "Social acceptance",
+    "Moral overtones or significance",
+    "Sanction systems",
+    "Religious elements"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are norms that are held strongly with crucial moral and ethical connotations called?",
+  options: [
+    "Folkways",
+    "Informal codes",
+    "Mores",
+    "Positive deviance"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Unlike folkways, mores are norms that possess strong:",
+  options: [
+    "Written procedures",
+    "Moral and ethical connotations",
+    "Financial penalties",
+    "Unitary structures"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which of the following is an example of mores in traditional Nigerian society?",
+  options: [
+    "Theft",
+    "A casual greeting custom",
+    "A traditional table manner",
+    "A modern dress code"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Having sexual intercourse with another man's wife without his approval is an example of:",
+  options: [
+    "Folkways",
+    "Mores",
+    "Internal social control",
+    "Positive deviance"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is a variant of mores whose violation is considered extremely disgustful, repugnant, and abominable?",
+  options: [
+    "Folkways",
+    "Taboo",
+    "Informal norms",
+    "Prescriptive norms"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Primary incest, such as sexual intercourse with one's sister or mother, is a classic example of:",
+  options: [
+    "A folkway",
+    "A taboo",
+    "Prescriptive norm",
+    "Positive deviance"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "When norms are established in Nigerian society, what two behavioral patterns do they inevitably throw up?",
+  options: [
+    "Conformity and deviance",
+    "Integration and assimilation",
+    "Folkways and taboos",
+    "Laws and religious tolerance"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Conformity and deviance are two behavioral patterns that arise when what are established?",
+  options: [
+    "Industrial programs",
+    "Norms",
+    "Mission schools",
+    "Broadcasting guidelines"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the act of complying with norms established by a group or society called?",
+  options: [
+    "Conformity",
+    "Deviance",
+    "Folkway",
+    "Mores"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is an individual who complies with the established norms of a society called?",
+  options: [
+    "A conformist",
+    "A deviant",
+    "A pioneer",
+    "A critic"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which of the following is listed as a reason for complying with societal norms?",
+  options: [
+    "Rejection of the norms",
+    "Fear of penalty, personal conviction, and group identification",
+    "The physical size of the local community",
+    "The absence of informal sanctions"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "People comply with norms due to personal conviction, group identification, and:",
+  options: [
+    "Fear of penalty",
+    "Desire for negative deviance",
+    "The influence of primary incest",
+    "Codified laws only"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the departure from or violation of social norms called?",
+  options: [
+    "Conformity",
+    "Deviance",
+    "Folkway",
+    "Taboo"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "An individual who violates or departs from established social norms is called:",
+  options: [
+    "A conformist",
+    "A deviant",
+    "A traditionalist",
+    "A specialist"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "A deviant is classified as a sinner when he or she violates norms that have:",
+  options: [
+    "Religious connotations",
+    "Formal legal codifications",
+    "Economic trade elements",
+    "Strict constitutional protocols"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Fornication and abortion are examples of deviance where the deviant is seen as:",
+  options: [
+    "A criminal",
+    "A sinner",
+    "A positive deviant",
+    "A conformist"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "A deviant is considered a criminal if he or she violates which type of norms?",
+  options: [
+    "Informal folkways",
+    "Formal norms codified in the criminal or penal code",
+    "Customary rules of greeting",
+    "Traditional non-material beliefs"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Under the penal code of the Nigerian state, a deviant who commits stealing, kidnapping, or murder is seen as:",
+  options: [
+    "A sinner only",
+    "A criminal",
+    "A positive conformist",
+    "An informal deviant"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the act of exhibiting behavior that falls short of or fails to meet the normative expectations of society?",
+  options: [
+    "Positive deviance",
+    "Negative deviance",
+    "Primary conformity",
+    "Secondary social control"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "When behavior fails to meet the normative expectations of society, it is classified as:",
+  options: [
+    "Negative deviance",
+    "Over conformity",
+    "Internal control",
+    "Taboo behavior"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which of the following is listed as a ground for negative deviance?",
+  options: [
+    "Over conformity to norms",
+    "Rejection of norms, lack of awareness, and misinterpretation of the norms",
+    "Worthy character and learning",
+    "Strict adherence to religious practices"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Lack of awareness and misinterpretation of norms can lead to which of the following?",
+  options: [
+    "Positive deviance",
+    "Negative deviance",
+    "Conformist behavior",
+    "Internal social control"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is positive deviance described as an offshoot of?",
+  options: [
+    "Lack of awareness",
+    "Over conformity to norm",
+    "A complete rejection of rules",
+    "A primary deviant career"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Religious fanatics are given as an example of what sociological concept?",
+  options: [
+    "Primary deviance",
+    "Positive deviance",
+    "Negative deviance",
+    "Informal folkways"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Positive deviance can lead to imbalance and extremes of what?",
+  options: [
+    "Rejection",
+    "Perfection",
+    "Sanctions",
+    "Folkways"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Why can positive deviance be difficult to manage in a society?",
+  options: [
+    "It always involves violent criminal acts",
+    "It can be disruptive and leads to extremes of perfection",
+    "It lacks any social consequences",
+    "It is fully codified in the penal code"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which sociologist identified primary, secondary, and tertiary deviance?",
+  options: [
+    "Edwin Lemert",
+    "Sir Hugh Clifford",
+    "Otite and Ogionwo",
+    "Ademilokum"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Edwin Lemert is famous for identifying which three types of deviance?",
+  options: [
+    "Formal, informal, and legalized",
+    "Primary, secondary, and tertiary",
+    "Moral, ethical, and traditional",
+    "Religious, criminal, and positive"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What type of deviance has little effect on the individual's self-concept and provokes a slight reaction from others?",
+  options: [
+    "Primary deviance",
+    "Secondary deviance",
+    "Tertiary deviance",
+    "Positive deviance"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Primary deviance is characterized by provoking:",
+  options: [
+    "Extreme social isolation",
+    "A slight reaction from others",
+    "Immediate formal imprisonment",
+    "The beginning of a criminal career"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What happens when a girl's casual act of sex for money continues over time?",
+  options: [
+    "She transitions back to complete conformity",
+    "She develops a deviant self-concept and begins to see herself as a prostitute",
+    "The act is immediately pardoned by religious groups",
+    "It remains classified strictly as a folkway"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "A girl casually indulging in sex for money for the first time is given as an example of what?",
+  options: [
+    "Primary deviance",
+    "Secondary deviance",
+    "Positive deviance",
+    "A taboo"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What represents the beginning of a deviant career?",
+  options: [
+    "Primary deviance",
+    "Secondary deviance",
+    "Tertiary deviance",
+    "Conformist behavior"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "The secondary deviance is sociologically defined as the beginning of:",
+  options: [
+    "A deviant career",
+    "A positive conformist life",
+    "An academic career in music",
+    "Internal social control"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the process whereby society strives to promote conformity and discourage the violation of norms?",
+  options: [
+    "Social control",
+    "Secondary deviance",
+    "Negative deviance",
+    "Folkway customs"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Social control refers to mechanisms put in place to encourage conformity and discourage:",
+  options: [
+    "All religious practices",
+    "Violation of norms",
+    "The use of technology",
+    "Traditional family units"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are the two types of social control identified in the text?",
+  options: [
+    "Formal and legalized social control",
+    "Internal social control and external social control",
+    "Traditional and modern social control",
+    "Religious and political social control"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Social control is divided into which categories?",
+  options: [
+    "Prescriptive and proscriptive",
+    "Internal and external",
+    "Primary and secondary",
+    "Sacred and profane"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What does internal social control entail?",
+  options: [
+    "Not doing something because the behavior is wrong and doing something because it is right",
+    "Imposing state laws through physical force and prisons",
+    "Scolding children through ironic laughter and spanking",
+    "Rewarding citizens with physical gifts and smile"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "When an individual refrains from an act simply because they believe the behavior is wrong, they are exhibiting:",
+  options: [
+    "Internal social control",
+    "External social control",
+    "Negative deviance",
+    "Folkway behavior"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are rewards or punishments that encourage conformity called?",
+  options: [
+    "Social sanctions",
+    "Folkways",
+    "Taboos",
+    "Primary deviances"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Social sanctions are designed to encourage conformity through:",
+  options: [
+    "A complete elimination of social values",
+    "Rewards or punishment",
+    "Purely written military codes",
+    "Strictly financial and tax changes"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In Nigeria, which of the following is a common form of informal social sanction?",
+  options: [
+    "Scolding, spanking, ironic laughter, beating",
+    "The award of academic university degrees",
+    "The creation of regional legislative councils",
+    "Amalgamation of protectorates"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Spanking, scolding, and ironic laughter in Nigeria are examples of:",
+  options: [
+    "Primary deviances",
+    "Social sanctions",
+    "Taboos",
+    "Prescriptive norms"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are positive sanctions mainly composed of?",
+  options: [
+    "Rewards such as a smile, encomium, or a gift",
+    "Punishments like spanking or scolding",
+    "Formal laws codified in the penal code",
+    "Acts of positive over conformity"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "A smile, encomium, or a gift given to encourage conformity is called a:",
+  options: [
+    "Positive sanction",
+    "Negative sanction",
+    "Taboo reward",
+    "Formal law"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is a unified system of beliefs and practices based on a sacred realm that unites believers into a single moral community?",
+  options: [
+    "Religion",
+    "Folkway",
+    "Values",
+    "Norms"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Religion guides human behavior, gives meaning to life, and unites believers into a single:",
+  options: [
+    "Moral community",
+    "Political party",
+    "Regional council",
+    "Ethnic formation"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "How are things that are set apart and inspire reverence defined in sociology?",
+  options: [
+    "Sacred",
+    "Profane",
+    "Animism",
+    "Theism"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Sacred things are set apart because they inspire:",
+  options: [
+    "Reverence",
+    "Disgust",
+    "Ironic laughter",
+    "Rejection"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What Latin word does 'profane' derive from, meaning 'outside the temple'?",
+  options: [
+    "Profanus",
+    "Anima",
+    "Orisa",
+    "Abiku"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Profane things represent which aspect of everyday life?",
+  options: [
+    "Ordinary or secular things of everyday life",
+    "Sacred items kept inside the temple",
+    "High moral taboos and incest",
+    "Monotheistic religious rituals"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Animism is derived from the Latin word 'anima' which means:",
+  options: [
+    "Outside the temple",
+    "Soul or spirit",
+    "Nature forces",
+    "Emissary of God"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What Latin root gives rise to the term 'animism'?",
+  options: [
+    "Anima",
+    "Profanus",
+    "Orisa",
+    "Abiku"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Animism is defined as the belief in:",
+  options: [
+    "Spirits",
+    "Multiple formal laws",
+    "Natural disasters",
+    "A single monotheistic deity"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which of the following is considered the earliest form of religion?",
+  options: [
+    "Monotheism",
+    "Animism",
+    "Polytheism",
+    "Theism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the belief that nature or the natural world possesses forces or supernatural power?",
+  options: [
+    "Naturalism",
+    "Animism",
+    "Totemism",
+    "Monotheism"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Naturalism is a belief system that attributes supernatural forces to:",
+  options: [
+    "Nature or the natural world",
+    "Deified human ancestors",
+    "Specific local animals only",
+    "The Supreme God only"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the belief that animals, plants, or geographical features possess spiritual forces?",
+  options: [
+    "Naturalism",
+    "Totemism",
+    "Polytheism",
+    "Animism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In totemism, which of the following is believed to possess spiritual forces?",
+  options: [
+    "Written penal codes",
+    "Animals, plants, or geographical features which are part of nature",
+    "Foreign missionaries only",
+    "The colonial administrators"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the term for the belief in gods?",
+  options: [
+    "Naturalism",
+    "Theism",
+    "Animism",
+    "Totemism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Theism is defined as the belief in:",
+  options: [
+    "Spirits of trees only",
+    "Gods",
+    "Traditional taboos",
+    "Human ancestors only"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Theism can be broadly divided into which two categories?",
+  options: [
+    "Sacred and profane",
+    "Polytheism and monotheism",
+    "Internal and external",
+    "Animism and naturalism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Polytheism and monotheism are divisions of which concept?",
+  options: [
+    "Naturalism",
+    "Theism",
+    "Animism",
+    "Totemism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the belief in multiple gods called?",
+  options: [
+    "Monotheism",
+    "Polytheism",
+    "Animism",
+    "Naturalism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Monotheism is defined as the belief in:",
+  options: [
+    "Multiple gods",
+    "A single god or deity",
+    "Spiritual forces in trees",
+    "A deified ancestor only"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which belief system is considered the latest in the evolution of belief systems?",
+  options: [
+    "Animism",
+    "Monotheism",
+    "Polytheism",
+    "Naturalism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Monotheism holds what place in the evolutionary history of belief systems?",
+  options: [
+    "The earliest",
+    "The latest",
+    "An intermediate stage",
+    "It is completely unevolved"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "The multiple belief systems in Nigeria are subsumed into which two categories?",
+  options: [
+    "Monotheistic and polytheistic",
+    "Indigenous belief system and foreign belief system and practices",
+    "Christian and Islamic",
+    "Animistic and naturalistic"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Indigenous and foreign belief systems are the two main categories of what in Nigeria?",
+  options: [
+    "The political system",
+    "The economic system",
+    "Multiple belief systems",
+    "The judicial system"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which system is characterized by monotheism in Nigeria?",
+  options: [
+    "Foreign belief system",
+    "Indigenous belief system",
+    "Traditional animist system",
+    "Primordial divinity system"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "The Indigenous belief system in Nigeria is characterized by:",
+  options: [
+    "Monotheism",
+    "Polytheism",
+    "Total atheism",
+    "A complete absence of divinities"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are the main foreign belief systems and practices in Nigeria?",
+  options: [
+    "Judaism and Hinduism",
+    "Christianity and Islam",
+    "Animism and Naturalism",
+    "Buddhism and Shintoism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Christianity and Islam are classified in Nigeria as:",
+  options: [
+    "Indigenous belief systems",
+    "Foreign belief systems and practices",
+    "Primordial systems",
+    "Secular non-material values"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "According to Ademilokum (1990), what percentage of Nigerians are Muslims?",
+  options: [
+    "40 percent",
+    "50 percent",
+    "4 percent",
+    "6 percent"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "According to Ademilokum (1990), Christians constitute what percentage of the Nigerian population?",
+  options: [
+    "40 percent",
+    "50 percent",
+    "4 percent",
+    "6 percent"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What percentage is attributed to traditional religion in Ademilokum's (1990) statistics?",
+  options: [
+    "40 percent",
+    "50 percent",
+    "4 percent",
+    "6 percent"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Christianity penetrated Nigeria with the efforts of missionaries through which region?",
+  options: [
+    "Northern region",
+    "Western region",
+    "Eastern region",
+    "Mid-western region"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Which ethnic nationality was highly populated in the Eastern region where Christianity penetrated?",
+  options: [
+    "Yoruba",
+    "Hausa",
+    "Igbo",
+    "Ijaw"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Islam is more pervasive in which regions of Nigeria?",
+  options: [
+    "Eastern and Southern Nigeria",
+    "Western and Northern Nigeria",
+    "Delta and Mid-western Nigeria",
+    "Eastern region exclusively"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In Western and Northern Nigeria, which foreign religion is more pervasive?",
+  options: [
+    "Christianity",
+    "Islam",
+    "Judaism",
+    "Hinduism"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "As early as which century was Islam introduced to Nigeria?",
+  options: [
+    "Eleventh century",
+    "Fourteenth century",
+    "Nineteenth century",
+    "Twentieth century"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Islam was introduced to Nigeria as early as the:",
+  options: [
+    "Eleventh century",
+    "First century",
+    "Eighteenth century",
+    "Nineteenth century"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In Ijaw societies, what is God called?",
+  options: [
+    "Orisa",
+    "Tamara",
+    "Alushi",
+    "Tamuno"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What does the name 'Tamara' mean in Ijaw societies?",
+  options: [
+    "The woman that creates",
+    "The god of the rivers",
+    "The deified ancestor",
+    "The sacred temple"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In traditional beliefs, how are divinities viewed in relation to God?",
+  options: [
+    "As absolute competitors of God",
+    "As emissaries, mediators, and ambassadors of God",
+    "As non-spiritual historical figures only",
+    "As profane objects of everyday life"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Divinities serve as ambassadors, mediators, and ________ of God.",
+  options: [
+    "emissaries",
+    "relics",
+    "opponents",
+    "folkways"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What are divinities called in Yoruba traditional religion?",
+  options: [
+    "Orisa",
+    "Alushi ndimmuo",
+    "Tamara",
+    "Abiku"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What name is given to divinities in the Igbo traditional belief system?",
+  options: [
+    "Orisa",
+    "Alushi ndimmuo",
+    "Tamara",
+    "Ogbanje"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "How many groups of divinities are there in Nigerian societies?",
+  options: [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Divinities in Nigerian societies include primordial divinities, deified ancestors, and divinities identified with:",
+  options: [
+    "Hills, mountains, and a host of others",
+    "Written constitutional laws",
+    "The foreign monotheistic text",
+    "Modern digital media broadcast"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "In Nigeria, beliefs in spirits are pervasive and spirits are said to dwell in trees, rocks, mountains, relics, and:",
+  options: [
+    "Rivers",
+    "Written laws",
+    "The local courts",
+    "Political structures"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Beliefs in spirits are pervasive, with spirits said to dwell in which of the following?",
+  options: [
+    "Trees, rocks, rivers, mountains, and other relics",
+    "Codified penal codes of the state",
+    "The physical buildings of tertiary institutions",
+    "Only inside formal foreign temples"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What is the Yoruba term for the group of born-to-die spirits?",
+  options: [
+    "Abiku",
+    "Ogbanje",
+    "Orisa",
+    "Alushi"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Born-to-die spirits are referred to as 'Ogbanje' in which language?",
+  options: [
+    "Yoruba",
+    "Igbo",
+    "Ijaw",
+    "Hausa"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "What will the failure of any society to follow positive norms and values bring about?",
+  options: [
+    "Rapid socio-economic advancement",
+    "Retrogression in its development",
+    "The complete elimination of crime",
+    "Strict international diplomatic status"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 5,
+  question: "Retrogression in development is caused by a society's failure to follow its identified:",
+  options: [
+    "Positive norms and values",
+    "Foreign religious systems only",
+    "Written criminal codes exclusively",
+    "Modern television broadcasting"
+  ],
+  answer: 0
+    }
   ]
