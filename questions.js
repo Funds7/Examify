@@ -9441,4 +9441,701 @@ const QUESTIONS = [
     "Induced"
   ],
   answer: 1
-  }
+  },
+  {
+  "course": "gst102",
+  "chapter": 5,
+  "question": "According to Owolabi (2002), philosophy is best described as the:",
+  "options": [
+    "empirical study of historical artifacts",
+    "critical reflection of human beings on the problem of their existence and essence",
+    "unconscious adaptation of communal beliefs",
+    "logical proof of scientific mathematics"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which philosopher defined philosophy in 2002 as the critical reflection of human beings on the problem of their existence and essence?",
+  "options": [
+    "Kwasi Wiredu",
+    "Odera Oruka",
+    "Paulin Hountondji",
+    "Owolabi"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "African philosophy is defined as the activities of African people in which of the following areas?",
+  "options": [
+    "The art of oral recitation",
+    "The art of physical craftsmanship",
+    "The art of philosophizing",
+    "The art of governance"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The activities of African people in the art of philosophizing is defined as:",
+  "options": [
+    "African philosophy",
+    "Ethno-philosophy",
+    "Nationalist ideology",
+    "Philosophic sagacity"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "According to Point 3, Africa philosophy involves the process of critical thinking embarked upon by African people to solve their:",
+  "options": [
+    "political struggles",
+    "proverbs and folktales",
+    "economic instability",
+    "linguistic barriers"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "What process do African people embark upon to solve their proverbs and folktales, according to the notes?",
+  "options": [
+    "Critical thinking",
+    "Scientific experimentation",
+    "Mythical storytelling",
+    "Historical documentation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Traditional African thought is primarily what later came to be called:",
+  "options": [
+    "folk philosophy or ethno philosophy",
+    "professional philosophy",
+    "philosophic sagacity",
+    "nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Folk philosophy or ethno philosophy is another term for what was originally known as:",
+  "options": [
+    "Traditional African thought",
+    "Modern academic philosophy",
+    "Western scientific paradigm",
+    "Political ideology"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "To what work is the genesis of the African philosophy debate traced?",
+  "options": [
+    "Paulin Hountondji's 'African Philosophy'",
+    "Placid Temple's 'Bantu Philosophy'",
+    "Kwame Nkrumah's 'Consciencism'",
+    "John Mbiti's 'African Religions'"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The genesis of the African philosophy debate followed the reactions to the work of which author?",
+  "options": [
+    "Placid Temple",
+    "Marcel Griaule",
+    "Alexis Kagame",
+    "Odera Oruka"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The publication of 'Bantu philosophy' brought to the consciousness of scholars that:",
+  "options": [
+    "African thought was entirely irrational",
+    "there can be a body of literature that can be categorized as African philosophy",
+    "only written systems can be philosophical",
+    "there is no place for traditional logic in Africa"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which book's publication served to make scholars aware of the possibility of a body of literature categorized as African philosophy?",
+  "options": [
+    "'Consciencism'",
+    "'Bantu philosophy'",
+    "'Sage Philosophy'",
+    "'African Religions'"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Many African writers felt that some Europeans' perception of Africa had been an outright:",
+  "options": [
+    "condemnation of the continent especially in their definition",
+    "celebration of its structural development",
+    "documentation of its rational systems",
+    "affirmation of its mathematical contributions"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "According to the notes, where did the outright condemnation of Africa by some Europeans manifest most clearly?",
+  "options": [
+    "In their definition of the continent",
+    "In their trade policies",
+    "In their archaeological findings",
+    "In their linguistic translations"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which of the following figures belong to the school of thought that condemns Africa as a continent?",
+  "options": [
+    "Placide Tempels and Marcel Griaule",
+    "Hegel and Lucien Bruhl",
+    "Paulin Hountondji and Kwasi Wiredu",
+    "Mbiti and Bolaji"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Hegel and Lucien Bruhl are recognized in the text as thinkers who:",
+  "options": [
+    "defended African rationality",
+    "condemned Africa as a continent",
+    "promoted African nationalist ideas",
+    "advocated for the study of sage philosophy"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Who complained that a significant number of African writers were Eurocentric in orientation?",
+  "options": [
+    "Chinweizu and Madubuike",
+    "Oruka and Bello",
+    "Wiredu and Gyekye",
+    "Nkrumah and Nyerere"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "According to Chinweizu and Madubuike, Eurocentric African writers habitually viewed African literature through:",
+  "options": [
+    "traditional lenses",
+    "Western lenses",
+    "nationalist lenses",
+    "empirical lenses"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which of the following represents the four trends in African philosophy outlined by the Kenyan philosopher?",
+  "options": [
+    "Ethno-philosophy, Philosophic sagacity, Professional/philosophy, Nationalist ideology",
+    "Existentialism, Rationalism, Empiricism, Pragmatism",
+    "Traditionalism, Orality, Literature, Mythology",
+    "Communalism, Sage philosophy, Academic philosophy, Eurocentricism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "How many trends in African philosophy were identified by the Kenyan philosopher?",
+  "options": [
+    "Three",
+    "Four",
+    "Five",
+    "Two"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The first trend in the discourse on the existence of African philosophy is:",
+  "options": [
+    "Ethno philosophy",
+    "Philosophic sagacity",
+    "Professional philosophy",
+    "Nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "In the study of the trends of African philosophy, which discourse trend is identified first?",
+  "options": [
+    "Philosophic sagacity",
+    "Ethno philosophy",
+    "Professional philosophy",
+    "Nationalist ideology"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "What does Ethno philosophy primarily involve?",
+  "options": [
+    "the recording of the beliefs found in African cultures",
+    "the logical critique of Western ideas",
+    "the development of individual systems of logic",
+    "the political mobilization of the masses"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The recording of beliefs found in African cultures is the central method of:",
+  "options": [
+    "Ethno philosophy",
+    "Professional philosophy",
+    "Philosophic sagacity",
+    "Nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which uniquely African worldview treats African philosophy as consisting of shared beliefs, values, and assumptions implicit in culture?",
+  "options": [
+    "Professional philosophy",
+    "Communal philosophy",
+    "Philosophic sagacity",
+    "Nationalist ideology"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Communal philosophy is considered uniquely African because its shared beliefs, values, categories, and assumptions are implicit in African:",
+  "options": [
+    "academic text books",
+    "language, practices, and beliefs of African culture",
+    "technological blueprints",
+    "Western educational curriculum"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The term 'ethnic philosophy' was used to describe the work of which late Beninois philosopher?",
+  "options": [
+    "Paulin Houtondji",
+    "Odera Oruka",
+    "John Mbiti",
+    "Alexis Kagame"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "From which country was the late philosopher Paulin Houtondji?",
+  "options": [
+    "Nigeria",
+    "Ghana",
+    "Benin (Beninois)",
+    "Kenya"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "For what did Houtondji criticize Placide Tempel's 'Bantu philosophy'?",
+  "options": [
+    "For casting African thought as being an anonymous system of thought",
+    "For asserting that Africans have no cultural values",
+    "For publishing the book only in Europe",
+    "For ignoring the role of African theologians"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Whose magnum opus 'Bantu philosophy' was criticized by Houtondji for presenting African thought as anonymous?",
+  "options": [
+    "Alexis Kagame",
+    "Marcel Griaule",
+    "John Mbiti",
+    "Placide Tempel"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which of the following theologians are mentioned as debunking the assertion that Africans are incapable of rational reflection?",
+  "options": [
+    "J.S Mbiti, and Bolaji",
+    "Hegel and Lucien Bruhl",
+    "Chinweizu and Madubuike",
+    "Oruka and Bello"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Marcel Griaule and Alexis Kagame helped debunk ethnocentric European assertions in their capacity as:",
+  "options": [
+    "Politicians",
+    "Anthropologists",
+    "Theologians",
+    "Statesmen"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "One reason why scholars have adduced an interest in African thought is to make the African mentality or cultural matrix comprehensible to:",
+  "options": [
+    "the Western mind",
+    "the Eastern mind",
+    "the local political leaders",
+    "the scientific research labs"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Scholars who study African thought seek to make the African cultural matrix or mentality comprehensible to the Western mind. This is known as:",
+  "options": [
+    "one reason they have adduced interest in African thought",
+    "the ultimate goal of Professional philosophy",
+    "the definition of Ethno philosophy",
+    "a form of Eurocentric orientation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Who is described in the notes as one of the greatest critics of Ethno philosophy?",
+  "options": [
+    "Paulin Hountondji",
+    "Placide Tempel",
+    "Marcel Griaule",
+    "Alexis Kagame"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Paulin Hountondji earned renown as one of the greatest critics of which trend?",
+  "options": [
+    "Professional philosophy",
+    "Philosophic sagacity",
+    "Ethno philosophy",
+    "Nationalist ideology"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Paulin Hountondji argued that ethno philosophy presents:",
+  "options": [
+    "the loose and debased form of philosophy",
+    "the highly structured form of philosophy",
+    "the ultimate peak of African logic",
+    "the only authentic way to study culture"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "According to Paulin Hountondji, what represents the 'loose and debased form of philosophy'?",
+  "options": [
+    "Ethno philosophy",
+    "Professional philosophy",
+    "Philosophic sagacity",
+    "Nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "What is the name commonly given to the body of thought reduced by persons considered wise in African communities?",
+  "options": [
+    "Professional philosophy",
+    "Philosophic sagacity or 'African Sage philosophy'",
+    "Nationalist ideology",
+    "Ethno philosophy"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Philosophic sagacity is alternatively referred to as:",
+  "options": [
+    "African Sage philosophy",
+    "Folk philosophy",
+    "Ethnic philosophy",
+    "Nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "One negative claim used to denigrate African thought asserts that philosophy can only be:",
+  "options": [
+    "an oral tradition",
+    "a written enterprise",
+    "a religious system",
+    "a political structure"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "According to a denigrating claim, a tradition that lacks what skill is deemed incapable of philosophy?",
+  "options": [
+    "Writing skill",
+    "Linguistic skill",
+    "Agricultural skill",
+    "Military skill"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "For Oruka and Bello, rationality is not an exclusive prerogative of the Western mind, but rather:",
+  "options": [
+    "one of man's essential attributes",
+    "a learned academic discipline",
+    "a property of written cultures",
+    "an illusion of colonial education"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which scholars asserted that rationality is one of man's essential attributes and not an exclusive prerogative of the Western mind?",
+  "options": [
+    "Oruka and Bello",
+    "Hegel and Lucien Bruhl",
+    "Chinweizu and Madubuike",
+    "Mbiti and Bolaji"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Professional philosophy holds the view that philosophy is:",
+  "options": [
+    "a particular way of thinking, reflecting, and reasoning",
+    "the collective unconscious beliefs of a community",
+    "a set of traditional myths and oral proverbs",
+    "accidental political ideologies designed by statesmen"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which philosophical trend views philosophy as a particular way of thinking, reflecting, and reasoning?",
+  "options": [
+    "Professional philosophy",
+    "Ethno philosophy",
+    "Philosophic sagacity",
+    "Nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "For professional philosophers like Wiredu, Bodurin Hountondji, and Kwame Gyekye, African philosophy is:",
+  "options": [
+    "the collective subconscious belief system of tribal communities",
+    "the philosophy done by African philosophers in areas like logic, metaphysics, ethics, etc.",
+    "the speeches and documents created by early African presidents",
+    "traditional proverbs and folktales"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which group of thinkers (including Wiredu, Bodurin Hountondji, Kwame Gyekye, Odera Oruka, and Benjamin Ewuku Oguah) define African philosophy as philosophy done by African philosophers?",
+  "options": [
+    "Professional philosophers",
+    "Ethno-philosophers",
+    "Nationalist ideologists",
+    "Traditional sages"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Why do some posit that African traditional thought cannot be categorized as philosophical?",
+  "options": [
+    "Because it had not been well documented due to the absence of literacy culture",
+    "Because African languages lack logical concepts",
+    "Because it is completely identical to Western philosophy",
+    "Because traditional societies did not have wise individuals"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The claim that traditional African thought is not philosophical is often blamed on the absence of what in traditional African society?",
+  "options": [
+    "Literacy culture",
+    "Political structures",
+    "Religious belief",
+    "Linguistic development"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The Nationalist Ideological Philosophers trend is primarily peopled by:",
+  "options": [
+    "members of the first generation of statesmen and politicians who sought",
+    "academic university professors of logic",
+    "wise traditional elders living in rural communities",
+    "European anthropologists and theologians"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which trend in African philosophy is peopled by the first generation of statesmen and politicians?",
+  "options": [
+    "Nationalist Ideological Philosophers",
+    "Professional philosophers",
+    "Ethno-philosophers",
+    "Philosophic sages"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The Nationalist Ideological Philosophers include which of the following figures?",
+  "options": [
+    "Nkrumah, Julius Nyerere, Leopold Senghor, Sekon Toure, Obafemi Awolowo, Nnamdi Azikiwe",
+    "Paulin Hountondji, Kwasi Wiredu, Kwame Gyekye",
+    "John Mbiti, Bolaji Idowu, Alexis Kagame",
+    "Hegel, Lucien Bruhl, Placide Tempels"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Kwame Nkrumah, Julius Nyerere, Leopold Senghor, and Obafemi Awolowo belong to which trend of African philosophy?",
+  "options": [
+    "Nationalist Ideological Philosophers",
+    "Professional philosophers",
+    "Philosophic sagacity",
+    "Ethno-philosophers"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The incursion of Nationalist Ideological Philosophers into philosophy was described as:",
+  "options": [
+    "purely accidental",
+    "highly academic",
+    "strictly professional",
+    "commercially driven"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Whose incursion into philosophy was described as 'purely accidental'?",
+  "options": [
+    "The Nationalist Ideological Philosophers'",
+    "The Professional philosophers'",
+    "The Ethno-philosophers'",
+    "The Philosophic Sages'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "The major criticism against the Nationalist Ideological orientation is that:",
+  "options": [
+    "the corpus of traditional ideas, which they seek to employ are completely lost to history",
+    "it is highly Eurocentric and views things through Western lenses",
+    "it requires high academic qualifications to understand",
+    "it ignores the political and historical struggles of African states"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 5,
+  "question": "Which orientation is heavily criticized on the grounds that the corpus of traditional ideas they seek to employ are completely lost to history?",
+  "options": [
+    "Nationalist Ideological orientation",
+    "Professional philosophy",
+    "Philosophic sagacity",
+    "Ethno-philosophy"
+  ],
+  "answer": 0
+}
+]
