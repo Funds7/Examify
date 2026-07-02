@@ -29614,8 +29614,8 @@ const QUESTIONS = [
     "Modern television broadcasting"
   ],
   answer: 0
-    },
-  {
+},
+{
   course: "gst111",
   chapter: 6,
   question: "What does the word 'Indigenous' refer to in the context of the notes?",
@@ -30215,7 +30215,7 @@ const QUESTIONS = [
   ],
   answer: 1
 },
-  {
+ {
   course: "gst111",
   chapter: 7,
   question: "How does Philip Kotler define marketing?",
