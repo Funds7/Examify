@@ -30273,7 +30273,7 @@ const QUESTIONS = [
     "An ancestral mask"
   ],
   answer: 0
-    },
+  },
   {
   course: "gst11",
   chapter: 7,
