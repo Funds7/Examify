@@ -29614,5 +29614,3461 @@ const QUESTIONS = [
     "Modern television broadcasting"
   ],
   answer: 0
-    }
+    },
+  {
+  course: "gst111",
+  chapter: 6,
+  question: "What does the word 'Indigenous' refer to in the context of the notes?",
+  options: [
+    "Anything that is native to a particular geographical region in the world",
+    "Anything imported from European countries during colonialism",
+    "A structured system of military governance",
+    "A written code of constitutional laws"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Anything that is native to a particular geographical region in the world is termed:",
+  options: [
+    "Indigenous",
+    "Foreign",
+    "Metaphysical",
+    "Pathological"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "How is 'Indigenous religion' defined in the text?",
+  options: [
+    "Religions introduced by European missionaries during the 19th century",
+    "Religions that are native to particular people living in particular geographical regions of the world",
+    "Monotheistic beliefs that originated strictly in the Middle East",
+    "A unified system of secular political ideologies"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Religions that are native to particular people living in particular geographical regions are called:",
+  options: [
+    "Foreign religions",
+    "Indigenous religions",
+    "Missionary religions",
+    "Necessary religions"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "According to Thomson Gale, which of the following is a characteristic of indigenous religion?",
+  options: [
+    "Absence of sacred texts",
+    "A highly codified and written theology",
+    "Strict missionary expansion campaigns",
+    "A global, non-geographical identity"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Bio-region identity, lack of formal theologies, and non-missionary status are characteristics of indigenous religions identified by:",
+  options: [
+    "Thomson Gale",
+    "St. Augustine",
+    "Leibniz",
+    "Adegbite"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Who described evil as 'privatio boni', meaning the absence of goodness?",
+  options: [
+    "Leibniz",
+    "St. Augustine",
+    "Thomson Gale",
+    "Herbert Macaulay"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "According to St. Augustine, what is 'privatio boni'?",
+  options: [
+    "The physical existence of a dark, supernatural deity",
+    "The absence of goodness that prevails when anything has defected from its proper mode of being",
+    "A punishment or chastisement directly sent from God",
+    "A moral act of deviance committed by the primary criminal"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "In the biblical sense, how is evil often seen?",
+  options: [
+    "As a punishment or chastisement sent from God",
+    "As a purely metaphysical limitation of physical matter",
+    "As an offshoot of over conformity to positive norms",
+    "As the absence of any spiritual entities"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Punishment or chastisement sent from God is the definition of evil in which sense?",
+  options: [
+    "Metaphysical sense",
+    "Pathological sense",
+    "Biblical sense",
+    "Urhobo traditional sense"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "How many types of evil are identified in the notes?",
+  options: [
+    "Three",
+    "Four",
+    "Five",
+    "Seven"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Which of the following represents the correct five types of evil identified in the text?",
+  options: [
+    "Moral, Natural, Metaphysical, Pathological, and Necessary",
+    "Social, Political, Economic, Cultural, and Religious",
+    "Primary, Secondary, Tertiary, Quaternary, and Positive",
+    "Indigenous, Foreign, Primordial, Deified, and Ancestral"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What type of evils emanate from human beings through their actions and reactions, such as killing, stealing, and lying?",
+  options: [
+    "Moral evil",
+    "Natural evil",
+    "Metaphysical evil",
+    "Necessary evil"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Killing, stealing, lying, and cheating are categorized under which type of evil?",
+  options: [
+    "Natural evil",
+    "Pathological evil",
+    "Moral evil",
+    "Metaphysical evil"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What is the theological name given to moral evil?",
+  options: [
+    "Sin",
+    "Taboo",
+    "Crime",
+    "Mores"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Sin is defined in theology as:",
+  options: [
+    "Moral evil",
+    "Necessary evil",
+    "Natural occurrence",
+    "Finitude of created order"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What type of evil exists in human society as a result of natural occurrences like earthquakes, tornadoes, and floods?",
+  options: [
+    "Moral evil",
+    "Natural evil",
+    "Metaphysical evil",
+    "Necessary evil"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Earthquakes, floods, tsunamis, and droughts are typical examples of:",
+  options: [
+    "Moral evil",
+    "Natural evil",
+    "Pathological evil",
+    "Necessary evil"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Who was the first to use the term 'Metaphysical evil'?",
+  options: [
+    "St. Augustine",
+    "Leibniz",
+    "Thomson Gale",
+    "Adegbite"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What does metaphysical evil refer to?",
+  options: [
+    "Evils that emanate from human actions",
+    "The basic fact of finitude and limitation within the created order",
+    "Diseases and their resultant suffering and death",
+    "Pains contemplated to prevent greater evils"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What type of evil relates directly to diseases and their resultant effects such as suffering and death?",
+  options: [
+    "Moral evil",
+    "Natural evil",
+    "Pathological evil",
+    "Necessary evil"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Diseases, suffering, and death are categorized under which type of evil?",
+  options: [
+    "Necessary evil",
+    "Moral evil",
+    "Pathological evil",
+    "Metaphysical evil"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What type of evil is contemplated by humans to prevent greater evils, such as euthanasia or suicide?",
+  options: [
+    "Moral evil",
+    "Natural evil",
+    "Metaphysical evil",
+    "Necessary evil"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Necessary evil is a term used for kinds of evil contemplated by humans to:",
+  options: [
+    "Punish people for their moral sins",
+    "Prevent greater evils",
+    "Celebrate natural occurrences",
+    "Establish the limits of physical creation"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "From the general African worldview, how is the phenomenon of evil portrayed?",
+  options: [
+    "Anything injurious, painful, hurtful, and calamitous",
+    "Strictly as a written code of behavioral laws",
+    "The absence of any spiritual force in nature",
+    "An excess of positive over conformity"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Anything injurious, painful, hurtful, and calamitous represents evil from the worldview of which group?",
+  options: [
+    "The British colonial officers",
+    "Africans generally",
+    "Missionary teachers in the North",
+    "The 21st-century broadcast journalists"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Where are the Urhobo people located?",
+  options: [
+    "In the southwestern portion of Nigeria",
+    "In the southern portion of the Benin lowland in present Delta State",
+    "In the northern region populated by the Hausa",
+    "Along the eastern border of the Niger and Benue rivers"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "The southern portion of the Benin lowland in Delta State is the location of which ethnic group?",
+  options: [
+    "The Yoruba",
+    "The Igbo",
+    "The Urhobo",
+    "The Hausa"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Which ethnic group is the largest single ethnic group in Delta State?",
+  options: [
+    "The Urhobo",
+    "The Igbo",
+    "The Yoruba",
+    "The Ijaw"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "According to the notes, the largest single ethnic group in Delta State is:",
+  options: [
+    "The Ijaw",
+    "The Igbo",
+    "The Urhobo",
+    "The Itsekiri"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What are the core elements that constitute the Urhobo Indigenous religion?",
+  options: [
+    "Monotheistic Christianity and European hymns",
+    "Worship of Oghene, Edjo and Erhan, and ancestral veneration",
+    "Islamic prayers, fasting, and pilgrimage",
+    "The use of the Bible and written catechisms"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Among the Urhobo, Oghene represents which core religious element?",
+  options: [
+    "The primordial divinities of the forest",
+    "The Supreme deity or God",
+    "The deified ancestral leaders",
+    "The personal god of each individual"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Among the Urhobo, committing suicide is considered what kind of death?",
+  options: [
+    "An honorable and necessary death",
+    "An evil death",
+    "A natural death",
+    "A standard pathological death"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Among the Urhobo, how is a person who commits suicide treated?",
+  options: [
+    "They are buried with great honor in the ancestral home",
+    "They are considered property of the gods and buried in the evil forest",
+    "They are cremated and their ashes kept in the local shrine",
+    "They are given a standard monotheistic church burial"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Where are the Yoruba people located?",
+  options: [
+    "Mainly in southwestern Nigeria, adjoining parts of Benin republic, and parts of West Africa",
+    "In the southern portion of the Benin lowland in Delta State",
+    "Strictly in the northern province around Kaduna",
+    "In the eastern region populated by the Igbo ethnic national"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Southwestern Nigeria and adjoining parts of the Republic of Benin are populated by which group?",
+  options: [
+    "The Urhobo people",
+    "The Yoruba people",
+    "The Igbo people",
+    "The Ijaw people"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "In the Yoruba context, evil is understood as originating from or associated with:",
+  options: [
+    "The Supreme God (Olodumare) directly",
+    "Spiritual beings other than God",
+    "Only from physical and material human technology",
+    "A complete absence of any spiritual force in creation"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "True or False: In the Yoruba context, evil is believed to originate directly from the Supreme God.",
+  options: [
+    "True, Olodumare is the sole author of evil",
+    "False, it is understood as originating from or associated with spiritual beings other than God",
+    "True, Olodumare causes evil as physical punishment",
+    "False, the Yoruba believe there is no such concept as evil"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "In Yoruba cosmology, what is the name of the various supernatural forces from which evil is believed to emanate?",
+  options: [
+    "The Ajogun",
+    "The Orisa",
+    "The Alushi",
+    "The Tamara"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "The 'Ajogun' in Yoruba cosmology refer to:",
+  options: [
+    "The primordial messengers of Olodumare",
+    "Various supernatural forces from which evil is believed to emanate",
+    "The deified ancestors of the southwestern region",
+    "The seven core values of the national orientation"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "The Yoruba believe that nonmoral evils like earthquakes, tornadoes, and floods are the consequences of what?",
+  options: [
+    "Direct technical failure of human machines",
+    "Human moral evil",
+    "An act of positive deviance by religious fanatics",
+    "The primordial creation plan of Esu"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "According to the Yoruba, human moral evil has the consequence of causing:",
+  options: [
+    "Nonmoral evil like earthquakes, tornadoes, and floods",
+    "An increase in ancestral veneration",
+    "The automatic transition of deviance to sin",
+    "The physical disappearance of the 'Ajogun'"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Which primordial divinity in Yoruba cosmology is believed to perpetrate both good and evil?",
+  options: [
+    "Esu",
+    "Orisa",
+    "Olodumare",
+    "Tamara"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "In Yoruba cosmology, Esu is recognized as a primordial divinity who:",
+  options: [
+    "Perpetrates both good and evil",
+    "Creates only good things for Olodumare",
+    "Is exclusively responsible for natural floods",
+    "Never interacts with human beings"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "In Yoruba belief, who acts as the special ambassador or inspector general who routinely reports to Olodumare?",
+  options: [
+    "Esu",
+    "Ajogun",
+    "Orisa",
+    "Tamara"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "What is Esu's routine reporting duty to the supreme God (Olodumare) based on?",
+  options: [
+    "His role as special ambassador or inspector general reporting on divinities and humans",
+    "His position as the sole creator of the universe",
+    "His status as the leader of the deified ancestors",
+    "His control over the non-material natural occurrences"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Who or what is the focal point of Igbo religion?",
+  options: [
+    "Chineke or Chukwu",
+    "Alushi ndimmuo",
+    "Abiku",
+    "Ogbanje"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Chineke or Chukwu serves as the focal point of which religion?",
+  options: [
+    "Yoruba religion",
+    "Urhobo religion",
+    "Igbo religion",
+    "Ijaw religion"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "Among the Igbo, evil is believed to be a product of:",
+  options: [
+    "One's chi (personal god)",
+    "Olodumare directly",
+    "The primordial Esu",
+    "The 'Ajogun' forces exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 6,
+  question: "One's 'chi' in Igbo religion is defined as:",
+  options: [
+    "A deified ancestor",
+    "A personal god",
+    "A primordial divinity",
+    "The supreme deity"
+  ],
+  answer: 1
+},
+  {
+  course: "gst111",
+  chapter: 7,
+  question: "How does Philip Kotler define marketing?",
+  options: [
+    "A social managerial process by which individuals and groups obtain what they need and want through creating, offering, and exchanging products of value",
+    "A purely financial operation designed to reduce the taxes a company pays",
+    "A system of military recruitment and routine training in the state",
+    "The physical movement of cargo and agricultural products across borders"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Who is acknowledged as the guru of marketing in the provided notes?",
+  options: [
+    "Professor James Culliton",
+    "Sir Hugh Clifford",
+    "Philip Kotler",
+    "Geld"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "According to Geld (2007), what does marketing involve?",
+  options: [
+    "Getting a product or service into the market, promoting it, influencing behavior, and encouraging sales",
+    "Strictly establishing regional legislative councils and political policies",
+    "Providing free mission schools and academic music scholarships",
+    "Determining the sovereign boundaries of different ethnic groups"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Which scholar (2007) defines marketing as involving getting a product or service into the market, promoting it, influencing behavior, and encouraging sales?",
+  options: [
+    "Philip Kotler",
+    "Geld",
+    "James Culliton",
+    "Adegbite"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "How is marketing defined by the American Marketing Association (AMA)?",
+  options: [
+    "An administrative system designed to govern colonial territories",
+    "The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large",
+    "The musical composition of regional national anthems and institutional songs",
+    "The direct control of national fiscal and revenue allocation resources"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What does the acronym AMA stand for in the context of marketing definitions?",
+  options: [
+    "African Marketing Association",
+    "American Marketing Association",
+    "Associated Marketing Academics",
+    "Administrative Marketing Agency"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "The origin of the four Ps of marketing has been traced to whose research of 1948?",
+  options: [
+    "Philip Kotler",
+    "Professor James Culliton",
+    "Herbert Macaulay",
+    "Geld"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "In what publication of 1948 was the origin of the four Ps of marketing first traced?",
+  options: [
+    "Management of Marketing Costs",
+    "Principles of Modern Business",
+    "The Wealth of Nations",
+    "Colicial Administrative Systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What do the Ps of marketing collectively represent?",
+  options: [
+    "The marketing mix",
+    "The corporate division",
+    "The primary deviance",
+    "The business protocol"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "The term 'marketing mix' is used to refer to what in marketing?",
+  options: [
+    "The seven core values of the state",
+    "The Ps of marketing",
+    "The functions of media broadcasting",
+    "The multiple indigenous belief systems"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What did the marketing mix originally describe as the principal levels of marketing decision?",
+  options: [
+    "Planning, production, personnel, and public relations",
+    "Product, price, place, and promotion",
+    "Purchase, power, popularity, and precision",
+    "Policy, program, protocol, and perfection"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Which of the following correctly lists the original principal levels of the marketing mix?",
+  options: [
+    "Product, price, place, and promotion",
+    "Precision, performance, purpose, and profit",
+    "Pioneers, professionals, packages, and partners",
+    "Prescriptive, proscriptive, primary, and positive"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "In marketing, what does 'product' connote?",
+  options: [
+    "Either goods or service",
+    "The final profit margin only",
+    "The physical location of the market",
+    "The cost of shipping items"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What refers to whatever a firm offers for sale, whether in the form of goods or services?",
+  options: [
+    "Product",
+    "Promotion",
+    "Price",
+    "Place"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What aspects are embraced by the product decision?",
+  options: [
+    "Quality, design, branding, packaging, style, and returns",
+    "Revenue allocation and physical transport costs",
+    "Television talk show media scripts",
+    "The creation of regional councils"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Quality, design, branding, packaging, style, and returns are all decisions associated with which of the four Ps?",
+  options: [
+    "Product",
+    "Price",
+    "Place",
+    "Promotion"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What does 'price' imply in the marketing mix?",
+  options: [
+    "The total cost of what it takes the consumer to acquire the product",
+    "The discount offered during holiday seasons",
+    "The cost of raw materials used in production",
+    "The corporate budget set by the consultants"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "The total cost of what it takes the consumer to acquire a product represents its:",
+  options: [
+    "Price",
+    "Promotion",
+    "Place",
+    "Product"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What does 'promotion' refer to in the context of marketing?",
+  options: [
+    "The physical transport of products across towns",
+    "Purposeful, persuasive, and strategic marketing communication",
+    "Exceeding the expectations of the competitors",
+    "The design and packaging of the material goods"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Purposeful, persuasive, and strategic marketing communication is the definition of:",
+  options: [
+    "Price",
+    "Place",
+    "Product",
+    "Promotion"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What is 'place' linked to as part of the marketing mix?",
+  options: [
+    "Providing customer access",
+    "Establishing high premium prices",
+    "Designing the product logo",
+    "Creating media press releases"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Providing customer access is the main objective linked to which component of the marketing mix?",
+  options: [
+    "Price",
+    "Product",
+    "Place",
+    "Promotion"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "If you go up to a pretty girl at a campus party and say, 'I'm a Brain', this represents which form of marketing?",
+  options: [
+    "Direct marketing",
+    "Telemarketing",
+    "Public relations",
+    "Advertising"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What scenario is used in the text to illustrate direct marketing?",
+  options: [
+    "Going up to a pretty girl at a party and saying, 'I'm a Brain'",
+    "A friend pointing at you and saying, 'He's a genius'",
+    "Calling a girl on the telephone the next day",
+    "Pouring a girl a drink and introducing yourself politely"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "If your friend points at you and tells a pretty girl at a party, 'He's a brain and a genius', this represents:",
+  options: [
+    "Direct marketing",
+    "Advertising",
+    "Telemarketing",
+    "Public relations"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Which form of communication is illustrated when a friend points at you and promotes your genius status to a pretty girl?",
+  options: [
+    "Direct marketing",
+    "Advertising",
+    "Telemarketing",
+    "Public relations"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "If you get a girl's phone number at a party and call her the next day to say, 'Hi, I'm a genius, a brain', this is:",
+  options: [
+    "Telemarketing",
+    "Direct marketing",
+    "Public relations",
+    "Advertising"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Calling a pretty girl the next day after getting her number at a party to introduce yourself is described as:",
+  options: [
+    "Advertising",
+    "Direct marketing",
+    "Telemarketing",
+    "Public relations"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Straightening your tie, pouring a pretty girl a drink at a party, and then introducing yourself as a gentleman, genius, and brain illustrates:",
+  options: [
+    "Direct marketing",
+    "Advertising",
+    "Telemarketing",
+    "Public relations"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What is illustrated when you perform polite gestures (like pouring a drink) before introducing your qualities to someone?",
+  options: [
+    "Direct marketing",
+    "Advertising",
+    "Telemarketing",
+    "Public relations"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "What business focus can invoke failure according to the notes?",
+  options: [
+    "Focusing too heavily on customer needs",
+    "Concentrating efforts around the company's services or product rather than around customers",
+    "Employing professional marketing consultants",
+    "Conducting regular public relations exercises"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Concentrating efforts around products or services rather than around customers often leads to:",
+  options: [
+    "Failure",
+    "Maximum sales",
+    "Improved reputation",
+    "Competitive advantage"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "How is success in business achieved as the alternative to failure?",
+  options: [
+    "Creatively knowing what your client's expectations are, exceeding them, and building a reputation",
+    "Strictly ignoring customer complaints and feedback",
+    "Focusing solely on the quality of goods without any marketing",
+    "Conducting direct marketing campaigns exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Building a strong reputation by creatively knowing and exceeding client expectations is the key to:",
+  options: [
+    "Success in business",
+    "Direct telemarketing",
+    "Creating primordial divinities",
+    "Exposing positive deviance"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Who is trained and better placed to devise the marketing strategies required for the success and sustenance of an organization?",
+  options: [
+    "The professional marketer or marketing consultants",
+    "The colonial lieutenant-generals",
+    "The regional legislative councils",
+    "The general public"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "The professional marketer or marketing consultants are primarily trained to devise what?",
+  options: [
+    "Colonial constitutional reviews",
+    "Marketing strategies",
+    "Folkway rules",
+    "Religious belief systems"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "Which of the following is a key function of marketing according to the notes?",
+  options: [
+    "Lower the cost of sales for the products and services a company sells and renders daily",
+    "Promote the separation of regional administrative councils",
+    "Increase the physical production costs of manufacturing",
+    "Enforce the strict penal and criminal codes of the state"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 7,
+  question: "One of the functions of marketing is maximizing client relations because the customer is the:",
+  options: [
+    "Deviant of the group",
+    "Centerpiece of the action and the king",
+    "Traditional deified ancestor",
+    "Last of the military juntas"
+  ],
+  answer: 1
+  },
+  {
+  course: "gst111",
+  chapter: 8,
+  question: "What factors are responsible for the diversity of Art forms in Nigeria?",
+  options: [
+    "Place, time, and purpose",
+    "Military regimes, budgets, and laws",
+    "Foreign trade, treaties, and imports",
+    "Traditional religions, languages, and rivers"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Place, time, and purpose are factors responsible for which of the following in Nigerian Art?",
+  options: [
+    "The total exclusion of traditional styles",
+    "The diversity of Art forms",
+    "The complete dominance of European canons",
+    "The decline of graphics design"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Into what two broad categories can Nigerian Art forms be safely classified?",
+  options: [
+    "Traditional and modern art",
+    "Fine and applied art",
+    "Material and non-material art",
+    "Pre-historic and post-historic art"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Fine and applied art represent the two broad categories of which of the following?",
+  options: [
+    "Nigerian Art forms",
+    "Traditional belief systems",
+    "Colonial administrative policies",
+    "Socio-cultural norms"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What is the primary purpose of Fine art forms in Nigeria?",
+  options: [
+    "Aesthetics (decoration) purposes",
+    "Practical utility",
+    "Social control exclusively",
+    "Dissemination of written information"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "While fine art is used for aesthetics, applied art forms are essentially used for what?",
+  options: [
+    "Purely abstract expressionism",
+    "Practical utility",
+    "Religious rites only",
+    "Colonial documentation"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "How many distinct art forms are discernable in Nigeria according to the text?",
+  options: [
+    "Three",
+    "Four",
+    "Six",
+    "Seven"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which of the following lists the six distinct art forms discernable in Nigeria?",
+  options: [
+    "Painting, sculpture, ceramics/pottery, textiles, graphics, and craft",
+    "Drawing, design, carving, weaving, printing, and modeling",
+    "Fine art, applied art, traditional art, modern art, early art, and late art",
+    "Sacred art, profane art, animism, naturalism, totemism, and theism"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What does the term 'Pre-modern period art' refer to in Nigerian art?",
+  options: [
+    "All works of art done before modern times and not done by canons of European art production",
+    "Works produced strictly during the 1960 independence era",
+    "Digital graphic designs created for communication",
+    "European classical paintings imported by missionaries"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Pre-modern art works are specifically characterized by not being done according to the canons of:",
+  options: [
+    "European art production",
+    "Traditional religious guidelines",
+    "Indigenous socio-cultural norms",
+    "West African sculpture styles"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What is the time span of pre-modern art in Nigeria?",
+  options: [
+    "From the pre-historic to the late 20th century",
+    "Strictly between 1842 and 1913",
+    "From 1900 to 1960",
+    "Since December 12, 1999"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Pre-modern art spans from the pre-historic period to which century?",
+  options: [
+    "Early 19th century",
+    "Late 20th century",
+    "Early 21st century",
+    "Late 18th century"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Inferentially, when did modern art begin in Nigeria?",
+  options: [
+    "In the mid-19th century",
+    "In the early 20th century",
+    "In the late 20th century",
+    "At independence in 1960"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Modern art in Nigeria began in the early 20th century when art was introduced into formal education by which authority?",
+  options: [
+    "British colonization authority",
+    "The sovereign military government",
+    "The National Orientation Agency",
+    "Christian missionaries in the North"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "How is painting defined in the context of Nigerian art?",
+  options: [
+    "The application of a coloring substance or colored object to any surface",
+    "The physical carving of wood or stone into figures",
+    "The digital arrangement of texts for information",
+    "The weaving of yarn into traditional clothing"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The application of a coloring substance or colored object to any surface is called:",
+  options: [
+    "Sculpture",
+    "Painting",
+    "Graphics",
+    "Ceramics"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "In what forms are traditional Nigerian paintings found?",
+  options: [
+    "Oil canvases and acrylic portraits",
+    "Wall decorations and body paintings",
+    "Digital graphics and posters",
+    "European-style landscapes"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Traditional wall and body paintings are practiced by the Igbo of the South-East and which Northern group?",
+  options: [
+    "The Hausa",
+    "The Yoruba",
+    "The Urhobo",
+    "The Ijaw"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which ritual event among the Urhobo of the Niger Delta provided an avenue for body painting?",
+  options: [
+    "Circumcision ruts",
+    "Marriage banquets",
+    "Traditional coronation",
+    "Funeral celebrations"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Circumcision ruts of the Urhobo provided an avenue for which type of art?",
+  options: [
+    "Wall decoration",
+    "Body painting",
+    "Stone sculpture",
+    "Adire weaving"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Modern Nigerian painting is traceable to the pioneering efforts of who?",
+  options: [
+    "Kenneth Murray",
+    "Aina Onabolu",
+    "Ben Enwonwu",
+    "Akinola Lasekan"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Who began a new tradition of painting in Nigeria, marking the tracing of modern Nigerian painting?",
+  options: [
+    "Aina Onabolu",
+    "T.K.E. Philips",
+    "Robert Coker",
+    "Ben Enwonwu"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What purposes do traditional Nigerian sculptures serve?",
+  options: [
+    "Ceremonial, religious, and social control purposes",
+    "Aesthetic decoration of formal offices only",
+    "Strictly economic trade and currency values",
+    "Written historical documentation"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Ceremonial, religious, and social control purposes are associated with:",
+  options: [
+    "Traditional Nigerian sculptures",
+    "Modern digital graphics",
+    "Aso-Oke weaving patterns",
+    "Applied art forms"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Where do the most prominent pre-modern Nigerian sculpture traditions come from?",
+  options: [
+    "The Nok culture",
+    "The Lagos Colony",
+    "The Urhobo circumcision ruts",
+    "The Delta State University"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "During what period did the Nok culture exist in central Nigeria?",
+  options: [
+    "About 250BC to 200AD",
+    "About 1200AD to 1600AD",
+    "From 1900 to 1960",
+    "Between 1842 and 1913"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Between which years did the Ife art tradition flourish?",
+  options: [
+    "250 BC and 200 AD",
+    "1200 AD and 1600 AD",
+    "1900 and 1960",
+    "1842 and 1913"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "In which part of Nigeria did the Ife art tradition flourish?",
+  options: [
+    "The northern part of Nigeria",
+    "The western part of Nigeria",
+    "The eastern part of Nigeria",
+    "The Niger Delta region"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which of the following is a traditional Nigerian sculpture mentioned in the text?",
+  options: [
+    "Tsoede Bronzes, Oron Stone Monoliths, Esie Soap-Stone figures, and Urhobo face masks",
+    "Aso-Oke, Adire, and bark cloths",
+    "German oil paintings and English brass icons",
+    "Modern abstract steel monuments"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The Oron Stone Monoliths and Esie Soap-Stone figures are examples of:",
+  options: [
+    "Traditional Nigerian sculptures",
+    "Modern applied art crafts",
+    "Pre-historic wall paintings",
+    "Ceramic household utensils"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which of the following encouraged the experience of modern Nigerian sculpture?",
+  options: [
+    "The overthrow of traditional religion, changes in political/economic structures, and superiority of technology",
+    "The complete restriction of art education in tertiary institutions",
+    "A return to pre-colonial systems of writing",
+    "The adoption of animistic beliefs by British colonizers"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The overthrow of traditional religion and superiority of technology are factors that encouraged:",
+  options: [
+    "The experience of modern Nigerian sculpture",
+    "The practice of traditional body painting",
+    "The use of bark cloth in the north",
+    "The creation of Nok terracotta figures"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Into what two main groups can the forms of modern Nigerian sculpture be categorized?",
+  options: [
+    "Fine sculpture and applied sculpture",
+    "Naturalist representations and stylized/abstracted/non-representational sculptures",
+    "Wall decorations and body paintings",
+    "Ceremonial works and religious works"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Modern Nigerian sculptures are grouped into stylized/abstracted representations and:",
+  options: [
+    "Naturalist representations",
+    "Historical flat roof designs",
+    "Folkway custom carvings",
+    "Circumcision body paintings"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The origin of modern Nigerian sculpture is associated with what 20th-century development?",
+  options: [
+    "The establishment of more formal schools and the introduction of art education into the curriculum",
+    "The direct implementation of the Littleton Constitution",
+    "The complete prohibition of European art canons",
+    "The initial trade of soap-stone figures to Benin"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Modern Nigerian sculpture's origin is linked to the introduction of art education into:",
+  options: [
+    "The Nigerian school curriculum",
+    "The military routine manuals",
+    "Traditional religious shrines",
+    "Foreign missionary libraries"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which early modern Nigerian sculptor produced works based on European canons of sculpture production?",
+  options: [
+    "Ben Enwonwu",
+    "Kenneth Murray",
+    "Akinola Lasekan",
+    "Aina Onabolu"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Ben Enwonwu is notable as an early modern sculptor who worked according to:",
+  options: [
+    "European canons of sculpture production",
+    "Strictly pre-historic Nok traditions",
+    "Traditional Urhobo facial mask patterns",
+    "Traditional Islamic rules of art"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which part of Nigeria is mainly characterized by rectangular architecture with a pyramidal roof?",
+  options: [
+    "The southern part of the country",
+    "The northern part of the country",
+    "The eastern part exclusively",
+    "The western part exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "In Northern Nigeria, traditional rectangular architecture is characterized by what type of roof?",
+  options: [
+    "A flat roof",
+    "A pyramidal roof",
+    "A conical roof",
+    "An arched glass roof"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Where in Nigeria is circular architecture with conical roofs mainly found?",
+  options: [
+    "In the south",
+    "In the north",
+    "In the east",
+    "In the west"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Conical roofs on circular architecture are characteristic features of traditional buildings in:",
+  options: [
+    "The north",
+    "The south",
+    "The Niger Delta",
+    "The western lowlands"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Under which two periods can the development of Nigerian art be discussed?",
+  options: [
+    "Early Nigerian art and late Nigerian art",
+    "Pre-colonial art and post-colonial art",
+    "Fine art and applied art",
+    "Pre-modern art and modern art"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Early and late periods are categories used to discuss the development of:",
+  options: [
+    "Nigerian art",
+    "The federal structure",
+    "The colonial administration",
+    "Socio-cultural norms"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What centuries constitute the studied art forms of early Nigerian art history?",
+  options: [
+    "The 15th and 16th centuries",
+    "The 19th and 20th centuries",
+    "The 11th and 12th centuries",
+    "The 21st century exclusively"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Early Nigerian art history is based on the studied art forms from the:",
+  options: [
+    "19th and 20th centuries",
+    "Pre-historic era exclusively",
+    "21st century exclusively",
+    "11th to 16th centuries"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which of the following is listed as a notable sculpture-producing tradition in Nigeria?",
+  options: [
+    "The Nok, Igbo-Ukwu, Ife, Benin, Esie, Owo, Urhobo, Izon, etc.",
+    "The Lagos Colony, Southern Province, and Northern Province",
+    "The Tamara, Tamara-Orisa, and Chukwu",
+    "The Aso-Oke, Adire, and European canons"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Igbo-Ukwu, Benin, Esie, and Owo are well-known as:",
+  options: [
+    "Sculpture-producing traditions in Nigeria",
+    "Cities that rejected the Littleton Constitution",
+    "Traditional body painting designs",
+    "Mission school centers in the north"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which is noted as the oldest sculpture tradition in Nigeria?",
+  options: [
+    "Benin art",
+    "Nok art",
+    "Ife art",
+    "Igbo-Ukwu art"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "According to the notes, the oldest sculpture tradition, Nok, is said to have existed from:",
+  options: [
+    "About 500 BC to 290 AD",
+    "About 1200 AD to 1600 AD",
+    "About 250 BC to 200 AD",
+    "Between 1900 and 1960"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What years are covered by the early period of modern Nigerian art history?",
+  options: [
+    "1842 to 1913",
+    "1900 to 1960",
+    "1960 to 1999",
+    "2000 to 2016"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The period from 1900 to 1960 in Nigerian art history represents:",
+  options: [
+    "The pre-modern period",
+    "The early period of modern Nigerian art history",
+    "The late period of Nigerian art history",
+    "The post-independence art era"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "With whose efforts did the early period of modern Nigerian art history commence?",
+  options: [
+    "Aina Onabolu, Kenneth Murray, Akinola Lasekan, and Ben Enwonwu",
+    "Robert Coker, T.K.E. Philips, and Adegbite",
+    "Akin Euba, Ayo Bankole, Laz Ekwueme, and Samuel Akpabot",
+    "Professor Eric Arubayi and Professor Emurobome Idolor"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Akinola Lasekan and Kenneth Murray are associated with the commencement of:",
+  options: [
+    "The early period of modern Nigerian art history",
+    "Traditional body painting ceremonies",
+    "The National Orientation Agency values",
+    "Pre-modern Nok culture studies"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which historical event of the late 1960s is listed as a major factor that impacted Nigerian art production?",
+  options: [
+    "The Nigerian civil war",
+    "The Littleton Constitution review",
+    "The amalgamation",
+    "The establishment of Delta State University"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which major cultural festival in 1977 impacted the course of art production and appreciation in Nigeria?",
+  options: [
+    "The Festival of Art and Culture (FESTAC) in Lagos",
+    "The Urhobo Circumcision Ruts in Delta State",
+    "The National Economic Strategy (NEEDS) Conference",
+    "The London Constitutional Conference"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which Nigerian tribes are noted for practicing the use of bark cloth?",
+  options: [
+    "Igbo and Ibibio",
+    "Yoruba and Hausa",
+    "Urhobo and Izon",
+    "Itsekiri and Benin"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The use of bark cloth is a traditional practice of the Ibibio and which other group?",
+  options: [
+    "The Igbo",
+    "The Hausa",
+    "The Yoruba",
+    "The Urhobo"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Which ethnic group is currently involved in weaving 'Aso-Oke' and producing 'Adire'?",
+  options: [
+    "Yoruba",
+    "Igbo",
+    "Ibibio",
+    "Hausa"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What are the two textile types associated with the Yoruba in the provided text?",
+  options: [
+    "'Aso-Oke' and 'Adire'",
+    "Bark cloth and silk",
+    "Lace and brocade",
+    "Wax and dye and cotton"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "When did graphics design in Nigeria start according to the notes?",
+  options: [
+    "In 1960 during independence",
+    "As long as when learning how to write started",
+    "During the FESTAC '77 event",
+    "In the early 21st century"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "The start of graphics design in Nigeria is historically tied to the start of:",
+  options: [
+    "Learning how to write",
+    "Weaving Aso-Oke",
+    "Traditional body painting",
+    "Early mission schools"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What is the basic primary purpose of all graphics designs?",
+  options: [
+    "Purely abstract aesthetic decoration",
+    "Communication or dissemination of information",
+    "The creation of physical utensils",
+    "The production of clothing materials"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Dissemination of information or communication is the fundamental purpose of:",
+  options: [
+    "Graphics designs",
+    "Traditional sculptures",
+    "Nok terracotta",
+    "Fine art forms"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "What is part of the significance of graphics as an academic and professional discipline?",
+  options: [
+    "To support effective means of improving income generation and the economic situation of individuals/nations",
+    "To restrict the communication of political events",
+    "To preserve only non-material traditional values",
+    "To replace the practice of painting entirely"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 8,
+  question: "Supporting effective means of improving income generation is a noted significance of which art discipline?",
+  options: [
+    "Graphics",
+    "Traditional sculpture",
+    "Body painting",
+    "Ceramics"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst111",
+  chapter: 9,
+  question: "Nigeria's physical environment is classified into how many interrelated natural components?",
+  options: [
+    "Two",
+    "Three",
+    "Four",
+    "Five"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which of the following lists the four interrelated natural components of Nigeria's physical environment?",
+  options: [
+    "The lithosphere, hydrosphere, biosphere, and atmosphere",
+    "The lowlands, highlands, plateaus, and basins",
+    "The tropical, equatorial, savannah, and forest regions",
+    "The soil, water, plants, and air layers"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What is the lithosphere made up of according to the notes?",
+  options: [
+    "Water bodies, oceans, and lakes",
+    "Landforms and the numerous elements of soil and mineral resources",
+    "Living organisms, plants, and animals",
+    "The film layer of air enveloping the earth"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Soil and mineral resources, along with landforms, make up which natural component?",
+  options: [
+    "The hydrosphere",
+    "The lithosphere",
+    "The biosphere",
+    "The atmosphere"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What does the hydrosphere comprise on the earth's surface?",
+  options: [
+    "Living organisms, plants, and animals",
+    "The water bodies, ocean, sea, rivers, and lake",
+    "Landforms, soil elements, and minerals",
+    "The layers of stratospheric air"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Water bodies such as oceans, seas, and lakes are classified under which component?",
+  options: [
+    "The biosphere",
+    "The lithosphere",
+    "The hydrosphere",
+    "The atmosphere"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What is the biosphere defined as in the context of Nigeria's physical environment?",
+  options: [
+    "The zone where living organisms, plants, and animals live and interact within the environment",
+    "The height of a place above sea level in terms of lowlands",
+    "The layer of air divided into stratosphere and thermosphere",
+    "The water bodies found on the earth's surface"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The zone where living organisms, plants, and animals interact is called the:",
+  options: [
+    "Biosphere",
+    "Lithosphere",
+    "Hydrosphere",
+    "Atmosphere"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What is the atmosphere defined as in the notes?",
+  options: [
+    "The height of a place above sea level",
+    "The film layer of air which envelops the earth's surface",
+    "The zone where living plants and animals interact",
+    "The soil and mineral resource deposits"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "How is the atmosphere divided according to the provided text?",
+  options: [
+    "Lithosphere, stratosphere, mesosphere, and thermosphere",
+    "Hydrosphere, biosphere, stratosphere, and troposphere",
+    "Equatorial, tropical, savannah, and montane layers",
+    "Sokoto, Chad, Niger, and Benue layers"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What does 'relief' refer to in geography?",
+  options: [
+    "The seasonal variations in temperature and rainfall",
+    "The height of a place above sea level in terms of lowlands and highlands",
+    "The distribution of vegetative cover in the forest zone",
+    "The concentration of mineral deposits in riverbeds"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The height of a place above sea level, categorized into lowlands and highlands, is called:",
+  options: [
+    "Climate",
+    "Relief",
+    "Vegetation",
+    "Biosphere"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which of the following is listed as a highland area in Nigeria?",
+  options: [
+    "The Sokoto plains",
+    "The Chad basin",
+    "The North central plateau, eastern and north-eastern highland, and western highland",
+    "The Niger Delta region"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The north central plateau and the western highland are examples of:",
+  options: [
+    "Highlands in Nigeria",
+    "Lowlands in Nigeria",
+    "Vegetation zones in region A",
+    "River tributaries of the Niger"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which of the following is listed as a lowland area in Nigeria?",
+  options: [
+    "The Sokoto plains, Chad basin, Niger-Benue Trough, Coastlands, and Niger Delta",
+    "The north central plateau, eastern highland, and western highland",
+    "The Idanre Hills and Jos plateau",
+    "The Guinea Savannah and Montane vegetation"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The Sokoto plains and the Niger-Benue Trough are categorized as:",
+  options: [
+    "Highlands in Nigeria",
+    "Lowlands in Nigeria",
+    "Lithospheric atmospheric layers",
+    "Climate regions of class E"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which rivers originate from the north-central plateau and flow to the east?",
+  options: [
+    "Sokoto, Rina, and Zamfara Rivers",
+    "Rivers Hadejia, Komadugu Gana, and Gongola",
+    "Rivers Niger, Benue, and Kaduna",
+    "Rivers Ogun, Osun, and Imo"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Rivers Hadejia, Komadugu Gana, and Gongola originate from which geographical feature?",
+  options: [
+    "The western highland",
+    "The Sokoto plains",
+    "The north-central plateau",
+    "The eastern highland"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which minerals are specifically noted as being found in the Jos plateau?",
+  options: [
+    "Coal and Lignite",
+    "Tin and Columbite",
+    "Limestone and Gypsum",
+    "Crude oil and Gas"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "In which plateau are the minerals Tin and Columbite found?",
+  options: [
+    "Western plateau",
+    "Jos plateau",
+    "Sokoto plateau",
+    "Enugu plateau"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What is the highest part of the western highland in Nigeria?",
+  options: [
+    "The Jos plateau",
+    "The Idanre Hills",
+    "The Eastern highlands",
+    "The Sokoto plains"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The Idanre Hills are about 1000 meters high and made up of dome-shaped granite running from:",
+  options: [
+    "North-west to south-east",
+    "North-east to south-west",
+    "East to west",
+    "North to south"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Where are the Sokoto plains located in Nigeria?",
+  options: [
+    "In the south-east area",
+    "In the north-west area",
+    "In the south-south Niger Delta",
+    "In the south-west Western highland"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What elevation and area coverage do the Sokoto plains have?",
+  options: [
+    "Elevation of 150-300 meters and cover over one-twentieth area of Nigeria",
+    "Elevation of 1000 meters and cover over half the country",
+    "Elevation of 50-100 meters and cover one-tenth area of Nigeria",
+    "Elevation of 500 meters and cover one-fortieth area of Nigeria"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which rivers are found in the Sokoto plains?",
+  options: [
+    "Hadejia, Komadugu Gana, and Gongola Rivers",
+    "Sokoto, Rina, and Zamfara Rivers",
+    "Niger, Benue, and Anambra Rivers",
+    "Ogun, Owena, and Osun Rivers"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "During which season do the Sokoto, Rina, and Zamfara Rivers drain into the Sokoto plains?",
+  options: [
+    "The dry season",
+    "The wet season",
+    "The harmattan season",
+    "The autumn season"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "According to the notes, where is coal found in Nigeria?",
+  options: [
+    "Jos plateau",
+    "Niger Delta region",
+    "Enugu",
+    "Asaba"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "According to the notes, where is lignite found in Nigeria?",
+  options: [
+    "Jos plateau",
+    "Niger Delta",
+    "Enugu",
+    "Asaba"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Where was crude oil discovered in commercial quantity in 1956?",
+  options: [
+    "Asaba",
+    "Oloibiri",
+    "Shagamu",
+    "Ukpilla"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "In what year was crude oil discovered in commercial quantity in the Niger Delta region?",
+  options: [
+    "1914",
+    "1948",
+    "1956",
+    "1960"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Where is limestone found and used for manufacturing cement in Ogun State?",
+  options: [
+    "Shagamu-Ewekoro",
+    "Ukpilla",
+    "Nkalagu",
+    "Oloibiri"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Ukpilla in Edo State and Nkalagu in Enugu State are notable for the deposit and use of which mineral?",
+  options: [
+    "Limestone",
+    "Coal",
+    "Lignite",
+    "Tin"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which of the following is listed as an importance of relief and drainage systems?",
+  options: [
+    "Source of revenue, rich fertile soil for agriculture, and defense",
+    "The promotion of negative deviance",
+    "The direct implementation of modern graphics design",
+    "The eradication of foreign religious practices"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Highlands in Nigeria are noted as being particularly useful for which of the following?",
+  options: [
+    "Defense",
+    "Navigable marine trade routes",
+    "Lignite exploration",
+    "Freshwater mangrove swamp farming"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which months are noted as the wettest months in Nigeria?",
+  options: [
+    "January and February",
+    "April and May",
+    "July and September",
+    "November and December"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "July and September are characterized in the notes as:",
+  options: [
+    "The driest months",
+    "The wettest months",
+    "The coldest harmattan months",
+    "The months of minimum river drainage"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What type of climate does Nigeria enjoy?",
+  options: [
+    "Tropical climate with distinct wet and dry seasons",
+    "Polar climate with constant snow",
+    "Temperate climate with four distinct seasons",
+    "Mediterranean climate with dry summers only"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Nigeria's tropical climate is characterized by having which distinct seasons?",
+  options: [
+    "Wet and dry seasons",
+    "Autumn and winter seasons",
+    "Spring and summer seasons",
+    "Harmattan and polar seasons"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Climate region A extends from latitude 4 degrees and 7 and a half and longitude 4 degrees, 10 degrees North, and coincides with which climate?",
+  options: [
+    "Equatorial climate",
+    "Savannah climate",
+    "Sub-tropical climate",
+    "Polar climate"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The equatorial climate in Nigeria coincides with which designated climate region?",
+  options: [
+    "Climate region A",
+    "Climate region B",
+    "Climate region C",
+    "Climate region D"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which vegetation and forest types are found in climate region A?",
+  options: [
+    "The Niger Delta region, high forest, freshwater swamp, and mangrove swamp forest",
+    "The Guinea Savannah and montane vegetation",
+    "Sudan Savannah and Sahel Savannah",
+    "The Sokoto plains and Chad basin vegetation"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The freshwater swamp and mangrove swamp forest of Nigeria are found in which climate region?",
+  options: [
+    "Climate region A",
+    "Climate region B",
+    "Climate region C",
+    "Climate region D"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Where does climate region B stretch from and to?",
+  options: [
+    "From the east to the northern part of Ondo",
+    "From the west to the southern part of Lagos",
+    "From Sokoto plains to the Chad basin",
+    "From the Jos plateau to Lokoja"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Climate region B is bounded to the south by region A and to the north by which region?",
+  options: [
+    "Region C",
+    "Region D",
+    "Region E",
+    "Region F"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which areas are found within climate region B?",
+  options: [
+    "Lagos, Abeokuta, and Oyo",
+    "Enugu, Aba, and part of Guinea savannah",
+    "Lokoja, Markurdi, and Yandev",
+    "Sokoto, Kaduna, and Zamfara"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Enugu and Aba are located in which climate region?",
+  options: [
+    "Climate region A",
+    "Climate region B",
+    "Climate region C",
+    "Climate region D"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Climate region C falls within which latitude?",
+  options: [
+    "Latitude 1 degree 3 degrees North",
+    "Latitude 5 degrees 11 degrees North",
+    "Latitude 12 degrees 15 degrees North",
+    "Latitude 4 degrees 7 degrees North"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "In climate region C, what is the rainfall pattern?",
+  options: [
+    "Rainfall is 10mm or more in 10 months",
+    "Rainfall is less than 5mm in all months",
+    "There is no rainfall experienced in 10 months",
+    "Rainfall is exactly 800mm in 2 months"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which savannah type and cities are housed in climate region C?",
+  options: [
+    "Guinea Savannah, Lagos, Abeokuta, Ondo, Oyo, Akure, Jos, Kotagora, and Bida",
+    "Mangrove swamp forest, Enugu, and Aba",
+    "Sokoto plains, Lokoja, and Markurdi",
+    "Montane vegetation, Yandev, and Oloibiri"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Lagos, Abeokuta, Akure, and the Guinea Savannah are housed in which climate region?",
+  options: [
+    "Climate region A",
+    "Climate region B",
+    "Climate region C",
+    "Climate region D"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which cities are found in climate region D?",
+  options: [
+    "Lagos, Abeokuta, and Akure",
+    "Enugu, Aba, and Oloibiri",
+    "Lokoja, Markurdi, and Yandev",
+    "Sokoto, Kaduna, and Jos"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Lokoja, Markurdi, and Yandev fall within which designated climate region?",
+  options: [
+    "Climate region A",
+    "Climate region B",
+    "Climate region C",
+    "Climate region D"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What is the total annual rainfall in climate region E?",
+  options: [
+    "It is less than 100 mm",
+    "It exceeds 900 mm",
+    "It is exactly 500 mm",
+    "It ranges between 59 and 40 mm"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "In which climate region does the total annual rainfall exceed 900 mm?",
+  options: [
+    "Climate region B",
+    "Climate region C",
+    "Climate region D",
+    "Climate region E"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Which climate region falls within the northern extremities and experiences 800mm of annual rainfall?",
+  options: [
+    "Climate region C",
+    "Climate region D",
+    "Climate region E",
+    "Climate region F"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "How many rainy days are experienced in climate region F?",
+  options: [
+    "10 to 20 rainy days",
+    "59-40 rainy days",
+    "Exceeds 100 rainy days",
+    "No rainy days at all"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "What factors determine the marked variation in Nigeria's vegetation distribution?",
+  options: [
+    "Rainfall distribution, edaphic factor, and anthropogenic disturbances",
+    "The total height of highlands and historical mining projects",
+    "The introduction of modern graphics and university curriculums",
+    "Sovereign status and the number of political parties"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Rainfall distribution, edaphic factors, and anthropogenic disturbances determine the distribution of:",
+  options: [
+    "Coal deposits",
+    "Vegetation",
+    "Lithospheric air layers",
+    "Pre-modern architecture"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Into what two broad types can the vegetation of Nigeria be divided?",
+  options: [
+    "Highland and lowland",
+    "Forest and savannah",
+    "Equatorial and tropical",
+    "Mangrove and montane"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Forest and savannah are the two broad divisions of:",
+  options: [
+    "Nigeria's vegetation",
+    "The lithospheric soil elements",
+    "The drainage basins",
+    "Traditional structural architecture"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Into what types is the Nigerian Forest divided?",
+  options: [
+    "Mangrove swamp forest, freshwater swamp forest, and rain forest",
+    "Guinea savannah, Sudan savannah, and Sahel savannah",
+    "Montane vegetation and flat roof vegetation",
+    "Equatorial plains and Sokoto plains forest"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "The mangrove swamp, freshwater swamp, and rain forest make up which broad vegetation category?",
+  options: [
+    "Savannah",
+    "Forest",
+    "Montane",
+    "Relief"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Into what divisions is the Nigerian savannah split?",
+  options: [
+    "Mangrove swamp, freshwater swamp, and rain forest",
+    "Guinea savannah, Sudan savannah, Sahel savannah, and the montane vegetation",
+    "Equatorial plateau, western plateau, and eastern plateau",
+    "Sokoto plains, Chad basin, and Niger Delta"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 9,
+  question: "Guinea savannah, Sudan savannah, and Sahel savannah are divisions of:",
+  options: [
+    "Nigeria forest",
+    "Nigeria savannah",
+    "Sokoto plain relief",
+    "Equatorial climate A"
+  ],
+  answer: 1
+  },
+  {
+  course: "gst111",
+  chapter: 10,
+  question: "According to Acheson, public health is defined as the science and art of what?",
+  options: [
+    "Preventing disease, promoting health, and prolonging life",
+    "Administering state budgets and local government tax allocations",
+    "Composing institutional and national anthems",
+    "Enforcing military posturing and routines"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Acheson defines public health as the science and art of preventing disease and promoting health through:",
+  options: [
+    "The organized effort of society",
+    "Strictly foreign missionary activities",
+    "Private commercial and medical investments",
+    "The use of traditional herbal remedies"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is epidemiology defined as in the notes?",
+  options: [
+    "The study of the distribution and determinants of a disease or health-related state with a view to its control",
+    "The study of regional architectural and sculptural designs",
+    "The historical development of political parties in Nigeria",
+    "The investigation of market transactions and direct marketing"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Epidemiology is studied with a view to doing what to disease or health-related states within a given population?",
+  options: [
+    "Its total neglect and natural resolution",
+    "Its control",
+    "Its commercialization",
+    "Its transition to formal law"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "According to the notes, what is one of the ways through which students pass germs?",
+  options: [
+    "Coughing, sneezing, and use of public door handles",
+    "Attending formal lectures and studying university logos",
+    "Singing strophic national anthems",
+    "Reading the text of the national pledge"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Coughing, sneezing, and using public door handles are noted as ways through which students:",
+  options: [
+    "Pass germs",
+    "Build immunity",
+    "Sustain the environment",
+    "Foster group values"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "How is a disease defined in Point 4 of the notes?",
+  options: [
+    "A medically definable process in terms of pathophysiology and pathology",
+    "A subjective feeling of bad behavior or personal sin",
+    "A primary deviance that has little effect on self-concept",
+    "A natural occurrence like an earthquake or flood"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "A medically definable process in terms of pathophysiology and pathology is called a:",
+  options: [
+    "Disease",
+    "Illness",
+    "Sickness",
+    "Sanction"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "According to the notes, while disease is a medically definable process, what is illness?",
+  options: [
+    "What the patient feels",
+    "What the doctor codifies in the penal code",
+    "An objective environmental condition of risk",
+    "A form of positive deviance"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In the context of the notes, the phrase 'what the patient feels' relates to:",
+  options: [
+    "Illness",
+    "Disease",
+    "Sickness",
+    "Epidemiology"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Diseases can be broadly categorized into which two types?",
+  options: [
+    "Communicable (infectious) or non-communicable (non-infectious)",
+    "Primary or secondary",
+    "Sacred or profane",
+    "Indigenous or foreign"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Communicable diseases are also referred to as:",
+  options: [
+    "Infectious",
+    "Non-infectious",
+    "Pathological",
+    "Metaphysical"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "How is prevention defined in Point 7 of the notes?",
+  options: [
+    "Inhibiting the introduction of disease into an area, herd, or individual",
+    "Reducing the problem to a tolerable level",
+    "The complete elimination of the disease-producing agent",
+    "Favourably influencing the natural history of a disease"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Inhibiting the introduction of a disease into an area, herd, or individual is called:",
+  options: [
+    "Prevention",
+    "Control",
+    "Eradication",
+    "Treatment"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What do control efforts consist of?",
+  options: [
+    "The steps taken to reduce the problem to a tolerable level",
+    "The complete elimination of the infectious agent globally",
+    "The refusal of medical treatment by infected hosts",
+    "Avoiding the emergence of risk conditions in society"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Steps taken to reduce a disease problem to a tolerable level represent:",
+  options: [
+    "Control efforts",
+    "Eradication",
+    "Pathological evil",
+    "Primary prevention"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the final step in disease control efforts?",
+  options: [
+    "Eradication",
+    "Primordial prevention",
+    "Diagnosis",
+    "Treatment"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Eradication consists of the complete elimination of a disease-producing agent from:",
+  options: [
+    "A defined geographical region",
+    "The human genome entirely",
+    "The memories of the population",
+    "The written textbooks"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In disease causation, what is the organism responsible for the disease or infection called?",
+  options: [
+    "The agent",
+    "The host",
+    "The environment",
+    "The vector"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "The agent is defined in disease causation as:",
+  options: [
+    "The organism responsible for the disease or infection",
+    "The definitive harbor of the disease organism",
+    "The milieu where contact occurs",
+    "The patient experiencing illness"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the host defined as in disease causation?",
+  options: [
+    "The carrier or definitive harbor of the disease organism",
+    "The organism responsible for causing infection",
+    "The physical temperature of the environment",
+    "The medical clinician making a diagnosis"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "The carrier or definitive harbor of the disease organism is referred to as the:",
+  options: [
+    "Agent",
+    "Host",
+    "Environment",
+    "Triad"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the environment defined as in the disease triad model?",
+  options: [
+    "The milieu in which the infectious agent comes in contact with the susceptible host",
+    "The biological genetic makeup of the patient",
+    "The medical facility where treatment is administered",
+    "The step taken to reduce disease to a tolerable level"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "The milieu in which the infectious agent contacts the host is called the:",
+  options: [
+    "Agent",
+    "Host",
+    "Environment",
+    "Triad"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What model states that the interaction of the agent, host, and environment gives rise to disease?",
+  options: [
+    "The epidemiological triad model of disease causation",
+    "The natural history of disease model",
+    "The public health prevention model",
+    "The primordial conditions model"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "The interaction of the agent, host, and environment in the triad model gives rise to the presence of diseases in:",
+  options: [
+    "An individual and the prevalence of disease in an environment",
+    "The colonial administration only",
+    "Foreign missionary settings exclusively",
+    "Traditional Nigerian art forms"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the uninterrupted progression of disease from exposure to exposure to causal agents to body repair or clinically detectable problems called?",
+  options: [
+    "The natural history of disease",
+    "The epidemiological triad",
+    "Quaternary prevention",
+    "The control effort"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "The natural history of disease is characterized by being an:",
+  options: [
+    "Uninterrupted progression",
+    "Artificially managed protocol",
+    "Eradication effort",
+    "Intermittent treatment sequence"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the primary purpose of public health and medicine?",
+  options: [
+    "To influence favourably the natural history of disease",
+    "To eliminate the host from the environment",
+    "To restrict the use of formal medical screenings",
+    "To generate direct marketing revenue for pharmaceutical companies"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Public health and medicine aim to favourably influence what?",
+  options: [
+    "The natural history of disease",
+    "The cost of quaternary treatments",
+    "The replication rate of the agent only",
+    "The political hierarchy of local health systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "How is prevention defined in Point 16?",
+  options: [
+    "The act or process of stopping the occurrence of a disease or event beforehand",
+    "The steps taken to reduce a problem to a tolerable level",
+    "The subjective experience of being ill",
+    "The clinical isolation of pathogenic agents"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Stopping the occurrence of a disease or event beforehand is called:",
+  options: [
+    "Prevention",
+    "Control",
+    "Eradication",
+    "Euthanasia"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Which type of prevention aims to avoid the emergence and establishment of social and environmental conditions of risk?",
+  options: [
+    "Primordial prevention",
+    "Primary prevention",
+    "Secondary prevention",
+    "Tertiary prevention"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In primordial prevention, the main goal is to avoid conditions known to contribute to:",
+  options: [
+    "Increased risk of disease",
+    "Improved patient recovery",
+    "The natural history of diseases",
+    "A reduction of necessary evils"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What does primary prevention aim to do?",
+  options: [
+    "Prevent disease before it develops so that they avoid risk factors",
+    "Detect disease early through screening and diagnosis",
+    "Mitigate the consequences of excessive medical intervention",
+    "Rehabilitate patients who are already recovering from stroke"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Preventing disease before it develops to avoid risk factors is the goal of:",
+  options: [
+    "Primary prevention",
+    "Secondary prevention",
+    "Tertiary prevention",
+    "Quaternary prevention"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the aim of secondary prevention?",
+  options: [
+    "To reduce the complication of disease through health screening, early diagnosis, and treatment",
+    "To avoid the emergence of social risk conditions entirely",
+    "To completely eliminate the pathogenic agent from the environment",
+    "To rehabilitate people recovering from extreme disability"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Screening, early diagnosis, and early treatment of disease and injuries are activities of:",
+  options: [
+    "Primordial prevention",
+    "Primary prevention",
+    "Secondary prevention",
+    "Tertiary prevention"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Which level of prevention aims to limit disability and rehabilitate people recovering from disease or injury?",
+  options: [
+    "Primary prevention",
+    "Secondary prevention",
+    "Tertiary prevention",
+    "Quaternary prevention"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Limiting disability and rehabilitating recovering patients is the main goal of:",
+  options: [
+    "Primordial prevention",
+    "Primary prevention",
+    "Secondary prevention",
+    "Tertiary prevention"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is quaternary prevention defined as?",
+  options: [
+    "The set of health activities required to mitigate or avoid the consequences of unnecessary or excessive intervention of the health system",
+    "The act of isolating the virus from throat swabs or urine",
+    "The complete eradication of the vector from West Africa",
+    "The screening of a given population for genetic risk"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Mitigating or avoiding the consequences of unnecessary or excessive health system intervention is called:",
+  options: [
+    "Primordial prevention",
+    "Primary prevention",
+    "Tertiary prevention",
+    "Quaternary prevention"
+  ],
+  answer: 3
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In what year did the first outbreak of Ebola virus disease (EVD) occur?",
+  options: [
+    "1947",
+    "1969",
+    "1976",
+    "1993"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Where did the first outbreak of Ebola virus disease occur in 1976?",
+  options: [
+    "Lassa, Northern Nigeria",
+    "Northern Democratic Republic of Congo (Zaire)",
+    "Edo Central, Nigeria",
+    "Uganda"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is a Zoonotic Disease?",
+  options: [
+    "A disease that can be transmitted from a vertebrate animal to man or vice versa under normal conditions",
+    "An illness caused exclusively by consuming spoiled vegetation",
+    "A genetic abnormality passed from parents to offspring",
+    "An infection acquired strictly within a hospital setting"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "A disease transmissible between vertebrate animals and humans under normal conditions is called a:",
+  options: [
+    "Zoonotic disease",
+    "Pathological evil",
+    "Taboo disease",
+    "Necessary evil"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Ebola viral disease falls under which broad category of fevers?",
+  options: [
+    "Viral hemorrhagic fevers",
+    "Bacterial respiratory fevers",
+    "Fungal vector-borne fevers",
+    "Flavivirus joint-ache fevers"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Viral hemorrhagic fevers is the broad category containing which disease?",
+  options: [
+    "Lassa Fever",
+    "Zika virus",
+    "Ebola viral disease",
+    "Sokoto plains disease"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "How can Ebola diagnosis be carried out?",
+  options: [
+    "Immunological testing and polymerase chain reaction",
+    "Wall painting analysis and throat swabs",
+    "Using traditional herbal divinations",
+    "Visual examination of skin cells only"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Immunological testing and polymerase chain reaction (PCR) are diagnostic methods for:",
+  options: [
+    "Ebola",
+    "Necrosis",
+    "Autonomic conditions",
+    "Lignite exposure"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "When was Lassa Fever first described?",
+  options: [
+    "1947",
+    "1952",
+    "1969",
+    "1976"
+  ],
+  answer: 2
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Where did the nurse who first died of Lassa Fever in 1969 work?",
+  options: [
+    "A mission hospital in Lassa, Northern Nigeria",
+    "A government hospital in Zaire",
+    "A university hospital in Uganda",
+    "A private clinic in Edo Central"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the reservoir host of Lassa Fever?",
+  options: [
+    "The Aedes mosquitoes and monkeys",
+    "The multimammate rats and infected individuals",
+    "The deified ancestors of the forest",
+    "The vertebrate farm animals"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Multimammate rats and infected individuals serve as what for Lassa Fever?",
+  options: [
+    "Vector agents",
+    "Reservoir hosts",
+    "Primordial divinities",
+    "Quaternary controls"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Lassa Fever is geographically confined to which region?",
+  options: [
+    "East Africa",
+    "West Africa",
+    "North Africa",
+    "Central Africa"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "True or False: Lassa Fever related arenaviruses not pathogenic to humans occur in other parts of Africa.",
+  options: [
+    "True",
+    "False",
+    "True, but only in South America",
+    "False, they are found globally"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Lassa Fever has caused major outbreaks in which countries?",
+  options: [
+    "Nigeria, Guinea, Liberia, and Sierra Leone",
+    "Uganda, Congo, Zaire, and Tanzania",
+    "Edo, Delta, Lagos, and Sokoto",
+    "Germany, England, France, and Zaire"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Which of the following is a country where Lassa Fever has caused major outbreaks according to the notes?",
+  options: [
+    "Sierra Leone",
+    "Uganda",
+    "United Republic of Tanzania",
+    "Zaire"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In Nigeria, in which district is Lassa Fever endemic?",
+  options: [
+    "Edo Central Senatorial district of Edo state",
+    "Lagos Island in Lagos State",
+    "Sokoto plains of Northern Nigeria",
+    "Kaduna Province of the North"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Apart from Edo state, where else have outbreaks of Lassa Fever occurred in Nigeria?",
+  options: [
+    "Ebonyi State, Ondo State, and Nassarawa state",
+    "Delta State, Lagos State, and Oyo State",
+    "Kano State, Kaduna State, and Sokoto State",
+    "Enugu State, Abia State, and Imo State"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "What is the incubation period of Lassa Fever?",
+  options: [
+    "1 to 5 days",
+    "7 to 21 days",
+    "30 to 45 days",
+    "60 to 90 days"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Which of the following is listed as a symptom of Lassa Fever during its incubation/illness period?",
+  options: [
+    "Fever, headache, joint/muscle aches, vomiting, stomach pain, sore throat, and lack of appetite",
+    "Immediate loss of motor function and paralysis",
+    "Severe skin scaling and hair loss",
+    "Pathological memory loss and confusion"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "How is the diagnosis of Lassa Fever confirmed?",
+  options: [
+    "Isolating the virus from blood, throat swabs, or urine specimens",
+    "Measuring the level of columbite in the blood",
+    "Traditional analysis of wall decorations",
+    "A standard psychological test of self-concept"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Isolating the virus from blood, throat swabs, or urine confirms the diagnosis of:",
+  options: [
+    "Ebola",
+    "Lassa Fever",
+    "Zika virus",
+    "Flavivirus"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Which drug is used in the treatment of Lassa Fever?",
+  options: [
+    "Ribavirin",
+    "Penicillin",
+    "Aspirin",
+    "Artesunate"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Ribavirin is most effective in treating Lassa Fever during which stage of infection?",
+  options: [
+    "Early stages of infection",
+    "Late chronic stages of infection",
+    "Only after spontaneous resolution has failed",
+    "During the final step of eradication"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "How is the Zika virus primarily transmitted?",
+  options: [
+    "By Aedes mosquitoes",
+    "By multimammate rats",
+    "Through contaminated public door handles",
+    "Through direct physical contact with deified monkeys"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "Where and in what animal was the Zika virus first identified in 1947?",
+  options: [
+    "Uganda, in monkeys",
+    "Lassa, in rats",
+    "DR Congo, in bats",
+    "Zaire, in chimpanzees"
+  ],
+  answer: 0
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In what year was the Zika virus first identified in humans?",
+  options: [
+    "1947",
+    "1952",
+    "1969",
+    "1976"
+  ],
+  answer: 1
+},
+{
+  course: "gst111",
+  chapter: 10,
+  question: "In which countries was the Zika virus first identified in humans in 1952?",
+  options: [
+    "Uganda and the United Republic of Tanzania",
+    "Nigeria and Sierra Leone",
+    "DR Congo and Liberia",
+    "Guinea and Zaire"
+  ],
+  answer: 0
+  }
   ]
