@@ -14649,5 +14649,1769 @@ const QUESTIONS = [
     "subcontraries"
   ],
   "answer": 0
-}
+},
+ {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State was carved out of which defunct state?",
+    options: [
+      "Bendel State",
+      "Kwara State",
+      "Ondo State",
+      "Rivers State"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "On what date was Delta State carved out of the defunct Bendel State?",
+    options: [
+      "27th August 1991",
+      "27th August 1996",
+      "23rd September 1987",
+      "12th June 1993"
+    ],
+    answer: 0
+  },
+
+  // Point 2
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Midwest Region was renamed Bendel State in what year?",
+    options: [
+      "1976",
+      "1963",
+      "1991",
+      "1960"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "From which region was the Midwest Region created in 1963?",
+    options: [
+      "Western Region",
+      "Northern Region",
+      "Eastern Region",
+      "Southern Region"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Through what mechanism was the Midwest Region created from the Western Region in 1963?",
+    options: [
+      "A popular referendum",
+      "A military decree",
+      "An act of parliament",
+      "A judicial review"
+    ],
+    answer: 0
+  },
+
+  // Point 3
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "According to the notes, what is a delta?",
+    options: [
+      "A wetland area with rivers and channels of water bodies that empty into a larger body of water",
+      "A mountainous highland with active volcanic craters",
+      "An arid desert plain lacking any surface water bodies",
+      "A deep subterranean cave system containing underground aquifers"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "In the definition of a delta, where do the rivers and channels of water bodies empty into?",
+    options: [
+      "A larger body of water",
+      "A dry sand dune",
+      "A closed inland basin",
+      "An artificial canal"
+    ],
+    answer: 0
+  },
+
+  // Point 4
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "A delta is defined as an area of low, flat land where a major river splits and spreads out into several branches before entering which of the following?",
+    options: [
+      "The Sea or Ocean",
+      "A desert oasis",
+      "A deep canyon",
+      "An alpine lake"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What physical action does a major river perform in a delta area before entering the Sea or Ocean?",
+    options: [
+      "Splits and spreads out into several branches",
+      "Evaporates completely due to heat",
+      "Merges into a single, deeper narrow channel",
+      "Reverses its flow direction"
+    ],
+    answer: 0
+  },
+
+  // Point 5
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State lies between which longitudinal coordinates?",
+    options: [
+      "Longitudes 5 degrees and 6 degrees 45 minutes East",
+      "Longitudes 4 degrees and 5 degrees 30 minutes East",
+      "Longitudes 6 degrees and 7 degrees 15 minutes West",
+      "Longitudes 5 degrees and 6 degrees 30 minutes East"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the latitudinal range of Delta State?",
+    options: [
+      "Latitudes 5 degrees and 6 degrees 30 minutes North",
+      "Latitudes 4 degrees and 5 degrees 15 minutes North",
+      "Latitudes 5 degrees and 6 degrees 45 minutes North",
+      "Latitudes 6 degrees and 7 degrees 30 minutes North"
+    ],
+    answer: 0
+  },
+
+  // Point 6
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State has a total land area of about how many square kilometers?",
+    options: [
+      "16,842 km square",
+      "12,450 km square",
+      "24,300 km square",
+      "8,500 km square"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The value 16,842 square kilometers represents which geographical characteristic of Delta State?",
+    options: [
+      "Total land area",
+      "Forest reserve area",
+      "Cultivated agricultural land",
+      "Total water surface area"
+    ],
+    answer: 0
+  },
+
+  // Point 7
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which state bounds Delta State on the North and North West?",
+    options: [
+      "Edo State",
+      "Ondo State",
+      "Kogi State",
+      "Anambra State"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Edo State bounds Delta State in which directions?",
+    options: [
+      "North and North West",
+      "South and South West",
+      "East and North East",
+      "West and South West"
+    ],
+    answer: 0
+  },
+
+  // Point 8
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State is bounded on the South West by which state?",
+    options: [
+      "Ondo State",
+      "Edo State",
+      "Anambra State",
+      "Rivers State"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Ondo State forms a boundary with Delta State in which direction?",
+    options: [
+      "South West",
+      "North West",
+      "North East",
+      "South East"
+    ],
+    answer: 0
+  },
+
+  // Point 9
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following states bound Delta State on the East?",
+    options: [
+      "Anambra State and Rivers State",
+      "Edo State and Ondo State",
+      "Anambra State and Edo State",
+      "Kogi State and Rivers State"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Anambra State and Rivers State bound Delta State in which direction?",
+    options: [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    answer: 0
+  },
+
+  // Point 10
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What bounds Delta State on the Southern Flank?",
+    options: [
+      "The Bight of Benin (Atlantic Ocean)",
+      "The Bight of Biafra",
+      "The Gulf of Guinea",
+      "The River Niger Delta Basin"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Bight of Benin (Atlantic Ocean) is located on which flank of Delta State?",
+    options: [
+      "Southern Flank",
+      "Northern Flank",
+      "Eastern Flank",
+      "Western Flank"
+    ],
+    answer: 0
+  },
+
+  // Point 11
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is NOT listed as a component of the Delta State environment?",
+    options: [
+      "Troposphere",
+      "Hydrosphere",
+      "Biosphere",
+      "Lithosphere"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The environment of Delta State consists of which four components?",
+    options: [
+      "Hydrosphere, Biosphere, Atmosphere, and Lithosphere",
+      "Stratosphere, Mesosphere, Hydrosphere, and Lithosphere",
+      "Ionosphere, Hydrosphere, Biosphere, and Geosphere",
+      "Atmosphere, Cryosphere, Hydrosphere, and Biosphere"
+    ],
+    answer: 0
+  },
+
+  // Point 12
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What elements make up the hydrosphere, according to the notes?",
+    options: [
+      "Rivers, Lakes, Oceans, and other surface water bodies including ground reserves",
+      "Soils, rocks, and tectonic plates",
+      "Flora and fauna interacting on land",
+      "Main atmospheric gases like nitrogen and oxygen"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Under the hydrosphere, water bodies are located on the surface of the earth as well as in which of the following?",
+    options: [
+      "Ground reserves",
+      "Tectonic cracks",
+      "Volcanic lava",
+      "Plant stomata"
+    ],
+    answer: 0
+  },
+
+  // Point 13
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The biosphere is defined as the zone of interaction between which two elements?",
+    options: [
+      "Flora and Fauna",
+      "Rocks and Soils",
+      "Water and Atmosphere",
+      "Rivers and Oceans"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Flora and Fauna in the biosphere specifically refer to which of the following?",
+    options: [
+      "Plants and animals",
+      "Air and water",
+      "Soils and rocks",
+      "Lakes and rivers"
+    ],
+    answer: 0
+  },
+
+  // Point 14
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following are identified as the biologically active spheres?",
+    options: [
+      "Plants and animals",
+      "Soils and rocks",
+      "Rivers and lakes",
+      "Oceans and atmospheres"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Plants and animals are described as which of the following spheres?",
+    options: [
+      "Biologically active spheres",
+      "Abiotic chemical spheres",
+      "Lithospheric geological spheres",
+      "Atmospheric gaseous spheres"
+    ],
+    answer: 0
+  },
+
+  // Point 15
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the solid crust of the earth, comprising soils and rocks, called?",
+    options: [
+      "Lithosphere",
+      "Atmosphere",
+      "Hydrosphere",
+      "Biosphere"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The lithosphere comprises which of the following components?",
+    options: [
+      "Soils and rocks",
+      "Plants and animals",
+      "Rivers and lakes",
+      "Oxygen and nitrogen"
+    ],
+    answer: 0
+  },
+
+  // Point 16
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What does the high concentration of biodiversity in the Delta State Environment include?",
+    options: [
+      "Timber and non-wood products",
+      "Heavy industrial machinery",
+      "Arid desert vegetation",
+      "Petrochemical derivatives only"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State's environment is noted for containing a very high concentration of which of the following?",
+    options: [
+      "Biodiversity",
+      "Tectonic faults",
+      "Arid plains",
+      "Inactive volcanoes"
+    ],
+    answer: 0
+  },
+
+  // Point 17
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "In terms of what is Delta State described as a great state in Point 17?",
+    options: [
+      "Diversity of languages spoken and cultural affiliation",
+      "Total land area in square miles",
+      "Its volume of annual crude oil production",
+      "Its high density of active mountain chains"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State exhibits great diversity in which two aspects of its human geography?",
+    options: [
+      "Languages spoken and cultural affiliation",
+      "Tectonic movements and rock erosion",
+      "Agricultural output and irrigation channels",
+      "Industrial emissions and water purification"
+    ],
+    answer: 0
+  },
+
+  // Point 18
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How many major rivers are associated with Delta State?",
+    options: [
+      "Seven",
+      "Five",
+      "Nine",
+      "Four"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is NOT listed among the seven major rivers associated with Delta State?",
+    options: [
+      "Benue",
+      "Ethiope",
+      "Forcados",
+      "Jamieson"
+    ],
+    answer: 0
+  },
+
+  // Point 19
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State's Senatorial Districts are divided into which areas?",
+    options: [
+      "Delta North, Delta Central, and Delta South",
+      "Delta East, Delta West, and Delta Central",
+      "Delta North, Delta West, and Delta South",
+      "Delta Coast, Delta Mainland, and Delta Uplands"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How many Senatorial Districts make up Delta State?",
+    options: [
+      "Three",
+      "Four",
+      "Two",
+      "Five"
+    ],
+    answer: 0
+  },
+
+  // Point 20
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How many Local Government Areas comprise the Delta North Senatorial District?",
+    options: [
+      "Nine (9)",
+      "Eight (8)",
+      "Seven (7)",
+      "Ten (10)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which Senatorial District in Delta State is comprised of exactly nine (9) Local Government Areas?",
+    options: [
+      "Delta North",
+      "Delta Central",
+      "Delta South",
+      "Delta East"
+    ],
+    answer: 0
+  },
+
+  // Point 21
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The nine Local Government Areas of the Delta North Senatorial District comprise primarily of which people?",
+    options: [
+      "Ibo speaking people",
+      "Urhobo speaking people",
+      "Ijaw speaking people",
+      "Itsekiri speaking people"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The linguistic population in the nine Local Government Areas of the Delta North Senatorial District is mainly:",
+    options: [
+      "Ibo speaking",
+      "Urhobo speaking",
+      "Isoko speaking",
+      "Edo speaking"
+    ],
+    answer: 0
+  },
+
+  // Point 22
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following are the Ibo-speaking areas in the North Senatorial District of Delta State?",
+    options: [
+      "Aniocha/Oshimili, Ukwuani, and Ika",
+      "Urhobo and Okpe clans",
+      "Isoko, Ijaw, and Itsekiri",
+      "Sapele, Patani, and Udu"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Ukwuani, Ika, and Aniocha/Oshimili are Ibo-speaking areas situated in which Senatorial District of Delta State?",
+    options: [
+      "North Senatorial District",
+      "Central Senatorial District",
+      "South Senatorial District",
+      "East Senatorial District"
+    ],
+    answer: 0
+  },
+
+  // Point 23
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Central Senatorial District of Delta State comprises how many Local Government Areas?",
+    options: [
+      "Eight (8)",
+      "Nine (9)",
+      "Seven (7)",
+      "Ten (10)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which Senatorial District of Delta State has eight (8) Local Government Areas and consists of Urhobo and Okpe clans?",
+    options: [
+      "Central Senatorial District",
+      "North Senatorial District",
+      "South Senatorial District",
+      "West Senatorial District"
+    ],
+    answer: 0
+  },
+
+  // Point 24
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following clans/areas comprise the Central Senatorial District of Delta State?",
+    options: [
+      "Urhobo and Okpe clans",
+      "Isoko and Ijaw tribes",
+      "Aniocha and Oshimili areas",
+      "Ukwuani and Ika areas"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Urhobo and Okpe clans comprise which Senatorial District in Delta State?",
+    options: [
+      "Central Senatorial District",
+      "North Senatorial District",
+      "South Senatorial District",
+      "East Senatorial District"
+    ],
+    answer: 0
+  },
+
+  // Point 25
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How many Local Government Areas comprise the Delta South Senatorial District?",
+    options: [
+      "Eight (8)",
+      "Nine (9)",
+      "Seven (7)",
+      "Ten (10)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Beside Delta Central, which other Senatorial District in Delta State comprises exactly eight (8) Local Government Areas?",
+    options: [
+      "Delta South",
+      "Delta North",
+      "Delta East",
+      "Delta West"
+    ],
+    answer: 0
+  },
+
+  // Point 26
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which tribes comprise the South Senatorial District in Delta State?",
+    options: [
+      "Isoko, Ijaw, and Itsekiri",
+      "Urhobo and Okpe",
+      "Aniocha, Oshimili, and Ukwuani",
+      "Ika, Ndokwa, and Sapele"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Isoko, Ijaw, and Itsekiri tribes are located in which Senatorial District of Delta State?",
+    options: [
+      "South Senatorial District",
+      "Central Senatorial District",
+      "North Senatorial District",
+      "West Senatorial District"
+    ],
+    answer: 0
+  },
+
+  // Point 27
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Through which mechanisms do the ethnic groups in Delta State interact?",
+    options: [
+      "Inter-marriage, trade, religion, politics, and education",
+      "Strict linguistic isolation and geographic borders",
+      "Military confrontation and trade restrictions",
+      "Separate administrative councils only"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is NOT listed as a mode of interaction among the ethnic groups in Delta State?",
+    options: [
+      "Armed territorial expansion",
+      "Inter-marriage",
+      "Trade",
+      "Politics and education"
+    ],
+    answer: 0
+  },
+
+  // Point 28
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Religious practices in Delta State revolve around which of the following?",
+    options: [
+      "Christianity, African Traditional Religion, and a very sparing incidence of Islam",
+      "Christianity and Islam with no incidence of Traditional Religion",
+      "Purely African Traditional Religion",
+      "Islam and Judaism with a sparing incidence of Christianity"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The incidence of which religion is described as 'very sparing' in Delta State?",
+    options: [
+      "Islam",
+      "Christianity",
+      "African Traditional Religion",
+      "Buddhism"
+    ],
+    answer: 0
+  },
+
+  // Point 29
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the capital city of Delta State?",
+    options: [
+      "Asaba",
+      "Warri",
+      "Sapele",
+      "Abraka"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which city is officially designated as the capital of Delta State?",
+    options: [
+      "Asaba",
+      "Warri",
+      "Agbor",
+      "Ughelli"
+    ],
+    answer: 0
+  },
+
+  // Point 30
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "In which Local Government Area is the capital city, Asaba, located?",
+    options: [
+      "Oshimili South Local Government Area",
+      "Oshimili North Local Government Area",
+      "Aniocha South Local Government Area",
+      "Ika South Local Government Area"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Oshimili South Local Government Area is the location of which major city?",
+    options: [
+      "Asaba",
+      "Warri",
+      "Agbor",
+      "Ozoro"
+    ],
+    answer: 0
+  },
+
+  // Point 31
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is a Local Government Area in Delta State listed in Point 31?",
+    options: [
+      "Ika North-East",
+      "Ndokwa West",
+      "Oshimili North",
+      "Uvwie"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which pair of LGAs is listed under Point 31 of the notes?",
+    options: [
+      "Isoko North and Isoko South",
+      "Ndokwa East and Ndokwa West",
+      "Oshimili North and Oshimili South",
+      "Warri North and Warri South"
+    ],
+    answer: 0
+  },
+
+  // Point 32
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following Local Government Areas is listed in Point 32?",
+    options: [
+      "Ughelli North",
+      "Burutu",
+      "Bomadi",
+      "Ika South"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Ndokwa East, Ndokwa West, and Okpe are located in which point's list of Delta State LGAs?",
+    options: [
+      "Point 32",
+      "Point 31",
+      "Point 33",
+      "Point 34"
+    ],
+    answer: 0
+  },
+
+  // Point 33
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following LGAs is listed under Point 33?",
+    options: [
+      "Warri South-West",
+      "Ughelli South",
+      "Oshimili South",
+      "Ethiope West"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Ukwuani and Uvwie are listed as part of the Local Government Areas under which point?",
+    options: [
+      "Point 33",
+      "Point 31",
+      "Point 32",
+      "Point 34"
+    ],
+    answer: 0
+  },
+
+  // Point 34
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following universities is located in Abraka?",
+    options: [
+      "Delta State University",
+      "Novena University",
+      "Western Delta University",
+      "Federal University of Petroleum Resources"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Novena University is located in which town in Delta State?",
+    options: [
+      "Amai",
+      "Abraka",
+      "Oghara",
+      "Effurun"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Federal University of Petroleum Resources is located in which town?",
+    options: [
+      "Effurun",
+      "Oghara",
+      "Ozoro",
+      "Abraka"
+    ],
+    answer: 0
+  },
+
+  // Point 35
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the definition of vegetation, according to Point 35?",
+    options: [
+      "The total plant coverage in an area",
+      "The total animal population in an area",
+      "The degree of rainfall in a region",
+      "The quality of topsoil in an ecosystem"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Total plant coverage in an area is referred to as:",
+    options: [
+      "Vegetation",
+      "Forestry",
+      "Flora interaction",
+      "Biodiversity"
+    ],
+    answer: 0
+  },
+
+  // Point 36
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Vegetation is defined as the type of plant that grows in an area if there is no:",
+    options: [
+      "Human interference with the prevailing vegetation",
+      "Animal grazing in the immediate area",
+      "Seasonal variation in rainfall",
+      "Soil erosion from wind"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What must be absent for vegetation to represent the type of plant that grows naturally in an area?",
+    options: [
+      "Human interference",
+      "Atmospheric oxygen",
+      "Groundwater reserves",
+      "Decomposition"
+    ],
+    answer: 0
+  },
+
+  // Point 37
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following factors of a region can affect the nature of its vegetation?",
+    options: [
+      "Climate",
+      "Tectonic activity",
+      "Language diversity",
+      "Political boundaries"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The climate of a region has a direct effect on which of the following?",
+    options: [
+      "The nature of vegetation",
+      "The naming of local government areas",
+      "The locations of universities",
+      "The boundaries of senatorial districts"
+    ],
+    answer: 0
+  },
+
+  // Point 38
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is NOT listed as a vegetation type in Delta State?",
+    options: [
+      "Montane grassland",
+      "Mangrove swamp forest",
+      "Freshwater swamp forest",
+      "Derived savanna"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How many vegetation types are identified in Delta State according to Point 38?",
+    options: [
+      "Four (4)",
+      "Three (3)",
+      "Five (5)",
+      "Six (6)"
+    ],
+    answer: 0
+  },
+
+  // Point 39
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Delta State's rich endowment of vegetable resources includes herbs, shrubs, and what else?",
+    options: [
+      "Timber products",
+      "Fossil fuels",
+      "Tectonic ores",
+      "Mineral salts"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Herbs, shrubs, and timber products in Delta State are categorized as:",
+    options: [
+      "Vegetable resources",
+      "Mineral resources",
+      "Atmospheric resources",
+      "Hydrospheric resources"
+    ],
+    answer: 0
+  },
+
+  // Point 40
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What are the two seasonal winds that influence the climate of Delta State?",
+    options: [
+      "The South-West Monsoon Winds and the North East trade winds",
+      "The Westerlies and the Polar Easterlies",
+      "The South-East trade winds and the Harmattan",
+      "The Monsoon Sea Breeze and the Sahara Winds"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How many seasonal winds influence the climate of Delta State?",
+    options: [
+      "Two (2)",
+      "Four (4)",
+      "Three (3)",
+      "Five (5)"
+    ],
+    answer: 0
+  },
+
+  // Point 41
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "During which season do the South-west winds prevail over Delta State?",
+    options: [
+      "The wet season",
+      "The dry season",
+      "The harmattan season",
+      "The autumn transition"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The wet season in Delta State is dominated by which seasonal wind?",
+    options: [
+      "The South-West winds",
+      "The North-East trade winds",
+      "The Polar winds",
+      "The Easterly winds"
+    ],
+    answer: 0
+  },
+
+  // Point 42
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Why are the South-west monsoon winds moisture-laden?",
+    options: [
+      "Because they blow from the Atlantic Ocean",
+      "Because they blow from the Sahara desert",
+      "Because they cross the River Niger",
+      "Because they originate from the rainforest canopy"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The moisture-laden South-west monsoon winds blow from which major body of water?",
+    options: [
+      "The Atlantic Ocean",
+      "The Pacific Ocean",
+      "The Indian Ocean",
+      "The Mediterranean Sea"
+    ],
+    answer: 0
+  },
+
+  // Point 43
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "During which season do the North-East trade winds prevail over Delta State?",
+    options: [
+      "The dry season",
+      "The wet season",
+      "The spring season",
+      "The rainy season"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The North-East trade winds blow over Delta State from which geographical source?",
+    options: [
+      "The Sahara desert",
+      "The Atlantic Ocean",
+      "The Jos Plateau",
+      "The Gulf of Guinea"
+    ],
+    answer: 0
+  },
+
+  // Point 44
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What physical condition is produced by the North-East trade winds?",
+    options: [
+      "A dry and dusty condition",
+      "A cold and wet condition",
+      "A hot and humid condition",
+      "An extremely rainy condition"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which winds are directly responsible for the dry and dusty condition in Delta State?",
+    options: [
+      "The North-East trade winds",
+      "The South-West monsoon winds",
+      "The Westerlies",
+      "The Polar Easterlies"
+    ],
+    answer: 0
+  },
+
+  // Point 45
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The climate of Delta State is characterized by what temperature pattern?",
+    options: [
+      "High and very even temperature",
+      "Low and highly fluctuating temperature",
+      "Extremely cold and freezing temperature",
+      "Mild and highly seasonal temperature"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What describes the temperature pattern in Delta State?",
+    options: [
+      "High and very even",
+      "Extremely low",
+      "Highly variable",
+      "Fluctuating daily"
+    ],
+    answer: 0
+  },
+
+  // Point 46
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the minimum temperature in Delta State?",
+    options: [
+      "28 degrees Celsius",
+      "20 degrees Celsius",
+      "25 degrees Celsius",
+      "30 degrees Celsius"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the maximum temperature in Delta State?",
+    options: [
+      "34 degrees Celsius",
+      "40 degrees Celsius",
+      "38 degrees Celsius",
+      "30 degrees Celsius"
+    ],
+    answer: 0
+  },
+
+  // Point 47
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The Mean annual rainfall in Delta State is 190.5cm in which part of the state?",
+    options: [
+      "The North",
+      "The coastal areas",
+      "The South",
+      "The West"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is the mean annual rainfall experienced in the coastal areas of Delta State?",
+    options: [
+      "256.7cm",
+      "190.5cm",
+      "320.4cm",
+      "110.2cm"
+    ],
+    answer: 0
+  },
+
+  // Point 48
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as a tourist site in Delta State?",
+    options: [
+      "Lander Brother Anchorage",
+      "Yankari Game Reserve",
+      "Olumo Rock",
+      "Zuma Rock"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Mungo Park House and the Source of Ethiope River are examples of what in Delta State?",
+    options: [
+      "Tourist sites",
+      "Educational institutions",
+      "Local Government headquarters",
+      "Industrial estates"
+    ],
+    answer: 0
+  },
+
+  // Point 49
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Why is flooding in Delta State both a coastal and inland problem?",
+    options: [
+      "Due to copious precipitation",
+      "Due to tectonic activity and land movement",
+      "Due to dry and dusty winds",
+      "Due to high temperature evaporation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as an environmental hazard in Delta State?",
+    options: [
+      "Blocking of waterways by water hyacinth",
+      "Extreme volcanic eruptions",
+      "Severe earthquakes",
+      "Desertification of all major rivers"
+    ],
+    answer: 0
+  },
+
+  // Point 50
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as a way to address Delta State's environmental challenges?",
+    options: [
+      "Tree planting and erosion control",
+      "Increasing industrial emissions",
+      "Promoting lumbering and tree felling",
+      "Allowing unchecked bush burning"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Evacuating debris from water bodies is an action aimed at:",
+    options: [
+      "Addressing environmental challenges",
+      "Promoting water hyacinth growth",
+      "Generating electrical energy",
+      "Increasing coastal flooding"
+    ],
+    answer: 0
+  },
+
+  // Point 51
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Who is the Governor of Delta State?",
+    options: [
+      "Hon. Sheriff Francis Orohwedor Oborevwori",
+      "Monday John Onyeme",
+      "Professor Nyerovwo Tonukari",
+      "James Ibori"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Hon. Sheriff Francis Orohwedor Oborevwori holds which of the following offices?",
+    options: [
+      "Governor of Delta State",
+      "Deputy Governor of Delta State",
+      "Speaker of DTHA",
+      "Commissioner for Higher Education"
+    ],
+    answer: 0
+  },
+
+  // Point 52
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Who is the Deputy Governor of Delta State?",
+    options: [
+      "Monday John Onyeme",
+      "Sheriff Francis Orohwedor Oborevwori",
+      "Professor Nyerovwo Tonukari",
+      "Ifeanyi Okowa"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Monday John Onyeme is the:",
+    options: [
+      "Deputy Governor of Delta State",
+      "Governor of Delta State",
+      "Speaker of the DTHA",
+      "Chief Justice of Delta State"
+    ],
+    answer: 0
+  },
+
+  // Point 53
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Who is the Commissioner for Higher Education and Speaker of DTHA?",
+    options: [
+      "Professor Nyerovwo Tonukari",
+      "Monday John Onyeme",
+      "Sheriff Francis Orohwedor Oborevwori",
+      "Prof. Patrick Muoboghare"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Professor Nyerovwo Tonukari serves as:",
+    options: [
+      "Commissioner for Higher Education and Speaker of DTHA",
+      "Deputy Governor of Delta State",
+      "Governor of Delta State",
+      "Speaker of the House of Assembly only"
+    ],
+    answer: 0
+  },
+
+  // Point 54
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as an airport in Delta State under Point 54?",
+    options: [
+      "Asaba International Airport",
+      "Lagos Airport",
+      "Port Harcourt Airport",
+      "Benin Airport"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Warri Airport, Escravos Airport, and Forcados Terminal Airport are located in which state?",
+    options: [
+      "Delta State",
+      "Edo State",
+      "Rivers State",
+      "Bayelsa State"
+    ],
+    answer: 0
+  },
+
+  // Point 55
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as a prison in Delta State?",
+    options: [
+      "Federal Prison Sapele",
+      "Kirikiri Prison",
+      "Kuje Prison",
+      "Warri Maximum Prison"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Point 55 lists which facilities in Delta State?",
+    options: [
+      "Federal Prison, Delta State Federal Prison, and Federal Prison Sapele",
+      "Lander Brother Anchorage and Nana Living History Museum",
+      "Asaba Airport and Warri Airport",
+      "DELSU and Novena University"
+    ],
+    answer: 0
+  },
+
+  // Point 56 (Wildlife biodiversity)
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Wildlife biodiversity can be prevented from extinction by habitat protection, conservation initiatives, and:",
+    options: [
+      "Enforcement of wildlife protection laws",
+      "Encouraging illegal logging",
+      "Promoting industrial emissions",
+      "Deforestation of lowland rainforests"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is habitat protection listed as a measure for?",
+    options: [
+      "Preventing wildlife biodiversity from extinction",
+      "Promoting air pollution",
+      "Encouraging soil erosion",
+      "Increasing the maximum temperature"
+    ],
+    answer: 0
+  },
+
+  // Point 57 (Biodiversity conservation)
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What does biodiversity conservation preserve in Delta State?",
+    options: [
+      "The rich natural heritage",
+      "Tectonic stability",
+      "Atmospheric carbon dioxide levels",
+      "Dry and dusty conditions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Preserving Delta State's rich natural heritage through biodiversity conservation supports:",
+    options: [
+      "Ecosystem health and resilience",
+      "Ozone layer depletion",
+      "Global warming",
+      "Acid rain formation"
+    ],
+    answer: 0
+  },
+
+  // Point 58
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Air pollution from gas flaring and industrial emissions contributes to:",
+    options: [
+      "Ozone layer depletion and global warming",
+      "Ecosystem health and resilience",
+      "The prevention of wildlife extinction",
+      "Erosion control and reforestation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following environmental problems is contributed to by gas flaring and industrial emissions?",
+    options: [
+      "Ozone layer depletion and global warming",
+      "Biodiversity conservation",
+      "Groundwater replenishment",
+      "Soil formation and nutrient cycling"
+    ],
+    answer: 0
+  },
+
+  // Point 59
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as a source of pollution in Delta State?",
+    options: [
+      "Oil Spillage",
+      "Tree planting",
+      "Erosion control",
+      "Habitat protection"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Oil spillage, unhygienic waste dumping, gas flaring, and industrial emissions are categorized as:",
+    options: [
+      "Sources of pollution in Delta State",
+      "Erosion control measures",
+      "Vegetation types in Delta State",
+      "Biologically active spheres"
+    ],
+    answer: 0
+  },
+
+  // Point 60
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is listed as an erosion control measure?",
+    options: [
+      "Drainages and dykes",
+      "Unhygienic waste dumping",
+      "Gas flaring",
+      "Lumbering and tree felling"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Promoting tree planting and reforestation campaigns serve as measures for:",
+    options: [
+      "Erosion control",
+      "Gas flaring",
+      "Increasing industrial emissions",
+      "Lumbering"
+    ],
+    answer: 0
+  },
+
+  // Point 61
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which environmental component acts as a shield against harmful solar radiation and regulates temperatures?",
+    options: [
+      "The atmosphere",
+      "The lithosphere",
+      "The hydrosphere",
+      "The biosphere"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The atmosphere acts as a shield against which of the following to sustain life?",
+    options: [
+      "Harmful solar radiation",
+      "Tectonic activities",
+      "Volcanic debris",
+      "Water hyacinth"
+    ],
+    answer: 0
+  },
+
+  // Point 62
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "How does the biosphere interact with the lithosphere?",
+    options: [
+      "Through soil formation and nutrient cycling",
+      "Through ozone layer depletion and global warming",
+      "Through gas flaring and oil spillage",
+      "Through flooding and precipitation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Soil formation and nutrient cycling are processes through which the lithosphere interacts with which sphere?",
+    options: [
+      "The biosphere",
+      "The atmosphere",
+      "The hydrosphere",
+      "The exosphere"
+    ],
+    answer: 0
+  },
+
+  // Point 63
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What is groundwater described as in the notes?",
+    options: [
+      "An essential source of fresh water for human consumption and ecosystem support",
+      "A primary contributor to air pollution and global warming",
+      "The main component of the solid crust of the earth",
+      "A dry and dusty atmospheric wind condition"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Groundwater serves as an essential source of fresh water for ecosystem support and:",
+    options: [
+      "Human consumption",
+      "Industrial emission",
+      "Gas flaring",
+      "Soil erosion"
+    ],
+    answer: 0
+  },
+
+  // Point 64
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Nitrogen makes up approximately what percentage of the earth's atmosphere?",
+    options: [
+      "78%",
+      "21%",
+      "0.03%",
+      "12%"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which gas makes up about 78% of the earth's atmosphere?",
+    options: [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    answer: 0
+  },
+
+  // Point 65
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Mammals, birds, reptiles, and insects are examples of what in the biosphere?",
+    options: [
+      "Fauna",
+      "Flora",
+      "Lithosphere",
+      "Hydrosphere"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Fauna found in the biosphere consists of which of the following?",
+    options: [
+      "Animals such as mammals, birds, reptiles, and insects",
+      "Plants such as herbs, shrubs, and timber",
+      "Rocks and minerals within the crust",
+      "Gases such as oxygen and nitrogen"
+    ],
+    answer: 0
+  },
+
+  // Point 66
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "What are the main components of the atmosphere listed in the notes?",
+    options: [
+      "Oxygen, Nitrogen, and Carbon dioxide",
+      "Hydrogen, Helium, and Methane",
+      "Argon, Neon, and Krypton",
+      "Carbon monoxide, Sulfur, and Chlorine"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following is NOT listed as a main component of the atmosphere in Point 66?",
+    options: [
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    answer: 0
+  },
+
+  // Point 67
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "Which of the following are the major river systems present in Delta State?",
+    options: [
+      "The River Niger and Benin River",
+      "The River Benue and Cross River",
+      "The River Kaduna and Ogun River",
+      "The River Ethiope and Forcados River"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst103",
+    chapter: 1,
+    question: "The River Niger and which other river constitute the major river systems in Delta State?",
+    options: [
+      "Benin River",
+      "Benue River",
+      "Syr Darya",
+      "Limpopo River"
+    ],
+    answer: 0
+  }
 ]
