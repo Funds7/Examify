@@ -10137,5 +10137,4517 @@ const QUESTIONS = [
     "Ethno-philosophy"
   ],
   "answer": 0
+},
+ {
+  "course": "gst102",
+  "chapter": 6,
+  "question": "For Pythagoras, philosophy is seen as:",
+  "options": [
+    "strictly a method of religious salvation",
+    "an empirical study of mathematical objects",
+    "both mere intellectual exercise and cerebral entertainment",
+    "a political ideology for state governance"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Which thinker viewed philosophy as both mere intellectual exercise and cerebral entertainment?",
+  "options": [
+    "Sodipo",
+    "Pythagoras",
+    "Ake",
+    "Immanuel Kant"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Sodipo views philosophy as reflective and critical thinking about which of the following?",
+  "options": [
+    "The concepts and principles which we use to organize our experience in morals, religion, in social and political life",
+    "The physical laws of nature and cosmos",
+    "The collection of traditional ethnic beliefs",
+    "The mathematical structures of reality"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Who defines philosophy as reflective and critical thinking about the concepts and principles used to organize our experience in morals, religion, in social and political life?",
+  "options": [
+    "Ake",
+    "Pythagoras",
+    "Copi",
+    "Sodipo"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "According to Ake, development is the process by which people:",
+  "options": [
+    "copy Western technological and economic systems",
+    "discard traditional cultural practices completely",
+    "create and recreate themselves and their life circumstances to realize higher levels of civilization",
+    "exploit natural resources for immediate economic gain"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Which scholar defined development as the process by which people create and recreate themselves and their life circumstances to realize higher levels of civilization?",
+  "options": [
+    "Sodipo",
+    "Copi",
+    "Ake",
+    "Immanuel Kant"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "The notes identify how many classes of challenges to national development?",
+  "options": [
+    "Three classes",
+    "Four classes",
+    "Two classes",
+    "Five classes"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "What are the two classes of challenges to national development identified in the notes?",
+  "options": [
+    "Empirical/material and mental/moral/spiritual",
+    "Economic/technological and political/legal",
+    "Traditional/modern and local/foreign",
+    "Cultural/religious and educational/scientific"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "The empirical/material challenges of national development are regarded as what type of challenges?",
+  "options": [
+    "Intangible challenges of national development",
+    "Tangible challenges of national development",
+    "Irrelevant challenges of national development",
+    "Accidental challenges of national development"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Tangible challenges of national development are also known as:",
+  "options": [
+    "mental/moral/spiritual challenges",
+    "empirical/material challenges",
+    "cultural syncretism challenges",
+    "deontological challenges"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "The mental/moral/spiritual challenges of national development are referred to as:",
+  "options": [
+    "tangible challenges",
+    "empirical challenges",
+    "material challenges",
+    "intangible challenges of national development"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Which of the following are included in the intangible (mental/moral/spiritual) challenges of national development?",
+  "options": [
+    "Values of freedom, justice, human rights, liberty, and other moral indicators",
+    "Infrastructure, income per capita, and road networks",
+    "Industrial factories, physical buildings, and monetary assets",
+    "Scientific equipment and technological hardware"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Immanuel Kant's deontologist perspective emphasizes the priority of:",
+  "options": [
+    "utilitarian satisfaction",
+    "man's dignity",
+    "material wealth",
+    "state sovereignty"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Whose deontologist perspective emphasizes the priority of man's dignity?",
+  "options": [
+    "Immanuel Kant's",
+    "Sodipo's",
+    "Ake's",
+    "Copi's"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Consequentialism determines the moral worth of man's actions, policies, and events based on:",
+  "options": [
+    "their adherence to absolute duty",
+    "their outcomes",
+    "the agent's inner intentions",
+    "the cultural setting"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "What ethical theory determines the moral worth of actions, policies, and events based on their outcomes?",
+  "options": [
+    "Deontology",
+    "Syncretism",
+    "Socratic dialectic",
+    "Consequentialism"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Adopting the standard of deontologists ensures that as income per capita appreciates due to advancements, what is considered as a priority?",
+  "options": [
+    "The human being",
+    "Capital accumulation",
+    "Technological machinery",
+    "Military strength"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "According to Point 9, what ensures that the human being is considered a priority as income per capita appreciates?",
+  "options": [
+    "Applying a purely consequentialist model",
+    "Advocating for cultural syncretism",
+    "Adopting the standard of deontologists",
+    "Expanding material challenges"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "According to the notes, which of the following is one of the factors challenging national development?",
+  "options": [
+    "Governance",
+    "Logic",
+    "Cultural syncretism",
+    "Philosophic sagacity"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Governance is identified in Point 10 as one of the factors challenging which of the following?",
+  "options": [
+    "National development",
+    "Cerebral entertainment",
+    "Logical reasoning",
+    "Ethno-philosophy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "What branch of philosophy identifies and evaluates ideal forms of political existence by examining how men should conduct themselves in the state or society?",
+  "options": [
+    "Political philosophy",
+    "Social philosophy",
+    "Epistemology",
+    "Logic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "According to political philosophy, how should the ideal forms of political existence be identified and evaluated?",
+  "options": [
+    "By measuring the physical resources of the state",
+    "By examining how men should conduct themselves in the state or society",
+    "By enforcing a single ethnic system of values",
+    "By studying purely abstract mathematical logic"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Which branch of philosophy helps to explain the rational and critical connection of development to culture?",
+  "options": [
+    "Political philosophy",
+    "Deontology",
+    "Logic",
+    "Social philosophy"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Social philosophy helps to explain the rational and critical connection of development to:",
+  "options": [
+    "culture",
+    "income per capita",
+    "governance",
+    "actions"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Cultural syncretism is defined as the:",
+  "options": [
+    "outright condemnation of foreign traditions",
+    "unity of values across cultures",
+    "rejection of moral reasoning",
+    "dominance of one culture over another"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "The unity of values across cultures is referred to as:",
+  "options": [
+    "Cultural syncretism",
+    "Consequentialism",
+    "Deontology",
+    "Political philosophy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "For Copi, the greatest benefit of logic is the recognition that:",
+  "options": [
+    "reason can be applied in every aspect of human affairs",
+    "arguments are useless in daily life",
+    "ethics is superior to reason",
+    "only mathematicians can think critically"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 6,
+  "question": "Which scholar stated that the greatest benefit of logic is the recognition that reason can be applied in every aspect of human affairs?",
+  "options": [
+    "Pythagoras",
+    "Sodipo",
+    "Ake",
+    "Copi"
+  ],
+  "answer": 3
+},
+  {
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Etymologically, the word 'philosophy' is taken from two Greek words which are:",
+  "options": [
+    "'demos' and 'kratei'",
+    "'philo' (love) and 'Sophia' (wisdom)",
+    "'ethnos' and 'sophia'",
+    "'philo' (mind) and 'logos' (study)"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What are the etymological meanings of the two Greek words 'philo' and 'Sophia'?",
+  "options": [
+    "Mind and thought",
+    "Power and nation",
+    "Nature and science",
+    "Love and wisdom"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "According to Taylor (1957), who was credited to have been the first thinker to use the word 'philosophy'?",
+  "options": [
+    "Socrates",
+    "Pythagoras",
+    "Plato",
+    "Aristotle"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Socrates was credited to have been the first thinker to use the word 'philosophy' according to which scholar?",
+  "options": [
+    "Taylor (1957)",
+    "Sodipo (1975)",
+    "Ake (1989)",
+    "Lincoln (1863)"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Where does philosophy start from?",
+  "options": [
+    "Academic logic and scientific experiments",
+    "Religious texts and divine revelations",
+    "Man's experience of himself and the world around him",
+    "Written political constitutions"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Philosophy starts from man's experience of:",
+  "options": [
+    "technological development",
+    "himself and the world around him",
+    "modern political systems",
+    "scientific methodologies"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which type of philosophy seeks to analyze and clarify concepts, beliefs, and presuppositions of other disciplines?",
+  "options": [
+    "Critical philosophy",
+    "Dogmatic philosophy",
+    "Folk philosophy",
+    "Nationalist ideology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What is the primary objective of critical philosophy?",
+  "options": [
+    "To enforce absolute dogmatic beliefs without questioning",
+    "To analyze and clarify concepts, beliefs, and presuppositions of other disciplines",
+    "To record ethnic traditions and myths verbatim",
+    "To establish a system of academic credentials"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "That 'philosophy is not dogmatic' means:",
+  "options": [
+    "it does not accept issues based on faith",
+    "it depends entirely on religious dogmas",
+    "it accepts opinions without questioning",
+    "it does not use rational arguments"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Philosophy does not accept issues based on faith because it is not:",
+  "options": [
+    "critical",
+    "academic",
+    "analytical",
+    "dogmatic"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which of the following are branches of philosophy listed in Point 6 of the notes?",
+  "options": [
+    "Metaphysics, Epistemology, Ethics, Axiology, Logic, Social and political philosophy, etc.",
+    "Sociology, Anthropology, Political Science, Economics",
+    "Physics, Chemistry, Biology, Mathematics",
+    "Theology, Mysticism, Astrology, Palmistry"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Metaphysics, Epistemology, and Ethics are branches of:",
+  "options": [
+    "Democracy",
+    "Human Rights",
+    "Philosophy",
+    "Skepticism"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Instead of being dogmatic, philosophy enables us to critically interrogate:",
+  "options": [
+    "only scientific theories",
+    "issues, beliefs, and values",
+    "only religious books",
+    "the physical laws of nature"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Philosophy enables us to critically interrogate issues, beliefs, and values instead of being ________ about them.",
+  "options": [
+    "dogmatic",
+    "critical",
+    "reflective",
+    "analytical"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Democracy is difficult to define because it has been associated with:",
+  "options": [
+    "political decency and civilization",
+    "economic hardship and inflation",
+    "military dictatorship and absolute rule",
+    "anarchy and complete chaos"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What concept is difficult to define because it has been associated with political decency and civilization?",
+  "options": [
+    "Democracy",
+    "Philosophy",
+    "Deontology",
+    "Skepticism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The word 'democracy' is coined from two Greek words:",
+  "options": [
+    "'demos' and 'kratei'",
+    "'philo' and 'sophia'",
+    "'ethnos' and 'logos'",
+    "'deon' and 'logos'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What do the Greek words 'demos' and 'kratei' mean?",
+  "options": [
+    "Love of wisdom",
+    "The study of duty",
+    "The classification of cultures",
+    "The rule or sovereignty of the people"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The classical definition of democracy as the 'rule of the people' implies that:",
+  "options": [
+    "only select elites are allowed to govern",
+    "every individual must participate in the running of the affairs of the state",
+    "the military has absolute power",
+    "decisions are made solely by the president"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The implication that 'every individual must participate in the running of the affairs of the state' comes from which definition of democracy?",
+  "options": [
+    "The skeptic's definition",
+    "The Eurocentric definition",
+    "The modern dictionary definition",
+    "The classical definition"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What is the essential defining attribute of democracy that must reflect in every genuine definition of the concept?",
+  "options": [
+    "The principle of participation",
+    "The principle of absolute monarchism",
+    "The complete absence of a constitution",
+    "The accumulation of capital"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The principle of participation is regarded as the essential defining attribute of:",
+  "options": [
+    "philosophy",
+    "democracy",
+    "skepticism",
+    "consequentialism"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "According to Abraham Lincoln, democracy represents a system of government of:",
+  "options": [
+    "the people, by the people, and for the people",
+    "the wealthy, by the wealthy, and for the wealthy",
+    "the military, by the military, and for the state",
+    "the party, by the elites, and for the nation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Whose definition of democracy describes it as a system of government of the people, by the people, and for the people?",
+  "options": [
+    "Abraham Lincoln",
+    "Socrates",
+    "Taylor",
+    "Copi"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which ideals are associated with the concept of democracy in any democratic arrangement?",
+  "options": [
+    "The principles of participation, accountability, equality, and freedom",
+    "Total obedience, military rule, and single-party system",
+    "Dogmatism, absolute faith, and intellectual entertainment",
+    "Economic inflation, political decency, and skepticism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The principles of participation, accountability, equality, and freedom are democratic ________.",
+  "options": [
+    "ideals",
+    "challenges",
+    "branches",
+    "problems"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Participation as an ideal of democracy is often associated with:",
+  "options": [
+    "the direct military takeover of the government",
+    "the process of voting in an election where the people choose those that will govern them",
+    "the selection of traditional wise sages",
+    "the enforcement of absolute religious dogmas"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What process is often associated with participation as a democratic ideal, where people choose their governors for a given period?",
+  "options": [
+    "Voting in an election",
+    "Armed revolution",
+    "Judicial appointment",
+    "Lobbying by corporate groups"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The principle of accountability, as noted in Point 15, assumes that:",
+  "options": [
+    "rulers should never explain their actions to the public",
+    "only politicians are responsible for governance",
+    "every individual in the society must take part directly in the governance of the society",
+    "voters have no right to question the government"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which principle assumes that every individual in the society must take part directly in the governance of the society?",
+  "options": [
+    "The principle of accountability",
+    "The principle of skepticism",
+    "The principle of deontology",
+    "The principle of ethno-philosophy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "How many separate but related ideas does the notion of equality contain?",
+  "options": [
+    "Five",
+    "Three",
+    "Four",
+    "Two"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which of the following represents the five separate but related ideas within the notion of equality?",
+  "options": [
+    "Linguistic, regional, religious, age-based, and gender equality",
+    "Political, before the law, of opportunity, economic, and social equality",
+    "Local, national, continental, international, and universal equality",
+    "Philosophical, historical, logic-based, physical, and moral equality"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "According to the notes, freedom refers to:",
+  "options": [
+    "the complete absence of laws and political states",
+    "the accumulation of material and empirical wealth",
+    "the total submission to absolute faith",
+    "the ability to act without any restriction or without restriction"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What concept refers to 'the ability to act without any restriction or without restriction'?",
+  "options": [
+    "Freedom",
+    "Equality",
+    "Accountability",
+    "Participation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What is the capacity and essence of freedom in society?",
+  "options": [
+    "To allow absolute lawlessness and violence",
+    "To replace democracy with complete skepticism",
+    "To engender peace, order, and tolerance",
+    "To promote dogmatism and religious faith"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The capacity of freedom to engender peace, order, and tolerance in society represents its:",
+  "options": [
+    "essence",
+    "challenge",
+    "criticism",
+    "definition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Democracy emphasizes the right of man and acts upon which ideal?",
+  "options": [
+    "'might makes right'",
+    "'live and let live'",
+    "'obey without question'",
+    "'survival of the fittest'"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which system of government promotes the ideals of participation, accountability, and liberty, while emphasizing the right of man and the ideal of 'live and let live'?",
+  "options": [
+    "Absolute monarchy",
+    "Oligarchy",
+    "Democracy",
+    "Autocracy"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What are international norms that help to protect all people everywhere from political, legal, and social abuses?",
+  "options": [
+    "Human rights",
+    "National laws",
+    "Traditional proverbs",
+    "Religious dogmas"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Human rights protect all people everywhere from political, legal, and social:",
+  "options": [
+    "abuses",
+    "advancements",
+    "arrangements",
+    "achievements"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Human or fundamental human rights are moral rights that are held by all human beings:",
+  "options": [
+    "conditionally and subject to political party membership",
+    "only if they have a formal western education",
+    "unconditionally, unalterably and are based on human nature at the same time",
+    "temporarily based on state laws"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Fundamental human rights are held unconditionally, unalterably and are based on:",
+  "options": [
+    "national constitutions",
+    "written languages",
+    "military power",
+    "human nature"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "In which chapter of the 1999 constitution of the Federal Republic of Nigeria as amended are human rights enshrined?",
+  "options": [
+    "Chapter four (4)",
+    "Chapter two (2)",
+    "Chapter three (3)",
+    "Chapter five (5)"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The human rights enshrined in Chapter 4 are of which country's 1999 constitution as amended?",
+  "options": [
+    "Federal Republic of Nigeria",
+    "Republic of Ghana",
+    "Republic of Benin",
+    "Republic of Kenya"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Which of the following is listed among the fundamental human rights in Point 23?",
+  "options": [
+    "The right to life, speech, movement, private property, self-determination, and respect due to human dignity",
+    "The right to own weapons, access free international travel, and establish absolute laws",
+    "The right to completely ignore state laws and taxes",
+    "The right to govern a state without elections"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The right to life, speech, movement, private property, self-determination, and respect due to human dignity are classed as:",
+  "options": [
+    "fundamental human rights",
+    "democratic challenges",
+    "consequentialist actions",
+    "branches of ethics"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "The theory of human rights demands that every human being should be treated:",
+  "options": [
+    "differently based on social status",
+    "according to their economic wealth",
+    "on an equal basis",
+    "according to their political power"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "What theory demands that every human being should be treated on an equal basis?",
+  "options": [
+    "The theory of human rights",
+    "The theory of consequentialism",
+    "The theory of dogmatism",
+    "The theory of skepticism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "To the skeptic, human right is unjustifiable in terms of the notion of human worth because:",
+  "options": [
+    "the arguments canvassed in support are invalid",
+    "all humans have different physical structures",
+    "human nature is naturally evil",
+    "rights cannot be documented"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 7,
+  "question": "Who views human right as unjustifiable in terms of the notion of human worth because the arguments canvassed in support are invalid?",
+  "options": [
+    "The skeptic",
+    "The deontologist",
+    "The democrat",
+    "The consequentialist"
+  ],
+  "answer": 0
+},
+ {
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is required of a philosopher to perform their work well?",
+  "options": [
+    "To use correct (valid) arguments",
+    "To focus entirely on empirical science",
+    "To rely solely on traditional beliefs",
+    "To avoid analytical tools"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "A philosopher must be able to differentiate between correct and incorrect arguments, which are also known as:",
+  "options": [
+    "rational and irrational",
+    "true and false",
+    "valid and invalid",
+    "formal and informal"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The study of the methods or principles which the philosopher uses to test the validity and invalidity of arguments is known as:",
+  "options": [
+    "Metaphysics",
+    "Epistemology",
+    "Ethics",
+    "Logic"
+  ],
+  "answer": 3
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is the primary function of logic as stated in Point 2?",
+  "options": [
+    "To explain the creation of the cosmos",
+    "To test the validity and invalidity of arguments",
+    "To analyze political systems in the state",
+    "To establish rules of language grammar"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Logic may be defined as an art of argumentation or the:",
+  "options": [
+    "science of reasoning",
+    "study of human nature",
+    "critique of culture",
+    "history of philosophy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Logic is defined in Point 3 of the notes as both an art of argumentation and a:",
+  "options": [
+    "political ideology",
+    "science of reasoning",
+    "theology of faith",
+    "theory of justice"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which of the following are the two types of logic listed in Point 4?",
+  "options": [
+    "Deductive and Inductive logic",
+    "Formal and Informal logic",
+    "Traditional (formal) logic and Symbolic or mathematical logic",
+    "Syntax and Semantics"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Who developed traditional (formal) logic?",
+  "options": [
+    "Aristotle",
+    "Socrates",
+    "Plato",
+    "Russell"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which historical thinker first developed traditional (formal) logic?",
+  "options": [
+    "Pythagoras",
+    "Aristotle",
+    "Peano",
+    "Godel"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Traditional (formal) logic was first developed by:",
+  "options": [
+    "Aristotle",
+    "Russell",
+    "Tarski",
+    "Socrates"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is formal logic concerned with?",
+  "options": [
+    "The empirical content of physical laws",
+    "The formal and general structures of thought",
+    "The historical context of language",
+    "The mathematical computation of calculus"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The formal and general structures of thought are the main concern of:",
+  "options": [
+    "Informal logic",
+    "Formal logic",
+    "Metalogic",
+    "Semantics"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is the character of formal logic described in Point 7?",
+  "options": [
+    "Empiricist",
+    "Aprioristic",
+    "Consequentialist",
+    "Skeptical"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Because formal logic deals only with a particular form of thought and is aprioristic, what does it lack?",
+  "options": [
+    "Empirical principles",
+    "Logical structures",
+    "Categorical statements",
+    "Rational values"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What are syllogisms?",
+  "options": [
+    "Deductive arguments comprising of three categorical statements",
+    "Inductive arguments based on particular instances",
+    "Any statements expressing a truth value",
+    "Logical symbols representing statements"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Deductive arguments comprising of three categorical statements are called:",
+  "options": [
+    "Syllogisms",
+    "Propositions",
+    "Premises",
+    "Inferences"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "For syllogisms, two of the categorical statements are usually premises while the third is regarded as the:",
+  "options": [
+    "antecedent",
+    "conclusion",
+    "indicator",
+    "proposition"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "How many statements function as premises in a typical syllogism?",
+  "options": [
+    "Two",
+    "Three",
+    "One",
+    "Four"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The argument 'All men are mortal, Socrates is a man, Therefore, Socrates is mortal' is an example of:",
+  "options": [
+    "an inductive argument",
+    "a syllogism",
+    "a symbolic metalogic",
+    "a formal fallacy"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "In the example 'All men are mortal, Socrates is a man, Therefore, Socrates is mortal', what is 'Socrates is mortal'?",
+  "options": [
+    "The major premise",
+    "The minor premise",
+    "The conclusion",
+    "The inference"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "When considering the validity of a syllogistic argument, what is important to consider?",
+  "options": [
+    "The logical form and the content of the sentences or argument",
+    "The author of the sentences",
+    "The language used",
+    "The emotional impact of the sentences"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The logical form and the content of sentences are important when considering the:",
+  "options": [
+    "validity of a syllogistic argument",
+    "grammatical correction of a sentence",
+    "historical accuracy of a claim",
+    "political fairness of an idea"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What are the two main types of symbolic logic identified in the text?",
+  "options": [
+    "Logistics and Metalogic",
+    "Formal and Informal",
+    "Deductive and Inductive",
+    "Syntax and Semantics"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Logistics and Metalogic are the two main types of:",
+  "options": [
+    "Symbolic logic",
+    "Traditional logic",
+    "Informal logic",
+    "Deductive argument"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which branch of symbolic logic deals with the calculus of logic?",
+  "options": [
+    "Metalogic",
+    "Logistics",
+    "Formal logic",
+    "Inductive logic"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Logistics deals primarily with which of the following?",
+  "options": [
+    "The formal conditions of calculus",
+    "The calculus of logic",
+    "The empirical content of logic",
+    "The syntax of sentences"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What does Metalogic deal with?",
+  "options": [
+    "The calculus of logic",
+    "The formal conditions for logical calculus",
+    "The historical origin of symbols",
+    "The psychological aspects of reasoning"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The branch of symbolic logic that deals with the formal conditions for logical calculus is:",
+  "options": [
+    "Metalogic",
+    "Logistics",
+    "Formal logic",
+    "Traditional logic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What subfields are included in Metalogic?",
+  "options": [
+    "Calculus and logistics",
+    "Formal and informal reasoning",
+    "Syntax and semantics",
+    "Premises and conclusions"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Syntax and semantics are components of which branch of symbolic logic?",
+  "options": [
+    "Metalogic",
+    "Logistics",
+    "Traditional logic",
+    "Deductive logic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which notable figures helped in the development of symbolic logic?",
+  "options": [
+    "Socrates, Plato, Aristotle, and Epicurus",
+    "Hegel, Bruhl, Tempels, and Griaule",
+    "Peano, Tarski, Godel, and Russell",
+    "Wiredu, Gyekye, Oruka, and Hountondji"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Peano, Tarski, Godel, and Russell are notable figures associated with the development of:",
+  "options": [
+    "Traditional logic",
+    "Symbolic logic",
+    "Informal logic",
+    "Ethno-philosophy"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "According to Point 17, logic is about how we reason:",
+  "options": [
+    "emotionally or passionately",
+    "validly or soundly",
+    "unconsciously or automatically",
+    "historically or politically"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Reasoning validly or soundly is the core subject of:",
+  "options": [
+    "Logic",
+    "Metaphysics",
+    "Axiology",
+    "Ethics"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What differentiates human beings from lower animals according to the notes?",
+  "options": [
+    "Our capacity to reason well",
+    "Our physical strength",
+    "Our ability to move without restrictions",
+    "Our genetic sequence"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Our capacity to reason well serves to differentiate us from:",
+  "options": [
+    "Lower animals",
+    "Other human cultures",
+    "Political statesmen",
+    "Academic logicians"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "According to Frank Harrison, propositions used by someone to establish the truth or falsity of a conclusion are known as the:",
+  "options": [
+    "Conclusion set",
+    "Inference set",
+    "Premises set",
+    "Proposition set"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Who defined the 'premises set' as propositions used by someone to establish the truth or falsity of a conclusion?",
+  "options": [
+    "Frank Harrison",
+    "Aristotle",
+    "Peano",
+    "Russell"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The argument 'All men are mortal; John is a man; Therefore, John is mortal' is an example of:",
+  "options": [
+    "an argument",
+    "a proposition",
+    "an inductive logic",
+    "a fallacious syntax"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "In the argument 'All men are mortal; John is a man; Therefore, John is mortal', the statement 'John is mortal' is the:",
+  "options": [
+    "Premise",
+    "Conclusion",
+    "Inference",
+    "Calculus"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "An argument that has exactly two premises and a conclusion is known as a:",
+  "options": [
+    "proposition",
+    "metalogic",
+    "syllogism",
+    "semantics"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "A syllogism is an argument that contains:",
+  "options": [
+    "Two premises and a conclusion",
+    "One premise and a conclusion",
+    "Three premises and a conclusion",
+    "Only one proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What three components are involved in arguments?",
+  "options": [
+    "Premises, conclusions, and inference",
+    "Syntax, semantics, and logistics",
+    "Truth, falsity, and variables",
+    "Letters, words, and sentences"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Premises, conclusions, and inference are the elements that make up:",
+  "options": [
+    "Arguments",
+    "Propositions",
+    "Calculus",
+    "Syllables"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is defined as the idea that is expressed in a sentence?",
+  "options": [
+    "A proposition",
+    "A word",
+    "A grammatical rule",
+    "An inference"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "A proposition is defined in Point 23 as the:",
+  "options": [
+    "idea that is expressed in the sentence",
+    "grammatical structure of a language",
+    "combination of letters",
+    "outcome of an action"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is a combination of words by the grammatical rules of a language?",
+  "options": [
+    "A sentence",
+    "A proposition",
+    "An inference",
+    "A premises set"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "According to Point 24, a sentence is formed by combining words according to:",
+  "options": [
+    "the grammatical rules of a language",
+    "the logical laws of identity",
+    "the formal syntax of metalogic",
+    "the standard rules of syllogism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "A proposition is either true or false, and it is expressed in symbolic logic with which letters?",
+  "options": [
+    "P, Q, R, S, etc.",
+    "A, B, C, D, etc.",
+    "X, Y, Z, W, etc.",
+    "I, II, III, IV, etc."
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Letters like P, Q, R, S are used in symbolic logic to express:",
+  "options": [
+    "Propositions",
+    "Arguments",
+    "Conclusions",
+    "Inferences"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What are premises defined as in Point 26?",
+  "options": [
+    "Propositions which are affirmed as providing grounds for accepting the conclusion of an argument",
+    "Sentences which are grammatically correct",
+    "The final statements of an argument",
+    "Letters used to represent symbolic logic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Propositions that provide grounds for accepting the conclusion of an argument are called:",
+  "options": [
+    "Premises",
+    "Inferences",
+    "Syntax",
+    "Syllogisms"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which of the following are indicators used to identify a premise?",
+  "options": [
+    "'since', 'because', 'for', 'in as much'",
+    "'therefore', 'hence', 'thus', 'so'",
+    "'either', 'or', 'neither', 'nor'",
+    "'is', 'are', 'was', 'were'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Words like 'since', 'because', 'for', and 'in as much' function as:",
+  "options": [
+    "Premise indicators",
+    "Conclusion indicators",
+    "Inference symbols",
+    "Sentence variables"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is defined as the process whereby one proposition is affirmed based on one or more other propositions taken as starting points?",
+  "options": [
+    "Inferring",
+    "Synthesizing",
+    "Consequentialism",
+    "Deontology"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Inferring is a process where a proposition is affirmed based on other propositions which are taken as the:",
+  "options": [
+    "starting point of the process",
+    "ending point of the process",
+    "unconscious beliefs",
+    "fallacies of the argument"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is the conclusion defined as in Point 29?",
+  "options": [
+    "The proposition that is affirmed based on the premises",
+    "The starting point of the inferring process",
+    "The grammatical sentence of an argument",
+    "The variable used in symbolic logic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The proposition affirmed on the basis of the premises is known as the:",
+  "options": [
+    "Conclusion",
+    "Premise",
+    "Inference",
+    "Syllogism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What are the two types of arguments listed in Point 30?",
+  "options": [
+    "Deductive and Inductive arguments",
+    "Valid and Invalid arguments",
+    "Formal and Informal arguments",
+    "Logistics and Metalogic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Deductive argument and Inductive argument are the two types of:",
+  "options": [
+    "Arguments",
+    "Propositions",
+    "Laws of thought",
+    "Inferences"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "For a deductive argument, the premises provide what kind of grounds for the conclusion?",
+  "options": [
+    "Necessary and sufficient grounds or conclusive grounds",
+    "Weak and probable support",
+    "Ambiguous and confusing support",
+    "No support whatsoever"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "When premises provide necessary, sufficient, or conclusive grounds for affirming the conclusion, the argument is:",
+  "options": [
+    "Deductive",
+    "Inductive",
+    "Fallacious",
+    "Unsound"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "In deductive arguments, what terms do we use in place of 'correct' and 'incorrect'?",
+  "options": [
+    "'valid' and 'invalid'",
+    "'true' and 'false'",
+    "'strong' and 'weak'",
+    "'sound' and 'unsound'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The terms 'valid' and 'invalid' are specifically used in deductive logic to replace:",
+  "options": [
+    "'correct' and 'incorrect'",
+    "'rational' and 'irrational'",
+    "'premise' and 'conclusion'",
+    "'aprioristic' and 'empirical'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "A deductive argument is valid only when:",
+  "options": [
+    "the premises provide necessary and sufficient grounds for the affirmation of its conclusion",
+    "the premises and conclusion are all empirically true",
+    "there are more than three categorical statements",
+    "the argument has been written down in symbolic notation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "When the premises of a deductive argument provide necessary and sufficient grounds for its conclusion, the argument is said to be:",
+  "options": [
+    "Valid",
+    "Strong",
+    "Sound",
+    "Inductive"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The premises of an inductive argument do not provide:",
+  "options": [
+    "conclusive grounds for the affirmation of their conclusions",
+    "any support for the conclusion",
+    "empirical instances of observation",
+    "grammatically correct sentences"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which type of argument has premises that do not provide conclusive grounds for the affirmation of their conclusions?",
+  "options": [
+    "Inductive argument",
+    "Deductive argument",
+    "Syllogistic argument",
+    "Valid argument"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What distinguishes a strong inductive argument from a weak one?",
+  "options": [
+    "A strong argument has premises that provide more support, while a weak one provides less support",
+    "A strong argument is valid, while a weak argument is invalid",
+    "A strong argument contains symbolic letters, while a weak one does not",
+    "A strong argument has three premises, while a weak one has only one"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "In a weak inductive argument, the premises provide ________ support for the affirmation of the conclusion.",
+  "options": [
+    "less",
+    "conclusive",
+    "necessary and sufficient",
+    "complete"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "In an inductive argument, we reason from:",
+  "options": [
+    "particular instances to general conclusions",
+    "general principles to particular instances",
+    "absolute faith to dogmatic certainty",
+    "symbolic variables to physical laws"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The argument: 'The Goat seen today is black; The one seen yesterday is black; Therefore, all goats are black' is an example of:",
+  "options": [
+    "Inductive reasoning",
+    "Deductive reasoning",
+    "Syllogistic logic",
+    "Aprioristic calculus"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Unlike deductive arguments, an inductive argument can be weakened or strengthened by:",
+  "options": [
+    "the addition of more premises to the argument",
+    "changing the grammatical language",
+    "removing the conclusion entirely",
+    "expressing it in symbolic logic variables"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What type of argument is 'Most Nigerian lawyers are civil rights activists; Mudiaga Odje is a Nigerian lawyer; Therefore, Mudiaga Odje is probably a Civil Rights activist'?",
+  "options": [
+    "An inductive argument",
+    "A deductive argument",
+    "A valid syllogism",
+    "An unsound deductive argument"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is the logician primarily concerned with?",
+  "options": [
+    "The validity of arguments",
+    "The scientific analysis of animals",
+    "The political governance of society",
+    "The historical timeline of cultures"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "According to Point 38, the logician's concern is specifically focused on:",
+  "options": [
+    "argument validity",
+    "sentence grammar",
+    "factual truth of all world details",
+    "psychological states of thinkers"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "An invalid argument is shown when:",
+  "options": [
+    "the premises do not provide justifiable ground for accepting the conclusion",
+    "the premises are grammatically incorrect",
+    "the conclusion is true while premises are false",
+    "the argument has exactly two premises"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "If premises do not provide justifiable grounds for accepting the conclusion, the argument is classified as:",
+  "options": [
+    "Invalid",
+    "Inductive",
+    "Unsound",
+    "Weak"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "An argument is invalid if the premises do not:",
+  "options": [
+    "support the conclusion",
+    "contain any words",
+    "originate from Greece",
+    "state a scientific fact"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What happens to a deductive argument if its premises fail to support its conclusion?",
+  "options": [
+    "It is invalid",
+    "It becomes an inductive argument",
+    "It becomes sound",
+    "It remains formally correct"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The argument: 'If anyone is from Nigeria; Then he is an African; Shehu is a Nigerian; Therefore, Shehu is an African' is:",
+  "options": [
+    "valid and sound",
+    "invalid and unsound",
+    "inductive and weak",
+    "syllogistic and unsound"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which of the following describes the 'Shehu is an African' argument in Point 41?",
+  "options": [
+    "It is valid and sound",
+    "It is valid but unsound",
+    "It is invalid but sound",
+    "It is an inductive fallacy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Validity is mostly about ________ whereas soundness is about ________.",
+  "options": [
+    "form; content of the proposition",
+    "content; form of the proposition",
+    "truth; syntax of the language",
+    "deduction; induction of arguments"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "While validity focuses on the form of the argument, what does soundness focus on?",
+  "options": [
+    "The content of the proposition",
+    "The symbols P and Q",
+    "The historical context of the text",
+    "The premise indicators"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "An unsound deductive argument may be valid, but:",
+  "options": [
+    "the premises or/and the conclusion may be false or mixed",
+    "it must have more than three premises",
+    "it cannot contain logical operators",
+    "the conclusion is guaranteed to be true"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "If a deductive argument is valid but its premises or conclusion are mixed in terms of truth and falsity, the argument is:",
+  "options": [
+    "Unsound",
+    "Invalid",
+    "Inductive",
+    "Weak"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What is 'All mammals are Cold-blooded, animals are mammals; Some cold-blooded animals are reptiles; Therefore, some mammals are reptiles' an example of?",
+  "options": [
+    "A valid argument that is unsound",
+    "An invalid argument that is sound",
+    "A strong inductive argument",
+    "A correct traditional syllogism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The argument about mammals being cold-blooded and reptiles in Point 44 is valid but:",
+  "options": [
+    "unsound",
+    "sound",
+    "inductive",
+    "true"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "What are the three Laws of Thought listed in Point 45?",
+  "options": [
+    "The principles of identity, non-contradiction, and excluded middle",
+    "The principles of deontology, consequentialism, and syncretism",
+    "The principles of syntax, semantics, and logistics",
+    "The principles of validity, soundness, and strength"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The principles of identity, non-contradiction, and excluded middle are together known as:",
+  "options": [
+    "The three Laws of Thought",
+    "The three components of syllogisms",
+    "The branches of symbolic logic",
+    "The components of metalogic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which law of thought states that if any statement is true, then it is true, or that a thing is identical with itself?",
+  "options": [
+    "The principle of identity",
+    "The principle of non-contradiction",
+    "The principle of excluded middle",
+    "The principle of validation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The principle of identity states that if any statement is true, then:",
+  "options": [
+    "it is true or that thing is identical with itself",
+    "it cannot be false at the same time",
+    "it is either true or false",
+    "it must be empirically verified"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The principle of non-contradiction states that:",
+  "options": [
+    "no statement can be both true and false at the same time",
+    "if a statement is true, then it is true",
+    "a statement is either true or false",
+    "all arguments are valid and sound"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which principle of thought declares that no statement can be both true and false simultaneously?",
+  "options": [
+    "The principle of non-contradiction",
+    "The principle of identity",
+    "The principle of excluded middle",
+    "The principle of logistics"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "The principle of excluded middle states that:",
+  "options": [
+    "a statement is either true or false",
+    "no statement can be both true and false",
+    "a thing is identical with itself",
+    "arguments are always deductive"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 8,
+  "question": "Which principle of thought asserts that a statement is either true or false, with no third option?",
+  "options": [
+    "The principle of excluded middle",
+    "The principle of identity",
+    "The principle of non-contradiction",
+    "The principle of syntax"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "A fallacy can be defined simply as a kind of:",
+  "options": [
+    "fact in logic",
+    "truth value",
+    "error in reasoning",
+    "empirical observation"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What is the simple definition of a fallacy?",
+  "options": [
+    "A grammatical mistake",
+    "A kind of error in reasoning",
+    "An absolute truth",
+    "An inductive argument"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Fallacies often possess which of the following characteristics even though they should not?",
+  "options": [
+    "Rational validity",
+    "Persuasive power",
+    "Empirical truth",
+    "Logical soundness"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Fallacies may be created either unintentionally or intentionally to:",
+  "options": [
+    "deceive other people",
+    "clarify logical syntax",
+    "prove mathematical calculus",
+    "improve reasoning skills"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Who conducted the first known study of fallacies in DC Sophististicis Elenchis?",
+  "options": [
+    "Socrates",
+    "Aristotle",
+    "Plato",
+    "Russell"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Aristotle's first known study of fallacies was documented in which work?",
+  "options": [
+    "Metaphysics",
+    "DC Sophististicis Elenchis",
+    "Organon",
+    "Bantu Philosophy"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "A formal fallacy can be detected by examining the:",
+  "options": [
+    "logical form of the meaning",
+    "content of the meaning",
+    "biography of the arguer",
+    "empirical facts surrounding it"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "If a fallacy is detected simply by examining its logical form, it is classified as a:",
+  "options": [
+    "formal fallacy",
+    "informal fallacy",
+    "syllogistic fallacy",
+    "syncretic fallacy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "An informal fallacy depends upon the content of the meaning and possibly the:",
+  "options": [
+    "logical form of the argument",
+    "purpose of the reasoning",
+    "grammatical rules of translation",
+    "historical timeline of the state"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Unlike formal fallacies, informal fallacies depend heavily upon:",
+  "options": [
+    "the logical form of variables",
+    "the content of the meaning and purpose of reasoning",
+    "pure mathematical calculus",
+    "aprioristic structures of thought"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What fallacy is committed when you make an irrelevant attack on the arguer and suggest this undermines the argument itself?",
+  "options": [
+    "Ad Hominem (Circumstantial)",
+    "Amphiboly",
+    "False Dilemma",
+    "Slippery Slope"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Ad Hominem (Circumstantial) involves making an irrelevant attack on the arguer to suggest that:",
+  "options": [
+    "the attack undermines the argument itself",
+    "the argument is formal",
+    "the conclusion is a tautology",
+    "the premises are aprioristic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The 'accent' fallacy is a fallacy of ambiguity due to the different ways a word is:",
+  "options": [
+    "defined in a dictionary",
+    "written in symbolic logic",
+    "emphasized or accented",
+    "translated across cultures"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What type of fallacy is the 'accent' fallacy?",
+  "options": [
+    "A fallacy of relevance",
+    "A fallacy of ambiguity",
+    "A formal fallacy",
+    "A fallacy of omission"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The example of a National Assembly member stating 'I am in favor of a missile defense system that effectively defends Nigeria' in response to a defense policy query represents which fallacy?",
+  "options": [
+    "Accent fallacy",
+    "Amphiboly",
+    "Anthropomorphism",
+    "Ad Hominem"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which of the following is an example of the accent fallacy according to the notes?",
+  "options": [
+    "Projecting human qualities onto dogs",
+    "A National Assembly member responding 'I am in favor of a missile defense system that effectively defends Nigeria'",
+    "Claiming Mr. Z shouldn't be president because he is rich",
+    "Complaining about typographical errors in a poem"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Anthropomorphism is the error of projecting uniquely human qualities onto:",
+  "options": [
+    "political governments",
+    "something that isn't human",
+    "logical arguments",
+    "religious dogmas"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What is the projecting of uniquely human qualities onto non-human entities called?",
+  "options": [
+    "Anthropomorphism",
+    "Syllogism",
+    "Amphiboly",
+    "Cultural syncretism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The claim 'My dog is wagging his tail and running around me. Therefore, he knows that I love him' is an example of:",
+  "options": [
+    "Anthropomorphism",
+    "Ad Hominem",
+    "Accent fallacy",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "To project human understanding onto a dog's behavior represents which fallacy in Point 10?",
+  "options": [
+    "Anthropomorphism",
+    "Appeal to authority",
+    "Bandwagon",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy occurs when you back up your reasoning by saying it is supported by what some authority says on the subject?",
+  "options": [
+    "Appeal to authority",
+    "Poisoning the well",
+    "Quibbling",
+    "Provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Appeal to authority is committed when you support your reasoning by:",
+  "options": [
+    "referencing what some authority says on the subject",
+    "threatening physical force",
+    "arousing feelings of anger",
+    "generalizing from a small sample"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'you can believe the moon is covered with dust because the president of our neighborhood association said so' is an example of:",
+  "options": [
+    "Appeal to authority",
+    "Appeal to money",
+    "Amphiboly",
+    "Bandwagon"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Believing a claim about the moon's surface solely because a neighborhood association president said so represents which fallacy?",
+  "options": [
+    "Appeal to authority",
+    "Quibbling",
+    "Ad Hominem",
+    "Anthropomorphism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Accepting a claim merely because the appeal arouses feelings of anger, fear, grief, pity, or pride commits which fallacy?",
+  "options": [
+    "Appeal to emotions",
+    "Appeal to force",
+    "Ad Hominem",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The fallacy of appeal to emotions involves accepting a claim based on the arousal of:",
+  "options": [
+    "feelings of anger, fear, grief, love, outrage, pity, pride, etc.",
+    "mathematical or logical calculations",
+    "empirical data of high quality",
+    "the advice of a legitimate expert"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Appeal to emotions is similar to which of the following fallacies?",
+  "options": [
+    "Appeal to pity",
+    "Poisoning the well",
+    "Bandwagon",
+    "False dilemma"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "While it is proper to pity people who have had misfortunes, making your decision based on that pity is considered:",
+  "options": [
+    "a fallacy",
+    "a valid deduction",
+    "a sound argument",
+    "a logical truth"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The fallacy of appeal to money uses the error of supposing that if something costs a great deal of money, then:",
+  "options": [
+    "it must be better",
+    "it is highly invalid",
+    "it is completely false",
+    "it must be a formal fallacy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Supposing that a high price or high cost guarantees superior quality is the core of which fallacy?",
+  "options": [
+    "Appeal to money",
+    "Appeal to emotions",
+    "Bandwagon",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'He is rich so he should be the president of our parents/teachers organization' is an example of:",
+  "options": [
+    "Appeal to money",
+    "Appeal to pity",
+    "Bandwagon",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Claiming someone should lead an organization because they are rich commits which fallacy?",
+  "options": [
+    "Appeal to money",
+    "Appeal to force",
+    "Ad Hominem",
+    "Poisoning the well"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "A reasoner who is supposed to address an issue but instead goes off on a tangent has committed which fallacy?",
+  "options": [
+    "Avoiding the issue",
+    "Amphiboly",
+    "Two wrongs make a right",
+    "False dilemma"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Going off on a tangent instead of addressing the issue at hand is known as:",
+  "options": [
+    "Avoiding the issue",
+    "Poisoning the well",
+    "Quibbling",
+    "Scape-goating"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy is committed when you suggest a claim is correct simply because it is what most people are coming to believe?",
+  "options": [
+    "Bandwagon fallacy",
+    "Appeal to money",
+    "Double standard",
+    "Anthropomorphism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Suggesting that general popularity or majoritarian belief makes a claim correct is called the:",
+  "options": [
+    "Bandwagon fallacy",
+    "Accent fallacy",
+    "Amphiboly",
+    "Provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The advertisement statement 'more and more people are buying a particular brand of car, isn't it time you bought one too?' is an example of:",
+  "options": [
+    "Bandwagon",
+    "Double standard",
+    "Appeal to money",
+    "Hasty generalization"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Urging someone to buy a car because 'more and more people are buying it' is which type of fallacy?",
+  "options": [
+    "Bandwagon",
+    "Appeal to pity",
+    "Anthropomorphism",
+    "False dilemma"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The rule 'We will hire only those who scored 70 percent but those from a particular area need not score 70, we could select them if they scored 50' represents:",
+  "options": [
+    "Double Standard fallacy",
+    "False Dilemma",
+    "Hasty Generalization",
+    "Ad Hominem"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Double standard is committed when a person or group is judged by a different set of standards than another, such as in the scoring example of:",
+  "options": [
+    "Double Standard fallacy",
+    "Two wrongs make a right",
+    "Misplaced aggression",
+    "Provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy occurs when one jumps to a conclusion and in which the conclusion is a generalization?",
+  "options": [
+    "Hasty Generalization fallacy",
+    "Amphiboly",
+    "Accent fallacy",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Jumping to a generalized conclusion based on insufficient or unrepresentative cases is called:",
+  "options": [
+    "Hasty Generalization fallacy",
+    "Bandwagon",
+    "Poisoning the well",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The claim 'I have met two people in Ghana and they were both nice to me. So all the people I will meet in Ghana will be nice to me' represents:",
+  "options": [
+    "Hasty Generalization",
+    "Double standard",
+    "Amphiboly",
+    "Bandwagon"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Concluding that all Ghanaians are nice based on meeting just two nice people is an example of:",
+  "options": [
+    "Hasty Generalization",
+    "False Dilemma",
+    "Appeal to authority",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What is a pre-emptive attack on a person to discredit their testimony or argument in advance of their giving it?",
+  "options": [
+    "Poisoning the well",
+    "Avoiding the issue",
+    "Scape-goating",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Poisoning the well as a fallacy is characterized as a pre-emptive attack to discredit an argument in advance. It belongs to which of the following?",
+  "options": [
+    "Poisoning the well",
+    "Ad Hominem",
+    "Amphiboly",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The question 'When is the defense attorney planning to call that twice-convicted child molester, Patrick Okeke, to the stand?' is an example of:",
+  "options": [
+    "Poisoning the well",
+    "Hasty conclusion",
+    "Bandwagon",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Asking a pre-emptive question designed to discredit a witness before they speak represents:",
+  "options": [
+    "Poisoning the well",
+    "Avoiding the issue",
+    "Quibbling",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Complaining about a minor point and falsely believing that this complaint somehow undermines the main point is known as:",
+  "options": [
+    "Quibble",
+    "Syllogism",
+    "Anthropomorphism",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "A quibble occurs when a reasoner complains about:",
+  "options": [
+    "a minor point and falsely believes it undermines the main point",
+    "the character of the arguer",
+    "the price of an item",
+    "the popularity of an idea"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'I have found typographical errors in your poem, so the poem is neither inspired nor perceptive' represents:",
+  "options": [
+    "Quibbling as a fallacy",
+    "Amphiboly",
+    "Ad Hominem",
+    "Bandwagon"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Dismissing the entire perception of a poem because of typographical errors is an example of:",
+  "options": [
+    "Quibbling",
+    "Hasty generalization",
+    "False dilemma",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "According to Point 27, we rationalize when we:",
+  "options": [
+    "offer reasons to support our claim",
+    "attack the character of an opponent",
+    "complain about minor typographical errors",
+    "jump to a conclusion too quickly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Offering reasons to support our claim is the definition of when we:",
+  "options": [
+    "rationalize",
+    "quibble",
+    "scape-goat",
+    "avoid the issue"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "We are rationalizing when we give someone a reason to justify our action even though we know:",
+  "options": [
+    "this reason is not really our own reason",
+    "the reasoning is formally valid",
+    "the reason is supported by an expert",
+    "the conclusion is completely false"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Giving a justification for an action despite knowing the reason isn't truly our own is a form of:",
+  "options": [
+    "Rationalizing",
+    "Avoiding the issue",
+    "Quibbling",
+    "Poisoning the well"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy occurs when we accept logically conflicting claims?",
+  "options": [
+    "Inconsistency",
+    "Amphiboly",
+    "Ad Hominem",
+    "Quibble"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Inconsistency as a fallacy occurs when we accept an inconsistent set of:",
+  "options": [
+    "claims that logically conflict with other claims we hold",
+    "formal syllogistic premises",
+    "rules of grammar",
+    "multicultural values"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'I am not racist... But I just don't think that white women love their babies as much as our women do' is an example of:",
+  "options": [
+    "Inconsistency as a fallacy",
+    "Amphiboly",
+    "Anthropomorphism",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "An arguer claiming they are not racist but immediately making a racial generalization commits which fallacy?",
+  "options": [
+    "Inconsistency",
+    "Appeal to authority",
+    "Quibble",
+    "Provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "An irrelevant conclusion occurs if an arguer argues for a certain conclusion while:",
+  "options": [
+    "falsely believing or suggesting that a different conclusion is established",
+    "attacking the person presenting the argument",
+    "using ambiguous grammatical constructions",
+    "generalizing from a single sample"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Falsely believing or suggesting that a different conclusion is established while arguing for a certain conclusion is called:",
+  "options": [
+    "Irrelevant conclusion",
+    "Hasty conclusion",
+    "Poisoning the well",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What fallacy is committed when you unfairly blame an unpopular person or group of people for a problem?",
+  "options": [
+    "Scape-goating",
+    "Double standard",
+    "Poisoning the well",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Unfairly blaming an unpopular group for a general problem represents:",
+  "options": [
+    "Scape-goating",
+    "Avoiding the issue",
+    "Provincialism",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Ad Hominem Argument (Circumstantial) is a fallacy committed when we argue against a person's position by:",
+  "options": [
+    "attacking him rather than his argument",
+    "appealing to the emotions of the crowd",
+    "using complex symbolic calculus",
+    "relying on his wealth"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Attacking a person rather than their actual argument is the basis of:",
+  "options": [
+    "Ad Hominem Argument (Circumstantial)",
+    "Amphiboly",
+    "Two wrongs make a right",
+    "False Dilemma"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The claim 'Mr. Z should not be the president of Nigeria because he prevented his kinsman from being president and his people rejected him' is an example of:",
+  "options": [
+    "Ad Hominem fallacy",
+    "Amphiboly",
+    "Appeal to pity",
+    "Bandwagon"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Dismissing Mr. Z's presidential ambition solely by attacking his personal relationships and kinsmen relations is which fallacy?",
+  "options": [
+    "Ad Hominem",
+    "Double standard",
+    "False dilemma",
+    "Anthropomorphism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Hasty conclusion (Converse Accident) is a type of fallacy in which a person:",
+  "options": [
+    "jumps to a conclusion too quickly",
+    "complains about grammatical errors",
+    "attacks the opponent physically",
+    "blames an unpopular group of people"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Jumping to a conclusion too quickly represents which fallacy?",
+  "options": [
+    "Hasty conclusion (Converse Accident)",
+    "Amphiboly",
+    "Avoiding the issue",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'you see the lecturer is not here for the lecture, he must have gone home for his own private business' is an example of:",
+  "options": [
+    "Hasty conclusion",
+    "Amphiboly",
+    "Poisoning the well",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Assuming a lecturer has gone home for private business just because they are absent from class is an example of:",
+  "options": [
+    "Hasty conclusion",
+    "Appeal to pity",
+    "Ad Hominem",
+    "False dilemma"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy of ambiguity is committed when one is fooled or confused by an ambiguous grammatical construction?",
+  "options": [
+    "Amphiboly",
+    "Accent",
+    "Quibbling",
+    "Inconsistency"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Amphiboly depends on ambiguity found in:",
+  "options": [
+    "a grammatical construction",
+    "a single isolated word",
+    "the character of the speaker",
+    "the pricing of an item"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'Chief Omes was the president Nigeria never had. Therefore he should be honored with grand commander of the Federal Republic of Nigeria' is an example of:",
+  "options": [
+    "Amphiboly",
+    "Hasty generalization",
+    "Poisoning the well",
+    "Ad Hominem"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Being misled by the grammatical construction 'the president Nigeria never had' represents which fallacy?",
+  "options": [
+    "Amphiboly",
+    "Double standard",
+    "Anthropomorphism",
+    "Bandwagon"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Argumentum ad Baculum is a fallacy of appealing to:",
+  "options": [
+    "force",
+    "pity",
+    "ignorance",
+    "money"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy is committed when one accepts a statement as true because the person advocating it is powerful or threatens force?",
+  "options": [
+    "Argumentum ad Baculum",
+    "Argumentum ad Miscericordiam",
+    "Argumentum ad Ignorantiam",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement that Mr. X's recourse to the tribunal might give the military an opportunity to hold on to power is an example of:",
+  "options": [
+    "Argumentum ad Baculum",
+    "Ad Hominem",
+    "Amphiboly",
+    "Quibble"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy is committed when the threat of military holding on to power is used to influence a decision?",
+  "options": [
+    "Argumentum ad Baculum",
+    "Argumentum ad Miscericordiam",
+    "Argumentum ad Ignorantiam",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Argumentum ad Miscericordiam is a fallacy that appeals to:",
+  "options": [
+    "pity",
+    "force",
+    "ignorance",
+    "money"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "When an irrelevant appeal to the circumstances of an agent is permitted to issue, the fallacy is:",
+  "options": [
+    "Argumentum ad Miscericordiam (Appeal to pity)",
+    "Argumentum ad Baculum",
+    "Ad Hominem",
+    "Provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "A student asking for a pass percentage because they were sick during the examination is an example of:",
+  "options": [
+    "Argumentum ad Miscericordiam",
+    "Argumentum ad Baculum",
+    "Ad Hominem",
+    "Quibbling"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Pleading for higher grades based on personal sickness commits which fallacy?",
+  "options": [
+    "Argumentum ad Miscericordiam",
+    "False dilemma",
+    "Avoiding the issue",
+    "Double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy consists of arguing for a proposition that does not overthrow the original thesis?",
+  "options": [
+    "Ignorantum Elenchi (Irrelevant conclusion)",
+    "Non-sequitor",
+    "Argumentum ad Ignorantiam",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "An argument that purports to establish a particular conclusion but fails to overthrow the original thesis is called:",
+  "options": [
+    "Ignorantum Elenchi",
+    "Argumentum ad Baculum",
+    "Ad Hominem",
+    "Two wrongs make a right"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "A Non-sequitor or Non-Propter Hoc fallacy is committed whenever the conclusion is:",
+  "options": [
+    "not a necessary consequence of the premises",
+    "based on an ambiguous word",
+    "an attack on the arguer",
+    "completely identical to the premises"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What is a Non-sequitor?",
+  "options": [
+    "An argument where the conclusion is not a necessary consequence of the premises",
+    "An argument based on threat of force",
+    "An argument that appeals to pity",
+    "An argument with a small sample size"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The argument 'Dr. Y is a lawyer and philosopher. He has been to the Senate two times. Therefore, he should be the president of the senate' is an example of:",
+  "options": [
+    "Non-sequitor",
+    "Syllogism",
+    "Amphiboly",
+    "Argumentum ad Baculum"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Why is the argument about Dr. Y's senate presidency in Point 45 a Non-sequitor?",
+  "options": [
+    "Because the conclusion does not necessarily follow from the premises",
+    "Because it attacks Dr. Y's personal character",
+    "Because it uses ambiguous terms",
+    "Because it appeals to pity"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Argumentum ad Ignorantiam is also known as:",
+  "options": [
+    "Argument from Ignorance",
+    "Appeal to force",
+    "Appeal to pity",
+    "Irrelevant conclusion"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy is committed with the belief that the ignorance of the hearer will lead to the acceptance as proof of a statement?",
+  "options": [
+    "Argumentum ad Ignorantiam",
+    "Argumentum ad Baculum",
+    "Argumentum ad Miscericordiam",
+    "Non-sequitor"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The fallacy of Misplaced Aggression is defined as a case of:",
+  "options": [
+    "misplaced aggression against an innocent person",
+    "using force to win an argument",
+    "attacking an opponent's argument directly",
+    "blaming a whole community for historical events"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "When someone directs aggression toward an innocent person in an argument, they commit the:",
+  "options": [
+    "Fallacy of Misplaced Aggression",
+    "Ad Hominem",
+    "Two wrongs make a right",
+    "Scape-goating"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The fallacy of 'two wrongs make a right' consists in:",
+  "options": [
+    "excusing an error because someone has committed the same kind of error",
+    "attacking an arguer's character",
+    "using force to counter a threat",
+    "blaming a group for a minor issue"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Excusing your own error because someone else has committed the same kind of error is called:",
+  "options": [
+    "two wrongs makes a right",
+    "Double standard",
+    "Inconsistency",
+    "Provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "False Dilemma is a fallacy that consists in:",
+  "options": [
+    "claiming as exhaustive a series of possibilities to which there are in fact alternatives",
+    "arguing from a very small sample",
+    "using force to threaten someone",
+    "attacking a person's character"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Presenting a limited set of choices as if they are the only options when alternatives exist is a:",
+  "options": [
+    "False Dilemma",
+    "Hasty generalization",
+    "Non-sequitor",
+    "Quibble"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The statement 'I am exhausted, tired, and weary of the problems of life and therefore I have to commit suicide' represents:",
+  "options": [
+    "False Dilemma fallacy",
+    "Hasty conclusion",
+    "Amphiboly",
+    "Two wrongs make a right"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Why is the suicide claim in Point 50 considered a False Dilemma?",
+  "options": [
+    "Because it ignores alternative ways of dealing with life's problems",
+    "Because it is a deductive syllogism",
+    "Because it attacks an opponent's character",
+    "Because it uses ambiguous grammar"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Provincialism consists in accepting or rejecting an argument because of:",
+  "options": [
+    "identification with (or against) a particular group",
+    "the price of the item",
+    "the logic of the syntax",
+    "the outcomes of the policy"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which fallacy is committed when an argument is accepted or rejected purely based on group identification?",
+  "options": [
+    "Provincialism",
+    "Double standard",
+    "Consequentialism",
+    "Amphiboly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The fallacy of a small sample is described as a more sophisticated version of the fallacy of:",
+  "options": [
+    "hasty conclusion",
+    "appeal to money",
+    "amphiboly",
+    "double standard"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "What fallacy is a sophisticated version of the hasty conclusion fallacy?",
+  "options": [
+    "The fallacy of a small sample",
+    "The Bandwagon fallacy",
+    "Poisoning the well",
+    "Inconsistency"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "The fallacy of using Data of differing quality posits that when we compare the results of different statistical inquiries and:",
+  "options": [
+    "overlook their differences in techniques and accuracy",
+    "focus purely on the variables",
+    "use deductive syllogisms",
+    "reject the outcomes completely"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Overlooking differences in techniques and accuracy when comparing statistical results is called the fallacy of:",
+  "options": [
+    "using Data of differing quality",
+    "small sample",
+    "hasty conclusion",
+    "provincialism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "According to Efemini, fallacies occur due to carelessness or:",
+  "options": [
+    "insufficient attention to our subject matter",
+    "deliberate acts of political corruption",
+    "the absolute lack of written language",
+    "consequentialist ethical standards"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 9,
+  "question": "Which scholar posits that fallacies occur because of carelessness or insufficient attention to our subject matter?",
+  "options": [
+    "Efemini",
+    "Sodipo",
+    "Ake",
+    "Copi"
+  ],
+  "answer": 0
+},
+  {
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A proposition is defined as an assertion or sentence which has:",
+  "options": [
+    "a question mark",
+    "a truth value",
+    "an exclamation point",
+    "no grammatical structure"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What must any sentence or assertion possess to be considered a proposition?",
+  "options": [
+    "A truth value",
+    "An empirical reference",
+    "A symbolic operator",
+    "A copula"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The truth value of a proposition refers to the:",
+  "options": [
+    "truth or falsity of such a proposition",
+    "grammatical complexity of the statement",
+    "historical origin of the sentence",
+    "emotional impact of the claim"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Whether a proposition is true or false represents its:",
+  "options": [
+    "logical structure",
+    "truth value",
+    "distribution status",
+    "copula quantity"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Why is 'Is Ngozi a Nigerian name?' not considered a proposition?",
+  "options": [
+    "Because the response to it is either 'yes' or 'no'",
+    "Because it lacks a predicate term",
+    "Because it is in a foreign language",
+    "Because it contains a proper noun"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The question 'Is Ngozi a Nigerian name?' fails to be a proposition because it is:",
+  "options": [
+    "an interrogative sentence with a yes/no response",
+    "an imperative command",
+    "a non-categorical conditional",
+    "an exclamation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Why does 'Give me the GST 102 handbook' fail to be a proposition?",
+  "options": [
+    "It expresses an order to which one cannot give a truth-value response",
+    "It is written in symbolic logic",
+    "It has more than three premises",
+    "It contains a distributed quantifier"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "An order such as 'Give me the GST 102 handbook' is not a proposition because it lacks:",
+  "options": [
+    "a truth-value response",
+    "grammatical correction",
+    "a subject term",
+    "a standard quantifier"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A proposition can be either of which two types?",
+  "options": [
+    "Deductive or inductive",
+    "Valid or invalid",
+    "Categorical or non-categorical",
+    "Formal or informal"
+  ],
+  "answer": 2
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Propositions are classified in Point 5 as either:",
+  "options": [
+    "sound or unsound",
+    "categorical or non-categorical",
+    "true or false",
+    "mediate or immediate"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A categorical proposition is defined as a statement that says something is the case without:",
+  "options": [
+    "using grammatical words",
+    "reference to conditions or alternatives",
+    "any truth value",
+    "the use of standard form letters"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A statement that says something is the case without reference to conditions or alternatives is:",
+  "options": [
+    "a categorical proposition",
+    "a hypothetical proposition",
+    "a disjunctive proposition",
+    "a subaltern proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Examples of categorical propositions showing what they assert is either the case or not include:",
+  "options": [
+    "Nicholas is kind, Nicholas is not tall",
+    "If Nicholas is kind then Obi is beautiful",
+    "Either Nicholas is nice or Obi is ugly",
+    "Is Nicholas kind?"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statements 'Nicholas is kind' and 'Nicholas is not tall' are examples of:",
+  "options": [
+    "Hypothetical propositions",
+    "Categorical propositions",
+    "Disjunctive propositions",
+    "Non-categorical propositions"
+  ],
+  "answer": 1
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is a non-categorical proposition?",
+  "options": [
+    "A proposition whose truth or falsity is based on conditions or alternatives",
+    "A statement that asserts something unconditionally",
+    "A sentence that has only a subject and a copula",
+    "An argument consisting of three categorical statements"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Because its truth or falsity is based on conditions or alternatives, a non-categorical proposition is:",
+  "options": [
+    "not as definitive as its categorical counterpart",
+    "completely invalid in deductive logic",
+    "always true",
+    "identical to a syllogism"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following is an example of a non-categorical proposition?",
+  "options": [
+    "If Nicholas is nice then Obi is beautiful, either Nicholas is nice or Obi is ugly",
+    "Nicholas is kind, Nicholas is not tall",
+    "All trees are living things",
+    "No stone are automobiles"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'either Nicholas is nice or Obi is ugly' is classified as what kind of proposition?",
+  "options": [
+    "A non-categorical proposition",
+    "A categorical proposition",
+    "A syllogistic proposition",
+    "An A-proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'If Nicholas is nice then Obi is beautiful' is an example of a:",
+  "options": [
+    "hypothetical proposition",
+    "disjunctive proposition",
+    "categorical proposition",
+    "particular negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A conditional non-categorical statement like 'If Nicholas is nice then Obi is beautiful' is also known as a:",
+  "options": [
+    "hypothetical proposition",
+    "disjunctive proposition",
+    "universal affirmative",
+    "subalternate proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'Either Nicholas is nice or Obi is ugly' is an example of a:",
+  "options": [
+    "disjunctive proposition",
+    "hypothetical proposition",
+    "categorical proposition",
+    "universal negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What type of non-categorical proposition uses alternatives like 'either/or'?",
+  "options": [
+    "Disjunctive proposition",
+    "Hypothetical proposition",
+    "Subalternate proposition",
+    "Categorical proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the three basic structures of a categorical proposition?",
+  "options": [
+    "Subject terms, predicate terms, and copula",
+    "Quantifier, quality, and quantity",
+    "Premises, conclusion, and inference",
+    "A, E, and I propositions"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Subject terms, predicate terms, and copula form the three basic structures of:",
+  "options": [
+    "a categorical proposition",
+    "a non-categorical proposition",
+    "a hypothetical proposition",
+    "a deductive argument"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "In a categorical proposition, what is the term being described?",
+  "options": [
+    "Subject term",
+    "Predicate term",
+    "Copula",
+    "Quantifier"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The predicate term in a categorical proposition refers to that term which is used to:",
+  "options": [
+    "describe the subject term",
+    "quantify the proposition",
+    "connect the premises",
+    "deny the copula"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is a copula?",
+  "options": [
+    "The form of the verb 'to be' which acts as the link between the subject term and the predicate term",
+    "The quantifier that indicates universal quantity",
+    "The term being described in the proposition",
+    "The letter that represents a particular negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The copula acts as the link between which two terms?",
+  "options": [
+    "The subject term and the predicate term",
+    "The major premise and the minor premise",
+    "The quantifier and the quantity",
+    "The superaltern and the subaltern"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A categorical proposition results from bringing two terms together by using a:",
+  "options": [
+    "copula",
+    "quantifier",
+    "disjunction",
+    "conditional"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The examples 'Richard is humble', 'Anita is charming', and 'Women are kind-hearted' are formed by bringing terms together using a:",
+  "options": [
+    "copula",
+    "hypothesis",
+    "syllogism",
+    "distribution"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "In what order do the four elements of a standard form categorical proposition appear?",
+  "options": [
+    "quantifier, subject term, copula, and predicate term",
+    "subject term, predicate term, copula, quantifier",
+    "quantifier, copula, subject term, predicate term",
+    "copula, quantifier, subject term, predicate term"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following represents the correct standard form of a categorical proposition?",
+  "options": [
+    "Quantifier, subject term, copula, predicate term",
+    "Quantifier, predicate term, copula, subject term",
+    "Subject term, copula, predicate term, quantifier",
+    "Copula, quantifier, subject term, predicate term"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the three most commonly used words that represent quantifiers in logic?",
+  "options": [
+    "'all', 'some', and 'no'",
+    "'is', 'are', and 'not'",
+    "'if', 'then', and 'either'",
+    "'subject', 'predicate', and 'copula'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Words like 'all', 'some', and 'no' function as what in a categorical proposition?",
+  "options": [
+    "Quantifiers",
+    "Copulas",
+    "Subject terms",
+    "Predicate terms"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The quantity of a proposition refers to:",
+  "options": [
+    "how much of the proposition is affirmed or denied",
+    "whether the proposition is affirmative or negative",
+    "whether the copula is present or absent",
+    "the truth or falsity of the statement"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What aspect of a proposition talks about how much of the subject class is affirmed or denied?",
+  "options": [
+    "Quantity",
+    "Quality",
+    "Distribution",
+    "Structure"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the two types of quantity in propositions?",
+  "options": [
+    "Universal and particular quantity",
+    "Affirmative and negative quality",
+    "Categorical and hypothetical quantity",
+    "Distributed and undistributed quantity"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Propositions are divided by quantity into:",
+  "options": [
+    "universal and particular",
+    "affirmative and negative",
+    "categorical and non-categorical",
+    "contrary and subcontrary"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What does universal quantity mean in a proposition?",
+  "options": [
+    "All entities covered by the subject term are denied or affirmed",
+    "Only some of the entities are affirmed or denied",
+    "The truth depends entirely on a condition",
+    "The predicate term is undistributed"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Particular quantity means that:",
+  "options": [
+    "only some of the entities covered by the subject term are either affirmed or denied",
+    "all entities covered by the subject term are affirmed",
+    "no entities are covered by the predicate term",
+    "the copula is negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A proposition is universal if its subject term is quantified by:",
+  "options": [
+    "'all' or 'no'",
+    "'some' or 'not'",
+    "'either' or 'if'",
+    "'is' or 'are'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The quantifiers 'all' and 'no' indicate that a proposition is:",
+  "options": [
+    "universal",
+    "particular",
+    "hypothetical",
+    "disjunctive"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A proposition is particular if its subject term is quantified by:",
+  "options": [
+    "'some'",
+    "'all'",
+    "'no'",
+    "'not'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The quantifier 'some' indicates that the proposition has what quantity?",
+  "options": [
+    "particular",
+    "universal",
+    "absolute",
+    "distributed"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following are examples of universal propositions?",
+  "options": [
+    "1. All trees are living things 2. No stones are automobiles",
+    "1. Some men are lovely people 2. Some women are not kind-hearted",
+    "1. Nicholas is kind 2. Nicholas is not tall",
+    "1. If Richard is humble then women are kind-hearted"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "'No stones are automobiles' is an example of what type of proposition?",
+  "options": [
+    "universal",
+    "particular",
+    "hypothetical",
+    "disjunctive"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following are examples of particular propositions?",
+  "options": [
+    "1. Some men are lovely people 2. Some women are not kind-hearted",
+    "1. All trees are living things 2. No stones are automobiles",
+    "1. Richard is humble 2. Anita is charming",
+    "1. Either Nicholas is nice or Obi is ugly"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'Some women are not kind-hearted' is categorized as a:",
+  "options": [
+    "particular proposition",
+    "universal proposition",
+    "hypothetical proposition",
+    "disjunctive proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The quality of a proposition refers to whether the entire proposition is in the:",
+  "options": [
+    "affirmative or the denial form",
+    "universal or the particular form",
+    "categorical or non-categorical form",
+    "distributed or undistributed form"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What aspect determines whether a categorical proposition is affirmative (positive) or negative?",
+  "options": [
+    "Quality",
+    "Quantity",
+    "Distribution",
+    "Copula"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following are examples of affirmative (positive) propositions?",
+  "options": [
+    "1. All trees are living things 2. Some men are lovely people",
+    "1. No stone are automobiles 2. Some women are not friendly",
+    "1. Nicholas is kind 2. Nicholas is not tall",
+    "1. Either Richard is humble or Anita is charming"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The proposition 'Some men are lovely people' is classified as:",
+  "options": [
+    "affirmative (positive)",
+    "negative",
+    "universal E-proposition",
+    "non-categorical disjunctive"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following are examples of negative propositions?",
+  "options": [
+    "1. No stone are automobiles 2. Some women are not friendly",
+    "1. All trees are living things 2. Some men are lovely people",
+    "1. Richard is humble 2. Anita is charming",
+    "1. If Nicholas is kind then Nicholas is tall"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'Some women are not friendly' is an example of a:",
+  "options": [
+    "negative proposition",
+    "affirmative proposition",
+    "universal A-proposition",
+    "hypothetical proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the four standard form categorical propositions?",
+  "options": [
+    "Universal Affirmative (A), Universal negative (E), Particular affirmative (I), Particular Negative (O)",
+    "Hypothetical, Disjunctive, Conditional, Categorical",
+    "Conversion, Obversion, Contraposition, Sub-alternation",
+    "Contraries, Subcontraries, Contradictories, Sub-alternation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which standard form categorical proposition is represented by the letter 'E'?",
+  "options": [
+    "Universal negative",
+    "Universal Affirmative",
+    "Particular affirmative",
+    "Particular Negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A term is said to be distributed if the proposition covers:",
+  "options": [
+    "every item referred to by that term",
+    "only a part of the items referred to by that term",
+    "none of the items referred to by that term",
+    "the relationship of subcontraries"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "When a proposition covers every item referred to by a term, that term is said to be:",
+  "options": [
+    "distributed",
+    "undistributed",
+    "universal",
+    "particular"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A term is undistributed if the proposition covers:",
+  "options": [
+    "only a part of the items referred to by the term",
+    "every item referred to by the term",
+    "none of the items referred to by the term",
+    "both Superaltern and subaltern relationships"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "When a proposition covers only a part of the items referred to by a term, the term is classified as:",
+  "options": [
+    "undistributed",
+    "distributed",
+    "affirmative",
+    "negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "A term affected by any one of 'no', 'all' or 'not' is distributed, while that which is affected by 'some' is:",
+  "options": [
+    "undistributed",
+    "distributed",
+    "universal",
+    "particular"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following words affects a term to make it undistributed?",
+  "options": [
+    "'some'",
+    "'no'",
+    "'all'",
+    "'not'"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is an example of an A-proposition (Universal Affirmative)?",
+  "options": [
+    "All men are kind",
+    "No men are trees",
+    "Some stones are men",
+    "Some mammals are not animals"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'All men are kind' represents which standard form categorical proposition?",
+  "options": [
+    "A-proposition",
+    "E-proposition",
+    "I-proposition",
+    "O-proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is an example of an E-proposition (Universal Negative)?",
+  "options": [
+    "No men are trees",
+    "All men are kind",
+    "Some stones are men",
+    "Some mammals are not animals"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'No men are trees' is an example of an:",
+  "options": [
+    "E-proposition",
+    "A-proposition",
+    "I-proposition",
+    "O-proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is an example of an I-proposition (Particular Affirmative)?",
+  "options": [
+    "Some stones are men",
+    "All men are kind",
+    "No men are trees",
+    "Some mammals are not animals"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'Some stones are men' is an example of which standard form categorical proposition?",
+  "options": [
+    "I-proposition",
+    "A-proposition",
+    "E-proposition",
+    "O-proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is an example of an O-proposition (Particular Negative)?",
+  "options": [
+    "Some mammals are not animals",
+    "All men are kind",
+    "No men are trees",
+    "Some stones are men"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The statement 'Some mammals are not animals' represents an:",
+  "options": [
+    "O-proposition",
+    "A-proposition",
+    "E-proposition",
+    "I-proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is inference?",
+  "options": [
+    "The logical process of affirming a proposition based on another proposition or other propositions",
+    "The grammatical structure of categorical sentences",
+    "A term that is undistributed by the quantifier",
+    "The truth or falsity of non-categorical propositions"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The logical process of affirming a proposition based on another proposition is known as:",
+  "options": [
+    "inference",
+    "syllogism",
+    "distribution",
+    "contradictory"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "In an inference, the affirmed proposition is known as the ________ while the one which provides the ground is called the ________.",
+  "options": [
+    "conclusion; premise",
+    "premise; conclusion",
+    "superaltern; subaltern",
+    "contrary; subcontrary"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is the term given to the proposition that provides the ground for the affirmed conclusion?",
+  "options": [
+    "Premise",
+    "Conclusion",
+    "Inference",
+    "Copula"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the two types of inference identified in Point 38?",
+  "options": [
+    "Mediate and immediate",
+    "Valid and invalid",
+    "Formal and informal",
+    "Universal and particular"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Inferences are divided into:",
+  "options": [
+    "mediate and immediate",
+    "affirmative and negative",
+    "categorical and non-categorical",
+    "distributive and undistributed"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Mediate inference is the type of inference from ________ premises, while immediate inference is drawing a conclusion from a ________ premise.",
+  "options": [
+    "two or more; single",
+    "one; multiple",
+    "particular; universal",
+    "affirmative; negative"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Drawing a conclusion from a single premise is known as what type of inference?",
+  "options": [
+    "Immediate inference",
+    "Mediate inference",
+    "Deductive inference",
+    "Syllogistic inference"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is Aristotle's square also called?",
+  "options": [
+    "Square of Opposition",
+    "Square of Inferences",
+    "Square of Syllogisms",
+    "Aristotelian Square of Quality"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The Square of Opposition is also known as:",
+  "options": [
+    "Aristotle's square",
+    "Socrates' square",
+    "Frank Harrison's square",
+    "Efemini's square"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which of the following are listed in Point 41 as examples of immediate inference?",
+  "options": [
+    "conversion, conversion, and contraposition",
+    "Conversion, obversion, and contraposition",
+    "A, E, I, and O propositions",
+    "Contraries, subcontraries, and contradictories"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Conversion and contraposition are examples of:",
+  "options": [
+    "immediate inference",
+    "mediate inference",
+    "disjunctive propositions",
+    "unreasonable fallacies"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the four kinds of relationships that exist among the four standard form categorical propositions?",
+  "options": [
+    "Contraries, Subcontraries, Contradictories, Sub-alternation",
+    "Universal, Particular, Affirmative, Negative",
+    "Subject, Predicate, Copula, Quantifier",
+    "Conversion, Obversion, Contraposition, Logic"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Contraries, subcontraries, contradictories, and sub-alternation are the four kinds of relationships in:",
+  "options": [
+    "the standard form categorical propositions",
+    "symbolic math logic",
+    "informal fallacies",
+    "non-categorical hypothetical propositions"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The relationship between A and E propositions is that of:",
+  "options": [
+    "contraries",
+    "subcontraries",
+    "contradictories",
+    "sub-alternation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Since the relationship between A and E propositions is that of contraries, what does the truth of A-proposition logically imply?",
+  "options": [
+    "The falsity of E-proposition",
+    "The truth of E-proposition",
+    "The truth of O-proposition",
+    "The falsity of I-proposition"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What is the relationship between O and I propositions?",
+  "options": [
+    "subcontraries",
+    "contraries",
+    "contradictories",
+    "sub-alternation"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Because O and I propositions are subcontraries, the relationship between them is such that:",
+  "options": [
+    "both cannot be false but they can both be true",
+    "both cannot be true but they can both be false",
+    "the truth of one implies the truth of the other",
+    "if one is true, the other must be false"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Which pairs of propositions are contradictories?",
+  "options": [
+    "A and O, as well as E and I",
+    "A and E, as well as I and O",
+    "A and I, as well as E and O",
+    "A and E only"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "If the A-proposition 'all lawyers are liars' is true, what is the truth value of the O-proposition 'some lawyers are not liars' because they are contradictories?",
+  "options": [
+    "false",
+    "true",
+    "probably true",
+    "sound"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Two propositions are subalternates if they both share the same:",
+  "options": [
+    "quality (negative or affirmative)",
+    "quantity (universal or particular)",
+    "quantifier ('some')",
+    "distribution of subject"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "Sub-alternation exists between which pairs of propositions?",
+  "options": [
+    "A and I, as well as E and O",
+    "A and E, as well as I and O",
+    "A and O, as well as E and I",
+    "A and I only"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "What are the universal propositions called in sub-alternation?",
+  "options": [
+    "superaltern",
+    "subaltern",
+    "contraries",
+    "contradictories"
+  ],
+  "answer": 0
+},
+{
+  "course": "gst102",
+  "chapter": 10,
+  "question": "The particular propositions in a sub-alternation relationship are called the:",
+  "options": [
+    "subaltern",
+    "superaltern",
+    "contraries",
+    "subcontraries"
+  ],
+  "answer": 0
 }
 ]
