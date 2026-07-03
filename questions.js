@@ -38975,5 +38975,604 @@ const QUESTIONS = [
     "1924"
   ],
   answer: 0
-  }
+  },{
+  course: "gst112",
+  chapter: 6,
+  question: "What term denotes the sum total of both the biological and physical factors that directly influence the well-being of organisms?",
+  options: [
+    "Environment",
+    "Ecology",
+    "Siltation",
+    "Contaminant"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What two factors make up the sum total of the environment that directly influences organisms' well-being?",
+  options: [
+    "Biological and physical factors",
+    "Chemical and artificial factors",
+    "Geological and thermal factors",
+    "Atmospheric and nuclear factors"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which two words is 'Environment' coined from?",
+  options: [
+    "'Environs' meaning surrounding and 'ment' meaning actioning",
+    "'Enviro' meaning nature and 'ment' meaning study",
+    "'Environ' meaning life and 'ment' meaning condition",
+    "'Environs' meaning biosphere and 'ment' meaning process"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "In the coining of the word 'Environment', what is the meaning of the suffix 'ment'?",
+  options: [
+    "actioning",
+    "surrounding",
+    "living",
+    "decomposing"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are the two main types of factors that make up the environment?",
+  options: [
+    "Biotic (living things) and abiotic (non-living) factors",
+    "Primary and secondary pollutants",
+    "Natural and artificial contaminants",
+    "Biodegradable and non-biodegradable components"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "In environmental science, non-living factors are referred to as:",
+  options: [
+    "abiotic factors",
+    "biotic factors",
+    "pollutants",
+    "contaminants"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "According to the notes, what is described as one of the most horrible ecological crises of modern society?",
+  options: [
+    "Pollution of our environment",
+    "The gradualism model",
+    "The discovery of fossils in Germany",
+    "The speed of Earth's rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Pollution is considered a major ecological crisis of which era?",
+  options: [
+    "modern society",
+    "ancient Greece",
+    "medieval Europe",
+    "pre-socratic times"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Environmental pollution is primarily the result of urban development coupled with:",
+  options: [
+    "industrialization",
+    "agriculture",
+    "natural decay",
+    "nuclear fusion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What two processes are coupled together to result in environmental pollution?",
+  options: [
+    "Urban development and industrialization",
+    "Atmospheric insulation and global warming",
+    "Siltation and thermal agitation",
+    "Primary and secondary filtration"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "How is 'pollution' defined in the notes?",
+  options: [
+    "The undesirable change in the biology, chemical and physical characteristics of the environment causing harmful effects to life and properties",
+    "The natural process of decomposing organic materials using bacteria",
+    "The presence of substances originally absent from nature that are safely integrated",
+    "The continuous process of natural change shaping the earth's landscape"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What kind of change does pollution represent in the biology, chemical, and physical characteristics of the environment?",
+  options: [
+    "Undesirable change",
+    "Progressive adaptation",
+    "Predictable improvement",
+    "Symmetrical rotation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is a pollutant according to Chapter 6?",
+  options: [
+    "A substance originally present in nature, but becomes a pollutant when present in amounts greater than the natural abundance because of man's activities",
+    "A substance that does not occur originally in nature but is artificially synthesized",
+    "A domestic waste product that decomposes within a very short time",
+    "Finely divided matter suspended in the atmosphere from forest fires"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "When does a naturally occurring substance become classified as a pollutant?",
+  options: [
+    "When it is present in amounts greater than natural abundance due to human activities and hurts the environment",
+    "When it reacts with ozone in the stratosphere",
+    "When it is completely decomposed by natural decay",
+    "When it exists in the deep liquid iron core of the earth"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What distinguishes a contaminant from a pollutant?",
+  options: [
+    "A contaminant does not occur originally in nature but it is introduced into the environment by man's activities",
+    "A contaminant is always biodegradable and easily decomposed",
+    "A contaminant occurs naturally in the earth's mantle",
+    "A contaminant reduces the oxygen-carrying efficiency of blood"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "By what means are contaminants introduced into the environment?",
+  options: [
+    "man's activities",
+    "natural forest fires",
+    "volcanic eruptions",
+    "convective zone agitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are primary pollutants?",
+  options: [
+    "Primary pollutants are released from an identifiable source as pollutant into the environment",
+    "Compounds formed through sunlight-triggered chemical reactions",
+    "Substances that are easily decomposed in their natural environment",
+    "Finely divided dust particles carried from land to water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is an example of a primary pollutant?",
+  options: [
+    "sulfur dioxide, carbon monoxide, oxide of nitrogen, etc.",
+    "peroxyacetyl nitrate (PAN)",
+    "lead and mercury salts",
+    "dichlorodiphenyltrichloroethane (DDT)"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "How are secondary pollutants formed?",
+  options: [
+    "Secondary pollutants are substances derived from primary pollutants by chemical reactions",
+    "They are released directly from an identifiable industrial source",
+    "They occur naturally in coal peat bogs and swamps",
+    "They are introduced as raw contaminants by volcanic eruptions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which compound is produced as a secondary pollutant when hydrocarbons and nitrogen oxides react in the presence of sunlight?",
+  options: [
+    "peroxyacetyl nitrate (PAN)",
+    "carbon monoxide",
+    "sulfur dioxide",
+    "ozone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Into what two major groups can pollutants be classified based on their decomposition?",
+  options: [
+    "Biodegradable and Non-biodegradable",
+    "Primary and Secondary",
+    "Biotic and Abiotic",
+    "Natural and Artificial"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "The ease of decomposition determines whether pollutants are classified as:",
+  options: [
+    "biodegradable or non-biodegradable",
+    "organic or thermal",
+    "suspended or dissolved",
+    "contaminants or siltation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is a defining characteristic of biodegradable pollutants?",
+  options: [
+    "Biodegradable pollutants can be decomposed easily in their natural environment",
+    "They cannot be degraded by natural processes",
+    "They react in sunlight to form peroxyacetyl nitrate",
+    "They reduce the mechanical strength of synthetic polymers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is an example of a biodegradable pollutant?",
+  options: [
+    "animal and plant debris, domestic sewage, etc.",
+    "lead and mercury salts",
+    "aluminum cans",
+    "dichlorodiphenyltrichloroethane (DDT)"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are non-biodegradable pollutants?",
+  options: [
+    "Substances which can either not be degraded or are degraded slowly in their natural environment",
+    "Pollutants released directly from an identifiable industrial chimney",
+    "Highly compressed rocks and iron in a liquid state",
+    "Finely divided dust particles carried from land to water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is classified as a non-biodegradable pollutant in the notes?",
+  options: [
+    "lead and mercury salts, aluminum cans, and phenolic compounds",
+    "animal and plant debris, and domestic sewage",
+    "sulfur dioxide and carbon monoxide",
+    "ozone and nitrogen dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following lists only natural sources of pollution?",
+  options: [
+    "natural forest fire, earthquake, tsunamis, natural decay, and volcanic eruptions",
+    "domestic sewage, industrial chimneys, and lead salts",
+    "DDT combustion, vehicle exhaust, and synthetic polymers",
+    "thermal power plants, coal dust, and aluminum cans"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Artificial sources of pollution are defined as those that originate from:",
+  options: [
+    "the activities of man via domestic or industrial sources",
+    "naturally occurring earthquakes and tsunamis",
+    "the decay of organic forest debris",
+    "the thermal agitation of solar batteries"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What are the main classes of pollution listed in the notes?",
+  options: [
+    "air, water, and land/soil",
+    "biotic, abiotic, and thermal",
+    "primary, secondary, and tertiary",
+    "radioactive, chemical, and biological"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is NOT one of the main classes of pollution listed in Point 15?",
+  options: [
+    "thermal",
+    "air",
+    "water",
+    "land/soil"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is the harmful effect of inhaling excessive amounts of carbon monoxide?",
+  options: [
+    "reduces the efficiency of the blood in carrying oxygen from the lungs to other parts",
+    "causes a reduction in plant growth",
+    "decreases the mechanical strength of natural rubber",
+    "leads to the siltation of water bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which pollutant specifically reduces the efficiency of blood in carrying oxygen from the lungs to other parts of the body?",
+  options: [
+    "Carbon monoxide",
+    "Nitrogen dioxide",
+    "Ozone",
+    "Sulfur dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "A higher concentration of smoke and oxides of sulfur can lead to which health conditions?",
+  options: [
+    "bronchitis and lung cancer",
+    "eye irritation and chest discomfort",
+    "fatigue and high body temperature",
+    "oxygen deficiency and blood poisoning"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Bronchitis and lung cancer are associated with higher concentrations of smoke and:",
+  options: [
+    "oxides of sulfur",
+    "carbon monoxide",
+    "volatile organic compounds",
+    "ozone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which gas is described as a deadly poison that affects both man and vegetation?",
+  options: [
+    "Nitrogen Dioxide",
+    "Carbon Monoxide",
+    "Helium",
+    "Ozone"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Nitrogen Dioxide acts as a deadly poison affecting which of the following?",
+  options: [
+    "both man and vegetation",
+    "only industrial equipment",
+    "only aquatic organisms",
+    "only synthetic polymers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Ozone is an allotrope of which element?",
+  options: [
+    "oxygen",
+    "nitrogen",
+    "carbon",
+    "sulfur"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Photochemical smog is caused by the combination of ozone, nitrogen dioxide, and:",
+  options: [
+    "peroxyacetylnitrate",
+    "carbon monoxide",
+    "sulfur dioxide",
+    "suspended dust"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Which of the following is an effect of ozone on humans?",
+  options: [
+    "causes eye irritation, cough, chest discomfort and fatigue",
+    "reduces the oxygen-carrying efficiency of blood",
+    "causes bronchitis and lung cancer",
+    "increases thermal energy in cells"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "How does ozone affect natural rubber and synthetic polymers?",
+  options: [
+    "reduces the mechanical strength of natural rubber and synthetic polymers",
+    "converts them to biodegradable compounds",
+    "turns them into peroxyacetyl nitrate",
+    "increases their elasticity and density"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What does 'suspended matter' refer to in air pollution?",
+  options: [
+    "the suspension of finely divided matter or droplet of liquid in the air",
+    "dust and dirt carried from land to water",
+    "waste heat released from nuclear and thermal power plants",
+    "radioactive particles dissolved in water bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Suspended matter consists of finely divided matter or ________ of liquid in the air.",
+  options: [
+    "droplet",
+    "crystal",
+    "bubble",
+    "stream"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is 'siltation' defined as in the notes?",
+  options: [
+    "dust particles and dirt which are carried from land to water",
+    "finely divided liquid droplets suspended in the air",
+    "waste heat released from thermal power plants",
+    "the presence of lead and mercury salts in the soil"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Siltation consists mainly of dirt and dust particles carried from:",
+  options: [
+    "land to water",
+    "atmosphere to soil",
+    "industrial sources to clouds",
+    "water to the air"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is a major source of thermal pollution?",
+  options: [
+    "waste heat mainly from atomic, nuclear, and thermal power plants",
+    "liquid iron and compressed rocks from the core",
+    "the reaction of hydrocarbons and nitrogen oxides",
+    "siltation carrying dirt from land to water"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What ecological effect does thermal pollution have on water bodies?",
+  options: [
+    "leads to increased demand for dissolved oxygen",
+    "coats the water with peroxyacetyl nitrate",
+    "causes immediate radioactive decay",
+    "reduces the temperature of the water mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What causes radioactive pollution in a water body?",
+  options: [
+    "the presence of radioactive materials in a water body",
+    "excessive waste heat from atomic plants",
+    "high concentrations of oxides of sulfur",
+    "siltation carrying dust particles"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Radioactive pollution primarily occurs due to the presence of radioactive materials in a:",
+  options: [
+    "water body",
+    "photosphere",
+    "plant leaf",
+    "synthetic polymer"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "What is land or soil pollution?",
+  options: [
+    "the presence of material (chemical, physical and biological) in the soil, which would affect its optimal functioning",
+    "the suspension of finely divided matter or droplets of liquid in the air",
+    "the accumulation of dust particles and dirt carried from land to water",
+    "the emission of toxic gases from volcanic eruptions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 6,
+  question: "Soil pollution is defined as the presence of physical, chemical, and biological materials that affect the soil's:",
+  options: [
+    "optimal functioning",
+    "natural insulation",
+    "convective heat",
+    "biodegradability"
+  ],
+  answer: 0
+    }
   ]
