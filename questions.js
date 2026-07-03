@@ -43961,5 +43961,1228 @@ const QUESTIONS = [
       "Cattle"
     ],
     answer: 0
+  },
+  {
+  course: "gst113",
+  chapter: 3,
+  question: "What naturally occurs as a result of people living together and usually leads to conflict?",
+  options: [
+    "Clash of interest",
+    "Absolute consensus",
+    "Biological genetic defect",
+    "Structural equality"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Complete the statement from Chapter 3: 'Clash of interest that occurs naturally as a result of people living together would usually lead to ________.'",
+  options: [
+    "harmony",
+    "integration",
+    "conflict",
+    "reconciliation"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "According to Albert (2013), which country is currently suffering from violent communal clashes between crop farmers and herdsmen, as well as the National Union of Road Transport Workers?",
+  options: [
+    "Nigeria",
+    "Ghana",
+    "Sudan",
+    "Angola"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Which scholar highlighted that Nigeria suffers from violent communal clashes involving crop farmers, herdsmen, and the National Union of Road Transport Workers?",
+  options: [
+    "Galtung (1996)",
+    "Albert (2013)",
+    "Mayer (2012)",
+    "Mehta (2003)"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "According to the notes, it is not the existence of conflicts that is important, but how they are:",
+  options: [
+    "Ignored",
+    "Managed",
+    "Suppressed",
+    "Eradicated"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Point 3 emphasizes that the key focus regarding conflicts should be on their:",
+  options: [
+    "Management",
+    "Prolongation",
+    "Innate nature",
+    "Latent dormant phase"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "What refers to any contraption such as all forms of physical activity which, through casual or organized participation, is aimed at expressing or improving physical fitness?",
+  options: [
+    "Conflict resolution",
+    "Sport",
+    "Recreation",
+    "Acculturation"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Through casual or organized participation, sport is aimed at expressing or improving:",
+  options: [
+    "Physical fitness",
+    "Economic classes",
+    "Political boundaries",
+    "Judicial structures"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Which of the following is NOT listed as an attribute that makes sport feasible to strengthen the peace enhancement process?",
+  options: [
+    "Universality",
+    "Ability to connect people",
+    "Capacity to generate class struggles",
+    "Potential to inspire and motivate"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "The capacity to divert violent behavior and foster peace enhancement are attributes that make ________ feasible to strengthen peace processes.",
+  options: [
+    "law courts",
+    "sport",
+    "rebellion movements",
+    "economic crises"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Sport can assist in the prevention and reduction of conflict, contributing to community economic development and increasing:",
+  options: [
+    "Social cohesion",
+    "Class domination",
+    "Latent tension",
+    "Regional boundaries"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Besides reducing conflict and increasing social cohesion, sport can contribute directly to:",
+  options: [
+    "Community economic development",
+    "The creation of weapon registries",
+    "Secessionist movements",
+    "The formal court systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "According to Point 7 of the notes, sport has the unique capacity to foster:",
+  options: [
+    "Peace enhancement efforts and initiatives",
+    "Political corruption and institutional failures",
+    "Inter-state boundary adjustments",
+    "Unequal distribution of resources"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Sport is highlighted in Chapter 3 as a viable tool that can foster peace enhancement:",
+  options: [
+    "Efforts and initiatives",
+    "Exclusively at the international level",
+    "By promoting direct violence",
+    "By creating rigid social barriers"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "For Galtung, peace enhancement takes a holistic process that includes the '3 Rs' peace-building process. What are the 3 Rs?",
+  options: [
+    "Reconstruction, Reconciliation, and Resolution",
+    "Rehabilitation, Rebuilding, and Restructuration",
+    "Reculturation, Realism, and Relational",
+    "Regulation, Resolution, and Restructuring"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Who proposed that the peace enhancement process should be a holistic process including Reconstruction, Reconciliation, and Resolution?",
+  options: [
+    "Galtung",
+    "Albert",
+    "Mayer",
+    "Mehta"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "How many sub-stages are contained within the reconstruction phase of peace building?",
+  options: [
+    "Three",
+    "Four",
+    "Five",
+    "Six"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Which of the following is NOT one of the four sub-stages in the reconstruction phase of peace?",
+  options: [
+    "Rehabilitation",
+    "Rebuilding",
+    "Restructuration",
+    "Reconciliation"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "During which sub-stage of reconstruction is sport theorized to attract people into getting involved based on accepted cultural rules?",
+  options: [
+    "Rehabilitation sub-stage",
+    "Rebuilding sub-stage",
+    "Acculturation sub-stage",
+    "Restructuration sub-stage"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "The establishment of sports clubs and leagues based on accepted cultural rules to attract people's involvement occurs during which sub-stage?",
+  options: [
+    "Acculturation",
+    "Rehabilitation",
+    "Restructuration",
+    "Rebuilding"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "The use of sport for individual development rests on the idea that, to be at peace with society, one has to first:",
+  options: [
+    "Be at peace with oneself",
+    "Compete in professional leagues",
+    "Defeat his biological opponents",
+    "Reconstruct the entire judicial system"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Being at peace with oneself is the foundational idea for using sport to promote:",
+  options: [
+    "Individual development",
+    "Economic dominance",
+    "Inter-state border adjustments",
+    "The 3 Rs peace building process"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Sport is fun and enhances the acquisition of positive values including team cooperation, leadership, and:",
+  options: [
+    "Fair play",
+    "Class division",
+    "Suppressed emotions",
+    "Physical dominance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "The positive values of team cooperation, fair play, and leadership acquired through sport are valuable because they can be:",
+  options: [
+    "Used to dominate other classes",
+    "Replicated in daily life",
+    "Kept exclusive to the sports arena",
+    "Ignored during conflict situations"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Sport can contribute to peace enhancement primarily because of its:",
+  options: [
+    "Economic cost",
+    "Universality",
+    "Incompatibility with rules",
+    "Competitive aggression"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "The quality of being global and appealing to all people, which enables sport to contribute to peace enhancement, is called:",
+  options: [
+    "Universality",
+    "Acculturation",
+    "Reconciliation",
+    "Restructuration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Because sport is cross-cultural in nature, it has a unique way of breaking through:",
+  options: [
+    "Geographic and social barriers",
+    "Constitutional laws and codes",
+    "The 3 Rs of peace building",
+    "The physiological traits of humans"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 3,
+  question: "Which characteristic of sport gives it a unique way of breaking through geographic and social barriers?",
+  options: [
+    "Its cross-cultural nature",
+    "Its high cost of participation",
+    "Its alignment with political boundaries",
+    "Its basis in local structures only"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Liberia and Sierra Leone are located in the area known as the:",
+  options: [
+    "Maro River area",
+    "Niger Delta area",
+    "Anambra Basin",
+    "Zambezi Valley"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which two West African countries are located in the Maro River area?",
+  options: [
+    "Liberia and Sierra Leone",
+    "Nigeria and Cameroon",
+    "Ghana and Togo",
+    "Sudan and Angola"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "What is the Mano River locally called?",
+  options: [
+    "Maro River",
+    "Bewa River",
+    "Voinjama River",
+    "Guinea River"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "The Mano River derives its source from the Guinea Highlands Northeast of:",
+  options: [
+    "Voinjama, Liberia",
+    "Monrovia, Liberia",
+    "Freetown, Sierra Leone",
+    "Biafra, Nigeria"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "What percentage of war-related deaths in conflicts were accounted for by women and children?",
+  options: [
+    "Over 45%",
+    "Over 60%",
+    "Over 80%",
+    "Over 95%"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which groups of people accounted for over 80% of war-related deaths in conflicts?",
+  options: [
+    "Male combatants and rebel leaders",
+    "Women and children",
+    "Youth and military officers",
+    "Ministers and parliamentarians"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "In Sierra Leone and Liberia, the youth comprise what percentages of their respective populations?",
+  options: [
+    "Over 60% and 45%",
+    "Over 80% and 60%",
+    "Over 45% and 30%",
+    "Over 50% and 25%"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Sierra Leone and Liberia have some of the world's:",
+  options: [
+    "Oldest populations",
+    "Youngest populations",
+    "Most highly urbanized agricultural systems",
+    "Least vulnerable populations"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "According to Point 5, what factor underlines the importance of women and young people in any conflict resolution and peace-building agenda?",
+  options: [
+    "Their vulnerability in conflict situations",
+    "Their high rate of direct violence",
+    "Their exclusion from the 1999 Lome agreement",
+    "Their dominance in the regional courts of law"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "The vulnerability of women and young people in conflict situations highlights their immense significance in:",
+  options: [
+    "Promoting inter-state border disputes",
+    "Classifying internal coup d'etats",
+    "Conflict resolution and peace-building agendas",
+    "Developing international maritime codes"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "During the violence that engulfed the Mano River area, the youth of Liberia and Sierra Leone were:",
+  options: [
+    "Both the perpetrators and victims of the violence",
+    "Completely uninvolved in any direct violence",
+    "Exclusively acting as objective mediators",
+    "Represented only as external observers"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which group in Liberia and Sierra Leone acted as both the perpetrators and victims of the violence in the Mano River area?",
+  options: [
+    "The regional court judges",
+    "The elderly population",
+    "The international aid workers",
+    "The youth"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which organization was instrumental in resolving the Liberian crisis by acting as objective intermediaries between Charles Taylor and rebel leaders?",
+  options: [
+    "MARWOPNET",
+    "WIPNET",
+    "ECOWAS",
+    "SPLA"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "WIPNET was instrumental in resolving the Liberian crisis by serving as objective intermediaries in meetings between:",
+  options: [
+    "Charles Taylor and the rebel leaders",
+    "Ellen Johnson Sirleaf and the UN",
+    "The governments of Guinea and Algiers",
+    "Morocco and Sierra Leone"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which organization contributed to the peace-building process by launching an active Non-violence and Conflict Transformation program for youth in and around Monrovia?",
+  options: [
+    "UNITA",
+    "WIPNET",
+    "MARWOPNET",
+    "SPLA"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "MARWOPNET launched an active Non-violence and Conflict Transformation program for youth in and around which capital city?",
+  options: [
+    "Freetown",
+    "Monrovia",
+    "Algiers",
+    "Luanda"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Liberian women's active engagement in ending the civil war and post-war reconstruction culminated in more political roles for women, such as:",
+  options: [
+    "Ministers, parliamentarians, and superintendents of countries",
+    "Rebel commandants and military generals",
+    "Border adjustment officers only",
+    "Judges of the international maritime courts"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which group in Liberia actively engaged in ending the civil war, leading to reconstruction efforts and concession of leadership roles?",
+  options: [
+    "Liberian women",
+    "The National Union of Road Transport Workers",
+    "The SPLA command",
+    "International realists"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Who is the first female president of Liberia?",
+  options: [
+    "Ellen Johnson Sirleaf",
+    "Graça Machel",
+    "Winnie Mandela",
+    "Fatou Bensouda"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Ellen Johnson Sirleaf is historically recognized as:",
+  options: [
+    "The founder of WIPNET",
+    "The leader of the SPLA",
+    "The first female president of Liberia",
+    "The mediator of the Lome agreement"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Which two key documents made adequate provisions for dealing with issues related to children and youth?",
+  options: [
+    "The 1996 Machel report and the 1999 Lome agreement",
+    "The ECOWAS constitution and the Albert (2013) paper",
+    "The Deutsch (1977) report and the Lome agreement",
+    "The 1996 WIPNET charter and the MARWOPNET manifest"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 4,
+  question: "Adequate provisions for dealing with issues related to children and youth were established in the 1996 Machel report and the:",
+  options: [
+    "1999 Lome agreement",
+    "2002 Warri accord",
+    "1987 Howard declaration",
+    "2003 Mehta framework"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "On the positive side, what has led to many of mankind's discoveries?",
+  options: [
+    "Absolute social conformity",
+    "Thinking differently",
+    "Severe scarcity of resources",
+    "Formal arbitration panels"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Thinking differently is noted on the positive side for leading to:",
+  options: [
+    "Many of mankind's discoveries",
+    "Unavoidable direct violence",
+    "Structural conflict theories",
+    "The failure of court systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Why is conflict considered inevitable in any human setting?",
+  options: [
+    "Because of court delays",
+    "Because humans lack any capacity for dialogue",
+    "Because people are naturally different in their knowledge, orientation, socialization, and attitude",
+    "Because of international boundaries"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "According to Point 2, conflict is ________ in any human setting due to natural human differences.",
+  options: [
+    "Inevitable",
+    "Abnormal",
+    "Avoidable",
+    "Temporary"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Who describes a crisis as inciting anxiety and high stress?",
+  options: [
+    "Coser",
+    "Ajala",
+    "Albert",
+    "Mayer"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "According to Ajala, a crisis is characterized by inciting:",
+  options: [
+    "Anxiety and high stress",
+    "Tranquility and inner peace",
+    "Reconciliation and reconstruction",
+    "Economic abundance and growth"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which scholar defined conflict as a struggle over values, status, power, and scarce resources, where the parties aim to gain deserved values and naturalize, injure, or eliminate rivals?",
+  options: [
+    "Ajala",
+    "Albert",
+    "Coser",
+    "Galtung"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "According to Coser's definition, the aim of conflicting parties is not only to gain deserved values but also to injure, eliminate, or ________ their rivals.",
+  options: [
+    "naturalize",
+    "rehabilitate",
+    "reconcile",
+    "negotiate"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which theory of conflict holds that conflict is built into the particular ways societies are structured and organized?",
+  options: [
+    "The Realist Theory",
+    "The Structural Conflict Theory",
+    "The Frustration Aggression Theory",
+    "The Physiological Theory"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Under the structural conflict theory, conflict is defined as being:",
+  options: [
+    "Built into the particular ways societies are structured and organized",
+    "An innate physiological defect in human biological structure",
+    "Solely a result of careless symbolic communication",
+    "A catastrophic failure of the highest court system"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which ideology drove the Soviet Revolution and that of Cuba?",
+  options: [
+    "Marxism",
+    "Egoism",
+    "Ethnocentrism",
+    "Realism"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The Soviet and Cuban revolutions were historically driven by:",
+  options: [
+    "Dialogue and negotiation",
+    "Arbitration courts",
+    "Maron River agreements",
+    "Marxism"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "According to sociologists, a society that has reasonably taken care of issues of social conflict concerning poverty is likely to experience:",
+  options: [
+    "A lower level of social conflict",
+    "A higher level of structural violence",
+    "A complete collapse of federal courts",
+    "The immediate outbreak of border wars"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "By addressing issues of poverty, a society becomes:",
+  options: [
+    "Unstable and prone to cold wars",
+    "Likely to experience a lower level of social conflict",
+    "Dominated by a standing arbitration panel",
+    "Unfit for dialogue approaches"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "According to Point 8, conflicts are likely to increase in situations of:",
+  options: [
+    "Want or lack",
+    "Absolute positive peace",
+    "Durable class harmony",
+    "Institutional over-regulation"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "In developing countries with huge populations, conflicts driven by want or lack are severely worsened by:",
+  options: [
+    "The total absence of legal counsels",
+    "Too many options for dialogue",
+    "Severe scarcity of resources",
+    "The presence of standing arbitration courts"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "What concept assumes that one's culture is superior to those of others?",
+  options: [
+    "Ethnocentric",
+    "Egoism",
+    "Marxism",
+    "Realism"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "While ethnocentrism relates to assumptions of cultural superiority, egoism suggests:",
+  options: [
+    "Physical fitness",
+    "Self-importance",
+    "Intergroup mediation",
+    "Structural inequality"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The use of what to transmit meaning from a source to a receiver can cause major conflict if used carelessly or inexactly?",
+  options: [
+    "Words and symbols",
+    "Arbitration panels",
+    "Rehabilitation sub-stages",
+    "National constitutions"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Words and symbols can easily trigger conflict if they are used:",
+  options: [
+    "With objective neutrality",
+    "By an ad-hoc arbitration panel",
+    "Carelessly or even inexactly",
+    "To describe structural theories"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Before employing a necessary approach as an antidote, what is highly necessary according to Point 11?",
+  options: [
+    "Understand the nature of conflict",
+    "Appoint a panel of judges",
+    "Consult with legal counsels",
+    "File a formal case in a court of law"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Understanding the nature of conflict is required as a prerequisite to:",
+  options: [
+    "Increasing severe resource scarcity",
+    "Employing the necessary approach as an antidote",
+    "Classifying boundary disputes as inter-state",
+    "Creating an ad-hoc arbitration panel"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "A conflict situation that deserves more than one approach for resolution is referred to as:",
+  options: [
+    "Duality or multiplicity of approaches",
+    "Radical structural conflict",
+    "Latent conflict",
+    "Ethnocentric egoism"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Duality or multiplicity of approaches refers to a situation where a conflict deserves:",
+  options: [
+    "Only a single standing court verdict",
+    "Complete avoidance by the family and village council",
+    "More than one approach",
+    "Absolute suppression of information"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which of the following is NOT listed as a popular approach to conflict management in Chapter 5?",
+  options: [
+    "Structural exclusion",
+    "Dialogue",
+    "Negotiation",
+    "Arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The popular approaches to conflict management listed in the text include Dialogue, Negotiation, Mediation, and:",
+  options: [
+    "Isolation",
+    "Arbitration",
+    "Rebellion",
+    "Secession"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which approach to conflict management is characterized by parties discussing among themselves with no third party involved?",
+  options: [
+    "Mediation",
+    "Dialogue",
+    "Arbitration",
+    "Negotiation"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "In the dialogue approach to conflict resolution:",
+  options: [
+    "There is no third party",
+    "A judge presides with legal counsels",
+    "An ad-hoc arbitration panel rules",
+    "One class dominates the other"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Dialogue is a highly effective primary approach to conflict resolution especially when there is an absence of lies, manipulation of facts, and:",
+  options: [
+    "Unnecessary ego",
+    "Active verbal discussion",
+    "Personal orientation",
+    "Direct communication"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Under what conditions is dialogue recommended as a primary approach to conflict resolution?",
+  options: [
+    "When formal court proceedings have already begun",
+    "When unnecessary ego, lies and manipulation of facts are not involved",
+    "When parties are totally unaware of their incompatible interests",
+    "When an ad-hoc arbitration panel issues a final decree"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "According to the notes, in negotiation, who is usually involved to serve as a referee, moderator, or witness?",
+  options: [
+    "A third party",
+    "A standing court judge",
+    "A military commander",
+    "An ethnocentric observer"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "In negotiation, the third party serves as a referee, moderator, or witness, helping the conflicting parties to:",
+  options: [
+    "Negotiate the terms of settlement",
+    "Upturn the decision of the highest court",
+    "Suppress information regarding resources",
+    "Initiate a formal class struggle"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "In the mediation approach to conflict management, who is appointed to resolve the conflict?",
+  options: [
+    "The International Court of Justice",
+    "The village council elder only",
+    "A mediator or a team",
+    "A formal legal counsel"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The appointment of a mediator or a team to resolve a conflict describes which approach?",
+  options: [
+    "Mediation",
+    "Dialogue",
+    "Arbitration",
+    "Negotiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "What is the final stage of conflict resolution when all the other approaches have failed and no compromise is reached?",
+  options: [
+    "Arbitration",
+    "Dialogue",
+    "Mediation",
+    "Negotiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Arbitration serves as the final stage of conflict resolution because it is used when:",
+  options: [
+    "No third party is willing to listen",
+    "All the other approaches have failed and no compromise is reached",
+    "The conflict is still completely latent",
+    "Parties wish to avoid formal legal procedures"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "An arbitration body is usually a court, which can be a standing arbitration court or:",
+  options: [
+    "An ad-hoc arbitration panel",
+    "An interpersonal family unit",
+    "A local government council",
+    "An active rebellion movement"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Arbitration is usually structured as:",
+  options: [
+    "An informal discussion without witnesses",
+    "A court, either an ad-hoc arbitration panel or a standing arbitration court",
+    "A direct clash of cultural values",
+    "A series of non-violent sports tournaments"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which stage of conflict resolution is formal, involves normal legal procedures, and is presided over by a judge?",
+  options: [
+    "Dialogue",
+    "Arbitration",
+    "Mediation",
+    "Negotiation"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "During the formal arbitration stage, how do the parties to the conflict present their cases?",
+  options: [
+    "Through legal counsels",
+    "Through informal dialogue with no third party",
+    "By participating in organized sports leagues",
+    "By engaging in non-violent youth rallies"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "In the recent arbitration case over the Bakassi Peninsula, the International Court of Justice ruled in favor of:",
+  options: [
+    "Nigeria",
+    "Cameroun",
+    "Angola",
+    "Sudan"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The Bakassi Peninsula case between Nigeria and Cameroun is cited in the notes as an example of:",
+  options: [
+    "Arbitration",
+    "Dialogue",
+    "Self-directed violence",
+    "Interpersonal negotiations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which of the following is NOT listed in Point 22 as an institution involved in conflict resolution?",
+  options: [
+    "Religious bodies",
+    "The media",
+    "An international rebellion movement",
+    "The family"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The family, village council, religious bodies, media, law enforcement agents, government, and the court are all:",
+  options: [
+    "Institutions involved in conflict resolution",
+    "Sources of structural violence",
+    "Examples of ad-hoc arbitration courts",
+    "Factors that worsen scarcity of resources"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Which institution is described as the 'final arbiter of everybody' which parties can approach when dissatisfied with other mechanisms?",
+  options: [
+    "The village council",
+    "The court",
+    "The media",
+    "The family"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "When parties to a conflict feel dissatisfied with every other mechanism or process, they can approach:",
+  options: [
+    "The court",
+    "An active rebellion movement",
+    "A regional sports league",
+    "The national media exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "A court decision is final unless it is:",
+  options: [
+    "Upturned by a superior court of competent jurisdiction",
+    "Challenged by an ad-hoc village council",
+    "Ignored by the legal counsels",
+    "Reviewed by local media representatives"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "What is required to upturn a final decision of a court of law?",
+  options: [
+    "A superior court of competent jurisdiction",
+    "The mutual agreement of the family unit",
+    "A public media presentation",
+    "A non-violent sports resolution"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Whose decision becomes the final decision of the case and must therefore be obeyed by the parties?",
+  options: [
+    "The village elder",
+    "The highest court",
+    "The media council",
+    "The local government council"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "Once the highest court delivers its decision, the parties to the conflict must:",
+  options: [
+    "Obey it",
+    "Refer it to dialogue",
+    "Appoint a mediator team",
+    "Apply for ad-hoc arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "The Nigerian Government is federal in nature, meaning it operates at how many levels?",
+  options: [
+    "Two levels",
+    "Three levels",
+    "Four levels",
+    "Five levels"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 5,
+  question: "What are the three levels at which the federal nature of the Nigerian Government operates?",
+  options: [
+    "The federal, state, and local government",
+    "The judicial, legislative, and executive branches",
+    "The family, village, and religious levels",
+    "The regional, national, and international courts"
+  ],
+  answer: 0
   }
-];
