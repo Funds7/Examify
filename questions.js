@@ -43235,5 +43235,731 @@ const QUESTIONS = [
       "Radical structural theory"
     ],
     answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following continents is regarded as a theater of wars and conflicts among all other continents in the world?",
+    options: [
+      "Africa",
+      "Asia",
+      "Europe",
+      "South America"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The African continent is globally recognized and regarded as a:",
+    options: [
+      "Hub of peaceful regional integration",
+      "Theater of wars and conflicts",
+      "Model for structural equality",
+      "Zone free of social disputes"
+    ],
+    answer: 1
+  },
+
+  // Point 2
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The word conflict is derived from which Latin word?",
+    options: [
+      "conflictum",
+      "conflictus",
+      "conflagrare",
+      "consensum"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "What is the literal meaning of the Latin word 'conflictum' from which conflict is derived?",
+    options: [
+      "A resolution or agreement",
+      "A peaceful dialogue",
+      "A clash or a struggle",
+      "A legal standard"
+    ],
+    answer: 2
+  },
+
+  // Point 3
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "By conflict, we mean a prolonged battle, a struggle, or a:",
+    options: [
+      "Clash",
+      "Treaty",
+      "Covenant",
+      "Suspension"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following describes conflict as a prolonged battle, struggle, or clash?",
+    options: [
+      "Point 1 of Chapter 2",
+      "Point 3 of Chapter 2",
+      "Point 10 of Chapter 2",
+      "Point 15 of Chapter 2"
+    ],
+    answer: 1
+  },
+
+  // Point 4
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Mayer explains conflicts through a three-dimensional lens. Which of the following is NOT one of these dimensions?",
+    options: [
+      "Conflict as perception",
+      "Conflict as feeling",
+      "Conflict as action",
+      "Conflict as resolution"
+    ],
+    answer: 3
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Whose three-dimensional lens explains conflict as perception, feeling, and action?",
+    options: [
+      "Mayer",
+      "Galtung",
+      "Howard",
+      "Mehta"
+    ],
+    answer: 0
+  },
+
+  // Point 5
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "According to Mayer, conflict as perception identifies conflict as being the conviction that one's needs, interests, wants, or values are:",
+    options: [
+      "Identical with someone else's",
+      "Incompatible with someone else's",
+      "Met by the state structures",
+      "Expressed through violent means"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "In Mayer's three-dimensional lens, which dimension defines conflict as a conviction of incompatible needs, interests, wants, or values?",
+    options: [
+      "Conflict as perception",
+      "Conflict as feeling",
+      "Conflict as action",
+      "Conflict as structure"
+    ],
+    answer: 0
+  },
+
+  // Point 6
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "According to Mayer, conflict as feelings can be expressed through several emotions, including fear, anger, bitterness, sadness, or:",
+    options: [
+      "Tranquility",
+      "Hopelessness",
+      "Harmony",
+      "Satisfaction"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Under Mayer's framework, expressions of fear, bitterness, anger, and sadness represent conflict as:",
+    options: [
+      "Perception",
+      "Action",
+      "Feelings",
+      "Structures"
+    ],
+    answer: 2
+  },
+
+  // Point 7
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which regional body defines conflict as 'contradictions inherent in power relations' manifesting in the pursuit of limited resources?",
+    options: [
+      "ECOWAS",
+      "SADC",
+      "African Union",
+      "United Nations"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "According to the ECOWAS definition, conflict manifests in individual and group interactions with one another and with nature in the pursuit of:",
+    options: [
+      "Constitutional reforms",
+      "Electoral positions",
+      "Limited resources or opportunities",
+      "International alignment"
+    ],
+    answer: 2
+  },
+
+  // Point 8
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which source defines violence as physical force unlawfully exercised towards property and/or persons, causing or intending to cause damage or injury?",
+    options: [
+      "Business Dictionary",
+      "World Health Organization",
+      "ECOWAS Charter",
+      "Oxford Dictionary"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "According to the Business Dictionary definition, violence involves physical force unlawfully exercised toward:",
+    options: [
+      "Property and/or persons",
+      "Only international boundaries",
+      "Only state resources",
+      "Only military installations"
+    ],
+    answer: 0
+  },
+
+  // Point 9
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which organization defines violence as the 'intentional use of physical force or power, threatened or actual, against oneself, another person, or against a group or community'?",
+    options: [
+      "WHO",
+      "ECOWAS",
+      "UNESCO",
+      "SADC"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The WHO definition of violence includes the intentional use of physical force or power, which can be either actual or:",
+    options: [
+      "Threatened",
+      "Unintentional",
+      "Accidental",
+      "Structural"
+    ],
+    answer: 0
+  },
+
+  // Point 10
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which category of violence refers to violence a person inflicts upon himself or herself?",
+    options: [
+      "Interpersonal violence",
+      "Self-directed violence",
+      "Collective violence",
+      "Structural violence"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Self-directed violence takes the form of:",
+    options: [
+      "Self-abuse",
+      "Isolation",
+      "State terrorism",
+      "Boundary disputes"
+    ],
+    answer: 0
+  },
+
+  // Point 11
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "What type of violence occurs when one person uses power and control over another through physical, sexual, or emotional threats, economic control, or isolation?",
+    options: [
+      "Self-directed violence",
+      "Collective violence",
+      "Interpersonal violence",
+      "Structural violence"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Coercive behaviors such as economic control and isolation between individuals are characteristics of:",
+    options: [
+      "Interpersonal violence",
+      "Collective violence",
+      "Self-directed violence",
+      "Inter-state conflicts"
+    ],
+    answer: 0
+  },
+
+  // Point 12
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following is defined as violent conflicts between nations and groups, state and group terrorism, and rape as a weapon of war?",
+    options: [
+      "Collective violence",
+      "Interpersonal violence",
+      "Self-directed violence",
+      "Latent violence"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "State and group terrorism, along with rape as a weapon of war, are classified under which type of violence?",
+    options: [
+      "Self-directed violence",
+      "Collective violence",
+      "Interpersonal violence",
+      "Structural violence"
+    ],
+    answer: 1
+  },
+
+  // Point 13
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Boundary disputes, election disputes, inept leadership, political corruption, and failure of institutions are classified as what category of factors leading to violence in Africa?",
+    options: [
+      "Social factors",
+      "Economic factors",
+      "Political factors",
+      "Physiological factors"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following is NOT listed as a political factor leading to intense violence and conflicts in African countries?",
+    options: [
+      "Failure of institutions",
+      "Inept leadership",
+      "Political corruption",
+      "Rural conflicts over grazing land"
+    ],
+    answer: 3
+  },
+
+  // Point 14
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "What factor is frequently identified as responsible for conflicts and violence among African states due to historical demarcations?",
+    options: [
+      "Disputes arising from boundary creations and adjustment",
+      "Rate of urbanization",
+      "Self-directed violence",
+      "Lack of physiological stimulation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Boundary creations and adjustment disputes frequently cause conflict and violence among which group?",
+    options: [
+      "African states",
+      "European coalitions",
+      "Local governments only",
+      "Religious bodies only"
+    ],
+    answer: 0
+  },
+
+  // Point 15
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which two countries fought the first border war in post-independence African history?",
+    options: [
+      "Nigeria and Cameroon",
+      "Algiers and Morocco",
+      "Sudan and Egypt",
+      "Ethiopia and Eritrea"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The first border war between Algiers and Morocco took place:",
+    options: [
+      "Immediately after independence",
+      "Four decades after independence",
+      "In the year 2002",
+      "During the Cold War era"
+    ],
+    answer: 0
+  },
+
+  // Point 16
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Apart from boundary issues, conflict and violence across African states have also been widely attributed to:",
+    options: [
+      "Electoral system perfection",
+      "Election disputes",
+      "Urban agricultural success",
+      "Constitutional amendments"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Election disputes in Africa are identified in Chapter 2 as a political source of:",
+    options: [
+      "Conflict and violence",
+      "Sustainable economic growth",
+      "Inter-state boundary resolution",
+      "Positive structural peace"
+    ],
+    answer: 0
+  },
+
+  // Point 17
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The Sudan People's Liberation Army (SPLA) and the National Union for the Total Independence of Angola (UNITA) are notable examples of what?",
+    options: [
+      "Rebellion movements in Africa",
+      "Secessionist movements in Nigeria",
+      "Ecowas judicial departments",
+      "Inter-state arbitration panels"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "In which country did the rebellion movement known as UNITA operate?",
+    options: [
+      "Sudan",
+      "Angola",
+      "Nigeria",
+      "Morocco"
+    ],
+    answer: 1
+  },
+
+  // Point 18
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following is cited as an example of a spectacular secessionist movement in Africa that ended in a catastrophic failure?",
+    options: [
+      "Biafra in Nigeria",
+      "SPLA in Sudan",
+      "UNITA in Angola",
+      "Algiers in Morocco"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The secessionist movement of Biafra in Nigeria is described in the notes as having ended in:",
+    options: [
+      "Peaceful regional integration",
+      "A successful treaty",
+      "A catastrophic failure",
+      "Political dominance"
+    ],
+    answer: 2
+  },
+
+  // Point 19
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "What percentage of violent overthrows of government in Sub-Saharan Africa was accounted for by coup d'etats within the first four decades of attaining independence?",
+    options: [
+      "About 50%",
+      "About 60%",
+      "About 80%",
+      "About 95%"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Coup d'etats were responsible for approximately 80% of violent overthrows of government in which region during its first four decades of independence?",
+    options: [
+      "Sub-Saharan Africa",
+      "North Africa",
+      "The Middle East",
+      "West Africa only"
+    ],
+    answer: 0
+  },
+
+  // Point 20
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Conflicts and violence arising from border disputes are mostly classified under:",
+    options: [
+      "Internal conflicts",
+      "Inter-state conflicts",
+      "Self-directed conflicts",
+      "Sociological conflicts"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following is an example of conflicts classified under inter-state conflicts?",
+    options: [
+      "Coup d'etats",
+      "Conflicts arising from border disputes",
+      "Self-directed violence",
+      "Urbanization movements"
+    ],
+    answer: 1
+  },
+
+  // Point 21
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Coup d'etats are classified under which category of conflict?",
+    options: [
+      "Inter-state conflicts",
+      "Internal conflicts",
+      "Global conflicts",
+      "Environmental conflicts"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Unlike border disputes which are inter-state, coup d'etats in Africa are categorized as:",
+    options: [
+      "Internal conflicts",
+      "Regional peace frameworks",
+      "Collective international violence",
+      "Structural compromises"
+    ],
+    answer: 0
+  },
+
+  // Point 22
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "According to the notes, conflict results from the failure of the law to take hold or from:",
+    options: [
+      "An unfair application of the law",
+      "The total absence of judicial officers",
+      "The creation of international constitutions",
+      "Constitutional over-regulation"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "When the law fails to take hold or is unfairly applied, what is the likely result?",
+    options: [
+      "Positive peace",
+      "Conflict",
+      "Durable harmony",
+      "Equitable distribution of power"
+    ],
+    answer: 1
+  },
+
+  // Point 23
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Conflicts instigated by economic crisis are characterized by scarcity of resources and which of the following?",
+    options: [
+      "Equitable distribution of economic resources",
+      "Unequal distribution of economic resources",
+      "Rapid decline of urbanization",
+      "Perfect application of constitutional law"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Unequal distribution of resources in economic-crisis-led conflicts leads to limited access and often results in:",
+    options: [
+      "Material poverty",
+      "Structural harmony",
+      "Inter-state boundary security",
+      "Internal stability"
+    ],
+    answer: 0
+  },
+
+  // Point 24
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Rural conflicts over resources in Africa typically include conflicts over grazing land, cattle, water points, and:",
+    options: [
+      "Cultivable land",
+      "Industrial machinery",
+      "Offshore oil rights",
+      "Urban housing"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which of the following is NOT listed as a major resource triggering rural conflicts in Africa?",
+    options: [
+      "Grazing land",
+      "Cattle",
+      "Water points",
+      "Precious mineral refineries"
+    ],
+    answer: 3
+  },
+
+  // Point 25
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Which continent has the highest rate of urbanization in the world?",
+    options: [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Africa's rate of urbanization is noted for being:",
+    options: [
+      "The lowest in the world",
+      "The highest in the world",
+      "Moderately declining",
+      "Completely stagnant"
+    ],
+    answer: 1
+  },
+
+  // Point 26
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "The social factors that engender conflicts and violence in Africa are of what nature?",
+    options: [
+      "Religious and ethnic",
+      "Economic and structural",
+      "Constitutional and legal",
+      "Physiological and biological"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Religious and ethnic factors that lead to African conflicts are classified as:",
+    options: [
+      "Political factors",
+      "Social factors",
+      "Economic factors",
+      "Inter-state factors"
+    ],
+    answer: 1
+  },
+
+  // Point 27
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Violence becomes structural when it is built into the social system and expresses itself in:",
+    options: [
+      "The unequal distribution of power and unequal opportunities",
+      "Direct physical attacks on property and persons",
+      "Self-abuse and self-directed aggression",
+      "An equal distribution of resources"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "When violence is built into the social system and creates unequal opportunities, it is classified as:",
+    options: [
+      "Structural violence",
+      "Direct violence",
+      "Interpersonal violence",
+      "Collective violence"
+    ],
+    answer: 0
+  },
+
+  // Point 28
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "What is the general formula behind structural violence?",
+    options: [
+      "Inequality in the distribution of power and resources",
+      "Equal opportunity and biological dominance",
+      "High rates of urbanization and migration",
+      "The direct use of physical force against individuals"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 2,
+    question: "Under the general formula of structural violence, inequality expresses itself in the distribution of resources and:",
+    options: [
+      "Power",
+      "Constitutions",
+      "Geographical boundaries",
+      "Cattle"
+    ],
+    answer: 0
   }
 ];
