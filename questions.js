@@ -46457,5 +46457,917 @@ const QUESTIONS = [
     "Creating ad-hoc agricultural leagues"
   ],
   answer: 0
-  }
-  ]
+  },
+  {
+  course: "gst113",
+  chapter: 9,
+  question: "According to Point 1, what do all societies have to resolve or manage conflicts?",
+  options: [
+    "A framework of laid-down conventions or rules",
+    "A formal written constitution only",
+    "An active standing military court",
+    "A permanent international peacekeeping force"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "The laid-down conventions or rules present in all societies are designed specifically to:",
+  options: [
+    "Prevent any structural urbanization",
+    "Resolve or manage conflicts",
+    "Promote the displacement of youth",
+    "Abolish traditional religious shrines"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Who defines conflict resolution as approaches aimed at terminating conflicts through constructive problem-solving, distinctly from management or transformation?",
+  options: [
+    "Burton",
+    "Miller",
+    "Goldstein",
+    "Coser"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "According to Miller, conflict resolution is distinct from conflict transformation and conflict:",
+  options: [
+    "Management",
+    "Confrontation",
+    "Reconstruction",
+    "Avoidance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "According to Burton, what term refers to negotiated or arbitrated outcomes of disputes?",
+  options: [
+    "Settlement",
+    "Resolution",
+    "Transformation",
+    "Avoidance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "In Burton's terminology, while 'settlement' refers to negotiated or arbitrated outcomes of disputes, 'resolution' refers to:",
+  options: [
+    "The complete elimination of physical assets",
+    "Outcomes of a conflict situation",
+    "The onset of a latent cold war",
+    "Interpersonal class dominance"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "People interpret social action and social reality through their:",
+  options: [
+    "Indigenous conceptions and knowledge",
+    "Foreign legislative models only",
+    "Decadent popular theatre scripts",
+    "Ad-hoc judicial panel decrees"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Indigenous conceptions and knowledge are used by local populations to interpret:",
+  options: [
+    "Social action and social reality",
+    "International maritime boundaries",
+    "The structure of the UN Security Council",
+    "The 1996 Machel report directives"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Burton defines conflict management as the process of reducing which capacity of conflict?",
+  options: [
+    "The positive and constructive capacity",
+    "The negative and destructive capacity",
+    "The formal and judicial capacity",
+    "The latent and manifest capacity"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "According to Burton, conflict management reduces destructive capacity by working with and through:",
+  options: [
+    "The parties involved in the conflict",
+    "A standing international court judge",
+    "The regional military command",
+    "The local family unit exclusively"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "The term conflict management is used synonymously with:",
+  options: [
+    "Conflict regulation",
+    "Conflict escalation",
+    "Conflict avoidance",
+    "Conflict settlement"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Which of the following terms is synonymously identified with conflict regulation in Point 6?",
+  options: [
+    "Conflict management",
+    "Conflict resolution",
+    "Conflict transformation",
+    "Conflict termination"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Which of the following is NOT listed in Point 7 as an idea for dealing with conflicts?",
+  options: [
+    "Clarification of communication",
+    "Listening carefully",
+    "Maintaining a spirit of give and take",
+    "Making harmful statements to reveal the truth"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Ideas for dealing with conflicts include avoiding harmful statements, telling others one's opinion, directly asking what is going on, and:",
+  options: [
+    "Clarification of communication",
+    "Applying immediate forcing styles",
+    "Filing a court suit immediately",
+    "Establishing local shrines"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Whistle-blowing and joint problem-solving are examples of:",
+  options: [
+    "Measures adopted in responding to conflicts",
+    "Root causes of ethnic conflict",
+    "Stages in Galtung's 3 Rs process",
+    "Traditional African divine processes"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Which response measure is explicitly listed alongside whistle-blowing, accommodation, and compromising in Point 8?",
+  options: [
+    "Avoiding style",
+    "Secession style",
+    "Rebellion style",
+    "Coup d'etat style"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "According to Point 9, people respond to community conflict in how many distinct ways?",
+  options: [
+    "Two distinct ways",
+    "Three distinct ways",
+    "Four distinct ways",
+    "Five distinct ways"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "The four distinct ways people respond to community conflict are Avoidance, Confrontation, Joint problem-solving, and:",
+  options: [
+    "Third-party decision making",
+    "Whistle-blowing",
+    "Divination",
+    "Arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "What term describes a situation where a group alleging injustice or discrimination is literally ignored or denied recognition by the accused and helpers?",
+  options: [
+    "Confrontation",
+    "Avoidance",
+    "Accommodation",
+    "Divination"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Under the definition of avoidance in Point 10, a group alleging injustice is literally ignored by those being accused and those who have:",
+  options: [
+    "The capacity for helping to redress the injustice",
+    "The desire to escalate the conflict",
+    "Control over national government trade",
+    "No traditional connection to the community"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "The avoidance style of conflict response refers to:",
+  options: [
+    "Assertive and uncooperative behaviors representing a win-lose approach",
+    "Unassertive and uncooperative behaviors used to stay away from conflict",
+    "Mandatory terms handed down by a court of law",
+    "A cooperative search for a cordial solution"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "A person uses the avoidance style to stay away from conflict, remain neutral, or:",
+  options: [
+    "Ignore disagreements",
+    "Force a win-lose outcome",
+    "Appoint an ad-hoc panel",
+    "Seek divined knowledge"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Which style refers to assertive and uncooperative behaviors and represents a win-lose approach to conflict?",
+  options: [
+    "Avoidance style",
+    "Confrontation or forcing style",
+    "Joint problem-solving style",
+    "Accommodation style"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "The confrontation or forcing style represents a:",
+  options: [
+    "Win-lose approach to conflict",
+    "Win-win cordial solution",
+    "Neutral status with no action",
+    "Mandatory legal arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Third-party decision-making takes place when third parties, acting on behalf of the larger society, hand down:",
+  options: [
+    "Mandatory terms of resolving the conflict",
+    "Informal and optional suggestions",
+    "Divined signs from local spirits",
+    "Unassertive and neutral positions"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Which of the following is cited as an example of a third party that hands down mandatory terms on behalf of society?",
+  options: [
+    "A court of law",
+    "A local sports club",
+    "A non-violent youth movement",
+    "A national popular theatre team"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Joint problem-solving refers to a situation in which parties to a conflict find solutions to their problems in:",
+  options: [
+    "A win-lose forcing manner",
+    "A cordial environment",
+    "The highest court of the nation",
+    "A state of permanent cold war"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "In joint problem-solving, parties find solutions either by themselves or through:",
+  options: [
+    "The assistance of a third party",
+    "The total exclusion of communication",
+    "Abandoning all social rules and values",
+    "Submitting to external military intervention"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "While the Western world emphasizes constitutions, commissions of inquiries, and court systems presided over by lawyers and judges, Africa traditional conflict resolution relies on:",
+  options: [
+    "Council of elders, king's court, and people's assemblies",
+    "International regimes and the UN security council",
+    "The sole use of defensive military force",
+    "The complete avoidance of the parties involved"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Council of elders, king's courts, and people's assemblies are conflict management mechanisms traditionally associated with:",
+  options: [
+    "The Western world",
+    "Africa",
+    "Ancient Greece",
+    "The United Nations"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Which local agents function in conflict prevention, resolution, transformation, or management within and between their communities?",
+  options: [
+    "Town councils",
+    "Ad-hoc military coalitions",
+    "External arbiters",
+    "Rebellion commanders"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Town councils act as vital agents within and between communities for conflict resolution, prevention, management, or:",
+  options: [
+    "Transformation",
+    "Escalation",
+    "Subjugation",
+    "Confrontation"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "In Nigeria, what traditional elements are identified as vital tools for social control, simple rules compliance, and order?",
+  options: [
+    "Shrines and oath-taking",
+    "International bank loans",
+    "Western court lawyers",
+    "Urban youth sports leagues"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Shrines and oath-taking function in Nigeria to ensure conformity with simple rules, order, and:",
+  options: [
+    "Mobilization towards development",
+    "The rise of military coup d'etats",
+    "Class struggles and exploitation",
+    "The execution of preventive diplomacy"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Through oath-taking before shrines scattered all over Nigerian communities, people are expected to:",
+  options: [
+    "Come out in their true nature and comply with prevailing norms and values",
+    "Deny their indigenous conception and knowledge",
+    "Support international military coalitions",
+    "Escalate active inter-ethnic land disputes"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Oath-taking before scattered shrines in Nigerian communities encourages people to comply with prevailing:",
+  options: [
+    "Norms and values",
+    "Western judicial directives",
+    "Lome agreement resolutions",
+    "Federal state boundaries"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "What is defined as a process of gaining secret knowledge about the past, present, and future by calling on the aid of spirits or by looking for supernatural signs?",
+  options: [
+    "Divination",
+    "Whistle-blowing",
+    "Arbitration",
+    "Mediation"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "Divination attempts to gain secret knowledge of the past, present, and future by looking for supernatural signs or by:",
+  options: [
+    "Calling on the aid of spirits",
+    "Conducting interactive popular theatre",
+    "Appointing a panel of judges",
+    "Applying assertive forcing behaviors"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "What has been argued as largely responsible for the multiplicity of avoidable conflicts all over the continent of Africa?",
+  options: [
+    "The abandonment of utility traditional methods of bargaining and conflict resolution for foreign models",
+    "The lack of modern military peacekeeping forces",
+    "The strict adherence to indigenous divination and shrine oath-taking",
+    "The equal distribution of economic resources and opportunities"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 9,
+  question: "The abandonment of utility traditional methods of bargaining for foreign models in Africa is argued to have caused a multiplicity of:",
+  options: [
+    "Avoidable conflicts",
+    "Peaceful trade integration zones",
+    "Equitable court judgments",
+    "Non-violent sports resolutions"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Development results from the exploitation and utilization of what resource by man to meet his needs?",
+  options: [
+    "Environmental resources",
+    "Traditional shrines",
+    "Foreign legislative models",
+    "Military weapons"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "According to Point 1, development increasingly improves man's well-being, comfort, and:",
+  options: [
+    "Standard of living",
+    "Degree of conflict escalation",
+    "Class domination structures",
+    "Rate of urbanization"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "What term simply refers to the act or state of governing or controlling and directing the affairs of a state?",
+  options: [
+    "Arbitration",
+    "Governance",
+    "Reconstruction",
+    "Conflict management"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Governance is defined in the notes as simply controlling and directing:",
+  options: [
+    "The affairs of a state",
+    "The access to oil exploration corporations",
+    "The traditional councils of elders",
+    "The local family structures"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "What concept refers to the entire gamut of rules, processes, and structures through which decisions are made about access to environmental resources and how they are used?",
+  options: [
+    "Resource governance",
+    "Sustainable development",
+    "The 1999 Constitution",
+    "The Lagos Plan of Action"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Resource governance encompasses the rules, processes, and structures through which decisions are made about access to and use of:",
+  options: [
+    "Environmental resources",
+    "Local sports leagues",
+    "Ad-hoc arbitration panels",
+    "Traditional people's assemblies"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "What concept refers to the idea that the present generation should meet its needs without jeopardizing the ability of future generations to meet theirs?",
+  options: [
+    "Preventive diplomacy",
+    "Sustainable development",
+    "Resource governance",
+    "Conflict transformation"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Under sustainable development, the present generation must meet its needs without jeopardizing the:",
+  options: [
+    "Ability of future generations to meet theirs",
+    "Sovereignty of neighboring states",
+    "Existence of historical boundary treaties",
+    "Authority of the supreme courts"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Where is the Niger Delta region located in Southern Nigeria?",
+  options: [
+    "Atlantic Coast",
+    "Benue Valley",
+    "Lake Chad Basin",
+    "Guinea Highlands"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The River Niger divides into numerous tributaries in which region located on the Atlantic Coast of Southern Nigeria?",
+  options: [
+    "Maro River area",
+    "Niger Delta region",
+    "Bakassi Peninsula",
+    "Voinjama district"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The Niger Delta is recognized as the ________ largest Delta in the world.",
+  options: [
+    "First",
+    "Second",
+    "Third",
+    "Fourth"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "What is the estimated coastline coverage of the Niger Delta?",
+  options: [
+    "About 150 kilometers",
+    "About 300 kilometers",
+    "About 450 kilometers",
+    "About 600 kilometers"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Which of the following is NOT listed in Point 6 as a major occupation of the Niger Delta people?",
+  options: [
+    "Farming",
+    "Fishing",
+    "Automobile manufacturing",
+    "Palm oil production"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The major occupations of the people in the Niger Delta include farming, fishing, palm oil production, and:",
+  options: [
+    "Hunting",
+    "Textile weaving",
+    "Mining of gold",
+    "Ship building"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Which ethnic group is explicitly listed in Point 7 as belonging to the Niger Delta region?",
+  options: [
+    "Isoki",
+    "SPLA",
+    "UNITA",
+    "Yoruba"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The Bini, Ishan, Etsako, Urhobo, Isoki, Ijaw, Itsekiri, Ibibio, Annang, and Kalabari are classified as:",
+  options: [
+    "Ethnic groups in the Niger Delta region",
+    "Proponents of the physiological conflict theory",
+    "Ad-hoc arbitration bodies in West Africa",
+    "Members of the National Popular Theatre Alliance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Which arm of government has the primary duty to make laws?",
+  options: [
+    "The executive",
+    "The judiciary",
+    "The legislature",
+    "The town council"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The primary duty of the legislature as an arm of government is to:",
+  options: [
+    "Execute policies",
+    "Appoint judges",
+    "Make laws",
+    "Arbitrate disputes"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "From which document do the federal, state, and local governments, as well as the executive and judiciary, derive their existence, power, and functions?",
+  options: [
+    "The 1999 Constitution of the Federal Republic of Nigeria",
+    "The Lagos Plan of Action",
+    "The Petroleum Act of 1969",
+    "The Versailles Peace Treaty"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The basic law of the land from which all tiers and arms of Nigerian government derive their power is known as the:",
+  options: [
+    "Lagos Plan of Action",
+    "1999 Constitution of the Federal Republic of Nigeria",
+    "Associated Gas Reinjection Act",
+    "Oil Pipelines Act"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The National Assembly is described as a bi-cameral legislature consisting of which two bodies?",
+  options: [
+    "The Senate and House of Representatives",
+    "The executive and judiciary arms",
+    "The federal and state assemblies",
+    "The village council and town council"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "On which matters is the bi-cameral National Assembly empowered to make laws?",
+  options: [
+    "All matters assigned to the federal government",
+    "Strictly local government boundary adjustments",
+    "Only inter-state oil pipelines licenses",
+    "Only matters concerning traditional shrines"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The House of Assembly of each state is described as what type of legislature?",
+  options: [
+    "A bicameral legislature",
+    "A unicameral legislature",
+    "An executive legislature",
+    "An ad-hoc legislature"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "A state House of Assembly makes laws on subjects assigned to:",
+  options: [
+    "The federal government only",
+    "The states",
+    "The local government only",
+    "The African Union"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "What activities are by far the most prominent sources of land, water, and air pollution and degradation in the Niger Delta region?",
+  options: [
+    "Oil and gas-related activities",
+    "Traditional farming and hunting",
+    "Urban sports tournaments",
+    "Theatre-for-Development performances"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Oil and gas-related activities are the primary sources of land, water, and air pollution and degradation in which region?",
+  options: [
+    "The Maro River area",
+    "The Niger Delta region",
+    "The Bakassi Peninsula",
+    "The Voinjama district"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Which bill contains provisions that address agitations of oil producing communities and has been lying before the National Assembly since 2007?",
+  options: [
+    "The Petroleum Industry Bill",
+    "The Associated Gas Reinjection Bill",
+    "The Sea Fisheries Bill",
+    "The Land Use Bill"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Since what year has the Petroleum Industry Bill been lying before the National Assembly?",
+  options: [
+    "1969",
+    "1979",
+    "1990",
+    "2007"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Which law of the Federation of Nigeria 1990 makes provision for licenses to be granted for the establishment and maintenance of pipelines?",
+  options: [
+    "Associated Gas Reinjection Act",
+    "Oil Pipelines Act Cap 338",
+    "Sea Fisheries Act Cap 404",
+    "Land Use Act"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The primary provision of the Oil Pipelines Act Cap 338 LFN 1990 is to grant licenses for the establishment and maintenance of:",
+  options: [
+    "Pipelines",
+    "Oil exploration corporations",
+    "Local town councils",
+    "Bi-cameral assemblies"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "On what date did the Petroleum Act commence?",
+  options: [
+    "November 27, 1969",
+    "September 28, 1979",
+    "July 9, 2002",
+    "May 29, 1999"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The Petroleum Act of 1969 is comprehensive in terms of ensuring an enabling environment for:",
+  options: [
+    "The exploitation of oil and gas resources",
+    "Safeguarding the Niger Delta environment",
+    "Promoting the unity and solidarity of states",
+    "Establishing local governments"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "When was the Associated Gas Reinjection Act passed and what is its commencement date?",
+  options: [
+    "Passed in 1979; commenced on September 28, 1979",
+    "Passed in 1969; commenced on November 27, 1969",
+    "Passed in 1990; commenced on January 1, 1990",
+    "Passed in 2007; commenced on December 31, 2007"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The Associated Gas Reinjection Act of 1979 compels every company producing oil and gas in Nigeria to submit:",
+  options: [
+    "Preliminary programs and detailed plans for gas reinjection",
+    "Monthly financial sheets of environmental damages",
+    "A formal request to the state House of Assembly",
+    "Plans for the establishment of youth sport leagues"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "Which of the following is NOT listed in Point 17 as a law enacted by the National Assembly to regulate natural resource use?",
+  options: [
+    "The Sea Fisheries Act Cap 404 LFN 1990",
+    "The Navigable Waterways (Declaration) Act Cap 287 LFN 1990",
+    "The Land Use Act",
+    "The Petroleum Industry Act 2021"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 10,
+  question: "The Sea Fisheries Act Cap 404 LFN 1990 and the Navigable Waterways (Declaration) Act Cap 287 LFN 1990 are laws enacted to regulate the use of natural resources and ensure:",
+  options: [
+    "Sustainability",
+    "Exploitation of oil and gas",
+    "Conflict escalation",
+    "Class domination"
+  ],
+  answer: 0
+}
+]
