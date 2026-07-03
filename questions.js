@@ -42276,9 +42276,8 @@ const QUESTIONS = [
   ],
   answer: 0
 },
-  
-  {
-    course: "gst113",
+{
+  course: "gst113",
     chapter: 1,
     question: "According to Deutsch, conflict may arise from differences in information or belief, differences in interests, desires, or values, and which of the following?",
     options: [
