@@ -41423,4 +41423,605 @@ const QUESTIONS = [
     "Chlamydomonas and Spirogyra"
   ],
   answer: 0
+  },
+  {
+  course: "gst112",
+  chapter: 9,
+  question: "Which occupation is recognized as the oldest known to mankind, beginning in the dim ages of early men?",
+  options: [
+    "Agriculture",
+    "Metallurgy",
+    "Seismology",
+    "Astrophysics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "According to Point 1, agriculture had its beginning in the dim ages of early men and what other era?",
+  options: [
+    "the biblical times",
+    "the Renaissance",
+    "the Industrial Revolution",
+    "the 21st century"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Between 1960 and 1970, approximately what percentage did agriculture contribute to Nigeria's Gross Domestic Product (GDP)?",
+  options: [
+    "60 percent",
+    "70 percent",
+    "21 percent",
+    "99.86 percent"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What percentage of the Nigerian population was provided with direct and indirect employment by agriculture between 1960 and 1970?",
+  options: [
+    "over 70 percent",
+    "about 60 percent",
+    "exactly 10 percent",
+    "less than 40 percent"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "In what year was oil discovered in the Niger Delta, leading to commercial exploration that shifted emphasis away from agriculture?",
+  options: [
+    "1956",
+    "1960",
+    "1976",
+    "1980"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Why was little emphasis placed on agriculture in Nigeria after the discovery of oil in the Niger Delta?",
+  options: [
+    "Its exploration in commercial quantities led to huge capital inflows",
+    "The soil became completely non-biodegradable and contaminated",
+    "The population grew too fast geometrically according to Malthus",
+    "The Land Use Decree of 1956 banned private farming"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "According to Point 4, Nigeria has been experiencing a food crisis in recent times on account of what factors?",
+  options: [
+    "Low productivity, poor infrastructure, poor incentives, and innovations",
+    "The sudden explosion of a singularity in the environment",
+    "Excessive thermal pollution and radioactive water bodies",
+    "A massive decrease in the agricultural labor population"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Which of the following is NOT listed in Point 4 as a cause of Nigeria's recent food crisis?",
+  options: [
+    "Lack of land space",
+    "Low productivity",
+    "Poor infrastructure",
+    "Poor incentives and innovations"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Agriculture is fundamental to the sustenance of all human life and represents the bedrock of:",
+  options: [
+    "economic development",
+    "space exploration",
+    "theological creationism",
+    "geological gradualism"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Complete the statement: 'Agriculture is fundamental to the ________ of all human life...'",
+  options: [
+    "sustenance",
+    "evolution",
+    "mutation",
+    "classification"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What propels sustainable agricultural development according to Point 6?",
+  options: [
+    "agricultural policy",
+    "sudden catastrophes",
+    "oil exploration",
+    "hereditary genotypes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Sustainable agricultural development can be successfully propelled by:",
+  options: [
+    "agricultural policy",
+    "theological principles",
+    "geological shifts",
+    "cellular differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "How is a 'policy' defined in the notes?",
+  options: [
+    "A statement of intent outlining what an individual, organization, or government wants to do, is doing, is not doing, and what would be done",
+    "A rigid system of naming organisms used across various universes",
+    "A set of clinical trials conducted by the first physician to evaluate crops",
+    "The physical process of converting wind energy into high-voltage voltage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "A policy can be simply summarized as a statement of:",
+  options: [
+    "intent",
+    "theorems",
+    "empirical observation",
+    "hypothetical myths"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What does agricultural policy describe?",
+  options: [
+    "A set of laws relating to domestic agriculture and imports of foreign agricultural products",
+    "The study of the structural elements of prehistoric organic vegetation",
+    "The physical rotation of Venus backwards from west to east",
+    "A collection of astronomical units used to measure crop yields"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Agricultural policy regulates domestic agriculture and:",
+  options: [
+    "imports of foreign agricultural products",
+    "the pricing of crude oil exports",
+    "the genetic mutation rate of local crops",
+    "the registration of domestic businesses"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What does 'agricultural reform' refer to?",
+  options: [
+    "An overall redirection of the agrarian system of the country, involving changes in constitutional agricultural practices to improve it",
+    "A sudden shift from primary renewable sources of energy to non-renewable coal",
+    "The transition of human ancestors from apes to Australopithecus robustus",
+    "The separation of natural gas technically from crude oil during exploitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Agricultural reform involves changes in constitutional agricultural practices to:",
+  options: [
+    "improve the agrarian system",
+    "minimize food production costs",
+    "promote foreign crop imports only",
+    "control local labor unions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "In what year was the Forestry Research Institute of Nigeria (FRIN) established?",
+  options: [
+    "1900",
+    "1956",
+    "1976",
+    "1986"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What is the full meaning of the acronym FRIN established in 1900?",
+  options: [
+    "Forestry Research Institute of Nigeria",
+    "Federal Reform of Industrialization in Nigeria",
+    "Forestry Resource Integration Network",
+    "Federal Research and Innovation of Nigeria"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Who launched the Operation Feed the Nation (OFN) program?",
+  options: [
+    "Chief Olusegun Obasanjo",
+    "Alhaji Shehu Shagari",
+    "General Ibrahim Babangida",
+    "Dr. Goodluck Jonathan"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What is the full meaning of the agricultural program acronym OFN?",
+  options: [
+    "Operation Feed the Nation",
+    "Organization of Forestry in Nigeria",
+    "Operational Food Network",
+    "Objective of Federal Nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "In what year were the River Basin Development Authorities established throughout Nigeria?",
+  options: [
+    "Niger state",
+    "1950",
+    "1930",
+    "1924"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 2,
+  question: "Where was the earliest definite hominid fossil discovered in 1924?",
+  options: [
+    "In a limestone quarry in Bechuanaland, South Africa",
+    "In the Olduvai Gorge, Tanzania",
+    "In the valley of the Neander River, Germany",
+    "In Peking, China"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "On careful observation of Dart's discovered skull, it was found to be that of a six-year-old baby now called Taung baby.",
+  options: [
+    "Taung baby",
+    "Java man",
+    "Peking man",
+    "Cro-magnon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What was the estimated age of the Taung baby at the time of death based on Dart's discovered skull?",
+  options: [
+    "Six years old",
+    "Two years old",
+    "Ten years old",
+    "Infant"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Dart named the Taung baby 'Australopithecus robustus' since Taung baby was a man-like ape.",
+  options: [
+    "Australopithecus robustus",
+    "Homo habilis",
+    "Homo erectus",
+    "Homo sapiens"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Why did Dart name the Taung baby 'Australopithecus robustus'?",
+  options: [
+    "It was a man-like ape",
+    "It was a tool-using hominid",
+    "It was found in Germany",
+    "It was highly related to chimpanzees"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Australopithecus disappeared about 1.3 million years ago. These discoveries point to the fact that humans evolved from Africa.",
+  options: [
+    "1.3 million years ago",
+    "500,000 years ago",
+    "40,000 years ago",
+    "150,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "The discoveries of Australopithecus point to the fact that humans evolved from which continent?",
+  options: [
+    "Africa",
+    "Asia",
+    "Europe",
+    "South America"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo Habilis was the second set of hominids discovered. They were discovered along with tools by the leakeys in the Olduvia Gorge, Tanzania.",
+  options: [
+    "Homo habilis",
+    "Australopithecus",
+    "Homo erectus",
+    "Homo sapiens"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Where and by whom was Homo habilis discovered along with tools?",
+  options: [
+    "By the Leakeys in Olduvai Gorge, Tanzania",
+    "By Dart in Bechuanaland, South Africa",
+    "In Neander Valley, Germany",
+    "In Java, Indonesia"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo habilis was the first member of our own genus and first primate to use tools consistently.",
+  options: [
+    "Homo habilis",
+    "Australopithecus robustus",
+    "Homo erectus",
+    "Neanderthal"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo habilis is significant in human evolution because it was the first member of our own genus and the first primate to do what?",
+  options: [
+    "Use tools consistently",
+    "Migrate to Asia",
+    "Control fire",
+    "Paint cave walls"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "It was in Homo habilis that fully developed human characteristics were first observed.",
+  options: [
+    "Homo habilis",
+    "Australopithecus",
+    "Homo erectus",
+    "Cro-magnon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What evolutionary milestone is associated with the discovery of Homo habilis?",
+  options: [
+    "Fully developed human characteristics were first observed",
+    "The total loss of body hair",
+    "The complete switch to an aquatic lifestyle",
+    "The direct migration to North America"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo erectus migrated to Asia and Europe in about 500 000 years ago.",
+  options: [
+    "About 500,000 years ago",
+    "About 1.3 million years ago",
+    "About 40,000 years ago",
+    "About 150,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "To which continents did Homo erectus migrate approximately 500,000 years ago?",
+  options: [
+    "Asia and Europe",
+    "Africa and Australia",
+    "South and North America",
+    "Antarctica and Greenland"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "'Java man' and 'Peking man' were two of the most famous early fossils of the genus Homo erectus was replaced by our species.",
+  options: [
+    "Homo erectus",
+    "Homo habilis",
+    "Homo sapiens",
+    "Australopithecus robustus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Which genus/species, famously represented by 'Java man' and 'Peking man', was eventually replaced by our species?",
+  options: [
+    "Homo erectus",
+    "Homo habilis",
+    "Australopithecus robustus",
+    "Neanderthals"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo sapiens are also called Neanderthals. They were abundant in Europe and Western Asia between 150 000 and 35 000 years ago.",
+  options: [
+    "Neanderthals",
+    "Cro-magnons",
+    "Peking man",
+    "Java man"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Neanderthals (Homo sapiens) were abundant in Europe and Western Asia during what period?",
+  options: [
+    "Between 150,000 and 35,000 years ago",
+    "About 500,000 years ago",
+    "1.3 million years ago",
+    "40,000 years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Homo sapiens fossils were first discovered in the valley of the Neander River in Germany in 1856.",
+  options: [
+    "1856 in the Neander River valley, Germany",
+    "1924 in Bechuanaland, South Africa",
+    "1950 in Olduvai Gorge, Tanzania",
+    "1831 on the HMS Beagle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "The Neander River valley in Germany was the site of the first discovery of which fossils in 1856?",
+  options: [
+    "Homo sapiens / Neanderthals",
+    "Homo erectus",
+    "Australopithecus",
+    "Homo habilis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Cro-magnon (Homo sapiens) are people with essential modern characteristics. They abruptly replaced the European Neanderthals.",
+  options: [
+    "Cro-magnon",
+    "Java man",
+    "Peking man",
+    "Australopithecus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "What group did the Cro-magnons abruptly replace in Europe?",
+  options: [
+    "Neanderthals",
+    "Homo erectus",
+    "Homo habilis",
+    "Australopithecus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "The possible route of evolution of modern man is from Ape - Australopithecus - Homo habilis Homo erectus - Neanderthals - Cro Manons Modern man of modern appearance.",
+  options: [
+    "Ape -> Australopithecus -> Homo habilis -> Homo erectus -> Neanderthals -> Cro-magnons -> Modern man",
+    "Ape -> Homo erectus -> Australopithecus -> Homo habilis -> Neanderthals -> Modern man",
+    "Australopithecus -> Ape -> Homo erectus -> Homo habilis -> Cro-magnons -> Modern man",
+    "Ape -> Homo habilis -> Homo erectus -> Australopithecus -> Neanderthals -> Modern man"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Which hominid directly precedes Neanderthals in the possible evolutionary route of modern man?",
+  options: [
+    "Homo erectus",
+    "Homo habilis",
+    "Australopithecus",
+    "Cro-magnon"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Modern man is believed to have originated about 40 000 years ago.",
+  options: [
+    "About 40,000 years ago",
+    "About 150,000 years ago",
+    "About 500,000 years ago",
+    "About 1.3 million years ago"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 9,
+  question: "Modern man, with a modern appearance, is estimated to have originated around:",
+  options: [
+    "40,000 years ago",
+    "150,000 years ago",
+    "35,000 years ago",
+    "1.3 million years ago"
+  ],
+  answer: 0
   }
+  ]
