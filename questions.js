@@ -42275,5 +42275,966 @@ const QUESTIONS = [
     "the same chemical composition as chlorophyll"
   ],
   answer: 0
-}
-]
+},
+  
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Deutsch, conflict may arise from differences in information or belief, differences in interests, desires, or values, and which of the following?",
+    options: [
+      "A scarcity of some resources",
+      "Biological defects in human nature",
+      "The complete absence of a constitution",
+      "The presence of international coalitions"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Deutsch states that conflict can occur as a result of a scarcity of:",
+    options: [
+      "Political leaders",
+      "Religious codes",
+      "Some resources",
+      "Social structures"
+    ],
+    answer: 2
+  },
+
+  // Point 2
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Who defined conflict as an occasion that emerges whenever two or more persons or groups seek to possess the same object, occupy the same space or the same exclusive position?",
+    options: [
+      "Deutsch",
+      "Galtung",
+      "Mehta (2003)",
+      "Howard"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Mehta (2003), conflict emerges when two or more persons or groups seek to do any of the following EXCEPT:",
+    options: [
+      "Possess the same object",
+      "Occupy the same space",
+      "Occupy the same exclusive position",
+      "Eliminate all structural violence"
+    ],
+    answer: 3
+  },
+
+  // Point 3
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "The Warri crisis of 2002 occurred in which of the following Nigerian states?",
+    options: [
+      "Anambra State",
+      "Delta State",
+      "Rivers State",
+      "Edo State"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which notable conflict is identified in the notes as having occurred in Anambra State?",
+    options: [
+      "The Warri crisis",
+      "The Umuleri/Aguleri conflict",
+      "The Modakeke/Ife conflict",
+      "The Zangon-Kataf crisis"
+    ],
+    answer: 1
+  },
+
+  // Point 4
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Peace is generally defined as the absence of war, conflict, anxiety, violence, and what else?",
+    options: [
+      "Suffering",
+      "Development",
+      "Structures",
+      "Tolerance"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which of the following is NOT listed in the general definition of peace as an absent condition?",
+    options: [
+      "War",
+      "Anxiety",
+      "Justice",
+      "Violence"
+    ],
+    answer: 2
+  },
+
+  // Point 5
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Who defined peace as being primarily concerned with the creation and maintenance of a just order in society?",
+    options: [
+      "Howard (1987)",
+      "Mehta (2003)",
+      "Deutsch (1977)",
+      "Miall (2000)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Howard (1987), peace is primarily concerned with the creation and maintenance of what?",
+    options: [
+      "A classless economic system",
+      "A just order in society",
+      "A state of latent conflict",
+      "Direct global governance"
+    ],
+    answer: 1
+  },
+
+  // Point 6
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which group of philosophers defined peace as the natural, original, unperturbed God-given state of Human existence?",
+    options: [
+      "Karl Marx, Friedrich Engels, and Vladimir Lenin",
+      "Plato, Thomas Hobbes, and John Jacques Rousseau",
+      "Scott, Lorenz, and Paul MacLean",
+      "Johan Galtung, Hugh Miall, and John Burton"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Philosophers such as Plato, Hobbes, and Rousseau defined peace as what state of human existence?",
+    options: [
+      "The natural, original, unperturbed God-given state",
+      "An artificial, politically constructed state",
+      "A highly unstable, cold-war state",
+      "A structurally violent state"
+    ],
+    answer: 0
+  },
+
+  // Point 7
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "In which context is peace defined as a state of no social conflict where individuals and group needs and expectations are met?",
+    options: [
+      "The physiological context",
+      "The realist context",
+      "The sociological context",
+      "The economic context"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to the sociological context, peace is achieved when whose needs and expectations are met?",
+    options: [
+      "Only the ruling class",
+      "Individuals and group needs",
+      "The military and judicial leaders",
+      "Only international coalitions"
+    ],
+    answer: 1
+  },
+
+  // Point 8
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "How many meanings of peace were identified by Miall (2000)?",
+    options: [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which of the following is NOT one of the meanings of peace according to Miall (2000)?",
+    options: [
+      "The absence of War",
+      "Tranquility of inner peace",
+      "Wholeness and making whole",
+      "The preservation of genetic defect"
+    ],
+    answer: 3
+  },
+
+  // Point 9
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which scholar defined the concept of peace by adding the dimensions of 'negative peace' and 'positive peace'?",
+    options: [
+      "Deutsch",
+      "Galtung",
+      "Mehta",
+      "Miall"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Galtung expanded the concept of peace by adding how many dimensions?",
+    options: [
+      "Two dimensions ('negative peace' and 'positive peace')",
+      "Three dimensions ('direct', 'structural', and 'cultural')",
+      "Four levels of cold peace",
+      "Five sociological expectations"
+    ],
+    answer: 0
+  },
+
+  // Point 10
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to the notes, peace is said to be 'negative' when it includes ONLY the absence of:",
+    options: [
+      "Unjust structures and unequal relationships",
+      "Direct violence, fear, war, and conflict",
+      "Constitutions and court systems",
+      "Economic competition and material goods"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "At what levels must direct violence, fear, war, and conflict be absent for 'negative peace' to exist?",
+    options: [
+      "Only the national and regional levels",
+      "Only the international level",
+      "Individual, national, regional, and international levels",
+      "Only the individual level"
+    ],
+    answer: 2
+  },
+
+  // Point 11
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Positive peace includes the absence of unjust structures and unequal relationships, alongside justice and inner peace, in addition to:",
+    options: [
+      "Negative peace",
+      "Cold war",
+      "Direct violence",
+      "Manifest conflict"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which type of peace specifically includes the absence of unjust structures, unequal relationships, justice, and the inner peace of the individual?",
+    options: [
+      "Negative peace",
+      "Stable peace",
+      "Positive peace",
+      "Unstable peace"
+    ],
+    answer: 2
+  },
+
+  // Point 12
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which of the following is NOT one of the levels of peace?",
+    options: [
+      "Harmony",
+      "Durable peace",
+      "Latent violence",
+      "Unstable peace or 'cold war'"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "What is another term used for 'stable peace' in the levels of peace?",
+    options: [
+      "Cold peace",
+      "Cold war",
+      "Harmony",
+      "Durable peace"
+    ],
+    answer: 0
+  },
+
+  // Point 13
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which level of peace involves tension and suspicion among parties, possibly with violence?",
+    options: [
+      "Harmony",
+      "Stable peace or 'cold peace'",
+      "Durable peace",
+      "Unstable peace or 'cold war'"
+    ],
+    answer: 3
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which of the following is given in the notes as an example of unstable peace or 'cold war'?",
+    options: [
+      "The Warri crisis",
+      "The US/Iran conflict",
+      "The Umuleri/Aguleri crisis",
+      "The Marx/Engels conflict"
+    ],
+    answer: 1
+  },
+
+  // Point 14
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "A negative peace prevails when there is little physical violence but:",
+    options: [
+      "No friendship",
+      "Active cooperation",
+      "Complete harmony",
+      "Just structural order"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "When there is little physical violence but no friendship, what type of peace is said to prevail?",
+    options: [
+      "Positive peace",
+      "Negative peace",
+      "Stable peace",
+      "Durable peace"
+    ],
+    answer: 1
+  },
+
+  // Point 15
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Who portrays conflict as an action or group of actions which prevents, impairs, obstructs, interferes with, injures, or renders ineffective another action with which it is incompatible?",
+    options: [
+      "Deutsch (1977)",
+      "Howard (1987)",
+      "Mehta (2003)",
+      "Galtung (1996)"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Deutsch (1977), conflict involves actions that interfere with or render ineffective another action with which it is:",
+    options: [
+      "Incompatible",
+      "Identical",
+      "Collaborative",
+      "Sociological"
+    ],
+    answer: 0
+  },
+
+  // Point 16
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Conflict can be either ________ (recognizable through actions or behaviors) or ________ (remaining dormant for some time).",
+    options: [
+      "direct; structural",
+      "manifest; latent",
+      "negative; positive",
+      "rational; irrational"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "What type of conflict is recognizable through actions or behaviors?",
+    options: [
+      "Latent conflict",
+      "Manifest conflict",
+      "Structural conflict",
+      "Ethical conflict"
+    ],
+    answer: 1
+  },
+
+  // Point 17
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Why might parties in a latent conflict be unaware of their incompatible interests?",
+    options: [
+      "Due to self-delusion, rationalization, lack of knowledge, or suppressed information",
+      "Because the conflict is already manifest in violent behavior",
+      "Because they belong to the same economic class",
+      "Due to physiological stimulation from the environment"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "What type of conflict is defined as a situation where parties' interests are incompatible but the parties are unaware of these incompatibilities?",
+    options: [
+      "Manifest conflict",
+      "Latent conflict",
+      "Direct conflict",
+      "Unstable peace"
+    ],
+    answer: 1
+  },
+
+  // Point 18
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "A conflict is said to be made manifest when unacknowledged contrary interests become:",
+    options: [
+      "Dormant and suppressed",
+      "Conscious and voiced",
+      "Completely eliminated",
+      "Substituted by physical violence"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "When unacknowledged contrary interests become conscious and voiced, the conflict becomes:",
+    options: [
+      "Latent",
+      "Manifest",
+      "Durable",
+      "Structural"
+    ],
+    answer: 1
+  },
+
+  // Point 19
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which of the following is listed in the notes as a factor that regulates conflict?",
+    options: [
+      "Direct violence",
+      "Frustration-aggression",
+      "National constitutions and law",
+      "Class exploitation"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Family and clan structures, court systems, the law of the seas, and religious codes are all factors that:",
+    options: [
+      "Initiate latent conflicts",
+      "Regulate conflict",
+      "Promote structural violence",
+      "Prevent positive peace"
+    ],
+    answer: 1
+  },
+
+  // Point 20
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to the notes, conflict is ________ to human structure.",
+    options: [
+      "foreign",
+      "natural",
+      "destructive",
+      "unrelated"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Point 20 of the notes states that conflict is natural to:",
+    options: [
+      "Human structure",
+      "Only dictatorial states",
+      "International courts",
+      "Radical structuralists"
+    ],
+    answer: 0
+  },
+
+  // Point 21
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "How is a 'threat to peace' defined in the notes?",
+    options: [
+      "Any positive action taken to build relationships",
+      "Any negative action taken to resolve conflict",
+      "The absence of direct violence",
+      "The suppression of class consciousness"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Any negative action taken to resolve conflict is said to be a:",
+    options: [
+      "Latent conflict",
+      "Manifest conflict",
+      "Threat to peace",
+      "Positive peace"
+    ],
+    answer: 2
+  },
+
+  // Point 22
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Galtung (1996), violence can be distinguished into which three categories?",
+    options: [
+      "Political, economic, and social violence",
+      "Structural, direct, and cultural violence",
+      "Manifest, latent, and active violence",
+      "National, regional, and international violence"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Who distinguished violence into structural violence, direct violence, and cultural violence?",
+    options: [
+      "Galtung (1996)",
+      "Deutsch (1977)",
+      "Howard (1987)",
+      "Miall (2000)"
+    ],
+    answer: 0
+  },
+
+  // Point 23
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which of the following is NOT listed as a theory of conflict in Point 23?",
+    options: [
+      "Structural Conflict Theory",
+      "Realist Theory",
+      "Physiological Theory of Conflict",
+      "The Frustration Aggression Theory"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "How many theories of conflict are explicitly listed in Point 23 of the notes?",
+    options: [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    answer: 2
+  },
+
+  // Point 24
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which theory of conflict explains that conflict is a function of the ways societies are structured and organized?",
+    options: [
+      "Realist Theory",
+      "Structural Conflict Theory",
+      "Relational Theory",
+      "Ethnic Conflict Theory"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Structural Conflict Theory, conflict is a function of:",
+    options: [
+      "Genetic defects in human nature",
+      "The ways societies are structured and organized",
+      "Intergroup relational history",
+      "Competing for material goods"
+    ],
+    answer: 1
+  },
+
+  // Point 25
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Structural conflict theory can be divided into radical structural conflict and which other theory?",
+    options: [
+      "Liberal structural theory",
+      "Descriptive realist theory",
+      "Physiological conflict theory",
+      "Relational conflict theory"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Who are identified in the notes as representatives of the radical structural conflict theory?",
+    options: [
+      "Marx, Engels, and Lenin VI",
+      "Scott, Lorenz, and Paul MacLean",
+      "Plato, Thomas Hobbes, and Rousseau",
+      "Johan Galtung and Ross"
+    ],
+    answer: 0
+  },
+
+  // Point 26
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to radical structuralists, what are the primary causes of conflict?",
+    options: [
+      "Frustration of legitimate personal desires",
+      "Exploitative and unjust nature of human societies, and domination of one class by another",
+      "Genetic defect and innate aggression",
+      "Lack of knowledge and suppressed information"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which group of theorists maintains that conflict is caused by the domination of one class by another?",
+    options: [
+      "Liberal structuralists",
+      "Radical structuralists",
+      "Realists",
+      "Physiological theorists"
+    ],
+    answer: 1
+  },
+
+  // Point 27
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which liberal structuralist propounded the theory of negative peace and positive peace?",
+    options: [
+      "Johan Galtung",
+      "Karl Marx",
+      "Thomas Hobbes",
+      "John Jacques Rousseau"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Johan Galtung is classified under which category of conflict theorists?",
+    options: [
+      "Radical structuralists",
+      "Liberal structuralists",
+      "Prescriptive realists",
+      "Physiological theorists"
+    ],
+    answer: 1
+  },
+
+  // Point 28
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which theory of conflict states that humans are selfish and in pursuit of power?",
+    options: [
+      "Structural Conflict Theory",
+      "Realist Theory",
+      "Frustration Aggression Theory",
+      "Relational Theory"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to Realist theory, human nature is characterized as:",
+    options: [
+      "Selfish and in pursuit of power",
+      "Cooperative and naturally peaceful",
+      "A product of class exploitation",
+      "Calm until stimulated by events"
+    ],
+    answer: 0
+  },
+
+  // Point 29
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which variant of realism sees the world as an arena of conflict?",
+    options: [
+      "Explanatory realism",
+      "Prescriptive realism",
+      "Descriptive realism",
+      "Structural realism"
+    ],
+    answer: 2
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Descriptive realism views the world as:",
+    options: [
+      "A natural, unperturbed God-given state",
+      "An arena of conflict",
+      "A structurally balanced system of negative peace",
+      "An economic market of material goods"
+    ],
+    answer: 1
+  },
+
+  // Point 30
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which variant of realism attributes man's negative behavior to a genetic defect?",
+    options: [
+      "Descriptive realism",
+      "Explanatory realism",
+      "Prescriptive realism",
+      "Structural realism"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to explanatory realism, what is the force that pushes man to behave negatively?",
+    options: [
+      "Exploitative social classes",
+      "Genetic defect",
+      "Scarcity of resources",
+      "Intergroup relationships"
+    ],
+    answer: 1
+  },
+
+  // Point 31
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which variant of realism sees man as being under obligation to defend and preserve his basic need by any means possible?",
+    options: [
+      "Prescriptive realism",
+      "Explanatory realism",
+      "Descriptive realism",
+      "Liberal realism"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Prescriptive realism states that man is obligated to defend and preserve his basic need by:",
+    options: [
+      "Negotiating through court systems",
+      "Any means possible",
+      "Establishing positive peace",
+      "Forming economic coalitions"
+    ],
+    answer: 1
+  },
+
+  // Point 32
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to the frustration-aggression theory, aggression is a reaction arising from:",
+    options: [
+      "The exploitative and unjust nature of human societies",
+      "The disappointment of one's legitimate desires being denied either directly or indirectly",
+      "Innate biological instincts that remain calm",
+      "Coalitions formed along ethnic lines"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "The frustration-aggression theory emphasizes that aggression is NOT simply:",
+    options: [
+      "A reaction to denied desires",
+      "Undertaken as a natural reaction of instinct",
+      "Related to psychological factors",
+      "Influenced by direct or indirect denial"
+    ],
+    answer: 1
+  },
+
+  // Point 33
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to the notes, Economists believe that people in a conflict are fighting over something that is:",
+    options: [
+      "Material",
+      "Ideological",
+      "Psychological",
+      "Innate"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which group of theorists believes conflict is driven by a struggle over material things?",
+    options: [
+      "Realists",
+      "Economists",
+      "Relational theorists",
+      "Physiological theorists"
+    ],
+    answer: 1
+  },
+
+  // Point 34
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Relational Theory explains violent conflicts between groups by examining which intergroup relationships?",
+    options: [
+      "Sociological, political, economic, and historical relationships",
+      "Genetic and physiological biological relationships",
+      "Constitutional and legal relationships",
+      "Radical and liberal structural relationships"
+    ],
+    answer: 0
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which theory attempts to explain intergroup violent conflicts by analyzing historical, political, sociological, and economic relationships?",
+    options: [
+      "Relational Theory",
+      "Realist Theory",
+      "Physiological Theory",
+      "Frustration Aggression Theory"
+    ],
+    answer: 0
+  },
+
+  // Point 35
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "According to the notes, in which theory are coalitions formed along ethnic lines to compete for economic resources?",
+    options: [
+      "Relational Theory",
+      "Ethical Conflict theory",
+      "Realist Theory",
+      "Structural Conflict Theory"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Under Ethical Conflict theory, ethnic coalitions are formed to compete for:",
+    options: [
+      "Inner peace",
+      "Religious dominance",
+      "Economic resources",
+      "Constitutional amendments"
+    ],
+    answer: 2
+  },
+
+  // Point 36
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Who are identified as the main proponents of the physiological theory of conflict?",
+    options: [
+      "Marx, Engels, and Lenin VI",
+      "Scott, Lorenz, and Paul MacLean",
+      "Plato, Thomas Hobbes, and Rousseau",
+      "Johan Galtung, Ross, and Miall"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Scott, Lorenz, and Paul MacLean are proponents of which theory of conflict?",
+    options: [
+      "Structural theory",
+      "Physiological theory",
+      "Relational theory",
+      "Ethical theory"
+    ],
+    answer: 1
+  },
+
+  // Point 37
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "The physiological theory posits that human beings have the innate ability to become aggressive but remain calm until:",
+    options: [
+      "Their economic resources are exhausted",
+      "Stimulated by events, individuals, or the environment to act otherwise",
+      "They realize their desires are frustrated",
+      "They are dominated by another class"
+    ],
+    answer: 1
+  },
+  {
+    course: "gst113",
+    chapter: 1,
+    question: "Which theory suggests that humans possess an innate capacity for aggression but stay calm unless stimulated by their environment, events, or individuals?",
+    options: [
+      "Physiological theory",
+      "Frustration-aggression theory",
+      "Descriptive realist theory",
+      "Radical structural theory"
+    ],
+    answer: 0
+  }
+];
