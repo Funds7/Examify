@@ -38975,7 +38975,7 @@ const QUESTIONS = [
     "1924"
   ],
   answer: 0
-    },
+  },
   {
   course: "gst112",
   chapter: 6,
@@ -42023,7 +42023,7 @@ const QUESTIONS = [
     "1.3 million years ago"
   ],
   answer: 0
-    },
+  },
   {
   course: "gst112",
   chapter: 10,
