@@ -42023,5 +42023,257 @@ const QUESTIONS = [
     "1.3 million years ago"
   ],
   answer: 0
-  }
-  ]
+  },
+  {
+  course: "gst112",
+  chapter: 10,
+  question: "What are pesticides defined as in the notes?",
+  options: [
+    "A group of substances commonly used as plant protection products protecting plants from weeds, insects, and fungi",
+    "A type of non-biodegradable heavy metal used in the chlor-alkali industry",
+    "The altered remains of prehistoric vegetation accumulating in swamps",
+    "The physical process of converting thermal energy into voltage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Pesticides protect plants from the damaging influences of which of the following?",
+  options: [
+    "weeds, insects, and fungi",
+    "atmospheric nitrogen and nitrate",
+    "irregular surface rotations",
+    "severe droughts and solar radiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed as a plant and crop pest in Chapter 10?",
+  options: [
+    "Weeds, insects, nematodes, termites, rodents, mollusks, birds, bacteria, and fungi",
+    "Red-giant stars, Spina, and Antares",
+    "Sulphur, asbestos, beryllium, and chromium",
+    "Algae, lichens, bryophytes, and pteridophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Plant and crop pests are described as generally including weeds, insects, termites, and other:",
+  options: [
+    "living organisms",
+    "inorganic chemicals",
+    "chlor-alkali products",
+    "meteoroid collisions"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "What are the three ways insecticides can gain entry into an insect's body?",
+  options: [
+    "Dermal, oral, and respiratory entry",
+    "Aerobic, anaerobic, and metabolic entry",
+    "Primary, secondary, and tertiary entry",
+    "Bacterial, viral, and fungal entry"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Insecticides entering an insect's body through the skin is referred to as:",
+  options: [
+    "Dermal Entry",
+    "Oral Entry",
+    "Respiratory Entry",
+    "Convective Entry"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed as a group of pesticides based on their chemical component in Point 4?",
+  options: [
+    "Inorganic, organic pyrethrins, synthetic pyrethroids, organochlorine, organophosphorus, and carbonates",
+    "Chlor-alkali chemicals, heavy metals, basic inorganics, and minerals",
+    "Sulphur, asbestos, beryllium, and chromium",
+    "Spermatophytes, angiosperms, and gymnosperms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "According to the notes, which of the following is one of the chemical groups used to classify pesticides?",
+  options: [
+    "Carbonates",
+    "Hydrostatics",
+    "Barium salts",
+    "Lignocellulosics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "From what substances are inorganic pesticides produced?",
+  options: [
+    "Mineral substances such as arsenic trioxide powder and boric acid",
+    "Naturally occurring chrysanthemum flowers and plant extracts",
+    "Synthetic polymers and natural rubber composites",
+    "Swamps, peat bogs, and prehistoric vegetation bogs"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Boric acid and arsenic trioxide powder are mineral substances used to produce:",
+  options: [
+    "inorganic pesticides",
+    "synthetic pyrethroids",
+    "secondary organic pollutants",
+    "organochlorine insecticides"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "What naturally occurring plants are organic pyrethrins obtained from?",
+  options: [
+    "A type of chrysanthemum flower",
+    "Leguminous root nodules",
+    "Swamp and peat bog vegetation",
+    "Lignocellulosic forest debris"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is described as the most widely used natural insecticide?",
+  options: [
+    "Organic pyrethrins",
+    "Synthetic pyrethroids",
+    "Arsenic trioxide powder",
+    "Boric acid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "What is the first factor that should guide a person in selecting an appropriate pesticide?",
+  options: [
+    "Consider and determine from available pesticides which will control the target pest",
+    "Check the atomic mass and specific gravity of the pesticide elements",
+    "Examine if the pesticide can be easily decomposed in its natural environment",
+    "Test if the compound reduces the oxygen-carrying efficiency of blood"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 1,
+  question: "Before an investigation, we are to have self-evident concepts to enable us to infer both what is expected and what is not",
+  options: [
+    "The second rule of inquiry",
+    "The first rule of inquiry",
+    "The induction method",
+    "The falsification method"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "According to Point 7, after determining which pesticide controls the target pest, what should one consider next?",
+  options: [
+    "Which of the available pesticides would be a better choice to use",
+    "The exact rate of biodegradation in water bodies",
+    "The presence of any volatile organic compounds",
+    "The chemical formula of its positive and negative electrodes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed as a characteristic of pesticides in Point 8?",
+  options: [
+    "Solubility, absorption, persistence, and volatility",
+    "Hardness, luster, color, and specific gravity",
+    "Cell division, cell enlargement, and differentiation",
+    "Dermal, oral, and respiratory entrance"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Solubility, absorption, persistence, and volatility are recognized as:",
+  options: [
+    "physical properties of minerals",
+    "chemical reactions of secondary pollutants",
+    "basic fields of earth science",
+    "characteristics of pesticides"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Which of the following is listed in the notes as an environmental effect of pesticides?",
+  options: [
+    "Air pollution, water pollution, soil contamination, and reduced crop yields",
+    "Photochemical smog, greenhouse warming, and thermal agitation",
+    "The systematic loss of cell division and nuclear forces",
+    "Eclipses of the sun and moon and tsunamis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Pesticides can affect agriculture negatively by causing:",
+  options: [
+    "reduced crop yields",
+    "increased dissolved oxygen demand",
+    "spontaneous generation of weedy thallophytes",
+    "rapid cell differentiation in soil bacteria"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "In what forms do pesticides come according to Point 10?",
+  options: [
+    "Inorganic, organic, and synthetic forms with varying levels of toxicity",
+    "Solid, liquid, and gaseous forms with identical specific gravity",
+    "Acidic, basic, and neutral forms with no toxic compounds",
+    "Placental, marsupial, and prosimian groupings"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 10,
+  question: "Pesticides in their inorganic, organic, and synthetic forms are characterized by having:",
+  options: [
+    "varying levels of toxicity",
+    "completely non-toxic chemical structures",
+    "identical rates of rapid biodegradation",
+    "the same chemical composition as chlorophyll"
+  ],
+  answer: 0
+}
+]
