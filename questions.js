@@ -39575,5 +39575,1852 @@ const QUESTIONS = [
     "biodegradability"
   ],
   answer: 0
-    }
-  ]
+    },
+  {
+  course: "gst112",
+  chapter: 7,
+  question: "Chemistry is concerned mainly with which aspects of matter?",
+  options: [
+    "Structure, synthesis, reactivity, and properties of matter",
+    "Symmetrical rotation and orbits",
+    "Decomposition of forest debris",
+    "Atmospheric insulation and global warming"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the primary subject of study in chemistry?",
+  options: [
+    "Matter",
+    "Energy",
+    "The Universe",
+    "Ecology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is a division of chemistry listed in the notes?",
+  options: [
+    "Inorganic, organic, environmental, analytical, physical, polymer, etc.",
+    "Pure biology, physics, and earth science",
+    "Biotic, abiotic, and secondary pollution",
+    "Paleontology, comparative anatomy, and embryology"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Analytical, physical, polymer, and organic are recognized as:",
+  options: [
+    "divisions of chemistry",
+    "basic fields of pure science",
+    "classes of environmental pollution",
+    "categories of dwarf planets"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What do inorganic chemicals represent?",
+  options: [
+    "Manufactured elements and compounds excluding carbon-containing ones, except simple carbon compounds",
+    "Compounds derived strictly from plant-based lignocellulosic biomass",
+    "Naturally occurring organic waste residues found in peat bogs",
+    "Materials that occur originally in nature and degrade easily"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following carbon compounds is an exception that is covered under inorganic chemicals?",
+  options: [
+    "Calcium carbide, carbon disulfide, and carbon monoxide",
+    "Complex proteins and amino acids",
+    "Polymers and natural rubbers",
+    "Phenolic compounds like DDT"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is listed as an inorganic chemical manufactured in countries like Canada, China, and the USA?",
+  options: [
+    "Aluminum sulfate, ammonia, and nitric acid",
+    "Dichlorodiphenyltrichloroethane (DDT)",
+    "Peroxyacetyl nitrate (PAN)",
+    "Phenolic compounds and natural rubber"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Ammonia, ammonium nitrate, carbon black, and chlorine are examples of:",
+  options: [
+    "manufactured inorganic chemicals",
+    "primary biological pollutants",
+    "secondary organic pollutants",
+    "biodegradable plant debris"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are the two main classes of inorganic chemicals?",
+  options: [
+    "Chlor-alkali chemicals and Basic inorganic chemicals",
+    "Primary pollutants and Secondary pollutants",
+    "Biodegradable and Non-biodegradable chemicals",
+    "Metallic luster and Non-metallic luster chemicals"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Caustic soda and soda ash are examples of which class of inorganic chemicals?",
+  options: [
+    "Chlor-alkali chemicals",
+    "Basic inorganic chemicals",
+    "Secondary contaminants",
+    "Lignocellulosic compounds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "The Chlor-alkali industry refers to the manufacture of which related group of heavy industrial chemicals?",
+  options: [
+    "Chlorine, caustic soda, and sodium carbonate",
+    "Aluminum fluoride, calcium carbide, and titanium dioxide",
+    "Nitric acid, nitrogen, and hydrogen peroxide",
+    "Lead, mercury, and sulfur dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is manufactured in the Chlor-alkali industry?",
+  options: [
+    "Caustic soda",
+    "Titanium dioxide",
+    "Potassium chlorate",
+    "Aluminum sulfate"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "During the electrolysis of sodium chloride, what is produced at the positive electrode?",
+  options: [
+    "chlorine",
+    "sodium hydroxide",
+    "hydrogen peroxide",
+    "potassium chlorate"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is produced at the negative electrode during the electrolysis of sodium chloride?",
+  options: [
+    "sodium hydroxide",
+    "chlorine",
+    "soda ash",
+    "hydrochloric acid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the primary use of titanium dioxide in industries like paint, paper, and cosmetics?",
+  options: [
+    "As a white pigment",
+    "As a primary fuel source",
+    "As a liquid disinfectant",
+    "As a metal alloy for aircraft"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following uses titanium dioxide as a white pigment?",
+  options: [
+    "Paints, lacquers, paper, plastics, and cosmetics",
+    "Chlor-alkali electrolysis cells",
+    "Lead and mercury salt buffers",
+    "Swamps and peat bogs"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Why do heavy metals pose a serious threat to the environment and health?",
+  options: [
+    "They are not biodegradable and tend to accumulate in living tissue, with most being toxic or carcinogenic",
+    "They are highly volatile and react in sunlight to cause photochemical smog",
+    "They are easily decomposed in their natural environment by bacteria",
+    "They reduce the temperature of water bodies causing thermal pollution"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Because they tend to accumulate in living tissue and are non-biodegradable, heavy metal ions are known to be:",
+  options: [
+    "toxic or carcinogenic",
+    "nutrient-rich",
+    "highly volatile",
+    "organic stabilizers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What health problems can occur if humans or animals ingest heavy metals in concentrations higher than those stipulated by regulatory agencies?",
+  options: [
+    "Mutation, neurological disorders, and carcinogenic diseases",
+    "Eye irritation, cough, and temporary fatigue only",
+    "Siltation of blood vessels and thermal agitation",
+    "Instant decay and fossilization of tissues"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which Nigerian regulatory agency is mentioned in relation to stipulating safe concentrations of ingested chemicals?",
+  options: [
+    "NAFDAC",
+    "IAU",
+    "OPEC",
+    "PCC"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Why does chemistry rule the world according to Point 11?",
+  options: [
+    "Since there is nothing on earth that is not chemistry",
+    "Because it is the father of all modern geology",
+    "Because it relies strictly on the Big Bang singularity",
+    "Since it is the only science that uses empirical measurement"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Complete the statement: 'Chemistry rules the world since there is ________ on earth that is not chemistry.'",
+  options: [
+    "nothing",
+    "everything",
+    "only mineralogy",
+    "only physical matter"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are the two most abundant minerals?",
+  options: [
+    "oxygen and silicon",
+    "calcium and iron",
+    "aluminum and titanium",
+    "beryllium and chromium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Oxygen and silicon are recognized as the world's most:",
+  options: [
+    "abundant minerals",
+    "non-biodegradable pollutants",
+    "chlor-alkali chemicals",
+    "metallic alloys"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "By weight, what percentage of the earth's crust is occupied by oxygen?",
+  options: [
+    "46.6%",
+    "27.7%",
+    "78%",
+    "21%"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What percentage of the earth's crust by weight is occupied by silicon?",
+  options: [
+    "27.7%",
+    "46.6%",
+    "99.86%",
+    "1%"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What factors can alter the mineralogy of a rock according to the notes?",
+  options: [
+    "Changes in temperature, pressure, and composition",
+    "The rotation and speed of the earth on its axis",
+    "Unequal heating and the greenhouse effect",
+    "The abundance of primary and secondary pollutants"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Rock mineralogy is altered when there are changes in composition, temperature, and ________.",
+  options: [
+    "pressure",
+    "gravity",
+    "luster",
+    "hardness"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which of the following is listed as a physical property used for the classification of minerals?",
+  options: [
+    "Crystal structure, hardness, luster, color, streak, specific gravity, cleavage, and fracture",
+    "Biodegradability, toxicity, and carcinogenic level",
+    "Electrolysis potential and positive electrode attraction",
+    "Lignocellulosic composition and thermal agitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Color, streak, cleavage, and hardness are classified as:",
+  options: [
+    "physical properties of minerals",
+    "chemical reactions of secondary pollutants",
+    "basic fields of earth science",
+    "divisions of the earth's mantle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "When is a mineral said to be hard according to Point 16?",
+  options: [
+    "When the physical property is controlled by the chemical composition and crystalline structure",
+    "When it can displace a higher amount of liquid sample",
+    "When it exhibits a metallic luster and opague diaphaneity",
+    "When it breaks unevenly without cleavage planes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "A mineral's hardness is physically controlled by its chemical composition and:",
+  options: [
+    "crystalline structure",
+    "diaphaneity",
+    "specific gravity",
+    "fracture plane"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What property shows how light shines or reflects when subjected to a mineral's surface?",
+  options: [
+    "Lustre",
+    "Streak",
+    "Cleavage",
+    "Diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Pyrite is mentioned in the notes as an example of a mineral showing what property?",
+  options: [
+    "Lustre",
+    "Hardness",
+    "Cleavage",
+    "Specific gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the most attractive property of a mineral?",
+  options: [
+    "Color",
+    "Hardness",
+    "Lustre",
+    "Streak"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Color is recognized as a mineral's most:",
+  options: [
+    "attractive property",
+    "unreliable physical characteristic",
+    "complex chemical feature",
+    "dense specific gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the 'streak' of a mineral?",
+  options: [
+    "The color of a mineral in powdered form",
+    "The way light reflects off the mineral's surface",
+    "The breakage of a mineral along planar surfaces",
+    "The ability of light to pass through the mineral's body"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "The color of a mineral when reduced to a powdered form is called its:",
+  options: [
+    "streak",
+    "luster",
+    "cleavage",
+    "diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What property of a mineral shows the ability of light to pass through its body?",
+  options: [
+    "Diaphaneity",
+    "Lustre",
+    "Cleavage",
+    "Hardness"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Diaphaneity measures how well ________ can pass through the body of a mineral.",
+  options: [
+    "light",
+    "liquid",
+    "electricity",
+    "radiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are minerals that do not permit the passage of light through them called?",
+  options: [
+    "Opague",
+    "Translucent",
+    "Transparent",
+    "Lustrous"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "An opague mineral is characterized by its inability to:",
+  options: [
+    "permit the passage of light through it",
+    "displace liquid when measured",
+    "break along defined cleavage planes",
+    "conduct heat and electricity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What does 'specific gravity' measure in minerals?",
+  options: [
+    "The amount of liquid a mineral sample can displace",
+    "The ability of light to pass through the mineral's body",
+    "The resistance of a mineral to being scratched",
+    "The alignment of crystal structure along flat planes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "The amount of liquid a mineral sample can displace is measured as its:",
+  options: [
+    "specific gravity",
+    "cleavage",
+    "diaphaneity",
+    "luster"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "In chemistry, how does atomic mass affect specific gravity?",
+  options: [
+    "Elements with higher atomic mass have high specific gravities compared to those with lesser atomic mass",
+    "Elements with higher atomic mass have lower specific gravities",
+    "Atomic mass has no relationship with specific gravity",
+    "Lesser atomic mass increases the displacement of liquid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Elements with high specific gravities generally possess:",
+  options: [
+    "higher atomic mass",
+    "lesser atomic mass",
+    "highly flexible cleavage planes",
+    "an opague diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "How does the specific gravity of minerals with metallic luster compare to those with non-metallic dull luster?",
+  options: [
+    "Metallic luster minerals tend to have higher specific gravities",
+    "Non-metallic dull luster minerals have higher specific gravities",
+    "They have identical specific gravities",
+    "Metallic luster minerals displace significantly less liquid"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Minerals with non-metallic dull luster tend to have:",
+  options: [
+    "lower specific gravities compared to those with metallic luster",
+    "higher specific gravities compared to those with metallic luster",
+    "the same specific gravity as pure liquid water",
+    "the highest atomic mass in the mineral kingdom"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What is the breakage of a mineral along planes called?",
+  options: [
+    "cleavage",
+    "fracture",
+    "streak",
+    "diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Cleavage refers to a mineral's breakage along its:",
+  options: [
+    "planes",
+    "uneven surfaces",
+    "powdered structures",
+    "convective zones"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which non-metallic element is unique for being the only liquid non-metallic element?",
+  options: [
+    "Bromine",
+    "Chromium",
+    "Sulphur",
+    "Beryllium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What are some commercial uses of the liquid non-metallic element Bromine?",
+  options: [
+    "Leaded gasoline, fire retardants, and extinguishers",
+    "Stainless steel production and heat resistance",
+    "Fertilizer complexes and drugs",
+    "Yarn paint filler, cloth, and paper"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "From what is Chromium produced, and what is its primary industrial use?",
+  options: [
+    "It is a product of ore minerals used in producing stainless and heat-resistant steel",
+    "It is a liquid element used in leaded gasoline and extinguishers",
+    "It is a volcanic mineral used in fertilizer complexes and drugs",
+    "It is an igneous rock alloy used for aircraft construction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which element is mainly used in the production of stainless and heat-resistant steel?",
+  options: [
+    "Chromium",
+    "Bromine",
+    "Sulphur",
+    "Beryllium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "For what industrial purposes is Sulphur highly useful?",
+  options: [
+    "Manufacturing fertilizer complexes and drugs",
+    "Production of stainless and heat-resistant steel",
+    "Leaded gasoline and fire extinguishers",
+    "Yarn paint filler and fabrics"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which mineral is specifically noted as highly useful for manufacturing fertilizer complexes and drugs?",
+  options: [
+    "Sulphur",
+    "Asbestos",
+    "Beryllium",
+    "Bromine"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "What mineral is used in fabrics, yarn paint filler, cloth, and paper?",
+  options: [
+    "Asbestos",
+    "Beryllium",
+    "Chromium",
+    "Sulphur"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "In which materials is the mineral Asbestos used according to the notes?",
+  options: [
+    "Fabrics, yarn paint filler, cloth, and paper",
+    "Fertilizer complexes and pharmaceutical drugs",
+    "Stainless and heat-resistant steel",
+    "Strong alloys for aircraft construction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Where is Beryllium found, and what industry does it serve?",
+  options: [
+    "It is found in igneous rocks and serves as strong alloys for the aircraft construction industry",
+    "It is found in peat bogs and serves the fertilizer and drug industries",
+    "It is found in liquid non-metals and serves the fire extinguisher industry",
+    "It is found in ore minerals and serves the paint filler and paper industries"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 7,
+  question: "Which mineral found in igneous rocks serves as very strong alloys for the aircraft construction industry?",
+  options: [
+    "Beryllium",
+    "Asbestos",
+    "Chromium",
+    "Sulphur"
+  ],
+  answer: 0
+  },
+  {
+  course: "gst112",
+  chapter: 8,
+  question: "What is defined as the basic and structural unit of life?",
+  options: [
+    "Cell",
+    "Tissue",
+    "Organ",
+    "Atom"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The basic and structural unit of every living organism is the:",
+  options: [
+    "cell",
+    "nucleus",
+    "atom",
+    "molecule"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following lists the characteristics of living things mentioned in the notes?",
+  options: [
+    "Movement, Growth, Nutrition, Reproduction, Release and use of energy, Excretion, and Respiration",
+    "Siltation, pollution, thermal agitation, and greenhouse warming",
+    "Crystalline structure, hardness, streak, and specific gravity",
+    "Subduction, core compression, and convective drilling"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is NOT listed as a characteristic of living things in Point 2?",
+  options: [
+    "Siltation",
+    "Movement",
+    "Excretion",
+    "Nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are specialized organs such as fins, wings, and legs used by animals to move their whole bodies called?",
+  options: [
+    "locomotory organs",
+    "vestigial structures",
+    "homologous organs",
+    "analogous structures"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Fins, wings, and legs are examples of:",
+  options: [
+    "locomotory organs",
+    "vestigial organs",
+    "embryonic structures",
+    "secondary pollutants"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the ability of all organisms, including plants, to sense and respond to changes in their environment called?",
+  options: [
+    "irritability",
+    "metabolism",
+    "excretion",
+    "reproduction"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Irritability is defined as the ability of an organism to:",
+  options: [
+    "sense a change in their environment and respond to that change",
+    "permanently increase in physical size and weight",
+    "reproduce asexually without gametes",
+    "convert carbon dioxide into volatile organic compounds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is a change that affects the activity of an organism called?",
+  options: [
+    "stimulus",
+    "response",
+    "irritability",
+    "impetus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "A stimulus is fundamentally described as any change that:",
+  options: [
+    "affects the activity of the organism",
+    "causes an irreversible increase in weight",
+    "decomposes organic material naturally",
+    "alters the mineralogy of a rock"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as a potential stimulus?",
+  options: [
+    "Chemicals, gravity, light, sound, touch, or anything causing a response",
+    "Only artificial industrial contaminants",
+    "Only the thermal power plants of the city",
+    "The specific gravity of a mineral sample"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Gravity, light, touch, and sound are examples of:",
+  options: [
+    "stimuli",
+    "irritabilities",
+    "locomotory organs",
+    "metabolisms"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "How is 'growth' defined in Chapter 8?",
+  options: [
+    "An irreversible increase in size and weight",
+    "A temporary change in physical shape",
+    "The ability to sense and respond to environmental stimuli",
+    "The systematic removal of waste products of metabolism"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "An organism grows primarily as a result of the intake and:",
+  options: [
+    "assimilation of nutrients",
+    "excretion of harmful toxins",
+    "controlled release of carbon dioxide",
+    "production of sexual gametes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Through what three processes does growth take place?",
+  options: [
+    "Cell division, cell enlargement, and cell differentiation (specialization)",
+    "Induction, deduction, and empirical measurement",
+    "Sexual union, asexual division, and gamete formation",
+    "Aerobic respiration, anaerobic respiration, and photosynthesis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Cell specialization is another term for which growth process?",
+  options: [
+    "cell differentiation",
+    "cell division",
+    "cell enlargement",
+    "irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What nutrition process is characterized by feeding on ready-made organic matter, as seen in animals?",
+  options: [
+    "heterotrophic nutrition",
+    "autotrophic nutrition",
+    "saprophytic nutrition",
+    "lignocellulosic nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "How do plants feed under autotrophic nutrition?",
+  options: [
+    "They feed on simple inorganic material which builds up into complex organic molecules",
+    "They feed directly on ready-made organic matter",
+    "They consume other photosynthetic algae in the environment",
+    "They ingest soil minerals through chemical specific gravity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the process by which living organisms give rise to their kind called?",
+  options: [
+    "Reproduction",
+    "Respiration",
+    "Nutrition",
+    "Irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Reproduction is fundamentally defined as:",
+  options: [
+    "the process by which living organisms give rise to their kind",
+    "the irreversible increase in cell size and weight",
+    "the systematic breakdown of sugar to make ATP",
+    "the summation of all chemical activities in a cell"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are the two primary ways in which organisms reproduce?",
+  options: [
+    "Sexual reproduction and asexual reproduction",
+    "Autotrophic and heterotrophic reproduction",
+    "Aerobic and anaerobic reproduction",
+    "Mitotic and specialized differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Organisms can reproduce either through asexual reproduction or:",
+  options: [
+    "sexual reproduction",
+    "metabolic synthesis",
+    "cell differentiation",
+    "heterotrophic ingestion"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What does sexual reproduction involve?",
+  options: [
+    "The union of the male and female gametes from two parents",
+    "A single parent reproducing without sex gametes",
+    "The progressive change of living things over geological time",
+    "The physical division of a single cell into specialized tissues"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In sexual reproduction, offspring share the characteristics of:",
+  options: [
+    "both parents",
+    "the male parent only",
+    "the female parent only",
+    "neither parent due to mutation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What does asexual reproduction involve?",
+  options: [
+    "A single parent without the union of sex game",
+    "Two parents fusing male and female gametes",
+    "The synthesis of sugar during aerobic respiration",
+    "A direct act of the creator during special creation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Asexual reproduction is characterized by having:",
+  options: [
+    "only one single parent",
+    "two parents with distinct genotypes",
+    "the union of male and female gametes",
+    "extensive cellular differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the name of the compound used by organisms to release and use energy in a controlled and usable form?",
+  options: [
+    "adenosine triphosphate (ATP)",
+    "lignocellulosic biomass",
+    "peroxyacetyl nitrate (PAN)",
+    "titanium dioxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Adenosine triphosphate (ATP) is used by organisms to:",
+  options: [
+    "release and use energy in a controlled and usable form",
+    "catalyze the division of non-biodegradable lead salts",
+    "transmit parental phenotypes to the next generation",
+    "absorb solar radiation during thermal agitation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is broken down during respiration to make energy available for producing ATP?",
+  options: [
+    "Sugar",
+    "Lignocellulose",
+    "Magma",
+    "Oxygen"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Sugar is broken down during respiration to provide energy needed for making:",
+  options: [
+    "ATP",
+    "Pangenes",
+    "Algae",
+    "Siltation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is defined as the summation of all the chemical activities that an organism performs?",
+  options: [
+    "metabolism",
+    "respiration",
+    "excretion",
+    "irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Metabolism represents the summation of all:",
+  options: [
+    "chemical activities that the organism performs",
+    "locomotory organs found in an animal",
+    "cells formulated in a single tissue",
+    "trigonometric algorithms used to predict eclipses"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is 'excretion' defined as in the notes?",
+  options: [
+    "The removal of waste products of metabolism which otherwise would be harmful to the body",
+    "The breakdown of sugar during aerobic respiration",
+    "The orderly formation of new cells through division",
+    "The process of giving rise to offspring of the same kind"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as an example of an excretory waste product?",
+  options: [
+    "carbon, oxide, urine, etc.",
+    "sugar and starch",
+    "adenosine triphosphate (ATP)",
+    "chlorophyll and algae"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is respiration?",
+  options: [
+    "A complex sequence of chemical reactions which result in the release of energy from food",
+    "The removal of waste products of metabolism from the body",
+    "The ability to respond to external physical stimuli",
+    "The division of cells during differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The primary result of the chemical reactions involved in respiration is:",
+  options: [
+    "the release of energy from food",
+    "the irreversible increase in cell weight",
+    "the creation of new locomotory organs",
+    "the synthesis of autotrophic sugar"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are the two types of respiration?",
+  options: [
+    "Aerobic respiration and anaerobic respiration",
+    "Autotrophic and heterotrophic respiration",
+    "Sexual and asexual respiration",
+    "Chemical and physical respiration"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Respiration can be categorized into aerobic respiration and:",
+  options: [
+    "anaerobic respiration",
+    "metabolic synthesis",
+    "cell differentiation",
+    "heterotrophic nutrition"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What gas is involved in aerobic respiration?",
+  options: [
+    "oxygen",
+    "nitrogen",
+    "carbon dioxide",
+    "helium"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are the by-products of aerobic respiration that are eliminated as waste?",
+  options: [
+    "water and carbon dioxide",
+    "urine and sugar",
+    "ATP and oxygen",
+    "sulfur dioxide and carbon monoxide"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Under what condition does anaerobic respiration take place?",
+  options: [
+    "In the absence of oxygen",
+    "In the presence of pure nitrogen",
+    "During the thermal agitation of cells",
+    "During autotrophic photosynthesis"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Anaerobic respiration is defined by its occurrence in the:",
+  options: [
+    "absence of oxygen",
+    "presence of carbon dioxide",
+    "presence of water vapor",
+    "absence of sugar"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are often referred to as the 'building blocks of life'?",
+  options: [
+    "Cells",
+    "Atoms",
+    "Tissues",
+    "Proteins"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "According to Point 22, cells are commonly known as the:",
+  options: [
+    "building blocks of life",
+    "basic units of atoms",
+    "locomotory organs of animals",
+    "chemical agents of metabolism"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Who discovered the cell in 1665?",
+  options: [
+    "Robert Hooke",
+    "Theodor Schwann",
+    "Matthias Schleiden",
+    "Edwin Smith"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In what year did Robert Hooke discover the cell?",
+  options: [
+    "1665",
+    "1839",
+    "1610",
+    "1856"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which German scientist was given credit for the formulation of the Cell theory?",
+  options: [
+    "Theodor Schwann",
+    "Robert Hooke",
+    "Matthias Schleiden",
+    "Jean Buridan"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Theodor Schwann, credited with the Cell theory, was a scientist of what nationality?",
+  options: [
+    "German",
+    "French",
+    "English",
+    "Greek"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In what year was the Cell theory formulated?",
+  options: [
+    "1839",
+    "1665",
+    "1856",
+    "1924"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The formulation of the Cell theory in 1839 is usually credited to Theodor Schwann and:",
+  options: [
+    "Matthias Schleiden",
+    "Robert Hooke",
+    "Karl Popper",
+    "Aristotle"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is a tenet of the Cell theory?",
+  options: [
+    "All living organisms are composed of cells, which are the basic and structural units of life",
+    "All cells contain chloroplasts and can perform autotrophic nutrition",
+    "All cells undergo anaerobic respiration in the presence of helium",
+    "All cells are created by sudden catastrophes in six days"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "According to the Cell theory, all cells share the same basic:",
+  options: [
+    "chemical composition",
+    "locomotory organs",
+    "crystalline structure",
+    "diaphaneity"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Based on genetic similarity, living things are divided into which three domains/groups?",
+  options: [
+    "Archaea, Eubacteria, and Eukaryota",
+    "Protista, Fungi, and Animalia",
+    "Thallophytes, Bryophytes, and Pteridophytes",
+    "Angiosperms, Gymnosperms, and Spermatophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "On what basis are living things divided into the groups Archaea, Eubacteria, and Eukaryota?",
+  options: [
+    "genetic similarity",
+    "locomotory mechanisms",
+    "nutritional methods",
+    "respiratory pathways"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Into what taxonomic groups is the Eukaryote domain divided?",
+  options: [
+    "kingdoms",
+    "classes",
+    "orders",
+    "phyla"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is a kingdom within the Eukaryote domain according to the notes?",
+  options: [
+    "Kingdom Protista, Kingdom Fungi, Kingdom Plantae, and Kingdom Animalia",
+    "Kingdom Archaea, Kingdom Eubacteria, and Kingdom Eukaryota",
+    "Kingdom Thallophyta and Kingdom Bryophyta",
+    "Kingdom Porifera and Kingdom Angiospermae"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Thallophytes?",
+  options: [
+    "Organisms including, algae, fungi, and lichens that show no differentiation into root, stem, and leaf",
+    "Land plants that are non-vascular and dominated by the gametophyte stage",
+    "Flowering seed-producing plants with protected ovaries",
+    "Vascular plants with leaves known as fronds and full trunks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is a member of the Thallophytes?",
+  options: [
+    "algae, fungi, and lichens",
+    "bryophytes and mosses",
+    "ferns and tree ferns",
+    "conifers and cycads"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What green-colored matter is contained in algae, giving them their green color?",
+  options: [
+    "chlorophyll",
+    "starch",
+    "ATP",
+    "magma"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Algae are a group of thallophytes that are generally what color?",
+  options: [
+    "green",
+    "red",
+    "blue",
+    "yellow"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as an example of a single-celled algae?",
+  options: [
+    "Chlamydomonas and Euglena",
+    "Spirogyra",
+    "Nostoc",
+    "Salmonella typhi"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Spirogyra is listed as an example of an algae containing:",
+  options: [
+    "many cells",
+    "a single cell",
+    "no cell division",
+    "only flagella"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Why are bacteria placed in the group Protista?",
+  options: [
+    "Because they possess both plant and animal characteristics and are neither plants nor animals",
+    "Because they are multicellular eukaryotic organisms that live on land",
+    "Because they perform heterotrophic autotrophic nutrition in bogs",
+    "Because they have naked seeds that develop in ovaries"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are bacteria described as in the notes?",
+  options: [
+    "the smallest and most primitive cellular organism",
+    "highly complex vascular land plants",
+    "single-celled animal-like protozoans",
+    "decayed fossil remains of the existing races"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What structure do bacteria possess for locomotion?",
+  options: [
+    "flagellum",
+    "fins",
+    "legs",
+    "wings"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The flagellum in bacteria is used primarily for:",
+  options: [
+    "locomotion",
+    "nutrition",
+    "cellular division",
+    "irritability"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which bacterium is listed in the notes as the cause of typhoid fever?",
+  options: [
+    "Salmonella typhi",
+    "Nostoc",
+    "Chlamydomonas",
+    "Amoeba proteus"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the ecological function of the bacterium Nostoc?",
+  options: [
+    "form an association with the root nodules of leguminous plants to convert atmospheric nitrogen to nitrate",
+    "It acts as a deadly poison affecting man and vegetation",
+    "It undergoes aerobic respiration using hydrogen atoms",
+    "It acts as a primary pollutant in water bodies"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is a virus according to Point 35?",
+  options: [
+    "a small infectious agent that replicates only inside the living cells of other organisms",
+    "The smallest and most primitive cellular organism with flagella",
+    "An non-vascular embryophyte dominated by the gametophyte stage",
+    "A single-celled algal organism containing chlorophyll"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "A virus is characterized by its ability to replicate:",
+  options: [
+    "only inside the living cells of other organisms",
+    "autotrophically in any terrestrial soil",
+    "through rapid cell division in water basins",
+    "asexually inside decayed volcanic rocks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Where do most fungi live according to the notes?",
+  options: [
+    "land",
+    "under water",
+    "inside chloroplasts",
+    "in the air"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Fungi can range from single-celled to:",
+  options: [
+    "very complex multicellular organisms",
+    "primitive non-cellular viruses",
+    "vascular seed-producing gymnosperms",
+    "animal-like protozoans with flagella"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What does the traditional name 'Bryophyte' refer to?",
+  options: [
+    "all embryophytes (land plants) that are non-vascular plants",
+    "Vascular land plants with leaves known as fronds",
+    "Flowering plants that produce seeds within an ovary",
+    "Algae containing chlorophyll that show no root differentiation"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Bryophytes are land plants (embryophytes) that are:",
+  options: [
+    "non-vascular",
+    "vascular",
+    "seed-producing",
+    "single-celled"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the defining feature of bryophytes?",
+  options: [
+    "their life cycles are dominated by the gametophyte stage",
+    "They possess vascular tissues called xylem and phloem",
+    "They develop protected seeds inside a mature ovary",
+    "They reproduce exclusively through asexual spores"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "The life cycle of bryophytes is dominated by which stage?",
+  options: [
+    "gametophyte stage",
+    "sporophyte stage",
+    "mitotic stage",
+    "locomotory stage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Pteridophytes?",
+  options: [
+    "vascular plants and have leaves (known as fronds), roots, and sometimes, true stems",
+    "Non-vascular land plants dominated by the gametophyte stage",
+    "Unicellular protists with animal-like locomotor organs",
+    "Seedless thallophytes containing chlorophyll"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "In pteridophytes, the leaves are specifically known as:",
+  options: [
+    "fronds",
+    "needles",
+    "trunks",
+    "lobes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Spermatophytes also known as?",
+  options: [
+    "phanerogams or phonogramme",
+    "bryophytes",
+    "pteridophytes",
+    "thallophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the defining characteristic of spermatophytes that gives them the name 'seed plants'?",
+  options: [
+    "They produce seeds",
+    "They lack vascular tissues",
+    "They consist of single-celled algae",
+    "They replicate only inside host cells"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What is the difference between angiosperms and gymnosperms?",
+  options: [
+    "Angiosperms develop their seeds within an ovary and their seeds are covered while gymnosperms have naked seeds",
+    "Angiosperms are non-vascular, while gymnosperms possess fronds and trunks",
+    "Angiosperms reproduce asexually, while gymnosperms use male and female gametes",
+    "Angiosperms lack root differentiation, while gymnosperms have full trunks"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Gymnosperms are characterized by having:",
+  options: [
+    "naked seeds",
+    "covered seeds",
+    "no seeds",
+    "fronds"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is included in the gymnosperm group of seed-producing plants?",
+  options: [
+    "conifers, cycads, Ginkgo, and gnetophytes",
+    "Flowering plants and angiosperms",
+    "Mosses, liverworts, and hornworts",
+    "Spirogyra, Chlamydomonas, and Euglena"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Conifers and cycads are taxonomically classified as:",
+  options: [
+    "gymnosperms",
+    "angiosperms",
+    "pteridophytes",
+    "bryophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are Angiosperms?",
+  options: [
+    "members of the flowering plant, the largest and diverse group within the kingdom Plantae",
+    "Non-vascular land plants with naked seeds",
+    "Single-celled green thallophytes containing chlorophyll",
+    "Vascular plants with fronds instead of flowers"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Within the kingdom Plantae, the largest and most diverse group is composed of:",
+  options: [
+    "angiosperms",
+    "gymnosperms",
+    "bryophytes",
+    "pteridophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What comprises the group Protista according to Point 44?",
+  options: [
+    "all organisms having eukaryotic cells and based on unicellular body plan",
+    "Vascular plants that produce naked seeds in cones",
+    "Multicellular land-living fungi that decompose matter",
+    "Non-vascular land plants dominated by the gametophyte stage"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Protists are characterized by a unicellular body plan and:",
+  options: [
+    "eukaryotic cells",
+    "prokaryotic cells",
+    "no cell walls",
+    "multicellular trunk systems"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are animal-like protists called?",
+  options: [
+    "protozoa",
+    "algae",
+    "fungi",
+    "bryophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Protozoa are classified under Protista as:",
+  options: [
+    "animal-like protists",
+    "plant-like thallophytes",
+    "non-vascular land plants",
+    "primitive cellular bacteria"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is listed as a member of the Protozoa group?",
+  options: [
+    "Amoeba proteus, Balantidium coli, Paramecium caudatum, Plasmodium, Trypanosome, etc.",
+    "Chlamydomonas, Euglena, and Spirogyra",
+    "Nostoc, Salmonella typhi, and Conifers",
+    "Conifers, cycads, and Ginkgo"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "According to the notes, protozoa are found:",
+  options: [
+    "almost everywhere",
+    "only in natural bogs and swamps",
+    "only in the blood of humans",
+    "only on high mountain soils"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "What are members of Phylum Porifera commonly called?",
+  options: [
+    "sponges",
+    "protozoa",
+    "thallophytes",
+    "pteridophytes"
+  ],
+  answer: 0
+},
+{
+  course: "gst112",
+  chapter: 8,
+  question: "Which of the following is an example of Phylum Porifera?",
+  options: [
+    "Siliceous sponge, Nereis, Virenes, etc.",
+    "Amoeba proteus and Paramecium caudatum",
+    "Salmonella typhi and Nostoc",
+    "Chlamydomonas and Spirogyra"
+  ],
+  answer: 0
+  }
