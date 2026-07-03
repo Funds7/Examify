@@ -10474,7 +10474,7 @@ const QUESTIONS = [
   ],
   "answer": 3
 },
-  {
+{
   "course": "gst102",
   "chapter": 7,
   "question": "Etymologically, the word 'philosophy' is taken from two Greek words which are:",
@@ -39575,8 +39575,8 @@ const QUESTIONS = [
     "biodegradability"
   ],
   answer: 0
-    },
-  {
+ },
+ {
   course: "gst112",
   chapter: 7,
   question: "Chemistry is concerned mainly with which aspects of matter?",
@@ -40295,8 +40295,8 @@ const QUESTIONS = [
     "Sulphur"
   ],
   answer: 0
-  },
-  {
+ },
+ {
   course: "gst112",
   chapter: 8,
   question: "What is defined as the basic and structural unit of life?",
