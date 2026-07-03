@@ -45185,5 +45185,1277 @@ const QUESTIONS = [
     "The regional, national, and international courts"
   ],
   answer: 0
+  },
+  {
+  course: "gst113",
+  chapter: 6,
+  question: "According to Whawo, what is the consequence of failing to monitor and manage a conflict?",
+  options: [
+    "It can escalate into a crisis and further into bloody clashes",
+    "It will naturally resolve without any intervention",
+    "It remains permanently latent and unrecognized",
+    "It immediately transforms into positive peace"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Who posited that if a conflict is not monitored and managed, it can escalate into a crisis and further into bloody clashes, making it more difficult to resolve?",
+  options: [
+    "Coser",
+    "Whawo",
+    "Boal",
+    "Albert"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Which medium integrates the performing arts—drama, music, and dance—to provide a veritable means for analyzing, monitoring, managing, and resolving conflict situations?",
+  options: [
+    "The formal court system",
+    "Egoistic negotiation",
+    "Theatre",
+    "An ad-hoc arbitration panel"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Theatre is particularly effective for managing and resolving conflicts through which of its platforms?",
+  options: [
+    "Theatre-for-Development platform",
+    "Standing arbitration platform",
+    "Traditional court platform",
+    "Direct legal presentation platform"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "According to Point 3, which of the following is NOT listed as one of the most crisis-prone regions in Nigeria?",
+  options: [
+    "North East",
+    "South West",
+    "North Central",
+    "Niger Delta"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "The most crisis-prone regions highlighted in the notes are the North East, North Central, and:",
+  options: [
+    "The Niger Delta",
+    "The South East",
+    "The South West",
+    "The Maro River area"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "In the Niger Delta, inter-ethnic clashes occur especially between Urhobo-Itsekiri and Urhobo-Ijaw over land disputes and control of which city?",
+  options: [
+    "Monrovia",
+    "Warri",
+    "Voinjama",
+    "Anambra"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Which of the following is NOT one of the three identifiable conflict situations in the Niger Delta region?",
+  options: [
+    "Ethnic nationalities of the oil-rich region and oil exploration corporations",
+    "Inter-ethnic clashes over land dispute and control of Warri",
+    "The quest for political power by all means",
+    "Disputes arising from the 1999 Lome boundary agreements"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Northern Nigeria's religious conflicts arise from widespread poverty, illiteracy, unemployment, and which of the following factors?",
+  options: [
+    "Vulnerability of young men to exploitation by political interest and radial religious ideologues",
+    "The highly successful implementation of agricultural sport leagues",
+    "The absolute failure of the National Popular Theatre Alliance",
+    "Inequality in the distribution of oil exploration corporations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "The vulnerability of young men to exploitation by political interests and radial religious ideologues in Northern Nigeria is characterized as arising from:",
+  options: [
+    "A lack of formal judicial councils in the local governments",
+    "The absence of a functional federal structure",
+    "Widespread poverty, illiteracy, and unemployment",
+    "Conflict between crop farmers and the NURTW"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "According to Point 6, conflict in Nigeria is primarily an element of misunderstanding due to ethnic and religious diversity and disagreement over:",
+  options: [
+    "Power and wealth sharing formula",
+    "The source of the Mano River",
+    "The establishment of local sports clubs",
+    "The 1996 Machel report guidelines"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "What factors are identified in the notes as causing misunderstanding, leading to conflict in Nigeria?",
+  options: [
+    "The lack of an ad-hoc arbitration court at the Hague",
+    "Ethnic and religious diversity, and disagreement over power and wealth sharing",
+    "The use of the Theatre of the Oppressed by literary dramatists",
+    "The high rate of urbanization in the Maro River area"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Drama is fundamentally about people in conflict, the processes of resolving issues in conflict, and:",
+  options: [
+    "Possible lessons to be learned",
+    "The exclusive use of physical force",
+    "The structural division of classes",
+    "The total elimination of the audience"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Complete the statement from Chapter 6: '________ is about people in conflict and the processes of resolving the issues in conflict and possible lessons to be learned.'",
+  options: [
+    "Dialogue",
+    "Arbitration",
+    "Drama",
+    "Egoism"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Why is drama considered the most functional and ideological of all the art forms?",
+  options: [
+    "Because of its sociality",
+    "Because of its alignment with court structures",
+    "Because of its financial cost",
+    "Because of its exclusion of music and dance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Due to its sociality, drama possesses an enormous potential to:",
+  options: [
+    "Sustain historical boundary conflicts",
+    "Bring about changes in society",
+    "Enforce formal legal arbitration decisions",
+    "Promote ethnocentric cultural superiority"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Which of the following serves to redeem a decadent culture, and as a civilizing agent, seeks to re-order and redirect society to the ethical values of life?",
+  options: [
+    "Theatre",
+    "The court system",
+    "Rebellion movements",
+    "Coup d'etats"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "As a civilizing agent, theatre seeks to re-order and redirect society to:",
+  options: [
+    "The status of a cold war",
+    "Strictly commercial interests",
+    "The ethical values of life",
+    "Latent structural conflicts"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Which of the following literary dramatists is NOT listed in the notes as being engaged in writing and performing plays to mediate conflict in the Nigerian polity?",
+  options: [
+    "Ola Rotimi",
+    "Sam Ukala",
+    "Ahmed Yerima",
+    "Wole Soyinka"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Ola Rotimi, Sam Ukala, Ahmed Yerima, and Bakare Ojo-Rasaki are literary dramatists actively engaged in performing plays which seek to:",
+  options: [
+    "Mediate conflict in the Nigerian polity",
+    "Establish formal standing arbitration courts",
+    "Abolish the federal structure of Nigeria",
+    "Promote the 3 Rs of peace-building"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Whose 'Theatre of the Oppressed' provides the theoretical basis for the 'Praxis' of popular and development theatre in Nigeria?",
+  options: [
+    "Augusto Boal",
+    "Paulo Freire",
+    "Ola Rotimi",
+    "Sam Ukala"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Augusto Boal's Theatre of the Oppressed provides the theoretical basis for which concept in Nigeria?",
+  options: [
+    "The 'Praxis' of popular and development theatre",
+    "The establishment of ad-hoc legal counsels",
+    "The 1996 Machel report implementation",
+    "The structural conflict theory of Marx"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "What type of interactive/participatory theatre did Augusto Boal found?",
+  options: [
+    "Radical Theatre",
+    "Praxis Theatre",
+    "Forum Theatre",
+    "Popular Theatre"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "The Forum Theatre founded by Augusto Boal is a type of interactive/participatory theatre rooted in whose pedagogic principles?",
+  options: [
+    "Paulo Freire",
+    "Ola Rotimi",
+    "Sam Ukala",
+    "Ahmed Yerima"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Which of the following is considered an unconventional mode of radical theatre and a highly effective instrument for diagnosing, analyzing, and mediating human conflict in Nigeria?",
+  options: [
+    "Theatre-for-Development",
+    "The Forum Theatre",
+    "The Theatre of the Oppressed",
+    "Literary Drama"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Theatre-for-Development is described in the notes as an unconventional mode of:",
+  options: [
+    "Interactive Forum Theatre",
+    "Radical theatre",
+    "Literary drama",
+    "Performing arts"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "What is the functional role of the Theatre-for-Development?",
+  options: [
+    "It can influence thought and opinion and also to drive action",
+    "It acts as a formal court presided over by a standing judge",
+    "It reinforces the unequal distribution of power and resources",
+    "It promotes self-directed violence and self-abuse among youth"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "Besides influencing thought and opinion, the Theatre-for-Development is functional in its ability to:",
+  options: [
+    "Enforce legal codes",
+    "Drive action",
+    "Suppress conflicting interests",
+    "Increase resource scarcity"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "What is the primary purpose of the National Popular Theatre Alliance (NTPA)?",
+  options: [
+    "To promote participatory, gender-sensitive development and sustainable human resource management popular Theatre Strategies",
+    "To establish a standing arbitration court for inter-state border disputes",
+    "To fund rebellion movements in the Mano River area",
+    "To write literary scripts for the Forum Theatre"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 6,
+  question: "The National Popular Theatre Alliance (NTPA) promotes sustainable human resource management and what type of development?",
+  options: [
+    "Ethnocentric class development",
+    "Radical structural development",
+    "Participatory, gender-sensitive development",
+    "Economic resource competition development"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "How the mass media cover and report conflicts in Nigeria can significantly:",
+  options: [
+    "Prevent any future biological differences",
+    "Aggravate or mitigate such crises situations",
+    "Upturn the final decisions of the Supreme Court",
+    "Abolish the federal structure of government"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Which of the following has the capacity to significantly aggravate or mitigate crisis situations in Nigeria depending on how they cover and report them?",
+  options: [
+    "The mass media",
+    "Traditional family units",
+    "Ad-hoc arbitration courts",
+    "Sports leagues"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "The Nigerian society is characterized as a social system compounded by contested demands on access to scarce resources, particularly in which fields?",
+  options: [
+    "Agricultural and physiological fields",
+    "Cultural and linguistic fields",
+    "Political and economic fields",
+    "Judicial and academic fields"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "In the Nigerian social system, the contested demands of the populace are primarily focused on accessing:",
+  options: [
+    "Scarce resources",
+    "International maritime panels",
+    "Theatre-for-Development scripts",
+    "Local village councils"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Which of the following is cited in Point 3 as an example of a recent conflict in Nigeria?",
+  options: [
+    "The border war with Algiers",
+    "The Liberian civil war",
+    "The Boko Haram insurgency",
+    "The Warri crisis of 2002"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "The Boko Haram insurgency and which other clashes are easily recalled as examples of recent conflicts in Nigeria?",
+  options: [
+    "Fulani herdsmen clashes with farmers",
+    "Conflicts between the SPLA and UNITA",
+    "Boundary disputes with Morocco",
+    "Sports club rivalries in Monrovia"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "How is 'discourse' defined in Chapter 7?",
+  options: [
+    "A relationship between language and the people who use it",
+    "A formal court proceeding overseen by a judge",
+    "A physical struggle over material resources",
+    "An unconventional form of radical theatre"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "According to Point 4, discourse represents the direct relationship between:",
+  options: [
+    "The federal government and state boundaries",
+    "Language and the people who use it",
+    "Conflict as feeling and conflict as action",
+    "The mass media and international court judges"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "The communicative approach to conflict management, especially discourse, is used to constitute and change patterns of:",
+  options: [
+    "What is considered to be civil communication",
+    "Political boundaries in the Mano River area",
+    "The unequal distribution of scarce power",
+    "Literary plays performed by dramatists"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Which approach to conflict management utilizes discourse to constitute and change patterns of civil communication?",
+  options: [
+    "The structural conflict approach",
+    "The physiological approach",
+    "The communicative approach",
+    "The realist approach"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Which concept is associated with politeness, courtesy, order, and a genteel manner?",
+  options: [
+    "Civility",
+    "Egoism",
+    "Ethnocentrism",
+    "Arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Civility is described in the notes as a social pattern of behavior that specifically helps to:",
+  options: [
+    "Escalate latent conflicts into manifest clashes",
+    "Maintain order",
+    "Form coalitions along ethnic lines",
+    "Upturn the decisions of the highest courts"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Which scholar identified the distinction between substantive conflict and emotional conflict?",
+  options: [
+    "Walton",
+    "Ajala",
+    "Whawo",
+    "Coser"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "According to Walton, the two main types of conflict are:",
+  options: [
+    "Direct conflict and structural conflict",
+    "Substantive conflict and emotional conflict",
+    "Internal conflict and inter-state conflict",
+    "Latent conflict and manifest conflict"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "According to Walton, substantive conflicts rest on disagreement over policies and practices, competitive bids for the same resources, and which of the following?",
+  options: [
+    "Differing conceptions of role relationship",
+    "Feelings of anger, fear, and rejection",
+    "The presence of radial religious ideologues",
+    "Careless use of words and symbols"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Disagreements over policies, practices, or competitive bids for identical resources are classified as:",
+  options: [
+    "Emotional conflicts",
+    "Cultural conflicts",
+    "Substantive conflicts",
+    "Physiological conflicts"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Emotional conflicts involve negative feelings between parties, such as anger, distrust, scorn resentment, fear, and:",
+  options: [
+    "Rejection",
+    "Dialogue",
+    "Rebuilding",
+    "Compromise"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Negative feelings between parties, including anger, distrust, resentment, and fear, characterize which type of conflict?",
+  options: [
+    "Substantive conflicts",
+    "Emotional conflicts",
+    "Boundary conflicts",
+    "Rural resource conflicts"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "What plays a crucial role in conflict resolution, the reconciliation of individuals and communities, and the sustenance of emergent peace?",
+  options: [
+    "Good communication",
+    "The complete absence of the media",
+    "Competitive bids for scarce resources",
+    "Increasing material poverty"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Good communication is considered essential for conflict resolution, reconciliation, and what other process?",
+  options: [
+    "Fostering inter-ethnic land disputes",
+    "Encouraging class-based revolutionary movements",
+    "Sustenance of the emergent peace",
+    "Appointing ad-hoc arbitration panels"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "In the absence of communication, how do people operate in conflict situations?",
+  options: [
+    "They work through professional legal counsels",
+    "They work on assumptions and guesses",
+    "They participate in non-violent sport tournaments",
+    "They rely on direct standing court orders"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "When communication is absent, conflict resolution and reconciliation are seriously jeopardized because:",
+  options: [
+    "Mistrust and suspicions become rife",
+    "The highest court loses its final authority",
+    "Local village councils are dissolved",
+    "Economic resources are naturally equalized"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "What form of communication is characterized by a delivery system that permits the flow of information to large, scattered, and far-removed audiences?",
+  options: [
+    "Interpersonal communication",
+    "Mass communication",
+    "Acculturated dialogue",
+    "Forum-based performance"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "In mass communication, the delivery system enables the flow of information to audiences that are scattered and may also be:",
+  options: [
+    "Far removed from the message source",
+    "Directly involved in the dialogue",
+    "Members of the same local family unit",
+    "Presided over by a local court judge"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Mass communication proves to be very effective in which of the following tasks?",
+  options: [
+    "Enforcing direct physical force against individuals",
+    "Generating structural inequality in society",
+    "Orientating and mobilizing the people to pursue common goals",
+    "Sustaining latent tensions within the family"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "What tool is highlighted as highly effective for orienting and mobilizing people to pursue common goals?",
+  options: [
+    "Mass communication",
+    "Self-directed violence",
+    "Ethnocentric assumptions",
+    "Ad-hoc arbitration panels"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "What entity greatly determines what information is made available to the general public?",
+  options: [
+    "The local family unit",
+    "The mass media",
+    "The International Court of Justice",
+    "The rebellion movements"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "The mass media hold significant societal influence because they greatly determine:",
+  options: [
+    "What information is available to the public",
+    "The genetic makeup of human individuals",
+    "The first border war between African nations",
+    "The pricing of oil-exploration corporations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "Proper coverage of conflicts by the mass media in Nigeria has the prospect of contributing to:",
+  options: [
+    "Their resolution in the interest of the society",
+    "The escalation of bloody clashes in all states",
+    "An increase in severe resource scarcity",
+    "The dominance of one class over another"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 7,
+  question: "To ensure that media presence contributes positively to society, the coverage of conflicts must be:",
+  options: [
+    "Unnecessarily delayed",
+    "Kept latent and dormant",
+    "Proper",
+    "Exclusively economic"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which international organizations have developed various mechanisms in their charters for conflict transformation?",
+  options: [
+    "The United Nations (UN) and the African Union (AU)",
+    "The Quadruple Alliance and the League of Nations",
+    "The World Trade Organization and the European Union",
+    "The Lagos Plan of Action and NEPAD"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Mechanisms for conflict transformation by organizations like the UN and AU are explicitly provided in their:",
+  options: [
+    "Charters",
+    "Local court judgements",
+    "Sporting regulations",
+    "Lagos Plans of Action"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What are the two main roles of international organizations such as the UN and the AU?",
+  options: [
+    "To create boundary disputes and enforce class struggles",
+    "To regulate relations among member states and maintain international peace and security",
+    "To establish financial banks and control oil exploration corporations",
+    "To dictate national laws and bypass local court judgements"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Besides regulating relations among member states, what is a primary role of the UN and AU?",
+  options: [
+    "The maintenance of international peace and security in the international system",
+    "The promotion of secessionist movements in Sub-Saharan Africa",
+    "The selection of national presidents and ministers",
+    "The direct monitoring of local sports clubs and leagues"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Who established international organizations with mechanisms to handle conflicts or crises in the international system?",
+  options: [
+    "Local village councils",
+    "Statesmen",
+    "Rebel commanders",
+    "Media corporations"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "To end what predicament did statesmen establish international organizations?",
+  options: [
+    "The predicament of war",
+    "Widespread urbanization",
+    "Intergroup ethnic diversity",
+    "The failure of local courts"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which treaty in 1919 ended the First World War and led to the establishment of the League of Nations?",
+  options: [
+    "The Lome Agreement",
+    "The Versailles Peace Treaty",
+    "The Lagos Plan of Action",
+    "The Quadruple Alliance Treaty"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What was the first international organization established with the duty of maintaining international peace and security?",
+  options: [
+    "The United Nations",
+    "The League of Nations",
+    "The Concert of Europe",
+    "The African Union"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following was NOT an agency of arbitration for the settlement of disputes in ancient Greece?",
+  options: [
+    "The Delphic Oracle",
+    "The Amphicytonic League",
+    "The Athenian League",
+    "The Quadruple Alliance"
+  ],
+  answer: 3
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The Amphicytonic, Athenian, Peloponnesian, and Achaean Leagues served as dispute settlement agencies in which ancient civilization?",
+  options: [
+    "Ancient Greece",
+    "Ancient Egypt",
+    "The Roman Empire",
+    "Ancient Persia"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "In 1815, which powers formed the Quadruple Alliance that became the Concert of Europe?",
+  options: [
+    "Britain, Russia, Austria, and Prussia",
+    "Germany, France, Italy, and Spain",
+    "The United States, Iran, Iraq, and Syria",
+    "Liberia, Sierra Leone, Guinea, and Morocco"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The Quadruple Alliance formed in 1815 by Britain, Russia, Austria, and Prussia is historically known as:",
+  options: [
+    "The League of Nations",
+    "The Concert of Europe",
+    "The United Nations Security Council",
+    "The Delphic Oracle"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "According to Professor Goldstein, the root causes of conflict are categorized into:",
+  options: [
+    "Tangible material interests and less tangible material interests",
+    "Political boundaries and economic class struggles",
+    "Religious disputes and biological genetic defects",
+    "Internal coup d'etats and external border wars"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Who categorized root causes of conflict into tangible and less tangible material interests?",
+  options: [
+    "Professor Goldstein",
+    "Johan Galtung",
+    "Hugh Miall",
+    "Augusto Boal"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following is classified as a tangible material interest according to Goldstein?",
+  options: [
+    "Territorial border disputes and control of national government",
+    "Ideological differences and religious values",
+    "Ethnic coalitions and self-importance",
+    "Emotional conflicts involving fear and anger"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Economic conflicts over trade, money, and natural resources are classified by Goldstein as:",
+  options: [
+    "Tangible material interests",
+    "Less-tangible interests",
+    "Substantive psychological traits",
+    "Structural inequalities"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "According to Goldstein, ethnic, religious, and ideological conflicts are categorized as:",
+  options: [
+    "Tangible material interests",
+    "Less-tangible interests",
+    "Substantive policy disputes",
+    "Structural legal procedures"
+  ],
+  answer: 1
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following is an example of a less-tangible interest according to Professor Goldstein?",
+  options: [
+    "Ideological conflicts",
+    "Territorial border disputes",
+    "Conflicts over natural resources",
+    "Trade and monetary disputes"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following institutions is a treaty or regime established to strengthen the world order?",
+  options: [
+    "The International Bank for Reconstruction and Development",
+    "The Amphicytonic League",
+    "The Quadruple Alliance",
+    "The National Popular Theatre Alliance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The World Trade Organization (WTO), the European Union (EU), and the International Bank for Reconstruction and Development are examples of:",
+  options: [
+    "Institution treaties or regimes to strengthen the world order",
+    "Ad-hoc arbitration panels for boundary disputes",
+    "National popular theatre networks",
+    "Unconventional modes of radical conflict"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What are defined as norms, rules, regulations, and decision procedures governing an aspect of international relations implicitly or explicitly?",
+  options: [
+    "International regimes",
+    "Tangible material interests",
+    "Good offices",
+    "Preventive diplomacy policies"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "International regimes govern aspects of international relations implicitly or explicitly using rules, regulations, decision procedures, and:",
+  options: [
+    "Norms",
+    "Rebellion movements",
+    "Coup d'etats",
+    "Economic crises"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "A primary objective of the Organisation of African Unity (OAU) includes:",
+  options: [
+    "Promoting the unity and solidarity of the African states",
+    "Funding the SPLA and UNITA rebellion movements",
+    "Enforcing the rulings of the International Court of Justice",
+    "Abolishing all inter-state border lines"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Promoting unity and solidarity among African states was the main goal of which historical body?",
+  options: [
+    "The Organisation of African Unity (OAU)",
+    "The Amphicytonic League",
+    "The Quadruple Alliance",
+    "The League of Nations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The OAU objectives include coordinating and intensifying cooperation, development, and efforts to defend and safeguard the independence, sovereignty, and:",
+  options: [
+    "Territorial integrity of all member states",
+    "Class domination of the elite",
+    "Establishment of international monetary funds",
+    "Execution of preventive diplomacy"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Safeguarding sovereignty, territorial integrity, and independence of African member states was a key objective of:",
+  options: [
+    "The OAU",
+    "The Concert of Europe",
+    "The Delphic Oracle",
+    "The Athenian League"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following was a key principle on which the OAU was established and operated?",
+  options: [
+    "The sovereign equality of all member states",
+    "Direct interference in the internal affairs of states",
+    "Alignment with Eastern and Western power blocs",
+    "Sustenance of a cold war environment"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The operating principles of the OAU included noninterference in the internal affairs of states, non-alignment about power blocs, and:",
+  options: [
+    "The sovereign equality of all member states",
+    "The direct oversight of oil corporations",
+    "The complete disarmament of youth organizations",
+    "The dissolution of national constitutions"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following is listed as an objective of the African Union (AU)?",
+  options: [
+    "To promote peace, security, and stability on the continent",
+    "To support secessionist groups across West Africa",
+    "To dissolve the borders between member states",
+    "To replace local court procedures with arbitration"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Promoting greater unity and solidarity between African states and people, alongside defending sovereignty and territorial integrity, are objectives of:",
+  options: [
+    "The African Union",
+    "The Concert of Europe",
+    "The League of Nations",
+    "The Quadruple Alliance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "At the inception of the OAU, Article XIX established which organ for dispute settlement between states?",
+  options: [
+    "Commission of Mediation, Conciliation and Arbitration",
+    "The African Court of Justice",
+    "The Delphic Oracle",
+    "The African Investment Bank"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What was the primary purpose of the Commission of Mediation, Conciliation and Arbitration established under Article XIX of the OAU?",
+  options: [
+    "Conflict and dispute settlement between states",
+    "Creating economic plans like the Lagos Plan of Action",
+    "Regulating oil exploration corporations",
+    "Conducting interactive popular drama"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What is the primary aim of preventive diplomacy?",
+  options: [
+    "To use all measures to prevent conflict before it escalates to an unacceptable level",
+    "To resolve inter-state wars using formal standing arbitration courts",
+    "To coordinate the economic integration of West African states",
+    "To establish financial institutions like the Central Bank"
+  ],
+  answer: 0
+},
+{
+  options: [
+    "Preventive diplomacy",
+    "Arbitration",
+    "Good offices",
+    "Peacekeeping"
+  ],
+  question: "Using measures to prevent conflicts before they escalate to an unacceptable level defines:",
+  course: "gst113",
+  chapter: 8,
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What plan was established by the OAU in 1980 for the economic integration of Africa?",
+  options: [
+    "The Lagos Plan of Action",
+    "The New Partnership for Africa's Development (NEPAD)",
+    "The CSSDCA framework",
+    "The Machel Report"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The Lagos Plan of Action, established in 1980, was specifically aimed at:",
+  options: [
+    "The economic integration of Africa",
+    "Resolving the border war between Algiers and Morocco",
+    "Implementing Article XIX's arbitration commission",
+    "Establishing the African Court of Justice"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which mechanism used by the OAU is credited with saving the continent of Africa from disintegration?",
+  options: [
+    "The policy of Preventive diplomacy",
+    "The Lagos Plan of Action",
+    "The Quadruple Alliance",
+    "The establishment of the African Monetary Fund"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The OAU's preventive diplomacy mechanism successfully saved the African continent from:",
+  options: [
+    "Disintegration",
+    "Economic integration",
+    "Sovereign equality",
+    "Peacekeeping operations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "When and where did the African Union (AU) come into existence?",
+  options: [
+    "July 9, 2002, in South Africa",
+    "Immediately after the 1919 Versailles Treaty",
+    "In 1980, in Lagos, Nigeria",
+    "During the 1815 Quadruple Alliance"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following is a mechanism put in place by the AU to tackle conflicts in Africa since July 9, 2002?",
+  options: [
+    "NEPAD and CSSDCA",
+    "The Amphicytonic League",
+    "The Commission of Mediation, Conciliation and Arbitration",
+    "The League of Nations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "How many financial institutions were created by the African Union?",
+  options: [
+    "Three",
+    "Four",
+    "Five",
+    "Six"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "The three financial institutions created by the African Union are the African Central Bank, the African Investment Bank, and:",
+  options: [
+    "The African Monetary Fund",
+    "The International Bank for Reconstruction and Development",
+    "The World Trade Organization",
+    "The Lagos Economic Bank"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Which of the following is NOT listed in Point 23 as a function of the UN and other international organizations?",
+  options: [
+    "Inquiry",
+    "Good offices",
+    "Secession promotion",
+    "Arbitration"
+  ],
+  answer: 2
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "According to Point 23, international organizations use 'Good offices' primarily to:",
+  options: [
+    "Bring the conflicting parties together",
+    "Upturn final local court decisions",
+    "Impose structural economic blockades",
+    "Fund local theater operations"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "What is another important instrument used by the UN in the settlement of disputes between countries?",
+  options: [
+    "Peacekeeping",
+    "Rebellion support",
+    "Coup d'etats",
+    "Class struggles"
+  ],
+  answer: 0
+},
+{
+  course: "gst113",
+  chapter: 8,
+  question: "Peacekeeping is utilized by the UN as an important instrument for:",
+  options: [
+    "The settlement of disputes between countries",
+    "Establishing regional trade tariffs",
+    "Promoting the radical theater of the oppressed",
+    "Creating ad-hoc agricultural leagues"
+  ],
+  answer: 0
   }
   ]
