@@ -38975,7 +38975,8 @@ const QUESTIONS = [
     "1924"
   ],
   answer: 0
-  },{
+  },
+  {
   course: "gst112",
   chapter: 6,
   question: "What term denotes the sum total of both the biological and physical factors that directly influence the well-being of organisms?",
