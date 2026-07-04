@@ -1,19 +1,49 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Examify Learn</title>
-  <link rel="stylesheet" href="style.css">
-</head><body><div class="container">  <h1 id="chapterTitle">Loading Chapter...</h1>  <div id="contentArea"></div>  <br>  <button onclick="startTest()">
-    📝 Take Chapter Test
-  </button></div><script src="content.js"></script><script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FundsIQ - Learn</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Chapter Header -->
+    <div class="chapter-header">
+        <h1 id="chapterTitle"></h1>
+        <p>📚 Learn • Practice • Pass</p>
+    </div>
+
+    <!-- Notes -->
+    <div id="contentArea"></div>
+
+    <br>
+
+    <!-- Chapter Test Button -->
+    <button class="main-btn" onclick="startTest()">
+        📝 Take Chapter Test
+    </button>
+
+</div>
+
+<script src="content.js"></script>
+
+<script>
 
 // Supports BOTH old and new storage names
 const course =
-  localStorage.getItem("course") ||
-  localStorage.getItem("gstCourse");
+    localStorage.getItem("course") ||
+    localStorage.getItem("gstCourse");
 
 const chapter =
-  localStorage.getItem("chapter") ||
-  localStorage.getItem("chapterId");
+    localStorage.getItem("chapter") ||
+    localStorage.getItem("chapterId");
 
 const chapterKey = "chapter" + chapter;
 
@@ -22,75 +52,92 @@ console.log("Chapter:", chapter);
 console.log("Key:", chapterKey);
 
 if (
-  typeof CONTENT !== "undefined" &&
-  CONTENT[course] &&
-  CONTENT[course][chapterKey]
+    typeof CONTENT !== "undefined" &&
+    CONTENT[course] &&
+    CONTENT[course][chapterKey]
 ) {
 
-  const notes = CONTENT[course][chapterKey];
+    const notes = CONTENT[course][chapterKey];
 
-  let html = "";
+    let html = "";
 
-  notes.forEach((point, index) => {
+    notes.forEach((point, index) => {
 
-    html += `
-      <div class="course-card">
+        html += `
 
-        <h3>Point ${index + 1}</h3>
+<div class="course-card">
 
-        <p>${point}</p>
+    <div class="point-title">
+        Point ${index + 1}
+    </div>
 
-        <div style="
-          display:flex;
-          justify-content:space-between;
-          margin-top:10px;
-        ">
+    <div class="point-body">
+        ${point}
+    </div>
 
-          <button>🔖 Bookmark</button>
-          <button>📤 Share</button>
-          <button>🚩 Report</button>
+    <div class="card-buttons">
 
-        </div>
+        <button class="small-btn">
+            🔖 Bookmark
+        </button>
 
-      </div>
+        <button class="small-btn">
+            📤 Share
+        </button>
 
-      <br>
-    `;
+        <button class="small-btn">
+            🚩 Report
+        </button>
 
-  });
+    </div>
 
-  document.getElementById("contentArea").innerHTML = html;
+</div>
 
-  document.getElementById("chapterTitle").innerHTML =
-    course.toUpperCase() + " - Chapter " + chapter;
+`;
+
+    });
+
+    document.getElementById("contentArea").innerHTML = html;
+
+    document.getElementById("chapterTitle").innerHTML =
+        course.toUpperCase() +
+        "<br><span>Chapter " + chapter + "</span>";
 
 } else {
 
-  document.getElementById("chapterTitle").innerHTML =
-    "Content Not Found";
+    document.getElementById("chapterTitle").innerHTML =
+        "Content Not Found";
 
-  document.getElementById("contentArea").innerHTML = `
-    <div class="course-card">
-      <h3>Debug Information</h3>
+    document.getElementById("contentArea").innerHTML = `
 
-      <p><b>Course:</b> ${course}</p>
-      <p><b>Chapter:</b> ${chapter}</p>
-      <p><b>Chapter Key:</b> ${chapterKey}</p>
+<div class="course-card">
 
-      <p>
-        Content for this chapter was not found.
-        Check content.js.
-      </p>
-    </div>
-  `;
+<h2>Content Not Found</h2>
+
+<p><b>Course:</b> ${course}</p>
+
+<p><b>Chapter:</b> ${chapter}</p>
+
+<p><b>Key:</b> ${chapterKey}</p>
+
+<p>
+This chapter could not be found inside <b>content.js</b>.
+</p>
+
+</div>
+
+`;
+
 }
 
-function startTest() {
+function startTest(){
 
-  window.location.href =
+    window.location.href =
     `exam.html?course=${course}&chapter=${chapter}`;
 
 }
 
-</script></body>
+</script>
+
+</body>
 </html>
