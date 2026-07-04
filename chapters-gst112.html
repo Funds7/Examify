@@ -1,58 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GST 112 Chapters</title>
-  <link rel="stylesheet" href="style.css">
+    <title>GST 112 Chapters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2 style="text-align:center;">
-📚 GST 112 - History and Philosophy of Science and Technology
-</h2>
+<div class="container">
 
-<div id="chapterList"></div>
+    <div class="chapter-header">
+        <h1>GST 112</h1>
+        <span>History and Philosophy of Science and Technology</span>
+        <p>📚 Choose a chapter to begin learning.</p>
+    </div>
+
+    <div id="chapterList"></div>
+
+</div>
 
 <script src="gst112.js"></script>
 
 <script>
+
 let html = "";
 
 gst112Chapters.forEach(chapter => {
 
-  html += `
-    <div class="course-card">
+html += `
 
-      <h3>Chapter ${chapter.id}</h3>
+<div class="course-card">
 
-      <p>${chapter.title}</p>
+    <div class="point-title">
+        Chapter ${chapter.id}
+    </div>
 
-      <button onclick="openChapter(${chapter.id})">
-        📚 Learn
-      </button>
+    <div class="point-body">
+        ${chapter.title}
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="openChapter(${chapter.id})">
+        📖 Learn
+        </button>
 
     </div>
-  `;
+
+</div>
+
+`;
+
 });
 
 html += `
-  <div class="course-card">
-    <h3>🏆 GST 112 Course Test</h3>
-    <a href="exam.html?course=gst112">
-      Start CBT Exam
-    </a>
-  </div>
+
+<div class="course-card">
+
+    <div class="point-title">
+        🏆 GST 112 Course Test
+    </div>
+
+    <div class="point-body">
+        Test everything you've learned in GST 112.
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="location.href='exam.html?course=gst112'">
+        📝 Start CBT Exam
+        </button>
+
+    </div>
+
+</div>
+
 `;
 
 document.getElementById("chapterList").innerHTML = html;
 
-function openChapter(id) {
+function openChapter(id){
 
-  localStorage.setItem("course", "gst112");
-  localStorage.setItem("chapter", id);
+    localStorage.setItem("course","gst112");
+    localStorage.setItem("chapter",id);
 
-  window.location.href = "learn.html";
+    window.location.href="learn.html";
+
 }
+
 </script>
 
 </body>
