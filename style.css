@@ -287,3 +287,44 @@ html{
 .small-btn:hover{
     transform:translateY(-3px) scale(1.01);
 }
+.page-title{
+    text-align:center;
+    font-size:42px;
+    margin:25px 0;
+}
+
+.semester-title{
+    font-size:30px;
+    margin:30px 0 18px;
+    color:#60a5fa;
+}
+
+.course-item{
+    display:block;
+    background:#1e293b;
+    border-radius:18px;
+    padding:22px;
+    margin-bottom:18px;
+    text-decoration:none;
+    color:white;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    transition:.3s;
+}
+
+.course-item:hover{
+    transform:translateY(-3px);
+}
+
+.course-code{
+    display:block;
+    font-size:30px;
+    font-weight:800;
+    color:#60a5fa;
+}
+
+.course-name{
+    display:block;
+    margin-top:8px;
+    font-size:20px;
+    color:#e2e8f0;
+}
