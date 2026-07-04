@@ -1,71 +1,271 @@
-body {
-  font-family: Arial;
-  background: #f4f4f4;
-  text-align: center;
-  margin: 0;
+/* ===== GLOBAL ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-/* HEADER */
-.header {
-  background: #007bff;
-  color: white;
-  padding: 15px;
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#111827;
+
+    color:white;
+
+    min-height:100vh;
+
 }
 
-/* STATUS BAR */
-.status-bar {
-  display: flex;
-  justify-content: space-around;
-  background: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+/* ===== CONTAINER ===== */
+
+.container{
+
+    width:92%;
+
+    max-width:450px;
+
+    margin:auto;
+
+    padding:25px 0 40px;
+
 }
 
-/* MAIN CONTAINER */
-.container {
-  width: 90%;
-  max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+/* ===== WELCOME CARD ===== */
+
+.welcome-card{
+
+    background:#1f2937;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    margin-bottom:30px;
+
+    text-align:left;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+
 }
 
-/* QUESTION OPTIONS */
-.option-btn {
-  display: block;
-  margin: 10px auto;
-  padding: 12px;
-  width: 90%;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: white;
-  cursor: pointer;
-  transition: 0.2s ease;
+.welcome-card h2{
+
+    font-size:24px;
+
+    margin-bottom:8px;
+
 }
 
-.option-btn:hover {
-  background: #f0f0f0;
+.welcome-card p{
+
+    color:#cbd5e1;
+
+    font-size:15px;
+
 }
 
-.option-btn.selected {
-  background: #cce5ff;
-  border-color: #007bff;
+/* ===== LOGO ===== */
+
+.logo{
+
+    font-size:40px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
 }
 
-/* NAVIGATION BUTTONS */
-.nav-buttons button {
-  margin: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
+.subtitle{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+    margin-bottom:35px;
+
 }
 
-/* SUBMIT BUTTON */
-.submit-btn {
-  background: green;
-  color: white;
-  border: none;
-  border-radius: 6px;
+/* ===== BUTTONS ===== */
+
+.button-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.main-btn{
+
+    text-decoration:none;
+
+    background:white;
+
+    color:#111827;
+
+    padding:18px;
+
+    border-radius:16px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+.main-btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* ===== STATS ===== */
+
+.stats{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:35px;
+
+}
+
+.card{
+
+    flex:1;
+
+    background:#1f2937;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+.card h3{
+
+    font-size:28px;
+
+}
+
+.card span{
+
+    color:#cbd5e1;
+
+}
+
+/* ===== CBT CONTAINER ===== */
+
+.status-bar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    background:#1f2937;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+}
+
+.container.exam{
+
+    background:#1f2937;
+
+    border-radius:20px;
+
+    padding:20px;
+
+}
+
+/* ===== OPTIONS ===== */
+
+.option-btn{
+
+    width:100%;
+
+    padding:16px;
+
+    margin:10px 0;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:#374151;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.option-btn:hover{
+
+    background:#4b5563;
+
+}
+
+.option-btn.selected{
+
+    background:white;
+
+    color:#111827;
+
+    font-weight:bold;
+
+}
+
+/* ===== NAVIGATION ===== */
+
+.nav-buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:25px;
+
+}
+
+.nav-buttons button{
+
+    padding:12px 18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
+
+/* ===== SUBMIT ===== */
+
+.submit-btn{
+
+    background:#22c55e;
+
+    color:white;
+
 }
