@@ -70,29 +70,19 @@ html{
    Buttons
 =========================== */
 
-.button-group{
-    display:flex;
-    flex-direction:column;
-    gap:18px;
-    margin-bottom:35px;
+.main-btn,
+.small-btn,
+.card,
+.course-card,
+.welcome-card{
+    transition:all .3s ease;
 }
 
-.main-btn{
-    display:block;
-    text-decoration:none;
-    background:#2563eb;
-    color:white;
-    padding:18px;
-    border-radius:16px;
-    font-size:20px;
-    font-weight:bold;
-    transition:.3s;
-    box-shadow:0 8px 18px rgba(37,99,235,.35);
-}
-
+.card:hover,
+.course-card:hover,
+.welcome-card:hover,
 .main-btn:hover{
-    background:#1d4ed8;
-    transform:translateY(-2px);
+    transform:translateY(-3px) scale(1.01);
 }
 
 /* ===========================
@@ -236,21 +226,22 @@ html{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    gap:6px;
+    gap:8px;
     margin-top:16px;
 }
 
 .small-btn{
-    flex:none;
-    padding:8px 10px;
+    flex:1;
+    padding:8px 6px;
     border:none;
     border-radius:8px;
     background:#2563eb;
     color:#fff;
-    font-size:13px;
+    font-size:12px;
     font-weight:600;
     cursor:pointer;
-    transition:.3s;
+    transition:background .3s;
+    white-space:nowrap;
 }
 
 .exam-btn{
@@ -263,22 +254,6 @@ html{
 
 .exam-btn:hover{
     background:#15803d;
-}
-
-.main-btn,
-.small-btn,
-.card,
-.course-card,
-.welcome-card{
-    transition:all .3s ease;
-}
-
-.card:hover,
-.course-card:hover,
-.welcome-card:hover,
-.main-btn:hover,
-.small-btn:hover{
-    transform:translateY(-3px) scale(1.01);
 }
 
 @media(max-width:600px){
@@ -297,7 +272,7 @@ html{
     }
 
     .small-btn{
-    font-size:14px;
-    padding:10px 6px;
-   }
+        font-size:11px;
+        padding:8px 4px;
+    }
 }
