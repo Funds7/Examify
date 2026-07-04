@@ -236,20 +236,29 @@ html{
     display:flex;
     gap:10px;
     margin-top:20px;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 }
 
 .small-btn{
-    width:100%;
-    padding:10px 16px;
+    flex:1;
+    padding:10px;
     border:none;
     border-radius:10px;
     background:#2563eb;
     color:#fff;
-    font-size:16px;
+    font-size:15px;
     font-weight:bold;
     cursor:pointer;
     transition:.3s;
+}
+
+@media(max-width:600px){
+
+    .small-btn{
+        font-size:14px;
+        padding:10px 6px;
+    }
+
 }
 
 .exam-btn{
@@ -296,6 +305,7 @@ html{
     }
 
     .small-btn{
-        font-size:16px;
-    }
+    font-size:14px;
+    padding:10px 6px;
+   }
 }
