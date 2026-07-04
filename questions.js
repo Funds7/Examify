@@ -47369,5 +47369,653 @@ const QUESTIONS = [
     "Class domination"
   ],
   answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What has the unique capability to bring together peoples of disparate cultures and civilizations?",
+  options: [
+    "Economics",
+    "Geography",
+    "Language",
+    "History"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "According to the general introduction, language can bring together peoples of disparate _______?",
+  options: [
+    "political classes",
+    "cultures and civilizations",
+    "age groups",
+    "regional divisions"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which of the following statements is true about language based on the GST101 introductory notes?",
+  options: [
+    "Language isolates cultures",
+    "Language can bring together peoples of disparate cultures and civilizations",
+    "Language is only useful for linguists",
+    "Language reduces social communication"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What is the primary advantage of being able to communicate in French for first-contact-with-French learners?",
+  options: [
+    "Acquiring dual citizenship",
+    "Self-confidence in society",
+    "Immediate financial wealth",
+    "Mastering all European languages"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "In what kind of environment is the self-confidence of a first-contact French learner especially beneficial?",
+  options: [
+    "Bilingual, English-French setting",
+    "Monolingual environment",
+    "Technical laboratory setting",
+    "Written examinations only"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "First-contact-with-French learners from departments like Agriculture, Biology, and Chemistry should learn to do what?",
+  options: [
+    "Avoid learning grammar completely",
+    "Focus only on theory",
+    "Think out of the box to produce something",
+    "Switch to arts departments"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which category of students (including those in Botany, Horticulture, and Chemistry) are encouraged to think out of the box to produce something?",
+  options: [
+    "Faculty of Law",
+    "Natural Science Department, Agriculture, Biology, Botany, Chemistry, Horticulture, etc.",
+    "Department of Creative Arts",
+    "Faculty of Social Sciences"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Having a satisfactory awareness of the French Language enables an individual to be a _______?",
+  options: [
+    "problem solver",
+    "passive observer",
+    "non-participant",
+    "mere translation tool"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What level of awareness of the French Language can make a learner a problem solver?",
+  options: [
+    "Minimal awareness",
+    "No awareness",
+    "Satisfactory awareness",
+    "Native level reading only"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What habit must first-contact-with-French learners imbibe from the beginning?",
+  options: [
+    "Listening carefully to the sounds of French words and expressions",
+    "Translating words literally",
+    "Skipping pronunciation practice",
+    "Focusing strictly on writing"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "First-contact-with-French learners must listen carefully specifically to the _______ of French words and expressions.",
+  options: [
+    "spelling letters",
+    "historical context",
+    "sounds",
+    "syllable count"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Why do first-contact learners need to pay rapt attention when studying French spoken words?",
+  options: [
+    "French has no written alphabet",
+    "French words are never pronounced the way they are written",
+    "French speakers do not use vowels",
+    "French words are written in reverse"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Fill in the blank: 'French words are _______ pronounced the way they are written, thus you need to pay rapt attention.'",
+  options: [
+    "always",
+    "sometimes",
+    "never",
+    "frequently"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which of the following is a direct advantage of careful listening skills in a French class?",
+  options: [
+    "Skipping tests and assignments",
+    "Immediate masterly writing skills",
+    "Clear perception/hearing of every word pronounced by the teacher",
+    "Decreased interest in the course"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Developing careful listening skills leads to a growing interest in the lecture, which in turn fosters _______.",
+  options: [
+    "keen participation",
+    "avoiding lectures",
+    "class disruption",
+    "boredom"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "How is 'Reading' defined in Chapter 1 of the GST101 notes?",
+  options: [
+    "The oral realization of sounds of words in a sequence to make meaning",
+    "Writing essays in a second language",
+    "Translating French audio to English text",
+    "Silent scanning of titles"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "According to the definition of reading, oral realization of sounds of words must be in a _______ to make meaning.",
+  options: [
+    "random order",
+    "sequence",
+    "reverse pattern",
+    "disorganized cluster"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What is the major characteristic of the speaking skill according to the notes?",
+  options: [
+    "Hesitation",
+    "Rigidity",
+    "Spontaneity",
+    "Accuracy"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What serves as a catalyst for the learner of French to start saying something?",
+  options: [
+    "Spontaneity",
+    "A heavy bilingual dictionary",
+    "Extensive writing exercises",
+    "A strict grading system"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Students who can satisfactorily communicate in French have a greater edge in which area today?",
+  options: [
+    "Traditional agricultural markets",
+    "The job market of today",
+    "Local sports events",
+    "The artistic industry only"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Who has a greater edge over others in today's job market according to Point 10?",
+  options: [
+    "Students who avoid language classes",
+    "Students who can satisfactorily communicate in French",
+    "Students with zero communication skills",
+    "Students who only study local dialects"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What is the English translation of the French saying 'Qui ne dit rien n' ecrit rien'?",
+  options: [
+    "Who does not say anything has nothing to write",
+    "Silence is golden in French",
+    "To write is to speak loudly",
+    "Speaking is easier than listening"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which of the following French expressions translates to 'who does not say anything has nothing to write'?",
+  options: [
+    "Bonjour Monsieur",
+    "Eguono aime parler",
+    "Ou est Abuja?",
+    "Qui ne dit rien n' ecrit rien"
+  ],
+  answer: 3
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What does 'Bonjour, Bonsoir Monsieur Edet' mean in English?",
+  options: [
+    "Goodbye Mr. Edet",
+    "Good morning/good evening Mr. Edet",
+    "Welcome Mrs. Edet",
+    "Happy Easter Mr. Edet"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which French expressions are presented as greetings in the notes?",
+  options: [
+    "Bonjour, Bonsoir",
+    "Joyeux Noel",
+    "Bonnes Paques",
+    "Qui ne dit rien"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which of the following wishes means 'Happy Easter' in French?",
+  options: [
+    "Joyeux Noel",
+    "Bonnes Paques",
+    "Bonjour",
+    "Bonsoir"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What is the English meaning of the French expression 'Joyeux Noel'?",
+  options: [
+    "Happy New Year",
+    "Happy Easter",
+    "Merry Christmas",
+    "Good morning"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What does 'Eguono aime parler' mean in English?",
+  options: [
+    "Eguono wants to speak",
+    "Eguono is writing",
+    "Eguono wants to sleep",
+    "Eguono is studying"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which of the following expressions is categorized under 'needs' in Chapter 1?",
+  options: [
+    "Ou est Abuja?",
+    "Eguono aime parler",
+    "Joyeux Noel",
+    "Bonnes Paques"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What does the directional question 'Ou est Abuja?' mean in English?",
+  options: [
+    "Where is Abuja?",
+    "Who is Abuja?",
+    "Why Abuja?",
+    "Is Abuja big?"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "What is the English translation for 'Abuja est au nord du Nigeria'?",
+  options: [
+    "Abuja is in the South of Nigeria",
+    "Abuja is in the North of Nigeria",
+    "Abuja is near Lagos",
+    "Abuja is the largest city in Africa"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 1,
+  question: "Which of the following expressions is used for direction in Chapter 1?",
+  options: [
+    "Joyeux Noel",
+    "Qui ne dit rien n' ecrit rien",
+    "Ou est Abuja?",
+    "Eguono aime parler"
+  ],
+  answer: 2
+  },
+  {
+  course: "gst114",
+  chapter: 2,
+  question: "What is defined as a set of letters or other characters with which one or more languages are written, especially if arranged in a customary order?",
+  options: [
+    "An alphabet",
+    "A paragraph",
+    "A phonetic transcription",
+    "A sentence"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "According to Point 1, an alphabet consists of letters or other characters especially if arranged in what kind of order?",
+  options: [
+    "Random order",
+    "Customary order",
+    "Descending order",
+    "Chronological order"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "How many letters make up the French alphabet?",
+  options: [
+    "24",
+    "25",
+    "26",
+    "28"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "The French alphabet is comprised of exactly _______ letters.",
+  options: [
+    "26",
+    "20",
+    "30",
+    "22"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "In the letter pairing 'Aa', the uppercase first letter is called _______.",
+  options: [
+    "lettres minuscules",
+    "letter majuscules",
+    "voyelles",
+    "consonnes"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "In the letter pairing 'Aa', the lowercase second letter is referred to as _______.",
+  options: [
+    "letter majuscules",
+    "lettres minuscules",
+    "semi-consonants",
+    "les accents"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "In French letter classification, vowels are known as _______.",
+  options: [
+    "les consonnes",
+    "les voyelles",
+    "les accents",
+    "les phonèmes"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "In French, letters that are not classified as vowels are called 'les consonnes', which means _______.",
+  options: [
+    "consonants",
+    "syllables",
+    "lowercase letters",
+    "silent letters"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "How many total sounds or phonemes are used in French for communicating or reading aloud?",
+  options: [
+    "26",
+    "36",
+    "46",
+    "16"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "The 36 French sounds or phonemes are structurally divided into which of the following?",
+  options: [
+    "16 vowels, 17 consonants, and 3 semi-consonants",
+    "12 vowels, 20 consonants, and 4 semi-consonants",
+    "10 vowels, 23 consonants, and 3 semi-consonants",
+    "15 vowels, 15 consonants, and 6 semi-consonants"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "The 36 sounds or phonemes in French are primarily used for which function?",
+  options: [
+    "Communicating or reading aloud",
+    "Writing silent letters only",
+    "Drawing calligraphy",
+    "Creating new alphabets"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "What is the general pronunciation rule for most consonant letters in French when they are in final positions?",
+  options: [
+    "They are always stressed",
+    "They are not sounded",
+    "They change to vowels",
+    "They are pronounced twice"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "In words such as 'poulet', 'sujet', 'etat', and 'Paris', what is true of the last consonant?",
+  options: [
+    "It is strongly emphasized",
+    "It is not pronounced",
+    "It is nasalized",
+    "It changes to an 'e' sound"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Which of the following words serves as an example where the final consonant letter is NOT sounded?",
+  options: [
+    "sac",
+    "etat",
+    "avec",
+    "parc"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Which final consonant letters in French words (like sac, pur, neuf, table, souffle) are usually pronounced?",
+  options: [
+    "d, g, s, t",
+    "c, r, f, l, and b",
+    "p, x, z, h",
+    "m, n, q, j"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Based on Point 7, which of these French words has its final consonant letter sounded?",
+  options: [
+    "depart",
+    "poulet",
+    "sac",
+    "propos"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Which of the following sets of French letters are pronounced like their English counterparts?",
+  options: [
+    "b, d, f, g, k, n, s, t, v, z",
+    "j, q, w, x, y, h, c, l, r",
+    "Only vowels",
+    "None of the letters"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "In words like 'boeuf', 'dame', and 'garcon', the initial consonants are pronounced like their _______ counterparts.",
+  options: [
+    "Spanish",
+    "English",
+    "German",
+    "Arabic"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Compared to speakers in Nigeria, how do French speakers tend to be when addressing one another?",
+  options: [
+    "Slightly more formal",
+    "Slightly less formal",
+    "Extremely aggressive",
+    "Completely silent"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Which informal greeting is frequently used among French-speaking friends?",
+  options: [
+    "Bonjour",
+    "Bonsoir",
+    "Salut",
+    "Joyeux Noel"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "What does the French verb 'Aller' mean in English?",
+  options: [
+    "To write",
+    "To go",
+    "To speak",
+    "To listen"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 2,
+  question: "Which of the following French verbs translates directly to 'to-go'?",
+  options: [
+    "Aller",
+    "Parler",
+    "Ecrire",
+    "Saluer"
+  ],
+  answer: 0
 }
-]
+  ]
