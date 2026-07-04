@@ -1,1 +1,101 @@
-herebbcxd
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GST 103 Chapters</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="chapter-header">
+        <h1>GST 103</h1>
+        <span>DELSU Culture and Ethics</span>
+        <p>📚 Choose a chapter to begin learning.</p>
+    </div>
+
+    <div id="chapterList"></div>
+
+</div>
+
+<script src="gst103.js"></script>
+
+<script>
+
+let html = "";
+
+gst103Chapters.forEach(chapter => {
+
+html += `
+
+<div class="course-card">
+
+    <div class="point-title">
+        Chapter ${chapter.id}
+    </div>
+
+    <div class="point-body">
+        ${chapter.title}
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="openChapter(${chapter.id})">
+        📖 Learn
+        </button>
+
+    </div>
+
+</div>
+
+`;
+
+});
+
+html += `
+
+<div class="course-card">
+
+    <div class="point-title">
+        🏆 GST 103 Course Test
+    </div>
+
+    <div class="point-body">
+        Test everything you've learned in GST 103.
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="location.href='exam.html?course=gst103'">
+        📝 Start CBT Exam
+        </button>
+
+    </div>
+
+</div>
+
+`;
+
+document.getElementById("chapterList").innerHTML = html;
+
+function openChapter(id){
+
+    localStorage.setItem("course","gst103");
+    localStorage.setItem("chapter",id);
+
+    window.location.href="learn.html";
+
+}
+
+</script>
+
+</body>
+</html>
