@@ -48545,6 +48545,1338 @@ const QUESTIONS = [
     "africain/africaine"
   ],
   answer: 0
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What is the French word for the number '4'?",
+  options: [
+    "Trois",
+    "Quatre",
+    "Cinq",
+    "Seize"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What number does the French word 'Douze' represent?",
+  options: [
+    "11",
+    "12",
+    "13",
+    "14"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "Which of the following is the correct French term for '17'?",
+  options: [
+    "Dix-sept",
+    "Seize",
+    "Onze",
+    "Quatorze"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What is the French word for the number '30'?",
+  options: [
+    "Vingt",
+    "Trente",
+    "Quarante",
+    "Cinquante"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What number is represented by the French term 'Quatre-vingts'?",
+  options: [
+    "70",
+    "80",
+    "90",
+    "20"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "Which French term represents the number '70' according to the notes?",
+  options: [
+    "Soixante",
+    "Soixante-dix",
+    "Quatre-vingt-dix",
+    "Quarante"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What French word represents the number '1000'?",
+  options: [
+    "Cent",
+    "Mille",
+    "Dix milles",
+    "Deux cents"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "How is the number '300' written in French based on Point 3?",
+  options: [
+    "Deux cents",
+    "Trois cents",
+    "Quatre cent",
+    "Cinq cent"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "Which of the following translates to '100' in French?",
+  options: [
+    "Cent",
+    "Mille",
+    "Dix",
+    "Un"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What is the French term for the number '5000'?",
+  options: [
+    "Cinq milles",
+    "Trois milles",
+    "Quatre milles",
+    "Dix milles"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "Which number is represented by the French term 'Dix milles' according to Point 4?",
+  options: [
+    "1000",
+    "2000",
+    "5000",
+    "10 000"
+  ],
+  answer: 3
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "How is the number '3000' written in French based on the notes?",
+  options: [
+    "Deux milles",
+    "Trois milles",
+    "Six milles",
+    "Neuf milles"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What is the English translation of the French question 'Ca coute combien?'?",
+  options: [
+    "It cost how much?",
+    "How much is the price of the tomatoes?",
+    "What is the time?",
+    "Where are you going?"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "Which French phrase translates to 'It cost how much?'?",
+  options: [
+    "Ca coute combien?",
+    "Quelest le prix de cestomatoes?",
+    "Ou vas-tu?",
+    "Qui ne dit rien"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "What does the French expression 'Quelest le prix de cestomatoes?' mean in English?",
+  options: [
+    "It cost how much?",
+    "How much is the price of the tomatoes?",
+    "Where is Abuja?",
+    "What is the name of this fruit?"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 6,
+  question: "How do you say 'How much is the price of the tomatoes?' in French according to Point 6?",
+  options: [
+    "Ca coute combien?",
+    "Quelest le prix de cestomatoes?",
+    "Eguono aime parler",
+    "Ou est Abuja?"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "How is the plural of nouns usually formed in French according to the general rule?",
+  options: [
+    "By adding 'S' to the singular form",
+    "By adding 'X' to the singular form",
+    "By changing the suffix to 'aux'",
+    "By adding 'Z' to the singular form"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What does the singular noun 'La Maison' become in its plural form?",
+  options: [
+    "Les maisons",
+    "Les maisonx",
+    "Les maisones",
+    "Le maisons"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "Following the general rule of pluralization, 'Le patron' becomes _______ in the plural.",
+  options: [
+    "Les patrons",
+    "Le patrons",
+    "Les patronaux",
+    "Les patronx"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What happens to French nouns ending in -S, -X, or -Z in the plural form?",
+  options: [
+    "They do not change",
+    "They take an 'aux' ending",
+    "They take an extra 'S'",
+    "They take an 'X'"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "Which of the following nouns remains unchanged in its plural form because of its ending?",
+  options: [
+    "La croix",
+    "La Maison",
+    "Le journal",
+    "Le noyau"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What is the plural form of 'Le pois' (pea) according to the rules in Point 2?",
+  options: [
+    "Les pois",
+    "Les poises",
+    "Les poiaux",
+    "Les poiss"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "In French, singular nouns ending in '-al' generally change to which suffix in the plural?",
+  options: [
+    "-aux",
+    "-s",
+    "-x",
+    "-es"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What is the correct plural form of the French noun 'Le journal'?",
+  options: [
+    "Les journals",
+    "Les journaux",
+    "Les journauxs",
+    "Les journale"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "The singular noun 'Le canal' becomes _______ in the plural.",
+  options: [
+    "Les canals",
+    "Les canaux",
+    "Les canalx",
+    "Les canalaes"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "In French, nouns ending in '-au', '-eau', or '-eu' generally take which letter in the plural?",
+  options: [
+    "S",
+    "X",
+    "Z",
+    "aux"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What is the plural form of the noun 'Le manteau' (Coat)?",
+  options: [
+    "Les manteaux",
+    "Les manteaus",
+    "Les manteau",
+    "Les manteauxs"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "According to the notes, what does 'Le jeu' (game) become in the plural?",
+  options: [
+    "les Jeux",
+    "les Jeus",
+    "les Jeaux",
+    "les Jeues"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "According to Point 5, nouns ending in '-ou' are stated to take _______ in the plural, although the provided examples (bijoux, cailloux, choux) end in X.",
+  options: [
+    "an 'S'",
+    "an 'X' only",
+    "a 'Z'",
+    "no change"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What does the noun 'Le caillou' (pebble) become in the plural form as shown in the examples in Point 5?",
+  options: [
+    "Les cailloux",
+    "Les caillous",
+    "Les caillou",
+    "Les caillouaux"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "Which of the following is the correct plural form of 'Le chou' (cabbage) according to the text?",
+  options: [
+    "Les choux",
+    "Les chous",
+    "Les chou",
+    "Les choues"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What are demonstrative adjectives in French used to indicate or show?",
+  options: [
+    "A person, an animal, or an object",
+    "Action, state of being, or occurrence",
+    "Prepositions and conjunctions only",
+    "Quantity or numerical order"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "Which of the following is the plural form of the demonstrative adjectives ce, cet, and cette?",
+  options: [
+    "ces",
+    "cet",
+    "cette",
+    "ce"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 7,
+  question: "What does the singular phrase 'Ce Jardin' become in the plural form?",
+  options: [
+    "ces jardins",
+    "ce jardins",
+    "cet jardins",
+    "cette jardins"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the French word for 'Monday'?",
+  options: [
+    "Lundi",
+    "Mardi",
+    "Mercredi",
+    "Jeudi"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What day of the week does 'Jeudi' represent in French?",
+  options: [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Which of the following is the correct translation for 'Sunday' in French?",
+  options: [
+    "Samedi",
+    "Dimanche",
+    "Vendredi",
+    "Lundi"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the French word for the month of 'January'?",
+  options: [
+    "Janvier",
+    "Fevrier",
+    "Avril",
+    "Juin"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Which French month corresponds to the English month of 'August'?",
+  options: [
+    "Avril",
+    "Aout",
+    "Juillet",
+    "Mai"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Translate the French month 'Decembre' into English:",
+  options: [
+    "November",
+    "September",
+    "December",
+    "October"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "According to the notes, how is 'It is 2 p.m' written in French?",
+  options: [
+    "il est quatore heures",
+    "il est vingt-trois heures vingt",
+    "il est dix-heures vingt-cinq",
+    "il est sept heures moins dix"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the English meaning of the French time expression 'il est vingt-trois heures vingt'?",
+  options: [
+    "It is 11. 20 p.m",
+    "It is 2 p.m",
+    "It is 10. 25am",
+    "It is 10 minutes to 7"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "How is 'It is 10. 25am' expressed in French according to the notes?",
+  options: [
+    "il est dix-heures vingt-cinq",
+    "il est sept heures moins dix",
+    "il est quatore heures",
+    "il est vingt-trois heures vingt"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the English translation for 'il est sept heures moins dix'?",
+  options: [
+    "It is 10. 25am",
+    "It is 10 minutes to 7",
+    "It is 11. 20 p.m",
+    "It is 2 p.m"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the English meaning of the French expression 'A quelle heure?'?",
+  options: [
+    "At what time?",
+    "Can we have breakfast?",
+    "What do you do for a living?",
+    "Love at first sight"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Which French phrase translates to 'At what time?'?",
+  options: [
+    "A quelle heure?",
+    "Est-ce qu'on peut prendre le petit dejeuner?",
+    "Qu'est-ce que vous faits dans la vie",
+    "Coup de Foudre"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the English meaning of the French question 'Est-ce qu'on peut prendre le petit dejeuner?'?",
+  options: [
+    "can we have breakfast",
+    "what do you do for a living",
+    "At what time?",
+    "where are you going"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "How do you say 'can we have breakfast' in French according to Point 6?",
+  options: [
+    "Est-ce qu'on peut prendre le petit dejeuner?",
+    "Qu'est-ce que vous faits dans la vie",
+    "A quelle heure?",
+    "Coup de Foudre"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What does the French expression 'Qu'est-ce que vous faits dans la vie' mean in English?",
+  options: [
+    "what do you do for a living",
+    "can we have breakfast",
+    "At what time?",
+    "what is your name"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Translate 'what do you do for a living' into French as presented in the notes:",
+  options: [
+    "Qu'est-ce que vous faits dans la vie",
+    "Est-ce qu'on peut prendre le petit dejeuner?",
+    "A quelle heure?",
+    "Coup d' Etat"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the meaning of the French expression 'Coup de Foudre' in English?",
+  options: [
+    "Love at first sight",
+    "Change of government",
+    "Bad weather",
+    "A sudden strike"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Which French phrase is used to mean 'Love at first sight'?",
+  options: [
+    "Coup de Foudre",
+    "Coup d' Etat",
+    "A quelle heure?",
+    "Qu'est-ce que vous faits dans la vie"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "What is the definition of 'Coup d' Etat' in French according to Point 9?",
+  options: [
+    "Change of government that is illegal and usually violent",
+    "Love at first sight",
+    "Can we have breakfast",
+    "The legal election of a new president"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 8,
+  question: "Which French expression means a change of government that is illegal and usually violent?",
+  options: [
+    "Coup d' Etat",
+    "Coup de Foudre",
+    "Qu'est-ce que vous faits dans la vie",
+    "Est-ce qu'on peut prendre le petit dejeuner?"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French term 'Une reservation' mean in English?",
+  options: [
+    "A reservation",
+    "A passport",
+    "A boarding pass",
+    "A flight ticket"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "In the French travel and aviation context, what is the meaning of the verb 'Decoller'?",
+  options: [
+    "To land",
+    "To take off",
+    "To check in",
+    "To go on board"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French verb 'Atterir' mean in English according to the notes?",
+  options: [
+    "To take off",
+    "To land",
+    "To reserve",
+    "To depart"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English meaning of the French phrase 'A la douane'?",
+  options: [
+    "At the gate",
+    "At the customs",
+    "At the immigration",
+    "At the check-in"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "Translate the phrase 'La declaration de douane' into English:",
+  options: [
+    "Customs declaration",
+    "Immigration check",
+    "Cabin crew announcement",
+    "Luggage pickup"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English meaning of the French term 'Le personnel volant'?",
+  options: [
+    "Ground staff",
+    "Cabin crew",
+    "Immigration officers",
+    "Customs agents"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French verb phrase 'Monter a bord' mean in English?",
+  options: [
+    "To check in",
+    "To take off",
+    "To go on board",
+    "To land"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English translation of the French phrase 'passer a l'immigration'?",
+  options: [
+    "To go through the immigration",
+    "To check the visa",
+    "To stand in line",
+    "To present the passport"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "Which of the following French expressions means 'To pick up the luggage'?",
+  options: [
+    "Recuperer les baggages",
+    "Monter a bord",
+    "Decoller",
+    "A la douane"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English meaning of the French expression 'Du cafe sans lait'?",
+  options: [
+    "A cup of coffee with milk",
+    "A cup of coffee without milk",
+    "A cup of tea with sugar",
+    "A glass of water"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French question 'Qu'est ce que vous mangez?' mean in English according to Point 5?",
+  options: [
+    "What would you like to eat?",
+    "At your service?",
+    "Where are you going?",
+    "Do you have any luggage?"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English translation of the French phrase 'A votre service'?",
+  options: [
+    "At your service",
+    "Welcome to our country",
+    "Have a safe flight",
+    "Please wait here"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "Which French expression means 'At your service' in English?",
+  options: [
+    "A votre service",
+    "Du cafe sans lait",
+    "Monter a bord",
+    "A la douane"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French term 'Une reservation' mean in English?",
+  options: [
+    "A reservation",
+    "A passport",
+    "A boarding pass",
+    "A flight ticket"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "In the French travel and aviation context, what is the meaning of the verb 'Decoller'?",
+  options: [
+    "To land",
+    "To take off",
+    "To check in",
+    "To go on board"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French verb 'Atterir' mean in English according to the notes?",
+  options: [
+    "To take off",
+    "To land",
+    "To reserve",
+    "To depart"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English meaning of the French phrase 'A la douane'?",
+  options: [
+    "At the gate",
+    "At the customs",
+    "At the immigration",
+    "At the check-in"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "Translate the phrase 'La declaration de douane' into English:",
+  options: [
+    "Customs declaration",
+    "Immigration check",
+    "Cabin crew announcement",
+    "Luggage pickup"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English meaning of the French term 'Le personnel volant'?",
+  options: [
+    "Ground staff",
+    "Cabin crew",
+    "Immigration officers",
+    "Customs agents"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French verb phrase 'Monter a bord' mean in English?",
+  options: [
+    "To check in",
+    "To take off",
+    "To go on board",
+    "To land"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English translation of the French phrase 'passer a l'immigration'?",
+  options: [
+    "To go through the immigration",
+    "To check the visa",
+    "To stand in line",
+    "To present the passport"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "Which of the following French expressions means 'To pick up the luggage'?",
+  options: [
+    "Recuperer les baggages",
+    "Monter a bord",
+    "Decoller",
+    "A la douane"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English meaning of the French expression 'Du cafe sans lait'?",
+  options: [
+    "A cup of coffee with milk",
+    "A cup of coffee without milk",
+    "A cup of tea with sugar",
+    "A glass of water"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What does the French question 'Qu'est ce que vous mangez?' mean in English according to Point 5?",
+  options: [
+    "What would you like to eat?",
+    "At your service?",
+    "Where are you going?",
+    "Do you have any luggage?"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "What is the English translation of the French phrase 'A votre service'?",
+  options: [
+    "At your service",
+    "Welcome to our country",
+    "Have a safe flight",
+    "Please wait here"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 9,
+  question: "Which French expression means 'At your service' in English?",
+  options: [
+    "A votre service",
+    "Du cafe sans lait",
+    "Monter a bord",
+    "A la douane"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What unique ability does language possess regarding disparate cultures and civilizations?",
+  options: [
+    "To divide them permanently",
+    "To bring them together",
+    "To render them obsolete",
+    "To standardize their financial systems"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "According to the notes, language has the ability to bring together peoples of disparate _______?",
+  options: [
+    "geographical boundaries",
+    "cultures and civilizations",
+    "political affiliations",
+    "economic brackets"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What is the first advantage of being able to communicate in French for first-contact-with-French learners?",
+  options: [
+    "Instant employment",
+    "Self-confidence in society",
+    "Automatic high grades",
+    "Relocation opportunities"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "In what kind of environment is the self-confidence of a first-contact French learner especially beneficial?",
+  options: [
+    "In a bilingual, English-French setting",
+    "In a monolingual environment",
+    "In research labs only",
+    "In written communication only"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Students of Botany, Chemistry, and Horticulture who are first-contact French learners are advised to do what?",
+  options: [
+    "Learn to think out of the box in order to produce something",
+    "Focus strictly on translation dictionaries",
+    "Disregard speaking and focus only on writing",
+    "Avoid communication with other departments"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Which department's students, such as those in Agriculture or Biology, are encouraged to think out of the box to produce something?",
+  options: [
+    "Natural Science Department, Agriculture, Biology, Botany, Chemistry, Horticulture etc.",
+    "Faculty of Arts and Humanities",
+    "Department of Political Science",
+    "Faculty of Law"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "According to Point 4, what can one become with a satisfactory awareness of the French Language?",
+  options: [
+    "A silent observer",
+    "A problem solver",
+    "An expert translator",
+    "A language teacher"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What level of awareness of the French Language is required to become a problem solver?",
+  options: [
+    "Satisfactory awareness",
+    "Native fluency",
+    "Absolute perfection",
+    "Zero awareness"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What habit do first-contact-with-French learners need to imbibe?",
+  options: [
+    "Translating everything immediately",
+    "Listening carefully to the sounds of French words and expression",
+    "Ignoring correct pronunciation",
+    "Reading silently without listening"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "To understand French expressions well, first-contact learners must listen carefully to the _______ of the words.",
+  options: [
+    "sounds",
+    "length",
+    "origins",
+    "spelling"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Why must a French learner pay rapt attention when listening to spoken words according to Point 6?",
+  options: [
+    "French words are always pronounced exactly as written",
+    "French words are never pronounced the way they are written",
+    "French has no written alphabet",
+    "French grammar is identical to English"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Complete the sentence: 'French words are _______ pronounced the way they are written, thus you need to pay rapt attention.'",
+  options: [
+    "frequently",
+    "always",
+    "never",
+    "sometimes"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Which of the following is a direct advantage of careful listening skills in a French lecture?",
+  options: [
+    "Clear perception/hearing of every word pronounced by the teacher",
+    "Instant reading fluency",
+    "Avoiding classroom activities",
+    "Learning to write complex essays automatically"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Careful listening fosters a growing interest in the lecture, which leads to _______.",
+  options: [
+    "keen participation",
+    "avoiding classes",
+    "boredom",
+    "silent frustration"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "How is 'Reading' defined in Chapter 10 of these notes?",
+  options: [
+    "The oral realization of sounds of words in a sequence so as to make meaning",
+    "The silent translation of French texts into local dialects",
+    "Writing down spoken dictation",
+    "Answering questions from a passage"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Reading requires the oral realization of word sounds in a _______ to make meaning.",
+  options: [
+    "sequence",
+    "random pattern",
+    "dictionary list",
+    "reverse order"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What is the major characteristic of the speaking skill according to Point 9?",
+  options: [
+    "Hesitation",
+    "Accuracy",
+    "Spontaneity",
+    "Patience"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What serves as a catalyst for the learner of French to start saying something?",
+  options: [
+    "Spontaneity",
+    "Reading speed",
+    "Strict grammar lessons",
+    "Translation charts"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Where do students who are able to satisfactorily communicate in French have a greater edge over others?",
+  options: [
+    "In the job market of today",
+    "In sports competitions",
+    "In creative writing only",
+    "In local agriculture"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Who has a greater edge over others in today's job market according to Point 10?",
+  options: [
+    "Students who avoid learning foreign languages",
+    "Students who are able to satisfactorily communicate in French",
+    "Students with zero communication skills",
+    "Students who only learn local dialects"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What is the English meaning of the French saying 'Qui ne dit rien n' ecrit rien'?",
+  options: [
+    "Who does not say anything has nothing to write",
+    "Silence is golden",
+    "To write well is to speak well",
+    "Nothing is written without thought"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Which French phrase translates to 'who does not say anything has nothing to write'?",
+  options: [
+    "Qui ne dit rien n' ecrit rien",
+    "Eguono aime parler",
+    "Ou est Abuja?",
+    "Bonjour Monsieur"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What does the expression 'Bonjour, Bonsoir Monsieur/Madame Edet' mean in English?",
+  options: [
+    "Good morning/good evening Mr./Mrs. Edet",
+    "Good afternoon Mr. Edet",
+    "Welcome to our country Mr. Edet",
+    "Goodbye Mr./Mrs. Edet"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Which French greeting terms are used for 'Good morning/good evening' in Point 12?",
+  options: [
+    "Bonjour, Bonsoir",
+    "Joyeux Noel",
+    "Bonnes Paques",
+    "Qui ne dit rien"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Which of the following wishes means 'Happy Easter' in French?",
+  options: [
+    "Bonnes Paques",
+    "Joyeux Noel",
+    "Bonjour",
+    "Bonsoir"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What does the French phrase 'Joyeux Noel' mean in English?",
+  options: [
+    "Merry Christmas",
+    "Happy Easter",
+    "Happy New Year",
+    "Good morning"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What is the English meaning of the French expression 'Eguono aime parler'?",
+  options: [
+    "Eguono wants to speak",
+    "Eguono is writing",
+    "Eguono wants to listen",
+    "Eguono is studying"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Which of the following expressions represents a 'need' as documented in Chapter 10?",
+  options: [
+    "Eguono aime parler",
+    "Joyeux Noel",
+    "Ou est Abuja?",
+    "Bonjour Monsieur"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What does the directional question 'Ou est Abuja?' mean in English?",
+  options: [
+    "Where is Abuja?",
+    "Who is Abuja?",
+    "Why Abuja?",
+    "Is Abuja a state?"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "What is the English translation for 'Abuja est au nord du Nigeria'?",
+  options: [
+    "Abuja is in the North of Nigeria",
+    "Abuja is the capital of Nigeria",
+    "Abuja is in the South of Nigeria",
+    "Abuja is near Lagos"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 10,
+  question: "Under which category is the phrase 'Ou est Abuja?' classified in the notes?",
+  options: [
+    "Direction",
+    "Wishes",
+    "Greetings",
+    "Needs"
+  ],
+  answer: 0
 }
   ]
   
