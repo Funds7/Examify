@@ -287,23 +287,3 @@ html{
 .small-btn:hover{
     transform:translateY(-3px) scale(1.01);
 }
-@media(max-width:600px){
-
-    .chapter-header h1{
-        font-size:32px;
-    }
-
-    .point-title{
-        font-size:22px;
-    }
-
-    .point-body{
-        font-size:20px;
-        line-height:1.8;
-    }
-
-    .small-btn{
-        width:100%;
-    }
-
-}
