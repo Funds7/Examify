@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>GST 102 Chapters</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GST 102 Chapters</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2 style="text-align:center;">
-📚 GST 102 - Philosophy and Human Existence
-</h2>
+<div class="container">
 
-<div id="chapterList"></div>
+    <div class="chapter-header">
+        <h1>GST 102</h1>
+        <span>Philosophy and Human Existence</span>
+        <p>📚 Choose a chapter to begin learning.</p>
+    </div>
+
+    <div id="chapterList"></div>
+
+</div>
 
 <script src="gst102.js"></script>
 
@@ -19,45 +30,69 @@
 
 let html = "";
 
-// render chapter list
 gst102Chapters.forEach(chapter => {
 
-  html += `
-    <div class="course-card">
+html += `
 
-      <h3>Chapter ${chapter.id}</h3>
+<div class="course-card">
 
-      <p>${chapter.title}</p>
+    <div class="point-title">
+        Chapter ${chapter.id}
+    </div>
 
-      <button onclick="openChapter(${chapter.id})">
-        📚 Learn
-      </button>
+    <div class="point-body">
+        ${chapter.title}
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="openChapter(${chapter.id})">
+        📖 Learn
+        </button>
 
     </div>
-  `;
+
+</div>
+
+`;
+
 });
 
-// CBT test card
 html += `
-  <div class="course-card">
-    <h3>🏆 GST 102 Course Test</h3>
-    <a href="exam.html?course=gst102">
-      Start CBT Exam
-    </a>
-  </div>
+
+<div class="course-card">
+
+    <div class="point-title">
+        🏆 GST 102 Course Test
+    </div>
+
+    <div class="point-body">
+        Test everything you've learned in GST 102.
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="location.href='exam.html?course=gst102'">
+        📝 Start CBT Exam
+        </button>
+
+    </div>
+
+</div>
+
 `;
 
 document.getElementById("chapterList").innerHTML = html;
 
-// ✅ FIXED FUNCTION (IMPORTANT)
 function openChapter(id){
 
-  // IMPORTANT: match learn page keys exactly
-  localStorage.setItem("course", "gst102");
-  localStorage.setItem("chapter", id);
+    localStorage.setItem("course","gst102");
+    localStorage.setItem("chapter",id);
 
-  // go to learn page (NO ID PARAMS)
-  window.location.href = "learn.html";
+    window.location.href="learn.html";
+
 }
 
 </script>
