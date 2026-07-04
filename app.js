@@ -231,6 +231,47 @@ document.addEventListener("visibilitychange", () => {
     alert("Warning: You left the exam tab.");
   }
 });
+function updateGreeting(){
+
+const hour = new Date().getHours();
+
+let greeting="";
+
+if(hour<12){
+
+greeting="🌅 Good Morning";
+
+}
+
+else if(hour<17){
+
+greeting="☀️ Good Afternoon";
+
+}
+
+else if(hour<21){
+
+greeting="🌇 Good Evening";
+
+}
+
+else{
+
+greeting="🌙 Good Night";
+
+}
+
+const element=document.getElementById("greeting");
+
+if(element){
+
+element.innerText=greeting;
+
+}
+
+}
+
+updateGreeting();
 
 // =========================
 // START
