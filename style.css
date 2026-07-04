@@ -214,9 +214,8 @@ html{
 .course-card{
     background:#1e293b;
     border-radius:18px;
-    padding:22px;
-    margin-bottom:18px;
-    text-align:left;
+    padding:18px;
+    margin-bottom:16px;
     box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
 
@@ -242,12 +241,12 @@ html{
 
 .small-btn{
     width:100%;
-    padding:12px;
+    padding:10px 16px;
     border:none;
-    border-radius:12px;
+    border-radius:10px;
     background:#2563eb;
     color:#fff;
-    font-size:18px;
+    font-size:16px;
     font-weight:bold;
     cursor:pointer;
     transition:.3s;
@@ -297,6 +296,6 @@ html{
     }
 
     .small-btn{
-        font-size:17px;
+        font-size:16px;
     }
 }
