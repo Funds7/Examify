@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Examify CBT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FundsIQ</title>
 
   <link rel="stylesheet" href="style.css">
-  <meta name="theme-color" content="#0d6efd">
+
+  <meta name="theme-color" content="#111827">
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <h1>Examify</h1>
-    <p>Practice CBT. Improve your score. Pass your exams.</p>
-  </header>
+<div class="container">
 
-  <!-- SELECT COURSE BUTTON -->
-  <div style="text-align:center; margin:30px;">
-    <a href="courses.html" class="btn">
-      📚 Select Course
-    </a>
-  </div>
+    <!-- Welcome Card -->
+    <div class="welcome-card">
 
-  <!-- START EXAM BUTTON -->
-  <div style="text-align:center; margin:30px;">
-    <a href="exam.html" class="btn">
-      🚀 Start Practice Exam
-    </a>
-  </div>
+        <h2 id="greeting"></h2>
+
+        <p id="greeting-message"></p>
+
+    </div>
+
+    <!-- Logo -->
+
+    <h1 class="logo">
+        🎓 FundsIQ
+    </h1>
+
+    <p class="subtitle">
+        Study Smart. Score Higher.
+    </p>
+
+    <!-- Main Buttons -->
+
+    <div class="button-group">
+
+        <a href="courses.html" class="main-btn">
+            📚 Browse Courses
+        </a>
+
+        <a href="exam.html" class="main-btn">
+            📝 Start CBT Practice
+        </a>
+
+    </div>
+
+    <!-- Quick Stats -->
+
+    <div class="stats">
+
+        <div class="card">
+            <h3>7</h3>
+            <span>GST Courses</span>
+        </div>
+
+        <div class="card">
+            <h3>3000+</h3>
+            <span>Questions</span>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
