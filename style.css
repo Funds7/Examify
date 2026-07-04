@@ -14,9 +14,16 @@ body{
     color:#ffffff;
     padding:20px;
 }
+button{
+    font-family:inherit;
+}
 
+html{
+    scroll-behavior:smooth;
+}
 .container{
-    max-width:900px;
+    width:95%;
+    max-width:1000px;
     margin:auto;
 }
 
@@ -172,5 +179,131 @@ body{
 .study-card p{
     font-size:18px;
 }
+
+}
+/* =======================
+   LEARN PAGE
+======================= */
+
+.chapter-header{
+    background:#1e293b;
+    padding:20px;
+    border-radius:18px;
+    margin-bottom:25px;
+}
+.chapter-header span{
+    display:block;
+    margin-top:10px;
+    color:#60a5fa;
+    font-size:24px;
+    font-weight:bold;
+}
+.chapter-header h1{
+    font-size:42px;
+    font-weight:700;
+}
+
+.chapter-header p{
+    color:#94a3b8;
+    margin-top:8px;
+    font-size:18px;
+}
+
+.course-card{
+
+    background:#1e293b;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    margin-bottom:22px;
+
+    text-align:left;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+.point-title{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#60a5fa;
+
+    margin-bottom:15px;
+
+}
+
+.point-body{
+
+    font-size:22px;
+
+    line-height:2;
+
+    color:#f8fafc;
+
+}
+
+.card-buttons{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.small-btn{
+    flex:1 1 140px;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.small-btn:hover{
+
+    background:#1d4ed8;
+
+}
+.main-btn,
+.small-btn,
+.card,
+.course-card,
+.welcome-card{
+    transition:all 0.3s ease;
+}
+
+.card:hover,
+.course-card:hover,
+.welcome-card:hover,
+.main-btn:hover,
+.small-btn:hover{
+    transform:translateY(-3px) scale(1.01);
+}
+@media(max-width:600px){
+
+    .chapter-header h1{
+        font-size:32px;
+    }
+
+    .point-title{
+        font-size:22px;
+    }
+
+    .point-body{
+        font-size:20px;
+        line-height:1.8;
+    }
+
+    .small-btn{
+        width:100%;
+    }
 
 }
