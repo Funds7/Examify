@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GST 101 Chapters</title>
-  <link rel="stylesheet" href="style.css">
+    <title>GST 101 Chapters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2 style="text-align:center;">
-📚 GST 101 - Use of English & Library
-</h2>
+<div class="container">
 
-<div id="chapterList"></div>
+    <div class="chapter-header">
+        <h1>GST 101</h1>
+        <span>Use of English & Library</span>
+        <p>📚 Choose a chapter to begin learning.</p>
+    </div>
+
+    <div id="chapterList"></div>
+
+</div>
 
 <script src="gst101.js"></script>
 
@@ -21,42 +28,66 @@ let html = "";
 
 gst101Chapters.forEach(chapter => {
 
-  html += `
-    <div class="course-card">
+html += `
 
-      <h3>Chapter ${chapter.id}</h3>
+<div class="course-card">
 
-      <p>${chapter.title}</p>
+    <div class="point-title">
+        Chapter ${chapter.id}
+    </div>
 
-      <button onclick="openChapter(${chapter.id})">
-        📚 Learn
-      </button>
+    <div class="point-body">
+        ${chapter.title}
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="openChapter(${chapter.id})">
+        📖 Learn
+        </button>
 
     </div>
-  `;
+
+</div>
+
+`;
 
 });
 
 html += `
-  <div class="course-card">
 
-    <h3>🏆 GST 101 Course Test</h3>
+<div class="course-card">
 
-    <a href="exam.html?course=gst101">
-      Start CBT Exam
-    </a>
+    <div class="point-title">
+        🏆 GST 101 Course Test
+    </div>
 
-  </div>
+    <div class="point-body">
+        Test everything you've learned in GST 101.
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="location.href='exam.html?course=gst101'">
+        📝 Start CBT Exam
+        </button>
+
+    </div>
+
+</div>
+
 `;
 
 document.getElementById("chapterList").innerHTML = html;
 
 function openChapter(id){
 
-  localStorage.setItem("course", "gst101");
-  localStorage.setItem("chapter", id);
+localStorage.setItem("course","gst101");
+localStorage.setItem("chapter",id);
 
-  window.location.href = "learn.html";
+window.location.href="learn.html";
 
 }
 
