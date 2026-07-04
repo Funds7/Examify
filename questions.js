@@ -48017,5 +48017,534 @@ const QUESTIONS = [
     "Saluer"
   ],
   answer: 0
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "What is the French translation for 'A family is one social unit which comprises of a father, mother, and Children living together under the same roof'?",
+  options: [
+    "La famille est l'ensemble des personnes apparentees vivant sous le meme toit",
+    "En Afrique en general, la famille se compose du pere, de la mere, des enfants",
+    "Une famille se compose du pere, de la mere et des enfant, en particuliez chez les occidentaux",
+    "Neanmoins, il y a des familles consistant seulement d'un parent et ses enfant"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "In the French definition of family, what is the meaning of the phrase 'vivant sous le meme toit'?",
+  options: [
+    "working in the same office",
+    "living together under the same roof",
+    "sharing the same ancestral land",
+    "eating from the same plate"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "How is 'This type of social unit is common particularly in the Western world' translated in French according to the notes?",
+  options: [
+    "La famille est l'ensemble des personnes apparentees",
+    "Une famille se compose du pere, de la mere et des enfant, en particuliez chez les occidentaux",
+    "En Afrique en general, la famille se compose du pere, de la mere",
+    "Neanmoins, il y a des familles consistant seulement d'un parent"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "Which term in the French translation of Point 2 refers specifically to 'the Western world' or 'Westerners'?",
+  options: [
+    "les occidentaux",
+    "la famille etendue",
+    "les enfants",
+    "les personnes apparentees"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "What is the French translation for 'In Africa, in general, a family is made up of the father, the mother, the children, and the entire extended family members'?",
+  options: [
+    "La famille est l'ensemble des personnes apparentees",
+    "Une famille se compose du pere, de la mere et des enfant",
+    "En Afrique en general, la famille se compose du pere, de la mere, des enfants et de la famille etendue",
+    "Neanmoins, il y a des familles consistant seulement d'un parent"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "What does the French term 'la famille etendue' translate to in English?",
+  options: [
+    "the extended family",
+    "the nuclear family",
+    "the western family",
+    "the single-parent family"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "According to the notes, what is the French equivalent provided for 'Consequently, in the African context, a family is large'?",
+  options: [
+    "Neanmoins, il y a des familles consistant seulement d'un parent et ses enfant",
+    "La famille est l'ensemble des personnes apparentees",
+    "En Afrique en general, la famille se compose du pere",
+    "Bonne chance"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "The French phrase 'consistant seulement d'un parent et ses enfant' describes a family consisting of how many parents?",
+  options: [
+    "Two parents",
+    "Only one parent",
+    "Grandparents only",
+    "Uncles and aunts"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "What is the English meaning of the French pleasantry 'Bonne chance'?",
+  options: [
+    "Safe journey",
+    "Have a nice meal",
+    "Good luck",
+    "Happy birthday"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "What is the English meaning of the French expression 'Bon voyage'?",
+  options: [
+    "Safe journey",
+    "Good luck",
+    "Have a nice meal",
+    "Goodbye"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "Which of the following French pleasantries means 'have a nice meal'?",
+  options: [
+    "Bonne chance",
+    "bonne appetit",
+    "Bon voyage",
+    "Bonjour"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "According to the phonology notes in Point 6, how is the letter 's' pronounced when it occurs between two vowels?",
+  options: [
+    "Like /s/",
+    "Like /z/",
+    "Like /f/",
+    "It is completely silent"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 3,
+  question: "In the example 'les enfants' (pronounced as 'lezanfants'), why is the 's' pronounced like a /z/ sound?",
+  options: [
+    "Because it occurs between two consonants",
+    "Because it occurs between two vowels",
+    "Because it is at the very end of a sentence",
+    "Because it follows a punctuation mark"
+  ],
+  answer: 1
+  },
+  {
+  course: "gst114",
+  chapter: 4,
+  question: "According to the notes, which of the following is listed as a French direction-indicating word meaning 'to/at'?",
+  options: [
+    "A",
+    "dans",
+    "de",
+    "sans"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What does the French directional word 'devant' mean?",
+  options: [
+    "in front of",
+    "behind",
+    "with",
+    "without"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "Match the French directional words 'dans', 'de', and 'sans' to their respective meanings:",
+  options: [
+    "in, from/of, without",
+    "to, with, in front of",
+    "from/of, in, with",
+    "without, in front of, at"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "According to Chapter 4, what is the best way to assign a meaning to a word in French?",
+  options: [
+    "By searching for its historical origin",
+    "By defining it within the context of a given sentence taking into cognizance its relationship with other words",
+    "By translating it literally word-for-word under all circumstances",
+    "By ignoring the words surrounding it entirely"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "When assigning meaning to a French word in a sentence, what critical factor must the learner take into cognizance?",
+  options: [
+    "Its relationship with other words",
+    "The page number of the book",
+    "Its grammatical gender only",
+    "The length of the vowels"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "How is the verb 'aller' characterized in the direction notes?",
+  options: [
+    "It is a regular verb",
+    "It is an irregular verb",
+    "It is a modal auxiliary verb",
+    "It is a passive verb"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What is the English meaning of the French conjugation 'Je vais'?",
+  options: [
+    "You go",
+    "I go",
+    "He goes",
+    "We go"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "According to the conjugations listed in Point 3, which French expression translates to 'we go'?",
+  options: [
+    "Nous allon",
+    "Je vais",
+    "Tu vas",
+    "Il va"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What does 'Ou' simply mean in French according to the notes?",
+  options: [
+    "where",
+    "when",
+    "who",
+    "why"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "Which of the following French terms means 'where'?",
+  options: [
+    "Ou",
+    "Aller",
+    "Je vais",
+    "A gauche"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What is the English translation of the expression 'Ou vais je?'?",
+  options: [
+    "Where are you going?",
+    "Where am I going?",
+    "Where is he going?",
+    "Where are we going?"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "Which of the following is the French translation for 'where am I going'?",
+  options: [
+    "Ou vas-tu?",
+    "Ou vais je?",
+    "A gauche?",
+    "A la bibliotheque"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What is the English translation of the French question 'Ou vas-tu'?",
+  options: [
+    "Where am I going?",
+    "Where are you going?",
+    "Where is he going?",
+    "Where is the library?"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "Which expression would you use in French to ask someone 'Where are you going'?",
+  options: [
+    "Ou vais je?",
+    "Ou vas-tu",
+    "A la bibliotheque",
+    "La rue suivante"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What is the English translation of the French phrase 'A gauche'?",
+  options: [
+    "-to your right",
+    "-to your left",
+    "the next street",
+    "to the library"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What does the French phrase 'A droit' mean?",
+  options: [
+    "-to your right",
+    "-to your left",
+    "the next street",
+    "to the library"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "Which of the following French phrases translates to 'the next street'?",
+  options: [
+    "La rue suivante",
+    "A la bibliotheque",
+    "A gauche",
+    "A droit"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 4,
+  question: "What is the translation of 'A la bibliotheque'?",
+  options: [
+    "to the school",
+    "to the library",
+    "to the left",
+    "the next street"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "What is the French translation for 'Africa' as listed in Point 1?",
+  options: [
+    "l'Afrique",
+    "l'Asie",
+    "l'Amerique",
+    "La Tunisie"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "What does the French term 'l'Afrique du Nord' mean?",
+  options: [
+    "North Africa",
+    "South Africa",
+    "West Africa",
+    "Tunisia"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "Which of the following translations is correct based on the Chapter 5 notes?",
+  options: [
+    "Le Mauritanie means 'Mauritania'",
+    "La Tunisie means 'Asia'",
+    "l'Asie means 'Africa'",
+    "l'Amerique means 'North Africa'"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "How is 'He is an African' translated into French according to the text?",
+  options: [
+    "elle est africaine",
+    "il est africain",
+    "il est algerien",
+    "elle est algerienne"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "Translate the French sentence 'il est africain' into English:",
+  options: [
+    "She is an African",
+    "He is an African",
+    "They are Africans",
+    "He is Algerian"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "What is the French translation for 'She is an African'?",
+  options: [
+    "il est africain",
+    "elle est africaine",
+    "elle est algerienne",
+    "il est algerien"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "In French, the feminine sentence used to say 'She is an African' is written as:",
+  options: [
+    "il est africaine",
+    "elle est africain",
+    "elle est africaine",
+    "il est africain"
+  ],
+  answer: 2
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "Which French adjectives correspond to the English adjective 'Algerian'?",
+  options: [
+    "Algerien/algerienne",
+    "Sierra-leonnais/sierra-leonaise",
+    "Thailandais/Thailandaise",
+    "africain/africaine"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "In the French national adjectives 'Algerien/algerienne', what does 'algerienne' represent?",
+  options: [
+    "The masculine form",
+    "The feminine form",
+    "The plural form",
+    "The country name"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "What is the English translation for the French national adjectives 'Sierra-leonnais/sierra-leonaise'?",
+  options: [
+    "Sierra-leonian",
+    "Algerian",
+    "Thailandese",
+    "Tunisian"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "Which of the following is the French masculine/feminine adjective pair for 'Sierra-leonian'?",
+  options: [
+    "Algerien/algerienne",
+    "Sierra-leonnais/sierra-leonaise",
+    "Thailandais/Thailandaise",
+    "africain/africaine"
+  ],
+  answer: 1
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "What is the English translation for the French adjective pair 'Thailandais/Thailandaise'?",
+  options: [
+    "Thailandese",
+    "Algerian",
+    "Sierra-leonian",
+    "Mauritanian"
+  ],
+  answer: 0
+},
+{
+  course: "gst114",
+  chapter: 5,
+  question: "Which of the following is the correct French adjective pair for 'Thailandese' as listed in Point 6?",
+  options: [
+    "Thailandais/Thailandaise",
+    "Algerien/algerienne",
+    "Sierra-leonnais/sierra-leonaise",
+    "africain/africaine"
+  ],
+  answer: 0
 }
   ]
+  
