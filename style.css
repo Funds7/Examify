@@ -276,3 +276,45 @@ html{
         padding:8px 4px;
     }
 }
+/* ===========================
+   COURSE TEST CARD
+=========================== */
+
+.test-card{
+    background:linear-gradient(135deg,#f59e0b,#d97706);
+    border-radius:20px;
+    padding:22px;
+    margin-top:25px;
+    color:#fff;
+    box-shadow:0 10px 25px rgba(245,158,11,.35);
+}
+
+.test-card h2{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.test-card p{
+    color:#fff8e1;
+    font-size:17px;
+    line-height:1.6;
+    margin-bottom:18px;
+}
+
+.test-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:#fff;
+    color:#d97706;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.test-btn:hover{
+    transform:scale(1.02);
+    background:#f8fafc;
+}
