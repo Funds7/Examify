@@ -1,58 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GST 113 Chapters</title>
-  <link rel="stylesheet" href="style.css">
+    <title>GST 113 Chapters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2 style="text-align:center;">
-📚 GST 113 - Peace Studies and Conflict Resolution
-</h2>
+<div class="container">
 
-<div id="chapterList"></div>
+    <div class="chapter-header">
+        <h1>GST 113</h1>
+        <span>Peace Studies and Conflict Resolution</span>
+        <p>📚 Choose a chapter to begin learning.</p>
+    </div>
+
+    <div id="chapterList"></div>
+
+</div>
 
 <script src="gst113.js"></script>
 
 <script>
+
 let html = "";
 
 gst113Chapters.forEach(chapter => {
 
-  html += `
-    <div class="course-card">
+html += `
 
-      <h3>Chapter ${chapter.id}</h3>
+<div class="course-card">
 
-      <p>${chapter.title}</p>
+    <div class="point-title">
+        Chapter ${chapter.id}
+    </div>
 
-      <button onclick="openChapter(${chapter.id})">
-        📚 Learn
-      </button>
+    <div class="point-body">
+        ${chapter.title}
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="openChapter(${chapter.id})">
+        📖 Learn
+        </button>
 
     </div>
-  `;
+
+</div>
+
+`;
+
 });
 
 html += `
-  <div class="course-card">
-    <h3>🏆 GST 113 Course Test</h3>
-    <a href="exam.html?course=gst113">
-      Start CBT Exam
-    </a>
-  </div>
+
+<div class="course-card">
+
+    <div class="point-title">
+        🏆 GST 113 Course Test
+    </div>
+
+    <div class="point-body">
+        Test everything you've learned in GST 113.
+    </div>
+
+    <div class="card-buttons">
+
+        <button class="small-btn"
+        onclick="location.href='exam.html?course=gst113'">
+        📝 Start CBT Exam
+        </button>
+
+    </div>
+
+</div>
+
 `;
 
 document.getElementById("chapterList").innerHTML = html;
 
-function openChapter(id) {
+function openChapter(id){
 
-  localStorage.setItem("course", "gst113");
-  localStorage.setItem("chapter", id);
+    localStorage.setItem("course","gst113");
+    localStorage.setItem("chapter",id);
 
-  window.location.href = "learn.html";
+    window.location.href="learn.html";
+
 }
+
 </script>
 
 </body>
