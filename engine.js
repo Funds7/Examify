@@ -16,10 +16,15 @@ if (chapter) {
     );
 }
 
+// Shuffle questions
 questions = questions.sort(() => Math.random() - 0.5);
 
-let index = 0;
-let score = 0;
+// ==========================
+// VARIABLES
+// ==========================
+
+let currentQuestion = 0;
+let answers = [];
 let review = [];
 
 // No questions found
@@ -28,18 +33,18 @@ if (questions.length === 0) {
         "<h3>No questions found for this course.</h3>";
 }
 
-/* =========================
-   LOAD QUESTION
-========================= */
+// ==========================
+// LOAD QUESTION
+// ==========================
 
 function loadQuestion() {
 
     if (questions.length === 0) return;
 
-    let q = questions[index];
+    let q = questions[currentQuestion];
 
     document.getElementById("question-number").innerText =
-        `Question ${index + 1}`;
+        `Question ${currentQuestion + 1}`;
 
     document.getElementById("question-box").innerText =
         q.question;
@@ -48,80 +53,87 @@ function loadQuestion() {
 
     const letters = ["A", "B", "C", "D"];
 
-q.options.forEach((option, i) => {
+    q.options.forEach((option, i) => {
 
-    html += `
-        <button class="btn option-btn" onclick="answer(${i})">
-            <strong>${letters[i]}.</strong> ${option}
-        </button><br><br>
-    `;
+        let selected =
+            answers[currentQuestion] === i
+                ? "style='background:#2563eb;color:#fff;'"
+                : "";
 
-});
+        html += `
+            <button class="btn option-btn"
+                ${selected}
+                onclick="answer(${i})">
+
+                <strong>${letters[i]}.</strong> ${option}
+
+            </button><br><br>
+        `;
+
+    });
 
     document.getElementById("options").innerHTML = html;
 
     document.getElementById("progress").innerText =
-        `Question ${index + 1} / ${questions.length}`;
+        `Question ${currentQuestion + 1} / ${questions.length}`;
 
     updateProgressBar();
 }
 
-/* =========================
-   ANSWER
-========================= */
+// ==========================
+// ANSWER
+// ==========================
 
 function answer(choice) {
 
-    if (choice === questions[index].answer) {
-        score++;
-    }
+    answers[currentQuestion] = choice;
 
-    nextQuestion();
+    loadQuestion();
 
 }
 
-/* =========================
-   NEXT
-========================= */
+// ==========================
+// NEXT
+// ==========================
 
 function nextQuestion() {
 
-    if (index < questions.length - 1) {
+    if (currentQuestion < questions.length - 1) {
 
-        index++;
+        currentQuestion++;
+
         loadQuestion();
-
-    } else {
-
-        finishExam();
 
     }
 
 }
 
-/* =========================
-   PREVIOUS
-========================= */
+// ==========================
+// PREVIOUS
+// ==========================
 
 function prevQuestion() {
 
-    if (index > 0) {
+    if (currentQuestion > 0) {
 
-        index--;
+        currentQuestion--;
+
         loadQuestion();
 
     }
 
 }
 
-/* =========================
-   REVIEW
-========================= */
+// ==========================
+// MARK FOR REVIEW
+// ==========================
 
 function markForReview() {
 
-    if (!review.includes(index)) {
-        review.push(index);
+    if (!review.includes(currentQuestion)) {
+
+        review.push(currentQuestion);
+
     }
 
     document.getElementById("review-status").innerText =
@@ -129,24 +141,37 @@ function markForReview() {
 
 }
 
-/* =========================
-   PROGRESS BAR
-========================= */
+// ==========================
+// PROGRESS BAR
+// ==========================
 
 function updateProgressBar() {
 
-    let percent = ((index + 1) / questions.length) * 100;
+    let percent =
+        ((currentQuestion + 1) / questions.length) * 100;
 
     document.getElementById("progress-fill").style.width =
         percent + "%";
 
 }
 
-/* =========================
-   FINISH
-========================= */
+// ==========================
+// FINISH EXAM
+// ==========================
 
 function finishExam() {
+
+    let score = 0;
+
+    questions.forEach((q, i) => {
+
+        if (answers[i] === q.answer) {
+
+            score++;
+
+        }
+
+    });
 
     localStorage.setItem("score", score);
     localStorage.setItem("total", questions.length);
@@ -156,9 +181,9 @@ function finishExam() {
 
 }
 
-/* =========================
-   TIMER
-========================= */
+// ==========================
+// TIMER
+// ==========================
 
 let time = 10 * 60;
 
@@ -167,7 +192,9 @@ let timer = setInterval(() => {
     if (time <= 0) {
 
         clearInterval(timer);
+
         finishExam();
+
         return;
 
     }
@@ -182,8 +209,8 @@ let timer = setInterval(() => {
 
 }, 1000);
 
-/* =========================
-   START
-========================= */
+// ==========================
+// START
+// ==========================
 
 loadQuestion();
