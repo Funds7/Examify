@@ -311,7 +311,7 @@ html{
     font-size:17px;
     font-weight:bold;
     cursor:pointer;
-    transition:.3s;
+    transition:all .3s ease;
 }
 
 .test-btn:hover{
