@@ -281,21 +281,22 @@ html{
 =========================== */
 
 .test-card{
-    background:linear-gradient(135deg,#f59e0b,#d97706);
+    background:#1e293b;
+    border:2px solid #fbbf24;
     border-radius:20px;
     padding:22px;
     margin-top:25px;
-    color:#fff;
-    box-shadow:0 10px 25px rgba(245,158,11,.35);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
 
 .test-card h2{
+    color:#fbbf24;
     font-size:28px;
     margin-bottom:10px;
 }
 
 .test-card p{
-    color:#fff8e1;
+    color:#e2e8f0;
     font-size:17px;
     line-height:1.6;
     margin-bottom:18px;
@@ -306,15 +307,16 @@ html{
     padding:14px;
     border:none;
     border-radius:12px;
-    background:#fff;
-    color:#d97706;
+    background:linear-gradient(135deg,#fbbf24,#d97706);
+    color:#ffffff;
     font-size:17px;
     font-weight:bold;
     cursor:pointer;
     transition:all .3s ease;
+    box-shadow:0 5px 15px rgba(251,191,36,.35);
 }
 
 .test-btn:hover{
-    transform:scale(1.02);
-    background:#f8fafc;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(251,191,36,.45);
 }
