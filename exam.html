@@ -11,72 +11,130 @@
 
 <body>
 
-  <!-- STATUS BAR -->
-  <section class="status-bar">
+<!-- ===========================
+EXAM SETUP
+=========================== -->
 
-    <div class="status-item">
-      <span id="progress">Question 0 / 0</span>
-    </div>
+<div id="setup-screen" class="container">
 
-    <div class="status-item">
-      <span id="timer">⏰ 10:00</span>
-    </div>
+    <h1>📝 Final CBT Practice</h1>
 
-    <div class="status-item">
-      <span id="mode">Mode: Practice</span>
-    </div>
+    <p>Configure your exam before starting.</p>
 
-  </section>
+    <label><strong>Course</strong></label>
 
-  <!-- PROGRESS BAR -->
-  <div class="progress-container">
-    <div id="progress-fill"></div>
-  </div>
+    <select id="course-select" class="input">
+        <option value="gst101">GST101</option>
+        <option value="gst102">GST102</option>
+        <option value="gst103">GST103</option>
+        <option value="gst104">GST104</option>
+        <option value="gst105">GST105</option>
+        <option value="gst106">GST106</option>
+        <option value="gst107">GST107</option>
+    </select>
 
-  <!-- MAIN EXAM AREA -->
-  <main class="container">
+    <br><br>
 
-    <div id="question-palette" class="question-palette">
-        <!-- Question numbers will appear here -->
-    </div>
+    <label><strong>Mode</strong></label>
 
-    <h3 id="question-number">Question</h3>
+    <select id="mode-select" class="input">
+        <option value="Exam">Exam Mode</option>
+        <option value="Practice">Practice Mode</option>
+    </select>
 
-    <div id="question-box" class="question-box"></div>
+    <br><br>
 
-    <div id="options" class="options"></div>
+    <label><strong>Questions</strong></label>
 
-    <div class="nav-buttons">
+    <select id="count-select" class="input">
+        <option value="50">50 Questions</option>
+        <option value="100">100 Questions</option>
+        <option value="200">200 Questions</option>
+        <option value="ALL">All Questions</option>
+    </select>
 
-        <button onclick="prevQuestion()" class="btn secondary">
-            ⬅ Previous
-        </button>
+    <br><br>
 
-        <button onclick="markForReview()" class="btn warning">
-            ⭐ Review
-        </button>
+    <label><strong>Time</strong></label>
 
-        <button onclick="nextQuestion()" class="btn secondary">
-            Next ➡
-        </button>
+    <select id="time-select" class="input">
+        <option value="10">10 Minutes</option>
+        <option value="20">20 Minutes</option>
+        <option value="30">30 Minutes</option>
+        <option value="60">60 Minutes</option>
+    </select>
 
-    </div>
+    <br><br>
 
-    <button onclick="finishExam()" class="btn danger submit-btn">
-        📝 Submit Exam
+    <button class="btn" onclick="startExam()">
+        🚀 Start Exam
     </button>
 
-    <p id="review-status"></p>
+</div>
 
-  </main>
+<!-- ===========================
+EXAM SCREEN
+=========================== -->
 
-  <footer class="footer">
-    <p>© 2026 Examify. All rights reserved.</p>
-  </footer>
+<div id="exam-screen" style="display:none;">
 
-  <!-- SCRIPTS -->
+<section class="status-bar">
+
+<div class="status-item">
+<span id="progress">Question 0 / 0</span>
+</div>
+
+<div class="status-item">
+<span id="timer">⏰ 00:00</span>
+</div>
+
+<div class="status-item">
+<span id="mode">Mode</span>
+</div>
+
+</section>
+
+<div class="progress-container">
+<div id="progress-fill"></div>
+</div>
+
+<main class="container">
+
+<div id="question-palette"></div>
+
+<h3 id="question-number"></h3>
+
+<div id="question-box"></div>
+
+<div id="options"></div>
+
+<div class="nav-buttons">
+
+<button onclick="prevQuestion()" class="btn secondary">
+⬅ Previous
+</button>
+
+<button onclick="markForReview()" class="btn warning">
+⭐ Review
+</button>
+
+<button onclick="nextQuestion()" class="btn secondary">
+Next ➡
+</button>
+
+</div>
+
+<button onclick="finishExam()" class="btn danger submit-btn">
+📝 Submit Exam
+</button>
+
+<p id="review-status"></p>
+
+</main>
+
+</div>
+
 <script src="questions.js"></script>
 <script src="engine.js"></script>
 
 </body>
-</html>
