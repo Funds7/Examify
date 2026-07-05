@@ -2,6 +2,7 @@ let params = new URLSearchParams(window.location.search);
 
 let course = params.get("course");
 let chapter = params.get("chapter");
+let count = params.get("count");
 
 let questions;
 
@@ -17,7 +18,13 @@ if (chapter) {
 }
 
 // Shuffle questions
+// Shuffle questions
 questions = questions.sort(() => Math.random() - 0.5);
+
+// Limit questions if user selected a number
+if (count && count !== "ALL") {
+    questions = questions.slice(0, parseInt(count));
+}
 
 // ==========================
 // VARIABLES
