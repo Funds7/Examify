@@ -78,6 +78,7 @@ function loadQuestion() {
         `Question ${currentQuestion + 1} / ${questions.length}`;
 
     updateProgressBar();
+createPalette();
 }
 
 // ==========================
@@ -136,6 +137,8 @@ function markForReview() {
 
     }
 
+    createPalette();
+
     document.getElementById("review-status").innerText =
         "Marked for review: " + review.length;
 
@@ -152,9 +155,49 @@ function updateProgressBar() {
 
     document.getElementById("progress-fill").style.width =
         percent + "%";
+}
+// ==========================
+// QUESTION PALETTE
+// ==========================
+
+function createPalette() {
+
+    const palette = document.getElementById("question-palette");
+
+    if (!palette) return;
+
+    palette.innerHTML = "";
+
+    questions.forEach((q, i) => {
+
+        let btn = document.createElement("button");
+
+        btn.innerText = i + 1;
+
+        btn.className = "palette-btn";
+
+        if (answers[i] !== undefined) {
+            btn.style.background = "#22c55e";
+        }
+
+        if (review.includes(i)) {
+            btn.style.background = "#f59e0b";
+        }
+
+        if (i === currentQuestion) {
+            btn.style.border = "3px solid white";
+        }
+
+        btn.onclick = function () {
+            currentQuestion = i;
+            loadQuestion();
+        };
+
+        palette.appendChild(btn);
+
+    });
 
 }
-
 // ==========================
 // FINISH EXAM
 // ==========================
