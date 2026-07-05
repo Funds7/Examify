@@ -12,63 +12,117 @@
 <body>
 
 <!-- ===========================
-EXAM SETUP
+EXAM SETUP (MODERN CARD UI)
 =========================== -->
+<div id="setup-screen" class="setup-container">
 
-<div id="setup-screen" class="container">
+    <!-- Header Section -->
+    <header class="setup-header">
+        <button class="back-btn" onclick="history.back()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        </button>
+        <div class="header-text">
+            <h1>Set Up Your Exam</h1>
+            <p id="setup-course-title">Loading Course Info...</p>
+        </div>
+    </header>
 
-    <h1>📝 Final CBT Practice</h1>
+    <!-- Card 1: Number of Questions -->
+    <div class="setup-card">
+        <div class="card-title">
+            <span class="icon">📋</span>
+            <div class="card-label-text">
+                <h2>Number of Questions</h2>
+                <p>Choose the number of questions you want to answer.</p>
+            </div>
+        </div>
+        
+        <div class="question-grid" id="question-grid">
+            <button class="grid-btn" data-value="5">5</button>
+            <button class="grid-btn" data-value="10">10</button>
+            <button class="grid-btn" data-value="15">15</button>
+            <button class="grid-btn" data-value="20">20</button>
+            <button class="grid-btn" data-value="25">25</button>
+            <button class="grid-btn active" data-value="50">50 <span class="check-mark">✓</span></button>
+            <button class="grid-btn" data-value="75">75</button>
+            <button class="grid-btn" data-value="100">100</button>
+            <button class="grid-btn" data-value="150">150</button>
+            <button class="grid-btn" data-value="200">200</button>
+            <button class="grid-btn" data-value="250">250</button>
+            <button class="grid-btn" data-value="CUSTOM">Custom</button>
+        </div>
+    </div>
 
-    <p>Configure your exam before starting.</p>
+    <!-- Card 2: Select Mode -->
+    <div class="setup-card">
+        <div class="card-title">
+            <span class="icon">🖥️</span>
+            <div class="card-label-text">
+                <h2>Select Mode</h2>
+                <p>Choose how you want to take this test.</p>
+            </div>
+        </div>
+        
+        <div class="mode-selector">
+            <div class="mode-card active" onclick="setMode('Exam')" id="mode-exam">
+                <div class="radio-indicator"></div>
+                <div class="mode-info">
+                    <h3>Exam Mode</h3>
+                    <p>Timed • Exam Conditions</p>
+                </div>
+            </div>
+            <div class="mode-card" onclick="setMode('Quiz')" id="mode-quiz">
+                <div class="radio-indicator"></div>
+                <div class="mode-info">
+                    <h3>Quiz Mode</h3>
+                    <p>Practice • No Pressure</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <label><strong>Course</strong></label>
+    <!-- Card 3: Set Time -->
+    <div class="setup-card">
+        <div class="card-title">
+            <span class="icon">⏱️</span>
+            <div class="card-label-text">
+                <h2>Set Time</h2>
+                <p>Choose the duration for your exam.</p>
+            </div>
+        </div>
+        
+        <div class="time-selector">
+            <div class="time-select-wrapper">
+                <label>Hours</label>
+                <select id="time-hours" class="time-select-dropdown">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2" selected>2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="time-select-wrapper">
+                <label>Minutes</label>
+                <select id="time-minutes" class="time-select-dropdown">
+                    <option value="0">0</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40" selected>40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+        </div>
+    </div>
 
-    <select id="course-select" class="input">
-        <option value="gst101">GST101</option>
-        <option value="gst102">GST102</option>
-        <option value="gst103">GST103</option>
-        <option value="gst104">GST111</option>
-        <option value="gst105">GST112</option>
-        <option value="gst106">GST113</option>
-        <option value="gst107">GST114</option>
-    </select>
-
-    <br><br>
-
-    <label><strong>Mode</strong></label>
-
-    <select id="mode-select" class="input">
-        <option value="Exam">Exam Mode</option>
-        <option value="Practice">Practice Mode</option>
-    </select>
-
-    <br><br>
-
-    <label><strong>Questions</strong></label>
-
-    <select id="count-select" class="input">
-        <option value="50">50 Questions</option>
-        <option value="100">100 Questions</option>
-        <option value="200">200 Questions</option>
-        <option value="ALL">All Questions</option>
-    </select>
-
-    <br><br>
-
-    <label><strong>Time</strong></label>
-
-    <select id="time-select" class="input">
-        <option value="10">10 Minutes</option>
-        <option value="20">20 Minutes</option>
-        <option value="30">30 Minutes</option>
-        <option value="60">60 Minutes</option>
-    </select>
-
-    <br><br>
-
-    <button class="btn" onclick="startExam()">
-        🚀 Start Exam
+    <!-- Action Action Button -->
+    <button class="start-btn-green" onclick="startExam()">
+        <span>▶</span> Start Exam
     </button>
+
+    <p class="setup-disclaimer">
+        ⓘ You can review and change answers before submitting.
+    </p>
 
 </div>
 
