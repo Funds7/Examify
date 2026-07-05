@@ -1,25 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Result</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Exam Result</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>📊 Exam Result</h1>
 
-<h2 id="out"></h2>
+<div class="question-box">
+
+<h2 id="scoreText"></h2>
+
+<h3 id="percentText"></h3>
+
+</div>
+
+<br>
+
+<button class="btn secondary" onclick="viewCorrections()">
+📖 View Corrections
+</button>
+
+<br><br>
+
+<button class="btn warning" onclick="location.href='index.html'">
+🏠 Home
+</button>
+
+<button class="btn danger" onclick="history.back()">
+🔄 Retake
+</button>
+
+</div>
 
 <script>
-let score = localStorage.getItem("score");
-let total = localStorage.getItem("total");
 
-let percent = (score / total) * 100;
+let score = Number(localStorage.getItem("score"));
+let total = Number(localStorage.getItem("total"));
 
-out.innerHTML = `
-Score: ${score} / ${total} <br><br>
-Percentage: ${percent.toFixed(1)}%
-`;
+let percent = ((score/total)*100).toFixed(1);
+
+document.getElementById("scoreText").innerHTML =
+`Score: ${score} / ${total}`;
+
+document.getElementById("percentText").innerHTML =
+`Percentage: ${percent}%`;
+
+function viewCorrections(){
+
+window.location.href="corrections.html";
+
+}
+
 </script>
 
 </body>
