@@ -57,7 +57,124 @@ function loadQuestion() {
 
         let selected =
             answers[currentQuestion] === i
-                ? "    localStorage.setItem("total", questions.length);
+                ? "style='background:#2563eb;color:#fff;'"
+                : "";
+
+        html += `
+            <button class="btn option-btn"
+                ${selected}
+                onclick="answer(${i})">
+
+                <strong>${letters[i]}.</strong> ${option}
+
+            </button><br><br>
+        `;
+
+    });
+
+    document.getElementById("options").innerHTML = html;
+
+    document.getElementById("progress").innerText =
+        `Question ${currentQuestion + 1} / ${questions.length}`;
+
+    updateProgressBar();
+}
+
+// ==========================
+// ANSWER
+// ==========================
+
+function answer(choice) {
+
+    answers[currentQuestion] = choice;
+
+    loadQuestion();
+
+}
+
+// ==========================
+// NEXT
+// ==========================
+
+function nextQuestion() {
+
+    if (currentQuestion < questions.length - 1) {
+
+        currentQuestion++;
+
+        loadQuestion();
+
+    }
+
+}
+
+// ==========================
+// PREVIOUS
+// ==========================
+
+function prevQuestion() {
+
+    if (currentQuestion > 0) {
+
+        currentQuestion--;
+
+        loadQuestion();
+
+    }
+
+}
+
+// ==========================
+// MARK FOR REVIEW
+// ==========================
+
+function markForReview() {
+
+    if (!review.includes(currentQuestion)) {
+
+        review.push(currentQuestion);
+
+    }
+
+    document.getElementById("review-status").innerText =
+        "Marked for review: " + review.length;
+
+}
+
+// ==========================
+// PROGRESS BAR
+// ==========================
+
+function updateProgressBar() {
+
+    let percent =
+        ((currentQuestion + 1) / questions.length) * 100;
+
+    document.getElementById("progress-fill").style.width =
+        percent + "%";
+
+}
+
+// ==========================
+// FINISH EXAM
+// ==========================
+
+function finishExam() {
+
+    let score = 0;
+
+    questions.forEach((q, i) => {
+
+        if (answers[i] === q.answer) {
+
+            score++;
+
+        }
+
+    });
+
+    localStorage.setItem("score", score);
+    localStorage.setItem("total", questions.length);
     localStorage.setItem("course", course);
 
     window.location.href = "result.html";
@@ -82,4 +199,19 @@ let timer = setInterval(() => {
 
     }
 
-    
+    time--;
+
+    let min = Math.floor(time / 60);
+    let sec = time % 60;
+
+    document.getElementById("timer").innerText =
+        `⏰ ${min}:${sec.toString().padStart(2, "0")}`;
+
+}, 1000);
+
+// ==========================
+// START
+// ==========================
+
+loadQuestion();
+
