@@ -419,3 +419,23 @@ html{
     margin-top:40px;
     color:#94a3b8;
 }
+/* ===========================
+   QUESTION PALETTE
+=========================== */
+
+.palette-btn{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:#374151;
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.palette-btn:hover{
+    transform:scale(1.08);
+}
