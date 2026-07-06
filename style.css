@@ -10,9 +10,10 @@
 }
 
 body{
-    background:#0f172a;
+    background:#0b0f19; /* Darker dark-blue background consistent across screens */
     color:#ffffff;
     padding:20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 button{
     font-family:inherit;
@@ -412,6 +413,7 @@ html{
     color:#fff;
     font-size:18px;
     font-weight:bold;
+    cursor:pointer;
 }
 
 .footer{
@@ -439,3 +441,218 @@ html{
 .palette-btn:hover{
     transform:scale(1.08);
 }
+
+/* ==========================================
+   MODERN EXAM SETUP SCREEN CSS (DARK THEME)
+   ========================================== */
+
+.setup-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px; /* Adjusted padding to prevent inner-page double padding */
+}
+
+/* Header UI */
+.setup-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.back-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+.header-text h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 700;
+}
+.header-text p {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    margin: 3px 0 0 0;
+}
+
+/* Base setup card */
+.setup-card {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card-title {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 18px;
+}
+.card-title .icon {
+    font-size: 1.35rem;
+    padding-top: 2px;
+}
+.card-label-text h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #fff;
+}
+.card-label-text p {
+    font-size: 0.85rem;
+    color: #9ca3af;
+    margin: 4px 0 0 0;
+}
+
+/* Question Grid */
+.question-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.grid-btn {
+    background-color: #1a2234;
+    border: 1px solid #374151;
+    color: #f3f4f6;
+    padding: 14px 0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.grid-btn:hover {
+    border-color: #3b82f6;
+}
+.grid-btn.active {
+    background-color: #1d4ed8;
+    border-color: #3b82f6;
+    color: #fff;
+}
+.check-mark {
+    background: #fff;
+    color: #1d4ed8;
+    font-size: 0.65rem;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Mode Selectors */
+.mode-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.mode-card {
+    background-color: #1a2234;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    transition: all 0.2s;
+}
+.mode-card.active {
+    border-color: #3b82f6;
+    background-color: #1e1b4b; /* Subtle indigo highlight */
+}
+.radio-indicator {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #6b7280;
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+}
+.mode-card.active .radio-indicator {
+    border-color: #8b5cf6;
+}
+.mode-card.active .radio-indicator::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #8b5cf6;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mode-info h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #fff;
+}
+.mode-info p {
+    margin: 3px 0 0 0;
+    font-size: 0.8rem;
+    color: #9ca3af;
+}
+
+/* Time Dropdowns */
+.time-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.time-select-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.time-select-wrapper label {
+    font-size: 0.8rem;
+    color: #10b981; /* Green color labels */
+    font-weight: 500;
+}
+.time-select-dropdown {
+    background-color: #1a2234;
+    border: 1px solid #374151;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Start Button & Footer Disclaimer */
+.start-btn-green {
+    width: 100%;
+    background-color: #16a34a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 25px;
+    transition: background 0.2s;
+}
+.start-btn-green:hover {
+    background-color: #15803d;
+}
+.setup-disclaimer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #9ca3af;
+    margin-top: 15px;
+       }
