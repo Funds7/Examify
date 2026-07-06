@@ -341,4 +341,4 @@ function finishExam() {
     localStorage.setItem("course", selectedCourse);
 
     window.location.href = "result.html";
-    }
+}
