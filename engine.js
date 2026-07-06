@@ -94,74 +94,81 @@ function setMode(mode) {
 }
 
 // ==========================
-// START EXAM (Triggered by Start button)
+// START EXAM
 // ==========================
 function startExam() {
-    // 1. Verify global QUESTIONS database exists
-    if (typeof QUESTIONS === 'undefined') {
-        alert("Error: Core database (QUESTIONS) was not loaded from questions.js.");
+
+    // Check questions database
+    if (typeof QUESTIONS === "undefined") {
+        alert("questions.js failed to load.");
         return;
     }
 
-    // 2. Filter questions based on url course string
+    // Read URL parameters
     const params = new URLSearchParams(window.location.search);
-const chapter = params.get("chapter");
 
-if (chapter) {
-    questions = QUESTIONS.filter(q =>
-        q.course === selectedCourse &&
-        q.chapter == chapter
-    );
-} else {
-    questions = QUESTIONS.filter(q =>
-        q.course === selectedCourse
-    );
-}
+    selectedCourse = (params.get("course") || "").toLowerCase();
+    const chapter = params.get("chapter");
 
+    // Filter questions
+    if (chapter) {
+        questions = QUESTIONS.filter(q =>
+            q.course.toLowerCase() === selectedCourse &&
+            Number(q.chapter) === Number(chapter)
+        );
+    } else {
+        questions = QUESTIONS.filter(q =>
+            q.course.toLowerCase() === selectedCourse
+        );
+    }
+
+    // No questions
     if (questions.length === 0) {
-        alert(`No questions found for course key: ${selectedCourse.toUpperCase()}`);
+        alert("No questions found for " + selectedCourse.toUpperCase());
         return;
     }
 
-    // 3. Shuffle array list
-    questions = questions.sort(() => Math.random() - 0.5);
+    // Shuffle questions
+    questions.sort(() => Math.random() - 0.5);
 
-    // 4. Limit questions list length
+    // Limit number of questions
     if (selectedQuestionsCount < questions.length) {
         questions = questions.slice(0, selectedQuestionsCount);
     }
 
-    // 5. Gather input values for Duration
-    const hrVal = parseInt(document.getElementById("time-hours").value, 10) || 0;
-    const minVal = parseInt(document.getElementById("time-minutes").value, 10) || 0;
-    
-    let totalMinutes = (hrVal * 60) + minVal;
+    // Get exam duration
+    const hrs = parseInt(document.getElementById("time-hours").value) || 0;
+    const mins = parseInt(document.getElementById("time-minutes").value) || 0;
+
+    const totalMinutes = (hrs * 60) + mins;
+
     if (totalMinutes <= 0) {
-        alert("Please set a exam duration greater than 0 minutes.");
+        alert("Please select a valid exam duration.");
         return;
     }
 
-    // 6. Reset operational State parameters
+    // Reset exam state
     currentQuestion = 0;
     answers = [];
     review = [];
     timeLeft = totalMinutes * 60;
 
-    // 7. Render dynamic text in CBT Engine elements
-    document.getElementById("mode").innerText = `${selectedMode} Mode`;
+    // Update mode label
+    document.getElementById("mode").innerText = selectedMode + " Mode";
 
-    // 8. Screen Transitions
+    // Show exam screen
     document.getElementById("setup-screen").style.display = "none";
     document.getElementById("exam-screen").style.display = "block";
 
-    // 9. Run Engine
+    // Start timer
     if (selectedMode === "Exam") {
-    startTimer();
-} else {
-    document.getElementById("timer").innerText = "♾️ Unlimited";
-}
+        startTimer();
+    } else {
+        document.getElementById("timer").innerText = "♾️ Unlimited";
+    }
 
-loadQuestion();
+    // Load first question
+    loadQuestion();
 }
 
 // ==========================
