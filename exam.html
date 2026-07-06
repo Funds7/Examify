@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Examify CBT - Exam</title>
+  <title>FundsIQ - Exam</title>
 
   <link rel="stylesheet" href="style.css">
   <meta name="theme-color" content="#0d6efd">
@@ -115,7 +115,7 @@ EXAM SETUP (MODERN CARD UI)
         </div>
     </div>
 
-    <!-- Action Action Button -->
+    <!-- Start Action Button -->
     <button class="start-btn-green" onclick="startExam()">
         <span>▶</span> Start Exam
     </button>
@@ -129,62 +129,55 @@ EXAM SETUP (MODERN CARD UI)
 <!-- ===========================
 EXAM SCREEN
 =========================== -->
-
 <div id="exam-screen" style="display:none;">
 
-<section class="status-bar">
+    <section class="status-bar">
+        <div class="status-item">
+            <span id="progress">Question 0 / 0</span>
+        </div>
+        <div class="status-item">
+            <span id="timer">⏰ 00:00</span>
+        </div>
+        <div class="status-item">
+            <span id="mode">Mode</span>
+        </div>
+    </section>
 
-<div class="status-item">
-<span id="progress">Question 0 / 0</span>
-</div>
+    <div class="progress-container">
+        <div id="progress-fill"></div>
+    </div>
 
-<div class="status-item">
-<span id="timer">⏰ 00:00</span>
-</div>
+    <main class="container">
+        <!-- Added class="question-palette" to map CSS styles correctly -->
+        <div id="question-palette" class="question-palette"></div>
 
-<div class="status-item">
-<span id="mode">Mode</span>
-</div>
+        <h3 id="question-number" style="margin-bottom: 10px;"></h3>
 
-</section>
+        <!-- Added class="question-box" to map CSS styles correctly -->
+        <div id="question-box" class="question-box"></div>
 
-<div class="progress-container">
-<div id="progress-fill"></div>
-</div>
+        <!-- Added class="options" to map CSS styles correctly -->
+        <div id="options" class="options"></div>
 
-<main class="container">
+        <div class="nav-buttons">
+            <button onclick="prevQuestion()" class="option-btn" style="text-align: center; background: #374151;">
+                ⬅ Previous
+            </button>
+            <button onclick="markForReview()" class="option-btn" style="text-align: center; background: #f59e0b;">
+                ⭐ Review
+            </button>
+            <button onclick="nextQuestion()" class="option-btn" style="text-align: center; background: #374151;">
+                Next ➡
+            </button>
+        </div>
 
-<div id="question-palette"></div>
+        <button onclick="finishExam()" class="submit-btn">
+            📝 Submit Exam
+        </button>
 
-<h3 id="question-number"></h3>
+        <p id="review-status" style="text-align: center; margin-top: 15px; font-weight: bold; color: #fbbf24;"></p>
 
-<div id="question-box"></div>
-
-<div id="options"></div>
-
-<div class="nav-buttons">
-
-<button onclick="prevQuestion()" class="btn secondary">
-⬅ Previous
-</button>
-
-<button onclick="markForReview()" class="btn warning">
-⭐ Review
-</button>
-
-<button onclick="nextQuestion()" class="btn secondary">
-Next ➡
-</button>
-
-</div>
-
-<button onclick="finishExam()" class="btn danger submit-btn">
-📝 Submit Exam
-</button>
-
-<p id="review-status"></p>
-
-</main>
+    </main>
 
 </div>
 
@@ -192,3 +185,4 @@ Next ➡
 <script src="engine.js"></script>
 
 </body>
+</html>
