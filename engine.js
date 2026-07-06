@@ -104,7 +104,19 @@ function startExam() {
     }
 
     // 2. Filter questions based on url course string
-    questions = QUESTIONS.filter(q => q.course === selectedCourse);
+    const params = new URLSearchParams(window.location.search);
+const chapter = params.get("chapter");
+
+if (chapter) {
+    questions = QUESTIONS.filter(q =>
+        q.course === selectedCourse &&
+        q.chapter == chapter
+    );
+} else {
+    questions = QUESTIONS.filter(q =>
+        q.course === selectedCourse
+    );
+}
 
     if (questions.length === 0) {
         alert(`No questions found for course key: ${selectedCourse.toUpperCase()}`);
@@ -143,8 +155,13 @@ function startExam() {
     document.getElementById("exam-screen").style.display = "block";
 
     // 9. Run Engine
+    if (selectedMode === "Exam") {
     startTimer();
-    loadQuestion();
+} else {
+    document.getElementById("timer").innerText = "♾️ Unlimited";
+}
+
+loadQuestion();
 }
 
 // ==========================
@@ -318,18 +335,32 @@ function startTimer() {
 }
 
 function updateTimerDisplay() {
-    let min = Math.floor(timeLeft / 60);
+    let hrs = Math.floor(timeLeft / 3600);
+    let min = Math.floor((timeLeft % 3600) / 60);
     let sec = timeLeft % 60;
-    document.getElementById("timer").innerText = `⏰ ${min}:${sec.toString().padStart(2, "0")}`;
+
+    if (hrs > 0) {
+        document.getElementById("timer").innerText =
+            `⏰ ${hrs}:${min.toString().padStart(2,"0")}:${sec.toString().padStart(2,"0")}`;
+    } else {
+        document.getElementById("timer").innerText =
+            `⏰ ${min}:${sec.toString().padStart(2,"0")}`;
+    }
 }
 
 // ==========================
 // SUBMIT ACTIONS
 // ==========================
 function finishExam() {
+
+    if (!confirm("Are you sure you want to submit your exam?")) {
+        return;
+    }
+
     if (timerInterval) clearInterval(timerInterval);
 
     let score = 0;
+
     questions.forEach((q, i) => {
         if (answers[i] === q.answer) {
             score++;
@@ -342,3 +373,4 @@ function finishExam() {
 
     window.location.href = "result.html";
 }
+
