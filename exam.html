@@ -181,7 +181,37 @@ EXAM SCREEN
 
 </div>
 
-<script src="questions.js"></script>
+<!-- ===================================================
+DYNAMIC COURSE FILE LOADER
+=================================================== -->
+<script>
+  // 1. Check URL parameters first (e.g., exam.html?course=gst102)
+  const urlParams = new URLSearchParams(window.location.search);
+  let selectedCourse = urlParams.get('course');
+
+  // 2. Fallback to localStorage if no URL query is present
+  if (!selectedCourse) {
+    selectedCourse = localStorage.getItem('selectedCourse') || localStorage.getItem('course');
+  }
+
+  // 3. Fallback to 'questions.js' (the default GST 101 file) if nothing is found
+  let srcFile = 'questions.js';
+
+  if (selectedCourse) {
+    // Normalize string to lowercase and strip special characters/spaces (e.g., "GST 102" -> "gst102")
+    const cleanCourseName = selectedCourse.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
+    
+    // If the clean name is 'gst101', we fall back to 'questions.js'
+    // Otherwise, we load the specific course file, like 'gst102.js'
+    if (cleanCourseName !== 'gst101' && cleanCourseName !== 'questions') {
+      srcFile = `${cleanCourseName}.js`;
+    }
+  }
+
+  // 4. Inject the dynamically determined script
+  document.write(`<script src="${srcFile}"><\/script>`);
+</script>
+
 <script src="engine.js"></script>
 
 </body>
