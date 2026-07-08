@@ -186,31 +186,33 @@ EXAM SCREEN
 
 </div>
 
-<!-- Dynamic Course File Loader with Failsafe Try-Catch wrapper -->
+<!-- Dynamic Course File Loader wrapped inside a private function scope to prevent collisions -->
 <script>
-  let selectedCourse = null;
-  try {
-    const urlParams = new URLSearchParams(window.location.search);
-    selectedCourse = urlParams.get('course');
+  (function() {
+    let selectedCourse = null;
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      selectedCourse = urlParams.get('course');
 
-    if (!selectedCourse) {
-      selectedCourse = localStorage.getItem('selectedCourse') || localStorage.getItem('course');
+      if (!selectedCourse) {
+        selectedCourse = localStorage.getItem('selectedCourse') || localStorage.getItem('course');
+      }
+    } catch (storageError) {
+      console.warn("Storage or URL parameters blocked on this device:", storageError);
     }
-  } catch (storageError) {
-    console.warn("Storage or URL parameters blocked on this device:", storageError);
-  }
 
-  let srcFile = 'questions.js';
+    let srcFile = 'questions.js';
 
-  if (selectedCourse) {
-    const cleanCourseName = selectedCourse.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
-    if (cleanCourseName !== 'gst101' && cleanCourseName !== 'questions') {
-      srcFile = `${cleanCourseName}.js`;
+    if (selectedCourse) {
+      const cleanCourseName = selectedCourse.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
+      if (cleanCourseName !== 'gst101' && cleanCourseName !== 'questions') {
+        srcFile = `${cleanCourseName}.js`;
+      }
     }
-  }
 
-  // Inject script loader
-  document.write(`<script src="${srcFile}"><\/script>`);
+    // Inject script loader safely
+    document.write(`<script src="${srcFile}"><\/script>`);
+  })();
 </script>
 
 <script src="engine.js"></script>
