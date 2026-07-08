@@ -186,35 +186,8 @@ EXAM SCREEN
 
 </div>
 
-<!-- Dynamic Course File Loader wrapped inside a private function scope to prevent collisions -->
-<script>
-  (function() {
-    let selectedCourse = null;
-    try {
-      const urlParams = new URLSearchParams(window.location.search);
-      selectedCourse = urlParams.get('course');
-
-      if (!selectedCourse) {
-        selectedCourse = localStorage.getItem('selectedCourse') || localStorage.getItem('course');
-      }
-    } catch (storageError) {
-      console.warn("Storage or URL parameters blocked on this device:", storageError);
-    }
-
-    let srcFile = 'questions.js';
-
-    if (selectedCourse) {
-      const cleanCourseName = selectedCourse.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
-      if (cleanCourseName !== 'gst101' && cleanCourseName !== 'questions') {
-        srcFile = `${cleanCourseName}.js`;
-      }
-    }
-
-    // Inject script loader safely
-    document.write(`<script src="${srcFile}"><\/script>`);
-  })();
-</script>
-
+<!-- Statically load the master questions database and engine -->
+<script src="questions.js"></script>
 <script src="engine.js"></script>
 
 </body>
