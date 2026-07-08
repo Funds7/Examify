@@ -27,15 +27,25 @@ let selectedQuestionsCount = 50;
 let selectedMode = "Exam"; // Exam Mode vs Quiz Mode (Quiz = Practice)
 
 // ==========================================
+// UNIFIED COURSE RESOLUTION HELPER
+// ==========================================
+function getSelectedCourse() {
+    const params = new URLSearchParams(window.location.search);
+    // Retrieve from URL first, then fallback to localStorage, and default to 'gst101'
+    let course = params.get("course") || localStorage.getItem("selectedCourse") || "gst101";
+    // Normalize to lowercase with spaces and special characters removed (e.g. "GST 102" -> "gst102")
+    return course.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
+}
+
+// ==========================================
 // PAGE INITIALIZATION
 // ==========================================
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Parse URL Parameters
-    const params = new URLSearchParams(window.location.search);
-    selectedCourse = params.get("course") || "gst101"; // Fallback default to gst101
+    // 1. Resolve selected course consistently
+    selectedCourse = getSelectedCourse();
 
     // 2. Resolve and display Course Title dynamically
-    const courseTitle = COURSE_TITLES[selectedCourse.toLowerCase()] || selectedCourse.toUpperCase();
+    const courseTitle = COURSE_TITLES[selectedCourse] || selectedCourse.toUpperCase();
     document.getElementById("setup-course-title").innerText = courseTitle;
 
     // 3. Set up click listeners for the interactive Questions grid
@@ -98,28 +108,33 @@ function setMode(mode) {
 // ==========================
 function startExam() {
 
-    // Check questions database
+    // Ensure our dynamic loader successfully populated the QUESTIONS variable
     if (typeof QUESTIONS === "undefined") {
-        alert("questions.js failed to load.");
+        alert(`Questions file failed to load. Please make sure your "${selectedCourse}.js" file exists and is in the correct directory.`);
         return;
     }
 
-    // Read URL parameters
+    // Resolve course dynamically
+    selectedCourse = getSelectedCourse();
+    
     const params = new URLSearchParams(window.location.search);
-
-    selectedCourse = (params.get("course") || "").toLowerCase();
     const chapter = params.get("chapter");
 
-    // Filter questions
+    // Filter questions matching normalized course keys (ignores case and spaces)
     if (chapter) {
         questions = QUESTIONS.filter(q =>
-            q.course.toLowerCase() === selectedCourse &&
+            q.course.toLowerCase().replace(/[^a-z0-9]/g, '') === selectedCourse &&
             Number(q.chapter) === Number(chapter)
         );
     } else {
         questions = QUESTIONS.filter(q =>
-            q.course.toLowerCase() === selectedCourse
+            q.course.toLowerCase().replace(/[^a-z0-9]/g, '') === selectedCourse
         );
+    }
+
+    // Fallback: If strict matching returned nothing, but questions exist, try raw match
+    if (questions.length === 0 && QUESTIONS.length > 0) {
+        questions = QUESTIONS;
     }
 
     // No questions
@@ -254,6 +269,9 @@ function nextQuestion() {
     }
 }
 
+// ==========================
+// PREVIOUS
+// ==========================
 function prevQuestion() {
     if (currentQuestion > 0) {
         currentQuestion--;
@@ -379,5 +397,4 @@ function finishExam() {
     localStorage.setItem("course", selectedCourse);
 
     window.location.href = "result.html";
-}
-
+            }
