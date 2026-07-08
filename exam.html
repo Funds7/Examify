@@ -156,31 +156,37 @@ EXAM SCREEN
     </div>
 
     <main class="container">
-        <div id="question-palette" class="question-palette"></div>
 
-        <h3 id="question-number" style="margin-bottom: 10px;"></h3>
+    <h3 id="question-number" style="margin-bottom:10px;"></h3>
 
-        <div id="question-box" class="question-box"></div>
+    <div id="question-box" class="question-box"></div>
 
-        <div id="options" class="options"></div>
+    <div id="options" class="options"></div>
 
-        <div class="nav-buttons">
-            <button onclick="prevQuestion()" class="option-btn" style="text-align: center; background: #374151;">
-                ⬅ Previous
-            </button>
-            <button onclick="markForReview()" class="option-btn" style="text-align: center; background: #f59e0b;">
-                ⭐ Review
-            </button>
-            <button onclick="nextQuestion()" class="option-btn" style="text-align: center; background: #374151;">
-                Next ➡
-            </button>
-        </div>
-
-        <button onclick="finishExam()" class="submit-btn">
-            📝 Submit Exam
+    <div class="nav-buttons">
+        <button onclick="prevQuestion()" class="option-btn" style="text-align:center;background:#374151;">
+            ⬅ Previous
         </button>
 
-        <p id="review-status" style="text-align: center; margin-top: 15px; font-weight: bold; color: #fbbf24;"></p>
+        <button onclick="markForReview()" class="option-btn" style="text-align:center;background:#f59e0b;">
+            ⭐ Review
+        </button>
+
+        <button onclick="nextQuestion()" class="option-btn" style="text-align:center;background:#374151;">
+            Next ➡
+        </button>
+    </div>
+
+    <!-- Move the palette here -->
+    <div id="question-palette" class="question-palette"></div>
+
+    <button onclick="finishExam()" class="submit-btn">
+        📝 Submit Exam
+    </button>
+
+    <p id="review-status"
+       style="text-align:center;margin-top:15px;font-weight:bold;color:#fbbf24;">
+    </p>
 
     </main>
 
