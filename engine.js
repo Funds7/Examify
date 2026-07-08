@@ -319,12 +319,26 @@ function markForReview() {
 }
 
 // ==========================
+// UPDATE PROGRESS BAR
+// ==========================
+function updateProgressBar() {
+    const fill = document.getElementById("progress-fill");
+
+    if (!fill || questions.length === 0) return;
+
+    const percent = ((currentQuestion + 1) / questions.length) * 100;
+    fill.style.width = percent + "%";
+}
+
+// ==========================
 // UPDATE NEXT BUTTON
 // ==========================
 function updateNextButton() {
     const nextBtn = document.getElementById("next-btn");
 
     if (!nextBtn) return;
+
+    nextBtn.onclick = null;
 
     if (currentQuestion === questions.length - 1) {
         nextBtn.innerHTML = "📝 Submit Exam";
@@ -336,6 +350,7 @@ function updateNextButton() {
         nextBtn.style.background = "#374151";
     }
 }
+
 // ==========================
 // BUILD PALETTE
 // ==========================
@@ -346,22 +361,23 @@ function createPalette() {
     palette.innerHTML = "";
 
     questions.forEach((q, i) => {
-        let btn = document.createElement("button");
+        const btn = document.createElement("button");
+
         btn.innerText = i + 1;
         btn.className = "palette-btn";
 
         if (answers[i] !== undefined) {
-            btn.style.background = "#22c55e"; // Green answered button
+            btn.style.background = "#22c55e";
             btn.style.color = "#fff";
         }
 
         if (review.includes(i)) {
-            btn.style.background = "#f59e0b"; // Orange reviewed button
+            btn.style.background = "#f59e0b";
             btn.style.color = "#fff";
         }
 
         if (i === currentQuestion) {
-            btn.style.border = "3px solid #3b82f6"; // Light Blue highlight for Active indicator
+            btn.style.border = "3px solid #3b82f6";
         }
 
         btn.onclick = function () {
@@ -374,10 +390,10 @@ function createPalette() {
 }
 
 // ==========================
-// TIMER LOOPS
+// TIMER
 // ==========================
 function startTimer() {
-    if (timerInterval) clearInterval(timerInterval);
+    clearInterval(timerInterval);
 
     updateTimerDisplay();
 
@@ -394,45 +410,39 @@ function startTimer() {
 }
 
 function updateTimerDisplay() {
-    let hrs = Math.floor(timeLeft / 3600);
-    let min = Math.floor((timeLeft % 3600) / 60);
-    let sec = timeLeft % 60;
+    const hrs = Math.floor(timeLeft / 3600);
+    const mins = Math.floor((timeLeft % 3600) / 60);
+    const secs = timeLeft % 60;
 
     const timerEl = document.getElementById("timer");
-    if (timerEl) {
-        if (hrs > 0) {
-            timerEl.innerText =
-                `⏰ ${hrs}:${min.toString().padStart(2,"0")}:${sec.toString().padStart(2,"0")}`;
-        } else {
-            timerEl.innerText =
-                `⏰ ${min}:${sec.toString().padStart(2,"0")}`;
-        }
+    if (!timerEl) return;
+
+    if (hrs > 0) {
+        timerEl.innerText =
+            `⏰ ${hrs}:${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+    } else {
+        timerEl.innerText =
+            `⏰ ${mins}:${String(secs).padStart(2, "0")}`;
     }
 }
 
 // ==========================
-// SUBMIT ACTIONS
+// FINISH EXAM
 // ==========================
 function finishExam() {
-    if (!confirm("Are you sure you want to submit your exam?")) {
-        return;
-    }
+    if (!confirm("Are you sure you want to submit your exam?")) return;
 
-    if (timerInterval) clearInterval(timerInterval);
+    clearInterval(timerInterval);
 
     let score = 0;
 
     questions.forEach((q, i) => {
-        if (answers[i] === q.answer) {
-            score++;
-        }
+        if (answers[i] === q.answer) score++;
     });
 
     localStorage.setItem("score", score);
     localStorage.setItem("total", questions.length);
     localStorage.setItem("course", selectedCourse);
 
-    setTimeout(() => {
     window.location.href = "result.html";
-}, 300);
-        }
+}
