@@ -1,14 +1,14 @@
 // ==========================================
-// COURSE DICTIONARY
+// COURSE DICTIONARY (DELSU Curriculum)
 // ==========================================
 const COURSE_TITLES = {
-    "gst101": "GST 101 – Use of English and Library",
-    "gst102": "GST 102 – Philosophy and Human Existence",
-    "gst103": "GST 103 – Nigerian Peoples and Culture",
-    "gst111": "GST 111 – Communication in English",
-    "gst112": "GST 112 – Logic and Critical Thinking",
-    "gst113": "GST 113 – Peace and Conflict Resolution",
-    "gst114": "GST 114 – Social Sciences"
+    "gst101": "GST 101 – Use of English & Library",
+    "gst102": "GST 102 – Philosophy & Human Existence",
+    "gst103": "GST 103 – DELSU Culture & Ethics",
+    "gst111": "GST 111 – Nigerian Peoples, Culture & Entrepreneurial Skills",
+    "gst112": "GST 112 – History & Philosophy of Science and Technology",
+    "gst113": "GST 113 – Peace Studies & Conflict Resolution",
+    "gst114": "GST 114 – Communication in French"
 };
 
 // ==========================================
@@ -30,23 +30,32 @@ let selectedMode = "Exam"; // Exam Mode vs Quiz Mode (Quiz = Practice)
 // UNIFIED COURSE RESOLUTION HELPER
 // ==========================================
 function getSelectedCourse() {
-    const params = new URLSearchParams(window.location.search);
-    // Retrieve from URL first, then fallback to localStorage, and default to 'gst101'
-    let course = params.get("course") || localStorage.getItem("selectedCourse") || "gst101";
-    // Normalize to lowercase with spaces and special characters removed (e.g. "GST 102" -> "gst102")
-    return course.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
+    try {
+        const params = new URLSearchParams(window.location.search);
+        let course = params.get("course") || localStorage.getItem("selectedCourse") || localStorage.getItem("course") || "gst101";
+        return course.toLowerCase().replace(/[^a-z0-9]/g, '').trim();
+    } catch (e) {
+        return "gst101"; // Secure fallback for incognito environments
+    }
 }
 
 // ==========================================
-// PAGE INITIALIZATION
+// PAGE INITIALIZATION FLOW
 // ==========================================
-document.addEventListener("DOMContentLoaded", () => {
+function initPage() {
+    // Prevent double initialization
+    if (window.pageInitialized) return;
+    window.pageInitialized = true;
+
     // 1. Resolve selected course consistently
     selectedCourse = getSelectedCourse();
 
     // 2. Resolve and display Course Title dynamically
     const courseTitle = COURSE_TITLES[selectedCourse] || selectedCourse.toUpperCase();
-    document.getElementById("setup-course-title").innerText = courseTitle;
+    const titleEl = document.getElementById("setup-course-title");
+    if (titleEl) {
+        titleEl.innerText = courseTitle;
+    }
 
     // 3. Set up click listeners for the interactive Questions grid
     const gridButtons = document.querySelectorAll(".grid-btn");
@@ -71,9 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
                     // Fall back to default '50' if custom input is cancelled/invalid
                     const defaultBtn = document.querySelector('[data-value="50"]');
-                    defaultBtn.classList.add("active");
-                    if (!defaultBtn.querySelector(".check-mark")) {
-                        defaultBtn.innerHTML += ' <span class="check-mark">✓</span>';
+                    if (defaultBtn) {
+                        defaultBtn.classList.add("active");
+                        if (!defaultBtn.querySelector(".check-mark")) {
+                            defaultBtn.innerHTML += ' <span class="check-mark">✓</span>';
+                        }
                     }
                     selectedQuestionsCount = 50;
                 }
@@ -85,9 +96,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Enforce Screen view states initially
-    document.getElementById("exam-screen").style.display = "none";
-    document.getElementById("setup-screen").style.display = "block";
-});
+    const examScreen = document.getElementById("exam-screen");
+    const setupScreen = document.getElementById("setup-screen");
+    if (examScreen) examScreen.style.display = "none";
+    if (setupScreen) setupScreen.style.display = "block";
+}
+
+// Safe multi-mode DOM Ready check (solves mobile cache loading delay)
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initPage);
+} else {
+    initPage();
+}
 
 // ==========================================
 // INTERACTIVE SELECTIONS
@@ -97,9 +117,11 @@ function setMode(mode) {
     document.querySelectorAll(".mode-card").forEach(card => card.classList.remove("active"));
     
     if (mode === 'Exam') {
-        document.getElementById("mode-exam").classList.add("active");
+        const examEl = document.getElementById("mode-exam");
+        if (examEl) examEl.classList.add("active");
     } else {
-        document.getElementById("mode-quiz").classList.add("active");
+        const quizEl = document.getElementById("mode-quiz");
+        if (quizEl) quizEl.classList.add("active");
     }
 }
 
@@ -107,7 +129,6 @@ function setMode(mode) {
 // START EXAM
 // ==========================
 function startExam() {
-
     // Ensure our dynamic loader successfully populated the QUESTIONS variable
     if (typeof QUESTIONS === "undefined") {
         alert(`Questions file failed to load. Please make sure your "${selectedCourse}.js" file exists and is in the correct directory.`);
@@ -152,8 +173,10 @@ function startExam() {
     }
 
     // Get exam duration
-    const hrs = parseInt(document.getElementById("time-hours").value) || 0;
-    const mins = parseInt(document.getElementById("time-minutes").value) || 0;
+    const hrsEl = document.getElementById("time-hours");
+    const minsEl = document.getElementById("time-minutes");
+    const hrs = hrsEl ? (parseInt(hrsEl.value) || 0) : 0;
+    const mins = minsEl ? (parseInt(minsEl.value) || 0) : 0;
 
     const totalMinutes = (hrs * 60) + mins;
 
@@ -169,17 +192,21 @@ function startExam() {
     timeLeft = totalMinutes * 60;
 
     // Update mode label
-    document.getElementById("mode").innerText = selectedMode + " Mode";
+    const modeEl = document.getElementById("mode");
+    if (modeEl) modeEl.innerText = selectedMode + " Mode";
 
     // Show exam screen
-    document.getElementById("setup-screen").style.display = "none";
-    document.getElementById("exam-screen").style.display = "block";
+    const setupScreen = document.getElementById("setup-screen");
+    const examScreen = document.getElementById("exam-screen");
+    if (setupScreen) setupScreen.style.display = "none";
+    if (examScreen) examScreen.style.display = "block";
 
     // Start timer
     if (selectedMode === "Exam") {
         startTimer();
     } else {
-        document.getElementById("timer").innerText = "♾️ Unlimited";
+        const timerEl = document.getElementById("timer");
+        if (timerEl) timerEl.innerText = "♾️ Unlimited";
     }
 
     // Load first question
@@ -250,7 +277,6 @@ function loadQuestion() {
 // CHOICE SELECT
 // ==========================
 function answer(choice) {
-    // Lock answers on immediate feedback screens in Quiz Mode
     if (selectedMode === "Quiz" && answers[currentQuestion] !== undefined) {
         return;
     }
@@ -269,9 +295,6 @@ function nextQuestion() {
     }
 }
 
-// ==========================
-// PREVIOUS
-// ==========================
 function prevQuestion() {
     if (currentQuestion > 0) {
         currentQuestion--;
@@ -364,12 +387,15 @@ function updateTimerDisplay() {
     let min = Math.floor((timeLeft % 3600) / 60);
     let sec = timeLeft % 60;
 
-    if (hrs > 0) {
-        document.getElementById("timer").innerText =
-            `⏰ ${hrs}:${min.toString().padStart(2,"0")}:${sec.toString().padStart(2,"0")}`;
-    } else {
-        document.getElementById("timer").innerText =
-            `⏰ ${min}:${sec.toString().padStart(2,"0")}`;
+    const timerEl = document.getElementById("timer");
+    if (timerEl) {
+        if (hrs > 0) {
+            timerEl.innerText =
+                `⏰ ${hrs}:${min.toString().padStart(2,"0")}:${sec.toString().padStart(2,"0")}`;
+        } else {
+            timerEl.innerText =
+                `⏰ ${min}:${sec.toString().padStart(2,"0")}`;
+        }
     }
 }
 
@@ -377,7 +403,6 @@ function updateTimerDisplay() {
 // SUBMIT ACTIONS
 // ==========================
 function finishExam() {
-
     if (!confirm("Are you sure you want to submit your exam?")) {
         return;
     }
@@ -397,4 +422,4 @@ function finishExam() {
     localStorage.setItem("course", selectedCourse);
 
     window.location.href = "result.html";
-            }
+        }
