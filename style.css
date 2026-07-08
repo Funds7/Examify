@@ -357,10 +357,16 @@ html{
 }
 
 .question-palette{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(45px,1fr));
-    gap:10px;
-    margin-bottom:25px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+    margin:20px 0;
+    max-height:140px;
+    overflow-y:auto;
+    padding:10px;
+    background:#111827;
+    border-radius:12px;
 }
 
 .question-box{
@@ -426,22 +432,20 @@ html{
 =========================== */
 
 .palette-btn{
-    width:45px;
-    height:45px;
-    border:none;
+    width:36px;
+    height:36px;
     border-radius:50%;
-    background:#374151;
-    color:white;
+    border:none;
+    background:#d1d5db;
+    color:#111827;
     font-weight:bold;
-    font-size:16px;
     cursor:pointer;
-    transition:.3s;
+    transition:.25s;
 }
 
 .palette-btn:hover{
     transform:scale(1.08);
 }
-
 /* ==========================================
    MODERN EXAM SETUP SCREEN CSS (DARK THEME)
    ========================================== */
