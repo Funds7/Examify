@@ -270,7 +270,8 @@ function loadQuestion() {
     }
 
     updateProgressBar();
-    createPalette();
+createPalette();
+updateNextButton();
 }
 
 // ==========================
@@ -307,7 +308,7 @@ function prevQuestion() {
 // ==========================
 function markForReview() {
     const index = review.indexOf(currentQuestion);
-    
+
     if (index > -1) {
         review.splice(index, 1);
     } else {
@@ -318,13 +319,23 @@ function markForReview() {
 }
 
 // ==========================
-// PROCESS PROGRESS BAR
+// UPDATE NEXT BUTTON
 // ==========================
-function updateProgressBar() {
-    let percent = ((currentQuestion + 1) / questions.length) * 100;
-    document.getElementById("progress-fill").style.width = percent + "%";
-}
+function updateNextButton() {
+    const nextBtn = document.getElementById("next-btn");
 
+    if (!nextBtn) return;
+
+    if (currentQuestion === questions.length - 1) {
+        nextBtn.innerHTML = "📝 Submit Exam";
+        nextBtn.onclick = finishExam;
+        nextBtn.style.background = "#16a34a";
+    } else {
+        nextBtn.innerHTML = "Next ➡";
+        nextBtn.onclick = nextQuestion;
+        nextBtn.style.background = "#374151";
+    }
+}
 // ==========================
 // BUILD PALETTE
 // ==========================
@@ -421,5 +432,7 @@ function finishExam() {
     localStorage.setItem("total", questions.length);
     localStorage.setItem("course", selectedCourse);
 
+    setTimeout(() => {
     window.location.href = "result.html";
+}, 300);
         }
