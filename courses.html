@@ -25,7 +25,7 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst101.html'">
+            onclick="openCourse('gst101', 'chapters-gst101.html')">
                 📖 Open Course
             </button>
         </div>
@@ -39,7 +39,7 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst102.html'">
+            onclick="openCourse('gst102', 'chapters-gst102.html')">
                 📖 Open Course
             </button>
         </div>
@@ -53,7 +53,7 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst103.html'">
+            onclick="openCourse('gst103', 'chapters-gst103.html')">
                 📖 Open Course
             </button>
         </div>
@@ -71,7 +71,7 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst111.html'">
+            onclick="openCourse('gst111', 'chapters-gst111.html')">
                 📖 Open Course
             </button>
         </div>
@@ -85,7 +85,7 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst112.html'">
+            onclick="openCourse('gst112', 'chapters-gst112.html')">
                 📖 Open Course
             </button>
         </div>
@@ -99,7 +99,7 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst113.html'">
+            onclick="openCourse('gst113', 'chapters-gst113.html')">
                 📖 Open Course
             </button>
         </div>
@@ -113,13 +113,24 @@
 
         <div class="card-buttons">
             <button class="small-btn"
-            onclick="location.href='chapters-gst114.html'">
+            onclick="openCourse('gst114', 'chapters-gst114.html')">
                 📖 Open Course
             </button>
         </div>
     </div>
 
 </div>
+
+<!-- JavaScript to automatically save the course state -->
+<script>
+function openCourse(courseId, targetPage) {
+    // 1. Save selection so the exam page always knows which course is active
+    localStorage.setItem('selectedCourse', courseId);
+    
+    // 2. Redirect to the requested chapter list page
+    location.href = targetPage;
+}
+</script>
 
 </body>
 </html>
