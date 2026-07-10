@@ -55,15 +55,15 @@ function showQuestion(index){
 
     });
 
-    document.getElementById("yourAnswer").innerHTML =
-    answers[index]!==undefined ?
-    q.options[answers[index]] :
-    "Not Answered";
+    document.getElementById("your-answer").innerHTML =
+    answers[index] !== undefined
+        ? q.options[answers[index]]
+        : "Not Answered";
 
-    document.getElementById("correctAnswer").innerHTML =
+document.getElementById("correct-answer").innerHTML =
     q.options[q.answer];
 
-    document.getElementById("explanationText").innerHTML =
+document.getElementById("explanationText").innerHTML =
     q.explanation ||
     "No explanation was provided for this question.";
 }
