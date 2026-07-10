@@ -9,7 +9,7 @@ const course = localStorage.getItem("course") || "GST 101";
 const percent =
 total > 0 ? ((score / total) * 100) : 0;
 
-const wrong = total - score;
+const wrong = Math.max(0, total - score);
 
 // ==========================================
 // DELSU GRADING
@@ -86,7 +86,12 @@ document.getElementById("courseText").innerHTML =
 course.toUpperCase();
 
 // Change grade card colour
-document.querySelector(".grade-card").style.background = color;
+const gradeCard = document.querySelector(".grade-card");
+
+if (gradeCard) {
+    gradeCard.style.background =
+        `linear-gradient(135deg, ${color}, ${color}dd)`;
+}
 
 // ==========================================
 // PROGRESS RING
@@ -94,17 +99,21 @@ document.querySelector(".grade-card").style.background = color;
 
 const ring = document.getElementById("progressRing");
 
-const radius = 75;
-const circumference = 2 * Math.PI * radius;
+if (ring) {
+    const radius = 75;
+    const circumference = 2 * Math.PI * radius;
 
-ring.style.strokeDasharray = circumference;
+    ring.style.strokeDasharray = circumference;
+    ring.style.strokeDashoffset = circumference;
 
-const offset =
-circumference - (percent / 100) * circumference;
+    setTimeout(() => {
+        const offset =
+            circumference - (percent / 100) * circumference;
 
-ring.style.strokeDashoffset = offset;
-ring.style.stroke = color;
-
+        ring.style.strokeDashoffset = offset;
+        ring.style.stroke = color;
+    }, 300);
+}
 // ==========================================
 // BUTTONS
 // ==========================================
