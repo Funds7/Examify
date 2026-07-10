@@ -1,7 +1,58 @@
-let score = Number(localStorage.getItem("score"));
-let total = Number(localStorage.getItem("total"));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Exam Result</title>
 
-let percent = ((score / total) * 100).toFixed(1);
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📊 Exam Result</h1>
+
+<div class="question-box">
+
+<h2 id="scoreText"></h2>
+
+<h3 id="percentText"></h3>
+
+<h3 id="gradeText"></h3>
+
+<h3 id="gradePointText"></h3>
+
+<p id="messageText"></p>
+
+</div>
+
+<br>
+
+<button class="btn secondary" onclick="viewCorrections()">
+📖 View Corrections
+</button>
+
+<br><br>
+
+<button class="btn warning" onclick="location.href='index.html'">
+🏠 Home
+</button>
+
+<button class="btn danger" onclick="history.back()">
+🔄 Retake
+</button>
+
+</div>
+
+<script>
+
+let score = Number(localStorage.getItem("score")) || 0;
+let total = Number(localStorage.getItem("total")) || 0;
+
+let percent = total > 0 ? ((score / total) * 100).toFixed(1) : 0;
 
 let grade = "";
 let gradePoint = "";
@@ -11,23 +62,28 @@ if (percent >= 70) {
     grade = "A";
     gradePoint = "5.00";
     message = "🌟 Outstanding! Excellent performance.";
-} else if (percent >= 60) {
+}
+else if (percent >= 60) {
     grade = "B";
     gradePoint = "4.00";
     message = "🎉 Very Good! Keep it up.";
-} else if (percent >= 50) {
+}
+else if (percent >= 50) {
     grade = "C";
     gradePoint = "3.00";
     message = "👍 Good effort. Keep improving.";
-} else if (percent >= 45) {
+}
+else if (percent >= 45) {
     grade = "D";
     gradePoint = "2.00";
     message = "📚 Fair performance. Study harder.";
-} else if (percent >= 40) {
+}
+else if (percent >= 40) {
     grade = "E";
     gradePoint = "1.00";
     message = "⚠️ Pass. More practice is needed.";
-} else {
+}
+else {
     grade = "F";
     gradePoint = "0.00";
     message = "💪 Don't give up. Practice and try again.";
@@ -37,16 +93,22 @@ document.getElementById("scoreText").innerHTML =
 `Score: ${score} / ${total}`;
 
 document.getElementById("percentText").innerHTML =
-`
-Percentage: ${percent}%<br><br>
+`Percentage: ${percent}%`;
 
-Grade: <b>${grade}</b><br>
+document.getElementById("gradeText").innerHTML =
+`Grade: ${grade}`;
 
-Grade Point: <b>${gradePoint}</b><br><br>
+document.getElementById("gradePointText").innerHTML =
+`Grade Point: ${gradePoint}`;
 
-${message}
-`;
+document.getElementById("messageText").innerHTML =
+message;
 
-function viewCorrections(){
+function viewCorrections() {
     window.location.href = "corrections.html";
 }
+
+</script>
+
+</body>
+</html>
