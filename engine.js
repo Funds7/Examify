@@ -398,14 +398,16 @@ function startTimer() {
     updateTimerDisplay();
 
     timerInterval = setInterval(() => {
+
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
-            finishExam();
+            finishExam(true);
             return;
         }
 
         timeLeft--;
         updateTimerDisplay();
+
     }, 1000);
 }
 
@@ -429,20 +431,33 @@ function updateTimerDisplay() {
 // ==========================
 // FINISH EXAM
 // ==========================
-function finishExam() {
-    if (!confirm("Are you sure you want to submit your exam?")) return;
+function finishExam(autoSubmit = false) {
+
+    if (!autoSubmit) {
+        if (!confirm("Are you sure you want to submit your exam?")) {
+            return;
+        }
+    }
 
     clearInterval(timerInterval);
 
     let score = 0;
 
     questions.forEach((q, i) => {
-        if (answers[i] === q.answer) score++;
+        if (answers[i] === q.answer) {
+            score++;
+        }
     });
 
+    // Save result
     localStorage.setItem("score", score);
     localStorage.setItem("total", questions.length);
     localStorage.setItem("course", selectedCourse);
 
+    // Save exam data for Corrections page
+    localStorage.setItem("examQuestions", JSON.stringify(questions));
+    localStorage.setItem("examAnswers", JSON.stringify(answers));
+
+    // Go to result page
     window.location.href = "result.html";
 }
