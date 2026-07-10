@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>FundsIQ - Corrections</title>
+<title>FundsIQ Corrections</title>
 
 <link rel="stylesheet" href="corrections.css">
 
@@ -15,109 +13,101 @@
 
 <body>
 
-<div class="correction-container">
+<div class="container">
 
-    <!-- Header -->
+    <div class="top-bar">
 
-    <div class="header">
+        <button class="back-btn"
+        onclick="location.href='result.html'">
 
-        <h1>📖 Review Your Answers</h1>
+        ←
 
-        <p>See your mistakes, learn the correct answers, and improve.</p>
+        </button>
 
-    </div>
-
-    <!-- Progress -->
-
-    <div class="progress-card">
+        <h2>Corrections</h2>
 
         <span id="questionCounter">
-
-            Question 1 of 20
-
+            1 / 50
         </span>
 
     </div>
 
-    <!-- Question -->
+    <div class="progress">
+
+        <div id="progressFill"></div>
+
+    </div>
 
     <div class="question-card">
 
-        <h2 id="questionText">
+        <h3 id="questionText">
 
             Question goes here...
 
-        </h2>
+        </h3>
 
     </div>
 
-    <!-- Options -->
+    <div id="optionsContainer"></div>
 
-    <div id="optionsContainer">
+    <div class="summary-card">
+
+        <div class="summary-item wrong">
+
+            <h4>❌ Your Answer</h4>
+
+            <p id="your-answer"></p>
+
+        </div>
+
+        <div class="summary-item correct">
+
+            <h4>✅ Correct Answer</h4>
+
+            <p id="correct-answer"></p>
+
+        </div>
 
     </div>
-
-    <!-- Answers -->
-    
-<div class="answer-summary">
-
-    <div class="your-answer">
-        ❌ <strong>Your Answer:</strong>
-        <span id="your-answer"></span>
-    </div>
-
-    <div class="correct-answer">
-        ✅ <strong>Correct Answer:</strong>
-        <span id="correct-answer"></span>
-    </div>
-
-</div>
-    <!-- Explanation -->
 
     <div class="explanation-card">
 
-        <h3>💡 Explanation</h3>
+        <div class="explanation-header"
+        onclick="toggleExplanation()">
 
-        <p id="explanationText">
+            <h3>💡 Explanation</h3>
 
-            Explanation will appear here.
+            <span id="arrow">▼</span>
 
-        </p>
+        </div>
 
-    </div>
+        <div id="explanationBody">
 
-    <!-- Navigation -->
+            <p id="explanationText"></p>
 
-    <div class="nav-buttons">
-
-        <button onclick="previousCorrection()">
-
-            ⬅ Previous
-
-        </button>
-
-        <button onclick="nextCorrection()">
-
-            Next ➡
-
-        </button>
+        </div>
 
     </div>
 
-    <!-- Finish -->
+</div>
 
-    <button class="finish-btn"
+<div class="bottom-nav">
 
-        onclick="location.href='index.html'">
+    <button onclick="previousCorrection()">
 
-        🏠 Back Home
+        ⬅ Previous
+
+    </button>
+
+    <button onclick="nextCorrection()">
+
+        Next ➡
 
     </button>
 
 </div>
 
 <script src="questions.js"></script>
-
 <script src="corrections.js"></script>
 
 </body>
