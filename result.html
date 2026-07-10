@@ -2,113 +2,133 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Exam Result</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+<title>Examify - Result</title>
+
+<link rel="stylesheet" href="result.css">
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="result-container">
 
-<h1>📊 Exam Result</h1>
+    <!-- Header -->
+    <div class="result-header">
+        <h1>🎉 Exam Completed</h1>
+        <p>Your performance summary</p>
+    </div>
 
-<div class="question-box">
+    <!-- Score Circle -->
+    <div class="score-section">
 
-<h2 id="scoreText"></h2>
+        <div class="progress-circle">
 
-<h3 id="percentText"></h3>
+            <svg width="180" height="180">
 
-<h3 id="gradeText"></h3>
+                <circle
+                    cx="90"
+                    cy="90"
+                    r="75"
+                    class="bg-circle">
+                </circle>
 
-<h3 id="gradePointText"></h3>
+                <circle
+                    cx="90"
+                    cy="90"
+                    r="75"
+                    class="progress-ring"
+                    id="progressRing">
+                </circle>
 
-<p id="messageText"></p>
+            </svg>
+
+            <div class="score-text">
+                <h2 id="percentText">0%</h2>
+                <span>Score</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Grade Card -->
+    <div class="grade-card">
+
+        <h2 id="gradeText">Grade A</h2>
+
+        <p id="messageText">
+            Outstanding Performance!
+        </p>
+
+    </div>
+
+    <!-- Statistics -->
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <h3 id="scoreText">0/0</h3>
+            <p>Correct Answers</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 id="wrongText">0</h3>
+            <p>Wrong Answers</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 id="totalText">0</h3>
+            <p>Total Questions</p>
+        </div>
+
+        <div class="stat-card">
+            <h3 id="gradePointText">0.00</h3>
+            <p>Grade Point</p>
+        </div>
+
+    </div>
+
+    <!-- Course -->
+    <div class="course-card">
+
+        <h3>Course</h3>
+
+        <p id="courseText">
+            GST 101
+        </p>
+
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-buttons">
+
+        <button class="btn btn-primary"
+            onclick="viewCorrections()">
+
+            📖 View Corrections
+
+        </button>
+
+        <button class="btn btn-secondary"
+            onclick="retakeExam()">
+
+            🔄 Retake Exam
+
+        </button>
+
+        <button class="btn btn-home"
+            onclick="goHome()">
+
+            🏠 Home
+
+        </button>
+
+    </div>
 
 </div>
 
-<br>
-
-<button class="btn secondary" onclick="viewCorrections()">
-📖 View Corrections
-</button>
-
-<br><br>
-
-<button class="btn warning" onclick="location.href='index.html'">
-🏠 Home
-</button>
-
-<button class="btn danger" onclick="history.back()">
-🔄 Retake
-</button>
-
-</div>
-
-<script>
-
-let score = Number(localStorage.getItem("score")) || 0;
-let total = Number(localStorage.getItem("total")) || 0;
-
-let percent = total > 0 ? ((score / total) * 100).toFixed(1) : 0;
-
-let grade = "";
-let gradePoint = "";
-let message = "";
-
-if (percent >= 70) {
-    grade = "A";
-    gradePoint = "5.00";
-    message = "🌟 Outstanding! Excellent performance.";
-}
-else if (percent >= 60) {
-    grade = "B";
-    gradePoint = "4.00";
-    message = "🎉 Very Good! Keep it up.";
-}
-else if (percent >= 50) {
-    grade = "C";
-    gradePoint = "3.00";
-    message = "👍 Good effort. Keep improving.";
-}
-else if (percent >= 45) {
-    grade = "D";
-    gradePoint = "2.00";
-    message = "📚 Fair performance. Study harder.";
-}
-else if (percent >= 40) {
-    grade = "E";
-    gradePoint = "1.00";
-    message = "⚠️ Pass. More practice is needed.";
-}
-else {
-    grade = "F";
-    gradePoint = "0.00";
-    message = "💪 Don't give up. Practice and try again.";
-}
-
-document.getElementById("scoreText").innerHTML =
-`Score: ${score} / ${total}`;
-
-document.getElementById("percentText").innerHTML =
-`Percentage: ${percent}%`;
-
-document.getElementById("gradeText").innerHTML =
-`Grade: ${grade}`;
-
-document.getElementById("gradePointText").innerHTML =
-`Grade Point: ${gradePoint}`;
-
-document.getElementById("messageText").innerHTML =
-message;
-
-function viewCorrections() {
-    window.location.href = "corrections.html";
-}
-
-</script>
+<script src="result.js"></script>
 
 </body>
 </html>
