@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
 
 <title>FundsIQ Corrections</title>
 
-<link rel="stylesheet" href="corrections.css">
+<link rel="stylesheet"
+href="corrections.css">
 
 </head>
 
 <body>
 
 <div class="container">
+
+    <!-- Top -->
 
     <div class="top-bar">
 
@@ -27,10 +32,14 @@
         <h2>Corrections</h2>
 
         <span id="questionCounter">
-            1 / 50
+
+        1 / 50
+
         </span>
 
     </div>
+
+    <!-- Progress -->
 
     <div class="progress">
 
@@ -38,52 +47,80 @@
 
     </div>
 
+    <!-- Question -->
+
     <div class="question-card">
 
         <h3 id="questionText">
 
-            Question goes here...
+        Question goes here...
 
         </h3>
 
     </div>
 
-    <div id="optionsContainer"></div>
+    <!-- Options -->
+
+    <div id="optionsContainer">
+
+    </div>
+
+    <!-- Answer Summary -->
 
     <div class="summary-card">
 
-        <div class="summary-item wrong">
+        <div class="summary-row">
 
-            <h4>❌ Your Answer</h4>
+            ❌ Your Answer:
 
-            <p id="your-answer"></p>
+            <strong id="your-answer">
+
+            A
+
+            </strong>
 
         </div>
 
-        <div class="summary-item correct">
+        <div class="summary-row">
 
-            <h4>✅ Correct Answer</h4>
+            ✅ Correct Answer:
 
-            <p id="correct-answer"></p>
+            <strong id="correct-answer">
+
+            B
+
+            </strong>
 
         </div>
 
     </div>
+
+    <!-- Explanation -->
 
     <div class="explanation-card">
 
         <div class="explanation-header"
         onclick="toggleExplanation()">
 
-            <h3>💡 Explanation</h3>
+            <span>
 
-            <span id="arrow">▼</span>
+            💡 Explanation
+
+            </span>
+
+            <span id="arrow">
+
+            ▼
+
+            </span>
 
         </div>
 
         <div id="explanationBody">
 
-            <p id="explanationText"></p>
+            <p id="explanationText">
+
+            </p>
 
         </div>
 
@@ -91,17 +128,19 @@
 
 </div>
 
+<!-- Bottom Navigation -->
+
 <div class="bottom-nav">
 
     <button onclick="previousCorrection()">
 
-        ⬅ Previous
+    ⬅ Previous
 
     </button>
 
     <button onclick="nextCorrection()">
 
-        Next ➡
+    Next ➡
 
     </button>
 
