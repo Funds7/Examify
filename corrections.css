@@ -124,6 +124,42 @@ ANSWER BOX
     font-size:17px;
 }
 
+.option-btn{
+    width:100%;
+    padding:16px 18px;
+    margin:10px 0;
+    border:none;
+    border-radius:16px;
+    background:#1f2937;
+    color:#fff;
+    font-size:17px;
+    font-weight:600;
+    text-align:left;
+    transition:.3s;
+}
+/* ==========================
+ANSWER SUMMARY
+========================== */
+
+.answer-summary{
+    background:#1f2937;
+    padding:18px;
+    border-radius:16px;
+    margin:20px 0;
+}
+
+.your-answer{
+    color:#ef4444;
+    font-size:17px;
+    margin-bottom:12px;
+    line-height:1.5;
+}
+
+.correct-answer{
+    color:#22c55e;
+    font-size:17px;
+    line-height:1.5;
+}
 /* ==========================
 EXPLANATION
 ========================== */
