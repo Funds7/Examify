@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Examify Corrections</title>
+
+<link rel="stylesheet" href="corrections.css">
+
+</head>
+
+<body>
+
+<div class="correction-container">
+
+    <div class="header">
+
+        <h1>📖 Exam Corrections</h1>
+
+        <p>Review your answers and learn from your mistakes.</p>
+
+    </div>
+
+    <div class="progress-card">
+
+        <span id="questionCounter">
+            Question 1 of 20
+        </span>
+
+    </div>
+
+    <div class="question-card">
+
+        <h2 id="questionText">
+            Question goes here...
+        </h2>
+
+    </div>
+
+    <div id="optionsContainer">
+
+    </div>
+
+    <div class="answer-box">
+
+        <p>
+            <strong>Your Answer:</strong>
+            <span id="yourAnswer"></span>
+        </p>
+
+        <p>
+            <strong>Correct Answer:</strong>
+            <span id="correctAnswer"></span>
+        </p>
+
+    </div>
+
+    <div class="explanation-card">
+
+        <h3>💡 Explanation</h3>
+
+        <p id="explanationText">
+
+            Explanation will appear here.
+
+        </p>
+
+    </div>
+
+    <div class="nav-buttons">
+
+        <button onclick="previousCorrection()">
+
+            ⬅ Previous
+
+        </button>
+
+        <button onclick="nextCorrection()">
+
+            Next ➡
+
+        </button>
+
+    </div>
+
+    <button class="finish-btn"
+
+        onclick="location.href='index.html'">
+
+        🏠 Back Home
+
+    </button>
+
+</div>
+
+<script src="questions.js"></script>
+
+<script src="corrections.js"></script>
+
+</body>
+</html>
