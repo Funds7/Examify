@@ -1,0 +1,238 @@
+/* ==========================================
+   FundsIQ - Corrections Page
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    min-height:100vh;
+    padding:20px;
+}
+
+.correction-container{
+    max-width:700px;
+    margin:auto;
+}
+
+/* ==========================
+HEADER
+========================== */
+
+.header{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.header h1{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#94a3b8;
+    line-height:1.5;
+}
+
+/* ==========================
+PROGRESS
+========================== */
+
+.progress-card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:16px;
+    text-align:center;
+    margin-bottom:20px;
+    font-size:18px;
+    font-weight:bold;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+/* ==========================
+QUESTION
+========================== */
+
+.question-card{
+    background:#1e293b;
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.question-card h2{
+    font-size:22px;
+    line-height:1.7;
+}
+
+/* ==========================
+OPTIONS
+========================== */
+
+#optionsContainer{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.option{
+    background:#1e293b;
+    border-radius:15px;
+    padding:18px;
+    border:2px solid transparent;
+    transition:.3s;
+    line-height:1.6;
+}
+
+.option.correct{
+    background:#14532d;
+    border-color:#22c55e;
+    color:white;
+}
+
+.option.wrong{
+    background:#7f1d1d;
+    border-color:#ef4444;
+    color:white;
+}
+
+.option.normal{
+    background:#1e293b;
+}
+
+/* ==========================
+ANSWER BOX
+========================== */
+
+.answer-box{
+    background:#111827;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.answer-box p{
+    margin:12px 0;
+    font-size:17px;
+}
+
+/* ==========================
+EXPLANATION
+========================== */
+
+.explanation-card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:25px;
+}
+
+.explanation-card h3{
+    color:#fbbf24;
+    margin-bottom:12px;
+}
+
+.explanation-card p{
+    line-height:1.7;
+    color:#e5e7eb;
+}
+
+/* ==========================
+BUTTONS
+========================== */
+
+.nav-buttons{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.nav-buttons button{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:14px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.nav-buttons button:hover{
+    transform:translateY(-3px);
+}
+
+.finish-btn{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:15px;
+    background:#22c55e;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.finish-btn:hover{
+    transform:scale(1.02);
+}
+
+/* ==========================
+ANIMATIONS
+========================== */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.header,
+.progress-card,
+.question-card,
+.answer-box,
+.explanation-card,
+.nav-buttons,
+.finish-btn{
+    animation:fadeUp .6s ease;
+}
+
+/* ==========================
+RESPONSIVE
+========================== */
+
+@media(max-width:600px){
+
+.question-card h2{
+    font-size:19px;
+}
+
+.nav-buttons{
+    flex-direction:column;
+}
+
+.header h1{
+    font-size:26px;
+}
+
+}
