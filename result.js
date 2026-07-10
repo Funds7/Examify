@@ -1,142 +1,122 @@
-"use strict";
-
 // ==========================================
-// EXAMIFY RESULT ENGINE
+// LOAD RESULT
 // ==========================================
 
-// Load Exam Data
 const score = Number(localStorage.getItem("score")) || 0;
 const total = Number(localStorage.getItem("total")) || 0;
-const course = localStorage.getItem("course") || "GST";
+const course = localStorage.getItem("course") || "GST 101";
 
-// Prevent division by zero
-const percentage = total > 0 ? ((score / total) * 100) : 0;
+const percent =
+total > 0 ? ((score / total) * 100) : 0;
+
+const wrong = total - score;
 
 // ==========================================
-// DELSU GRADING SYSTEM
+// DELSU GRADING
 // ==========================================
 
 let grade = "";
 let gradePoint = "";
-let remark = "";
-let badge = "";
+let message = "";
 let color = "";
 
-if (percentage >= 70) {
-    grade = "A";
+if (percent >= 70) {
+    grade = "Grade A";
     gradePoint = "5.00";
-    remark = "Outstanding Performance!";
-    badge = "🏆";
+    message = "🏆 Outstanding Performance!";
     color = "#22c55e";
 }
-else if (percentage >= 60) {
-    grade = "B";
+else if (percent >= 60) {
+    grade = "Grade B";
     gradePoint = "4.00";
-    remark = "Very Good Performance!";
-    badge = "🥈";
+    message = "🎉 Very Good Performance!";
     color = "#3b82f6";
 }
-else if (percentage >= 50) {
-    grade = "C";
+else if (percent >= 50) {
+    grade = "Grade C";
     gradePoint = "3.00";
-    remark = "Good Performance!";
-    badge = "👍";
+    message = "👍 Good Performance!";
     color = "#f59e0b";
 }
-else if (percentage >= 45) {
-    grade = "D";
+else if (percent >= 45) {
+    grade = "Grade D";
     gradePoint = "2.00";
-    remark = "Fair Performance!";
-    badge = "📚";
+    message = "🙂 Fair Performance!";
     color = "#fb923c";
 }
-else if (percentage >= 40) {
-    grade = "E";
+else if (percent >= 40) {
+    grade = "Grade E";
     gradePoint = "1.00";
-    remark = "Pass";
-    badge = "🙂";
+    message = "⚠ Pass";
     color = "#eab308";
 }
 else {
-    grade = "F";
+    grade = "Grade F";
     gradePoint = "0.00";
-    remark = "Failed. Practice More!";
-    badge = "❌";
+    message = "💪 Don't give up. Practice more!";
     color = "#ef4444";
 }
 
 // ==========================================
-// DISPLAY RESULT
+// DISPLAY
 // ==========================================
 
-document.getElementById("course-name").textContent = course.toUpperCase();
+document.getElementById("percentText").innerHTML =
+`${percent.toFixed(1)}%`;
 
-document.getElementById("score").textContent =
+document.getElementById("gradeText").innerHTML =
+grade;
+
+document.getElementById("messageText").innerHTML =
+message;
+
+document.getElementById("scoreText").innerHTML =
 `${score}/${total}`;
 
-document.getElementById("percentage").textContent =
-`${percentage.toFixed(1)}%`;
+document.getElementById("wrongText").innerHTML =
+wrong;
 
-document.getElementById("grade").textContent = grade;
-document.getElementById("grade-point").textContent = gradePoint;
-document.getElementById("remark").textContent = `${badge} ${remark}`;
+document.getElementById("totalText").innerHTML =
+total;
 
-document.getElementById("grade").style.color = color;
-document.getElementById("percentage").style.color = color;
+document.getElementById("gradePointText").innerHTML =
+gradePoint;
 
-// ==========================================
-// PROGRESS CIRCLE
-// ==========================================
+document.getElementById("courseText").innerHTML =
+course.toUpperCase();
 
-const circle = document.querySelector(".progress-ring-circle");
-
-if (circle) {
-
-    const radius = 90;
-    const circumference = 2 * Math.PI * radius;
-
-    circle.style.strokeDasharray = circumference;
-
-    const offset =
-        circumference - (percentage / 100) * circumference;
-
-    circle.style.strokeDashoffset = offset;
-    circle.style.stroke = color;
-}
+// Change grade card colour
+document.querySelector(".grade-card").style.background = color;
 
 // ==========================================
-// CONFETTI
+// PROGRESS RING
 // ==========================================
 
-if (percentage >= 70 && typeof confetti === "function") {
+const ring = document.getElementById("progressRing");
 
-    confetti({
-        particleCount: 180,
-        spread: 90,
-        origin: {
-            y: 0.6
-        }
-    });
+const radius = 75;
+const circumference = 2 * Math.PI * radius;
 
-}
+ring.style.strokeDasharray = circumference;
+
+const offset =
+circumference - (percent / 100) * circumference;
+
+ring.style.strokeDashoffset = offset;
+ring.style.stroke = color;
 
 // ==========================================
 // BUTTONS
 // ==========================================
 
-function goHome() {
-    window.location.href = "index.html";
+function viewCorrections() {
+    window.location.href = "corrections.html";
 }
 
 function retakeExam() {
     history.back();
 }
 
-function viewCorrections() {
-    window.location.href = "corrections.html";
+function goHome() {
+    window.location.href = "index.html";
 }
-
-// Make available to HTML
-window.goHome = goHome;
-window.retakeExam = retakeExam;
-window.viewCorrections = viewCorrections;
