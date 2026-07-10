@@ -1,0 +1,318 @@
+/* ==========================================
+   EXAMIFY RESULT PAGE
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.result-container{
+    width:100%;
+    max-width:430px;
+}
+
+/* ==========================
+HEADER
+========================== */
+
+.result-header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.result-header h1{
+    font-size:30px;
+    font-weight:700;
+}
+
+.result-header p{
+    color:#94a3b8;
+    margin-top:8px;
+}
+
+/* ==========================
+SCORE CIRCLE
+========================== */
+
+.score-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+.progress-circle{
+    position:relative;
+    width:180px;
+    height:180px;
+}
+
+.progress-circle svg{
+    transform:rotate(-90deg);
+}
+
+.bg-circle{
+    fill:none;
+    stroke:#1e293b;
+    stroke-width:12;
+}
+
+.progress-ring{
+    fill:none;
+    stroke:#22c55e;
+    stroke-width:12;
+    stroke-linecap:round;
+
+    stroke-dasharray:471;
+    stroke-dashoffset:471;
+
+    transition:stroke-dashoffset 1.5s ease;
+}
+
+.score-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.score-text h2{
+    font-size:42px;
+    font-weight:bold;
+}
+
+.score-text span{
+    color:#94a3b8;
+}
+
+/* ==========================
+GRADE CARD
+========================== */
+
+.grade-card{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    margin-bottom:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+    animation:fadeUp .6s ease;
+}
+
+.grade-card h2{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.grade-card p{
+    color:#e5e7eb;
+}
+
+/* ==========================
+STATISTICS
+========================== */
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+
+    margin-bottom:20px;
+}
+
+.stat-card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:18px;
+    text-align:center;
+
+    transition:.3s;
+}
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+    background:#273549;
+}
+
+.stat-card h3{
+    font-size:28px;
+    color:#22c55e;
+    margin-bottom:6px;
+}
+
+.stat-card p{
+    color:#cbd5e1;
+}
+
+/* ==========================
+COURSE CARD
+========================== */
+
+.course-card{
+
+    background:#1e293b;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+}
+
+.course-card h3{
+
+    color:#94a3b8;
+
+    margin-bottom:8px;
+
+}
+
+.course-card p{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+/* ==========================
+BUTTONS
+========================== */
+
+.action-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.btn{
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:16px;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.03);
+
+}
+
+.btn-primary{
+
+    background:#2563eb;
+
+    color:#fff;
+
+}
+
+.btn-secondary{
+
+    background:#f59e0b;
+
+    color:#fff;
+
+}
+
+.btn-home{
+
+    background:#22c55e;
+
+    color:#fff;
+
+}
+
+/* ==========================
+ANIMATIONS
+========================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.result-header,
+.progress-circle,
+.stat-card,
+.course-card,
+.action-buttons{
+
+    animation:fadeUp .8s ease;
+
+}
+
+/* ==========================
+RESPONSIVE
+========================== */
+
+@media(max-width:420px){
+
+.progress-circle{
+
+    transform:scale(.9);
+
+}
+
+.result-header h1{
+
+    font-size:26px;
+
+}
+
+.grade-card h2{
+
+    font-size:34px;
+
+}
+
+}
