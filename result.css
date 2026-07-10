@@ -31,16 +31,18 @@ HEADER
 .result-header{
     text-align:center;
     margin-bottom:30px;
+    animation:fadeUp .6s ease;
 }
 
 .result-header h1{
-    font-size:30px;
+    font-size:32px;
     font-weight:700;
 }
 
 .result-header p{
     color:#94a3b8;
     margin-top:8px;
+    font-size:16px;
 }
 
 /* ==========================
@@ -50,13 +52,14 @@ SCORE CIRCLE
 .score-section{
     display:flex;
     justify-content:center;
-    margin-bottom:25px;
+    margin-bottom:30px;
 }
 
 .progress-circle{
     position:relative;
     width:180px;
     height:180px;
+    animation:pop .8s ease;
 }
 
 .progress-circle svg{
@@ -78,7 +81,9 @@ SCORE CIRCLE
     stroke-dasharray:471;
     stroke-dashoffset:471;
 
-    transition:stroke-dashoffset 1.5s ease;
+    transition:
+        stroke-dashoffset 1.5s ease,
+        stroke .5s ease;
 }
 
 .score-text{
@@ -90,12 +95,14 @@ SCORE CIRCLE
 }
 
 .score-text h2{
-    font-size:42px;
-    font-weight:bold;
+    font-size:50px;
+    font-weight:700;
+    color:#fff;
 }
 
 .score-text span{
     color:#94a3b8;
+    font-size:18px;
 }
 
 /* ==========================
@@ -107,11 +114,11 @@ GRADE CARD
     border-radius:20px;
     padding:25px;
     text-align:center;
-    margin-bottom:20px;
+    margin-bottom:22px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.35);
+    box-shadow:0 12px 35px rgba(0,0,0,.35);
 
-    animation:fadeUp .6s ease;
+    animation:pop .7s ease;
 }
 
 .grade-card h2{
@@ -121,6 +128,7 @@ GRADE CARD
 
 .grade-card p{
     color:#e5e7eb;
+    font-size:18px;
 }
 
 /* ==========================
@@ -131,8 +139,7 @@ STATISTICS
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:15px;
-
-    margin-bottom:20px;
+    margin-bottom:22px;
 }
 
 .stat-card{
@@ -142,23 +149,23 @@ STATISTICS
     text-align:center;
 
     transition:.3s;
+    animation:fadeUp .8s ease;
 }
 
 .stat-card:hover{
-
     transform:translateY(-6px);
-
     background:#273549;
 }
 
 .stat-card h3{
-    font-size:28px;
+    font-size:30px;
     color:#22c55e;
-    margin-bottom:6px;
+    margin-bottom:8px;
 }
 
 .stat-card p{
     color:#cbd5e1;
+    font-size:15px;
 }
 
 /* ==========================
@@ -166,33 +173,22 @@ COURSE CARD
 ========================== */
 
 .course-card{
-
     background:#1e293b;
-
     border-radius:18px;
-
     padding:18px;
-
     margin-bottom:25px;
-
     text-align:center;
-
+    animation:fadeUp .9s ease;
 }
 
 .course-card h3{
-
     color:#94a3b8;
-
-    margin-bottom:8px;
-
+    margin-bottom:10px;
 }
 
 .course-card p{
-
-    font-size:18px;
-
+    font-size:22px;
     font-weight:bold;
-
 }
 
 /* ==========================
@@ -200,61 +196,42 @@ BUTTONS
 ========================== */
 
 .action-buttons{
-
     display:flex;
-
     flex-direction:column;
-
     gap:15px;
-
 }
 
 .btn{
-
     border:none;
-
     border-radius:15px;
-
     padding:16px;
-
-    font-size:17px;
-
+    font-size:18px;
     font-weight:bold;
-
     cursor:pointer;
-
-    transition:.3s;
-
+    transition:.25s;
 }
 
 .btn:hover{
+    transform:translateY(-3px);
+}
 
-    transform:scale(1.03);
-
+.btn:active{
+    transform:scale(.97);
 }
 
 .btn-primary{
-
     background:#2563eb;
-
     color:#fff;
-
 }
 
 .btn-secondary{
-
     background:#f59e0b;
-
     color:#fff;
-
 }
 
 .btn-home{
-
     background:#22c55e;
-
     color:#fff;
-
 }
 
 /* ==========================
@@ -264,30 +241,32 @@ ANIMATIONS
 @keyframes fadeUp{
 
     from{
-
         opacity:0;
-
-        transform:translateY(40px);
-
+        transform:translateY(35px);
     }
 
     to{
-
         opacity:1;
-
         transform:translateY(0);
-
     }
 
 }
 
-.result-header,
-.progress-circle,
-.stat-card,
-.course-card,
-.action-buttons{
+@keyframes pop{
 
-    animation:fadeUp .8s ease;
+    0%{
+        transform:scale(.8);
+        opacity:0;
+    }
+
+    70%{
+        transform:scale(1.05);
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:1;
+    }
 
 }
 
@@ -298,21 +277,31 @@ RESPONSIVE
 @media(max-width:420px){
 
 .progress-circle{
-
-    transform:scale(.9);
-
+    transform:scale(.92);
 }
 
 .result-header h1{
-
-    font-size:26px;
-
+    font-size:28px;
 }
 
 .grade-card h2{
-
     font-size:34px;
+}
 
+.score-text h2{
+    font-size:44px;
+}
+
+.stat-card h3{
+    font-size:26px;
+}
+
+.course-card p{
+    font-size:20px;
+}
+
+.btn{
+    font-size:17px;
 }
 
 }
