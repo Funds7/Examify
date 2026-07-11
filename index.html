@@ -3,61 +3,326 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FundsIQ</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <meta name="theme-color" content="#111827">
+  <title>FundsIQ - Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
 </head>
-
 <body>
 
-<div class="container">
+  <div class="dashboard-wrapper">
+    <div class="container">
 
-    <!-- Welcome Card -->
-    <div class="welcome-card">
+      <!-- ===========================
+      TOP NAVBAR
+      =========================== -->
+      <nav class="top-navbar">
+        <button class="nav-icon-btn" aria-label="Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <div class="navbar-brand">
+          <div class="brand-title">FundsI<span class="brand-cap">Q</span></div>
+          <p class="brand-sub">Master your GST courses.</p>
+        </div>
+        <div class="navbar-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+            <span class="theme-slider"></span>
+          </button>
+          <button class="notification-btn" aria-label="Notifications">
+            <span class="notif-badge">3</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+          </button>
+        </div>
+      </nav>
 
-    <h2 id="greeting"></h2>
+      <!-- ===========================
+      PROFILE SECTION
+      =========================== -->
+      <section class="profile-card">
+        <div class="profile-info">
+          <div class="avatar-container">
+            <!-- Premium Avatar Graphic Placeholder -->
+            <svg class="avatar-svg" viewBox="0 0 100 100">
+              <defs>
+                <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#2563eb" />
+                  <stop offset="100%" stop-color="#7c3aed" />
+                </linearGradient>
+              </defs>
+              <circle cx="50" cy="50" r="48" fill="url(#avatarGrad)" />
+              <circle cx="50" cy="40" r="20" fill="#ffffff" opacity="0.9" />
+              <path d="M20,80 C20,60 80,60 80,80" fill="#ffffff" opacity="0.9" />
+            </svg>
+          </div>
+          <div class="profile-text">
+            <h2 id="dynamic-greeting">Good evening, Odigwe Joshua 👋</h2>
+            <p>Keep learning, keep winning.</p>
+          </div>
+        </div>
+        <div class="coins-badge" onclick="alert('You have 1,250 PSA Coins!')">
+          <div class="coins-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><circle cx="8" cy="8" r="7" fill="#f59e0b" fill-opacity="0.2"></circle><circle cx="16" cy="16" r="7" fill="#f59e0b" fill-opacity="0.3"></circle></svg>
+          </div>
+          <div class="coins-text">
+            <strong>1,250</strong>
+            <span>Coins</span>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </section>
 
-    <p>Ready to study today?</p>
+      <!-- ===========================
+      MARKETING BANNER
+      =========================== -->
+      <section class="promo-banner">
+        <div class="banner-content">
+          <span class="banner-badge">Affiliate Program</span>
+          <h2>Make money as an affiliate marketer for FundsIQ</h2>
+          <p>Invite friends, earn coins and unlock amazing rewards.</p>
+          <button class="banner-btn" onclick="alert('Program starting soon! Stay tuned.')">Learn more</button>
+        </div>
+        <div class="banner-graphic">
+          <!-- Styled 3D Wallet SVG -->
+          <svg class="wallet-svg" viewBox="0 0 120 120">
+            <defs>
+              <linearGradient id="walletGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3b82f6" />
+                <stop offset="100%" stop-color="#1d4ed8" />
+              </linearGradient>
+            </defs>
+            <rect x="15" y="30" width="90" height="70" rx="15" fill="url(#walletGrad)" />
+            <path d="M50,30 L100,50 L100,70 L50,50 Z" fill="#1e40af" opacity="0.5" />
+            <circle cx="85" cy="65" r="14" fill="#f59e0b" />
+            <text x="80" y="70" fill="#fff" font-weight="bold" font-size="14">F</text>
+          </svg>
+        </div>
+      </section>
 
-</div>
+      <!-- ===========================
+      LEVEL SELECTOR
+      =========================== -->
+      <h3 class="section-title">Your Level</h3>
+      <div class="level-container">
+        <div class="level-card active">
+          <div class="level-info">
+            <h4>100 Level</h4>
+            <p>(Year 1)</p>
+          </div>
+          <div class="level-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2.5 3 6 3s6-1 6-3v-5"></path></svg>
+          </div>
+        </div>
+        <div class="level-card add-card" onclick="alert('More levels coming soon!')">
+          <div class="level-info">
+            <h4>Add level</h4>
+          </div>
+          <div class="level-icon-plus">+</div>
+        </div>
+      </div>
 
-<h1 class="logo">FundsIQ</h1>
-<p class="tagline">Study Smart. Score Higher.</p>
-
-    <!-- Main Buttons -->
-
-    <div class="button-group">
-
-        <a href="courses.html" class="main-btn">
-            📚 Browse Courses
-        </a>
-
-        <a href="exam.html" class="main-btn">
-    📝 Start CBT Practice
-        </a>
-
-    </div>
-
-    <!-- Quick Stats -->
-
-    <div class="stats">
-
-        <div class="card">
-            <h3>7</h3>
-            <span>GST Courses</span>
+      <!-- ===========================
+      MAIN ACTION GRID
+      =========================== -->
+      <h3 class="section-title">Academic Portals</h3>
+      <main class="action-grid">
+        
+        <!-- Portal 1: General Courses -->
+        <div class="grid-card" onclick="location.href='courses.html'">
+          <div class="grid-icon purple">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <h3>General Courses</h3>
+          <p>Study GST courses and notes.</p>
+          <div class="arrow-indicator">➔</div>
         </div>
 
-        <div class="card">
-            <h3>3000+</h3>
-            <span>Questions</span>
+        <!-- Portal 2: Simulated CBT -->
+        <div class="grid-card" onclick="location.href='exam.html'">
+          <div class="grid-icon pink">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3>Simulated CBT</h3>
+          <p>Practice real CBT exams.</p>
+          <div class="arrow-indicator">➔</div>
         </div>
 
+        <!-- Portal 3: GPA Calculator -->
+        <div class="grid-card" onclick="alert('GPA Calculator is coming soon in v1.1!')">
+          <div class="grid-icon green">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="15" y2="22"></line><line x1="8" y1="6" x2="16" y2="6"></line><line x1="16" y1="14" x2="16" y2="18"></line></svg>
+          </div>
+          <h3>GPA Calculator</h3>
+          <p>Calculate your GPA easily.</p>
+          <div class="arrow-indicator">➔</div>
+        </div>
+
+        <!-- Portal 4: Leaderboard -->
+        <div class="grid-card" onclick="alert('Leaderboard rankings are being compiled.')">
+          <div class="grid-icon gold">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"></path><path d="M12 2a5 5 0 0 0-5 5v3c0 2.2 1.8 4 4 4h2c2.2 0 4-1.8 4-4V7a5 5 0 0 0-5-5z"></path></svg>
+          </div>
+          <h3>Leaderboard</h3>
+          <p>See top performers.</p>
+          <div class="arrow-indicator">➔</div>
+        </div>
+
+        <!-- Portal 5: Timetable -->
+        <div class="grid-card" onclick="alert('Timetable setup will go live next semester.')">
+          <div class="grid-icon orange">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          </div>
+          <h3>Timetable</h3>
+          <p>Manage your class schedule.</p>
+          <div class="arrow-indicator">➔</div>
+        </div>
+
+        <!-- Portal 6: My Performance -->
+        <div class="grid-card" onclick="alert('Performance tracking requires completed exam data.')">
+          <div class="grid-icon blue">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          </div>
+          <h3>My Performance</h3>
+          <p>Track your progress and stats.</p>
+          <div class="arrow-indicator">➔</div>
+        </div>
+
+        <!-- Portal 7: Become a Marketer -->
+        <div class="grid-card" onclick="alert('Affiliate setup is being configured.')">
+          <div class="grid-icon neon-gold">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+          </div>
+          <h3>Become a Marketer</h3>
+          <p>Earn by referring your friends.</p>
+          <div class="arrow-indicator">➔</div>
+        </div>
+
+        <!-- Portal 8: Marketer's Dashboard -->
+        <div class="grid-card" onclick="alert('Marketing credentials must be activated first.')">
+          <div class="grid-icon neon-blue">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+          </div>
+          <h3>Marketer's Dashboard</h3>
+          <p>View your earnings and stats.</p>
+          <div class="arrow-indicator">➔</div>
+        </div>
+
+      </main>
+
+      <!-- ===========================
+      REFERRAL BANNER
+      =========================== -->
+      <section class="referral-banner">
+        <div class="ref-content">
+          <h3>Earn PSA coins when you refer your coursemates</h3>
+          <button class="ref-btn" onclick="alert('Invite link copied!')">Learn more</button>
+        </div>
+        <div class="ref-gift">
+          <!-- Styled 3D Gift Box SVG -->
+          <svg class="gift-svg" viewBox="0 0 100 100">
+            <defs>
+              <linearGradient id="giftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#6d28d9" />
+              </linearGradient>
+            </defs>
+            <rect x="20" y="40" width="60" height="50" rx="8" fill="url(#giftGrad)" />
+            <rect x="15" y="30" width="70" height="15" rx="5" fill="#a78bfa" />
+            <rect x="45" y="30" width="10" height="60" fill="#f59e0b" />
+            <path d="M50,30 C30,10 45,5 50,25 C55,5 70,10 50,30 Z" fill="#f59e0b" />
+          </svg>
+        </div>
+      </section>
+
+      <!-- ===========================
+      MICRO SERVICE CARDS
+      =========================== -->
+      <div class="micro-grid">
+        <div class="micro-card" onclick="alert('No referral records found.')">
+          <div class="micro-icon p-purple">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="4"></circle><path d="M3 20a9 9 0 0 1 18 0"></path></svg>
+          </div>
+          <div class="micro-text">
+            <h5>Top Referrals</h5>
+            <p>See top referrers.</p>
+          </div>
+        </div>
+
+        <div class="micro-card" onclick="alert('You have referred 0 users.')">
+          <div class="micro-icon p-green">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="micro-text">
+            <h5>My Referrals</h5>
+            <p>Track your referrals.</p>
+          </div>
+        </div>
+
+        <div class="micro-card" id="share-app-btn">
+          <div class="micro-icon p-blue">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+          </div>
+          <div class="micro-text">
+            <h5>Share FundsIQ</h5>
+            <p>Invite friends to study.</p>
+          </div>
+        </div>
+
+        <div class="micro-card" onclick="alert('Bookmarks can be managed during your reading sessions.')">
+          <div class="micro-icon p-gold">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <div class="micro-text">
+            <h5>My Bookmarks</h5>
+            <p>View saved notes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===========================
+      PREMIUM UPGRADE CARD
+      =========================== -->
+      <section class="premium-card">
+        <div class="premium-header">
+          <div class="premium-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line></svg>
+          </div>
+          <div class="premium-badge">Go Premium <span>PRO</span></div>
+        </div>
+        <p>Unlock more features and remove all academic ads.</p>
+        <button class="upgrade-btn" onclick="alert('Premium access billing is currently offline.')">👑 Upgrade Now</button>
+      </section>
+
+      <!-- ===========================
+      SIGNATURE FOOTER
+      =========================== -->
+      <footer class="footer">
+        <p class="footer-version">FundsIQ v1.0</p>
+        <p class="footer-author">Designed by <span class="author-name">Odigwe Joshua <span class="verified-badge">✓</span></span></p>
+      </footer>
+
     </div>
+  </div>
 
-</div>
+  <!-- ===========================
+  BOTTOM NAVIGATION BAR
+  =========================== -->
+  <nav class="bottom-nav">
+    <div class="bottom-nav-item active" onclick="location.reload()">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      <span>Home</span>
+    </div>
+    <div class="bottom-nav-item" onclick="location.href='courses.html'">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+      <span>Learn</span>
+    </div>
+    <div class="bottom-nav-item" onclick="location.href='exam.html'">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+      <span>Practice</span>
+    </div>
+    <div class="bottom-nav-item" onclick="alert('Full dashboard metrics are in progress.')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12" x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12" y2="18"></line></svg>
+      <span>Stats</span>
+    </div>
+  </nav>
 
-<script src="app.js"></script>
+  <script src="dashboard.js"></script>
 </body>
-</html>
+  </html>
