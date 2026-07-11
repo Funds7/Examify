@@ -3,74 +3,104 @@
 // ==========================================
 
 const questions =
-    JSON.parse(localStorage.getItem("examQuestions")) || [];
+JSON.parse(localStorage.getItem("examQuestions")) || [];
 
 const answers =
-    JSON.parse(localStorage.getItem("examAnswers")) || [];
+JSON.parse(localStorage.getItem("examAnswers")) || [];
 
 let current = 0;
 
+// ==========================================
+// SHOW QUESTION
+// ==========================================
+
 function showQuestion(index){
 
-    if(!questions.length){
-        document.querySelector(".correction-container").innerHTML =
+    if(questions.length===0){
+
+        document.querySelector(".container").innerHTML =
         "<h2>No correction data available.</h2>";
+
         return;
     }
 
     const q = questions[index];
 
+    // Counter
     document.getElementById("questionCounter").innerHTML =
-    `Question ${index + 1} of ${questions.length}`;
+    `${index+1} / ${questions.length}`;
 
+    // Progress Bar
+    document.getElementById("progressFill").style.width =
+    `${((index+1)/questions.length)*100}%`;
+
+    // Question
     document.getElementById("questionText").innerHTML =
     q.question;
 
-    const optionsContainer =
+    // Options
+    const options =
     document.getElementById("optionsContainer");
 
-    optionsContainer.innerHTML = "";
+    options.innerHTML="";
 
     q.options.forEach((option,i)=>{
 
-        const div = document.createElement("div");
+        const div=document.createElement("div");
 
-        div.className = "option normal";
+        div.className="option";
 
         if(i===q.answer){
 
-            div.className="option correct";
+            div.classList.add("correct");
 
         }
         else if(answers[index]===i){
 
-            div.className="option wrong";
+            div.classList.add("wrong");
 
         }
 
-        div.innerHTML =
+        div.innerHTML=
         `<strong>${String.fromCharCode(65+i)}.</strong> ${option}`;
 
-        optionsContainer.appendChild(div);
+        options.appendChild(div);
 
     });
 
+    // Show only letters
+    const yourAnswer =
+    answers[index]!==undefined
+    ? String.fromCharCode(65+answers[index])
+    : "--";
+
+    const correctAnswer =
+    String.fromCharCode(65+q.answer);
+
     document.getElementById("your-answer").innerHTML =
-    answers[index] !== undefined
-        ? q.options[answers[index]]
-        : "Not Answered";
+    yourAnswer;
 
-document.getElementById("correct-answer").innerHTML =
-    q.options[q.answer];
+    document.getElementById("correct-answer").innerHTML =
+    correctAnswer;
 
-document.getElementById("explanationText").innerHTML =
+    // Explanation
+    document.getElementById("explanationText").innerHTML =
     q.explanation ||
-    "No explanation was provided for this question.";
+    "No explanation available.";
+
+    // Collapse explanation every new question
+    document.getElementById("explanationBody").style.display="none";
+    document.getElementById("arrow").innerHTML="▼";
+
 }
+
+// ==========================================
+// NEXT
+// ==========================================
 
 function nextCorrection(){
 
-    if(current < questions.length-1){
+    if(current<questions.length-1){
 
         current++;
 
@@ -79,6 +109,10 @@ function nextCorrection(){
     }
 
 }
+
+// ==========================================
+// PREVIOUS
+// ==========================================
 
 function previousCorrection(){
 
@@ -91,5 +125,35 @@ function previousCorrection(){
     }
 
 }
+
+// ==========================================
+// TOGGLE EXPLANATION
+// ==========================================
+
+function toggleExplanation(){
+
+    const body=
+    document.getElementById("explanationBody");
+
+    const arrow=
+    document.getElementById("arrow");
+
+    if(body.style.display==="block"){
+
+        body.style.display="none";
+
+        arrow.innerHTML="▼";
+
+    }else{
+
+        body.style.display="block";
+
+        arrow.innerHTML="▲";
+
+    }
+
+}
+
+// ==========================================
 
 showQuestion(current);
