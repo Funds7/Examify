@@ -10,6 +10,9 @@ import {
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 
+console.log("Dashboard.js connected");
+
+
 /**
  * FundsIQ Dashboard Framework Script
  * Developed by Odigwe Joshua
@@ -52,8 +55,9 @@ function loadUser(){
 
     onAuthStateChanged(auth, async(user)=>{
 
+console.log("Current user:", user);
 
-        if(user){
+if(user){
 
 
             try{
