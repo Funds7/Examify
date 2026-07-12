@@ -139,3 +139,104 @@ select {
 .bottom-nav-item:hover svg {
   transform: translateY(-2px);
 }
+/* =========================================================================
+   SHARED SECTION TITLES
+   ========================================================================= */
+
+.section-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 14px;
+}
+
+/* =========================================================================
+   SHARED GRID
+   ========================================================================= */
+
+.action-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 25px;
+}
+
+.grid-card {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(255,255,255,0.03);
+  border-radius: 24px;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0,0,0,.15);
+  transition: transform .25s, box-shadow .25s;
+}
+
+.grid-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.3);
+}
+
+.grid-icon{
+  width:48px;
+  height:48px;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:14px;
+}
+
+/* Shared Icon Colors */
+
+.grid-icon.purple{
+  background:rgba(139,92,246,.12);
+  color:var(--purple);
+}
+
+.grid-icon.pink{
+  background:rgba(236,72,153,.12);
+  color:var(--pink);
+}
+
+.grid-icon.green{
+  background:rgba(34,197,94,.12);
+  color:var(--green);
+}
+
+.grid-icon.gold{
+  background:rgba(245,158,11,.12);
+  color:var(--gold);
+}
+
+.grid-icon.orange{
+  background:rgba(249,115,22,.12);
+  color:#f97316;
+}
+
+.grid-icon.blue{
+  background:rgba(59,130,246,.12);
+  color:#3b82f6;
+}
+
+.grid-icon.neon-gold{
+  background:rgba(234,179,8,.12);
+  color:#eab308;
+}
+
+.grid-icon.neon-blue{
+  background:rgba(6,182,212,.12);
+  color:#06b6d4;
+}
+
+.grid-card h3{
+  font-size:.95rem;
+  font-weight:700;
+  margin-bottom:6px;
+}
+
+.grid-card p{
+  font-size:.78rem;
+  color:var(--text-gray);
+  line-height:1.4;
+}
