@@ -1,42 +1,79 @@
 import { auth } from "./firebase.js";
 
 import {
-signInWithEmailAndPassword
+    signInWithEmailAndPassword
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
 
 const loginBtn = document.getElementById("loginBtn");
 
 
-loginBtn.onclick = async()=>{
-
-const email =
-document.getElementById("email").value;
-
-const password =
-document.getElementById("password").value;
+loginBtn.addEventListener("click", async()=>{
 
 
-try{
-
-await signInWithEmailAndPassword(
-auth,
-email,
-password
-);
+    const email = document
+    .getElementById("email")
+    .value
+    .trim();
 
 
-alert("Login successful 🎉");
+    const password =
+    document.getElementById("password").value;
 
-window.location.href="courses.html";
 
 
-}
+    if(!email || !password){
 
-catch(error){
+        alert("Please enter email and password");
 
-alert(error.message);
+        return;
 
-}
+    }
 
-};
+
+
+    try{
+
+
+        await signInWithEmailAndPassword(
+            auth,
+            email,
+            password
+        );
+
+
+        alert("Login successful 🎉");
+
+
+        window.location.href = "index.html";
+
+
+    }
+
+
+    catch(error){
+
+
+        if(error.code === "auth/invalid-credential"){
+
+            alert("Incorrect email or password");
+
+        }
+
+        else if(error.code === "auth/too-many-requests"){
+
+            alert("Too many attempts. Try again later");
+
+        }
+
+        else{
+
+            alert(error.message);
+
+        }
+
+
+    }
+
+
+});
