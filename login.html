@@ -1,37 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>FundsIQ Login</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <title>FundsIQ - Login</title>
+
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
 
 <div class="auth-container">
 
-<h1>🎓 FundsIQ</h1>
+    <!-- Logo -->
+    <div class="logo">
+        🎓
+    </div>
 
-<p>Student Login</p>
+    <!-- Title -->
+    <h1>FundsIQ</h1>
 
-<input id="email" type="email" placeholder="Email">
+    <p class="subtitle">
+        Welcome back! Continue mastering your GST courses.
+    </p>
 
-<input id="password" type="password" placeholder="Password">
+    <!-- Login Form -->
+    <form id="loginForm">
 
-<button id="loginBtn">
-Login
-</button>
+        <div class="input-group">
+            <input
+                id="email"
+                type="email"
+                placeholder="Email Address"
+                autocomplete="email"
+                required>
+        </div>
 
+        <div class="input-group">
+            <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                autocomplete="current-password"
+                required>
+        </div>
 
-<p>
-Don't have an account?
-<a href="signup.html">Create Account</a>
-</p>
+        <a href="#" class="forgot">
+            Forgot Password?
+        </a>
+
+        <button
+            type="submit"
+            class="login-btn">
+            Login
+        </button>
+
+    </form>
+
+    <!-- Divider -->
+    <div class="divider">
+        <span>OR</span>
+    </div>
+
+    <!-- Google Login -->
+    <button
+        type="button"
+        class="google-btn"
+        id="googleLogin">
+
+        <span>🔵</span>
+        Continue with Google
+
+    </button>
+
+    <!-- Sign Up -->
+    <p class="signup">
+        Don't have an account?
+        <a href="signup.html">
+            Create Account
+        </a>
+    </p>
 
 </div>
 
-
+<!-- Firebase Login -->
 <script type="module" src="login.js"></script>
 
 </body>
