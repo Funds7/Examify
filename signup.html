@@ -1,38 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>FundsIQ - Create Account</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <title>FundsIQ - Create Account</title>
+
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
 
 <div class="auth-container">
 
-    <h1>🎓 FundsIQ</h1>
-    <p>Create Student Account</p>
+    <!-- Logo -->
+    <div class="logo">
+        🎓
+    </div>
 
-    <input id="name" type="text" placeholder="Full Name">
+    <!-- Title -->
+    <h1>FundsIQ</h1>
 
-    <input id="email" type="email" placeholder="Email Address">
+    <p class="subtitle">
+        Create your student account and start mastering your GST courses.
+    </p>
 
-    <input id="password" type="password" placeholder="Password">
+    <!-- Signup Form -->
+    <form id="signupForm">
 
-    <button id="signupBtn">
-        Create Account
-    </button>
+        <div class="input-group">
+            <input
+                id="name"
+                type="text"
+                placeholder="Full Name"
+                autocomplete="name"
+                required>
+        </div>
 
-    <p>
+        <div class="input-group">
+            <input
+                id="email"
+                type="email"
+                placeholder="Email Address"
+                autocomplete="email"
+                required>
+        </div>
+
+        <div class="input-group">
+            <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                autocomplete="new-password"
+                required>
+        </div>
+
+        <button
+            type="button"
+            id="signupBtn"
+            class="login-btn">
+            Create Account
+        </button>
+
+    </form>
+
+    <p class="signup">
         Already have an account?
-        <a href="index.html">Login</a>
+        <a href="login.html">Login</a>
     </p>
 
 </div>
 
+<!-- Toast -->
+<div id="toast" class="toast"></div>
 
 <script type="module" src="auth.js"></script>
 
 </body>
+
 </html>
