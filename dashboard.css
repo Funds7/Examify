@@ -138,90 +138,50 @@ button, input, select {
   transition: transform 0.25s ease;
 }
 
-/* =========================================================================
-   PROFILE ROW
-   ========================================================================= */
+/* ==========================
+   PROFILE CARD
+========================== */
 
-.profile-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--bg-card);
-  border-radius: 24px;
-  padding: 16px;
-  margin-bottom: 22px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+.profile-card{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#1e293b;
+    padding:16px;
+    border-radius:20px;
+    margin-bottom:20px;
 }
 
-.profile-info {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.profile-info{
+    display:flex;
+    align-items:center;
+    gap:12px;
 }
 
-.avatar-container {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  overflow: hidden;
+/* SMALL PROFILE IMAGE */
+.avatar-container{
+    width:65px;
+    height:65px;
+    min-width:65px;
+    border-radius:50%;
+    overflow:hidden;
 }
 
-.avatar-svg {
-  width: 100%;
-  height: 100%;
+.avatar-svg{
+    width:100%;
+    height:100%;
+    display:block;
 }
 
-.profile-text h2 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--text-white);
+.profile-text h2{
+    font-size:22px;
+    margin-bottom:4px;
 }
 
-.profile-text p {
-  font-size: 0.82rem;
-  color: var(--text-gray);
-  margin-top: 3px;
+.profile-text p{
+    font-size:14px;
+    color:#94a3b8;
 }
-
-/* Coins Widget badge */
-.coins-badge {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background-color: rgba(245, 158, 11, 0.08);
-  border: 1px solid rgba(245, 158, 11, 0.25);
-  border-radius: 16px;
-  padding: 8px 12px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.coins-badge:hover {
-  transform: scale(1.03);
-}
-
-.coins-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.coins-text strong {
-  font-size: 0.95rem;
-  color: var(--gold);
-}
-
-.coins-text span {
-  font-size: 0.68rem;
-  color: var(--text-gray);
-  margin-top: 1px;
-}
-
-.chevron {
-  color: var(--gold);
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 /* =========================================================================
    MARKETING HERO BANNER
    ========================================================================= */
