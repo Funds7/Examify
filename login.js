@@ -4,58 +4,147 @@ import {
     signInWithEmailAndPassword
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
+// ===============================
+// Toast Notification
+// ===============================
+
+const toast = document.getElementById("toast");
+
+function showToast(message, type = "success") {
+
+    toast.textContent = message;
+    toast.className = `toast show ${type}`;
+
+    setTimeout(() => {
+        toast.className = "toast";
+    }, 3000);
+
+}
+
+// ===============================
+// Elements
+// ===============================
+
 const loginForm = document.getElementById("loginForm");
+const loginBtn = document.querySelector(".login-btn");
+
+// ===============================
+// Login
+// ===============================
 
 loginForm.addEventListener("submit", async (e) => {
 
     e.preventDefault();
 
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value;
+    const email = document
+        .getElementById("email")
+        .value
+        .trim();
 
+    const password = document
+        .getElementById("password")
+        .value;
+
+    // Validate fields
     if (!email || !password) {
-        alert("Please enter your email and password.");
+
+        showToast(
+            "Please enter your email and password.",
+            "warning"
+        );
+
         return;
     }
 
+    // Loading state
+    loginBtn.disabled = true;
+    loginBtn.textContent = "Signing in...";
+
     try {
 
-        const userCredential = await signInWithEmailAndPassword(
-            auth,
-            email,
-            password
-        );
+        const userCredential =
+            await signInWithEmailAndPassword(
+                auth,
+                email,
+                password
+            );
 
         const user = userCredential.user;
 
+        // Email verification
         if (!user.emailVerified) {
-    await auth.signOut();
-    alert("Please verify your email before logging in.");
-    return;
+
+            await auth.signOut();
+
+            loginBtn.disabled = false;
+            loginBtn.textContent = "Login";
+
+            showToast(
+                "Please verify your email before logging in.",
+                "warning"
+            );
+
+            return;
         }
 
-        alert("Login successful 🎉");
+        showToast(
+            "Login successful 🎉",
+            "success"
+        );
 
-        window.location.href = "index.html";
+        setTimeout(() => {
+
+            window.location.href = "index.html";
+
+        }, 1200);
 
     } catch (error) {
+
+        // Restore button
+        loginBtn.disabled = false;
+        loginBtn.textContent = "Login";
 
         switch (error.code) {
 
             case "auth/invalid-credential":
-                alert("Incorrect email or password.");
+
+                showToast(
+                    "Incorrect email or password.",
+                    "error"
+                );
                 break;
 
             case "auth/too-many-requests":
-                alert("Too many login attempts. Try again later.");
+
+                showToast(
+                    "Too many login attempts. Try again later.",
+                    "error"
+                );
                 break;
 
             case "auth/network-request-failed":
-                alert("Check your internet connection.");
+
+                showToast(
+                    "Check your internet connection.",
+                    "error"
+                );
+                break;
+
+            case "auth/user-disabled":
+
+                showToast(
+                    "This account has been disabled.",
+                    "error"
+                );
                 break;
 
             default:
-                alert(error.message);
+
+                showToast(
+                    "Something went wrong. Please try again.",
+                    "error"
+                );
+
         }
 
     }
