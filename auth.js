@@ -2,7 +2,8 @@ import { auth, db } from "./firebase.js";
 
 import {
     createUserWithEmailAndPassword,
-    sendEmailVerification
+    sendEmailVerification,
+    signOut
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
 import {
@@ -19,15 +20,16 @@ signupBtn.addEventListener("click", async () => {
     const password = document.getElementById("password").value;
 
     if (!name || !email || !password) {
-        alert("Please fill all fields.");
+        alert("Please fill in all fields.");
         return;
     }
 
     signupBtn.disabled = true;
-    signupBtn.textContent = "Creating account...";
+    signupBtn.textContent = "Creating Account...";
 
     try {
 
+        // Create Firebase account
         const userCredential = await createUserWithEmailAndPassword(
             auth,
             email,
@@ -36,27 +38,29 @@ signupBtn.addEventListener("click", async () => {
 
         const user = userCredential.user;
 
-        await setDoc(
-            doc(db, "users", user.uid),
-            {
-                uid: user.uid,
-                name: name,
-                email: email,
-                coins: 0,
-                role: "student",
-                completedTests: 0,
-                createdAt: new Date()
-            }
-        );
+        // Save user profile
+        await setDoc(doc(db, "users", user.uid), {
+
+            uid: user.uid,
+            name: name,
+            email: email,
+            coins: 0,
+            role: "student",
+            completedTests: 0,
+            createdAt: new Date()
+
+        });
 
         // Send verification email
         await sendEmailVerification(user);
 
-        // Sign out until verification
-        await auth.signOut();
+        // Sign user out until email is verified
+        await signOut(auth);
 
         alert(
-            "Account created successfully! 🎉\n\nA verification email has been sent.\nPlease verify your email before logging in."
+            "🎉 Account created successfully!\n\n" +
+            "A verification email has been sent to your email address.\n\n" +
+            "Please verify your email before logging in."
         );
 
         window.location.href = "login.html";
@@ -80,11 +84,13 @@ signupBtn.addEventListener("click", async () => {
                 alert("Please enter a valid email address.");
                 break;
 
+            case "auth/network-request-failed":
+                alert("Check your internet connection.");
+                break;
+
             default:
-                alert(error.message);
-
+                alert("Something went wrong. Please try again.");
         }
-
     }
 
 });
