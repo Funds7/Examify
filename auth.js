@@ -52,7 +52,13 @@ signupBtn.addEventListener("click", async () => {
         });
 
         // Send verification email
-        await sendEmailVerification(user);
+        try {
+    await sendEmailVerification(user);
+    alert("Verification email sent!");
+} catch (error) {
+    console.log(error);
+    alert(error.code + "\n" + error.message);
+        }
 
         // Sign user out until email is verified
         await signOut(auth);
