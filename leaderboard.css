@@ -1,0 +1,22 @@
+.leader-card{
+    background:#1f2937;
+    border-radius:15px;
+    padding:18px;
+    margin:15px 0;
+    color:white;
+    border-left:6px solid #0d6efd;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.leader-card h3{
+    margin-bottom:10px;
+    color:#ffd700;
+}
+
+.leader-card p{
+    margin:6px 0;
+}
+
+#leaderboard-list{
+    margin-top:25px;
+}
