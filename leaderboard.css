@@ -1,40 +1,14 @@
 /* ==========================
-   LEADERBOARD PAGE
+   PREMIUM TOP 3 CIRCLES
 ========================== */
-
-body {
-    background: #0f172a;
-}
-
-
-
-.container {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-}
-
-
-
-h1 {
-    text-align: center;
-    font-size: 32px;
-}
-
-
-
-/* ==========================
-   TOP THREE PODIUM
-========================== */
-
 
 #top-three {
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 12px;
-    margin: 30px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin:40px 0;
 
 }
 
@@ -42,11 +16,29 @@ h1 {
 
 .podium {
 
-    background: #1e293b;
-    padding: 15px;
-    border-radius: 20px;
-    text-align: center;
-    flex: 1;
+    width:130px;
+    height:130px;
+
+    border-radius:50%;
+
+    background:
+    linear-gradient(
+        145deg,
+        #334155,
+        #0f172a
+    );
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    border:4px solid #64748b;
+
+    box-shadow:
+    0 0 20px rgba(255,255,255,0.15);
 
 }
 
@@ -54,168 +46,66 @@ h1 {
 
 .podium.first {
 
-    transform: translateY(-20px);
-}
+    width:170px;
+    height:170px;
 
+    transform:translateY(-35px);
 
-
-.avatar {
-
-    font-size: 45px;
+    border-color:#fbbf24;
 
 }
 
 
 
-.position {
+.podium.second {
 
-    font-weight: bold;
-    margin-bottom: 10px;
-
-}
-
-
-
-.score {
-
-    margin-top: 10px;
-    font-weight: bold;
+    border-color:#cbd5e1;
 
 }
 
 
 
-/* ==========================
-   LEADERBOARD CARDS
-========================== */
+.podium.third {
 
-
-.leader-card {
-
-    background: #1e293b;
-    padding: 18px;
-
-    margin: 15px 0;
-
-    border-radius: 18px;
-
-    box-shadow:
-    0 8px 20px rgba(0,0,0,0.25);
+    border-color:#fb923c;
 
 }
 
 
 
-.leader-card h3 {
+.podium .avatar {
 
-    margin-top: 0;
-
-}
-
-
-
-.leader-card p {
-
-    margin: 6px 0;
+    font-size:35px;
 
 }
 
 
 
-/* ==========================
-   LOCK / COIN BANNER
-========================== */
+.podium .position {
 
+    font-weight:bold;
 
-.premium-banner {
-
-    background:
-    linear-gradient(
-        135deg,
-        #334155,
-        #1e293b
-    );
-
-
-    padding: 25px;
-
-    border-radius: 22px;
-
-    text-align: center;
-
-    margin: 25px 0;
+    font-size:14px;
 
 }
 
 
 
-.premium-banner h2,
-.premium-banner h3 {
+.podium h2,
+.podium h3 {
 
-    margin-bottom: 10px;
+    margin:5px 0;
 
-}
-
-
-
-.premium-banner button {
-
-
-    background: #f59e0b;
-
-    color: white;
-
-    border: none;
-
-    padding: 14px 25px;
-
-    border-radius: 30px;
-
-    font-size: 16px;
-
-    font-weight: bold;
-
-    cursor: pointer;
+    font-size:16px;
 
 }
 
 
 
-.premium-banner button:hover {
+.podium .score {
 
-    opacity: 0.85;
+    font-size:14px;
 
-}
-
-
-
-/* ==========================
-   MOBILE
-========================== */
-
-
-@media(max-width:500px){
-
-
-    #top-three {
-
-        gap: 5px;
-
-    }
-
-
-    .podium {
-
-        padding: 10px;
-
-    }
-
-
-    .avatar {
-
-        font-size: 32px;
-
-    }
-
+    font-weight:bold;
 
 }
