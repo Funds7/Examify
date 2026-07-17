@@ -1,3 +1,11 @@
+import { auth, db } from "./firebase.js";
+
+import {
+  doc,
+  getDoc,
+  updateDoc
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+
 // ==========================================
 // COIN SYSTEM
 // ==========================================
