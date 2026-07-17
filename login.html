@@ -1,29 +1,89 @@
-<form id="loginForm">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="input-group">
-        <input
-            id="email"
-            type="email"
-            placeholder="Email Address"
-            required>
-    </div>
+<head>
 
-    <div class="input-group">
-        <input
-            id="password"
-            type="password"
-            placeholder="Password"
-            required>
-    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <a href="forgot-password.html" class="forgot">
-        Forgot Password?
-    </a>
+    <title>FundsIQ Login</title>
 
-    <button
-        type="submit"
-        class="login-btn">
-        Login
-    </button>
+    <link rel="stylesheet" href="login.css">
 
-</form>
+</head>
+
+
+<body>
+
+
+<div class="auth-container">
+
+    <h1>🎓 FundsIQ</h1>
+
+    <p>Login to your student account</p>
+
+
+    <form id="loginForm">
+
+
+        <div class="input-group">
+
+            <input
+                id="email"
+                type="email"
+                placeholder="Email Address"
+                required>
+
+        </div>
+
+
+
+        <div class="input-group">
+
+            <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                required>
+
+        </div>
+
+
+
+        <a href="forgot-password.html" class="forgot">
+            Forgot Password?
+        </a>
+
+
+
+        <button
+            type="submit"
+            class="login-btn">
+
+            Login
+
+        </button>
+
+
+    </form>
+
+
+
+    <p>
+        Don't have an account?
+        <a href="signup.html">
+            Create Account
+        </a>
+    </p>
+
+
+</div>
+
+
+
+<script type="module" src="login.js"></script>
+
+
+</body>
+
+</html>
