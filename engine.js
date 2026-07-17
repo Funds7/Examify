@@ -527,3 +527,10 @@ async function finishExam(autoSubmit = false) {
     // Go to result page
     window.location.href = "result.html";
 }
+window.startExam = startExam;
+window.setMode = setMode;
+window.answer = answer;
+window.nextQuestion = nextQuestion;
+window.prevQuestion = prevQuestion;
+window.markForReview = markForReview;
+window.finishExam = finishExam;
