@@ -8,145 +8,196 @@ import {
     getDocs
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
+
+
 async function loadLeaderboard() {
 
     const list = document.getElementById("leaderboard-list");
 
     if (!list) return;
 
-    list.innerHTML = "<p>Loading leaderboard...</p>";
+
+    const unlocked =
+        localStorage.getItem("leaderboardAccess");
+
+
+
+    if(unlocked !== "true"){
+
+        list.innerHTML = `
+
+        <div class="premium-banner">
+
+            <h3>🔒 Leaderboard Locked</h3>
+
+            <p>
+                Unlock full rankings with 500 🪙 Coins.
+            </p>
+
+
+            <button onclick="unlockLeaderboard()">
+                🪙 Unlock Leaderboard
+            </button>
+
+
+        </div>
+
+        `;
+
+        return;
+
+    }
+
+
+
+    list.innerHTML =
+    "<p>Loading leaderboard...</p>";
+
+
 
     try {
 
+
         const q = query(
+
             collection(db, "users"),
-            orderBy("totalScore", "desc"),
+
+            orderBy(
+                "totalScore",
+                "desc"
+            ),
+
             limit(100)
+
         );
 
-        const snap = await getDocs(q);
+
+
+        const snap =
+        await getDocs(q);
+
+
 
         list.innerHTML = "";
 
-        if (snap.empty) {
+
+
+        if(snap.empty){
+
             list.innerHTML = `
-                <p style="text-align:center;">
-                    No students on the leaderboard yet.
-                </p>
+
+            <p style="text-align:center;">
+                No students on leaderboard yet.
+            </p>
+
             `;
+
             return;
+
         }
+
+
 
         let rank = 1;
 
-        snap.forEach((docSnap) => {
 
-            const user = docSnap.data();
 
-            // TOP 3
-            if(rank <= 3){
+        snap.forEach((docSnap)=>{
 
-                const medal =
-                    rank === 1 ? "🥇 1st" :
-                    rank === 2 ? "🥈 2nd" :
-                    "🥉 3rd";
 
-                list.innerHTML += `
-                    <div class="leader-card top-three">
+            const user =
+            docSnap.data();
 
-                        <h2>${medal}</h2>
 
-                        <h3>${user.name || "Anonymous"}</h3>
 
-                        <p>⭐ Level ${user.level ?? 1}</p>
+            let position;
 
-                        <p>🎯 ${user.totalScore ?? 0} Points</p>
 
-                        <p>📚 ${user.completedTests ?? 0} Exams</p>
+            if(rank === 1)
+                position="🥇 1st";
 
-                        <p>🔥 ${user.studyStreak ?? 0} Day Streak</p>
+            else if(rank === 2)
+                position="🥈 2nd";
 
-                    </div>
-                `;
+            else if(rank === 3)
+                position="🥉 3rd";
 
-            }
+            else
+                position=rank+"th";
 
-            // PREMIUM BANNER AFTER TOP 3
-            if(rank === 4){
 
-                list.innerHTML += `
 
-                <div class="premium-banner">
+            list.innerHTML += `
 
-                    <h3>🔒 Premium Leaderboard</h3>
 
-                    <p>
-                        The remaining rankings are available only to
-                        Premium members.
-                    </p>
+            <div class="leader-card">
 
-                    <p>
-                        Don't have Premium?
-                        Spend Coins to unlock your ranking.
-                    </p>
 
-                    <button onclick="location.href='premium.html'">
-                        Upgrade to Premium 👑
-                    </button>
+                <h3>
+                    ${position}
+                </h3>
 
-                </div>
 
-                `;
+                <strong>
+                    ${user.name || "Anonymous"}
+                </strong>
 
-            }
 
-            // REMAINING RANKS
-            if(rank >= 4){
+                <p>
+                    ⭐ Level ${user.level ?? 1}
+                </p>
 
-                let position;
 
-                if(rank===4) position="4th";
-                else if(rank===5) position="5th";
-                else if(rank===6) position="6th";
-                else if(rank===7) position="7th";
-                else if(rank===8) position="8th";
-                else if(rank===9) position="9th";
-                else if(rank===10) position="10th";
-                else position = rank + "th";
+                <p>
+                    🎯 ${user.totalScore ?? 0} Points
+                </p>
 
-                list.innerHTML += `
 
-                <div class="leader-card">
+                <p>
+                    📚 ${user.completedTests ?? 0} Exams
+                </p>
 
-                    <h3>${position}</h3>
 
-                    <strong>${user.name || "Anonymous"}</strong>
+                <p>
+                    🔥 ${user.studyStreak ?? 0} Day Streak
+                </p>
 
-                    <p>⭐ Level ${user.level ?? 1}</p>
 
-                    <p>🎯 ${user.totalScore ?? 0} Points</p>
+            </div>
 
-                </div>
 
-                `;
+            `;
 
-            }
+
 
             rank++;
 
+
         });
 
-    } catch(error){
+
+
+    }
+    catch(error){
+
 
         console.error(error);
+
+
 
         list.innerHTML = `
 
         <div class="leader-card">
 
-            <h3>❌ Failed to load leaderboard</h3>
+            <h3>
+                ❌ Failed to load leaderboard
+            </h3>
 
-            <p>${error.message}</p>
+
+            <p>
+                ${error.message}
+            </p>
+
 
         </div>
 
@@ -154,6 +205,12 @@ async function loadLeaderboard() {
 
     }
 
+
 }
 
-window.addEventListener("DOMContentLoaded", loadLeaderboard);
+
+
+window.addEventListener(
+"DOMContentLoaded",
+loadLeaderboard
+);
