@@ -13,97 +13,130 @@
 
 </head>
 
+
 <body>
+
 
 <div class="container">
 
+
     <h1>🏆 Leaderboard</h1>
 
-    <p>Top Students This Week</p>
+    <p class="subtitle">
+        Top Students This Week
+    </p>
 
 
-    <!-- TOP 3 PODIUM -->
+
+    <!-- PREMIUM TOP 3 PODIUM -->
 
     <div id="top-three">
 
+
+
+        <!-- 2ND PLACE -->
+
         <div class="podium second">
-            <div class="position">2nd</div>
-            <div class="avatar">🥈</div>
+
+            <div class="avatar">
+                🥈
+            </div>
+
+
+            <div class="position">
+                2nd
+            </div>
+
 
             <h3 id="second-name">
                 Loading...
             </h3>
 
-            <small id="second-course">
-                GST 102
-            </small>
 
             <div class="score" id="second-score">
-                0 pts
+                ⭐ 0 Points
             </div>
 
         </div>
 
 
 
+
+        <!-- 1ST PLACE -->
+
         <div class="podium first">
 
-            <div class="position">
-                1st 👑
+
+            <div class="crown">
+                👑
             </div>
+
 
             <div class="avatar">
                 🥇
             </div>
 
+
+            <div class="position">
+                1st
+            </div>
+
+
             <h2 id="first-name">
                 Loading...
             </h2>
 
-            <small id="first-course">
-                GST 101
-            </small>
 
             <div class="score" id="first-score">
-                0 pts
+                ⭐ 0 Points
             </div>
+
 
         </div>
 
 
 
+
+        <!-- 3RD PLACE -->
+
         <div class="podium third">
 
-            <div class="position">
-                3rd
-            </div>
 
             <div class="avatar">
                 🥉
             </div>
 
+
+            <div class="position">
+                3rd
+            </div>
+
+
             <h3 id="third-name">
                 Loading...
             </h3>
 
-            <small id="third-course">
-                GST 103
-            </small>
 
             <div class="score" id="third-score">
-                0 pts
+                ⭐ 0 Points
             </div>
 
+
         </div>
+
 
 
     </div>
 
 
 
-    <!-- LEADERBOARD UNLOCK SECTION -->
 
-    <div class="premium-banner">
+
+    <!-- LOCK SECTION -->
+
+
+    <div class="unlock-box">
+
 
         <h2>
             🔒 Full Rankings Locked
@@ -111,19 +144,20 @@
 
 
         <p>
-            Unlock your complete leaderboard position
-            and compete with other students.
+            Unlock your complete position and compete with other students.
         </p>
 
 
-        <p>
-            Cost:
-            <b>500 🪙 Coins</b>
-        </p>
+        <h3>
+            Cost: 🪙 500 Coins
+        </h3>
+
 
 
         <button onclick="unlockLeaderboard()">
+
             🪙 Unlock Leaderboard
+
         </button>
 
 
@@ -132,28 +166,36 @@
 
 
 
-    <!-- FULL RANKINGS -->
 
 
-    <h2>
+    <!-- RANKINGS BELOW TOP 3 -->
+
+
+    <h2 class="ranking-title">
         🏅 Rankings
     </h2>
 
 
+
     <div id="leaderboard-list">
+
 
         Loading leaderboard...
 
+
     </div>
+
 
 
 </div>
 
 
 
+
 <script type="module" src="coin.js"></script>
 
 <script type="module" src="leaderboard.js"></script>
+
 
 
 </body>
