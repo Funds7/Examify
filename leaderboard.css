@@ -6,17 +6,36 @@
     color:white;
     border-left:6px solid #0d6efd;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:0.3s;
+}
+
+.leader-card:hover{
+    transform:translateY(-2px);
 }
 
 .leader-card h3{
     margin-bottom:10px;
     color:#ffd700;
+    font-size:20px;
 }
 
 .leader-card p{
     margin:6px 0;
+    color:#d1d5db;
 }
 
 #leaderboard-list{
     margin-top:25px;
+}
+
+.loading,
+.empty,
+.error{
+    text-align:center;
+    padding:20px;
+    color:#9ca3af;
+}
+
+.error{
+    color:#ef4444;
 }
