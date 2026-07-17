@@ -1,11 +1,11 @@
 import { db } from "./firebase.js";
 
 import {
-  collection,
-  query,
-  orderBy,
-  limit,
-  getDocs
+    collection,
+    query,
+    orderBy,
+    limit,
+    getDocs
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 async function loadLeaderboard() {
@@ -29,34 +29,38 @@ async function loadLeaderboard() {
         list.innerHTML = "";
 
         if (snap.empty) {
-            list.innerHTML = "<p>No students on the leaderboard yet.</p>";
+            list.innerHTML = `
+                <p style="text-align:center;">
+                    No students on the leaderboard yet.
+                </p>
+            `;
             return;
         }
 
         let rank = 1;
 
-        snap.forEach((doc) => {
+        snap.forEach((docSnap) => {
 
-            const user = doc.data();
+            const user = docSnap.data();
 
             const medal =
                 rank === 1 ? "🥇" :
                 rank === 2 ? "🥈" :
                 rank === 3 ? "🥉" :
-                `#${rank}`;
+                "#" + rank;
 
             list.innerHTML += `
                 <div class="leader-card">
 
                     <h3>${medal} ${user.name || "Anonymous"}</h3>
 
-                    <p>⭐ Level ${user.level ?? 1}</p>
+                    <p>⭐ Level ${user.level || 1}</p>
 
-                    <p>🎯 ${user.totalScore ?? 0} Points</p>
+                    <p>🎯 ${user.totalScore || 0} Points</p>
 
-                    <p>📚 ${user.completedTests ?? 0} Exams</p>
+                    <p>📚 ${user.completedTests || 0} Exams</p>
 
-                    <p>🔥 ${user.studyStreak ?? 0} Day Streak</p>
+                    <p>🔥 ${user.studyStreak || 0} Day Streak</p>
 
                 </div>
             `;
@@ -69,14 +73,23 @@ async function loadLeaderboard() {
 
         console.error("Leaderboard Error:", error);
 
+        alert(
+            "Leaderboard Error\n\n" +
+            error.message
+        );
+
         list.innerHTML = `
-            <p style="color:red;text-align:center;">
-                Failed to load leaderboard.
-            </p>
+            <div class="leader-card">
+
+                <h3>❌ Leaderboard Error</h3>
+
+                <p>${error.message}</p>
+
+            </div>
         `;
 
     }
 
 }
 
-loadLeaderboard();
+window.addEventListener("DOMContentLoaded", loadLeaderboard);
