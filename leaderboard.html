@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,17 +10,6 @@
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="leaderboard.css">
-
-<script>
-window.onerror = function(message, source, lineno){
-    alert(
-        "Leaderboard Error:\n\n" +
-        message +
-        "\n\nFile: " + source +
-        "\nLine: " + lineno
-    );
-};
-</script>
 
 </head>
 
@@ -29,10 +19,67 @@ window.onerror = function(message, source, lineno){
 
     <h1>🏆 Leaderboard</h1>
 
-    <p>Top Students</p>
+    <p>Top Students This Week</p>
+
+    <!-- TOP 3 PODIUM -->
+    <div id="top-three">
+
+        <div class="podium second">
+            <div class="position">2nd</div>
+            <div class="avatar">🥈</div>
+            <h3 id="second-name">Loading...</h3>
+            <small id="second-course">GST 102</small>
+            <div class="score" id="second-score">0 pts</div>
+        </div>
+
+        <div class="podium first">
+            <div class="position">1st 👑</div>
+            <div class="avatar">🥇</div>
+            <h2 id="first-name">Loading...</h2>
+            <small id="first-course">GST 101</small>
+            <div class="score" id="first-score">0 pts</div>
+        </div>
+
+        <div class="podium third">
+            <div class="position">3rd</div>
+            <div class="avatar">🥉</div>
+            <h3 id="third-name">Loading...</h3>
+            <small id="third-course">GST 103</small>
+            <div class="score" id="third-score">0 pts</div>
+        </div>
+
+    </div>
+
+    <!-- PREMIUM SECTION -->
+
+    <div class="premium-banner">
+
+        <h2>🔒 Find Your Rank</h2>
+
+        <p>
+            The full leaderboard is available to
+            <b>Premium members</b>.
+        </p>
+
+        <p>
+            Don't have Premium?
+            Unlock with Coins and appear on the rankings.
+        </p>
+
+        <button onclick="location.href='premium.html'">
+            ⭐ Activate Premium
+        </button>
+
+    </div>
+
+    <!-- FULL RANKINGS -->
+
+    <h2>🏅 Rankings</h2>
 
     <div id="leaderboard-list">
+
         Loading leaderboard...
+
     </div>
 
 </div>
@@ -40,4 +87,5 @@ window.onerror = function(message, source, lineno){
 <script type="module" src="leaderboard.js"></script>
 
 </body>
+
 </html>
