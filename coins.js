@@ -256,27 +256,6 @@ async function startPractice(){
 
 
 // ==========================
-// GLOBAL FUNCTIONS
-// ==========================
-
-window.startPractice =
-startPractice;
-
-
-window.rewardCoins =
-rewardCoins;
-
-
-window.spendCoins =
-spendCoins;
-
-
-window.updateCoinDisplay =
-updateCoinDisplay;
-
-
-
-// ==========================
 // LOAD COINS AFTER LOGIN
 // ==========================
 
@@ -291,3 +270,47 @@ auth,
     }
 
 });
+
+
+// ==========================
+// UNLOCK LEADERBOARD
+// ==========================
+
+async function unlockLeaderboard(){
+
+    const paid = await spendCoins(
+        500,
+        "Leaderboard Access"
+    );
+
+
+    if(paid){
+
+        localStorage.setItem(
+            "leaderboardAccess",
+            "true"
+        );
+
+
+        alert("🏆 Leaderboard Unlocked!");
+
+        location.reload();
+
+    }
+
+}
+
+
+// ==========================
+// GLOBAL FUNCTIONS
+// ==========================
+
+window.startPractice = startPractice;
+
+window.rewardCoins = rewardCoins;
+
+window.spendCoins = spendCoins;
+
+window.updateCoinDisplay = updateCoinDisplay;
+
+window.unlockLeaderboard = unlockLeaderboard;
