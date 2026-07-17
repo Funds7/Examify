@@ -6,16 +6,11 @@ async function payForExam() {
     if (typeof spendCoins !== "function") {
 
         console.error("Coin system not loaded");
-        return true; // allow testing if coin.js is missing
+        return true;
 
     }
 
-
-    const paid = await spendCoins(
-        10,
-        selectedMode + " Attempt"
-    );
-
+    const paid = await spendCoins(10);
 
     return paid;
 
