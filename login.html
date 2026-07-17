@@ -1,22 +1,50 @@
-<form id="loginForm">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundsIQ - Login</title>
 
-    <div class="input-group">
-        <input
-            id="email"
-            type="email"
-            placeholder="Email Address"
-            autocomplete="email"
-            required>
-    </div>
+    <link rel="stylesheet" href="login.css">
+</head>
 
-    <a href="forgot-password.html" class="forgot">
-        Forgot Password?
-    </a>
+<body>
 
-    <button
-        type="submit"
-        class="login-btn">
-        Login
-    </button>
+<div class="auth-container">
 
-</form>
+    <div class="logo">🎓</div>
+
+    <h1>FundsIQ</h1>
+
+    <p class="subtitle">
+        Welcome back! Continue mastering your GST courses.
+    </p>
+
+    <form id="loginForm">
+
+        <div class="input-group">
+            <input
+                id="email"
+                type="email"
+                placeholder="Email Address"
+                required>
+        </div>
+
+        <a href="forgot-password.html" class="forgot">
+            Forgot Password?
+        </a>
+
+        <button
+            type="submit"
+            class="login-btn">
+            Login
+        </button>
+
+    </form>
+
+</div>
+
+<script type="module" src="login.js"></script>
+
+</body>
+</html>
