@@ -1,8 +1,4 @@
-alert("leaderboard.js loaded");
-
 import { db } from "./firebase.js";
-
-alert("firebase.js imported");
 
 import {
     collection,
