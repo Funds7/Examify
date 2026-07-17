@@ -1,4 +1,4 @@
-import { auth, db } from "./firebase.js";
+import { db } from "./firebase.js";
 
 import {
   collection,
@@ -14,47 +14,68 @@ async function loadLeaderboard() {
 
     if (!list) return;
 
-    list.innerHTML = "<p>Loading...</p>";
+    list.innerHTML = "<p>Loading leaderboard...</p>";
 
-    const q = query(
-        collection(db, "users"),
-        orderBy("totalScore", "desc"),
-        limit(100)
-    );
+    try {
 
-    const snap = await getDocs(q);
+        const q = query(
+            collection(db, "users"),
+            orderBy("totalScore", "desc"),
+            limit(100)
+        );
 
-    list.innerHTML = "";
+        const snap = await getDocs(q);
 
-    let rank = 1;
+        list.innerHTML = "";
 
-    snap.forEach(doc => {
+        if (snap.empty) {
+            list.innerHTML = "<p>No students on the leaderboard yet.</p>";
+            return;
+        }
 
-        const user = doc.data();
+        let rank = 1;
 
-        const medal =
-            rank === 1 ? "🥇" :
-            rank === 2 ? "🥈" :
-            rank === 3 ? "🥉" :
-            `#${rank}`;
+        snap.forEach((doc) => {
 
-        list.innerHTML += `
-        <div class="leader-card">
-            <h3>${medal} ${user.name}</h3>
+            const user = doc.data();
 
-            <p>⭐ Level ${user.level ?? 1}</p>
+            const medal =
+                rank === 1 ? "🥇" :
+                rank === 2 ? "🥈" :
+                rank === 3 ? "🥉" :
+                `#${rank}`;
 
-            <p>🎯 ${user.totalScore ?? 0} Points</p>
+            list.innerHTML += `
+                <div class="leader-card">
 
-            <p>📚 ${user.completedTests ?? 0} Exams</p>
+                    <h3>${medal} ${user.name || "Anonymous"}</h3>
 
-            <p>🔥 ${user.studyStreak ?? 0} Day Streak</p>
-        </div>
+                    <p>⭐ Level ${user.level ?? 1}</p>
+
+                    <p>🎯 ${user.totalScore ?? 0} Points</p>
+
+                    <p>📚 ${user.completedTests ?? 0} Exams</p>
+
+                    <p>🔥 ${user.studyStreak ?? 0} Day Streak</p>
+
+                </div>
+            `;
+
+            rank++;
+
+        });
+
+    } catch (error) {
+
+        console.error("Leaderboard Error:", error);
+
+        list.innerHTML = `
+            <p style="color:red;text-align:center;">
+                Failed to load leaderboard.
+            </p>
         `;
 
-        rank++;
-
-    });
+    }
 
 }
 
