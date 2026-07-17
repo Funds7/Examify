@@ -12,85 +12,32 @@ import {
 
 async function loadLeaderboard() {
 
-    const list = document.getElementById("leaderboard-list");
-
-    if (!list) return;
-
-
-    const unlocked =
-        localStorage.getItem("leaderboardAccess");
-
-
-
-    if(unlocked !== "true"){
-
-        list.innerHTML = `
-
-        <div class="premium-banner">
-
-            <h3>🔒 Leaderboard Locked</h3>
-
-            <p>
-                Unlock full rankings with 500 🪙 Coins.
-            </p>
-
-
-            <button onclick="unlockLeaderboard()">
-                🪙 Unlock Leaderboard
-            </button>
-
-
-        </div>
-
-        `;
-
-        return;
-
-    }
-
-
-
-    list.innerHTML =
-    "<p>Loading leaderboard...</p>";
-
-
-
     try {
 
-
         const q = query(
-
             collection(db, "users"),
-
-            orderBy(
-                "totalScore",
-                "desc"
-            ),
-
+            orderBy("totalScore", "desc"),
             limit(100)
-
         );
 
 
-
-        const snap =
-        await getDocs(q);
+        const snap = await getDocs(q);
 
 
-
-        list.innerHTML = "";
-
+        const users = [];
 
 
-        if(snap.empty){
+        snap.forEach((doc) => {
 
-            list.innerHTML = `
+            users.push(doc.data());
 
-            <p style="text-align:center;">
-                No students on leaderboard yet.
-            </p>
+        });
 
-            `;
+
+
+        if(users.length === 0){
+
+            console.log("No users found");
 
             return;
 
@@ -98,58 +45,86 @@ async function loadLeaderboard() {
 
 
 
-        let rank = 1;
+        // ==========================
+        // TOP 3 PODIUM
+        // ==========================
+
+
+        const first = users[0] || {};
+        const second = users[1] || {};
+        const third = users[2] || {};
 
 
 
-        snap.forEach((docSnap)=>{
+        document.getElementById("first-name").innerText =
+        first.name || "Anonymous";
 
 
-            const user =
-            docSnap.data();
+        document.getElementById("first-score").innerText =
+        `⭐ ${first.totalScore ?? 0} Points`;
 
 
 
-            let position;
+        document.getElementById("second-name").innerText =
+        second.name || "Anonymous";
 
 
-            if(rank === 1)
-                position="🥇 1st";
+        document.getElementById("second-score").innerText =
+        `⭐ ${second.totalScore ?? 0} Points`;
 
-            else if(rank === 2)
-                position="🥈 2nd";
 
-            else if(rank === 3)
-                position="🥉 3rd";
 
-            else
-                position=rank+"th";
+        document.getElementById("third-name").innerText =
+        third.name || "Anonymous";
+
+
+        document.getElementById("third-score").innerText =
+        `⭐ ${third.totalScore ?? 0} Points`;
+
+
+
+
+        // ==========================
+        // RANKINGS 4 - 100
+        // ==========================
+
+
+        const list =
+        document.getElementById("leaderboard-list");
+
+
+
+        if(!list) return;
+
+
+
+        list.innerHTML = "";
+
+
+
+        for(let i = 3; i < users.length; i++){
+
+
+            const user = users[i];
+
+
+            const rank = i + 1;
 
 
 
             list.innerHTML += `
 
-
             <div class="leader-card">
 
 
                 <h3>
-                    ${position}
+                    ${rank}th
+                    ${user.name || "Anonymous"}
                 </h3>
 
 
-                <strong>
-                    ${user.name || "Anonymous"}
-                </strong>
-
-
                 <p>
-                    ⭐ Level ${user.level ?? 1}
-                </p>
-
-
-                <p>
-                    🎯 ${user.totalScore ?? 0} Points
+                    ⭐ ${user.totalScore ?? 0} Points
                 </p>
 
 
@@ -165,46 +140,22 @@ async function loadLeaderboard() {
 
             </div>
 
-
             `;
 
 
-
-            rank++;
-
-
-        });
+        }
 
 
 
     }
     catch(error){
 
-
-        console.error(error);
-
-
-
-        list.innerHTML = `
-
-        <div class="leader-card">
-
-            <h3>
-                ❌ Failed to load leaderboard
-            </h3>
-
-
-            <p>
-                ${error.message}
-            </p>
-
-
-        </div>
-
-        `;
+        console.error(
+            "Leaderboard error:",
+            error
+        );
 
     }
-
 
 }
 
