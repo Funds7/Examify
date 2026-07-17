@@ -1,161 +1,153 @@
 import { db } from "./firebase.js";
 
 import {
-    collection,
-    query,
-    orderBy,
-    limit,
-    getDocs
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+collection,
+query,
+orderBy,
+limit,
+getDocs
+}
+from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 
 
-async function loadLeaderboard() {
+async function loadLeaderboard(){
 
-    try {
 
-        const q = query(
-            collection(db, "users"),
-            orderBy("totalScore", "desc"),
-            limit(100)
-        );
+const q=query(
 
+collection(db,"users"),
 
-        const snap = await getDocs(q);
+orderBy("totalScore","desc"),
 
+limit(100)
 
-        const users = [];
+);
 
 
-        snap.forEach((doc) => {
 
-            users.push(doc.data());
+const snap=await getDocs(q);
 
-        });
 
 
+let users=[];
 
-        if(users.length === 0){
 
-            console.log("No users found");
+snap.forEach(doc=>{
 
-            return;
+users.push(doc.data());
 
-        }
+});
 
 
 
-        // ==========================
-        // TOP 3 PODIUM
-        // ==========================
 
+if(users.length===0)return;
 
-        const first = users[0] || {};
-        const second = users[1] || {};
-        const third = users[2] || {};
 
 
+// TOP 3
 
-        document.getElementById("first-name").innerText =
-        first.name || "Anonymous";
 
+let first=users[0];
+let second=users[1];
+let third=users[2];
 
-        document.getElementById("first-score").innerText =
-        `⭐ ${first.totalScore ?? 0} Points`;
 
 
+document.getElementById("first-name").innerText=
+first?.name || "Anonymous";
 
-        document.getElementById("second-name").innerText =
-        second.name || "Anonymous";
+document.getElementById("first-score").innerText=
+`⭐ ${first?.totalScore || 0} Points`;
 
 
-        document.getElementById("second-score").innerText =
-        `⭐ ${second.totalScore ?? 0} Points`;
 
+document.getElementById("second-name").innerText=
+second?.name || "Anonymous";
 
+document.getElementById("second-score").innerText=
+`⭐ ${second?.totalScore || 0} Points`;
 
-        document.getElementById("third-name").innerText =
-        third.name || "Anonymous";
 
 
-        document.getElementById("third-score").innerText =
-        `⭐ ${third.totalScore ?? 0} Points`;
+document.getElementById("third-name").innerText=
+third?.name || "Anonymous";
 
+document.getElementById("third-score").innerText=
+`⭐ ${third?.totalScore || 0} Points`;
 
 
 
-        // ==========================
-        // RANKINGS 4 - 100
-        // ==========================
 
 
-        const list =
-        document.getElementById("leaderboard-list");
+// CHECK UNLOCK
 
 
+let unlocked=
+localStorage.getItem("leaderboardAccess");
 
-        if(!list) return;
 
 
+const list=
+document.getElementById("leaderboard-list");
 
-        list.innerHTML = "";
 
 
+const unlock=
+document.getElementById("unlock-area");
 
-        for(let i = 3; i < users.length; i++){
 
 
-            const user = users[i];
+if(unlocked !== "true"){
 
 
-            const rank = i + 1;
+unlock.style.display="block";
 
+list.innerHTML="";
 
+return;
 
-            list.innerHTML += `
+}
 
-            <div class="leader-card">
 
+unlock.style.display="none";
 
-                <h3>
-                    ${rank}th
-                    ${user.name || "Anonymous"}
-                </h3>
 
 
-                <p>
-                    ⭐ ${user.totalScore ?? 0} Points
-                </p>
 
 
-                <p>
-                    📚 ${user.completedTests ?? 0} Exams
-                </p>
+// SHOW 4-100
 
 
-                <p>
-                    🔥 ${user.studyStreak ?? 0} Day Streak
-                </p>
+list.innerHTML="";
 
 
-            </div>
 
-            `;
+for(let i=3;i<users.length;i++){
 
 
-        }
+let user=users[i];
 
 
+list.innerHTML+=`
 
-    }
-    catch(error){
+<div class="leader-card">
 
-        console.error(
-            "Leaderboard error:",
-            error
-        );
+<h3>
+${i+1}. ${user.name || "Anonymous"}
+</h3>
 
-    }
+<p>
+⭐ ${user.totalScore || 0} Points
+</p>
+
+</div>
+
+`;
+
+}
+
 
 }
 
