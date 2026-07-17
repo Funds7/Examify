@@ -8,9 +8,9 @@ import {
 
 import {
     doc,
-    setDoc
+    setDoc,
+    serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
-
 const signupBtn = document.getElementById("signupBtn");
 
 signupBtn.addEventListener("click", async () => {
@@ -41,15 +41,30 @@ signupBtn.addEventListener("click", async () => {
         // Save user profile
         await setDoc(doc(db, "users", user.uid), {
 
-            uid: user.uid,
-            name: name,
-            email: email,
-            coins: 0,
-            role: "student",
-            completedTests: 0,
-            createdAt: new Date()
+    uid: user.uid,
+    name: name,
+    email: email,
 
-        });
+    // Coins
+    coins: 20,
+
+    // Progress
+    level: 100,
+    role: "student",
+    completedTests: 0,
+    totalScore: 0,
+    studyStreak: 0,
+    lastLogin: null,
+
+    // Rewards
+    referredBy: null,
+    referralCount: 0,
+
+    // Account
+    emailVerified: false,
+    createdAt: serverTimestamp()
+
+});
 
         // Send verification email
         try {
