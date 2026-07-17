@@ -43,26 +43,59 @@ function getGreeting() {
 }
 
 // ==========================================
-// LOAD USER
+// LOAD USER FROM FIREBASE
 // ==========================================
 
 function loadUser() {
 
-    const greeting = document.getElementById("dynamic-greeting");
+    onAuthStateChanged(auth, async (user) => {
 
-    if (greeting) {
+        if (!user) {
+            window.location.href = "login.html";
+            return;
+        }
 
-        greeting.innerHTML = `
-            ${getGreeting()},
-            <span style="color:#8b5cf6;">Joshua</span> 👋
-        `;
+        try {
 
-    }
+            const userRef = doc(db, "users", user.uid);
+            const userSnap = await getDoc(userRef);
 
-    // Let coins.js handle the coin display
-    if (window.updateCoinDisplay) {
-        window.updateCoinDisplay();
-    }
+            if (userSnap.exists()) {
+
+                const data = userSnap.data();
+
+                // Greeting
+                const greeting = document.getElementById("dynamic-greeting");
+
+                if (greeting) {
+                    greeting.innerHTML = `
+                        ${getGreeting()},
+                        <span style="color:#8b5cf6;">
+                            ${data.name}
+                        </span> 👋
+                    `;
+                }
+
+                // Coins
+                const coin = document.getElementById("coinBalance");
+
+                if (coin) {
+                    coin.innerText = data.coins ?? 20;
+                }
+
+            } else {
+
+                alert("User profile not found.");
+
+            }
+
+        } catch (error) {
+
+            console.error(error);
+
+        }
+
+    });
 
 }
 
@@ -143,9 +176,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setupShare();
 
     setupStorage();
-
-    if (window.updateCoinDisplay) {
-        window.updateCoinDisplay();
-    }
-
+    
 });
