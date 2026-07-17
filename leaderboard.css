@@ -1,193 +1,212 @@
-body {
-    background: #0f172a;
+body{
+background:#0f172a;
+color:white;
 }
 
 
-.container {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    color: white;
+.container{
+
+max-width:500px;
+margin:auto;
+padding:20px;
+
 }
+
 
 
 h1,
-.subtitle {
-    text-align: center;
-}
+.subtitle{
 
-
-/* ======================
-   TOP 3 CIRCLES
-====================== */
-
-#top-three {
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:20px;
-    margin-top:50px;
-
-}
-
-
-.podium {
-
-    width:120px;
-    height:120px;
-
-    border-radius:50%;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-
-    background:#1e293b;
-
-    border:4px solid #64748b;
-
-    position:relative;
+text-align:center;
 
 }
 
 
 
-.podium.first {
+/* TOP 3 */
 
-    width:160px;
-    height:160px;
+#top-three{
 
-    transform:translateY(-25px);
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
 
-    border-color:#facc15;
-
-}
-
-
-
-.podium.second {
-
-    border-color:#cbd5e1;
+margin-top:50px;
 
 }
 
 
 
-.podium.third {
+.podium{
 
-    border-color:#fb923c;
+width:120px;
+height:120px;
 
-}
+border-radius:50%;
 
+background:#1e293b;
 
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 
-.crown {
+text-align:center;
 
-    position:absolute;
+border:4px solid #64748b;
 
-    top:-35px;
-
-    font-size:35px;
-
-}
-
-
-
-.avatar {
-
-    font-size:30px;
+position:relative;
 
 }
 
 
 
-.position {
+.podium.first{
 
-    font-weight:bold;
+width:160px;
+height:160px;
+
+border-color:#facc15;
+
+transform:translateY(-30px);
+
+}
+
+
+
+.podium.second{
+
+border-color:#cbd5e1;
+
+}
+
+
+
+.podium.third{
+
+border-color:#fb923c;
+
+}
+
+
+
+.crown{
+
+position:absolute;
+
+top:-40px;
+
+font-size:35px;
+
+}
+
+
+
+.medal{
+
+font-size:30px;
+
+}
+
+
+
+.rank{
+
+font-weight:bold;
 
 }
 
 
 
 .podium h2,
-.podium h3 {
+.podium h3{
 
-    margin:3px;
+font-size:15px;
 
-    font-size:15px;
-
-}
-
-
-
-.score {
-
-    font-size:13px;
-
-    font-weight:bold;
+margin:4px;
 
 }
 
 
 
 
-/* ======================
-   UNLOCK BOX
-====================== */
-
-.unlock-box {
-
-    background:#1e293b;
-
-    padding:25px;
-
-    border-radius:20px;
-
-    text-align:center;
-
-    margin:30px 0;
-
-}
+/* UNLOCK */
 
 
+#unlock-area{
 
-.unlock-box button {
+background:#1e293b;
 
-    padding:14px 25px;
+padding:25px;
 
-    border:none;
+border-radius:20px;
 
-    border-radius:30px;
+text-align:center;
 
-    background:#f59e0b;
-
-    color:white;
-
-    font-weight:bold;
+margin:30px 0;
 
 }
 
 
 
+#unlock-area button{
+
+background:#f59e0b;
+
+border:none;
+
+padding:15px 25px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+color:white;
+
+}
 
 
-/* ======================
-   RANKING LIST
-====================== */
 
 
-.leader-card {
+/* LIST */
 
-    background:#1e293b;
 
-    padding:15px;
+.leader-card{
 
-    margin:12px 0;
+background:#1e293b;
 
-    border-radius:15px;
+padding:15px;
+
+border-radius:15px;
+
+margin:10px 0;
+
+}
+
+
+@media(max-width:450px){
+
+#top-three{
+
+gap:8px;
+
+}
+
+
+.podium{
+
+width:95px;
+height:95px;
+
+}
+
+
+.podium.first{
+
+width:130px;
+height:130px;
+
+}
 
 }
