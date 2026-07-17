@@ -5,15 +5,17 @@ async function payForExam() {
 
     if (typeof spendCoins !== "function") {
 
-        console.error("Coin system not loaded");
-        return true;
+        alert("Coin system not loaded. Please refresh.");
+        return false;
 
     }
 
-    const paid = await spendCoins(10);
+    const paid = await spendCoins(
+        10,
+        selectedMode + " Attempt"
+    );
 
     return paid;
-
 }
 // ==========================================
 // COURSE DICTIONARY (DELSU Curriculum)
