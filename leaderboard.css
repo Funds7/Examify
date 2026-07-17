@@ -1,32 +1,43 @@
-/* ==========================
-   PREMIUM TOP 3 CIRCLES
-========================== */
+body {
+    background: #0f172a;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+
+h1,
+.subtitle {
+    text-align: center;
+}
+
+
+/* ======================
+   TOP 3 CIRCLES
+====================== */
 
 #top-three {
 
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:25px;
-    margin:40px 0;
+    gap:20px;
+    margin-top:50px;
 
 }
 
 
-
 .podium {
 
-    width:130px;
-    height:130px;
+    width:120px;
+    height:120px;
 
     border-radius:50%;
-
-    background:
-    linear-gradient(
-        145deg,
-        #334155,
-        #0f172a
-    );
 
     display:flex;
     flex-direction:column;
@@ -35,10 +46,11 @@
 
     text-align:center;
 
+    background:#1e293b;
+
     border:4px solid #64748b;
 
-    box-shadow:
-    0 0 20px rgba(255,255,255,0.15);
+    position:relative;
 
 }
 
@@ -46,12 +58,12 @@
 
 .podium.first {
 
-    width:170px;
-    height:170px;
+    width:160px;
+    height:160px;
 
-    transform:translateY(-35px);
+    transform:translateY(-25px);
 
-    border-color:#fbbf24;
+    border-color:#facc15;
 
 }
 
@@ -73,7 +85,11 @@
 
 
 
-.podium .avatar {
+.crown {
+
+    position:absolute;
+
+    top:-35px;
 
     font-size:35px;
 
@@ -81,11 +97,17 @@
 
 
 
-.podium .position {
+.avatar {
+
+    font-size:30px;
+
+}
+
+
+
+.position {
 
     font-weight:bold;
-
-    font-size:14px;
 
 }
 
@@ -94,18 +116,78 @@
 .podium h2,
 .podium h3 {
 
-    margin:5px 0;
+    margin:3px;
 
-    font-size:16px;
+    font-size:15px;
 
 }
 
 
 
-.podium .score {
+.score {
 
-    font-size:14px;
+    font-size:13px;
 
     font-weight:bold;
+
+}
+
+
+
+
+/* ======================
+   UNLOCK BOX
+====================== */
+
+.unlock-box {
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    margin:30px 0;
+
+}
+
+
+
+.unlock-box button {
+
+    padding:14px 25px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#f59e0b;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+/* ======================
+   RANKING LIST
+====================== */
+
+
+.leader-card {
+
+    background:#1e293b;
+
+    padding:15px;
+
+    margin:12px 0;
+
+    border-radius:15px;
 
 }
