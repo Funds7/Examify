@@ -60,3 +60,17 @@ function rewardCoins() {
 
 // Update display when page opens
 document.addEventListener("DOMContentLoaded", updateCoinDisplay);
+// ==========================
+// START PRACTICE
+// ==========================
+
+function startPractice() {
+
+    if (spendCoins(10)) {
+        window.location.href = "exam.html";
+    }
+
+}
+
+// Make it available to HTML onclick
+window.startPractice = startPractice;
