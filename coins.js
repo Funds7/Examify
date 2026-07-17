@@ -11,6 +11,7 @@ import {
     increment
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
+
 // ==========================
 // GET USER COINS
 // ==========================
@@ -21,135 +22,272 @@ async function getCoins() {
 
     if (!user) return 0;
 
-    const userRef = doc(db, "users", user.uid);
+
+    const userRef = doc(
+        db,
+        "users",
+        user.uid
+    );
+
 
     const snap = await getDoc(userRef);
 
+
     if (!snap.exists()) return 0;
 
-    return snap.data().coins ?? 20;
+
+    return snap.data().coins ?? 0;
 
 }
 
+
+
 // ==========================
-// UPDATE DISPLAY
+// UPDATE COIN DISPLAY
 // ==========================
 
 async function updateCoinDisplay() {
 
-    const coin = document.getElementById("coinBalance");
+    const coin = document.getElementById(
+        "coinBalance"
+    );
+
 
     if (!coin) return;
 
+
     try {
-    coin.innerText = await getCoins();
-} catch (error) {
-    console.error(error);
+
+        const balance = await getCoins();
+
+        coin.innerText = balance;
+
+    } 
+    catch(error){
+
+        console.error(
+            "Coin display error:",
+            error
+        );
+
     }
 
 }
+
+
 
 // ==========================
 // SPEND COINS
 // ==========================
 
-async function spendCoins(amount) {
+async function spendCoins(
+    amount,
+    reason = "Exam Attempt"
+){
 
     const user = auth.currentUser;
 
-    if (!user) return false;
 
-    const userRef = doc(db, "users", user.uid);
+    if(!user){
 
-    const snap = await getDoc(userRef);
-
-    if (!snap.exists()) {
-    alert("User profile not found.");
-    return false;
-}
-
-const coins = snap.data().coins ?? 20;
-
-    if (coins < amount) {
-
-        alert(
-    "❌ Not enough coins.\n\n" +
-    "Every exam attempt costs 10 Coins.\n\n" +
-    "Earn more coins by:\n\n" +
-    "📺 Watch Rewarded Ad (+12)\n" +
-    "🎁 Daily Login (+5)\n" +
-    "👥 Invite Friend (+50)\n" +
-    "🔥 7-Day Study Streak (+20)"
-);
+        alert("Please login first.");
 
         return false;
 
     }
 
-    await updateDoc(userRef, {
-    coins: increment(-amount)
-});
 
-await updateCoinDisplay();
 
-return true;
+    const userRef = doc(
+        db,
+        "users",
+        user.uid
+    );
 
-}
 
-// ==========================
-// ADD COINS
-// ==========================
 
-async function rewardCoins(amount) {
+    const snap = await getDoc(userRef);
 
-    const user = auth.currentUser;
 
-    if (!user) return;
 
-    const userRef = doc(db, "users", user.uid);
+    if(!snap.exists()){
 
-    await updateDoc(userRef, {
+        alert(
+            "User profile not found."
+        );
 
-        coins: increment(amount)
+        return false;
 
-    });
+    }
+
+
+
+    const currentCoins =
+    snap.data().coins ?? 0;
+
+
+
+    if(currentCoins < amount){
+
+        alert(
+`❌ Not enough coins 🪙
+
+${reason} costs ${amount} coins.
+
+Your balance: ${currentCoins} 🪙
+
+Earn more:
+📺 Watch Rewarded Ad +12
+🎁 Daily Login +5
+👥 Invite Friend +50
+🔥 7-Day Study Streak +20`
+        );
+
+
+        return false;
+
+    }
+
+
+
+    await updateDoc(
+        userRef,
+        {
+
+            coins: increment(-amount)
+
+        }
+    );
+
+
 
     await updateCoinDisplay();
 
-    alert(`🎉 +${amount} Coins added!`);
+
+
+    console.log(
+        `${amount} coins spent for ${reason}`
+    );
+
+
+    return true;
 
 }
 
+
+
 // ==========================
-// START PRACTICE
+// ADD COINS REWARD
 // ==========================
 
-async function startPractice() {
+async function rewardCoins(
+    amount,
+    reason = "Reward"
+){
 
-    const ok = await spendCoins(10);
 
-    if (ok) {
+    const user = auth.currentUser;
 
-        window.location.href = "exam.html";
+
+    if(!user) return false;
+
+
+
+    const userRef = doc(
+        db,
+        "users",
+        user.uid
+    );
+
+
+
+    await updateDoc(
+        userRef,
+        {
+
+            coins: increment(amount)
+
+        }
+    );
+
+
+
+    await updateCoinDisplay();
+
+
+
+    alert(
+`🎉 +${amount} Coins added!
+
+${reason}`
+    );
+
+
+    return true;
+
+}
+
+
+
+// ==========================
+// EXAMPLE: CBT PRACTICE
+// ==========================
+
+async function startPractice(){
+
+
+    const paid =
+    await spendCoins(
+        10,
+        "GST CBT Practice"
+    );
+
+
+
+    if(paid){
+
+        window.location.href =
+        "exam.html";
 
     }
 
 }
 
+
+
 // ==========================
-// GLOBAL
+// GLOBAL FUNCTIONS
 // ==========================
 
-window.startPractice = startPractice;
-window.rewardCoins = rewardCoins;
-window.updateCoinDisplay = updateCoinDisplay;
+window.startPractice =
+startPractice;
+
+
+window.rewardCoins =
+rewardCoins;
+
+
+window.spendCoins =
+spendCoins;
+
+
+window.updateCoinDisplay =
+updateCoinDisplay;
+
+
 
 // ==========================
 // LOAD COINS AFTER LOGIN
 // ==========================
 
-onAuthStateChanged(auth, (user) => {
-    if (user) {
+onAuthStateChanged(
+auth,
+(user)=>{
+
+    if(user){
+
         updateCoinDisplay();
+
     }
+
 });
