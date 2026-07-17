@@ -48,112 +48,26 @@ function getGreeting(){
 
 
 // ==========================================
-// MODULE: LOAD FIREBASE USER
+// MODULE: LOAD USER (TEMPORARY - NO FIREBASE)
 // ==========================================
 
-function loadUser(){
+function loadUser() {
 
-    onAuthStateChanged(auth, async(user)=>{
+    const greeting = document.getElementById("dynamic-greeting");
 
-console.log("Current user:", user);
+    if (greeting) {
+        greeting.innerHTML = `
+            ${getGreeting()},
+            <span style="color:#8b5cf6;">Joshua</span> 👋
+        `;
+    }
 
-if(user){
+    const coins = document.getElementById("coinBalance");
 
-
-            try{
-
-
-                const userRef = doc(
-                    db,
-                    "users",
-                    user.uid
-                );
-
-
-                const userSnap = await getDoc(userRef);
-
-
-
-                if(userSnap.exists()){
-
-
-                    const data = userSnap.data();
-
-
-
-                    const greeting =
-                    document.getElementById("dynamic-greeting");
-
-
-                    if(greeting){
-
-                        greeting.innerHTML = `
-                        ${getGreeting()},
-                        <span style="color:#8b5cf6;">
-                        ${data.name}
-                        </span> 👋
-                        `;
-
-                    }
-
-
-
-                    const coins =
-                    document.getElementById("coinBalance");
-
-
-                    if(coins){
-
-                        coins.innerHTML = data.coins || 0;
-
-                    }
-
-
-
-                }
-
-
-                else{
-
-                    console.log("User profile not found");
-
-                }
-
-
-            }
-
-            catch(error){
-
-                console.error(
-                    "Firestore error:",
-                    error
-                );
-
-            }
-
-
-
-        }
-
-
-        else{
-
-
-            // User not logged in
-
-            window.location.href = "signup.html";
-
-
-        }
-
-
-
-    });
-
+    if (coins) {
+        coins.innerText = "0";
+    }
 }
-
-
-
 // ==========================================
 // MODULE: SHARE FUNCTION
 // ==========================================
