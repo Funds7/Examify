@@ -1,72 +1,115 @@
+import { auth, db } from "./firebase.js";
+
+import {
+    doc,
+    getDoc,
+    updateDoc,
+    increment
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+
 // ==========================
-// FUNDSIQ COIN SYSTEM
+// GET USER COINS
 // ==========================
 
-// Give every new user 20 coins
-if (localStorage.getItem("coins") === null) {
-    localStorage.setItem("coins", "20");
+async function getCoins() {
+
+    const user = auth.currentUser;
+
+    if (!user) return 0;
+
+    const userRef = doc(db, "users", user.uid);
+
+    const snap = await getDoc(userRef);
+
+    if (!snap.exists()) return 0;
+
+    return snap.data().coins ?? 20;
+
 }
 
-// Get coins
-function getCoins() {
-    return Number(localStorage.getItem("coins")) || 0;
-}
+// ==========================
+// UPDATE DISPLAY
+// ==========================
 
-// Save coins
-function setCoins(value) {
-    localStorage.setItem("coins", value);
-    updateCoinDisplay();
-}
-
-// Update dashboard coin display
-function updateCoinDisplay() {
+async function updateCoinDisplay() {
 
     const coin = document.getElementById("coinBalance");
 
-    if (coin) {
-        coin.textContent = getCoins();
-    }
+    if (!coin) return;
+
+    coin.innerText = await getCoins();
 
 }
 
-// Spend coins
-function spendCoins(amount) {
+// ==========================
+// SPEND COINS
+// ==========================
 
-    let coins = getCoins();
+async function spendCoins(amount) {
+
+    const user = auth.currentUser;
+
+    if (!user) return false;
+
+    const userRef = doc(db, "users", user.uid);
+
+    const snap = await getDoc(userRef);
+
+    const coins = snap.data().coins ?? 20;
 
     if (coins < amount) {
 
-        alert("❌ You don't have enough coins.\n\nWatch a rewarded ad to earn 12 coins.");
+        alert("❌ You need more coins.");
 
         return false;
 
     }
 
-    coins -= amount;
+    await updateDoc(userRef, {
 
-    setCoins(coins);
+        coins: coins - amount
+
+    });
+
+    updateCoinDisplay();
 
     return true;
 
 }
 
-// Reward user
-function rewardCoins() {
+// ==========================
+// ADD COINS
+// ==========================
 
-    let coins = getCoins();
+async function rewardCoins(amount) {
 
-    coins += 12;
+    const user = auth.currentUser;
 
-    setCoins(coins);
+    if (!user) return;
 
-    alert("🎉 You earned 12 coins!");
+    const userRef = doc(db, "users", user.uid);
+
+    await updateDoc(userRef, {
+
+        coins: increment(amount)
+
+    });
+
+    updateCoinDisplay();
+
+    alert(`🎉 +${amount} Coins added!`);
 
 }
 
-// Start Practice
-function startPractice() {
+// ==========================
+// START PRACTICE
+// ==========================
 
-    if (spendCoins(10)) {
+async function startPractice() {
+
+    const ok = await spendCoins(10);
+
+    if (ok) {
 
         window.location.href = "exam.html";
 
@@ -74,15 +117,12 @@ function startPractice() {
 
 }
 
-// Show coins when page loads
-document.addEventListener("DOMContentLoaded", () => {
-    updateCoinDisplay();
-});
+// ==========================
+// GLOBAL
+// ==========================
 
-// Make functions available everywhere
-window.getCoins = getCoins;
-window.setCoins = setCoins;
-window.updateCoinDisplay = updateCoinDisplay;
-window.spendCoins = spendCoins;
-window.rewardCoins = rewardCoins;
 window.startPractice = startPractice;
+window.rewardCoins = rewardCoins;
+window.updateCoinDisplay = updateCoinDisplay;
+
+document.addEventListener("DOMContentLoaded", updateCoinDisplay);
