@@ -1,117 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<form id="loginForm">
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>FundsIQ - Login</title>
-
-    <link rel="stylesheet" href="login.css">
-
-</head>
-
-<body>
-
-<div class="auth-container">
-
-    <!-- Logo -->
-    <div class="logo">
-        🎓
+    <div class="input-group">
+        <input
+            id="email"
+            type="email"
+            placeholder="Email Address"
+            autocomplete="email"
+            required>
     </div>
 
-    <!-- App Name -->
-    <h1>FundsIQ</h1>
-
-    <p class="subtitle">
-        Welcome back! Continue mastering your GST courses.
-    </p>
-
-    <!-- Login Form -->
-    <form id="loginForm">
-
-        <div class="input-group">
-            <input
-                id="email"
-                type="email"
-                placeholder="Email Address"
-                autocomplete="email"
-                required>
-        </div>
-
-        <div class="input-group">
-            <input
-                id="password"
-                type="password"
-                placeholder="Password"
-                autocomplete="current-password"
-                required>
-        </div>
-
-        <a href="forgot-password.html" class="forgot">
-            Forgot Password?
-        </a>
-
-        <button
-            type="submit"
-            class="login-btn">
-
-            Login
-
-        </button>
-
-    </form>
-
-    <!-- Divider -->
-
-    <div class="divider">
-        <span>OR</span>
-    </div>
-
-    <!-- Google Login -->
+    <a href="forgot-password.html" class="forgot">
+        Forgot Password?
+    </a>
 
     <button
-        type="button"
-        class="google-btn"
-        id="googleLogin">
-
-        <span>🔵</span>
-
-        Continue with Google
-
+        type="submit"
+        class="login-btn">
+        Login
     </button>
 
-    <!-- Create Account -->
-
-    <p class="signup">
-
-        Don't have an account?
-
-        <a href="signup.html">
-
-            Create Account
-
-        </a>
-
-    </p>
-
-</div>
-
-<!-- Toast Notification -->
-
-<div
-    id="toast"
-    class="toast">
-</div>
-
-<!-- Firebase Login Script -->
-
-<script
-    type="module"
-    src="login.js">
-</script>
-
-</body>
-</html>
+</form>
