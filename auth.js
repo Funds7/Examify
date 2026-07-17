@@ -1,9 +1,7 @@
 import { auth, db } from "./firebase.js";
 
 import {
-    createUserWithEmailAndPassword,
-    sendEmailVerification,
-    signOut
+    createUserWithEmailAndPassword
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
 import {
@@ -11,107 +9,120 @@ import {
     setDoc,
     serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+
+
 const signupBtn = document.getElementById("signupBtn");
 
+
 signupBtn.addEventListener("click", async () => {
+
 
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
 
-    if (!name || !email || !password) {
+
+
+    if(!name || !email || !password){
+
         alert("Please fill in all fields.");
         return;
+
     }
+
+
 
     signupBtn.disabled = true;
     signupBtn.textContent = "Creating Account...";
 
+
+
     try {
 
-        // Create Firebase account
-        const userCredential = await createUserWithEmailAndPassword(
+
+        const userCredential =
+        await createUserWithEmailAndPassword(
             auth,
             email,
             password
         );
 
+
         const user = userCredential.user;
 
-        // Save user profile
-        await setDoc(doc(db, "users", user.uid), {
 
-    uid: user.uid,
-    name: name,
-    email: email,
 
-    // Coins
-    coins: 20,
+        // Create user profile
+        await setDoc(
+            doc(db,"users",user.uid),
+            {
 
-    // Progress
-    level: 100,
-    role: "student",
-    completedTests: 0,
-    totalScore: 0,
-    studyStreak: 0,
-    lastLogin: null,
+                uid:user.uid,
 
-    // Rewards
-    referredBy: null,
-    referralCount: 0,
+                name:name,
 
-    // Account
-    emailVerified: false,
-    createdAt: serverTimestamp()
+                email:email,
 
-});
 
-        // Send verification email
-        try {
-    await sendEmailVerification(user);
-    alert("Verification email sent!");
-} catch (error) {
-    console.log(error);
-    alert(error.code + "\n" + error.message);
-        }
+                // Starting coins 🪙
+                coins:20,
 
-        // Sign user out until email is verified
-        await signOut(auth);
 
-        alert(
-            "🎉 Account created successfully!\n\n" +
-            "A verification email has been sent to your email address.\n\n" +
-            "Please verify your email before logging in."
+                // Student data
+                role:"student",
+                completedTests:0,
+                totalScore:0,
+                studyStreak:0,
+
+
+                // Rewards
+                referralCount:0,
+
+
+                createdAt:serverTimestamp()
+
+            }
         );
 
-        window.location.href = "login.html";
 
-    } catch (error) {
 
-        signupBtn.disabled = false;
-        signupBtn.textContent = "Create Account";
+        alert(
+            "🎉 Account created!\n\nYou received 20 coins 🪙"
+        );
 
-        switch (error.code) {
 
-            case "auth/email-already-in-use":
-                alert("This email is already registered.");
-                break;
+        window.location.href="login.html";
 
-            case "auth/weak-password":
-                alert("Password must be at least 6 characters.");
-                break;
 
-            case "auth/invalid-email":
-                alert("Please enter a valid email address.");
-                break;
 
-            case "auth/network-request-failed":
-                alert("Check your internet connection.");
-                break;
+    }catch(error){
 
-            default:
-                alert("Something went wrong. Please try again.");
+
+        console.log(error);
+
+
+        if(error.code==="auth/email-already-in-use"){
+
+            alert("Email already registered.");
+
         }
+        else if(error.code==="auth/weak-password"){
+
+            alert("Password must be at least 6 characters.");
+
+        }
+        else{
+
+            alert(error.message);
+
+        }
+
+
     }
+
+
+    signupBtn.disabled=false;
+    signupBtn.textContent="Create Account";
+
 
 });
