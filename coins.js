@@ -1,6 +1,10 @@
 import { auth, db } from "./firebase.js";
 
 import {
+    onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+
+import {
     doc,
     getDoc,
     updateDoc,
@@ -37,7 +41,11 @@ async function updateCoinDisplay() {
 
     if (!coin) return;
 
+    try {
     coin.innerText = await getCoins();
+} catch (error) {
+    console.error(error);
+    }
 
 }
 
@@ -55,25 +63,36 @@ async function spendCoins(amount) {
 
     const snap = await getDoc(userRef);
 
-    const coins = snap.data().coins ?? 20;
+    if (!snap.exists()) {
+    alert("User profile not found.");
+    return false;
+}
+
+const coins = snap.data().coins ?? 20;
 
     if (coins < amount) {
 
-        alert("❌ You need more coins.");
+        alert(
+    "❌ Not enough coins.\n\n" +
+    "Every exam attempt costs 10 Coins.\n\n" +
+    "Earn more coins by:\n\n" +
+    "📺 Watch Rewarded Ad (+12)\n" +
+    "🎁 Daily Login (+5)\n" +
+    "👥 Invite Friend (+50)\n" +
+    "🔥 7-Day Study Streak (+20)"
+);
 
         return false;
 
     }
 
     await updateDoc(userRef, {
+    coins: increment(-amount)
+});
 
-        coins: coins - amount
+await updateCoinDisplay();
 
-    });
-
-    updateCoinDisplay();
-
-    return true;
+return true;
 
 }
 
@@ -95,7 +114,7 @@ async function rewardCoins(amount) {
 
     });
 
-    updateCoinDisplay();
+    await updateCoinDisplay();
 
     alert(`🎉 +${amount} Coins added!`);
 
@@ -125,4 +144,12 @@ window.startPractice = startPractice;
 window.rewardCoins = rewardCoins;
 window.updateCoinDisplay = updateCoinDisplay;
 
-document.addEventListener("DOMContentLoaded", updateCoinDisplay);
+// ==========================
+// LOAD COINS AFTER LOGIN
+// ==========================
+
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        updateCoinDisplay();
+    }
+});
