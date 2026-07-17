@@ -467,7 +467,7 @@ function updateTimerDisplay() {
 // ==========================
 // FINISH EXAM
 // ==========================
-function finishExam(autoSubmit = false) {
+async function finishExam(autoSubmit = false) {
 
     if (!autoSubmit) {
         if (!confirm("Are you sure you want to submit your exam?")) {
@@ -490,9 +490,39 @@ function finishExam(autoSubmit = false) {
     localStorage.setItem("total", questions.length);
     localStorage.setItem("course", selectedCourse);
 
-    // Save exam data for Corrections page
+    // Save exam data
     localStorage.setItem("examQuestions", JSON.stringify(questions));
     localStorage.setItem("examAnswers", JSON.stringify(answers));
+
+    // ==========================================
+    // UPDATE FIRESTORE FOR LEADERBOARD
+    // ==========================================
+
+    const user = auth.currentUser;
+
+    if (user) {
+
+        const userRef = doc(db, "users", user.uid);
+
+        const snap = await getDoc(userRef);
+
+        if (snap.exists()) {
+
+            const data = snap.data();
+
+            await updateDoc(userRef, {
+
+                completedTests: (data.completedTests || 0) + 1,
+
+                totalScore: (data.totalScore || 0) + score,
+
+                level: Math.floor(((data.totalScore || 0) + score) / 100) + 1
+
+            });
+
+        }
+
+    }
 
     // Go to result page
     window.location.href = "result.html";
