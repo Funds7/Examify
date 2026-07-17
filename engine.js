@@ -1,4 +1,26 @@
 // ==========================================
+// COIN SYSTEM
+// ==========================================
+async function payForExam() {
+
+    if (typeof spendCoins !== "function") {
+
+        console.error("Coin system not loaded");
+        return true; // allow testing if coin.js is missing
+
+    }
+
+
+    const paid = await spendCoins(
+        10,
+        selectedMode + " Attempt"
+    );
+
+
+    return paid;
+
+}
+// ==========================================
 // COURSE DICTIONARY (DELSU Curriculum)
 // ==========================================
 const COURSE_TITLES = {
@@ -128,7 +150,7 @@ function setMode(mode) {
 // ==========================
 // START EXAM
 // ==========================
-function startExam() {
+async function startExam() {
     // Ensure our dynamic loader successfully populated the QUESTIONS variable
     if (typeof QUESTIONS === "undefined") {
         alert(`Questions file failed to load. Please make sure your "${selectedCourse}.js" file exists and is in the correct directory.`);
@@ -163,6 +185,15 @@ function startExam() {
         alert("No questions found for " + selectedCourse.toUpperCase());
         return;
     }
+    // ==========================
+// PAY 10 COINS TO START
+// ==========================
+
+const payment = await payForExam();
+
+if (!payment) {
+    return;
+}
 
     // Shuffle questions
     questions.sort(() => Math.random() - 0.5);
