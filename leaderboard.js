@@ -1,4 +1,8 @@
+alert("leaderboard.js loaded");
+
 import { db } from "./firebase.js";
+
+alert("firebase.js imported");
 
 import {
     collection,
@@ -51,17 +55,11 @@ async function loadLeaderboard() {
 
             list.innerHTML += `
                 <div class="leader-card">
-
                     <h3>${medal} ${user.name || "Anonymous"}</h3>
-
                     <p>⭐ Level ${user.level || 1}</p>
-
                     <p>🎯 ${user.totalScore || 0} Points</p>
-
                     <p>📚 ${user.completedTests || 0} Exams</p>
-
                     <p>🔥 ${user.studyStreak || 0} Day Streak</p>
-
                 </div>
             `;
 
@@ -71,23 +69,16 @@ async function loadLeaderboard() {
 
     } catch (error) {
 
-        console.error("Leaderboard Error:", error);
+        console.error(error);
 
-        alert(
-            "Leaderboard Error\n\n" +
-            error.message
-        );
+        alert("Leaderboard Error:\n\n" + error.message);
 
         list.innerHTML = `
             <div class="leader-card">
-
                 <h3>❌ Leaderboard Error</h3>
-
                 <p>${error.message}</p>
-
             </div>
         `;
-
     }
 
 }
