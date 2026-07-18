@@ -135,11 +135,6 @@ async function loadLeaderboard() {
                 </p>
 
 
-                <p>
-                    📚 ${user.completedTests ?? 0} Completed Tests
-                </p>
-
-
             </div>
 
 
