@@ -12,15 +12,17 @@ import {
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 
+
+
 // ==========================
 // GET USER COINS
 // ==========================
 
-async function getCoins() {
+async function getCoins(){
 
     const user = auth.currentUser;
 
-    if (!user) return 0;
+    if(!user) return 0;
 
 
     const userRef = doc(
@@ -33,7 +35,7 @@ async function getCoins() {
     const snap = await getDoc(userRef);
 
 
-    if (!snap.exists()) return 0;
+    if(!snap.exists()) return 0;
 
 
     return snap.data().coins ?? 0;
@@ -42,37 +44,28 @@ async function getCoins() {
 
 
 
+
 // ==========================
 // UPDATE COIN DISPLAY
 // ==========================
 
-async function updateCoinDisplay() {
+async function updateCoinDisplay(){
 
-    const coin = document.getElementById(
-        "coinBalance"
-    );
-
-
-    if (!coin) return;
+    const coin =
+    document.getElementById("coinBalance");
 
 
-    try {
+    if(!coin) return;
 
-        const balance = await getCoins();
 
-        coin.innerText = balance;
+    const balance =
+    await getCoins();
 
-    } 
-    catch(error){
 
-        console.error(
-            "Coin display error:",
-            error
-        );
-
-    }
+    coin.innerText = balance;
 
 }
+
 
 
 
@@ -82,8 +75,9 @@ async function updateCoinDisplay() {
 
 async function spendCoins(
     amount,
-    reason = "Exam Attempt"
+    reason="Purchase"
 ){
+
 
     const user = auth.currentUser;
 
@@ -98,7 +92,8 @@ async function spendCoins(
 
 
 
-    const userRef = doc(
+    const userRef =
+    doc(
         db,
         "users",
         user.uid
@@ -106,15 +101,14 @@ async function spendCoins(
 
 
 
-    const snap = await getDoc(userRef);
+    const snap =
+    await getDoc(userRef);
 
 
 
     if(!snap.exists()){
 
-        alert(
-            "User profile not found."
-        );
+        alert("User profile not found.");
 
         return false;
 
@@ -130,17 +124,14 @@ async function spendCoins(
     if(currentCoins < amount){
 
         alert(
+
 `❌ Not enough coins 🪙
 
-${reason} costs ${amount} coins.
+Need: ${amount} coins
 
-Your balance: ${currentCoins} 🪙
+Your balance:
+${currentCoins} 🪙`
 
-Earn more:
-📺 Watch Rewarded Ad +12
-🎁 Daily Login +5
-👥 Invite Friend +50
-🔥 7-Day Study Streak +20`
         );
 
 
@@ -154,7 +145,8 @@ Earn more:
         userRef,
         {
 
-            coins: increment(-amount)
+            coins:
+            increment(-amount)
 
         }
     );
@@ -164,36 +156,34 @@ Earn more:
     await updateCoinDisplay();
 
 
-
-    console.log(
-        `${amount} coins spent for ${reason}`
-    );
-
-
     return true;
 
 }
 
 
 
+
+
 // ==========================
-// ADD COINS REWARD
+// ADD COINS
 // ==========================
 
 async function rewardCoins(
     amount,
-    reason = "Reward"
+    reason="Reward"
 ){
 
 
-    const user = auth.currentUser;
+    const user =
+    auth.currentUser;
 
 
     if(!user) return false;
 
 
 
-    const userRef = doc(
+    const userRef =
+    doc(
         db,
         "users",
         user.uid
@@ -205,7 +195,8 @@ async function rewardCoins(
         userRef,
         {
 
-            coins: increment(amount)
+            coins:
+            increment(amount)
 
         }
     );
@@ -217,7 +208,7 @@ async function rewardCoins(
 
 
     alert(
-`🎉 +${amount} Coins added!
+`🎉 +${amount} Coins
 
 ${reason}`
     );
@@ -229,8 +220,10 @@ ${reason}`
 
 
 
+
+
 // ==========================
-// EXAMPLE: CBT PRACTICE
+// CBT PRACTICE
 // ==========================
 
 async function startPractice(){
@@ -241,7 +234,6 @@ async function startPractice(){
         10,
         "GST CBT Practice"
     );
-
 
 
     if(paid){
@@ -255,8 +247,67 @@ async function startPractice(){
 
 
 
+
+
 // ==========================
-// LOAD COINS AFTER LOGIN
+// LEADERBOARD UNLOCK
+// ==========================
+
+async function unlockWithCoins(){
+
+
+    const paid =
+    await spendCoins(
+        50,
+        "Leaderboard Access"
+    );
+
+
+
+    if(paid){
+
+
+        localStorage.setItem(
+            "leaderboardAccess",
+            "true"
+        );
+
+
+
+        alert(
+            "🏆 Leaderboard Activated!"
+        );
+
+
+        location.reload();
+
+    }
+
+}
+
+
+
+
+
+// ==========================
+// PREMIUM UNLOCK
+// ==========================
+
+function premiumUnlock(){
+
+
+    alert(
+        "💎 Premium Leaderboard coming soon"
+    );
+
+}
+
+
+
+
+
+// ==========================
+// LOGIN CHECK
 // ==========================
 
 onAuthStateChanged(
@@ -272,45 +323,32 @@ auth,
 });
 
 
-// ==========================
-// UNLOCK LEADERBOARD
-// ==========================
 
-async function unlockLeaderboard(){
-
-    const paid = await spendCoins(
-        500,
-        "Leaderboard Access"
-    );
-
-
-    if(paid){
-
-        localStorage.setItem(
-            "leaderboardAccess",
-            "true"
-        );
-
-
-        alert("🏆 Leaderboard Unlocked!");
-
-        location.reload();
-
-    }
-
-}
 
 
 // ==========================
-// GLOBAL FUNCTIONS
+// GLOBAL EXPORTS
 // ==========================
 
-window.startPractice = startPractice;
+window.startPractice =
+startPractice;
 
-window.rewardCoins = rewardCoins;
 
-window.spendCoins = spendCoins;
+window.rewardCoins =
+rewardCoins;
 
-window.updateCoinDisplay = updateCoinDisplay;
 
-window.unlockLeaderboard = unlockLeaderboard;
+window.spendCoins =
+spendCoins;
+
+
+window.updateCoinDisplay =
+updateCoinDisplay;
+
+
+window.unlockWithCoins =
+unlockWithCoins;
+
+
+window.premiumUnlock =
+premiumUnlock;
