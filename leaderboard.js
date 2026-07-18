@@ -320,7 +320,14 @@ See your exact position among students.
 }
 
 
-window.loadCourseLeaderboard = function(course){
+window.loadCourseLeaderboard = function(course, button){
+
+    document.querySelectorAll(".course-filter button")
+        .forEach(btn => btn.classList.remove("active"));
+
+    if(button){
+        button.classList.add("active");
+    }
 
     if(course === "overall"){
         currentField = "totalScore";
@@ -337,6 +344,13 @@ window.addEventListener("DOMContentLoaded", () => {
     onAuthStateChanged(auth, (user) => {
 
         if (user) {
+
+            const firstButton = document.querySelector(".course-filter button");
+
+            if(firstButton){
+                firstButton.classList.add("active");
+            }
+
             loadLeaderboard();
         }
 
