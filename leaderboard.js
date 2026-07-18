@@ -1,4 +1,4 @@
-import { db } from "./firebase.js";
+import { auth, db } from "./firebase.js";
 
 import {
     collection,
@@ -8,152 +8,84 @@ import {
     getDocs
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
+import {
+    onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
 
-// ==============================
+
+let allUsers = [];
+
+
+
+
+// ==========================
 // LOAD LEADERBOARD
-// ==============================
+// ==========================
 
-async function loadLeaderboard() {
+async function loadLeaderboard(){
 
-    try {
+try{
 
 
-        const q = query(
-            collection(db, "users"),
-            orderBy("totalScore", "desc"),
-            limit(100)
-        );
+const q = query(
+    collection(db,"users"),
+    orderBy("totalScore","desc"),
+    limit(50)
+);
 
 
-        const snap = await getDocs(q);
 
+const snap = await getDocs(q);
 
-        const users = [];
 
 
-        snap.forEach((doc)=>{
+allUsers = [];
 
-            users.push(doc.data());
 
-        });
 
+snap.forEach(doc=>{
 
+    allUsers.push({
+        id:doc.id,
+        ...doc.data()
+    });
 
-        if(users.length === 0){
+});
 
-            console.log("No users found");
-            return;
 
-        }
 
+if(allUsers.length === 0) return;
 
 
 
-        // ==========================
-        // TOP 3
-        // ==========================
+// TOP 3
 
+showTopThree();
 
-        const first = users[0] || {};
-        const second = users[1] || {};
-        const third = users[2] || {};
 
 
+// PUBLIC LIST
 
-        document.getElementById("first-name").innerText =
-        first.name || "Anonymous";
+showLeaderboard();
 
 
-        document.getElementById("first-score").innerText =
-        `⭐ ${first.totalScore ?? 0} Points`;
 
+// PERSONAL RANK
 
+showPersonalRank();
 
-        document.getElementById("second-name").innerText =
-        second.name || "Anonymous";
 
 
-        document.getElementById("second-score").innerText =
-        `⭐ ${second.totalScore ?? 0} Points`;
+}
+catch(error){
 
+console.error(
+"Leaderboard error:",
+error
+);
 
-
-        document.getElementById("third-name").innerText =
-        third.name || "Anonymous";
-
-
-        document.getElementById("third-score").innerText =
-        `⭐ ${third.totalScore ?? 0} Points`;
-
-
-
-
-
-        // ==========================
-        // OTHER RANKINGS
-        // ==========================
-
-
-        const list =
-        document.getElementById("leaderboard-list");
-
-
-
-        if(!list) return;
-
-
-
-        list.innerHTML = "";
-
-
-
-        for(let i = 3; i < users.length; i++){
-
-
-            const user = users[i];
-
-
-            const rank = i + 1;
-
-
-
-            list.innerHTML += `
-
-
-            <div class="leader-card">
-
-
-                <h3>
-                    ${rank}th
-                    ${user.name || "Anonymous"}
-                </h3>
-
-
-                <p>
-                    ⭐ ${user.totalScore ?? 0} Points
-                </p>
-
-
-            </div>
-
-
-            `;
-
-
-        }
-
-
-
-    }
-    catch(error){
-
-        console.error(
-            "Leaderboard error:",
-            error
-        );
-
-    }
+}
 
 }
 
@@ -161,93 +93,231 @@ async function loadLeaderboard() {
 
 
 
-// ==============================
-// ACTIVATE LEADERBOARD
-// ==============================
+
+// ==========================
+// TOP THREE
+// ==========================
+
+function showTopThree(){
 
 
-window.activateLeaderboard = function(){
-
-
-    const box = document.querySelector(".activate-box");
-
-
-    box.innerHTML = `
-
-
-        <h2>
-            🏆 Unlock Full Leaderboard
-        </h2>
-
-
-        <p>
-            Choose how you want to activate your ranking.
-        </p>
+const first = allUsers[0] || {};
+const second = allUsers[1] || {};
+const third = allUsers[2] || {};
 
 
 
-        <button onclick="unlockWithCoins()">
-
-            🪙 Use 50 Coins
-
-        </button>
+document.getElementById("first-name").innerText =
+first.name || "Anonymous";
 
 
-
-        <button onclick="premiumUnlock()">
-
-            💎 Premium Unlock
-
-        </button>
+document.getElementById("first-score").innerText =
+`⭐ ${first.totalScore || 0} Points`;
 
 
-    `;
+
+document.getElementById("second-name").innerText =
+second.name || "Anonymous";
 
 
-};
+document.getElementById("second-score").innerText =
+`⭐ ${second.totalScore || 0} Points`;
+
+
+
+document.getElementById("third-name").innerText =
+third.name || "Anonymous";
+
+
+document.getElementById("third-score").innerText =
+`⭐ ${third.totalScore || 0} Points`;
+
+}
 
 
 
 
 
 
-// ==============================
-// COIN UNLOCK
-// ==============================
+// ==========================
+// PUBLIC TOP 50
+// ==========================
+
+function showLeaderboard(){
 
 
-window.unlockWithCoins = function(){
-
-
-    alert(
-        "Checking your coins..."
-    );
-
-
-    // Connect your coin system here
-    // Required: 50 coins
-
-
-};
+const list =
+document.getElementById(
+"leaderboard-list"
+);
 
 
 
+list.innerHTML="";
 
 
-// ==============================
-// PREMIUM
-// ==============================
+
+allUsers.forEach((user,index)=>{
 
 
-window.premiumUnlock = function(){
+list.innerHTML += `
+
+<div class="leader-card">
 
 
-    alert(
-        "Premium payment coming soon"
-    );
+<h3>
+#${index+1}
+${user.name || "Anonymous"}
+</h3>
 
 
-};
+<p>
+⭐ ${user.totalScore || 0} Points
+</p>
+
+
+</div>
+
+`;
+
+});
+
+
+}
+
+
+
+
+
+
+
+// ==========================
+// PERSONAL RANK
+// ==========================
+
+function showPersonalRank(){
+
+
+const box =
+document.querySelector(
+".activate-box"
+);
+
+
+
+const unlocked =
+localStorage.getItem(
+"leaderboardAccess"
+);
+
+
+
+const user =
+auth.currentUser;
+
+
+
+if(!user) return;
+
+
+
+const index =
+allUsers.findIndex(
+u=>u.id === user.uid
+);
+
+
+
+if(unlocked === "true" && index !== -1){
+
+
+box.innerHTML = `
+
+
+<h2>
+👤 Your Ranking
+</h2>
+
+
+<p>
+Rank: #${index + 1}
+</p>
+
+
+<p>
+${allUsers[index].name}
+</p>
+
+
+<p>
+⭐ ${allUsers[index].totalScore || 0} Points
+</p>
+
+
+`;
+
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+// ==========================
+// ACTIVATE BUTTON
+// ==========================
+
+window.activateLeaderboard=function(){
+
+
+const box =
+document.querySelector(
+".activate-box"
+);
+
+
+
+box.innerHTML = `
+
+
+<h2>
+🏆 Unlock Your Ranking
+</h2>
+
+
+<p>
+See your exact position among students.
+</p>
+
+
+
+<button onclick="unlockWithCoins()">
+
+🪙 Use 50 Coins
+
+</button>
+
+
+
+<button onclick="premiumUnlock()">
+
+💎 Premium Unlock
+
+</button>
+
+
+`;
+
+
+
+}
+
 
 
 
@@ -255,5 +325,20 @@ window.premiumUnlock = function(){
 
 window.addEventListener(
 "DOMContentLoaded",
-loadLeaderboard
-);
+()=>{
+
+
+onAuthStateChanged(
+auth,
+(user)=>{
+
+if(user){
+
+loadLeaderboard();
+
+}
+
+});
+
+
+});
