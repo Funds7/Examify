@@ -1,140 +1,131 @@
 import { auth, db } from "./firebase.js";
 
 import {
-collection,
-addDoc,
-getDocs,
-serverTimestamp
-} from 
-"https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+    collection,
+    addDoc,
+    getDocs,
+    serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 
 const saveBtn = document.getElementById("saveBtn");
 
 
-saveBtn.onclick = async()=>{
+if(saveBtn){
 
+saveBtn.addEventListener("click", async()=>{
+
+    const user = auth.currentUser;
+
+    if(!user){
+        alert("Please login first");
+        return;
+    }
+
+
+    const timetableData = {
+
+        courseCode: document.getElementById("courseCode").value.trim(),
+
+        courseTitle: document.getElementById("courseTitle").value.trim(),
+
+        lecturer: document.getElementById("lecturer").value.trim(),
+
+        venue: document.getElementById("venue").value.trim(),
+
+        day: document.getElementById("day").value,
+
+        startTime: document.getElementById("startTime").value,
+
+        endTime: document.getElementById("endTime").value,
+
+        createdAt: serverTimestamp()
+
+    };
+
+
+    await addDoc(
+        collection(db,"users",user.uid,"timetable"),
+        timetableData
+    );
+
+
+    alert("Class added successfully ✅");
+
+
+    loadTimetable();
+
+});
+
+}
+
+
+
+async function loadTimetable(){
 
 const user = auth.currentUser;
 
+if(!user) return;
 
-if(!user){
 
-alert("Please login first");
+const list = document.getElementById("timetableList");
+
+list.innerHTML="";
+
+
+const snapshot = await getDocs(
+collection(db,"users",user.uid,"timetable")
+);
+
+
+if(snapshot.empty){
+
+list.innerHTML = `
+<div class="empty">
+
+📚 No classes added yet
+
+</div>
+`;
+
 return;
 
 }
 
 
-const data = {
+snapshot.forEach((doc)=>{
 
-courseCode:
-document.getElementById("courseCode").value,
+const data = doc.data();
 
-courseTitle:
-document.getElementById("courseTitle").value,
-
-lecturer:
-document.getElementById("lecturer").value,
-
-venue:
-document.getElementById("venue").value,
-
-day:
-document.getElementById("day").value,
-
-startTime:
-document.getElementById("startTime").value,
-
-endTime:
-document.getElementById("endTime").value,
-
-createdAt:serverTimestamp()
-
-};
-
-
-await addDoc(
-collection(
-db,
-"users",
-user.uid,
-"timetable"
-),
-data
-);
-
-
-alert("Class saved ✅");
-
-
-loadTimetable();
-
-
-};
-
-
-async function loadTimetable(){
-
-
-const user = auth.currentUser;
-
-if(!user)return;
-
-
-const box =
-document.getElementById("timetableList");
-
-
-box.innerHTML="";
-
-
-const snap =
-await getDocs(
-collection(
-db,
-"users",
-user.uid,
-"timetable"
-)
-);
-
-
-snap.forEach(doc=>{
-
-
-const item=doc.data();
-
-
-box.innerHTML += `
+list.innerHTML += `
 
 <div class="timetable-card">
 
-<h3>${item.courseCode}</h3>
+<h3>${data.courseCode}</h3>
 
-<p>${item.courseTitle}</p>
+<p>${data.courseTitle}</p>
 
-<p>📅 ${item.day}</p>
+<p>📅 ${data.day}</p>
 
-<p>⏰ ${item.startTime} - ${item.endTime}</p>
+<p>⏰ ${data.startTime} - ${data.endTime}</p>
 
-<p>📍 ${item.venue}</p>
+<p>📍 ${data.venue}</p>
 
-<p>👨‍🏫 ${item.lecturer}</p>
+<p>👨‍🏫 ${data.lecturer}</p>
 
 </div>
 
 `;
 
-
 });
-
 
 }
 
 
+// ADD THIS 👇
+
 auth.onAuthStateChanged(()=>{
 
-loadTimetable();
+    loadTimetable();
 
 });
