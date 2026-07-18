@@ -15,6 +15,7 @@ import {
 
 
 let allUsers = [];
+let currentField = "totalScore";
 
 
 
@@ -30,7 +31,7 @@ try{
 
 const q = query(
     collection(db,"users"),
-    orderBy("totalScore","desc"),
+    orderBy(currentField, "desc"),
     limit(50)
 );
 
@@ -112,7 +113,7 @@ first.name || "Anonymous";
 
 
 document.getElementById("first-score").innerText =
-`⭐ ${first.totalScore || 0} Points`;
+`⭐ ${first[currentField] || 0} Points`;
 
 
 
@@ -121,7 +122,7 @@ second.name || "Anonymous";
 
 
 document.getElementById("second-score").innerText =
-`⭐ ${second.totalScore || 0} Points`;
+`⭐ ${second[currentField] || 0} Points`;
 
 
 
@@ -130,7 +131,7 @@ third.name || "Anonymous";
 
 
 document.getElementById("third-score").innerText =
-`⭐ ${third.totalScore || 0} Points`;
+`⭐ ${third[currentField] || 0} Points`;
 
 }
 
@@ -173,7 +174,7 @@ ${user.name || "Anonymous"}
 
 
 <p>
-⭐ ${user.totalScore || 0} Points
+⭐ ${user[currentField] || 0} Points
 </p>
 
 
@@ -250,7 +251,7 @@ ${allUsers[index].name}
 
 
 <p>
-⭐ ${allUsers[index].totalScore || 0} Points
+⭐ ${allUsers[index][currentField] || 0} Points
 </p>
 
 
@@ -319,26 +320,26 @@ See your exact position among students.
 }
 
 
+window.loadCourseLeaderboard = function(course){
 
+    if(course === "overall"){
+        currentField = "totalScore";
+    }else{
+        currentField = course + "Score";
+    }
 
+    loadLeaderboard();
 
+};
 
-window.addEventListener(
-"DOMContentLoaded",
-()=>{
+window.addEventListener("DOMContentLoaded", () => {
 
+    onAuthStateChanged(auth, (user) => {
 
-onAuthStateChanged(
-auth,
-(user)=>{
+        if (user) {
+            loadLeaderboard();
+        }
 
-if(user){
-
-loadLeaderboard();
-
-}
-
-});
-
+    });
 
 });
