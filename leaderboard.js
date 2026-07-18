@@ -140,33 +140,34 @@ document.getElementById("third-score").innerText =
 
 
 // ==========================
-// PUBLIC TOP 50
+// PUBLIC RANKINGS (FROM 4TH)
 // ==========================
 
 function showLeaderboard(){
 
-
-const list =
-document.getElementById(
+const list = document.getElementById(
 "leaderboard-list"
 );
 
+list.innerHTML = "";
 
 
-list.innerHTML="";
+// Remove top 3 and show only 4th onward
+const remainingUsers = allUsers.slice(3);
 
 
+remainingUsers.forEach((user,index)=>{
 
-allUsers.forEach((user,index)=>{
+
+const rank = index + 4;
 
 
 list.innerHTML += `
 
 <div class="leader-card">
 
-
 <h3>
-#${index+1}
+${rank}th
 ${user.name || "Anonymous"}
 </h3>
 
@@ -184,7 +185,6 @@ ${user.name || "Anonymous"}
 
 
 }
-
 
 
 
