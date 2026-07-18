@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Examify Timetable</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="timetable.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📚 My Timetable</h1>
+
+<div class="card">
+
+<input id="courseCode" placeholder="Course Code">
+
+<input id="courseTitle" placeholder="Course Title">
+
+<input id="lecturer" placeholder="Lecturer">
+
+<input id="venue" placeholder="Venue">
+
+
+<select id="day">
+
+<option>Monday</option>
+<option>Tuesday</option>
+<option>Wednesday</option>
+<option>Thursday</option>
+<option>Friday</option>
+<option>Saturday</option>
+
+</select>
+
+
+<label>Start Time</label>
+<input type="time" id="startTime">
+
+
+<label>End Time</label>
+<input type="time" id="endTime">
+
+
+<button id="saveBtn">
+Save Class
+</button>
+
+</div>
+
+
+<h2>My Classes</h2>
+
+<div id="timetableList"></div>
+
+
+</div>
+
+
+<script type="module" src="timetable.js"></script>
+
+</body>
+</html>
