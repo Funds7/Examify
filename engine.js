@@ -495,35 +495,38 @@ async function finishExam(autoSubmit = false) {
     localStorage.setItem("examAnswers", JSON.stringify(answers));
 
     // ==========================================
-    // UPDATE FIRESTORE FOR LEADERBOARD
-    // ==========================================
+// UPDATE FIRESTORE FOR LEADERBOARD
+// ==========================================
 
-    const user = auth.currentUser;
+const user = auth.currentUser;
 
-    if (user) {
+if (user) {
 
-        const userRef = doc(db, "users", user.uid);
+    const userRef = doc(db, "users", user.uid);
 
-        const snap = await getDoc(userRef);
+    const snap = await getDoc(userRef);
 
-        if (snap.exists()) {
+    if (snap.exists()) {
 
-            const data = snap.data();
+        const data = snap.data();
 
-            await updateDoc(userRef, {
+        const courseField = selectedCourse + "Score";
 
-                completedTests: (data.completedTests || 0) + 1,
+        await updateDoc(userRef, {
 
-                totalScore: (data.totalScore || 0) + score,
+            completedTests: (data.completedTests || 0) + 1,
 
-                level: Math.floor(((data.totalScore || 0) + score) / 100) + 1
+            totalScore: (data.totalScore || 0) + score,
 
-            });
+            [courseField]: (data[courseField] || 0) + score,
 
-        }
+            level: Math.floor(((data.totalScore || 0) + score) / 100) + 1
+
+        });
 
     }
 
+}
     // Go to result page
     window.location.href = "result.html";
 }
