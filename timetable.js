@@ -1,18 +1,16 @@
-import { auth, db } from "./firebase.js";
-
 import {
     collection,
     addDoc,
     getDocs,
     deleteDoc,
+    updateDoc,
     doc,
     serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 
-
 const saveBtn = document.getElementById("saveBtn");
-
+let editingId = null;
 
 
 if(saveBtn){
@@ -70,21 +68,31 @@ saveBtn.addEventListener("click", async()=>{
 
 
 
-    await addDoc(
+    if(editingId){
 
-        collection(db,"users",user.uid,"timetable"),
-
+    await updateDoc(
+        doc(db,"users",user.uid,"timetable",editingId),
         timetableData
-
     );
 
+    alert("Class updated successfully ✅");
 
+    editingId = null;
+
+    saveBtn.textContent = "Save Class";
+
+}else{
+
+    await addDoc(
+        collection(db,"users",user.uid,"timetable"),
+        timetableData
+    );
 
     alert("Class added successfully ✅");
 
+}
 
-
-    loadTimetable();
+loadTimetable();
 
 
 });
@@ -210,50 +218,61 @@ list.innerHTML += `
 
 }
 
-
-
-
-
 // DELETE FUNCTION
-
 window.deleteTimetable = async function(id){
 
+    const user = auth.currentUser;
 
-const user = auth.currentUser;
+    if(!user) return;
 
+    await deleteDoc(
+        doc(db,"users",user.uid,"timetable",id)
+    );
 
-if(!user) return;
+    alert("Class deleted 🗑️");
 
+    loadTimetable();
 
+};
 
-await deleteDoc(
+// EDIT FUNCTION
+window.editTimetable = async function(id){
 
-doc(db,"users",user.uid,"timetable",id)
+    const user = auth.currentUser;
 
-);
+    if(!user) return;
 
+    const snapshot = await getDocs(
+        collection(db,"users",user.uid,"timetable")
+    );
 
+    snapshot.forEach((docSnap)=>{
 
-alert("Class deleted 🗑️");
+        if(docSnap.id === id){
 
+            const data = docSnap.data();
 
+            document.getElementById("courseCode").value = data.courseCode;
+            document.getElementById("courseTitle").value = data.courseTitle;
+            document.getElementById("lecturer").value = data.lecturer;
+            document.getElementById("venue").value = data.venue;
+            document.getElementById("day").value = data.day;
+            document.getElementById("startTime").value = data.startTime;
+            document.getElementById("endTime").value = data.endTime;
 
-loadTimetable();
+            editingId = id;
+            saveBtn.textContent = "Update Class ✏️";
 
+        }
+
+    });
 
 };
 
 
-
-
-
-
 // LOAD AFTER LOGIN
-
 auth.onAuthStateChanged(()=>{
 
-
-loadTimetable();
-
+    loadTimetable();
 
 });
