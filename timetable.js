@@ -4,42 +4,25 @@
  * Developed by Odigwe Joshua
  */
 
-// Import Modular Firebase SDK from CDN
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-import { 
-    getFirestore, 
-    collection, 
-    addDoc, 
-    updateDoc, 
-    deleteDoc, 
-    query, 
-    where, 
-    orderBy, 
-    onSnapshot, 
+// Import Firebase services from your existing firebase.js
+import { auth, db } from "./firebase.js";
+
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+
+import {
+    collection,
+    addDoc,
+    updateDoc,
+    deleteDoc,
+    query,
+    where,
+    orderBy,
+    onSnapshot,
     doc,
     getDocs,
     setDoc,
     getDoc
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-
-// =========================================================================
-// 1. FIREBASE CONFIGURATION
-// =========================================================================
-// Place your unique Firebase Project Credentials inside this block:
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY_HERE",
-    authDomain: "YOUR_PROJECT_ID_HERE.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID_HERE",
-    storageBucket: "YOUR_PROJECT_ID_HERE.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID_HERE",
-    appId: "YOUR_APP_ID_HERE"
-};
-
-// Initialize Firebase securely
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 // =========================================================================
 // 2. TIMETABLE RUNTIME SYSTEM STATE
