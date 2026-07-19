@@ -1,66 +1,306 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Examify Timetable</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="timetable.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FundsIQ - Timetable</title>
+  <link rel="stylesheet" href="timetable.css">
+  <meta name="theme-color" content="#0f172a">
 </head>
-
 <body>
 
-<div class="container">
+  <!-- ==========================================
+       PULL TO REFRESH HEADER
+       ========================================== -->
+  <div id="pull-to-refresh" class="pull-indicator">
+    <svg class="spinner" viewBox="0 0 50 50">
+      <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+    </svg>
+    <span>Refreshing Schedule...</span>
+  </div>
 
-<h1>📚 My Timetable</h1>
+  <div class="timetable-wrapper">
+    <div class="container">
 
-<div class="card">
+      <!-- ==========================================
+           HEADER NAVBAR
+           ========================================== -->
+      <header class="page-header">
+        <button class="back-btn" onclick="location.href='index.html'" aria-label="Back">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        </button>
+        <div class="header-text">
+          <h1>Class Schedule</h1>
+          <p id="active-course-sub">Manage your DELSU GST sessions</p>
+        </div>
+        <div class="auth-status-badge" id="auth-status">
+          <span class="status-dot offline"></span>
+          <span id="status-text">Connecting...</span>
+        </div>
+      </header>
 
-<input id="courseCode" placeholder="Course Code">
+      <!-- ==========================================
+           TIMETABLE VIEW TYPE TABS
+           ========================================== -->
+      <nav class="type-tabs">
+        <button class="tab-btn active" data-tab="personal">📚 Personal</button>
+        <button class="tab-btn" data-tab="lecture">🎓 Lectures</button>
+        <button class="tab-btn" data-tab="exam">📝 Exams</button>
+      </nav>
 
-<input id="courseTitle" placeholder="Course Title">
+      <!-- ==========================================
+           METRIC DASHBOARD CARDS
+           ========================================== -->
+      <section class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-icon">📋</span>
+          <div class="metric-info">
+            <h4 id="stat-total-classes">0</h4>
+            <p>Total Classes</p>
+          </div>
+        </div>
+        <div class="metric-card">
+          <span class="metric-icon">📅</span>
+          <div class="metric-info">
+            <h4 id="stat-today-classes">0</h4>
+            <p>Today's Lectures</p>
+          </div>
+        </div>
+        <div class="metric-card next-class-highlight">
+          <span class="metric-icon">⏱️</span>
+          <div class="metric-info">
+            <h4 id="stat-next-countdown">--:--</h4>
+            <p id="stat-next-label">Next Class</p>
+          </div>
+        </div>
+      </section>
 
-<input id="lecturer" placeholder="Lecturer">
+      <!-- ==========================================
+           SMART SCHEDULING CARD (TODAY'S CONTEXT)
+           ========================================== -->
+      <section class="smart-card" id="smart-tracker">
+        <div class="smart-content">
+          <div class="smart-header">
+            <span class="status-indicator-glowing"></span>
+            <h4>Live Tracking</h4>
+          </div>
+          <h2 id="smart-title">Evaluating Schedule...</h2>
+          <p id="smart-sub">Scanning class timestamps...</p>
+        </div>
+        <div class="smart-visual" id="smart-countdown-circle">
+          <!-- Dynamically filled with countdown or status SVGs -->
+          <svg width="64" height="64" viewBox="0 0 36 36">
+            <circle cx="18" cy="18" r="16" fill="none" stroke="#1e293b" stroke-width="3"></circle>
+            <circle id="countdown-ring" cx="18" cy="18" r="16" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="100 100" stroke-dashoffset="0"></circle>
+            <text x="18" y="21.5" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold" id="ring-text">--</text>
+          </svg>
+        </div>
+      </section>
 
-<input id="venue" placeholder="Venue">
+      <!-- ==========================================
+           SEARCH & FILTERS PANEL
+           ========================================== -->
+      <section class="control-panel">
+        <div class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="search-input" placeholder="Search by course, venue, lecturer...">
+        </div>
+        
+        <div class="filter-strip">
+          <select id="filter-day" class="filter-dropdown">
+            <option value="ALL">All Days</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+          </select>
 
+          <div class="view-toggle-buttons">
+            <button class="view-btn active" data-view="timeline" title="Timeline View">Timeline</button>
+            <button class="view-btn" data-view="weekly" title="Weekly Grid">Weekly</button>
+          </div>
+        </div>
+      </section>
 
-<select id="day">
+      <!-- ==========================================
+           MAIN TIMETABLE CONTAINER
+           ========================================== -->
+      <main class="timetable-container" id="schedule-viewport">
+        <!-- Skeleton Loading Cards (Visible during initial load) -->
+        <div class="skeleton-container" id="skeleton-loader">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
 
-<option>Monday</option>
-<option>Tuesday</option>
-<option>Wednesday</option>
-<option>Thursday</option>
-<option>Friday</option>
-<option>Saturday</option>
+        <!-- Render Target Area for Dynamic Cards -->
+        <div id="active-schedule-content" class="fade-in"></div>
 
-</select>
+        <!-- Empty State Container -->
+        <div id="empty-state" class="empty-state" style="display: none;">
+          <div class="empty-graphic">
+            <svg width="120" height="120" viewBox="0 0 100 100" fill="none" stroke="#334155" stroke-width="2">
+              <rect x="20" y="20" width="60" height="60" rx="10" />
+              <line x1="35" y1="40" x2="65" y2="40" />
+              <line x1="35" y1="55" x2="55" y2="55" />
+              <circle cx="65" cy="70" r="15" fill="#1e293b" />
+              <path d="M60,70 L70,70" stroke="#f59e0b" stroke-width="2"/>
+              <path d="M65,65 L65,75" stroke="#f59e0b" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>No classes scheduled</h3>
+          <p>Your timeline is clear. Add lectures to populate this view.</p>
+        </div>
+      </main>
 
+      <!-- ==========================================
+           SIGNATURE FOOTER
+           ========================================== -->
+      <footer class="footer">
+        <p class="footer-version">FundsIQ v1.0</p>
+        <p class="footer-author">Designed by <span class="author-name">Odigwe Joshua <span class="verified-badge">✓</span></span></p>
+      </footer>
 
-<label>Start Time</label>
-<input type="time" id="startTime">
+    </div>
+  </div>
 
+  <!-- ==========================================
+       FLOATING ACTION ADD BUTTON
+       ========================================== -->
+  <button class="floating-action-btn" id="fab-add-class" aria-label="Add Class">
+    <span>+</span>
+  </button>
 
-<label>End Time</label>
-<input type="time" id="endTime">
+  <!-- ==========================================
+       MODAL: ADD & EDIT CLASS DRAWER
+       ========================================== -->
+  <div class="modal-overlay" id="class-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">Schedule New Class</h3>
+        <button class="modal-close-btn" id="close-class-modal">&times;</button>
+      </div>
+      <form id="class-form" class="modal-form">
+        <input type="hidden" id="form-edit-id">
 
+        <div class="form-group">
+          <label for="form-course-code">Course Code</label>
+          <input type="text" id="form-course-code" placeholder="e.g. GST 103" required>
+        </div>
 
-<button id="saveBtn">
-Save Class
-</button>
+        <div class="form-group">
+          <label for="form-course-title">Course Title</label>
+          <input type="text" id="form-course-title" placeholder="e.g. DELSU Culture & Ethics" required>
+        </div>
 
-</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="form-lecturer">Lecturer</label>
+            <input type="text" id="form-lecturer" placeholder="e.g. Dr. Onome" required>
+          </div>
+          <div class="form-group">
+            <label for="form-venue">Venue</label>
+            <input type="text" id="form-venue" placeholder="e.g. CLH 1" required>
+          </div>
+        </div>
 
+        <div class="form-row">
+          <div class="form-group">
+            <label for="form-day">Day</label>
+            <select id="form-day" required>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-start-time">Start Time</label>
+            <input type="time" id="form-start-time" required>
+          </div>
+          <div class="form-group">
+            <label for="form-end-time">End Time</label>
+            <input type="time" id="form-end-time" required>
+          </div>
+        </div>
 
-<h2>My Classes</h2>
+        <div class="form-group">
+          <label for="form-description">Description / Special Notes</label>
+          <textarea id="form-description" rows="2" placeholder="e.g. Group presentations / assignments"></textarea>
+        </div>
 
-<div id="timetableList"></div>
+        <button type="submit" class="form-submit-btn" id="form-submit-btn">Save Class</button>
+      </form>
+    </div>
+  </div>
 
+  <!-- ==========================================
+       MODAL: COMPACT PRODUCTIVITY EDITOR (DRAWER)
+       ========================================== -->
+  <div class="modal-overlay" id="productivity-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="prod-modal-title">Activity Checklist</h3>
+        <button class="modal-close-btn" id="close-prod-modal">&times;</button>
+      </div>
+      <div class="modal-form">
+        <input type="hidden" id="prod-class-id">
 
-</div>
+        <div class="productivity-section">
+          <label class="prod-heading">Attendance Record</label>
+          <div class="toggle-wrapper">
+            <span>Mark as Attended</span>
+            <button class="attendance-toggle-btn" id="prod-attendance-toggle">No</button>
+          </div>
+        </div>
 
+        <div class="productivity-section">
+          <label for="prod-notes">Lecture Notes</label>
+          <textarea id="prod-notes" rows="2" placeholder="Write summaries, formulas, or key points..."></textarea>
+        </div>
 
-<script type="module" src="timetable.js"></script>
+        <div class="productivity-section">
+          <label for="prod-homework">Tasks & Homework Checklist</label>
+          <div class="checklist-builder">
+            <input type="text" id="prod-new-todo" placeholder="Add assignment, reading task...">
+            <button type="button" id="btn-add-todo" class="add-todo-btn">+</button>
+          </div>
+          <div class="checklist-items" id="prod-checklist-container">
+            <!-- Rendered dynamic checklist -->
+          </div>
+        </div>
 
+        <button type="button" class="form-submit-btn" id="prod-save-btn">Save Upgrades</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       CONFIRMATION PORTALS (DELETE DIALOGUE)
+       ========================================== -->
+  <div class="modal-overlay" id="confirm-delete-modal">
+    <div class="modal-card confirm-card">
+      <h3>Delete Class Session?</h3>
+      <p>This action is irreversible. It will permanently remove this lecture from your FundsIQ database.</p>
+      <div class="confirm-actions">
+        <button class="confirm-btn cancel" id="cancel-delete-btn">Cancel</button>
+        <button class="confirm-btn delete" id="confirm-delete-btn">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       TOAST ALERTS SYSTEM
+       ========================================== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Load Firebase scripts statically using Modular import maps in JavaScript -->
+  <script type="module" src="timetable.js"></script>
 </body>
-</html>
+  </html>
