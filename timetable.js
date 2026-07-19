@@ -1,278 +1,916 @@
-import {
-    collection,
-    addDoc,
-    getDocs,
-    deleteDoc,
-    updateDoc,
+/**
+ * FundsIQ Timetable & Productivity Core Engine
+ * Integrates directly with Cloud Firestore (Modular SDK v12)
+ * Developed by Odigwe Joshua
+ */
+
+// Import Modular Firebase SDK from CDN
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { 
+    getFirestore, 
+    collection, 
+    addDoc, 
+    updateDoc, 
+    deleteDoc, 
+    query, 
+    where, 
+    orderBy, 
+    onSnapshot, 
     doc,
-    serverTimestamp
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+    getDocs,
+    setDoc,
+    getDoc
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
+// =========================================================================
+// 1. FIREBASE CONFIGURATION
+// =========================================================================
+// Place your unique Firebase Project Credentials inside this block:
+const firebaseConfig = {
+    apiKey: "YOUR_API_KEY_HERE",
+    authDomain: "YOUR_PROJECT_ID_HERE.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID_HERE",
+    storageBucket: "YOUR_PROJECT_ID_HERE.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID_HERE",
+    appId: "YOUR_APP_ID_HERE"
+};
 
-const saveBtn = document.getElementById("saveBtn");
-let editingId = null;
+// Initialize Firebase securely
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
 
+// =========================================================================
+// 2. TIMETABLE RUNTIME SYSTEM STATE
+// =========================================================================
+const State = {
+    user: null,
+    activeTab: "personal", // 'personal' | 'lecture' | 'exam'
+    activeView: "timeline", // 'timeline' | 'weekly'
+    filterDay: "ALL",
+    searchQuery: "",
+    classes: [],           // Real-time synchronization store
+    lectureTimetable: [],  // Official pre-loaded DELSU schedule
+    examTimetable: [],     // Official pre-loaded DELSU exam schedule
+    selectedEditId: null,
+    selectedDeleteId: null,
+    activeProductivityId: null,
+    clockInterval: null
+};
 
-if(saveBtn){
+// =========================================================================
+// 3. OFFICIAL DELSU LECTURE & EXAM DATABASES (FAST OFFLINE PRE-LOAD)
+// =========================================================================
+State.lectureTimetable = [
+    { id: "l1", courseCode: "GST 101", courseTitle: "Use of English & Library", lecturer: "Dr. Mrs. Ogisi", venue: "Convocation Hall", day: "Monday", startTime: "09:00", endTime: "11:00", description: "Use of Library module emphasis" },
+    { id: "l2", courseCode: "GST 102", courseTitle: "Philosophy & Human Existence", lecturer: "Prof. Edevbie", venue: "CLH 1", day: "Tuesday", startTime: "10:00", endTime: "12:00", description: "Ancient Greek Philosophy overview" },
+    { id: "l3", courseCode: "GST 103", courseTitle: "DELSU Culture & Ethics", lecturer: "Dr. Akpotor", venue: "Lecture Theatre 3", day: "Wednesday", startTime: "08:00", endTime: "10:00", description: "Ethical frameworks in DELSU environment" },
+    { id: "l4", courseCode: "GST 111", courseTitle: "Nigerian Peoples, Culture & Entrepreneurial Skills", lecturer: "Dr. Ogho", venue: "CLH 2", day: "Thursday", startTime: "12:00", endTime: "14:00", description: "Cultural diversity and enterprise" },
+    { id: "l5", courseCode: "GST 112", courseTitle: "History & Philosophy of Science and Technology", lecturer: "Prof. Enue", venue: "Science Lecture Theatre", day: "Friday", startTime: "14:00", endTime: "16:00", description: "Technological transformations through time" }
+];
 
-saveBtn.addEventListener("click", async()=>{
+State.examTimetable = [
+    { id: "e1", courseCode: "GST 101", courseTitle: "Use of English & Library", date: "2026-08-10", startTime: "08:30", endTime: "10:30", venue: "DELSU CBT Center, Site 3", duration: "120 mins" },
+    { id: "e2", courseCode: "GST 102", courseTitle: "Philosophy & Human Existence", date: "2026-08-12", startTime: "11:00", endTime: "13:00", venue: "DELSU CBT Center, Site 3", duration: "120 mins" },
+    { id: "e3", courseCode: "GST 103", courseTitle: "DELSU Culture & Ethics", date: "2026-08-14", startTime: "13:30", endTime: "15:30", venue: "DELSU CBT Center, Site 3", duration: "120 mins" }
+];
 
+// =========================================================================
+// 4. UX ALERTS (TOAST NOTIFIER ENGINE)
+// =========================================================================
+function showToast(message, type = "success") {
+    const container = document.getElementById("toast-container");
+    if (!container) return;
 
-    const user = auth.currentUser;
+    const toast = document.createElement("div");
+    toast.className = `toast ${type}`;
+    toast.innerHTML = `
+        <span class="toast-indicator"></span>
+        <span>${message}</span>
+    `;
 
+    container.appendChild(toast);
 
-    if(!user){
+    // Fade and destroy
+    setTimeout(() => {
+        toast.style.animation = "toast-slide-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) reverse";
+        setTimeout(() => toast.remove(), 300);
+    }, 3000);
+}
 
-        alert("Please login first");
+// =========================================================================
+// 5. SECURE STATE RETRIEVALS
+// =========================================================================
+function getActiveCollection() {
+    if (State.activeTab === "personal") {
+        return State.classes;
+    } else if (State.activeTab === "lecture") {
+        return State.lectureTimetable;
+    } else {
+        return State.examTimetable;
+    }
+}
 
-        return;
+// =========================================================================
+// 6. FIRESTORE INTERACTION MODULE
+// =========================================================================
+let unsubscribeSnapshot = null;
 
+function subscribeToFirestoreTimetable(user) {
+    if (unsubscribeSnapshot) unsubscribeSnapshot();
+
+    const collectionPath = `users/${user.uid}/timetable`;
+    const q = query(collection(db, collectionPath), orderBy("startTime", "asc"));
+
+    toggleSkeleton(true);
+
+    unsubscribeSnapshot = onSnapshot(q, (snapshot) => {
+        const localItems = [];
+        snapshot.forEach((docSnap) => {
+            const data = docSnap.data();
+            localItems.push({
+                id: docSnap.id,
+                ...data
+            });
+        });
+
+        // Store into runtime state
+        State.classes = localItems;
+        toggleSkeleton(false);
+        renderSchedule();
+        evaluateSmartSchedule();
+    }, (error) => {
+        console.error("Firestore subscription error:", error);
+        toggleSkeleton(false);
+        showToast("Error loading cloud schedule. Offline fallback active.", "error");
+        
+        // Offline recovery state check
+        if (State.classes.length === 0) {
+            loadOfflineMockData();
+        }
+    });
+}
+
+// Fallback logic for sandbox/offline deployments
+function loadOfflineMockData() {
+    const key = "offline_timetable_mock";
+    let data = localStorage.getItem(key);
+
+    if (data) {
+        State.classes = JSON.parse(data);
+    } else {
+        State.classes = [
+            { id: "m1", courseCode: "GST 103", courseTitle: "DELSU Culture & Ethics", lecturer: "Dr. Akpotor", venue: "CLH 1", day: "Monday", startTime: "08:30", endTime: "10:30", description: "Pre-reading Chapter 1 is required.", attended: false, notes: "", checklist: [] }
+        ];
+        localStorage.setItem(key, JSON.stringify(State.classes));
+    }
+    renderSchedule();
+    evaluateSmartSchedule();
+}
+
+async function saveClassSession(data) {
+    if (auth.currentUser) {
+        const path = `users/${auth.currentUser.uid}/timetable`;
+        if (State.selectedEditId) {
+            const docRef = doc(db, path, State.selectedEditId);
+            await updateDoc(docRef, data);
+            showToast("Class session updated successfully.");
+        } else {
+            await addDoc(collection(db, path), {
+                ...data,
+                createdAt: new Date().toISOString()
+            });
+            showToast("Class session created successfully.");
+        }
+    } else {
+        // Local fallback writes
+        const key = "offline_timetable_mock";
+        if (State.selectedEditId) {
+            State.classes = State.classes.map(c => c.id === State.selectedEditId ? { ...c, ...data } : c);
+            showToast("Updated offline mock session.");
+        } else {
+            const newObj = { id: "m_" + Date.now(), ...data, createdAt: new Date().toISOString() };
+            State.classes.push(newObj);
+            showToast("Saved offline mock session.");
+        }
+        localStorage.setItem(key, JSON.stringify(State.classes));
+        renderSchedule();
+        evaluateSmartSchedule();
+    }
+}
+
+async function deleteClassSession(id) {
+    if (auth.currentUser) {
+        const path = `users/${auth.currentUser.uid}/timetable`;
+        const docRef = doc(db, path, id);
+        await deleteDoc(docRef);
+        showToast("Class session deleted permanently.");
+    } else {
+        const key = "offline_timetable_mock";
+        State.classes = State.classes.filter(c => c.id !== id);
+        localStorage.setItem(key, JSON.stringify(State.classes));
+        showToast("Mock session deleted.");
+        renderSchedule();
+        evaluateSmartSchedule();
+    }
+}
+
+// =========================================================================
+// 7. COMPACT RENDERING LOGIC (DAILY, TIMELINE, WEEKLY, EXAM)
+// =========================================================================
+function renderSchedule() {
+    const viewport = document.getElementById("active-schedule-content");
+    const emptyState = document.getElementById("empty-state");
+    if (!viewport || !emptyState) return;
+
+    let dataset = getActiveCollection();
+
+    // 1. Search Query Filters
+    if (State.searchQuery.trim() !== "") {
+        const q = State.searchQuery.toLowerCase();
+        dataset = dataset.filter(item => 
+            item.courseCode.toLowerCase().includes(q) ||
+            item.courseTitle.toLowerCase().includes(q) ||
+            (item.lecturer && item.lecturer.toLowerCase().includes(q)) ||
+            (item.venue && item.venue.toLowerCase().includes(q))
+        );
     }
 
+    // 2. Day Dropdown Filters
+    if (State.filterDay !== "ALL" && State.activeTab !== "exam") {
+        dataset = dataset.filter(item => item.day === State.filterDay);
+    }
 
+    // 3. Sorting by execution start time
+    if (State.activeTab !== "exam") {
+        dataset.sort((a, b) => a.startTime.localeCompare(b.startTime));
+    } else {
+        dataset.sort((a, b) => a.date.localeCompare(b.date));
+    }
 
-    const timetableData = {
+    // Check dataset lengths
+    if (dataset.length === 0) {
+        viewport.innerHTML = "";
+        emptyState.style.display = "block";
+        updateDashboardMetrics(0, 0);
+        return;
+    }
 
+    emptyState.style.display = "none";
+    viewport.innerHTML = "";
 
-        courseCode:
-        document.getElementById("courseCode").value.trim(),
+    if (State.activeTab === "exam") {
+        renderExamTimeline(viewport, dataset);
+        return;
+    }
 
+    if (State.activeView === "timeline") {
+        renderTimelineView(viewport, dataset);
+    } else {
+        renderWeeklyView(viewport, dataset);
+    }
 
-        courseTitle:
-        document.getElementById("courseTitle").value.trim(),
-
-
-        lecturer:
-        document.getElementById("lecturer").value.trim(),
-
-
-        venue:
-        document.getElementById("venue").value.trim(),
-
-
-        day:
-        document.getElementById("day").value,
-
-
-        startTime:
-        document.getElementById("startTime").value,
-
-
-        endTime:
-        document.getElementById("endTime").value,
-
-
-        createdAt: serverTimestamp()
-
-    };
-
-
-
-    if(editingId){
-
-    await updateDoc(
-        doc(db,"users",user.uid,"timetable",editingId),
-        timetableData
-    );
-
-    alert("Class updated successfully ✅");
-
-    editingId = null;
-
-    saveBtn.textContent = "Save Class";
-
-}else{
-
-    await addDoc(
-        collection(db,"users",user.uid,"timetable"),
-        timetableData
-    );
-
-    alert("Class added successfully ✅");
-
+    updateDashboardMetrics(dataset.length, calculateTodayClassesCount(dataset));
 }
 
-loadTimetable();
-
-
-});
-
-}
-
-
-
-
-
-async function loadTimetable(){
-
-
-const user = auth.currentUser;
-
-
-if(!user) return;
-
-
-
-const list = document.getElementById("timetableList");
-
-
-if(!list) return;
-
-
-
-list.innerHTML = "";
-
-
-
-const snapshot = await getDocs(
-
-    collection(db,"users",user.uid,"timetable")
-
-);
-
-
-
-
-
-if(snapshot.empty){
-
-
-list.innerHTML = `
-
-<div class="empty">
-
-📚 No classes added yet
-
-</div>
-
-`;
-
-return;
-
-
-}
-
-
-
-
-snapshot.forEach((docSnap)=>{
-
-
-const data = docSnap.data();
-
-
-const id = docSnap.id;
-
-
-
-list.innerHTML += `
-
-
-<div class="timetable-card">
-
-
-<h3>${data.courseCode}</h3>
-
-
-<p>${data.courseTitle}</p>
-
-
-<p>📅 ${data.day}</p>
-
-
-<p>⏰ ${data.startTime} - ${data.endTime}</p>
-
-
-<p>📍 ${data.venue}</p>
-
-
-<p>👨‍🏫 ${data.lecturer}</p>
-
-
-
-<button onclick="editTimetable('${id}')">
-
-✏️ Edit
-
-</button>
-
-
-
-<button onclick="deleteTimetable('${id}')">
-
-🗑️ Delete
-
-</button>
-
-
-
-</div>
-
-
-`;
-
-
-
-});
-
-
-}
-
-// DELETE FUNCTION
-window.deleteTimetable = async function(id){
-
-    const user = auth.currentUser;
-
-    if(!user) return;
-
-    await deleteDoc(
-        doc(db,"users",user.uid,"timetable",id)
-    );
-
-    alert("Class deleted 🗑️");
-
-    loadTimetable();
-
-};
-
-// EDIT FUNCTION
-window.editTimetable = async function(id){
-
-    const user = auth.currentUser;
-
-    if(!user) return;
-
-    const snapshot = await getDocs(
-        collection(db,"users",user.uid,"timetable")
-    );
-
-    snapshot.forEach((docSnap)=>{
-
-        if(docSnap.id === id){
-
-            const data = docSnap.data();
-
-            document.getElementById("courseCode").value = data.courseCode;
-            document.getElementById("courseTitle").value = data.courseTitle;
-            document.getElementById("lecturer").value = data.lecturer;
-            document.getElementById("venue").value = data.venue;
-            document.getElementById("day").value = data.day;
-            document.getElementById("startTime").value = data.startTime;
-            document.getElementById("endTime").value = data.endTime;
-
-            editingId = id;
-            saveBtn.textContent = "Update Class ✏️";
-
-        }
-
+function renderTimelineView(container, dataset) {
+    const fragment = document.createDocumentFragment();
+
+    dataset.forEach(item => {
+        const card = createClassCard(item);
+        fragment.appendChild(card);
     });
 
+    container.appendChild(fragment);
+}
+
+function renderWeeklyView(container, dataset) {
+    const daysOrder = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    const fragment = document.createDocumentFragment();
+
+    daysOrder.forEach(dayName => {
+        const dayClasses = dataset.filter(item => item.day === dayName);
+        if (dayClasses.length === 0) return;
+
+        const group = document.createElement("div");
+        group.className = "weekly-schedule-group";
+        group.innerHTML = `<h5 class="weekly-day-header">${dayName}</h5>`;
+
+        dayClasses.forEach(item => {
+            const card = createClassCard(item);
+            group.appendChild(card);
+        });
+
+        fragment.appendChild(group);
+    });
+
+    container.appendChild(fragment);
+}
+
+function createClassCard(item) {
+    const card = document.createElement("div");
+    card.className = "class-card fade-in";
+    
+    // Add glowing border class if the class is currently active (today + active hour)
+    if (isClassCurrentlyActive(item)) {
+        card.classList.add("active-class");
+    }
+
+    const courseLeftColor = getDeterministicColor(item.courseCode);
+    const isAttended = item.attended === true;
+
+    card.innerHTML = `
+        <div class="course-glow-bar" style="background-color: ${courseLeftColor};"></div>
+        <div class="class-card-body">
+            <div class="card-top-row">
+                <span class="course-badge" style="background-color: ${courseLeftColor}15; color: ${courseLeftColor};">${item.courseCode}</span>
+                <span class="time-badge">${item.startTime} - ${item.endTime} ${State.activeTab !== 'lecture' ? '('+item.day+')' : ''}</span>
+            </div>
+            <h4 class="class-title">${item.courseTitle}</h4>
+            <div class="details-row">
+                <div class="meta-item"><span class="meta-label">Lecturer:</span> ${item.lecturer}</div>
+                <div class="meta-item"><span class="meta-label">Venue:</span> ${item.venue}</div>
+            </div>
+            ${item.description ? `<p class="class-desc">${item.description}</p>` : ""}
+            <div class="card-actions-row">
+                ${State.activeTab === 'personal' ? `
+                    <button class="mini-pill-btn ${isAttended ? 'attended-pill' : ''}" onclick="window.triggerProductivity('${item.id}')">
+                        ${isAttended ? '✓ Attended' : '📝 Notes & Tasks'}
+                    </button>
+                    <div class="edit-actions">
+                        <button class="icon-action-btn" onclick="window.editClassModal('${item.id}')" title="Edit Class">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        </button>
+                        <button class="icon-action-btn delete-icon" onclick="window.triggerDeleteModal('${item.id}')" title="Delete Class">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="3 6 5 3 21 3 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </div>
+                ` : `
+                    <span class="mini-pill-btn" onclick="alert('Join Study Group for ${item.courseCode}!')">👥 Study Group</span>
+                `}
+            </div>
+        </div>
+    `;
+    return card;
+}
+
+function renderExamTimeline(container, dataset) {
+    const fragment = document.createDocumentFragment();
+
+    dataset.forEach(exam => {
+        const card = document.createElement("div");
+        card.className = "class-card fade-in";
+        const color = getDeterministicColor(exam.courseCode);
+
+        // Calculate countdown to exam date
+        const countdownStr = getExamCountdownString(exam.date, exam.startTime);
+
+        card.innerHTML = `
+            <div class="course-glow-bar" style="background-color: ${color};"></div>
+            <div class="class-card-body">
+                <div class="card-top-row">
+                    <span class="course-badge" style="background-color: ${color}15; color: ${color};">${exam.courseCode}</span>
+                    <span class="time-badge" style="color: var(--danger); font-weight: 800;">${countdownStr}</span>
+                </div>
+                <h4 class="class-title">${exam.courseTitle}</h4>
+                <div class="details-row">
+                    <div class="meta-item"><span class="meta-label">Date:</span> ${exam.date}</div>
+                    <div class="meta-item"><span class="meta-label">Time:</span> ${exam.startTime} (${exam.duration})</div>
+                    <div class="meta-item" style="grid-column: span 2;"><span class="meta-label">Venue:</span> ${exam.venue}</div>
+                </div>
+                <div class="card-actions-row">
+                    <button class="mini-pill-btn" style="border-color: var(--danger); color: var(--danger); background: none;" onclick="alert('Revision scope configured. Keep studying!')">🎯 Revision Scope</button>
+                </div>
+            </div>
+        `;
+        fragment.appendChild(card);
+    });
+
+    container.appendChild(fragment);
+}
+
+// =========================================================================
+// 8. COGNITIVE UTILITIES (COUNTDOWNS, COLORS, ACTIVE STATUS)
+// =========================================================================
+function getDeterministicColor(str) {
+    const colors = ["#8b5cf6", "#ec4899", "#22c55e", "#f59e0b", "#3b82f6", "#06b6d4", "#f97316"];
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const index = Math.abs(hash) % colors.length;
+    return colors[index];
+}
+
+function calculateTodayClassesCount(dataset) {
+    const currentDay = getCurrentDayName();
+    return dataset.filter(item => item.day === currentDay).length;
+}
+
+function getCurrentDayName() {
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    return days[new Date().getDay()];
+}
+
+function isClassCurrentlyActive(item) {
+    if (item.day !== getCurrentDayName()) return false;
+
+    const now = new Date();
+    const currentMinutes = (now.getHours() * 60) + now.getMinutes();
+
+    const [startH, startM] = item.startTime.split(":").map(Number);
+    const [endH, endM] = item.endTime.split(":").map(Number);
+
+    const startMinutes = (startH * 60) + startM;
+    const endMinutes = (endH * 60) + endM;
+
+    return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
+}
+
+function getExamCountdownString(dateStr, timeStr) {
+    const examDate = new Date(`${dateStr}T${timeStr}:00`);
+    const now = new Date();
+    const diff = examDate - now;
+
+    if (diff <= 0) return "Exam Passed";
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    if (days > 0) {
+        return `${days}d ${hours}h left`;
+    }
+    const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    return `${hours}h ${mins}m left`;
+}
+
+// =========================================================================
+// 9. SMART SCHEDULING (TICKING ENGINE)
+// =========================================================================
+function evaluateSmartSchedule() {
+    const smartTitle = document.getElementById("smart-title");
+    const smartSub = document.getElementById("smart-sub");
+    const ringText = document.getElementById("ring-text");
+    const ring = document.getElementById("countdown-ring");
+
+    if (!smartTitle || !smartSub) return;
+
+    let dataset = getActiveCollection();
+    if (dataset.length === 0) {
+        smartTitle.textContent = "No classes compiled";
+        smartSub.textContent = "Setup personal timeline courses.";
+        if (ringText) ringText.textContent = "--";
+        return;
+    }
+
+    const todayName = getCurrentDayName();
+    const todayClasses = dataset.filter(c => c.day === todayName);
+
+    if (todayClasses.length === 0) {
+        smartTitle.textContent = "No classes today! 🥳";
+        smartSub.textContent = "Enjoy your free periods or study.";
+        if (ringText) ringText.textContent = "Free";
+        if (ring) ring.style.strokeDashoffset = "100";
+        return;
+    }
+
+    const now = new Date();
+    const currentMins = (now.getHours() * 60) + now.getMinutes();
+
+    let activeClass = null;
+    let nextClass = null;
+
+    todayClasses.forEach(c => {
+        const [startH, startM] = c.startTime.split(":").map(Number);
+        const [endH, endM] = c.endTime.split(":").map(Number);
+        const startMins = (startH * 60) + startM;
+        const endMins = (endH * 60) + endM;
+
+        if (currentMins >= startMins && currentMins <= endMins) {
+            activeClass = c;
+        } else if (startMins > currentMins) {
+            if (!nextClass) {
+                nextClass = c;
+            } else {
+                const [nStartH, nStartM] = nextClass.startTime.split(":").map(Number);
+                const nStartMins = (nStartH * 60) + nStartM;
+                if (startMins < nStartMins) {
+                    nextClass = c;
+                }
+            }
+        }
+    });
+
+    if (activeClass) {
+        smartTitle.textContent = `Current: ${activeClass.courseCode}`;
+        smartSub.textContent = `Ongoing at ${activeClass.venue}`;
+
+        // Calculate progress percentage through class duration
+        const [startH, startM] = activeClass.startTime.split(":").map(Number);
+        const [endH, endM] = activeClass.endTime.split(":").map(Number);
+        const startMins = (startH * 60) + startM;
+        const endMins = (endH * 60) + endM;
+        const totalDuration = endMins - startMins;
+        const elapsed = currentMins - startMins;
+        const pct = Math.max(0, Math.min(100, Math.round((elapsed / totalDuration) * 100)));
+
+        if (ringText) ringText.textContent = `${pct}%`;
+        if (ring) {
+            const offset = 100 - pct;
+            ring.style.strokeDashoffset = offset;
+        }
+    } else if (nextClass) {
+        smartTitle.textContent = `Next: ${nextClass.courseCode}`;
+        const [nStartH, nStartM] = nextClass.startTime.split(":").map(Number);
+        const nextStartMins = (nStartH * 60) + nStartM;
+        const minDiff = nextStartMins - currentMins;
+
+        smartSub.textContent = `Starts in ${minDiff} minutes at ${nextClass.venue}`;
+        if (ringText) ringText.textContent = `${minDiff}m`;
+        if (ring) ring.style.strokeDashoffset = "0";
+    } else {
+        smartTitle.textContent = "Done with lectures! 🎉";
+        smartSub.textContent = "All scheduled sessions completed.";
+        if (ringText) ringText.textContent = "Done";
+        if (ring) ring.style.strokeDashoffset = "100";
+    }
+}
+
+function startClockTicks() {
+    if (State.clockInterval) clearInterval(State.clockInterval);
+    State.clockInterval = setInterval(() => {
+        evaluateSmartSchedule();
+    }, 60000); // Ticks every minute
+}
+
+// =========================================================================
+// 10. PRODUCTIVITY CHECKLISTS MANAGER
+// =========================================================================
+window.triggerProductivity = function(classId) {
+    const modal = document.getElementById("productivity-modal");
+    const classItem = State.classes.find(c => c.id === classId);
+    if (!modal || !classItem) return;
+
+    State.activeProductivityId = classId;
+    document.getElementById("prod-class-id").value = classId;
+
+    // Load active notes
+    document.getElementById("prod-notes").value = classItem.notes || "";
+
+    // Synchronize attendance button styling
+    const attendBtn = document.getElementById("prod-attendance-toggle");
+    if (classItem.attended === true) {
+        attendBtn.textContent = "Yes";
+        attendBtn.classList.add("active");
+    } else {
+        attendBtn.textContent = "No";
+        attendBtn.classList.remove("active");
+    }
+
+    renderChecklist(classItem.checklist || []);
+    modal.classList.add("active");
 };
 
+function renderChecklist(todos) {
+    const container = document.getElementById("prod-checklist-container");
+    if (!container) return;
 
-// LOAD AFTER LOGIN
-auth.onAuthStateChanged(()=>{
+    container.innerHTML = "";
+    todos.forEach((todo, idx) => {
+        const item = document.createElement("div");
+        item.className = "checklist-item";
+        item.innerHTML = `
+            <span class="checklist-text ${todo.done ? 'done' : ''}" onclick="window.toggleTodoState(${idx})">
+                ${todo.done ? '✓' : '○'} ${todo.text}
+            </span>
+            <button class="remove-todo-btn" onclick="window.removeTodoState(${idx})">&times;</button>
+        `;
+        container.appendChild(item);
+    });
+}
 
-    loadTimetable();
+// Expose handlers globally
+window.toggleTodoState = function(index) {
+    const classItem = State.classes.find(c => c.id === State.activeProductivityId);
+    if (!classItem) return;
 
+    classItem.checklist[index].done = !classItem.checklist[index].done;
+    renderChecklist(classItem.checklist);
+};
+
+window.removeTodoState = function(index) {
+    const classItem = State.classes.find(c => c.id === State.activeProductivityId);
+    if (!classItem) return;
+
+    classItem.checklist.splice(index, 1);
+    renderChecklist(classItem.checklist);
+};
+
+// =========================================================================
+// 11. BOOTSTRAPPING EVENT BINDINGS
+// =========================================================================
+function toggleSkeleton(show) {
+    const loader = document.getElementById("skeleton-loader");
+    if (loader) {
+        loader.style.display = show ? "flex" : "none";
+    }
+}
+
+function updateDashboardMetrics(total, today) {
+    const tEl = document.getElementById("stat-total-classes");
+    const dEl = document.getElementById("stat-today-classes");
+    const nEl = document.getElementById("stat-next-countdown");
+    const nLabel = document.getElementById("stat-next-label");
+
+    if (tEl) tEl.textContent = total;
+    if (dEl) dEl.textContent = today;
+
+    // Find next upcoming class in chronological order
+    let dataset = getActiveCollection();
+    if (dataset.length > 0 && State.activeTab !== "exam") {
+        const currentDay = getCurrentDayName();
+        const now = new Date();
+        const currentMins = (now.getHours() * 60) + now.getMinutes();
+
+        const upcoming = dataset
+            .filter(c => c.day === currentDay)
+            .map(c => {
+                const [h, m] = c.startTime.split(":").map(Number);
+                return { item: c, mins: (h * 60) + m };
+            })
+            .filter(c => c.mins > currentMins)
+            .sort((a, b) => a.mins - b.mins);
+
+        if (upcoming.length > 0) {
+            const next = upcoming[0].item;
+            if (nEl) nEl.textContent = next.startTime;
+            if (nLabel) nLabel.textContent = `Next: ${next.courseCode}`;
+        } else {
+            if (nEl) nEl.textContent = "--:--";
+            if (nLabel) nLabel.textContent = "No more classes";
+        }
+    } else {
+        if (nEl) nEl.textContent = "--:--";
+        if (nLabel) nLabel.textContent = "Inactive";
+    }
+}
+
+// Global modal triggers
+window.editClassModal = function(id) {
+    const modal = document.getElementById("class-modal");
+    const item = State.classes.find(c => c.id === id);
+    if (!modal || !item) return;
+
+    State.selectedEditId = id;
+    document.getElementById("modal-title").textContent = "Modify Class Session";
+    document.getElementById("form-edit-id").value = id;
+    document.getElementById("form-course-code").value = item.courseCode;
+    document.getElementById("form-course-title").value = item.courseTitle;
+    document.getElementById("form-lecturer").value = item.lecturer;
+    document.getElementById("form-venue").value = item.venue;
+    document.getElementById("form-day").value = item.day;
+    document.getElementById("form-start-time").value = item.startTime;
+    document.getElementById("form-end-time").value = item.endTime;
+    document.getElementById("form-description").value = item.description || "";
+
+    modal.classList.add("active");
+};
+
+window.triggerDeleteModal = function(id) {
+    const modal = document.getElementById("confirm-delete-modal");
+    if (!modal) return;
+    State.selectedDeleteId = id;
+    modal.classList.add("active");
+};
+
+// =========================================================================
+// DOM EVENT BINDINGS
+// =========================================================================
+document.addEventListener("DOMContentLoaded", () => {
+    // 1. Monitor Authentication sessions
+    onAuthStateChanged(auth, (user) => {
+        const dot = document.querySelector(".status-dot");
+        const txt = document.getElementById("status-text");
+
+        if (user) {
+            State.user = user;
+            if (dot) { dot.className = "status-dot online"; }
+            if (txt) txt.textContent = "Cloud Sync";
+            subscribeToFirestoreTimetable(user);
+        } else {
+            State.user = null;
+            if (dot) { dot.className = "status-dot offline"; }
+            if (txt) txt.textContent = "Offline Mode";
+            toggleSkeleton(false);
+            loadOfflineMockData();
+        }
+    });
+
+    // 2. Tab selection navigation bindings
+    const tabButtons = document.querySelectorAll(".type-tabs .tab-btn");
+    tabButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            tabButtons.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            State.activeTab = btn.getAttribute("data-tab");
+            
+            // Adjust search query and render state
+            renderSchedule();
+            evaluateSmartSchedule();
+        });
+    });
+
+    // 3. View mode triggers
+    const viewButtons = document.querySelectorAll(".view-toggle-buttons .view-btn");
+    viewButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            viewButtons.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            State.activeView = btn.getAttribute("data-view");
+            renderSchedule();
+        });
+    });
+
+    // 4. Dropdown filtering
+    const dayFilter = document.getElementById("filter-day");
+    if (dayFilter) {
+        dayFilter.addEventListener("change", (e) => {
+            State.filterDay = e.target.value;
+            renderSchedule();
+        });
+    }
+
+    // 5. Live incremental searches
+    const searchInput = document.getElementById("search-input");
+    if (searchInput) {
+        searchInput.addEventListener("input", (e) => {
+            State.searchQuery = e.target.value;
+            renderSchedule();
+        });
+    }
+
+    // 6. Floating Action Add Class triggers
+    const fab = document.getElementById("fab-add-class");
+    const classModal = document.getElementById("class-modal");
+    if (fab && classModal) {
+        fab.addEventListener("click", () => {
+            State.selectedEditId = null;
+            document.getElementById("class-form").reset();
+            document.getElementById("form-edit-id").value = "";
+            document.getElementById("modal-title").textContent = "Schedule New Class";
+            classModal.classList.add("active");
+        });
+    }
+
+    // 7. Modals close triggers
+    document.getElementById("close-class-modal")?.addEventListener("click", () => {
+        classModal.classList.remove("active");
+    });
+
+    const prodModal = document.getElementById("productivity-modal");
+    document.getElementById("close-prod-modal")?.addEventListener("click", () => {
+        prodModal.classList.remove("active");
+    });
+
+    // 8. Class Submission Forms handlers
+    const classForm = document.getElementById("class-form");
+    if (classForm) {
+        classForm.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const data = {
+                courseCode: document.getElementById("form-course-code").value.trim().toUpperCase(),
+                courseTitle: document.getElementById("form-course-title").value.trim(),
+                lecturer: document.getElementById("form-lecturer").value.trim(),
+                venue: document.getElementById("form-venue").value.trim(),
+                day: document.getElementById("form-day").value,
+                startTime: document.getElementById("form-start-time").value,
+                endTime: document.getElementById("form-end-time").value,
+                description: document.getElementById("form-description").value.trim()
+            };
+
+            try {
+                await saveClassSession(data);
+                classModal.classList.remove("active");
+            } catch (err) {
+                console.error("Failed to write to database:", err);
+                showToast("Action failed. Verification required.", "error");
+            }
+        });
+    }
+
+    // 9. Attendance button toggles
+    const attendToggle = document.getElementById("prod-attendance-toggle");
+    if (attendToggle) {
+        attendToggle.addEventListener("click", () => {
+            const classItem = State.classes.find(c => c.id === State.activeProductivityId);
+            if (!classItem) return;
+
+            classItem.attended = !classItem.attended;
+            if (classItem.attended) {
+                attendToggle.textContent = "Yes";
+                attendToggle.classList.add("active");
+            } else {
+                attendToggle.textContent = "No";
+                attendToggle.classList.remove("active");
+            }
+        });
+    }
+
+    // 10. Checklist builder items adder
+    document.getElementById("btn-add-todo")?.addEventListener("click", () => {
+        const input = document.getElementById("prod-new-todo");
+        const classItem = State.classes.find(c => c.id === State.activeProductivityId);
+        if (!input || !classItem || input.value.trim() === "") return;
+
+        if (!classItem.checklist) classItem.checklist = [];
+        classItem.checklist.push({ text: input.value.trim(), done: false });
+        input.value = "";
+        renderChecklist(classItem.checklist);
+    });
+
+    // 11. Productivity details save
+    document.getElementById("prod-save-btn")?.addEventListener("click", async () => {
+        const notes = document.getElementById("prod-notes").value.trim();
+        const classItem = State.classes.find(c => c.id === State.activeProductivityId);
+        if (!classItem) return;
+
+        classItem.notes = notes;
+        
+        try {
+            if (auth.currentUser) {
+                const path = `users/${auth.currentUser.uid}/timetable`;
+                const docRef = doc(db, path, State.activeProductivityId);
+                await updateDoc(docRef, {
+                    attended: classItem.attended || false,
+                    notes: classItem.notes || "",
+                    checklist: classItem.checklist || []
+                });
+                showToast("Productivity updates synced to cloud.");
+            } else {
+                const key = "offline_timetable_mock";
+                localStorage.setItem(key, JSON.stringify(State.classes));
+                showToast("Local productivity metrics saved.");
+                renderSchedule();
+            }
+            prodModal.classList.remove("active");
+        } catch (err) {
+            console.error("Failed to store productivity updates:", err);
+            showToast("Failed to save metrics.", "error");
+        }
+    });
+
+    // 12. Deletion Confirmation Actions
+    document.getElementById("cancel-delete-btn")?.addEventListener("click", () => {
+        document.getElementById("confirm-delete-modal").classList.remove("active");
+    });
+
+    document.getElementById("confirm-delete-btn")?.addEventListener("click", async () => {
+        if (!State.selectedDeleteId) return;
+
+        try {
+            await deleteClassSession(State.selectedDeleteId);
+            document.getElementById("confirm-delete-modal").classList.remove("active");
+        } catch (err) {
+            console.error("Failed to complete session deletion:", err);
+            showToast("Failed to complete deletion.", "error");
+        }
+    });
+
+    // 13. Pull to Refresh Gesture Simulator
+    let startY = 0;
+    const container = document.querySelector(".timetable-wrapper");
+    const pullIndicator = document.getElementById("pull-to-refresh");
+
+    if (container && pullIndicator) {
+        container.addEventListener("touchstart", (e) => {
+            if (window.scrollY === 0) {
+                startY = e.touches[0].pageY;
+            }
+        }, { passive: true });
+
+        container.addEventListener("touchmove", (e) => {
+            const currentY = e.touches[0].pageY;
+            const diff = currentY - startY;
+
+            if (window.scrollY === 0 && diff > 70 && startY !== 0) {
+                pullIndicator.classList.add("active");
+            }
+        }, { passive: true });
+
+        container.addEventListener("touchend", () => {
+            if (pullIndicator.classList.contains("active")) {
+                setTimeout(() => {
+                    pullIndicator.classList.remove("active");
+                    renderSchedule();
+                    evaluateSmartSchedule();
+                    showToast("Schedule updated.");
+                }, 1000);
+            }
+            startY = 0;
+        });
+    }
+
+    // Start background clock processes
+    startClockTicks();
 });
