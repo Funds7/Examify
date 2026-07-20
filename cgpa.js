@@ -17,8 +17,11 @@ import {
 import {
   onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+
+let currentUser = null;
+
 (function () {
-  "use strict";
+"use strict";
 
   // ==========================================
   // STATE MANAGEMENT VARIABLES
@@ -488,10 +491,14 @@ import {
     });
 
     showToast("Course record saved.");
-  }
+}
 
-  updateDashboardUI();
-  renderSemestersList();
+updateDashboardUI();
+renderSemestersList();
+
+// Optional now since Firebase is your database
+// syncStateToStorage();
+
   }
 
   // ==========================================
@@ -516,7 +523,6 @@ import {
       showToast("Toggled to DELSU 5.0 Scale.");
     }
 
-    syncStateToStorage();
     updateDashboardUI();
     renderSemestersList();
   };
@@ -546,13 +552,19 @@ import {
     document.getElementById("confirm-title").textContent = "Delete Course Session?";
     document.getElementById("confirm-desc").textContent = "This action will remove this course completely from your GPA calculations.";
     
-    State.activeConfirmAction = function () {
-      State.courses = State.courses.filter(c => c.id !== id);
-      syncStateToStorage();
-      updateDashboardUI();
-      renderSemestersList();
-      showToast("Course removed permanently.");
-    };
+    State.activeConfirmAction = async function () {
+
+  await deleteDoc(
+    doc(db, "users", currentUser.uid, "courses", id)
+  );
+
+  State.courses = State.courses.filter(c => c.id !== id);
+
+  updateDashboardUI();
+  renderSemestersList();
+
+  showToast("Course removed permanently.");
+};
 
     modal.classList.add("active");
   };
@@ -564,13 +576,23 @@ import {
     document.getElementById("confirm-title").textContent = "Reset All Academic Data?";
     document.getElementById("confirm-desc").textContent = "This will wipe every single level, semester, and course from your local FundsIQ app.";
 
-    State.activeConfirmAction = function () {
-      State.courses = [];
-      syncStateToStorage();
-      updateDashboardUI();
-      renderSemestersList();
-      showToast("All academic files purged.", "error");
-    };
+    State.activeConfirmAction = async function () {
+
+  const snapshot = await getDocs(
+    collection(db, "users", currentUser.uid, "courses")
+  );
+
+  for (const course of snapshot.docs) {
+    await deleteDoc(course.ref);
+  }
+
+  State.courses = [];
+
+  updateDashboardUI();
+  renderSemestersList();
+
+  showToast("All academic files purged.", "error");
+};
 
     modal.classList.add("active");
   };
@@ -672,45 +694,67 @@ import {
     window.print();
   };
 
-  // ==========================================
-  // INITIALIZERS & EVEN LISTENERS BINDINGS
-  // ==========================================
-  document.addEventListener("DOMContentLoaded", () => {
-    // 1. Recover values from Storage
-    try {
-      const savedScale = localStorage.getItem("gpa_scale_setting");
-      if (savedScale) {
-        State.gradingScale = Number(savedScale);
-        const badge = document.getElementById("scale-badge");
-        const eOption = document.getElementById("e-grade-option");
-        if (badge) badge.textContent = `${State.gradingScale.toFixed(1)} Scale`;
-        if (eOption && State.gradingScale === 4.0) eOption.style.display = "none";
-      }
+// ==========================================
+// INITIALIZERS & EVENT LISTENERS BINDINGS
+// ==========================================
+document.addEventListener("DOMContentLoaded", () => {
 
-      const savedCourses = localStorage.getItem("gpa_courses_list");
-      if (savedCourses) {
-        State.courses = JSON.parse(savedCourses);
+  // Load grading scale
+  try {
+    const savedScale = localStorage.getItem("gpa_scale_setting");
+    if (savedScale) {
+      State.gradingScale = Number(savedScale);
+
+      const badge = document.getElementById("scale-badge");
+      const eOption = document.getElementById("e-grade-option");
+
+      if (badge) badge.textContent = `${State.gradingScale.toFixed(1)} Scale`;
+      if (eOption && State.gradingScale === 4.0) {
+        eOption.style.display = "none";
       }
-    } catch (e) {
-      console.warn("Cookies / local storage block detected:", e);
     }
+  } catch (e) {
+    console.warn(e);
+  }
 
-    // 2. Initial Paints
+  // Load courses from Firebase
+  onAuthStateChanged(auth, async (user) => {
+
+    if (!user) return;
+
+    currentUser = user;
+
+    const snapshot = await getDocs(
+      collection(db, "users", user.uid, "courses")
+    );
+
+    State.courses = [];
+
+    snapshot.forEach((docSnap) => {
+      State.courses.push({
+        id: docSnap.id,
+        ...docSnap.data()
+      });
+    });
+
     updateDashboardUI();
     renderSemestersList();
 
-    // 3. Floating Action Button triggers modal
-    const fab = document.getElementById("fab-add-course");
-    const modal = document.getElementById("course-modal");
-    if (fab && modal) {
-      fab.addEventListener("click", () => {
-        State.selectedEditId = null;
-        document.getElementById("course-form").reset();
-        document.getElementById("form-edit-id").value = "";
-        document.getElementById("modal-title").textContent = "Record Academic Course";
-        modal.classList.add("active");
-      });
-    }
+  });
+
+  // Floating Action Button
+  const fab = document.getElementById("fab-add-course");
+  const modal = document.getElementById("course-modal");
+
+  if (fab && modal) {
+    fab.addEventListener("click", () => {
+      State.selectedEditId = null;
+      document.getElementById("course-form").reset();
+      document.getElementById("form-edit-id").value = "";
+      document.getElementById("modal-title").textContent = "Record Academic Course";
+      modal.classList.add("active");
+    });
+  }
 
     // 4. Modal closes triggers
     document.getElementById("close-course-modal")?.addEventListener("click", () => {
