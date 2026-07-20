@@ -2,7 +2,21 @@
  * FundsIQ CGPA Pro Math Engine & Trajectory Graph
  * Developed by Odigwe Joshua
  */
+import { auth, db } from "./firebase.js";
 
+import {
+  collection,
+  doc,
+  addDoc,
+  getDocs,
+  deleteDoc,
+  updateDoc,
+  setDoc
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+
+import {
+  onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 (function () {
   "use strict";
 
