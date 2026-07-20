@@ -691,8 +691,14 @@ renderSemestersList();
     `;
 
     // Invoke browser printing system
-    window.print();
-  };
+    // Invoke browser printing system
+window.print();
+
+window.onafterprint = () => {
+    printableArea.innerHTML = "";
+};
+
+}; // <-- THIS closes window.printTranscript
 
 // ==========================================
 // INITIALIZERS & EVENT LISTENERS BINDINGS
