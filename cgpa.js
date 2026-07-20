@@ -452,48 +452,46 @@ import {
   // ==========================================
   // DATA ACTIONS CONTROLLER
   // ==========================================
-  function saveCourseToState(data) {
-    if (State.selectedEditId) {
-      State.courses = State.courses.map(c => c.id === State.selectedEditId ? { ...c, ...data } : c);
-      showToast("Academic record updated.");
-    } else {
-      const newCourse = {
-        id: "c_" + Date.now(),
-        ...data
-      };
-      State.courses.push(newCourse);
-      showToast("Course record saved.");
-    }
-    syncStateToStorage();
-    updateDashboardUI();
-    renderSemestersList();
+  async function saveCourseToState(data) {
+
+  if (!currentUser) {
+    showToast("Please login first.", "error");
+    return;
   }
 
-  window.duplicateCourseSession = function (id) {
-    const original = State.courses.find(c => c.id === id);
-    if (!original) return;
+  if (State.selectedEditId) {
 
-    const duplicate = {
-      ...original,
-      id: "c_" + Date.now(),
-      courseCode: original.courseCode + " (Copy)"
+    await updateDoc(
+      doc(db, "users", currentUser.uid, "courses", State.selectedEditId),
+      data
+    );
+
+    const index = State.courses.findIndex(c => c.id === State.selectedEditId);
+
+    State.courses[index] = {
+      id: State.selectedEditId,
+      ...data
     };
 
-    State.courses.push(duplicate);
-    showToast("Course successfully duplicated.");
-    syncStateToStorage();
-    updateDashboardUI();
-    renderSemestersList();
-  };
+    showToast("Academic record updated.");
 
-  // Sync back to LocalStorage
-  function syncStateToStorage() {
-    try {
-      localStorage.setItem("gpa_courses_list", JSON.stringify(State.courses));
-      localStorage.setItem("gpa_scale_setting", State.gradingScale);
-    } catch (e) {
-      console.warn("Storage limits or blocked policy found:", e);
-    }
+  } else {
+
+    const docRef = await addDoc(
+      collection(db, "users", currentUser.uid, "courses"),
+      data
+    );
+
+    State.courses.push({
+      id: docRef.id,
+      ...data
+    });
+
+    showToast("Course record saved.");
+  }
+
+  updateDashboardUI();
+  renderSemestersList();
   }
 
   // ==========================================
