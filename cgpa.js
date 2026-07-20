@@ -735,4 +735,41 @@ import {
     const courseForm = document.getElementById("course-form");
     if (courseForm) {
       courseForm.addEventListener("submit", (e) => {
-        
+        e.preventDefault();
+
+        const data = {
+          courseCode: document.getElementById("form-course-code").value.trim().toUpperCase(),
+          courseTitle: document.getElementById("form-course-title").value.trim(),
+          level: document.getElementById("form-level").value,
+          semester: Number(document.getElementById("form-semester").value),
+          units: Number(document.getElementById("form-units").value),
+          grade: document.getElementById("form-grade").value
+        };
+
+        saveCourseToState(data);
+        modal.classList.remove("active");
+      });
+    }
+
+    // 6. Search and Filters Input Listeners
+    document.getElementById("course-search-input")?.addEventListener("input", (e) => {
+      State.searchQuery = e.target.value;
+      renderSemestersList();
+    });
+
+    document.getElementById("filter-level")?.addEventListener("change", (e) => {
+      State.filterLevel = e.target.value;
+      renderSemestersList();
+    });
+
+    document.getElementById("filter-semester")?.addEventListener("change", (e) => {
+      State.filterSemester = e.target.value;
+      renderSemestersList();
+    });
+
+    // Render smooth graph adjustments if viewport changes
+    window.addEventListener("resize", renderTrajectoryGraph);
+  });
+
+})();
+
