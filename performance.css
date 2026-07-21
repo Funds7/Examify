@@ -139,6 +139,9 @@ button, input, select, textarea {
   margin-bottom: 15px;
   scrollbar-width: none; /* Hide scrollbar Firefox */
   -ms-overflow-style: none; /* Hide scrollbar IE/Edge */
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .course-selector-scroll::-webkit-scrollbar {
