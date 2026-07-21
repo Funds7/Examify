@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FundsIQ - Performance Portfolio</title>
+  <title>FundsIQ - Performance Analytics</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="performance.css">
   <meta name="theme-color" content="#0f172a">
@@ -44,14 +44,17 @@
       </nav>
 
       <!-- ==========================================
-           INTERACTIVE SUB-VIEW TAB NAVIGATION
+           HORIZONTAL COURSE SELECTOR STRIP
            ========================================== -->
-      <nav class="sub-view-tabs" id="sub-view-navigation">
-        <button class="sub-tab-btn active" data-view="overview">👁️ Overview</button>
-        <button class="sub-tab-btn" data-view="analytics">📊 Stats</button>
-        <button class="sub-tab-btn" data-view="mastery">🎓 Mastery</button>
-        <button class="sub-tab-btn" data-view="milestones">🏆 Journey</button>
-      </nav>
+      <div class="course-selector-scroll">
+        <button class="course-scroll-btn active" data-course="gst101">GST 101</button>
+        <button class="course-scroll-btn" data-course="gst102">GST 102</button>
+        <button class="course-scroll-btn" data-course="gst103">GST 103</button>
+        <button class="course-scroll-btn" data-course="gst111">GST 111</button>
+        <button class="course-scroll-btn" data-course="gst112">GST 112</button>
+        <button class="course-scroll-btn" data-course="gst113">GST 113</button>
+        <button class="course-scroll-btn" data-course="gst114">GST 114</button>
+      </div>
 
       <!-- ==========================================
            LOADING SKELETON PLACEHOLDER
@@ -80,410 +83,236 @@
           </svg>
         </div>
         <h3>No assessment history found</h3>
-        <p>Complete a CBT Practice exam in the portal to generate your real-time academic portfolio.</p>
-        <button class="primary-btn" onclick="location.href='exam.html'">Start First Exam</button>
+        <p>No exams logged for this course. Complete a CBT Practice exam to generate metrics.</p>
+        <button class="primary-btn" onclick="location.href='exam.html'">Start CBT Practice</button>
       </div>
 
       <!-- ==========================================
-           DASHBOARD COMPONENT VIEWS
+           MAIN PERFORMANCE DASHBOARD CONTENT
            ========================================== -->
-      <div id="dashboard-content" style="display: none;">
+      <div id="dashboard-content" class="fade-in" style="display: none;">
 
-        <!-- ------------------------------------------
-             SUB-VIEW 1: OVERVIEW HUB
-             ------------------------------------------ -->
-        <div class="dashboard-sub-view active-view" id="view-overview">
-          
-          <!-- Hero Performance Profile Card -->
-          <section class="performance-hero">
-            <div class="hero-left">
-              <div class="student-avatar-frame">
-                <svg class="avatar-svg" viewBox="0 0 100 100">
-                  <defs>
-                    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stop-color="#8b5cf6" />
-                      <stop offset="100%" stop-color="#3b82f6" />
-                    </linearGradient>
-                  </defs>
-                  <circle cx="50" cy="50" r="48" fill="url(#avatarGrad)" />
-                  <circle cx="50" cy="40" r="20" fill="#ffffff" opacity="0.9" />
-                  <path d="M20,80 C20,60 80,60 80,80" fill="#ffffff" opacity="0.9" />
-                </svg>
-              </div>
-              <div class="student-profile-details">
-                <div class="name-row">
-                  <h2 id="student-name">Odigwe Joshua</h2>
-                  <span class="verified-badge">✓</span>
-                  <span class="rank-badge" id="rank-badge">Evaluating...</span>
-                </div>
-                
-                <!-- Dynamic Data-Driven Coach Statement -->
-                <p class="welcome-text" id="ai-motivational-text">Analyzing your academic study trends...</p>
-                
-                <!-- Level & XP indicator -->
-                <div class="xp-container">
-                  <div class="xp-metadata">
-                    <span class="level-label" id="student-level">Level --</span>
-                    <span class="xp-label" id="xp-points">0 / 0 XP</span>
-                  </div>
-                  <div class="xp-progress-bar">
-                    <div class="xp-progress-fill" id="xp-progress-fill"></div>
-                  </div>
-                </div>
-              </div>
+        <!-- ==========================================
+             HERO SECTION (SELECTED GST STATS)
+             ========================================== -->
+        <section class="performance-hero">
+          <div class="hero-left">
+            <div class="hero-ring-box">
+              <svg width="105" height="105" viewBox="0 0 36 36">
+                <circle cx="18" cy="18" r="16" fill="none" stroke="#1e293b" stroke-width="2.8"></circle>
+                <circle id="accuracy-progress-ring" cx="18" cy="18" r="16" fill="none" stroke="#8b5cf6" stroke-width="2.8" stroke-dasharray="100 100" stroke-dashoffset="100" stroke-linecap="round"></circle>
+                <g transform="translate(0, 0.5)">
+                  <text x="18" y="20" text-anchor="middle" fill="#fff" font-size="8" font-weight="900" id="overall-accuracy">0%</text>
+                </g>
+              </svg>
             </div>
+            <div class="student-profile-details">
+              <div class="name-row">
+                <h2 id="active-course-tag">GST 101</h2>
+                <span class="verified-badge">✓</span>
+                <span class="rank-badge" id="overall-grade">Grade --</span>
+              </div>
+              
+              <!-- Sub-metadata descriptor -->
+              <p class="welcome-text" id="course-exam-count-sub">You have completed 0 exams in this course</p>
+            </div>
+          </div>
+        </section>
 
-            <!-- Apple-Style Circular Mastery Indicator -->
-            <div class="hero-right">
-              <div class="performance-ring-box">
-                <svg width="105" height="105" viewBox="0 0 36 36">
-                  <circle cx="18" cy="18" r="16" fill="none" stroke="#1e293b" stroke-width="2.8"></circle>
-                  <circle id="accuracy-progress-ring" cx="18" cy="18" r="16" fill="none" stroke="#8b5cf6" stroke-width="2.8" stroke-dasharray="100 100" stroke-dashoffset="100" stroke-linecap="round"></circle>
-                  <g transform="translate(0, 0.5)">
-                    <text x="18" y="19" text-anchor="middle" fill="#fff" font-size="7" font-weight="900" id="overall-accuracy">0%</text>
-                    <text x="18" y="24" text-anchor="middle" fill="#94a3b8" font-size="3.2" font-weight="bold" id="overall-grade">GRADE --</text>
-                  </g>
-                </svg>
-              </div>
-            </div>
-          </section>
+        <!-- ==========================================
+             COURSE-SPECIFIC LEADERBOARD RANKING
+             ========================================== -->
+        <section class="ranking-card">
+          <div class="ranking-header">
+            <span class="ranking-crown">👑</span>
+            <h4 id="ranking-course-label">GST 101 Course Standing</h4>
+          </div>
+          <div class="ranking-info-block">
+            <span class="rank-stat-val" id="rank-course">--</span>
+            <p>Your standing among students registered in this course</p>
+          </div>
+        </section>
 
-          <!-- National Student Rankings Metrics -->
-          <h3 class="section-title">National Rankings</h3>
-          <section class="ranking-card">
-            <div class="ranking-header">
-              <span class="ranking-crown">👑</span>
-              <h4 id="ranking-percentage-label">Evaluating regional database standings...</h4>
-            </div>
-            <div class="ranking-grid">
-              <div class="rank-stat">
-                <span class="rank-stat-val" id="rank-faculty">--</span>
-                <p>Faculty Rank</p>
-              </div>
-              <div class="rank-stat">
-                <span class="rank-stat-val" id="rank-course">--</span>
-                <p>Department Rank</p>
-              </div>
-              <div class="rank-stat">
-                <span class="rank-stat-val" id="rank-global">--</span>
-                <p>Global Rank</p>
-              </div>
-            </div>
-          </section>
+        <!-- ==========================================
+             SMART COGNITIVE INSIGHTS
+             ========================================== -->
+        <section class="insights-card">
+          <div class="insights-header">
+            <span class="sparkle-icon">✨</span>
+            <h4>Smart Insights</h4>
+          </div>
+          <ul class="insights-list" id="ai-coach-advice">
+            <li>Analyzing your academic study trends...</li>
+          </ul>
+        </section>
 
-          <!-- AI Performance Coach Advice -->
-          <h3 class="section-title">AI Performance Coach</h3>
-          <section class="insights-card">
-            <div class="insights-header">
-              <span class="sparkle-icon">✨</span>
-              <h4>Real-time Diagnostic Prescriptions</h4>
-            </div>
-            <ul class="insights-list" id="ai-coach-advice">
-              <li>Scanning past CBT answers... Take an exam to generate custom study plans.</li>
+        <!-- ==========================================
+             STRENGTHS & NEEDS IMPROVEMENT
+             ========================================== -->
+        <section class="analysis-matrix-card">
+          <div class="matrix-column">
+            <h4 class="matrix-title success">⚡ Strengths</h4>
+            <ul class="matrix-list" id="strengths-list">
+              <li>Evaluation pending...</li>
             </ul>
-          </section>
+          </div>
+          <div class="matrix-column">
+            <h4 class="matrix-title danger">⚠️ Needs Improvement</h4>
+            <ul class="matrix-list" id="weakness-list">
+              <li>Evaluation pending...</li>
+            </ul>
+          </div>
+        </section>
 
-        </div>
-
-        <!-- ------------------------------------------
-             SUB-VIEW 2: STATS & ANALYTICS
-             ------------------------------------------ -->
-        <div class="dashboard-sub-view" id="view-analytics">
+        <!-- ==========================================
+             QUICK PERFORMANCE SUMMARY CARDS (9 METRICS)
+             ========================================== -->
+        <h3 class="section-title">Performance Summary</h3>
+        <section class="statistics-grid">
           
-          <!-- Core CBT Metrics Statistics Grid -->
-          <h3 class="section-title">Core CBT Metrics</h3>
-          <section class="statistics-grid">
-            <div class="stat-card">
-              <span class="stat-icon">📝</span>
-              <div class="stat-info">
-                <h4 id="stat-total-exams">0</h4>
-                <p>Total Exams</p>
-              </div>
+          <div class="stat-card">
+            <span class="stat-icon">📊</span>
+            <div class="stat-info">
+              <h4 id="stat-avg-score">0%</h4>
+              <p>Average Score</p>
             </div>
-            <div class="stat-card">
-              <span class="stat-icon">📋</span>
-              <div class="stat-info">
-                <h4 id="stat-total-questions">0</h4>
-                <p>Total Questions</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon-wrapper success">✓</span>
-              <div class="stat-info">
-                <h4 id="stat-correct-answers">0</h4>
-                <p>Correct Answers</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon-wrapper danger">×</span>
-              <div class="stat-info">
-                <h4 id="stat-wrong-answers">0</h4>
-                <p>Wrong Answers</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">🏆</span>
-              <div class="stat-info">
-                <h4 id="stat-best-score">0%</h4>
-                <p>Best Score</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">📉</span>
-              <div class="stat-info">
-                <h4 id="stat-lowest-score">0%</h4>
-                <p>Lowest Score</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">📊</span>
-              <div class="stat-info">
-                <h4 id="stat-avg-score">0%</h4>
-                <p>Average Score</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">📈</span>
-              <div class="stat-info">
-                <h4 id="stat-pass-rate">0%</h4>
-                <p>Pass Rate</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">⏱️</span>
-              <div class="stat-info">
-                <h4 id="stat-avg-time">0:00</h4>
-                <p>Average Time</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">⚡</span>
-              <div class="stat-info">
-                <h4 id="stat-fastest-exam">0:00</h4>
-                <p>Fastest Exam</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">⏳</span>
-              <div class="stat-info">
-                <h4 id="stat-longest-exam">0:00</h4>
-                <p>Longest Exam</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">🔥</span>
-              <div class="stat-info">
-                <h4 id="stat-current-streak">0d</h4>
-                <p>Current Streak</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">💎</span>
-              <div class="stat-info">
-                <h4 id="stat-longest-streak">0d</h4>
-                <p>Longest Streak</p>
-              </div>
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon">📚</span>
-              <div class="stat-info">
-                <h4 id="stat-study-hours">0h</h4>
-                <p>Study Hours</p>
-              </div>
-            </div>
-          </section>
+          </div>
 
-          <!-- Interactive Dynamic Charts Gallery (Powered by Chart.js) -->
-          <h3 class="section-title">Performance Graphs</h3>
-          <section class="charts-gallery">
-            <div class="chart-card">
-              <div class="chart-info">
-                <h4>Accuracy Trend Trajectory</h4>
-                <p>Chronological percentage accuracy per attempt</p>
-              </div>
-              <div class="canvas-wrapper">
-                <canvas id="trend-chart-canvas" height="160"></canvas>
-              </div>
+          <div class="stat-card">
+            <span class="stat-icon">🏆</span>
+            <div class="stat-info">
+              <h4 id="stat-best-score">0%</h4>
+              <p>Highest Score</p>
             </div>
-            <div class="chart-card">
-              <div class="chart-info">
-                <h4>Course Comparison Matrix</h4>
-                <p>Comparing average CBT percentages across courses</p>
-              </div>
-              <div class="canvas-wrapper">
-                <canvas id="course-chart-canvas" height="160"></canvas>
-              </div>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon">📉</span>
+            <div class="stat-info">
+              <h4 id="stat-lowest-score">0%</h4>
+              <p>Lowest Score</p>
             </div>
-          </section>
+          </div>
 
-        </div>
+          <div class="stat-card">
+            <span class="stat-icon">📝</span>
+            <div class="stat-info">
+              <h4 id="stat-total-exams">0</h4>
+              <p>Total Exams</p>
+            </div>
+          </div>
 
-        <!-- ------------------------------------------
-             SUB-VIEW 3: COURSE MASTERY
-             ------------------------------------------ -->
-        <div class="dashboard-sub-view" id="view-mastery">
+          <div class="stat-card">
+            <span class="stat-icon-wrapper success">✓</span>
+            <div class="stat-info">
+              <h4 id="stat-correct-answers">0</h4>
+              <p>Correct Answers</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon-wrapper danger">×</span>
+            <div class="stat-info">
+              <h4 id="stat-wrong-answers">0</h4>
+              <p>Wrong Answers</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon">📈</span>
+            <div class="stat-info">
+              <h4 id="stat-pass-rate">0%</h4>
+              <p>Pass Rate</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon">⏱️</span>
+            <div class="stat-info">
+              <h4 id="stat-avg-time">0:00</h4>
+              <p>Average Time</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon">📚</span>
+            <div class="stat-info">
+              <h4 id="stat-study-hours">0h</h4>
+              <p>Study Hours</p>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ==========================================
+             PERFORMANCE TREND CHART
+             ========================================== -->
+        <h3 class="section-title">Performance Graphs</h3>
+        <section class="charts-gallery">
+          <div class="chart-card">
+            <div class="chart-info">
+              <h4>Accuracy Trend Trajectory</h4>
+              <p>Chronological percentage accuracy per attempt for selected course</p>
+            </div>
+            <div class="canvas-wrapper">
+              <canvas id="trend-chart-canvas" height="160"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================================
+             SIMPLIFIED GAMIFICATION ACHIEVEMENTS (6 BADGES)
+             ========================================== -->
+        <h3 class="section-title">Academic Achievements</h3>
+        <section class="achievements-grid" id="achievements-grid">
           
-          <!-- Detailed Course-by-Course Analytics (GST 101 to GST 114) -->
-          <h3 class="section-title">Course Analytics (GST 101 - 114)</h3>
-          <section class="course-analytics" id="course-analytics-list">
-            <!-- Dynamically populated via JS -->
-          </section>
+          <div class="achievement-badge locked" id="badge-first-exam">
+            <div class="badge-icon">🎖️</div>
+            <h5>First Exam</h5>
+            <p>Initiated your first evaluation on FundsIQ</p>
+          </div>
 
-        </div>
+          <div class="achievement-badge locked" id="badge-first-pass">
+            <div class="badge-icon">🎯</div>
+            <h5>First Pass</h5>
+            <p>Scored above 50% threshold on any CBT</p>
+          </div>
 
-        <!-- ------------------------------------------
-             SUB-VIEW 4: ACHIEVEMENTS & JOURNEY
-             ------------------------------------------ -->
-        <div class="dashboard-sub-view" id="view-milestones">
-          
-          <!-- Your Academic Journey Timeline -->
-          <h3 class="section-title">Academic Journey</h3>
-          <section class="journey-card">
-            <div class="journey-header">
-              <h4>Growth Trajectory</h4>
-              <span class="journey-delta-badge" id="journey-delta-val">+0% Improvement</span>
-            </div>
-            <div class="journey-timeline">
-              <div class="journey-node">
-                <div class="journey-dot"></div>
-                <span class="journey-label">First Exam</span>
-                <strong id="journey-first-score">0%</strong>
-              </div>
-              <div class="journey-connector"></div>
-              <div class="journey-node">
-                <div class="journey-dot active"></div>
-                <span class="journey-label">Milestone Peak</span>
-                <strong id="journey-milestone-score">0%</strong>
-              </div>
-              <div class="journey-connector"></div>
-              <div class="journey-node">
-                <div class="journey-dot completed"></div>
-                <span class="journey-label">Current Avg</span>
-                <strong id="journey-current-score">0%</strong>
-              </div>
-            </div>
-          </section>
+          <div class="achievement-badge locked" id="badge-club-90">
+            <div class="badge-icon">🚀</div>
+            <h5>90+ Club</h5>
+            <p>Achieved over 90% accuracy in any test</p>
+          </div>
 
-          <!-- Consistency Calendar Heatmap (GitHub-Style) -->
-          <h3 class="section-title">Consistency Calendar</h3>
-          <section class="calendar-card">
-            <div class="calendar-header-row">
-              <h4>Daily Practice Activity</h4>
-              <div class="calendar-legend">
-                <span class="heatmap-legend-dot lvl0" title="0 Practice sessions"></span>
-                <span class="heatmap-legend-dot lvl1" title="1 Practice session"></span>
-                <span class="heatmap-legend-dot lvl2" title="2 Practice sessions"></span>
-                <span class="heatmap-legend-dot lvl3" title="3+ Practice sessions"></span>
-              </div>
-            </div>
-            <div class="calendar-grid" id="activity-calendar-grid">
-              <!-- Dynamic day nodes -->
-            </div>
-          </section>
+          <div class="achievement-badge locked" id="badge-perfect-score">
+            <div class="badge-icon">🔥</div>
+            <h5>Perfect Score</h5>
+            <p>100% correct answers logged on a full test</p>
+          </div>
 
-          <!-- Gamification Badges Grid (Bronze, Silver, Gold, Platinum) -->
-          <h3 class="section-title">Unlocked Achievements</h3>
-          <section class="achievements-grid" id="achievements-grid">
-            
-            <!-- Platinum Badges -->
-            <div class="achievement-badge locked platinum" id="badge-course-master">
-              <div class="badge-icon">👑</div>
-              <h5>GST Master</h5>
-              <p>Aced all 7 core DELSU GST courses with &ge; 80% avg</p>
-              <span class="tier-label">Platinum</span>
-            </div>
-            <div class="achievement-badge locked platinum" id="badge-top-student">
-              <div class="badge-icon">🌟</div>
-              <h5>Top 1%</h5>
-              <p>Maintained a global standing above 4.85 GPA equivalent</p>
-              <span class="tier-label">Platinum</span>
-            </div>
+          <div class="achievement-badge locked" id="badge-streak-7">
+            <div class="badge-icon">⚡</div>
+            <h5>7-Day Streak</h5>
+            <p>Maintained consecutive 7-day activity</p>
+          </div>
 
-            <!-- Gold Badges -->
-            <div class="achievement-badge locked gold" id="badge-exams-100">
-              <div class="badge-icon">🏆</div>
-              <h5>CBT Warrior</h5>
-              <p>Completed 100 academic CBT evaluations</p>
-              <span class="tier-label">Gold</span>
-            </div>
-            <div class="achievement-badge locked gold" id="badge-perfect-score">
-              <div class="badge-icon">🔥</div>
-              <h5>Perfect Score</h5>
-              <p>100% correct answers logged on a full test</p>
-              <span class="tier-label">Gold</span>
-            </div>
-            <div class="achievement-badge locked gold" id="badge-streak-30">
-              <div class="badge-icon">💎</div>
-              <h5>30-Day Streak</h5>
-              <p>Maintained consecutive 30-day activity</p>
-              <span class="tier-label">Gold</span>
-            </div>
+          <div class="achievement-badge locked" id="badge-exams-50">
+            <div class="badge-icon">🏆</div>
+            <h5>50 Exams</h5>
+            <p>Completed 50 CBT evaluations</p>
+          </div>
 
-            <!-- Silver Badges -->
-            <div class="achievement-badge locked silver" id="badge-club-90">
-              <div class="badge-icon">🚀</div>
-              <h5>90% Club</h5>
-              <p>Achieved over 90% accuracy in any test</p>
-              <span class="tier-label">Silver</span>
-            </div>
-            <div class="achievement-badge locked silver" id="badge-exams-50">
-              <div class="badge-icon">⚔️</div>
-              <h5>50 Exams</h5>
-              <p>Completed 50 CBT assessments</p>
-              <span class="tier-label">Silver</span>
-            </div>
-            <div class="achievement-badge locked silver" id="badge-streak-7">
-              <div class="badge-icon">⚡</div>
-              <h5>7-Day Streak</h5>
-              <p>Maintained consecutive 7-day activity</p>
-              <span class="tier-label">Silver</span>
-            </div>
-            <div class="achievement-badge locked silver" id="badge-fast-finisher">
-              <div class="badge-icon">🛰️</div>
-              <h5>Speed Genius</h5>
-              <p>Finished a test under 2 mins with &ge; 80% score</p>
-              <span class="tier-label">Silver</span>
-            </div>
+        </section>
 
-            <!-- Bronze Badges -->
-            <div class="achievement-badge locked bronze" id="badge-first-pass">
-              <div class="badge-icon">🎯</div>
-              <h5>First Pass</h5>
-              <p>Scored above 50% threshold on any CBT</p>
-              <span class="tier-label">Bronze</span>
-            </div>
-            <div class="achievement-badge locked bronze" id="badge-first-exam">
-              <div class="badge-icon">🎖️</div>
-              <h5>First Exam</h5>
-              <p>Initiated your first evaluation on FundsIQ</p>
-              <span class="tier-label">Bronze</span>
-            </div>
-            <div class="achievement-badge locked bronze" id="badge-consistency">
-              <div class="badge-icon">🍇</div>
-              <h5>Consistency</h5>
-              <p>Logged activity in at least 2 distinct calendar months</p>
-              <span class="tier-label">Bronze</span>
-            </div>
-
-          </section>
-
-          <!-- Recent CBT Assessment History timeline -->
-          <h3 class="section-title">Recent Assessments</h3>
-          <section class="exams-timeline" id="recent-exams-list">
-            <!-- Dynamically populated via JS -->
-          </section>
-
-        </div>
+        <!-- ==========================================
+             RECENT ATTEMPTS LOGS FEED
+             ========================================== -->
+        <h3 class="section-title">Recent Attempts</h3>
+        <section class="exams-timeline" id="recent-exams-list">
+          <!-- Dynamically populated via JS -->
+        </section>
 
       </div>
-
-      <!-- ==========================================
-           SIGNATURE FOOTER
-           ========================================== -->
-      <footer class="footer">
-        <p class="footer-version">FundsIQ Portfolio Analytics v1.0</p>
-        <p class="footer-author">Designed by <span class="author-name">Odigwe Joshua <span class="verified-badge">✓</span></span></p>
-      </footer>
 
     </div>
   </div>
@@ -513,4 +342,4 @@
   <!-- Load script dynamically as ES6 Module connected with Firebase -->
   <script type="module" src="performance.js"></script>
 </body>
-                </html>
+</html>
