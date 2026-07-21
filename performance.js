@@ -1,5 +1,6 @@
 /**
- * FundsIQ Portfolio Performance Subsystem
+ * FundsIQ Upgraded Performance Portfolio Engine
+ * Integrates directly with Cloud Firestore (Modular SDK v12) & Chart.js
  * Developed by Odigwe Joshua
  */
 
@@ -11,7 +12,7 @@ import {
     collection, 
     query, 
     orderBy, 
-    onSnapshot
+    onSnapshot 
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 // =========================================================================
@@ -43,7 +44,8 @@ const State = {
     streaks: { current: 0, longest: 0 },
     xp: 0,
     level: 1,
-    unsubscribed: null
+    unsubscribed: null,
+    charts: { trend: null, course: null } // Caches Chart.js instances to prevent overlaps
 };
 
 // Official course mappings
@@ -450,43 +452,53 @@ function renderCourseAnalytics() {
 
         const avgScore = Math.round(stats.sumPct / stats.attempts);
         const acc = Math.round((stats.correctCount / stats.totalQuestionsCount) * 100);
+        const courseThemeColor = getDeterministicColor(courseId);
 
         const card = document.createElement("div");
         card.className = "course-metric-card fade-in";
 
         card.innerHTML = `
-            <div class="course-metric-header">
-                <div>
-                    <h4>${cMeta.code}</h4>
-                    <p>${cMeta.title}</p>
-                </div>
-                <span class="course-metric-pct">${avgScore}% Acc</span>
+            <div class="hero-right">
+              <div class="performance-ring-box">
+                <svg width="64" height="64" viewBox="0 0 36 36">
+                  <circle cx="18" cy="18" r="16" fill="none" stroke="#1e293b" stroke-width="3"></circle>
+                  <circle cx="18" cy="18" r="16" fill="none" stroke="${courseThemeColor}" stroke-width="3" stroke-dasharray="100 100" stroke-dashoffset="${100 - avgScore}" stroke-linecap="round"></circle>
+                  <g transform="translate(0, 0.5)">
+                    <text x="18" y="21" text-anchor="middle" fill="#fff" font-size="8" font-weight="900">${avgScore}%</text>
+                  </g>
+                </svg>
+              </div>
             </div>
-            <div class="course-metric-progress">
-                <div class="course-metric-fill" style="width: ${avgScore}%;"></div>
-            </div>
-            <div class="course-metric-grid">
-                <div class="course-mini-stat">
-                    <h5>${stats.attempts}</h5>
-                    <p>Attempts</p>
+            <div class="course-metric-details">
+                <div class="course-metric-header">
+                    <div>
+                        <h4>${cMeta.code}</h4>
+                        <p>${cMeta.title}</p>
+                    </div>
                 </div>
-                <div class="course-mini-stat">
-                    <h5>${stats.bestPercent}%</h5>
-                    <p>Best Score</p>
+                <div class="course-metric-grid">
+                    <div class="course-mini-stat">
+                        <h5>${stats.attempts}</h5>
+                        <p>Attempts</p>
+                    </div>
+                    <div class="course-mini-stat">
+                        <h5>${stats.bestPercent}%</h5>
+                        <p>Best</p>
+                    </div>
+                    <div class="course-mini-stat">
+                        <h5>${acc}%</h5>
+                        <p>Accuracy</p>
+                    </div>
                 </div>
-                <div class="course-mini-stat">
-                    <h5>${acc}%</h5>
-                    <p>Accuracy</p>
-                </div>
-            </div>
-            <div class="course-insights-row">
-                <div class="insight-pill">
-                    <span class="insight-dot green"></span>
-                    <span>Strong:</span> Chap ${avgScore >= 75 ? '1 & 3' : '2'}
-                </div>
-                <div class="insight-pill">
-                    <span class="insight-dot red"></span>
-                    <span class="weak-label">Weak:</span> Chap ${avgScore >= 75 ? 'None' : '4'}
+                <div class="course-insights-row">
+                    <div class="insight-pill">
+                        <span class="insight-dot green"></span>
+                        <span>Strong:</span> Chap 1 & 3
+                    </div>
+                    <div class="insight-pill">
+                        <span class="insight-dot red"></span>
+                        <span class="weak-label">Weak:</span> Chap ${avgScore >= 75 ? 'None' : '4'}
+                    </div>
                 </div>
             </div>
         `;
@@ -666,7 +678,7 @@ function generateSmartInsights() {
         insights.push(`Your performance in **${strongestCourse.toUpperCase()}** is exceptionally strong, holding a current average accuracy of **${Math.round(highestAvg)}%**.`);
         if (quoteEl) {
             const deltaVal = Math.round(highestAvg - (lowestAvg === 100 ? 50 : lowestAvg));
-            quoteEl.innerHTML = `Excellent progress Joshua! Your accuracy improved **+${deltaVal}%** on your peak subjects this month.`;
+            quoteEl.innerHTML = `Excellent progress Joshua! Your accuracy improved **+${deltaVal}%** on your peak subjects this month. [1]`;
         }
     } else {
         if (quoteEl) quoteEl.textContent = "Analyzing your academic study trends...";
@@ -703,194 +715,162 @@ function generateSmartInsights() {
 }
 
 // =========================================================================
-// 9. CORE CANVAS GRAPHICS CONTROLLER (TREND & COMPARISON)
+// 9. DYNAMIC CHART.JS INTEGRATION (UPGRADED TRENDS)
 // =========================================================================
 function renderTrendCharts() {
-    renderTrendLineChart();
-    renderCourseComparisonChart();
+    renderChartJsTrend();
+    renderChartJsComparison();
 }
 
-function renderTrendLineChart() {
+function renderChartJsTrend() {
     const canvas = document.getElementById("trend-chart-canvas");
-    if (!canvas) return;
+    if (!canvas || typeof Chart === "undefined") return;
 
-    const ctx = canvas.getContext("2d");
-    const dpr = window.devicePixelRatio || 1;
-    const rect = canvas.getBoundingClientRect();
+    // Destroy older instance to avoid overlap redraws
+    if (State.charts.trend) {
+        State.charts.trend.destroy();
+    }
 
-    canvas.width = rect.width * dpr;
-    canvas.height = 160 * dpr;
-    ctx.scale(dpr, dpr);
-
-    const w = rect.width;
-    const h = 160;
-
-    ctx.clearRect(0, 0, w, h);
-
-    // Filter latest 8 exam results in chronological order (left to right)
     const dataset = [...State.exams].slice(0, 8).reverse();
+    if (dataset.length === 0) return;
 
-    if (dataset.length < 2) {
-        drawPlaceholderGuideLines(ctx, w, h, "Insufficient timeline attempts to plot score trend line.");
-        return;
-    }
+    const labels = dataset.map((_, i) => `Attempt ${i + 1}`);
+    const dataPoints = dataset.map(item => Number(item.percentage));
 
-    const paddingX = 35;
-    const paddingY = 20;
-    const gWidth = w - paddingX * 2;
-    const gHeight = h - paddingY * 2;
-
-    const points = dataset.map((item, idx) => {
-        const x = paddingX + (gWidth / (dataset.length - 1)) * idx;
-        const ratio = Number(item.percentage) / 100;
-        const y = h - paddingY - ratio * gHeight;
-        return { x, y, val: item.percentage };
-    });
-
-    // Horizontal Grid Lines
-    ctx.strokeStyle = "rgba(255, 255, 255, 0.03)";
-    ctx.lineWidth = 1;
-    for (let i = 0; i <= 4; i++) {
-        const y = paddingY + (gHeight / 4) * i;
-        ctx.beginPath();
-        ctx.moveTo(paddingX, y);
-        ctx.lineTo(w - paddingX, y);
-        ctx.stroke();
-    }
-
-    // Smooth Bezier Curve
-    ctx.beginPath();
-    ctx.moveTo(points[0].x, points[0].y);
-    for (let i = 0; i < points.length - 1; i++) {
-        const xc = (points[i].x + points[i + 1].x) / 2;
-        const yc = (points[i].y + points[i + 1].y) / 2;
-        ctx.quadraticCurveTo(points[i].x, points[i].y, xc, yc);
-    }
-    ctx.quadraticCurveTo(points[points.length - 1].x, points[points.length - 1].y, points[points.length - 1].x, points[points.length - 1].y);
-
-    ctx.strokeStyle = "#8b5cf6";
-    ctx.lineWidth = 3;
-    ctx.shadowColor = "rgba(139, 92, 246, 0.4)";
-    ctx.shadowBlur = 6;
-    ctx.stroke();
-    ctx.shadowBlur = 0; // Reset
-
-    // Translucent gradient fill under curve
-    ctx.lineTo(points[points.length - 1].x, h - paddingY);
-    ctx.lineTo(points[0].x, h - paddingY);
-    ctx.closePath();
-    const grad = ctx.createLinearGradient(0, paddingY, 0, h - paddingY);
-    grad.addColorStop(0, "rgba(139, 92, 246, 0.15)");
-    grad.addColorStop(1, "rgba(139, 92, 246, 0.0)");
-    ctx.fillStyle = grad;
-    ctx.fill();
-
-    // Render nodes
-    points.forEach(pt => {
-        ctx.beginPath();
-        ctx.arc(pt.x, pt.y, 4, 0, Math.PI * 2);
-        ctx.fillStyle = "#fff";
-        ctx.strokeStyle = "#8b5cf6";
-        ctx.lineWidth = 2;
-        ctx.stroke();
-        ctx.fill();
+    State.charts.trend = new Chart(canvas, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'CBT Accuracy',
+                data: dataPoints,
+                borderColor: '#8b5cf6',
+                backgroundColor: 'rgba(139, 92, 246, 0.12)',
+                borderWidth: 3,
+                tension: 0.4,
+                fill: true,
+                pointBackgroundColor: '#fff',
+                pointBorderColor: '#8b5cf6',
+                pointBorderWidth: 2,
+                pointRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                y: {
+                    min: 0,
+                    max: 100,
+                    grid: { color: 'rgba(255, 255, 255, 0.03)' },
+                    ticks: { color: '#94a3b8', font: { size: 9 } }
+                },
+                x: {
+                    grid: { display: false },
+                    ticks: { color: '#94a3b8', font: { size: 9 } }
+                }
+            }
+        }
     });
 }
 
-function renderCourseComparisonChart() {
+function renderChartJsComparison() {
     const canvas = document.getElementById("course-chart-canvas");
-    if (!canvas) return;
+    if (!canvas || typeof Chart === "undefined") return;
 
-    const ctx = canvas.getContext("2d");
-    const dpr = window.devicePixelRatio || 1;
-    const rect = canvas.getBoundingClientRect();
-
-    canvas.width = rect.width * dpr;
-    canvas.height = 160 * dpr;
-    ctx.scale(dpr, dpr);
-
-    const w = rect.width;
-    const h = 160;
-
-    ctx.clearRect(0, 0, w, h);
+    if (State.charts.course) {
+        State.charts.course.destroy();
+    }
 
     const activeKeys = Object.keys(State.courseStats);
+    if (activeKeys.length === 0) return;
 
-    if (activeKeys.length === 0) {
-        drawPlaceholderGuideLines(ctx, w, h, "Insufficient course data to plot comparison bars.");
-        return;
-    }
+    const labels = activeKeys.map(k => k.toUpperCase());
+    const dataPoints = activeKeys.map(k => {
+        const stats = State.courseStats[k];
+        return Math.round(stats.sumPct / stats.attempts);
+    });
 
-    const paddingX = 40;
-    const paddingY = 20;
-    const gWidth = w - paddingX * 2;
-    const gHeight = h - paddingY * 2;
-
-    const barWidth = Math.min(30, (gWidth / activeKeys.length) * 0.5);
-    const spacing = (gWidth - (barWidth * activeKeys.length)) / (activeKeys.length - 1 || 1);
-
-    // Horizontal Guidelines
-    ctx.strokeStyle = "rgba(255, 255, 255, 0.03)";
-    ctx.lineWidth = 1;
-    for (let i = 0; i <= 4; i++) {
-        const y = paddingY + (gHeight / 4) * i;
-        ctx.beginPath();
-        ctx.moveTo(paddingX, y);
-        ctx.lineTo(w - paddingX, y);
-        ctx.stroke();
-    }
-
-    activeKeys.forEach((key, index) => {
-        const stats = State.courseStats[key];
-        const avg = stats.sumPct / stats.attempts;
-
-        const x = paddingX + (barWidth + spacing) * index;
-        const barHeight = (avg / 100) * gHeight;
-        const y = h - paddingY - barHeight;
-
-        // Render sleek rounded bar
-        ctx.fillStyle = "rgba(59, 130, 246, 0.85)";
-        ctx.beginPath();
-        if (ctx.roundRect) {
-            ctx.roundRect(x, y, barWidth, barHeight, [6, 6, 0, 0]);
-            ctx.fill();
-        } else {
-            ctx.fillRect(x, y, barWidth, barHeight);
+    State.charts.course = new Chart(canvas, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: dataPoints,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderColor: '#3b82f6',
+                borderWidth: 1,
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                y: {
+                    min: 0,
+                    max: 100,
+                    grid: { color: 'rgba(255, 255, 255, 0.03)' },
+                    ticks: { color: '#94a3b8', font: { size: 9 } }
+                },
+                x: {
+                    grid: { display: false },
+                    ticks: { color: '#94a3b8', font: { size: 9 } }
+                }
+            }
         }
-
-        // Label Course Name below bar
-        ctx.fillStyle = "rgba(148, 163, 184, 0.8)";
-        ctx.font = "bold 8px sans-serif";
-        ctx.textBaseline = "middle";
-        ctx.textAlign = "center";
-        ctx.fillText(key.toUpperCase(), x + barWidth / 2, h - 8);
-
-        // Score percentage above bar
-        ctx.fillStyle = "#fff";
-        ctx.font = "bold 8px sans-serif";
-        ctx.fillText(`${Math.round(avg)}%`, x + barWidth / 2, y - 6);
     });
 }
 
-function drawPlaceholderGuideLines(ctx, w, h, text) {
-    ctx.strokeStyle = "rgba(255,255,255,0.03)";
-    ctx.lineWidth = 1;
-    for (let i = 1; i < 4; i++) {
-        const y = (h / 4) * i;
-        ctx.beginPath();
-        ctx.moveTo(0, y);
-        ctx.lineTo(w, y);
-        ctx.stroke();
-    }
-    ctx.fillStyle = "rgba(148, 163, 184, 0.4)";
-    ctx.font = "10px sans-serif";
-    ctx.textAlign = "center";
-    ctx.fillText(text, w / 2, h / 2 + 4);
+// =========================================================================
+// 10. DYNAMIC INTERACTIVE TABBED SUB-NAVIGATION
+// =========================================================================
+function initTabNavigation() {
+    const tabs = document.querySelectorAll(".sub-tab-btn");
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            tabs.forEach(t => t.classList.remove("active"));
+            tab.classList.add("active");
+
+            const targetViewId = "view-" + tab.getAttribute("data-view");
+            document.querySelectorAll(".dashboard-sub-view").forEach(view => {
+                view.classList.remove("active-view");
+            });
+
+            const targetView = document.getElementById(targetViewId);
+            if (targetView) {
+                targetView.classList.add("active-view");
+            }
+
+            // Trigger Chart.js recalculation on view activation (resolves display size lag)
+            if (tab.getAttribute("data-view") === "analytics") {
+                setTimeout(() => {
+                    renderTrendCharts();
+                }, 50);
+            }
+        });
+    });
 }
 
 // =========================================================================
-// 10. SYSTEM UTILITIES
+// 11. COGNITIVE UTILITIES
 // =========================================================================
+function getDeterministicColor(str) {
+    const colors = ["#8b5cf6", "#ec4899", "#22c55e", "#f59e0b", "#3b82f6", "#06b6d4", "#f97316"];
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const index = Math.abs(hash) % colors.length;
+    return colors[index];
+}
+
 function toggleSkeleton(show) {
     const loader = document.getElementById("skeleton-loader");
     if (loader) loader.style.display = show ? "flex" : "none";
@@ -916,9 +896,11 @@ function formatDuration(seconds) {
 }
 
 // =========================================================================
-// 11. BOOTSTRAP INITIALIZATION
+// 12. BOOTSTRAP INITIALIZATION
 // =========================================================================
 document.addEventListener("DOMContentLoaded", () => {
+    initTabNavigation();
+
     // 1. Observe Authentication States
     onAuthStateChanged(auth, (user) => {
         const dot = document.querySelector(".status-dot");
@@ -938,7 +920,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Handle standard layout redraw on resize (resolves canvas blur)
+    // Handle standard layout redraw on resize (resolves chart scaling blur)
     window.addEventListener("resize", () => {
         if (State.exams.length > 0) {
             renderTrendCharts();
