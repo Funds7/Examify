@@ -671,12 +671,25 @@ function renderChartJsTrend() {
 // =========================================================================
 function initCourseSelectorNavigation() {
     const buttons = document.querySelectorAll(".course-scroll-btn");
+
     buttons.forEach(btn => {
         btn.addEventListener("click", () => {
+
+            // Active state
             buttons.forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
 
-            State.activeCourse = btn.getAttribute("data-course");
+            // Auto scroll selected button into view
+            btn.scrollIntoView({
+                behavior: "smooth",
+                inline: "center",
+                block: "nearest"
+            });
+
+            // Change active course
+            State.activeCourse = btn.dataset.course;
+
+            // Refresh dashboard
             processAnalyticsPipeline();
         });
     });
