@@ -5,33 +5,16 @@
  */
 
 // Import Modular Firebase SDK from CDN
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-import { 
-    getFirestore, 
-    collection, 
-    query, 
-    orderBy, 
-    onSnapshot 
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+import { auth, db } from "./firebase.js";
 
-// =========================================================================
-// 1. FIREBASE CONFIGURATION
-// =========================================================================
-// Insert your unique Firebase credentials inside this config block:
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY_HERE",
-    authDomain: "YOUR_PROJECT_ID_HERE.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID_HERE",
-    storageBucket: "YOUR_PROJECT_ID_HERE.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID_HERE",
-    appId: "YOUR_APP_ID_HERE"
-};
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
-// Initialize Firebase securely
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+import {
+    collection,
+    query,
+    orderBy,
+    onSnapshot
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 // =========================================================================
 // 2. RUNTIME STATE MANAGER
@@ -125,7 +108,10 @@ function processAnalyticsPipeline() {
 
     // Filter exams strictly by activeCourse
     const normalizedKey = State.activeCourse.toLowerCase().trim();
-    State.filteredExams = State.exams.filter(e => e.course.toLowerCase().trim() === normalizedKey);
+
+State.filteredExams = State.exams.filter(
+    e => (e.course || "").toLowerCase().trim() === normalizedKey
+);
 
     if (State.filteredExams.length === 0) {
         toggleDashboardView(false);
