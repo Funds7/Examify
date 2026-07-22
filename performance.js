@@ -409,41 +409,50 @@ function renderRecentTimeline() {
         const card = document.createElement("div");
         card.className = "recent-exam-card fade-in";
 
-        const formattedDate = new Date(exam.completedAt).toLocaleDateString(undefined, {
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        });
+        const completed = exam.completedAt?.toDate
+    ? exam.completedAt.toDate()
+    : new Date(exam.completedAt);
 
-        card.innerHTML = `
-            <div class="recent-top-bar">
-                <span class="recent-course-tag">${cMeta.code}</span>
-                <span class="recent-date-stamp">${formattedDate}</span>
-            </div>
-            <h4 class="class-title" style="margin-bottom: 6px;">${cMeta.title}</h4>
-            <div class="recent-score-text" style="color: ${exam.percentage >= 50.0 ? 'var(--green)' : 'var(--danger)'};">
-                ${exam.score} <span>/ ${exam.totalQuestions} (${exam.percentage}%)</span>
-            </div>
-            <div class="recent-grid-metrics">
-                <div class="recent-metric-cell">
-                    <h6>${exam.grade}</h6>
-                    <p>Grade</p>
-                </div>
-                <div class="recent-metric-cell" style="color: var(--green);">
-                    <h6>+${exam.correct}</h6>
-                    <p>Correct</p>
-                </div>
-                <div class="recent-metric-cell" style="color: var(--danger);">
-                    <h6>-${exam.wrong}</h6>
-                    <p>Wrong</p>
-                </div>
-                <div class="recent-metric-cell">
-                    <h6>${formatDuration(exam.duration)}</h6>
-                    <p>Time</p>
-                </div>
-            </div>
-        `;
+const formattedDate = completed.toLocaleDateString(undefined, {
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+});
+        const totalQuestions =
+    exam.totalQuestions ??
+    exam.questionsCount ??
+    exam.total ??
+    0;
+
+card.innerHTML = `
+    <div class="recent-top-bar">
+        <span class="recent-course-tag">${cMeta.code}</span>
+        <span class="recent-date-stamp">${formattedDate}</span>
+    </div>
+    <h4 class="class-title" style="margin-bottom: 6px;">${cMeta.title}</h4>
+    <div class="recent-score-text" style="color: ${exam.percentage >= 50.0 ? 'var(--green)' : 'var(--danger)'};">
+        ${exam.score} <span>/ ${totalQuestions} (${exam.percentage}%)</span>
+    </div>
+    <div class="recent-grid-metrics">
+        <div class="recent-metric-cell">
+            <h6>${exam.grade}</h6>
+            <p>Grade</p>
+        </div>
+        <div class="recent-metric-cell" style="color: var(--green);">
+            <h6>+${exam.correct}</h6>
+            <p>Correct</p>
+        </div>
+        <div class="recent-metric-cell" style="color: var(--danger);">
+            <h6>-${exam.wrong}</h6>
+            <p>Wrong</p>
+        </div>
+        <div class="recent-metric-cell">
+            <h6>${formatDuration(exam.duration)}</h6>
+            <p>Time</p>
+        </div>
+    </div>
+`;
         fragment.appendChild(card);
     });
 
