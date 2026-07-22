@@ -149,32 +149,41 @@ function calculateGeneralMetrics() {
     let totalTime = 0;
 
     State.filteredExams.forEach(e => {
-        totalQuestions += Number(e.totalQuestions);
-        totalCorrect += Number(e.correct);
-        totalWrong += Number(e.wrong);
-        totalTime += Number(e.duration);
+    totalQuestions += Number(
+        e.totalQuestions ??
+        e.questionsCount ??
+        e.total ??
+        0
+    );
 
-        const pct = Number(e.percentage);
-        sumPercentages += pct;
+    totalCorrect += Number(e.correct);
+    totalWrong += Number(e.wrong);
+    totalTime += Number(e.duration);
 
-        if (pct > bestPercent) bestPercent = pct;
-        if (pct < worstPercent) worstPercent = pct;
-        if (pct >= 50.0) passCount++;
-    });
+    const pct = Number(e.percentage);
+    sumPercentages += pct;
 
-    State.statistics = {
-        totalExams: State.filteredExams.length,
-        totalQuestions,
-        correctAnswers: totalCorrect,
-        wrongAnswers: totalWrong,
-        bestScore: bestPercent,
-        lowestScore: worstPercent,
-        avgScore: Math.round(sumPercentages / State.filteredExams.length),
-        passRate: Math.round((passCount / State.filteredExams.length) * 100),
-        avgTime: Math.round(totalTime / State.filteredExams.length),
-        studyHours: (totalTime / 3600).toFixed(1)
-    };
+    if (pct > bestPercent) bestPercent = pct;
+    if (pct < worstPercent) worstPercent = pct;
+    if (pct >= 50.0) passCount++;
+});
+
+    const examCount = State.filteredExams.length;
+
+State.statistics = {
+    totalExams: examCount,
+    totalQuestions,
+    correctAnswers: totalCorrect,
+    wrongAnswers: totalWrong,
+    bestScore: bestPercent,
+    lowestScore: worstPercent,
+    avgScore: examCount ? Math.round(sumPercentages / examCount) : 0,
+    passRate: examCount ? Math.round((passCount / examCount) * 100) : 0,
+    avgTime: examCount ? Math.round(totalTime / examCount) : 0,
+    studyHours: (totalTime / 3600).toFixed(1)
+   };
 }
+
 
 function calculateStreaks() {
     if (State.exams.length === 0) {
@@ -413,11 +422,11 @@ function renderRecentTimeline() {
     ? exam.completedAt.toDate()
     : new Date(exam.completedAt);
 
-const formattedDate = completed.toLocaleDateString(undefined, {
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
+const formattedDate = completed.toLocaleString(undefined, {
+    day: "numeric",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit"
 });
         const totalQuestions =
     exam.totalQuestions ??
