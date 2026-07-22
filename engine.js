@@ -617,16 +617,35 @@ async function finishExam(autoSubmit = false) {
             // Write attempt detailed log into users/{uid}/examHistory (for Performance dashboard compatibility)
             const examHistoryRef = collection(db, `users/${user.uid}/examHistory`);
             await addDoc(examHistoryRef, {
-                course: selectedCourse,
-                score: correctAnswers,
-                percentage: percentage,
-                correct: correctAnswers,
-                wrong: wrongAnswers,
-                duration: examDuration,
-                grade: percentage >= 50.0 ? "A" : "F", // Simple mapping for older history records
-                chapterResults: chapterResults,
-                completedAt: serverTimestamp()
-            });
+    course: selectedCourse,
+    courseTitle: COURSE_TITLES[selectedCourse] || selectedCourse.toUpperCase(),
+
+    score: correctAnswers,
+    totalQuestions: totalQuestions,
+
+    correct: correctAnswers,
+    wrong: wrongAnswers,
+    unanswered: unansweredCount,
+
+    percentage: percentage,
+
+    grade:
+        percentage >= 70 ? "A" :
+        percentage >= 60 ? "B" :
+        percentage >= 50 ? "C" :
+        percentage >= 45 ? "D" : "F",
+
+    mode: selectedMode,
+
+    duration: examDuration,
+    durationFormatted: timeSpentFormatted,
+
+    chapterResults: chapterResults,
+    strongChapters: strongChapters,
+    weakChapters: weakChapters,
+
+    completedAt: serverTimestamp()
+});
 
             // Update user profile document for global Leaderboards & Stats
             const userRef = doc(db, "users", user.uid);
