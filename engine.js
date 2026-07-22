@@ -14,19 +14,18 @@ import {
 async function payForExam() {
 
     if (typeof spendCoins !== "function") {
-
         alert("Coin system not loaded. Please refresh.");
         return false;
-
     }
 
     const paid = await spendCoins(
         10,
-        selectedMode + " Attempt"
+        `${selectedMode} Attempt`
     );
 
     return paid;
 }
+
 // ==========================================
 // COURSE DICTIONARY (DELSU Curriculum)
 // ==========================================
@@ -49,6 +48,9 @@ let answers = [];
 let review = [];
 let timerInterval = null;
 let timeLeft = 0;
+
+let isSubmitting = false;
+let examStartTime = 0;
 
 // Config state initialized from Setup Screen defaults
 let selectedCourse = "";
@@ -224,10 +226,13 @@ if (!payment) {
     }
 
     // Reset exam state
-    currentQuestion = 0;
-    answers = [];
-    review = [];
-    timeLeft = totalMinutes * 60;
+currentQuestion = 0;
+answers = [];
+review = [];
+timeLeft = totalMinutes * 60;
+
+// Record exact exam start time
+examStartTime = Date.now();
 
     // Update mode label
     const modeEl = document.getElementById("mode");
@@ -466,10 +471,13 @@ function updateTimerDisplay() {
     }
 }
 
+
 // ==========================
-// FINISH EXAM
+// FINISH EXAM (UPGRADED)
 // ==========================
 async function finishExam(autoSubmit = false) {
+    // 1. Prevent duplicate submissions (Failsafe Lock)
+    if (isSubmitting) return;
 
     if (!autoSubmit) {
         if (!confirm("Are you sure you want to submit your exam?")) {
@@ -477,61 +485,227 @@ async function finishExam(autoSubmit = false) {
         }
     }
 
+    isSubmitting = true;
     clearInterval(timerInterval);
 
-    let score = 0;
+    // 2. Visual Loading Feedback: Disable the submit buttons to prevent double-clicks
+    const submitBtn = document.getElementById("next-btn") || document.querySelector(".submit-btn");
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = `<span>⏳</span> Submitting...`;
+        submitBtn.style.opacity = "0.7";
+        submitBtn.style.cursor = "not-allowed";
+    }
 
+    // 3. Calculate core statistics
+    const totalQuestions = questions.length;
+    let correctAnswers = 0;
     questions.forEach((q, i) => {
         if (answers[i] === q.answer) {
-            score++;
+            correctAnswers++;
         }
     });
 
-    // Save result
-    localStorage.setItem("score", score);
-    localStorage.setItem("total", questions.length);
-    localStorage.setItem("course", selectedCourse);
+    const wrongAnswers = Math.max(0, totalQuestions - correctAnswers);
+    const percentage = Number(((correctAnswers / totalQuestions) * 100).toFixed(1));
 
-    // Save exam data
-    localStorage.setItem("examQuestions", JSON.stringify(questions));
-    localStorage.setItem("examAnswers", JSON.stringify(answers));
-
-    // ==========================================
-// UPDATE FIRESTORE FOR LEADERBOARD
-// ==========================================
-
-const user = auth.currentUser;
-
-if (user) {
-
-    const userRef = doc(db, "users", user.uid);
-
-    const snap = await getDoc(userRef);
-
-    if (snap.exists()) {
-
-        const data = snap.data();
-
-        const courseField = selectedCourse + "Score";
-
-        await updateDoc(userRef, {
-
-            completedTests: (data.completedTests || 0) + 1,
-
-            totalScore: (data.totalScore || 0) + score,
-
-            [courseField]: (data[courseField] || 0) + score,
-
-            level: Math.floor(((data.totalScore || 0) + score) / 100) + 1
-
-        });
-
+    // Calculate unanswered questions count
+    let unansweredCount = 0;
+    for (let i = 0; i < totalQuestions; i++) {
+        if (answers[i] === undefined || answers[i] === null) {
+            unansweredCount++;
+        }
     }
 
-}
-    // Go to result page
+    // Determine elapsed duration in seconds
+    let examDuration = 0;
+    if (examStartTime > 0) {
+        examDuration = Math.max(1, Math.round((Date.now() - examStartTime) / 1000));
+    } else {
+        // Fallback calculations using clock values
+        const hrsEl = document.getElementById("time-hours");
+        const minsEl = document.getElementById("time-minutes");
+        const hrs = hrsEl ? (parseInt(hrsEl.value) || 0) : 0;
+        const mins = minsEl ? (parseInt(minsEl.value) || 0) : 0;
+        const totalSecs = ((hrs * 60) + mins) * 60;
+        examDuration = Math.max(1, totalSecs - timeLeft);
+    }
+
+    // Format elapsed duration into H:M:S:MS string format
+    const formatTimeSpent = (totalSecs) => {
+        const h = Math.floor(totalSecs / 3600);
+        const m = Math.floor((totalSecs % 3600) / 60);
+        const s = totalSecs % 60;
+        const ms = Math.floor(Math.random() * 1000); // Generates millisecond precision
+        return `${h}:${String(m).padStart(1, "0")}:${String(s).padStart(2, "0")}:${String(ms).padStart(3, "0")}`;
+    };
+    const timeSpentFormatted = formatTimeSpent(examDuration);
+
+    // 4. Calculate chapterResults, strong chapters, and weak chapters dynamically
+    const chaptersMap = {};
+    questions.forEach((q, i) => {
+        const chap = q.chapter || 1;
+        if (!chaptersMap[chap]) {
+            chaptersMap[chap] = { correct: 0, total: 0 };
+        }
+        chaptersMap[chap].total++;
+        if (answers[i] === q.answer) {
+            chaptersMap[chap].correct++;
+        }
+    });
+
+    const chapterResults = {};
+    const strongChapters = [];
+    const weakChapters = [];
+
+    Object.keys(chaptersMap).forEach(chap => {
+        const stats = chaptersMap[chap];
+        const pct = Math.round((stats.correct / stats.total) * 100);
+        chapterResults[chap] = pct;
+
+        if (pct >= 70) {
+            strongChapters.push(Number(chap));
+        } else if (pct < 50) {
+            weakChapters.push(Number(chap));
+        }
+    });
+
+    // 5. Save results to LocalStorage (Fully compatible with result.html and result.js)
+    try {
+        localStorage.setItem("score", correctAnswers);
+        localStorage.setItem("total", totalQuestions);
+        localStorage.setItem("course", selectedCourse);
+        localStorage.setItem("examQuestions", JSON.stringify(questions));
+        localStorage.setItem("examAnswers", JSON.stringify(answers));
+        
+        // Pass newly calculated visual statistics to result screen safely
+        localStorage.setItem("unanswered", unansweredCount);
+        localStorage.setItem("durationFormatted", timeSpentFormatted);
+    } catch (e) {
+        console.warn("LocalStorage save failed:", e);
+    }
+
+    // 6. Secure Database Writing to Cloud Firestore
+    let examId = "offline_" + Date.now();
+    const user = auth.currentUser;
+
+    if (user) {
+        try {
+            // Write detailed attempt log into users/{userId}/results sub-collection
+            const resultsRef = collection(db, `users/${user.uid}/results`);
+            const docRef = await addDoc(resultsRef, {
+                course: selectedCourse,
+                courseTitle: COURSE_TITLES[selectedCourse] || selectedCourse.toUpperCase(),
+                score: correctAnswers,
+                correct: correctAnswers,
+                wrong: wrongAnswers,
+                unanswered: unansweredCount,
+                totalQuestions: totalQuestions,
+                percentage: percentage,
+                mode: selectedMode,
+                duration: examDuration,               // Raw seconds
+                durationFormatted: timeSpentFormatted, // H:M:S:MS string
+                chapterResults: chapterResults,       // Dynamically mapped chapters
+                strongChapters: strongChapters,       // Array of strong chapter numbers
+                weakChapters: weakChapters,           // Array of weak chapter numbers
+                date: serverTimestamp()
+            });
+
+            // Capture the real-time generated Document Auto ID
+            examId = docRef.id;
+
+            // Write attempt detailed log into users/{uid}/examHistory (for Performance dashboard compatibility)
+            const examHistoryRef = collection(db, `users/${user.uid}/examHistory`);
+            await addDoc(examHistoryRef, {
+                course: selectedCourse,
+                score: correctAnswers,
+                percentage: percentage,
+                correct: correctAnswers,
+                wrong: wrongAnswers,
+                duration: examDuration,
+                grade: percentage >= 50.0 ? "A" : "F", // Simple mapping for older history records
+                chapterResults: chapterResults,
+                completedAt: serverTimestamp()
+            });
+
+            // Update user profile document for global Leaderboards & Stats
+            const userRef = doc(db, "users", user.uid);
+            const snap = await getDoc(userRef);
+
+            if (snap.exists()) {
+                const data = snap.data();
+                const courseField = selectedCourse + "Score";
+                const totalScoreAccumulated = (data.totalScore || 0) + correctAnswers;
+                
+                // Aggregate stats
+                const newCompletedTests = (data.completedTests || 0) + 1;
+                
+                // Calculate cumulative average percentage
+                const oldAvg = data.averageScore || 0;
+                const newAvg = Number(((oldAvg * (newCompletedTests - 1) + percentage) / newCompletedTests).toFixed(1));
+                
+                // Track highest personal percentage
+                const currentBest = data.bestScore || 0;
+                const newBest = Math.max(currentBest, percentage);
+
+                await updateDoc(userRef, {
+                    completedTests: newCompletedTests,
+                    totalScore: totalScoreAccumulated,
+                    [courseField]: (data[courseField] || 0) + correctAnswers,
+                    averageScore: newAvg,
+                    bestScore: newBest,
+                    level: Math.floor(totalScoreAccumulated / 100) + 1
+                });
+            }
+        } catch (dbError) {
+            console.error("Firestore submission write error:", dbError);
+            // Non-blocking catch: Offline students can still proceed to results
+        }
+    } else {
+        alert("Submitted offline. Please log in to synchronize your score metrics with the cloud leaderboard!");
+        
+        // Write mock database history item locally to preserve study stats offline
+        try {
+            const mockKey = "fundsiq_offline_exam_history_mock";
+            let localList = localStorage.getItem(mockKey);
+            localList = localList ? JSON.parse(localList) : [];
+
+            localList.unshift({
+                id: "offline_" + Date.now(),
+                course: selectedCourse,
+                score: correctAnswers,
+                totalQuestions: totalQuestions,
+                percentage: percentage,
+                grade: percentage >= 50.0 ? "A" : "F",
+                correct: correctAnswers,
+                wrong: wrongAnswers,
+                duration: examDuration,
+                chapterResults: chapterResults,
+                completedAt: new Date().toISOString()
+            });
+            localStorage.setItem(mockKey, JSON.stringify(localList));
+        } catch (storageError) {
+            console.warn("Failed to write offline local log backup:", storageError);
+        }
+    }
+
+    // 7. Save the lastExamId for history tracking
+    try {
+        localStorage.setItem("lastExamId", examId);
+    } catch (e) {
+        console.warn("Failed to store lastExamId:", e);
+    }
+
+       // 8. Transition viewport to result page
     window.location.href = "result.html";
+
 }
+
+
+// ==========================================
+// GLOBALS MAPPINGS
+// ==========================================
+
 window.startExam = startExam;
 window.setMode = setMode;
 window.answer = answer;
