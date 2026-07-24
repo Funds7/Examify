@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FundsIQ Partner Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="marketer-dashboard.css">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- Header -->
+
+    <header class="top-bar">
+
+        <button class="back-btn"
+            onclick="history.back()">
+            ←
+        </button>
+
+        <div>
+
+            <h2>Partner Dashboard</h2>
+
+            <p>
+                Grow FundsIQ and earn commissions.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- Balance Card -->
+
+    <div class="balance-card">
+
+        <p>Available Balance</p>
+
+        <h1 id="balance">
+            ₦0
+        </h1>
+
+        <button id="withdrawBtn" class="withdraw-btn">
+            Withdraw
+        </button>
+
+    </div>
+
+
+
+    <!-- Statistics -->
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+
+            <h3 id="earnings">
+                ₦0
+            </h3>
+
+            <p>Total Earnings</p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <h3 id="referrals">
+                0
+            </h3>
+
+            <p>Referrals</p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <h3 id="sales">
+                0
+            </h3>
+
+            <p>Premium Sales</p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <h3 id="withdrawn">
+                ₦0
+            </h3>
+
+            <p>Withdrawn</p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Referral Code -->
+
+    <div class="section">
+
+        <h3>Your Referral Code</h3>
+
+        <div class="copy-box">
+
+            <h2 id="referralCode">
+                Loading...
+            </h2>
+
+            <button id="copyCodeBtn">
+                Copy
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Referral Link -->
+
+    <div class="section">
+
+        <h3>Your Referral Link</h3>
+
+        <div class="copy-box">
+
+            <p id="referralLink">
+                Loading...
+            </p>
+
+            <button id="copyLinkBtn">
+                Copy
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- WhatsApp -->
+
+    <button
+        id="shareBtn"
+        class="share-btn">
+
+        📲 Share on WhatsApp
+
+    </button>
+
+
+
+    <!-- Recent Activity -->
+
+    <div class="section">
+
+        <h3>Recent Activity</h3>
+
+        <div
+            id="activityList"
+            class="activity">
+
+            No referrals yet.
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="module" src="marketer-dashboard.js"></script>
+
+</body>
+</html>
