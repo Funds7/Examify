@@ -1,107 +1,141 @@
-import { auth, db } from "./firebase.js";
+/**
+ * FundsIQ Affiliate & Marketer Portals Subsystem
+ * Developed by Odigwe Joshua
+ */
+(function () {
+    "use strict";
 
-import {
-    doc,
-    getDoc,
-    setDoc,
-    serverTimestamp
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+    // =========================================================================
+    // 1. DYNAMIC TAB SUB-NAVIGATION CONTROLLER
+    // =========================================================================
+    const TabRouter = {
+        init() {
+            const tabs = document.querySelectorAll("#marketer-tab-bar .tab-btn");
+            
+            tabs.forEach(tab => {
+                tab.addEventListener("click", () => {
+                    // Remove active style state from all tab triggers
+                    tabs.forEach(t => t.classList.remove("active"));
+                    
+                    // Activate clicked tab
+                    tab.classList.add("active");
 
-import {
-    onAuthStateChanged
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+                    const targetTabId = tab.getAttribute("data-tab");
+                    const targetViewId = `view-${targetTabId}`;
 
-// Wait until user is logged in
-onAuthStateChanged(auth, async (user) => {
+                    // Deactivate all sub-view containers
+                    document.querySelectorAll(".tab-view").forEach(view => {
+                        view.classList.remove("active-view");
+                    });
 
-    if (!user) {
-        alert("Please login first.");
-        window.location.href = "login.html";
-        return;
-    }
-
-    const joinBtn = document.getElementById("joinBtn");
-
-    joinBtn.onclick = async () => {
-
-        joinBtn.disabled = true;
-        joinBtn.innerHTML = "Creating Account...";
-
-        try {
-
-            const userRef = doc(db, "users", user.uid);
-
-            const snap = await getDoc(userRef);
-
-            if (!snap.exists()) {
-                alert("User account not found.");
-                return;
-            }
-
-            const data = snap.data();
-
-            // Already a marketer
-            if (data.isMarketer === true) {
-
-                window.location.href = "marketer-dashboard.html";
-
-                return;
-            }
-
-            // Generate referral code
-            const random = Math.floor(Math.random() * 9000 + 1000);
-
-            const username =
-                (data.firstName ||
-                 data.displayName ||
-                 user.email.split("@")[0])
-                 .replace(/\s/g, "")
-                 .toUpperCase();
-
-            const referralCode =
-                username + random;
-
-            // Save marketer data
-            await setDoc(userRef, {
-
-                isMarketer: true,
-
-                referralCode: referralCode,
-
-                marketer: {
-
-                    earnings: 0,
-
-                    referrals: 0,
-
-                    premiumSales: 0,
-
-                    withdrawn: 0,
-
-                    joinedAt: serverTimestamp()
-
-                }
-
-            }, { merge: true });
-
-            alert("🎉 Welcome to the FundsIQ Affiliate Program!");
-
-            window.location.href = "marketer-dashboard.html";
-
+                    // Activate targeted sub-view container
+                    const targetView = document.getElementById(targetViewId);
+                    if (targetView) {
+                        targetView.classList.add("active-view");
+                        // Scroll layout container slightly to align view on small screens
+                        targetView.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                });
+            });
         }
-
-        catch (error) {
-
-            console.error(error);
-
-            alert(error.message);
-
-            joinBtn.disabled = false;
-
-            joinBtn.innerHTML = "Become a Marketer";
-
-        }
-
     };
 
-});
+    // =========================================================================
+    // 2. EXPANDABLE ACCORDION MANAGER (ACCURATE SCROLL HEIGHTS)
+    // =========================================================================
+    const AccordionManager = {
+        init() {
+            const triggers = document.querySelectorAll(".accordion-trigger");
+
+            triggers.forEach(trigger => {
+                trigger.addEventListener("click", () => {
+                    const isExpanded = trigger.getAttribute("aria-expanded") === "true";
+                    const panel = trigger.nextElementSibling;
+
+                    // Close all active panels first (Classical Accordion Behavior)
+                    triggers.forEach(t => {
+                        t.setAttribute("aria-expanded", "false");
+                        const activePanel = t.nextElementSibling;
+                        if (activePanel) {
+                            activePanel.style.maxHeight = null;
+                        }
+                    });
+
+                    // Toggle clicked panel state using exact scroll heights to prevent jumps
+                    if (!isExpanded) {
+                        trigger.setAttribute("aria-expanded", "true");
+                        if (panel) {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    }
+                });
+            });
+        }
+    };
+
+    // =========================================================================
+    // 3. TACTILE RIPPLE WAVE MATH CONTROLLER
+    // =========================================================================
+    const RippleEngine = {
+        init() {
+            const rippleButtons = document.querySelectorAll(".ripple-btn");
+
+            rippleButtons.forEach(btn => {
+                btn.addEventListener("click", function (e) {
+                    // Extract click coordinate offsets relative to button bounds
+                    const rect = btn.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+
+                    // Generate temporary ripple span
+                    const ripple = document.createElement("span");
+                    ripple.className = "ripple";
+                    ripple.style.left = `${x}px`;
+                    ripple.style.top = `${y}px`;
+
+                    btn.appendChild(ripple);
+
+                    // Garbage collection of completed ripple nodes
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 550);
+                });
+            });
+        }
+    };
+
+    // =========================================================================
+    // 4. FIREBASE INTERFACE MAPPINGS (FUTURE-PROOF COMPLIANCE)
+    // =========================================================================
+    const FirebaseBridge = {
+        // Scoped functions ready to be connected to Firestore collections later
+        async checkMarketerStatus(userId) {
+            console.log("Validating marketer status in Firestore path: users/" + userId);
+            // Future logic:
+            // const userDoc = await getDoc(doc(db, "users", userId));
+            // return userDoc.exists() ? userDoc.data().isMarketer : false;
+        },
+
+        async registerNewMarketer(userId, customReferralCode) {
+            console.log(`Writing marketer credentials to Firestore users/${userId} and referralCodes/${customReferralCode}`);
+            // Future logic:
+            // await updateDoc(doc(db, "users", userId), { isMarketer: true, referralCode: customReferralCode });
+            // await setDoc(doc(db, "referralCodes", customReferralCode), { ownerUid: userId, clicks: 0 });
+        }
+    };
+
+    // =========================================================================
+    // 5. BOOTSTRAP SYSTEM INITIALIZER
+    // =========================================================================
+    const bootstrap = () => {
+        TabRouter.init();
+        AccordionManager.init();
+        RippleEngine.init();
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", bootstrap);
+    } else {
+        bootstrap();
+    }
+})();
