@@ -4,40 +4,25 @@
  * Developed by Odigwe Joshua
  */
 
-// Import Modular Firebase SDK from CDN
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-import { 
-    getFirestore, 
+// Import your existing Firebase services
+import { auth, db } from "./firebase.js";
+
+// Firebase Authentication
+import {
+    onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+
+// Firestore
+import {
     doc,
-    getDoc,
-    setDoc,
     updateDoc,
-    collection, 
-    addDoc, 
-    query, 
-    orderBy, 
-    onSnapshot, 
-    serverTimestamp 
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-
-// =========================================================================
-// 1. FIREBASE CONFIGURATION
-// =========================================================================
-// Insert your unique Firebase credentials inside this config block:
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY_HERE",
-    authDomain: "YOUR_PROJECT_ID_HERE.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID_HERE",
-    storageBucket: "YOUR_PROJECT_ID_HERE.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID_HERE",
-    appId: "YOUR_APP_ID_HERE"
-};
-
-// Initialize Firebase securely
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+    collection,
+    addDoc,
+    query,
+    orderBy,
+    onSnapshot,
+    serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 // =========================================================================
 // 2. TIMETABLE RUNTIME SYSTEM STATE
@@ -50,11 +35,12 @@ const State = {
         totalEarnings: 0,
         totalReferrals: 0,
         premiumReferrals: 0,
-        referralCode: "FUNDS-XXXXXX",
+        referralCode: "",
+        referralLink: "",
         bankName: "",
         accountNumber: "",
         accountName: "",
-        status: "Active"
+        status: "Inactive"
     },
     activityLogs: [],       // Stores dynamic activity list items
     unsubscribes: []        // Cache snapshot unlisteners for cleanup
@@ -99,48 +85,50 @@ function subscribeToMarketerData(user) {
         if (docSnap.exists()) {
             const data = docSnap.data();
             
-            // Map values into runtime state
+            // Map real Firestore values directly into runtime state (No fallback generators)
             State.marketerData = {
-                balance: Number(data.balance || 0),
+                balance: Number(data.marketerBalance || 0),
                 totalEarnings: Number(data.totalEarnings || 0),
-                totalReferrals: Number(data.completedTests || 0), // maps referred counts if desired, or custom
+                totalReferrals: Number(data.totalReferrals || 0),
                 premiumReferrals: Number(data.premiumReferrals || 0),
-                referralCode: data.referralCode || ("FUNDS-" + user.uid.substring(0, 6).toUpperCase()),
+                referralCode: data.referralCode || "",
+                referralLink: data.referralLink || "",
                 bankName: data.bankName || "",
                 accountNumber: data.accountNumber || "",
                 accountName: data.accountName || "",
                 status: data.isMarketer ? "Active" : "Inactive"
             };
 
-            // Calculate mock total referrals as backup if empty
-            if (State.marketerData.totalReferrals === 0 && State.marketerData.premiumReferrals > 0) {
-                State.marketerData.totalReferrals = State.marketerData.premiumReferrals + 1;
-            }
-
             syncUI();
         } else {
-            // Document doesn't exist, register empty marketer profile securely
-            setDoc(userRef, {
-                isMarketer: true,
+            // Safe clean empty defaults if user profile does not exist yet
+            State.marketerData = {
                 balance: 0,
                 totalEarnings: 0,
-                completedTests: 0,
+                totalReferrals: 0,
                 premiumReferrals: 0,
-                referralCode: "FUNDS-" + user.uid.substring(0, 6).toUpperCase()
-            }, { merge: true });
+                referralCode: "",
+                referralLink: "",
+                bankName: "",
+                accountNumber: "",
+                accountName: "",
+                status: "Inactive"
+            };
+            syncUI();
         }
         toggleSkeleton(false);
     }, (error) => {
         console.error("User profile subscription error:", error);
         toggleSkeleton(false);
-        loadOfflineMockData();
     });
 
     State.unsubscribes.push(unsubUser);
 
     // 2. Subscribe to Referral History Sub-collection (Activity Logs)
-    const activityRef = collection(db, `users/${user.uid}/results`); // Reads logs
-    const unsubActivity = onSnapshot(activityRef, (snapshot) => {
+    const activityRef = collection(db, `users/${user.uid}/referrals`);
+    const qActivity = query(activityRef, orderBy("timestamp", "desc"));
+    
+    const unsubActivity = onSnapshot(qActivity, (snapshot) => {
         const tempLogs = [];
         snapshot.forEach((docSnap) => {
             const data = docSnap.data();
@@ -152,48 +140,11 @@ function subscribeToMarketerData(user) {
 
         State.activityLogs = tempLogs;
         renderActivityLogs();
+    }, (error) => {
+        console.error("Referrals sub-collection subscription error:", error);
     });
 
     State.unsubscribes.push(unsubActivity);
-}
-
-// Seamless offline fallback with pre-populated, high-fidelity mock data
-function loadOfflineMockData() {
-    const key = "fundsiq_offline_marketer_mock";
-    let data = localStorage.getItem(key);
-
-    if (data) {
-        const parsed = JSON.parse(data);
-        State.marketerData = parsed.marketerData;
-        State.activityLogs = parsed.activityLogs;
-    } else {
-        State.marketerData = {
-            balance: 1600,
-            totalEarnings: 4000,
-            totalReferrals: 15,
-            premiumReferrals: 10,
-            referralCode: "FUNDS-JOSHUA",
-            bankName: "Kuda Bank",
-            accountNumber: "2013894456",
-            accountName: "Odigwe Joshua",
-            status: "Active"
-        };
-        State.activityLogs = [
-            { id: "act_1", friendName: "John upgraded to Premium", value: "+₦400", date: "Today" },
-            { id: "act_2", friendName: "Precious joined via Link", value: "Registered", date: "Yesterday" },
-            { id: "act_3", friendName: "Samuel upgraded to Premium", value: "+₦400", date: "3 days ago" }
-        ];
-        saveOfflineData();
-    }
-    syncUI();
-}
-
-function saveOfflineData() {
-    const key = "fundsiq_offline_marketer_mock";
-    localStorage.setItem(key, JSON.stringify({
-        marketerData: State.marketerData,
-        activityLogs: State.activityLogs
-    }));
 }
 
 // =========================================================================
@@ -215,13 +166,12 @@ function syncUI() {
     const premRefs = document.getElementById("stat-premium-referrals");
     if (premRefs) premRefs.textContent = data.premiumReferrals;
 
-    // Referral Tab Displays
+    // Referral Tab Displays (Uses strictly stored Firestore parameters)
     const codeDisplay = document.getElementById("referral-code-display");
     if (codeDisplay) codeDisplay.textContent = data.referralCode;
 
     const linkDisplay = document.getElementById("referral-link-display");
-    const generatedLink = `https://fundsiq.app/r/${data.referralCode}`;
-    if (linkDisplay) linkDisplay.textContent = generatedLink;
+    if (linkDisplay) linkDisplay.textContent = data.referralLink;
 
     // Withdraw Tab Displays
     const withdrawBal = document.getElementById("withdraw-balance-amount");
@@ -278,10 +228,9 @@ function renderActivityLogs() {
         const card = document.createElement("div");
         card.className = "activity-log-card fade-in";
 
-        // Fallback value mapping if Firestore records differ
-        const valText = log.value || `+₦${log.score || 400}`;
-        const labelText = log.friendName || `${log.courseTitle || 'Friend'} upgraded to Premium`;
-        const dateText = log.date || (log.completedAt ? new Date(log.completedAt).toLocaleDateString() : 'Today');
+        const valText = log.value || "";
+        const labelText = log.friendName || "";
+        const dateText = log.date || (log.timestamp ? new Date(log.timestamp).toLocaleDateString() : "");
 
         card.innerHTML = `
             <div class="activity-log-details">
@@ -304,6 +253,11 @@ function formatCurrency(num) {
 }
 
 function copyToClipboard(text, successMsg) {
+    if (!text || text.trim() === "") {
+        showToast("No active code/link available to copy.", "error");
+        return;
+    }
+
     if (navigator.clipboard) {
         navigator.clipboard.writeText(text)
             .then(() => showToast(successMsg))
@@ -348,7 +302,6 @@ function initTabNavigation() {
 }
 
 function triggerEditBankDetails() {
-    // Navigate smoothly to the Withdraw tab where the details form is located
     const withdrawTabBtn = document.querySelector('[data-tab="withdraw"]');
     if (withdrawTabBtn) {
         withdrawTabBtn.click();
@@ -388,9 +341,11 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             State.user = null;
             if (dot) dot.className = "status-dot offline";
-            if (txt) txt.textContent = "Sandbox Mode";
+            if (txt) txt.textContent = "Offline Mode";
             toggleSkeleton(false);
-            loadOfflineMockData();
+            
+            // Clean interface display if unauthenticated (No mock loads)
+            syncUI();
         }
     });
 
@@ -400,13 +355,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.getElementById("btn-copy-link")?.addEventListener("click", () => {
-        const link = `https://fundsiq.app/r/${State.marketerData.referralCode}`;
-        copyToClipboard(link, "Referral link copied!");
+        copyToClipboard(State.marketerData.referralLink, "Referral link copied!");
     });
 
     // 3. WhatsApp Direct Share Message Builder
     document.getElementById("btn-whatsapp-share")?.addEventListener("click", () => {
-        const inviteMessage = `Hey! Start practicing real DELSU GST CBT exams on FundsIQ and master your courses! Use my invite code *${State.marketerData.referralCode}* to get free welcome coins instantly. Sign up here: https://fundsiq.app/r/${State.marketerData.referralCode}`;
+        const link = State.marketerData.referralLink;
+        if (!link || link.trim() === "") {
+            showToast("No active referral link available to share.", "error");
+            return;
+        }
+
+        const inviteMessage = `Hey! Start practicing real DELSU GST CBT exams on FundsIQ and master your courses! Use my invite code *${State.marketerData.referralCode}* to get free welcome coins instantly. Sign up here: ${link}`;
         const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(inviteMessage)}`;
         window.open(whatsappUrl, '_blank');
     });
@@ -453,12 +413,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         requestedAt: serverTimestamp()
                     });
 
-                    // Update user profile document details and reset balance
+                    // Update user profile document details and reset marketerBalance
                     await updateDoc(userRef, {
                         bankName: bank,
                         accountNumber: accountNo,
                         accountName: accountName,
-                        balance: 0 // Withdraw full amount
+                        marketerBalance: 0, // Withdraw full amount
+                        pendingWithdrawal: State.marketerData.balance,
+                        withdrawalStatus: "Processing",
+                        lastWithdrawal: serverTimestamp()
                     });
 
                     showToast("Payout request submitted successfully!");
@@ -467,22 +430,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     showToast("Payment processing failed. Try again.", "error");
                 }
             } else {
-                // Offline sandbox simulation writes
-                State.marketerData.balance = 0;
-                State.marketerData.bankName = bank;
-                State.marketerData.accountNumber = accountNo;
-                State.marketerData.accountName = accountName;
-                
-                State.activityLogs.unshift({
-                    id: "payout_" + Date.now(),
-                    friendName: "Withdrew into bank account",
-                    value: "Processing",
-                    date: "Today"
-                });
-
-                saveOfflineData();
-                syncUI();
-                showToast("Sandbox payout request simulated.");
+                showToast("Sandbox offline. Please log in to complete payouts.", "error");
             }
 
             if (submitBtn) {
