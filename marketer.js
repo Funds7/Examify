@@ -8,10 +8,6 @@ import {
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
-import {
-  onAuthStateChanged
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
-
 "use strict";
 
 // Generate a unique referral code
@@ -165,18 +161,22 @@ if (document.readyState === "loading") {
 }
 // =============================
 // Become Marketer Button
+// FundsIQ Affiliate System
 // =============================
+
 const becomeBtn = document.getElementById("become-marketer-btn");
 
 if (becomeBtn) {
+
     becomeBtn.addEventListener("click", async () => {
 
+        // Disable button during process
         becomeBtn.disabled = true;
-        becomeBtn.textContent = "Processing...";
+        becomeBtn.textContent = "Creating Account...";
 
         try {
 
-            // Get current user
+            // Check authentication
             const user = auth.currentUser;
 
             if (!user) {
@@ -184,46 +184,106 @@ if (becomeBtn) {
                 return;
             }
 
-            // Reference to user document
+
+            // User document reference
             const userRef = doc(db, "users", user.uid);
 
-            // Check if already a marketer
+
+            // Check existing user data
             const userSnap = await getDoc(userRef);
 
-            if (userSnap.exists() && userSnap.data().isMarketer) {
+
+            if (userSnap.exists() && userSnap.data().isMarketer === true) {
+
                 alert("You are already a FundsIQ Marketer.");
+
+                window.location.href = "marketer-dashboard.html";
+
                 return;
             }
 
-            // Generate referral code
-            const code = generateReferralCode();
 
-            // Update Firestore
-            await setDoc(doc(db, "referralCodes", code), {
-    uid: user.uid,
-    referralCode: code,
-    totalReferrals: 0,
-    totalPremiumSales: 0,
-    totalCommission: 0,
-    createdAt: serverTimestamp()
-});
+            // Generate unique referral code
+            const referralCode = generateReferralCode();
 
-await updateDoc(userRef, {
-    isMarketer: true,
-    referralCode: code,
-    marketerJoinedAt: serverTimestamp()
-});
 
-            alert("🎉 Congratulations! You are now a FundsIQ Marketer!");
-            console.log("Referral Code:", code);
+
+            // Create referral profile
+            await setDoc(
+                doc(db, "referralCodes", referralCode),
+                {
+                    uid: user.uid,
+                    referralCode: referralCode,
+
+                    totalReferrals: 0,
+                    totalPremiumSales: 0,
+
+                    totalCommission: 0,
+
+                    clicks: 0,
+                    conversions: 0,
+
+                    createdAt: serverTimestamp()
+                }
+            );
+
+
+
+            // Update user marketer status
+            await setDoc(
+                userRef,
+                {
+                    isMarketer: true,
+
+                    referralCode: referralCode,
+
+                    marketerJoinedAt: serverTimestamp()
+                },
+                {
+                    merge: true
+                }
+            );
+
+
+
+            console.log(
+                "FundsIQ Marketer Created:",
+                referralCode
+            );
+
+
+            alert(
+                "🎉 Congratulations!\n\nYou are now a FundsIQ Marketer."
+            );
+
+
+            // Go to dashboard
+            window.location.href =
+                "marketer-dashboard.html";
+
 
         } catch (error) {
-            console.error(error);
-            alert("Something went wrong.");
+
+            console.error(
+                "Marketer registration error:",
+                error
+            );
+
+
+            alert(
+                "Something went wrong. Please try again."
+            );
+
+
         } finally {
+
+            // Restore button
             becomeBtn.disabled = false;
-            becomeBtn.textContent = "Become a Marketer";
+            becomeBtn.textContent =
+                "Become a Marketer";
+
         }
 
     });
+
 }
