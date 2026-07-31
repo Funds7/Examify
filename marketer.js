@@ -12,6 +12,19 @@ import {
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
 "use strict";
+
+// Generate a unique referral code
+function generateReferralCode() {
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    let code = "FUNDS-";
+
+    for (let i = 0; i < 6; i++) {
+        code += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+
+    return code;
+}
+
 /**
  * FundsIQ Affiliate & Marketer Portals Subsystem
  * Developed by Odigwe Joshua
@@ -149,3 +162,12 @@ import {
     } else {
         bootstrap();
     }
+const becomeBtn = document.getElementById("become-marketer-btn");
+
+if (becomeBtn) {
+    becomeBtn.addEventListener("click", () => {
+        alert("Become Marketer button clicked!");
+
+        console.log(generateReferralCode());
+    });
+}
