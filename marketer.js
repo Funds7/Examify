@@ -202,49 +202,51 @@ if (becomeBtn) {
                 return;
             }
 
+// Generate unique referral code
+const referralCode = generateReferralCode();
 
-            // Generate unique referral code
-            const referralCode = generateReferralCode();
+// Generate referral link
+const referralLink =
+    `https://funds7.github.io/Examify/signup.html?ref=${referralCode}`;
 
+// Create referral profile
+await setDoc(
+    doc(db, "referralCodes", referralCode),
+    {
+        uid: user.uid,
+        referralCode,
+        referralLink,
 
+        totalReferrals: 0,
+        totalPremiumSales: 0,
+        totalCommission: 0,
 
-            // Create referral profile
-            await setDoc(
-                doc(db, "referralCodes", referralCode),
-                {
-                    uid: user.uid,
-                    referralCode: referralCode,
+        clicks: 0,
+        conversions: 0,
 
-                    totalReferrals: 0,
-                    totalPremiumSales: 0,
+        createdAt: serverTimestamp()
+    }
+);
 
-                    totalCommission: 0,
+// Update user marketer status
+await setDoc(
+    userRef,
+    {
+        isMarketer: true,
+        referralCode,
+        referralLink,
 
-                    clicks: 0,
-                    conversions: 0,
+        marketerBalance: 0,
+        totalEarnings: 0,
+        totalReferrals: 0,
+        premiumReferrals: 0,
 
-                    createdAt: serverTimestamp()
-                }
-            );
-
-
-
-            // Update user marketer status
-            await setDoc(
-                userRef,
-                {
-                    isMarketer: true,
-
-                    referralCode: referralCode,
-
-                    marketerJoinedAt: serverTimestamp()
-                },
-                {
-                    merge: true
-                }
-            );
-
-
+        marketerJoinedAt: serverTimestamp()
+    },
+    {
+        merge: true
+    }
+);
 
             console.log(
                 "FundsIQ Marketer Created:",
