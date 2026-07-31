@@ -3,6 +3,7 @@ import { auth, db } from "./firebase.js";
 import {
   doc,
   getDoc,
+  setDoc,
   updateDoc,
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
@@ -148,26 +149,81 @@ function generateReferralCode() {
         }
     };
 
-    // =========================================================================
-    // 5. BOOTSTRAP SYSTEM INITIALIZER
-    // =========================================================================
-    const bootstrap = () => {
-        TabRouter.init();
-        AccordionManager.init();
-        RippleEngine.init();
-    };
+// =========================================================================
+// 5. BOOTSTRAP SYSTEM INITIALIZER
+// =========================================================================
+const bootstrap = () => {
+    TabRouter.init();
+    AccordionManager.init();
+    RippleEngine.init();
+};
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", bootstrap);
-    } else {
-        bootstrap();
-    }
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bootstrap);
+} else {
+    bootstrap();
+}
+// =============================
+// Become Marketer Button
+// =============================
 const becomeBtn = document.getElementById("become-marketer-btn");
 
 if (becomeBtn) {
-    becomeBtn.addEventListener("click", () => {
-        alert("Become Marketer button clicked!");
+    becomeBtn.addEventListener("click", async () => {
 
-        console.log(generateReferralCode());
+        becomeBtn.disabled = true;
+        becomeBtn.textContent = "Processing...";
+
+        try {
+
+            // Get current user
+            const user = auth.currentUser;
+
+            if (!user) {
+                alert("Please login first.");
+                return;
+            }
+
+            // Reference to user document
+            const userRef = doc(db, "users", user.uid);
+
+            // Check if already a marketer
+            const userSnap = await getDoc(userRef);
+
+            if (userSnap.exists() && userSnap.data().isMarketer) {
+                alert("You are already a FundsIQ Marketer.");
+                return;
+            }
+
+            // Generate referral code
+            const code = generateReferralCode();
+
+            // Update Firestore
+            await setDoc(doc(db, "referralCodes", code), {
+    uid: user.uid,
+    referralCode: code,
+    totalReferrals: 0,
+    totalPremiumSales: 0,
+    totalCommission: 0,
+    createdAt: serverTimestamp()
+});
+
+await updateDoc(userRef, {
+    isMarketer: true,
+    referralCode: code,
+    marketerJoinedAt: serverTimestamp()
+});
+
+            alert("🎉 Congratulations! You are now a FundsIQ Marketer!");
+            console.log("Referral Code:", code);
+
+        } catch (error) {
+            console.error(error);
+            alert("Something went wrong.");
+        } finally {
+            becomeBtn.disabled = false;
+            becomeBtn.textContent = "Become a Marketer";
+        }
+
     });
 }
