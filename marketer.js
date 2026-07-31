@@ -1,10 +1,21 @@
+import { auth, db } from "./firebase.js";
+
+import {
+  doc,
+  getDoc,
+  updateDoc,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
+
+import {
+  onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+
+"use strict";
 /**
  * FundsIQ Affiliate & Marketer Portals Subsystem
  * Developed by Odigwe Joshua
  */
-(function () {
-    "use strict";
-
     // =========================================================================
     // 1. DYNAMIC TAB SUB-NAVIGATION CONTROLLER
     // =========================================================================
@@ -138,4 +149,3 @@
     } else {
         bootstrap();
     }
-})();
