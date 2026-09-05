@@ -5,13 +5,22 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 
+// ======================
+// MIDDLEWARE
+// ======================
+
 app.use(cors());
 app.use(express.json());
 
+
 // ======================
-// IN-MEMORY DATABASE (for now)
+// IN-MEMORY DATABASE
+// TEMPORARY — WILL BE REPLACED
+// WITH FIRESTORE LATER
 // ======================
+
 let users = [];
+
 let questions = [
   {
     question: "What is 2 + 2?",
@@ -27,98 +36,209 @@ let questions = [
 
 let results = [];
 
+
 // ======================
 // JWT SECRET
 // ======================
-const SECRET = "cbt_secret_key";
+
+const SECRET =
+  process.env.JWT_SECRET || "development_secret";
+
+
+// ======================
+// HEALTH CHECK
+// ======================
+
+app.get("/", (req, res) => {
+  res.json({
+    status: "online",
+    service: "FundsIQ API",
+    message: "FundsIQ backend is running"
+  });
+});
+
 
 // ======================
 // REGISTER
 // ======================
+
 app.post("/api/auth/register", async (req, res) => {
-  const { name, email, password } = req.body;
+  try {
+    const { name, email, password } = req.body;
 
-  const existing = users.find(u => u.email === email);
-  if (existing) return res.status(400).json({ msg: "User already exists" });
+    if (!name || !email || !password) {
+      return res.status(400).json({
+        msg: "Name, email and password are required"
+      });
+    }
 
-  const hashed = await bcrypt.hash(password, 10);
+    const existing = users.find(
+      user => user.email.toLowerCase() === email.toLowerCase()
+    );
 
-  const user = {
-    id: Date.now().toString(),
-    name,
-    email,
-    password: hashed
-  };
+    if (existing) {
+      return res.status(400).json({
+        msg: "User already exists"
+      });
+    }
 
-  users.push(user);
+    const hashed = await bcrypt.hash(password, 10);
 
-  res.json({ msg: "User registered successfully" });
+    const user = {
+      id: Date.now().toString(),
+      name,
+      email: email.toLowerCase(),
+      password: hashed
+    };
+
+    users.push(user);
+
+    res.json({
+      msg: "User registered successfully"
+    });
+
+  } catch (error) {
+    console.error("Registration error:", error);
+
+    res.status(500).json({
+      msg: "Registration failed"
+    });
+  }
 });
+
 
 // ======================
 // LOGIN
 // ======================
+
 app.post("/api/auth/login", async (req, res) => {
-  const { email, password } = req.body;
+  try {
+    const { email, password } = req.body;
 
-  const user = users.find(u => u.email === email);
-  if (!user) return res.status(400).json({ msg: "User not found" });
+    if (!email || !password) {
+      return res.status(400).json({
+        msg: "Email and password are required"
+      });
+    }
 
-  const match = await bcrypt.compare(password, user.password);
-  if (!match) return res.status(400).json({ msg: "Wrong password" });
+    const user = users.find(
+      user => user.email.toLowerCase() === email.toLowerCase()
+    );
 
-  const token = jwt.sign({ id: user.id }, SECRET, { expiresIn: "2h" });
+    if (!user) {
+      return res.status(400).json({
+        msg: "User not found"
+      });
+    }
 
-  res.json({
-    token,
-    user: { id: user.id, name: user.name, email: user.email }
-  });
+    const match = await bcrypt.compare(
+      password,
+      user.password
+    );
+
+    if (!match) {
+      return res.status(400).json({
+        msg: "Wrong password"
+      });
+    }
+
+    const token = jwt.sign(
+      { id: user.id },
+      SECRET,
+      { expiresIn: "2h" }
+    );
+
+    res.json({
+      token,
+      user: {
+        id: user.id,
+        name: user.name,
+        email: user.email
+      }
+    });
+
+  } catch (error) {
+    console.error("Login error:", error);
+
+    res.status(500).json({
+      msg: "Login failed"
+    });
+  }
 });
+
 
 // ======================
 // GET QUESTIONS
 // ======================
+
 app.get("/api/exam/questions", (req, res) => {
   res.json(questions);
 });
 
+
 // ======================
 // SUBMIT EXAM
 // ======================
+
 app.post("/api/exam/submit", (req, res) => {
-  const { userId, answers } = req.body;
+  try {
+    const { userId, answers } = req.body;
 
-  let score = 0;
-
-  questions.forEach((q, i) => {
-    if (answers[i] === q.answer) {
-      score++;
+    if (!userId || !answers) {
+      return res.status(400).json({
+        msg: "User ID and answers are required"
+      });
     }
-  });
 
-  const result = {
-    userId,
-    score,
-    total: questions.length,
-    date: new Date()
-  };
+    let score = 0;
 
-  results.push(result);
+    questions.forEach((question, index) => {
+      if (answers[index] === question.answer) {
+        score++;
+      }
+    });
 
-  res.json({ score, total: questions.length });
+    const result = {
+      userId,
+      score,
+      total: questions.length,
+      date: new Date()
+    };
+
+    results.push(result);
+
+    res.json({
+      score,
+      total: questions.length
+    });
+
+  } catch (error) {
+    console.error("Exam submission error:", error);
+
+    res.status(500).json({
+      msg: "Exam submission failed"
+    });
+  }
 });
 
+
 // ======================
-// GET RESULTS (optional admin view)
+// GET RESULTS
 // ======================
+
 app.get("/api/results", (req, res) => {
   res.json(results);
 });
 
+
 // ======================
 // SERVER START
 // ======================
-const PORT = 5000;
+
+const PORT = process.env.PORT || 5000;
+
 app.listen(PORT, () => {
-  console.log(`CBT Server running on port ${PORT}`);
+  console.log(
+    `FundsIQ API running on port ${PORT}`
+  );
 });
