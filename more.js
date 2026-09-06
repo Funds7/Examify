@@ -6,7 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const upgradeBtn = document.getElementById("upgradeBtn");
 
-  // Create Premium popup
+  // Render backend
+  const API_URL = "https://fundsiq-api.onrender.com";
+
+
+  // ==========================================
+  // CREATE PREMIUM POPUP
+  // ==========================================
+
   function showPremiumPopup() {
 
     // Prevent duplicate popup
@@ -64,7 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.body.appendChild(modal);
 
-    // Close button
+
+    // ==========================================
+    // CANCEL BUTTON
+    // ==========================================
+
     const cancelBtn =
       document.getElementById("premiumCancelBtn");
 
@@ -77,25 +88,27 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    // Continue button
+    // ==========================================
+    // CONTINUE / PAY BUTTON
+    // ==========================================
+
     const continueBtn =
       document.getElementById("premiumContinueBtn");
 
     if (continueBtn) {
 
-      continueBtn.addEventListener("click", () => {
-
-        alert(
-          "💎 Premium payment\n\n" +
-          "Paystack payment will be connected here."
-        );
-
-      });
+      continueBtn.addEventListener(
+        "click",
+        startPremiumPayment
+      );
 
     }
 
 
-    // Close when tapping outside popup
+    // ==========================================
+    // CLOSE WHEN TAPPING OUTSIDE
+    // ==========================================
+
     const overlay =
       modal.querySelector(".premium-modal-overlay");
 
@@ -114,7 +127,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  // Close Premium popup
+  // ==========================================
+  // CLOSE PREMIUM POPUP
+  // ==========================================
+
   function closePremiumPopup() {
 
     const modal =
@@ -127,11 +143,174 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  // Upgrade button
+  // ==========================================
+  // START PREMIUM PAYMENT
+  // ==========================================
+
+  async function startPremiumPayment() {
+
+    const continueBtn =
+      document.getElementById("premiumContinueBtn");
+
+    try {
+
+      // ----------------------------------------
+      // Load Firebase authentication
+      // ----------------------------------------
+
+      const firebase =
+        await import("./firebase.js");
+
+      const auth =
+        firebase.auth;
+
+
+      // ----------------------------------------
+      // Check logged-in user
+      // ----------------------------------------
+
+      const user =
+        auth.currentUser;
+
+      if (!user) {
+
+        alert(
+          "Please log in to your FundsIQ account first."
+        );
+
+        return;
+      }
+
+
+      // ----------------------------------------
+      // Show loading state
+      // ----------------------------------------
+
+      if (continueBtn) {
+
+        continueBtn.disabled = true;
+
+        continueBtn.textContent =
+          "Connecting...";
+
+        continueBtn.style.opacity = "0.7";
+
+      }
+
+
+      // ----------------------------------------
+      // Get Firebase ID token
+      // ----------------------------------------
+
+      const idToken =
+        await user.getIdToken(true);
+
+
+      // ----------------------------------------
+      // Send request to Render backend
+      // ----------------------------------------
+
+      const response =
+        await fetch(
+          `${API_URL}/api/payments/premium/initialize`,
+          {
+            method: "POST",
+
+            headers: {
+              "Content-Type":
+                "application/json",
+
+              "Authorization":
+                `Bearer ${idToken}`
+            }
+          }
+        );
+
+
+      const data =
+        await response.json();
+
+
+      // ----------------------------------------
+      // Check backend response
+      // ----------------------------------------
+
+      if (!response.ok || !data.status) {
+
+        console.error(
+          "Premium payment error:",
+          data
+        );
+
+        throw new Error(
+          data.msg ||
+          "Unable to start payment."
+        );
+
+      }
+
+
+      // ----------------------------------------
+      // Paystack checkout
+      // ----------------------------------------
+
+      if (!data.authorization_url) {
+
+        throw new Error(
+          "Paystack checkout URL was not returned."
+        );
+
+      }
+
+
+      // Redirect to Paystack
+      window.location.href =
+        data.authorization_url;
+
+
+    } catch (error) {
+
+      console.error(
+        "Premium payment error:",
+        error
+      );
+
+
+      alert(
+        "❌ Premium payment could not start.\n\n" +
+        (error.message ||
+          "Please try again.")
+      );
+
+
+      // Restore button
+
+      if (continueBtn) {
+
+        continueBtn.disabled = false;
+
+        continueBtn.textContent =
+          "Continue";
+
+        continueBtn.style.opacity = "1";
+
+      }
+
+    }
+
+  }
+
+
+  // ==========================================
+  // UPGRADE BUTTON
+  // ==========================================
+
   if (upgradeBtn) {
 
     upgradeBtn.addEventListener("click", () => {
+
       showPremiumPopup();
+
     });
 
   }
@@ -141,14 +320,15 @@ document.addEventListener("DOMContentLoaded", () => {
   // PREMIUM POPUP STYLES
   // ==========================================
 
-  const premiumStyles = document.createElement("style");
+  const premiumStyles =
+    document.createElement("style");
 
   premiumStyles.textContent = `
 
-    /* Premium popup background */
     .premium-modal-overlay {
       position: fixed;
       inset: 0;
+
       background: rgba(0, 0, 0, 0.68);
 
       display: flex;
@@ -159,32 +339,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
       z-index: 99999;
 
-      animation: premiumFadeIn 0.18s ease;
+      animation:
+        premiumFadeIn 0.18s ease;
     }
 
 
-    /* Small Premium popup */
     .premium-modal {
       width: min(330px, 90vw);
 
       background: #1d2433;
 
-      border: 1px solid rgba(255, 255, 255, 0.12);
+      border:
+        1px solid
+        rgba(255, 255, 255, 0.12);
 
       border-radius: 18px;
 
-      padding: 22px 20px 18px;
+      padding:
+        22px 20px 18px;
 
       text-align: center;
 
       box-shadow:
-        0 18px 50px rgba(0, 0, 0, 0.55);
+        0 18px 50px
+        rgba(0, 0, 0, 0.55);
 
-      animation: premiumPopIn 0.2s ease;
+      animation:
+        premiumPopIn 0.2s ease;
     }
 
 
-    /* Diamond icon */
     .premium-modal-icon {
       font-size: 28px;
 
@@ -192,7 +376,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Title */
     .premium-modal h3 {
       margin: 0;
 
@@ -204,9 +387,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Price */
     .premium-price {
-      margin: 9px 0 3px;
+      margin:
+        9px 0 3px;
 
       color: #ffffff;
 
@@ -216,9 +399,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Description */
     .premium-description {
-      margin: 0 0 18px;
+      margin:
+        0 0 18px;
 
       color: #aeb8ca;
 
@@ -228,7 +411,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Buttons */
     .premium-modal-buttons {
       display: flex;
 
@@ -245,7 +427,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       border-radius: 10px;
 
-      padding: 11px 8px;
+      padding:
+        11px 8px;
 
       font-size: 13px;
 
@@ -260,11 +443,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     .premium-modal-buttons button:active {
-      transform: scale(0.97);
+      transform:
+        scale(0.97);
     }
 
 
-    /* Cancel */
+    .premium-modal-buttons button:disabled {
+      cursor: wait;
+
+      transform: none;
+    }
+
+
     .premium-cancel-btn {
       background: #303848;
 
@@ -272,7 +462,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Continue */
     .premium-continue-btn {
       background: #2563eb;
 
@@ -285,7 +474,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Animations */
     @keyframes premiumFadeIn {
 
       from {
@@ -304,20 +492,24 @@ document.addEventListener("DOMContentLoaded", () => {
       from {
         opacity: 0;
 
-        transform: scale(0.94);
+        transform:
+          scale(0.94);
       }
 
       to {
         opacity: 1;
 
-        transform: scale(1);
+        transform:
+          scale(1);
       }
 
     }
 
   `;
 
-  document.head.appendChild(premiumStyles);
+  document.head.appendChild(
+    premiumStyles
+  );
 
 
   // ==========================================
@@ -329,56 +521,65 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (shareBtn) {
 
-    shareBtn.addEventListener("click", async () => {
+    shareBtn.addEventListener(
+      "click",
+      async () => {
 
-      const shareData = {
-        title: "FundsIQ",
-        text:
-          "Study, practice CBTs and improve your performance with FundsIQ.",
-        url:
-          window.location.origin + "/FundsIQ/"
-      };
+        const shareData = {
+
+          title: "FundsIQ",
+
+          text:
+            "Study, practice CBTs and improve your performance with FundsIQ.",
+
+          url:
+            window.location.origin +
+            "/FundsIQ/"
+        };
 
 
-      // Native phone sharing
-      if (navigator.share) {
+        if (navigator.share) {
 
-        try {
+          try {
 
-          await navigator.share(shareData);
+            await navigator.share(
+              shareData
+            );
 
-        } catch (error) {
+          } catch (error) {
 
-          console.log("Share cancelled.");
+            console.log(
+              "Share cancelled."
+            );
 
-        }
+          }
 
-      } else {
+        } else {
 
-        // Fallback
-        try {
+          try {
 
-          await navigator.clipboard.writeText(
-            shareData.url
-          );
+            await navigator.clipboard.writeText(
+              shareData.url
+            );
 
-          alert(
-            "🔗 FundsIQ link copied!\n\n" +
-            "Share it with your friends."
-          );
+            alert(
+              "🔗 FundsIQ link copied!\n\n" +
+              "Share it with your friends."
+            );
 
-        } catch (error) {
+          } catch (error) {
 
-          alert(
-            "Share FundsIQ:\n\n" +
-            shareData.url
-          );
+            alert(
+              "Share FundsIQ:\n\n" +
+              shareData.url
+            );
+
+          }
 
         }
 
       }
-
-    });
+    );
 
   }
 
