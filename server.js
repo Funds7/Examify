@@ -8,72 +8,100 @@ const admin = require("firebase-admin");
 
 const app = express();
 
-// ======================
+
+// ======================================================
 // MIDDLEWARE
-// ======================
+// ======================================================
 
 app.use(cors());
 app.use(express.json());
 
 
-// ======================
+// ======================================================
 // FIREBASE ADMIN
-// ======================
+// ======================================================
 
 const serviceAccountPath =
   "/etc/secrets/firebase-service-account.json";
 
 if (!fs.existsSync(serviceAccountPath)) {
-  console.error("Firebase service account file not found");
+  console.error(
+    "Firebase service account file not found"
+  );
+
   process.exit(1);
 }
 
 const serviceAccount = JSON.parse(
-  fs.readFileSync(serviceAccountPath, "utf8")
+  fs.readFileSync(
+    serviceAccountPath,
+    "utf8"
+  )
 );
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential:
+    admin.credential.cert(serviceAccount)
 });
 
-const db = admin.firestore();
-const auth = admin.auth();
+const db =
+  admin.firestore();
+
+const auth =
+  admin.auth();
 
 
-// ======================
+// ======================================================
 // CONFIGURATION
-// ======================
+// ======================================================
 
 const SECRET =
-  process.env.JWT_SECRET || "development_secret";
+  process.env.JWT_SECRET ||
+  "development_secret";
 
 const PAYSTACK_SECRET_KEY =
   process.env.PAYSTACK_SECRET_KEY;
 
 const PREMIUM_PRICE_NAIRA = 2000;
+
 const PREMIUM_AMOUNT_KOBO =
   PREMIUM_PRICE_NAIRA * 100;
 
 const FRONTEND_URL =
   "https://funds7.github.io/FundsIQ/";
 
+const PAYSTACK_CALLBACK_URL =
+  "https://fundsiq-api.onrender.com/api/payments/paystack/callback";
 
-// ======================
-// IN-MEMORY DATABASE
+const PAYSTACK_WEBHOOK_URL =
+  "https://fundsiq-api.onrender.com/api/payments/paystack/webhook";
+
+
+// ======================================================
 // TEMPORARY CBT DATA
-// ======================
+// ======================================================
 
 let users = [];
 
 let questions = [
   {
     question: "What is 2 + 2?",
-    options: ["1", "2", "3", "4"],
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     answer: 3
   },
   {
     question: "Capital of Nigeria?",
-    options: ["Lagos", "Abuja", "Kano", "Ibadan"],
+    options: [
+      "Lagos",
+      "Abuja",
+      "Kano",
+      "Ibadan"
+    ],
     answer: 1
   }
 ];
@@ -81,210 +109,301 @@ let questions = [
 let results = [];
 
 
-// ======================
+// ======================================================
 // HEALTH CHECK
-// ======================
+// ======================================================
 
 app.get("/", (req, res) => {
+
   res.json({
     status: "online",
     service: "FundsIQ API",
-    message: "FundsIQ backend is running"
+    message:
+      "FundsIQ backend is running",
+    paystackConfigured:
+      Boolean(PAYSTACK_SECRET_KEY),
+    webhook:
+      PAYSTACK_WEBHOOK_URL
   });
+
 });
 
 
-// ======================
+// ======================================================
 // FIREBASE AUTH MIDDLEWARE
-// ======================
+// ======================================================
 
-async function verifyFirebaseToken(req, res, next) {
+async function verifyFirebaseToken(
+  req,
+  res,
+  next
+) {
+
   try {
+
     const authHeader =
       req.headers.authorization || "";
 
-    if (!authHeader.startsWith("Bearer ")) {
+    if (
+      !authHeader.startsWith(
+        "Bearer "
+      )
+    ) {
+
       return res.status(401).json({
-        msg: "Authorization token required"
+        msg:
+          "Authorization token required"
       });
+
     }
 
     const idToken =
       authHeader.substring(7);
 
     const decodedToken =
-      await auth.verifyIdToken(idToken);
+      await auth.verifyIdToken(
+        idToken
+      );
 
-    req.firebaseUser = decodedToken;
+    req.firebaseUser =
+      decodedToken;
 
     next();
 
   } catch (error) {
+
     console.error(
       "Firebase authentication error:",
       error
     );
 
     return res.status(401).json({
-      msg: "Invalid or expired authentication token"
+      msg:
+        "Invalid or expired authentication token"
     });
+
   }
+
 }
 
 
-// ======================
+// ======================================================
 // REGISTER
-// ======================
+// ======================================================
 
-app.post("/api/auth/register", async (req, res) => {
-  try {
-    const {
-      name,
-      email,
-      password
-    } = req.body;
+app.post(
+  "/api/auth/register",
+  async (req, res) => {
 
-    if (!name || !email || !password) {
-      return res.status(400).json({
-        msg:
-          "Name, email and password are required"
-      });
-    }
+    try {
 
-    const existing = users.find(
-      user =>
-        user.email.toLowerCase() ===
-        email.toLowerCase()
-    );
+      const {
+        name,
+        email,
+        password
+      } = req.body;
 
-    if (existing) {
-      return res.status(400).json({
-        msg: "User already exists"
-      });
-    }
+      if (
+        !name ||
+        !email ||
+        !password
+      ) {
 
-    const hashed =
-      await bcrypt.hash(password, 10);
+        return res.status(400).json({
+          msg:
+            "Name, email and password are required"
+        });
 
-    const user = {
-      id: Date.now().toString(),
-      name,
-      email: email.toLowerCase(),
-      password: hashed
-    };
-
-    users.push(user);
-
-    res.json({
-      msg: "User registered successfully"
-    });
-
-  } catch (error) {
-    console.error(
-      "Registration error:",
-      error
-    );
-
-    res.status(500).json({
-      msg: "Registration failed"
-    });
-  }
-});
-
-
-// ======================
-// LOGIN
-// ======================
-
-app.post("/api/auth/login", async (req, res) => {
-  try {
-    const {
-      email,
-      password
-    } = req.body;
-
-    if (!email || !password) {
-      return res.status(400).json({
-        msg:
-          "Email and password are required"
-      });
-    }
-
-    const user = users.find(
-      user =>
-        user.email.toLowerCase() ===
-        email.toLowerCase()
-    );
-
-    if (!user) {
-      return res.status(400).json({
-        msg: "User not found"
-      });
-    }
-
-    const match =
-      await bcrypt.compare(
-        password,
-        user.password
-      );
-
-    if (!match) {
-      return res.status(400).json({
-        msg: "Wrong password"
-      });
-    }
-
-    const token =
-      jwt.sign(
-        { id: user.id },
-        SECRET,
-        { expiresIn: "2h" }
-      );
-
-    res.json({
-      token,
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email
       }
-    });
 
-  } catch (error) {
-    console.error(
-      "Login error:",
-      error
-    );
+      const existing =
+        users.find(
+          user =>
+            user.email.toLowerCase() ===
+            email.toLowerCase()
+        );
 
-    res.status(500).json({
-      msg: "Login failed"
-    });
+      if (existing) {
+
+        return res.status(400).json({
+          msg:
+            "User already exists"
+        });
+
+      }
+
+      const hashed =
+        await bcrypt.hash(
+          password,
+          10
+        );
+
+      const user = {
+        id:
+          Date.now().toString(),
+        name,
+        email:
+          email.toLowerCase(),
+        password:
+          hashed
+      };
+
+      users.push(user);
+
+      res.json({
+        msg:
+          "User registered successfully"
+      });
+
+    } catch (error) {
+
+      console.error(
+        "Registration error:",
+        error
+      );
+
+      res.status(500).json({
+        msg:
+          "Registration failed"
+      });
+
+    }
+
   }
-});
+);
 
 
-// ======================
+// ======================================================
+// LOGIN
+// ======================================================
+
+app.post(
+  "/api/auth/login",
+  async (req, res) => {
+
+    try {
+
+      const {
+        email,
+        password
+      } = req.body;
+
+      if (
+        !email ||
+        !password
+      ) {
+
+        return res.status(400).json({
+          msg:
+            "Email and password are required"
+        });
+
+      }
+
+      const user =
+        users.find(
+          user =>
+            user.email.toLowerCase() ===
+            email.toLowerCase()
+        );
+
+      if (!user) {
+
+        return res.status(400).json({
+          msg:
+            "User not found"
+        });
+
+      }
+
+      const match =
+        await bcrypt.compare(
+          password,
+          user.password
+        );
+
+      if (!match) {
+
+        return res.status(400).json({
+          msg:
+            "Wrong password"
+        });
+
+      }
+
+      const token =
+        jwt.sign(
+          {
+            id:
+              user.id
+          },
+          SECRET,
+          {
+            expiresIn:
+              "2h"
+          }
+        );
+
+      res.json({
+        token,
+
+        user: {
+          id:
+            user.id,
+          name:
+            user.name,
+          email:
+            user.email
+        }
+      });
+
+    } catch (error) {
+
+      console.error(
+        "Login error:",
+        error
+      );
+
+      res.status(500).json({
+        msg:
+          "Login failed"
+      });
+
+    }
+
+  }
+);
+
+
+// ======================================================
 // PREMIUM STATUS
-// ======================
+// ======================================================
 
 app.get(
   "/api/premium/status",
   verifyFirebaseToken,
   async (req, res) => {
+
     try {
+
       const uid =
         req.firebaseUser.uid;
 
       const userRef =
-        db.collection("users").doc(uid);
+        db
+          .collection("users")
+          .doc(uid);
 
       const userSnap =
         await userRef.get();
 
       if (!userSnap.exists) {
+
         return res.status(404).json({
-          msg: "User account not found"
+          msg:
+            "User account not found"
         });
+
       }
 
       const userData =
@@ -296,6 +415,7 @@ app.get(
       });
 
     } catch (error) {
+
       console.error(
         "Premium status error:",
         error
@@ -305,25 +425,35 @@ app.get(
         msg:
           "Unable to check Premium status"
       });
+
     }
+
   }
 );
 
 
-// ======================
+// ======================================================
 // INITIALIZE PREMIUM PAYMENT
-// ======================
+// ======================================================
 
 app.post(
   "/api/payments/premium/initialize",
   verifyFirebaseToken,
   async (req, res) => {
+
     try {
+
       if (!PAYSTACK_SECRET_KEY) {
+
+        console.error(
+          "PAYSTACK_SECRET_KEY is missing"
+        );
+
         return res.status(500).json({
           msg:
             "Paystack is not configured"
         });
+
       }
 
       const uid =
@@ -333,81 +463,131 @@ app.post(
         req.firebaseUser.email;
 
       if (!email) {
+
         return res.status(400).json({
           msg:
             "Firebase account email is required"
         });
+
       }
 
       const userRef =
-        db.collection("users").doc(uid);
+        db
+          .collection("users")
+          .doc(uid);
 
       const userSnap =
         await userRef.get();
 
       if (!userSnap.exists) {
+
         return res.status(404).json({
           msg:
             "User account not found"
         });
+
       }
 
       const userData =
         userSnap.data();
 
-      if (userData.premium === true) {
+      if (
+        userData.premium === true
+      ) {
+
         return res.status(400).json({
           msg:
             "User is already Premium"
         });
+
       }
 
       const reference =
         `FUNDSIQ-PREMIUM-${uid}-${Date.now()}`;
 
+      console.log(
+        "Initializing Paystack payment:",
+        {
+          uid,
+          email,
+          reference,
+          amount:
+            PREMIUM_AMOUNT_KOBO
+        }
+      );
+
       const response =
         await fetch(
           "https://api.paystack.co/transaction/initialize",
           {
-            method: "POST",
+
+            method:
+              "POST",
 
             headers: {
+
               Authorization:
                 `Bearer ${PAYSTACK_SECRET_KEY}`,
+
               "Content-Type":
                 "application/json"
+
             },
 
-            body: JSON.stringify({
-              email,
-              amount:
-                PREMIUM_AMOUNT_KOBO,
-              currency: "NGN",
-              reference,
+            body:
+              JSON.stringify({
 
-              callback_url:
-                "https://fundsiq-api.onrender.com/api/payments/paystack/callback",
+                email,
 
-              metadata: {
-                product:
-                  "FundsIQ Premium",
+                amount:
+                  PREMIUM_AMOUNT_KOBO,
 
-                uid,
+                currency:
+                  "NGN",
 
-                premiumPrice:
-                  PREMIUM_PRICE_NAIRA
-              }
-            })
+                reference,
+
+                callback_url:
+                  PAYSTACK_CALLBACK_URL,
+
+                metadata: {
+
+                  product:
+                    "FundsIQ Premium",
+
+                  uid,
+
+                  premiumPrice:
+                    PREMIUM_PRICE_NAIRA
+
+                }
+
+              })
+
           }
         );
 
       const data =
         await response.json();
 
+      console.log(
+        "Paystack initialization response:",
+        {
+          ok:
+            response.ok,
+          status:
+            data.status,
+          message:
+            data.message
+        }
+      );
+
       if (
         !response.ok ||
-        !data.status
+        !data.status ||
+        !data.data
       ) {
+
         console.error(
           "Paystack initialization failed:",
           data
@@ -415,12 +595,16 @@ app.post(
 
         return res.status(500).json({
           msg:
+            data.message ||
             "Unable to initialize Paystack payment"
         });
+
       }
 
       res.json({
-        status: true,
+
+        status:
+          true,
 
         authorization_url:
           data.data.authorization_url,
@@ -430,9 +614,11 @@ app.post(
 
         reference:
           data.data.reference
+
       });
 
     } catch (error) {
+
       console.error(
         "Premium payment initialization error:",
         error
@@ -442,34 +628,52 @@ app.post(
         msg:
           "Payment initialization failed"
       });
+
     }
+
   }
 );
 
 
-// ======================
+// ======================================================
 // VERIFY PAYSTACK PAYMENT
-// ======================
+// ======================================================
 
 async function verifyPremiumPayment(
   reference
 ) {
+
   if (!PAYSTACK_SECRET_KEY) {
+
     throw new Error(
       "Paystack secret key is not configured"
     );
+
+  }
+
+  if (!reference) {
+
+    throw new Error(
+      "Transaction reference is missing"
+    );
+
   }
 
   const response =
     await fetch(
       `https://api.paystack.co/transaction/verify/${encodeURIComponent(reference)}`,
       {
-        method: "GET",
+
+        method:
+          "GET",
 
         headers: {
+
           Authorization:
             `Bearer ${PAYSTACK_SECRET_KEY}`
+
         }
+
       }
     );
 
@@ -478,56 +682,69 @@ async function verifyPremiumPayment(
 
   if (
     !response.ok ||
-    !data.status
+    !data.status ||
+    !data.data
   ) {
+
     throw new Error(
       data.message ||
       "Paystack verification failed"
     );
+
   }
 
   return data.data;
+
 }
 
 
-// ======================
+// ======================================================
 // COMPLETE PREMIUM PURCHASE
-// ======================
+// ======================================================
 
 async function completePremiumPurchase(
   transaction
 ) {
+
   if (!transaction) {
+
     throw new Error(
       "Transaction data missing"
     );
+
   }
 
   if (
     transaction.status !==
     "success"
   ) {
+
     throw new Error(
-      "Payment was not successful"
+      `Payment was not successful. Status: ${transaction.status}`
     );
+
   }
 
   if (
     Number(transaction.amount) !==
     PREMIUM_AMOUNT_KOBO
   ) {
+
     throw new Error(
       "Incorrect payment amount"
     );
+
   }
 
   if (
     transaction.currency !==
     "NGN"
   ) {
+
     throw new Error(
       "Incorrect payment currency"
     );
+
   }
 
   const metadata =
@@ -537,16 +754,31 @@ async function completePremiumPurchase(
     !metadata ||
     !metadata.uid
   ) {
+
     throw new Error(
       "Payment user information missing"
     );
+
+  }
+
+  if (
+    metadata.product !==
+    "FundsIQ Premium"
+  ) {
+
+    throw new Error(
+      "Invalid FundsIQ payment product"
+    );
+
   }
 
   const uid =
     metadata.uid;
 
   const userRef =
-    db.collection("users").doc(uid);
+    db
+      .collection("users")
+      .doc(uid);
 
   await db.runTransaction(
     async firestoreTransaction => {
@@ -557,9 +789,11 @@ async function completePremiumPurchase(
         );
 
       if (!userSnap.exists) {
+
         throw new Error(
           "FundsIQ user not found"
         );
+
       }
 
       const userData =
@@ -569,13 +803,22 @@ async function completePremiumPurchase(
       if (
         userData.premium === true
       ) {
+
+        console.log(
+          "Premium already active:",
+          uid
+        );
+
         return;
+
       }
 
       firestoreTransaction.update(
         userRef,
         {
-          premium: true,
+
+          premium:
+            true,
 
           premiumActivatedAt:
             admin.firestore
@@ -590,35 +833,58 @@ async function completePremiumPurchase(
 
           premiumPaymentCurrency:
             transaction.currency
+
         }
       );
+
+    }
+  );
+
+  console.log(
+    "Premium successfully activated:",
+    {
+      uid,
+      reference:
+        transaction.reference
     }
   );
 
   return {
+
     uid,
+
     reference:
       transaction.reference
+
   };
+
 }
 
 
-// ======================
+// ======================================================
 // PAYSTACK CALLBACK
-// ======================
+// ======================================================
 
 app.get(
   "/api/payments/paystack/callback",
   async (req, res) => {
 
     try {
+
       const reference =
         req.query.reference;
 
+      console.log(
+        "Paystack callback received:",
+        reference
+      );
+
       if (!reference) {
+
         return res.redirect(
           `${FRONTEND_URL}?payment=failed`
         );
+
       }
 
       const transaction =
@@ -635,6 +901,7 @@ app.get(
       );
 
     } catch (error) {
+
       console.error(
         "Paystack callback error:",
         error
@@ -643,27 +910,46 @@ app.get(
       return res.redirect(
         `${FRONTEND_URL}?payment=failed`
       );
+
     }
+
   }
 );
 
 
-// ======================
+// ======================================================
 // PAYSTACK WEBHOOK
-// ======================
+// ======================================================
 
 app.post(
   "/api/payments/paystack/webhook",
   async (req, res) => {
 
     try {
+
       const signature =
         req.headers[
           "x-paystack-signature"
         ];
 
       if (!signature) {
+
+        console.warn(
+          "Paystack webhook rejected: signature missing"
+        );
+
         return res.sendStatus(401);
+
+      }
+
+      if (!PAYSTACK_SECRET_KEY) {
+
+        console.error(
+          "Paystack webhook rejected: secret key missing"
+        );
+
+        return res.sendStatus(500);
+
       }
 
       const hash =
@@ -680,51 +966,96 @@ app.post(
       if (
         hash !== signature
       ) {
+
+        console.warn(
+          "Paystack webhook rejected: invalid signature"
+        );
+
         return res.sendStatus(401);
+
       }
 
       const event =
         req.body;
 
-      // Acknowledge Paystack
+      console.log(
+        "Paystack webhook received:",
+        event.event
+      );
+
+      // Acknowledge Paystack immediately.
       res.sendStatus(200);
 
       if (
         event.event !==
         "charge.success"
       ) {
+
         return;
+
       }
 
       const transaction =
         event.data;
 
+      if (!transaction) {
+
+        console.warn(
+          "Webhook has no transaction data"
+        );
+
+        return;
+
+      }
+
       if (
-        transaction &&
-        transaction.metadata &&
-        transaction.metadata.product ===
-          "FundsIQ Premium"
+        !transaction.metadata
       ) {
 
-        try {
-          await completePremiumPurchase(
-            transaction
-          );
+        console.warn(
+          "Webhook transaction has no metadata"
+        );
 
-          console.log(
-            "Premium activated:",
-            transaction.reference
-          );
+        return;
 
-        } catch (error) {
-          console.error(
-            "Webhook Premium fulfillment error:",
-            error
-          );
-        }
+      }
+
+      if (
+        transaction.metadata.product !==
+        "FundsIQ Premium"
+      ) {
+
+        console.log(
+          "Ignoring unrelated Paystack transaction:",
+          transaction.reference
+        );
+
+        return;
+
+      }
+
+      try {
+
+        await completePremiumPurchase(
+          transaction
+        );
+
+        console.log(
+          "Webhook Premium fulfillment completed:",
+          transaction.reference
+        );
+
+      } catch (error) {
+
+        console.error(
+          "Webhook Premium fulfillment error:",
+          error
+        );
+
       }
 
     } catch (error) {
+
       console.error(
         "Paystack webhook error:",
         error
@@ -733,32 +1064,39 @@ app.post(
       if (!res.headersSent) {
         res.sendStatus(500);
       }
+
     }
+
   }
 );
 
 
-// ======================
+// ======================================================
 // GET QUESTIONS
-// ======================
+// ======================================================
 
 app.get(
   "/api/exam/questions",
   (req, res) => {
-    res.json(questions);
+
+    res.json(
+      questions
+    );
+
   }
 );
 
 
-// ======================
+// ======================================================
 // SUBMIT EXAM
-// ======================
+// ======================================================
 
 app.post(
   "/api/exam/submit",
   (req, res) => {
 
     try {
+
       const {
         userId,
         answers
@@ -768,10 +1106,12 @@ app.post(
         !userId ||
         !answers
       ) {
+
         return res.status(400).json({
           msg:
             "User ID and answers are required"
         });
+
       }
 
       let score = 0;
@@ -783,29 +1123,43 @@ app.post(
             answers[index] ===
             question.answer
           ) {
+
             score++;
+
           }
+
         }
       );
 
       const result = {
+
         userId,
+
         score,
+
         total:
           questions.length,
+
         date:
           new Date()
+
       };
 
-      results.push(result);
+      results.push(
+        result
+      );
 
       res.json({
+
         score,
+
         total:
           questions.length
+
       });
 
     } catch (error) {
+
       console.error(
         "Exam submission error:",
         error
@@ -815,35 +1169,56 @@ app.post(
         msg:
           "Exam submission failed"
       });
+
     }
+
   }
 );
 
 
-// ======================
+// ======================================================
 // GET RESULTS
-// ======================
+// ======================================================
 
 app.get(
   "/api/results",
   (req, res) => {
-    res.json(results);
+
+    res.json(
+      results
+    );
+
   }
 );
 
 
-// ======================
+// ======================================================
 // SERVER START
-// ======================
+// ======================================================
 
 const PORT =
-  process.env.PORT || 5000;
+  process.env.PORT ||
+  5000;
 
 app.listen(
   PORT,
   () => {
+
     console.log(
       `FundsIQ API running on port ${PORT}`
     );
+
+    console.log(
+      "Paystack webhook:",
+      PAYSTACK_WEBHOOK_URL
+    );
+
+    console.log(
+      "Paystack configured:",
+      Boolean(
+        PAYSTACK_SECRET_KEY
+      )
+    );
+
   }
 );
