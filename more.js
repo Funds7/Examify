@@ -4,10 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // FUNDSIQ PREMIUM
   // ==========================================
 
-  const upgradeBtn = document.getElementById("upgradeBtn");
+  const upgradeBtn =
+    document.getElementById("upgradeBtn");
 
   // Render backend
-  const API_URL = "https://fundsiq-api.onrender.com";
+  const API_URL =
+    "https://fundsiq-api.onrender.com";
 
 
   // ==========================================
@@ -17,11 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
   function showPremiumPopup() {
 
     // Prevent duplicate popup
-    if (document.getElementById("premiumModal")) {
+    if (
+      document.getElementById("premiumModal")
+    ) {
       return;
     }
 
-    const modal = document.createElement("div");
+    const modal =
+      document.createElement("div");
 
     modal.id = "premiumModal";
 
@@ -77,23 +82,30 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     const cancelBtn =
-      document.getElementById("premiumCancelBtn");
+      document.getElementById(
+        "premiumCancelBtn"
+      );
 
     if (cancelBtn) {
 
-      cancelBtn.addEventListener("click", () => {
-        closePremiumPopup();
-      });
+      cancelBtn.addEventListener(
+        "click",
+        () => {
+          closePremiumPopup();
+        }
+      );
 
     }
 
 
     // ==========================================
-    // CONTINUE / PAY BUTTON
+    // CONTINUE BUTTON
     // ==========================================
 
     const continueBtn =
-      document.getElementById("premiumContinueBtn");
+      document.getElementById(
+        "premiumContinueBtn"
+      );
 
     if (continueBtn) {
 
@@ -110,17 +122,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================
 
     const overlay =
-      modal.querySelector(".premium-modal-overlay");
+      modal.querySelector(
+        ".premium-modal-overlay"
+      );
 
     if (overlay) {
 
-      overlay.addEventListener("click", (event) => {
+      overlay.addEventListener(
+        "click",
+        (event) => {
 
-        if (event.target === overlay) {
-          closePremiumPopup();
+          if (
+            event.target === overlay
+          ) {
+            closePremiumPopup();
+          }
+
         }
-
-      });
+      );
 
     }
 
@@ -134,11 +153,55 @@ document.addEventListener("DOMContentLoaded", () => {
   function closePremiumPopup() {
 
     const modal =
-      document.getElementById("premiumModal");
+      document.getElementById(
+        "premiumModal"
+      );
 
     if (modal) {
       modal.remove();
     }
+
+  }
+
+
+  // ==========================================
+  // WAIT FOR FIREBASE LOGIN
+  // ==========================================
+
+  async function getLoggedInUser(auth) {
+
+    // Firebase already knows the user
+    if (auth.currentUser) {
+      return auth.currentUser;
+    }
+
+
+    // Firebase may still be restoring
+    // the previous login session
+    return await new Promise(
+      (resolve) => {
+
+        let finished = false;
+
+        const unsubscribe =
+          auth.onAuthStateChanged(
+            (user) => {
+
+              if (finished) {
+                return;
+              }
+
+              finished = true;
+
+              unsubscribe();
+
+              resolve(user);
+
+            }
+          );
+
+      }
+    );
 
   }
 
@@ -150,12 +213,14 @@ document.addEventListener("DOMContentLoaded", () => {
   async function startPremiumPayment() {
 
     const continueBtn =
-      document.getElementById("premiumContinueBtn");
+      document.getElementById(
+        "premiumContinueBtn"
+      );
 
     try {
 
       // ----------------------------------------
-      // Load Firebase authentication
+      // Load Firebase
       // ----------------------------------------
 
       const firebase =
@@ -166,11 +231,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       // ----------------------------------------
-      // Check logged-in user
+      // Wait for Firebase to restore login
       // ----------------------------------------
 
       const user =
-        auth.currentUser;
+        await getLoggedInUser(auth);
+
+
+      // ----------------------------------------
+      // Check login
+      // ----------------------------------------
 
       if (!user) {
 
@@ -179,11 +249,12 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
         return;
+
       }
 
 
       // ----------------------------------------
-      // Show loading state
+      // Loading state
       // ----------------------------------------
 
       if (continueBtn) {
@@ -193,7 +264,8 @@ document.addEventListener("DOMContentLoaded", () => {
         continueBtn.textContent =
           "Connecting...";
 
-        continueBtn.style.opacity = "0.7";
+        continueBtn.style.opacity =
+          "0.7";
 
       }
 
@@ -207,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       // ----------------------------------------
-      // Send request to Render backend
+      // Send payment request
       // ----------------------------------------
 
       const response =
@@ -217,15 +289,22 @@ document.addEventListener("DOMContentLoaded", () => {
             method: "POST",
 
             headers: {
+
               "Content-Type":
                 "application/json",
 
               "Authorization":
                 `Bearer ${idToken}`
+
             }
+
           }
         );
 
+
+      // ----------------------------------------
+      // Read backend response
+      // ----------------------------------------
 
       const data =
         await response.json();
@@ -235,7 +314,10 @@ document.addEventListener("DOMContentLoaded", () => {
       // Check backend response
       // ----------------------------------------
 
-      if (!response.ok || !data.status) {
+      if (
+        !response.ok ||
+        !data.status
+      ) {
 
         console.error(
           "Premium payment error:",
@@ -251,10 +333,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       // ----------------------------------------
-      // Paystack checkout
+      // Check Paystack URL
       // ----------------------------------------
 
-      if (!data.authorization_url) {
+      if (
+        !data.authorization_url
+      ) {
 
         throw new Error(
           "Paystack checkout URL was not returned."
@@ -263,7 +347,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
 
+      // ----------------------------------------
       // Redirect to Paystack
+      // ----------------------------------------
+
       window.location.href =
         data.authorization_url;
 
@@ -278,8 +365,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       alert(
         "❌ Premium payment could not start.\n\n" +
-        (error.message ||
-          "Please try again.")
+        (
+          error.message ||
+          "Please try again."
+        )
       );
 
 
@@ -292,7 +381,8 @@ document.addEventListener("DOMContentLoaded", () => {
         continueBtn.textContent =
           "Continue";
 
-        continueBtn.style.opacity = "1";
+        continueBtn.style.opacity =
+          "1";
 
       }
 
@@ -307,11 +397,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (upgradeBtn) {
 
-    upgradeBtn.addEventListener("click", () => {
+    upgradeBtn.addEventListener(
+      "click",
+      () => {
 
-      showPremiumPopup();
+        showPremiumPopup();
 
-    });
+      }
+    );
 
   }
 
@@ -329,9 +422,11 @@ document.addEventListener("DOMContentLoaded", () => {
       position: fixed;
       inset: 0;
 
-      background: rgba(0, 0, 0, 0.68);
+      background:
+        rgba(0, 0, 0, 0.68);
 
       display: flex;
+
       align-items: center;
       justify-content: center;
 
@@ -345,9 +440,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     .premium-modal {
-      width: min(330px, 90vw);
+      width:
+        min(330px, 90vw);
 
-      background: #1d2433;
+      background:
+        #1d2433;
 
       border:
         1px solid
@@ -456,16 +553,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     .premium-cancel-btn {
-      background: #303848;
+      background:
+        #303848;
 
-      color: #d9deea;
+      color:
+        #d9deea;
     }
 
 
     .premium-continue-btn {
-      background: #2563eb;
+      background:
+        #2563eb;
 
-      color: #ffffff;
+      color:
+        #ffffff;
     }
 
 
@@ -517,7 +618,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // ==========================================
 
   const shareBtn =
-    document.getElementById("share-app-btn");
+    document.getElementById(
+      "share-app-btn"
+    );
 
   if (shareBtn) {
 
@@ -527,7 +630,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const shareData = {
 
-          title: "FundsIQ",
+          title:
+            "FundsIQ",
 
           text:
             "Study, practice CBTs and improve your performance with FundsIQ.",
@@ -535,9 +639,11 @@ document.addEventListener("DOMContentLoaded", () => {
           url:
             window.location.origin +
             "/FundsIQ/"
+
         };
 
 
+        // Native phone sharing
         if (navigator.share) {
 
           try {
@@ -555,6 +661,8 @@ document.addEventListener("DOMContentLoaded", () => {
           }
 
         } else {
+
+          // Fallback
 
           try {
 
