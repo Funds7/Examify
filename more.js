@@ -1,694 +1,466 @@
-document.addEventListener("DOMContentLoaded", () => {
+import { auth, db } from "./firebase.js";
 
-  // ==========================================
-  // FUNDSIQ PREMIUM
-  // ==========================================
+import {
+    onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
 
-  const upgradeBtn =
-    document.getElementById("upgradeBtn");
-
-  // Render backend
-  const API_URL =
-    "https://fundsiq-api.onrender.com";
-
-
-  // ==========================================
-  // CREATE PREMIUM POPUP
-  // ==========================================
-
-  function showPremiumPopup() {
-
-    // Prevent duplicate popup
-    if (
-      document.getElementById("premiumModal")
-    ) {
-      return;
-    }
-
-    const modal =
-      document.createElement("div");
-
-    modal.id = "premiumModal";
-
-    modal.innerHTML = `
-      <div class="premium-modal-overlay">
-
-        <div class="premium-modal">
-
-          <div class="premium-modal-icon">
-            💎
-          </div>
-
-          <h3>FundsIQ Premium</h3>
-
-          <p class="premium-price">
-            ₦2,000
-          </p>
-
-          <p class="premium-description">
-            Unlock more features and remove ads.
-          </p>
-
-          <div class="premium-modal-buttons">
-
-            <button
-              type="button"
-              class="premium-cancel-btn"
-              id="premiumCancelBtn"
-            >
-              Cancel
-            </button>
-
-            <button
-              type="button"
-              class="premium-continue-btn"
-              id="premiumContinueBtn"
-            >
-              Continue
-            </button>
-
-          </div>
-
-        </div>
-
-      </div>
-    `;
-
-    document.body.appendChild(modal);
+import {
+    doc,
+    getDoc,
+    updateDoc,
+    increment
+} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-firestore.js";
 
 
-    // ==========================================
-    // CANCEL BUTTON
-    // ==========================================
+// ==========================
+// GET USER DATA
+// ==========================
 
-    const cancelBtn =
-      document.getElementById(
-        "premiumCancelBtn"
-      );
+async function getUserData() {
 
-    if (cancelBtn) {
+    const user = auth.currentUser;
 
-      cancelBtn.addEventListener(
-        "click",
-        () => {
-          closePremiumPopup();
-        }
-      );
+    if (!user) return null;
 
-    }
-
-
-    // ==========================================
-    // CONTINUE BUTTON
-    // ==========================================
-
-    const continueBtn =
-      document.getElementById(
-        "premiumContinueBtn"
-      );
-
-    if (continueBtn) {
-
-      continueBtn.addEventListener(
-        "click",
-        startPremiumPayment
-      );
-
-    }
-
-
-    // ==========================================
-    // CLOSE WHEN TAPPING OUTSIDE
-    // ==========================================
-
-    const overlay =
-      modal.querySelector(
-        ".premium-modal-overlay"
-      );
-
-    if (overlay) {
-
-      overlay.addEventListener(
-        "click",
-        (event) => {
-
-          if (
-            event.target === overlay
-          ) {
-            closePremiumPopup();
-          }
-
-        }
-      );
-
-    }
-
-  }
-
-
-  // ==========================================
-  // CLOSE PREMIUM POPUP
-  // ==========================================
-
-  function closePremiumPopup() {
-
-    const modal =
-      document.getElementById(
-        "premiumModal"
-      );
-
-    if (modal) {
-      modal.remove();
-    }
-
-  }
-
-
-  // ==========================================
-  // WAIT FOR FIREBASE LOGIN
-  // ==========================================
-
-  async function getLoggedInUser(auth) {
-
-    // Firebase already knows the user
-    if (auth.currentUser) {
-      return auth.currentUser;
-    }
-
-
-    // Firebase may still be restoring
-    // the previous login session
-    return await new Promise(
-      (resolve) => {
-
-        let finished = false;
-
-        const unsubscribe =
-          auth.onAuthStateChanged(
-            (user) => {
-
-              if (finished) {
-                return;
-              }
-
-              finished = true;
-
-              unsubscribe();
-
-              resolve(user);
-
-            }
-          );
-
-      }
+    const userRef = doc(
+        db,
+        "users",
+        user.uid
     );
 
-  }
+    const snap = await getDoc(userRef);
+
+    if (!snap.exists()) {
+        return null;
+    }
+
+    return snap.data();
+}
 
 
-  // ==========================================
-  // START PREMIUM PAYMENT
-  // ==========================================
+// ==========================
+// CHECK PREMIUM STATUS
+// ==========================
 
-  async function startPremiumPayment() {
+async function isPremiumUser() {
 
-    const continueBtn =
-      document.getElementById(
-        "premiumContinueBtn"
-      );
+    const userData =
+        await getUserData();
 
-    try {
-
-      // ----------------------------------------
-      // Load Firebase
-      // ----------------------------------------
-
-      const firebase =
-        await import("./firebase.js");
-
-      const auth =
-        firebase.auth;
+    return userData?.premium === true;
+}
 
 
-      // ----------------------------------------
-      // Wait for Firebase to restore login
-      // ----------------------------------------
+// ==========================
+// GET USER COINS
+// ==========================
 
-      const user =
-        await getLoggedInUser(auth);
+async function getCoins() {
+
+    const userData =
+        await getUserData();
+
+    if (!userData) return 0;
+
+    return userData.coins ?? 0;
+}
 
 
-      // ----------------------------------------
-      // Check login
-      // ----------------------------------------
+// ==========================
+// UPDATE COIN DISPLAY
+// ==========================
 
-      if (!user) {
+async function updateCoinDisplay() {
 
-        alert(
-          "Please log in to your FundsIQ account first."
+    const coin =
+        document.getElementById(
+            "coinBalance"
         );
 
-        return;
+    if (!coin) return;
 
-      }
+    const balance =
+        await getCoins();
 
-
-      // ----------------------------------------
-      // Loading state
-      // ----------------------------------------
-
-      if (continueBtn) {
-
-        continueBtn.disabled = true;
-
-        continueBtn.textContent =
-          "Connecting...";
-
-        continueBtn.style.opacity =
-          "0.7";
-
-      }
+    coin.innerText = balance;
+}
 
 
-      // ----------------------------------------
-      // Get Firebase ID token
-      // ----------------------------------------
+// ==========================
+// UPDATE PREMIUM DISPLAY
+// ==========================
 
-      const idToken =
-        await user.getIdToken(true);
+async function updatePremiumDisplay() {
 
+    const premium =
+        await isPremiumUser();
 
-      // ----------------------------------------
-      // Send payment request
-      // ----------------------------------------
-
-      const response =
-        await fetch(
-          `${API_URL}/api/payments/premium/initialize`,
-          {
-            method: "POST",
-
-            headers: {
-
-              "Content-Type":
-                "application/json",
-
-              "Authorization":
-                `Bearer ${idToken}`
-
-            }
-
-          }
+    // Optional Premium status element
+    const status =
+        document.getElementById(
+            "premiumStatus"
         );
 
+    if (status) {
 
-      // ----------------------------------------
-      // Read backend response
-      // ----------------------------------------
+        if (premium) {
 
-      const data =
-        await response.json();
+            status.innerText =
+                "💎 Premium Active";
 
-
-      // ----------------------------------------
-      // Check backend response
-      // ----------------------------------------
-
-      if (
-        !response.ok ||
-        !data.status
-      ) {
-
-        console.error(
-          "Premium payment error:",
-          data
-        );
-
-        throw new Error(
-          data.msg ||
-          "Unable to start payment."
-        );
-
-      }
-
-
-      // ----------------------------------------
-      // Check Paystack URL
-      // ----------------------------------------
-
-      if (
-        !data.authorization_url
-      ) {
-
-        throw new Error(
-          "Paystack checkout URL was not returned."
-        );
-
-      }
-
-
-      // ----------------------------------------
-      // Redirect to Paystack
-      // ----------------------------------------
-
-      window.location.href =
-        data.authorization_url;
-
-
-    } catch (error) {
-
-      console.error(
-        "Premium payment error:",
-        error
-      );
-
-
-      alert(
-        "❌ Premium payment could not start.\n\n" +
-        (
-          error.message ||
-          "Please try again."
-        )
-      );
-
-
-      // Restore button
-
-      if (continueBtn) {
-
-        continueBtn.disabled = false;
-
-        continueBtn.textContent =
-          "Continue";
-
-        continueBtn.style.opacity =
-          "1";
-
-      }
-
-    }
-
-  }
-
-
-  // ==========================================
-  // UPGRADE BUTTON
-  // ==========================================
-
-  if (upgradeBtn) {
-
-    upgradeBtn.addEventListener(
-      "click",
-      () => {
-
-        showPremiumPopup();
-
-      }
-    );
-
-  }
-
-
-  // ==========================================
-  // PREMIUM POPUP STYLES
-  // ==========================================
-
-  const premiumStyles =
-    document.createElement("style");
-
-  premiumStyles.textContent = `
-
-    .premium-modal-overlay {
-      position: fixed;
-      inset: 0;
-
-      background:
-        rgba(0, 0, 0, 0.68);
-
-      display: flex;
-
-      align-items: center;
-      justify-content: center;
-
-      padding: 20px;
-
-      z-index: 99999;
-
-      animation:
-        premiumFadeIn 0.18s ease;
-    }
-
-
-    .premium-modal {
-      width:
-        min(330px, 90vw);
-
-      background:
-        #1d2433;
-
-      border:
-        1px solid
-        rgba(255, 255, 255, 0.12);
-
-      border-radius: 18px;
-
-      padding:
-        22px 20px 18px;
-
-      text-align: center;
-
-      box-shadow:
-        0 18px 50px
-        rgba(0, 0, 0, 0.55);
-
-      animation:
-        premiumPopIn 0.2s ease;
-    }
-
-
-    .premium-modal-icon {
-      font-size: 28px;
-
-      margin-bottom: 6px;
-    }
-
-
-    .premium-modal h3 {
-      margin: 0;
-
-      color: #ffffff;
-
-      font-size: 18px;
-
-      font-weight: 700;
-    }
-
-
-    .premium-price {
-      margin:
-        9px 0 3px;
-
-      color: #ffffff;
-
-      font-size: 17px;
-
-      font-weight: 700;
-    }
-
-
-    .premium-description {
-      margin:
-        0 0 18px;
-
-      color: #aeb8ca;
-
-      font-size: 13px;
-
-      line-height: 1.4;
-    }
-
-
-    .premium-modal-buttons {
-      display: flex;
-
-      gap: 9px;
-
-      width: 100%;
-    }
-
-
-    .premium-modal-buttons button {
-      flex: 1;
-
-      border: none;
-
-      border-radius: 10px;
-
-      padding:
-        11px 8px;
-
-      font-size: 13px;
-
-      font-weight: 600;
-
-      cursor: pointer;
-
-      transition:
-        transform 0.15s ease,
-        opacity 0.15s ease;
-    }
-
-
-    .premium-modal-buttons button:active {
-      transform:
-        scale(0.97);
-    }
-
-
-    .premium-modal-buttons button:disabled {
-      cursor: wait;
-
-      transform: none;
-    }
-
-
-    .premium-cancel-btn {
-      background:
-        #303848;
-
-      color:
-        #d9deea;
-    }
-
-
-    .premium-continue-btn {
-      background:
-        #2563eb;
-
-      color:
-        #ffffff;
-    }
-
-
-    .premium-modal-buttons button:hover {
-      opacity: 0.9;
-    }
-
-
-    @keyframes premiumFadeIn {
-
-      from {
-        opacity: 0;
-      }
-
-      to {
-        opacity: 1;
-      }
-
-    }
-
-
-    @keyframes premiumPopIn {
-
-      from {
-        opacity: 0;
-
-        transform:
-          scale(0.94);
-      }
-
-      to {
-        opacity: 1;
-
-        transform:
-          scale(1);
-      }
-
-    }
-
-  `;
-
-  document.head.appendChild(
-    premiumStyles
-  );
-
-
-  // ==========================================
-  // SHARE FUNDSIQ
-  // ==========================================
-
-  const shareBtn =
-    document.getElementById(
-      "share-app-btn"
-    );
-
-  if (shareBtn) {
-
-    shareBtn.addEventListener(
-      "click",
-      async () => {
-
-        const shareData = {
-
-          title:
-            "FundsIQ",
-
-          text:
-            "Study, practice CBTs and improve your performance with FundsIQ.",
-
-          url:
-            window.location.origin +
-            "/FundsIQ/"
-
-        };
-
-
-        // Native phone sharing
-        if (navigator.share) {
-
-          try {
-
-            await navigator.share(
-              shareData
+            status.classList.add(
+                "premium-active"
             );
-
-          } catch (error) {
-
-            console.log(
-              "Share cancelled."
-            );
-
-          }
 
         } else {
 
-          // Fallback
+            status.innerText =
+                "Free Account";
 
-          try {
-
-            await navigator.clipboard.writeText(
-              shareData.url
+            status.classList.remove(
+                "premium-active"
             );
-
-            alert(
-              "🔗 FundsIQ link copied!\n\n" +
-              "Share it with your friends."
-            );
-
-          } catch (error) {
-
-            alert(
-              "Share FundsIQ:\n\n" +
-              shareData.url
-            );
-
-          }
 
         }
 
-      }
+    }
+
+
+    // Add a class to the page
+    // so CSS/features can detect Premium
+    document.body.classList.toggle(
+        "is-premium",
+        premium
     );
 
-  }
+}
 
-});
+
+// ==========================
+// SPEND COINS
+// ==========================
+
+async function spendCoins(
+    amount,
+    reason = "Purchase"
+) {
+
+    const user =
+        auth.currentUser;
+
+    if (!user) {
+
+        alert(
+            "Please login first."
+        );
+
+        return false;
+    }
+
+
+    // Premium users don't need to
+    // spend coins for coin-gated features
+    const premium =
+        await isPremiumUser();
+
+    if (premium) {
+
+        return true;
+
+    }
+
+
+    const userRef =
+        doc(
+            db,
+            "users",
+            user.uid
+        );
+
+
+    const snap =
+        await getDoc(userRef);
+
+
+    if (!snap.exists()) {
+
+        alert(
+            "User profile not found."
+        );
+
+        return false;
+    }
+
+
+    const currentCoins =
+        snap.data().coins ?? 0;
+
+
+    if (currentCoins < amount) {
+
+        alert(
+
+`❌ Not enough coins 🪙
+
+Need: ${amount} coins
+
+Your balance:
+${currentCoins} 🪙`
+
+        );
+
+        return false;
+    }
+
+
+    await updateDoc(
+        userRef,
+        {
+            coins:
+                increment(-amount)
+        }
+    );
+
+
+    await updateCoinDisplay();
+
+    return true;
+}
+
+
+// ==========================
+// ADD COINS
+// ==========================
+
+async function rewardCoins(
+    amount,
+    reason = "Reward"
+) {
+
+    const user =
+        auth.currentUser;
+
+    if (!user) return false;
+
+
+    // Premium users can still receive
+    // legitimate coin rewards.
+    const userRef =
+        doc(
+            db,
+            "users",
+            user.uid
+        );
+
+
+    await updateDoc(
+        userRef,
+        {
+            coins:
+                increment(amount)
+        }
+    );
+
+
+    await updateCoinDisplay();
+
+
+    alert(
+`🎉 +${amount} Coins
+
+${reason}`
+    );
+
+
+    return true;
+}
+
+
+// ==========================
+// CBT PRACTICE
+// ==========================
+
+async function startPractice() {
+
+    const premium =
+        await isPremiumUser();
+
+
+    // Premium users get direct access
+    if (premium) {
+
+        window.location.href =
+            "exam.html";
+
+        return;
+    }
+
+
+    // Free users pay 10 coins
+    const paid =
+        await spendCoins(
+            10,
+            "GST CBT Practice"
+        );
+
+
+    if (paid) {
+
+        window.location.href =
+            "exam.html";
+
+    }
+}
+
+
+// ==========================
+// LEADERBOARD UNLOCK
+// ==========================
+
+async function unlockWithCoins() {
+
+    const premium =
+        await isPremiumUser();
+
+
+    // Premium users don't need to
+    // purchase leaderboard access
+    if (premium) {
+
+        localStorage.setItem(
+            "leaderboardAccess",
+            "true"
+        );
+
+
+        alert(
+            "💎 Premium Leaderboard Access Activated!"
+        );
+
+
+        location.reload();
+
+        return;
+    }
+
+
+    // Free users need 50 coins
+    const paid =
+        await spendCoins(
+            50,
+            "Leaderboard Access"
+        );
+
+
+    if (paid) {
+
+        localStorage.setItem(
+            "leaderboardAccess",
+            "true"
+        );
+
+
+        alert(
+            "🏆 Leaderboard Activated!"
+        );
+
+
+        location.reload();
+
+    }
+}
+
+
+// ==========================
+// PREMIUM UNLOCK
+// ==========================
+
+async function premiumUnlock() {
+
+    const premium =
+        await isPremiumUser();
+
+
+    if (premium) {
+
+        alert(
+`💎 FundsIQ Premium
+
+Premium is already active on your account.
+
+Enjoy your Premium benefits!`
+        );
+
+        return;
+    }
+
+
+    // If the user isn't Premium,
+    // send them to the Premium button
+    const upgradeBtn =
+        document.getElementById(
+            "upgradeBtn"
+        );
+
+
+    if (upgradeBtn) {
+
+        upgradeBtn.click();
+
+        return;
+    }
+
+
+    alert(
+        "💎 Upgrade to FundsIQ Premium for ₦2,000."
+    );
+}
+
+
+// ==========================
+// LOGIN CHECK
+// ==========================
+
+onAuthStateChanged(
+    auth,
+    async (user) => {
+
+        if (user) {
+
+            await updateCoinDisplay();
+
+            await updatePremiumDisplay();
+
+        }
+
+    }
+);
+
+
+// ==========================
+// GLOBAL EXPORTS
+// ==========================
+
+window.startPractice =
+    startPractice;
+
+window.rewardCoins =
+    rewardCoins;
+
+window.spendCoins =
+    spendCoins;
+
+window.updateCoinDisplay =
+    updateCoinDisplay;
+
+window.unlockWithCoins =
+    unlockWithCoins;
+
+window.premiumUnlock =
+    premiumUnlock;
+
+window.isPremiumUser =
+    isPremiumUser;
+
+window.updatePremiumDisplay =
+    updatePremiumDisplay;
